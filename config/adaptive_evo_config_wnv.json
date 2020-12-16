@@ -1,0 +1,18 @@
+{
+  "virus": "wnv",
+  "virus_family": "flavivirus",
+  "subtype": "False",
+  "color": "#173670",
+  "alignment_file": "../WNV-nextstrain/twenty-years-of-WNV/r/aligned.fasta",
+  "meta_file": "../WNV-nextstrain/twenty-years-of-WNV/r/metadata.tsv",
+  "reference_file": "../WNV-nextstrain/twenty-years-of-WNV/config/reference.gb",
+  "ha_protein": {"virus_gene": "env"},
+  "receptor_binding": {"virus_gene": "E3", 
+                       "specify_location": {"parent_gene": "env",
+                                            "location": "[[1869,2172]]"}},
+  "membrane_fusion": {"virus_gene": "E2", 
+                       "specify_location": {"parent_gene": "env",
+                                            "location": "[[1122,1362],[1563,1812]]"}},
+  "polymerase": {"virus_gene": "NS5"}
+
+}

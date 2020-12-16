@@ -1,0 +1,14 @@
+{
+  "virus": "mumps",
+  "virus_family": "paramyxovirus",
+  "subtype": "False",
+  "color": "#FED693",
+  "alignment_file": "../{virus}/results/aligned_global.fasta",
+  "meta_file": "../{virus}/results/metadata.tsv",
+  "reference_file": "../{virus}/config/{virus}_reference.gb",
+  "ha_protein": {"virus_gene": "HN"},
+  "receptor_binding": {"virus_gene": "HN"},
+  "membrane_fusion": {"virus_gene": "F"},
+  "polymerase": {"virus_gene": "L"}
+
+}
