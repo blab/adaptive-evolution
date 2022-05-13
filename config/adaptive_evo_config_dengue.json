@@ -10,6 +10,7 @@
             "all": "#255191"},
   "alignment_file": "../{virus}/results/aligned_{subtype}.fasta",
   "meta_file": "../{virus}/results/metadata_{subtype}.tsv",
+  "metafile_sep": "\t",
   "reference_file": "../{virus}/config/reference_dengue_{subtype}.gb",
   "ha_protein": {"virus_gene": "E"},
   "receptor_binding": {"virus_gene": "E3", 

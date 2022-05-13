@@ -1,0 +1,19 @@
+{
+  "virus": "rsv",
+  "virus_family": "pneumovirus",
+  "subtype": "True",
+  "subtypes": ["A", "B"],
+  "color": {"A": "#0B194C",
+            "B": "#6C7593"},
+  "alignment_file": "../rsv/rsv_step3/data/aligned_{subtype}_all.fasta",
+  "meta_file": "../rsv/rsv_step3/data/metadata_{subtype}.tsv",
+  "metafile_sep": ",",
+  "reference_file": "../rsv/rsv_step3/config/rsv_{subtype}_step3_reference.gb",
+  "tree_file": "../rsv/rsv_builds_for_divergence/auspice/rsv_{subtype}.json",
+  "tree_type": "genome",
+  "ha_protein": {"virus_gene": "G"},
+  "receptor_binding": {"virus_gene": "G"},
+  "membrane_fusion": {"virus_gene": "F"},
+  "polymerase": {"virus_gene": "L"}
+
+}

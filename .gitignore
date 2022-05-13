@@ -1,5 +1,13 @@
+# Old and unfinished analyses
+wip/*
+
+# Sensitive environment variables
+environment*
+
 # Snakemake state dir
 .snakemake
+snakemake_log
+
 
 # For Python #
 ##############
@@ -7,9 +15,22 @@
 .tox/
 .cache/
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
+__pycache__/*
+
 
 # OS generated files #
 ######################
 .DS_Store
 .DS_Store?
 ._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+*~
+
+# git files #
+######################
+.gitattributes
