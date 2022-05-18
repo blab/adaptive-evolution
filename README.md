@@ -1,28 +1,31 @@
 ## About
 
-`adaptive-evolution-nextstrain` estimates adaptive evolution in a virus by calculating rates of adaptation using methodology developed in [Bhatt et al 2011](https://pubmed.ncbi.nlm.nih.gov/21415025/) and [Bhatt et al 2010](https://www.sciencedirect.com/science/article/abs/pii/S1567134809001324). A rate of adaptation is calculated for the receptor-binding domain, membrane-fusion domain, and polymerase. Viruses that undergo antigenic drift will exhibit a higher rate of adaptive evolution in the receptor-binding domain than the membrane-fusion domain or polymerase. 
+Adaptive evolution is evolution in response to a selective pressure that increases fitness. In the context of viruses, the rate at which a protein evolves adaptively speaks to its evolutionary potential to undergo antigenic drift (evade antibody recognition), cross-species barriers, or escape drugs. In particular, a high rate of adaptation in a virus that has been endemic in humans for decades indicates that this virus is undergoing continuous adaptation, likely stemming from a changing selective landscape caused by an evolutionary arms race between the virus and its host. Because viral surface proteins are the primary targets of neutralizing antibodies, high rates of adaptation in viral surface protein typically indicates antigenic drift.
 
-This analysis is designed to be implemented on any virus in coordination with [Nextstrain](https://nextstrain.org), and uses results files of a Nextstrain build as input. 
+This project seeks to compare adaptive evolution across a panel of human pathogenic RNA viruses. Each of these viruses contains a polymerase, which we expect to be relatively conserved, as well as surface proteins (or protein subunits) that bind host cells and fuse host and viral membranes. Using standardized methods, evolution in these proteins can be compared between viruses, with a high rate of adaptive evolution in surface proteins serving as a computational predication of antigenic evolution. 
 
-To run `adaptive-evolution-nextstrain` on a virus:
+This project is meant to assess adaptive evolution of a virus using sequence data, and has been built to work in coordination with a Nextstrain pathogen build. This project runs the following analyses on the output of a Nextstrain build  
+1. Topology of phylogeny (uses tree)
+> Ladder-like trees are indicative of ongoing adaptive evolution, while bushier trees signal a lack of continuous adaptative evolution
+2. dN/dS over time (uses tree)
+> An excess of nonsynonymous change relative to the expectation indicates selection for functional change. Divergence is calculated as the number of observed mutations (nonsynonymous or synonymous) divided by the number of possible sites (nonsynonymous or synonymous) for every internal branch within a 10-year time window. 
+3. Rate of adaptation (uses alignment)
+> The rate of adaptation (given in adaptive substitutions per codon per year) can be calculated and used to directly compare viruses. This is calculated directly from the alignment in a sitewise fashion. It defines a neutral class of synonymous and mid-frequency nonsynonymous mutations, and detects adaptive substitutions as an excess of high-frequency or fixed nonsynonymous mutations relative to this neutral class.
+
+
+To run these analyses on a virus:
 1. Run Nextstrain build
 2. Set up the Config file
-3. Run `adaptive-evolution-nextstrain`
+3. Run analyses of adaptive evolution
 
 
 ## Run Nextstrain build
 
-**If a Nextstrain build already exists for the virus: 
-1. Clone the Github repo for the build
-2. Run the build using Snakemake
-
-**If a Nextstrain build does not exist for the virus:
-1. Set up a new build 
-2. Run the build using Snakemake
+**See [Nextstrain documentation](https://docs.nextstrain.org/) for instructions.
 
 ## Set up the Config file
 
-The config file for each virus should be named `adaptive_evolution_config_VIRUS.json`, and should be located within the `adaptive-evolution/config` directory.
+The config file for each virus should be named `adaptive_evo_config_VIRUS.json`, and should be located within the `config/` directory.
 
 The configuration input is written in json format. The following keys are required: 
 
@@ -42,4 +45,4 @@ The following inputs are optional or conditionally required:
 	"subtypes": list of all subtypes. Only required if "subtype": "True"
 	"specify_location": use this if one of the required domains (such as "receptor_binding") is a sub-domain of another gene that does not have a separate "alignment_file" or is not listed as a gene in the Genbank "reference_file". an optional key entry in the "ha_protein", "receptor_binding", "membrane_fusion" and "polymerase" dictionaries. The value of "specify_location" is a dictionary with 2 required keys: "parent_gene" and "location". If "subtypes" are specified, then "location_{subtype}" must be supplied for each subtype instead of "location". The "parent_gene" is the gene that contains this domain. The "location" is the the domain's position within the parent gene or the whole genome (whichever format the reference file is in). The format for location entries is "[[start_position, end_position]]" or "[[start_position1, end_position1], [start_position2, end_position2]]" if the domain is non-contiguous.
 
-## Run `adaptive-evolution-nextstrain`
+## Run analyses of adaptive evolution
