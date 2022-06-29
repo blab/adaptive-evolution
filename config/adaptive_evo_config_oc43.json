@@ -15,15 +15,16 @@
   "genes_for_divergence": ["S1", "S2", "replicase1ab", "membrane", "nucleocapsid", "he", "rdrp"],
   "ha_protein": {"virus_gene": "spike"},
   "receptor_binding": {"virus_gene": "s1"},
-  "rbd": {"virus_gene": "s1-rbd", 
+  "ctd": {"virus_gene": "s1-b", 
                          "specify_location": {"parent_gene": "s1",
                          "location_a": "[[969,1821]]",
                          "location_b": "[[969,1821]]"}},
-  "ntd": {"virus_gene": "s1-ntd", 
+  "ntd": {"virus_gene": "s1-a", 
                          "specify_location": {"parent_gene": "s1",
                          "location_a": "[[0,969]]",
                          "location_b": "[[0,969]]"}},
   "membrane_fusion": {"virus_gene": "s2"},
-  "polymerase": {"virus_gene": "rdrp"}
+  "polymerase": {"virus_gene": "rdrp"},
+  "nonantigenic_gene": "rdrp"
   
 }

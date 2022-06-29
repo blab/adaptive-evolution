@@ -5,7 +5,7 @@
   "legible_name": "Measles",
   "color": "#F5AD52",
   "alignment_file": "../{virus}/results/aligned.fasta",
-  "meta_file": "../{virus}/results/metadata.tsv",
+  "meta_file": "../{virus}/data/metadata.tsv",
   "metafile_sep": "\t",
   "reference_file": "../{virus}/config/measles_reference.gb",
   "tree_file": "../{virus}/auspice/measles.json",
@@ -13,6 +13,7 @@
   "ha_protein": {"virus_gene": "H"},
   "receptor_binding": {"virus_gene": "H"},
   "membrane_fusion": {"virus_gene": "F"},
-  "polymerase": {"virus_gene": "P"}
+  "polymerase": {"virus_gene": "P"},
+  "nonantigenic_gene": "P"
 
 }

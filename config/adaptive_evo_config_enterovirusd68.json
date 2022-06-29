@@ -1,0 +1,17 @@
+{
+  "virus": "enterovirusd68",
+  "virus_family": "picornavirus",
+  "subtype": "False",
+  "legible_name": "Enterovirus D68",
+  "color": "#a373a5",
+  "alignment_file": "../enterovirus_d68/genome/aligned_filtered.fasta",
+  "meta_file": "../enterovirus_d68/genome/metadata.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../enterovirus_d68/genome/config/ev_d68_reference_genome.gb",
+  "ha_protein": {"virus_gene": "VP1"},
+  "receptor_binding": {"virus_gene": "VP1"},
+  "membrane_fusion": {"virus_gene": "None"},
+  "polymerase": {"virus_gene": "3D"},
+  "nonantigenic_gene": "3D"
+
+}
