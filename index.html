@@ -2,8 +2,11 @@
 <html>
 <head>
   <style>
-    .error {
-        color: red;
+    html * {
+      font-size: 16px;
+      line-height: 1.625;
+      color: #2020131;
+      font-family: Nunito, sans-serif;
     }
   </style>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
@@ -14,14 +17,17 @@
 
   <div class="row mt-3">
     <div class="col-12">
-      <h1>dms-view</h1>
-      dms-view is an interactive visualization tool for deep mutational scanning.
-      Please see the <a href="https://dms-view.github.io/docs">documentation (dms-view.github.io/docs)</a> for detailed instructions on <a href="https://dms-view.github.io/docs/tutorial.html">using the tool</a> or <a href="https://dms-view.github.io/docs/dataupload.html">uploading your own data</a>.
-      For more information on the tool itself, <a href="https://joss.theoj.org/papers/10.21105/joss.02353">read the paper in the Journal of Open Source Software</a>.
-      <h4>Instructions:</h4>
-      Select points of interest by <span style="font-weight:bold">clicking</span> or <span style="font-weight:bold">brushing</span> (click, hold and swipe).
-      Deselect points by <span style="font-weight:bold">clicking</span> again or <span style="font-weight:bold">brushing</span> while holding down the <span style="font-style:italic">shift key</span> or after changing the radio button from <span style="font-style:italic">select</span> to <span style="font-style:italic">deselect</span>.
-      Change between different <span style="font-style:italic">conditions</span>, different <span style="font-style:italic">site-level metrics</span>, different <span style="font-style:italic">mutation-level metrics</span> and different <span style="font-style:italic">protein-representations</span> using the dropdown menus.
+      <h1>An Atlas of Viral Adaptation</h1>
+      Adaptive evolution is evolution in response to a selective pressure that increases fitness.
+      In the context of viruses, the rate at which a protein evolves adaptively speaks to its evolutionary potential to undergo antigenic drift (evade antibody recognition), cross-species barriers, or escape drugs.
+      In particular, a high rate of adaptation in a virus that has been endemic in humans for decades indicates that this virus is undergoing continuous adaptation, likely stemming from a changing selective landscape caused by an evolutionary arms race between the virus and its host.
+      Because viral surface proteins are the primary targets of neutralizing antibodies, high rates of adaptation in viral surface protein typically indicates antigenic drift.
+
+      This project seeks to compare adaptive evolution across a panel of human pathogenic RNA viruses.
+      Each of these viruses contains a polymerase, which we expect to be relatively conserved, as well as surface protein (or protein subunit) that binds to a host-cell receptor.
+      Receptor-binding proteins (or protein subunits) are a primary target of neutralizing antibodies and, thus, a primary site of antigenic evolution.
+
+
     </div>
   </div>
 
