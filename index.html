@@ -14,32 +14,32 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-embed@6"></script>
 </head>
 <body>
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col-12">
+        <h1>An Atlas of Viral Adaptation</h1>
+        <p>A comparison of adaptive evolution across a panel of human pathogenic RNA viruses.<p>
 
-  <div class="row mt-3">
-    <div class="col-12">
-      <h1>An Atlas of Viral Adaptation</h1>
-      <p>A comparison of adaptive evolution across a panel of human pathogenic RNA viruses.<p>
+        <h4>More about this project</h4>
+        <p>Adaptive evolution is evolution in response to a selective pressure that increases fitness.
+          In the context of viruses, the rate at which a protein evolves adaptively speaks to its evolutionary potential to undergo antigenic drift (evade antibody recognition), cross-species barriers, or escape drugs.
+          In particular, a high rate of adaptation in a virus that has been endemic in humans for decades indicates that this virus is undergoing continuous adaptation, likely stemming from a changing selective landscape caused by an evolutionary arms race between the virus and its host.
+          Because viral surface proteins are the primary targets of neutralizing antibodies, high rates of adaptation in viral surface protein typically indicates antigenic drift.<p>
 
-      <h4>More about this project</h4>
-      <p>Adaptive evolution is evolution in response to a selective pressure that increases fitness.
-        In the context of viruses, the rate at which a protein evolves adaptively speaks to its evolutionary potential to undergo antigenic drift (evade antibody recognition), cross-species barriers, or escape drugs.
-        In particular, a high rate of adaptation in a virus that has been endemic in humans for decades indicates that this virus is undergoing continuous adaptation, likely stemming from a changing selective landscape caused by an evolutionary arms race between the virus and its host.
-        Because viral surface proteins are the primary targets of neutralizing antibodies, high rates of adaptation in viral surface protein typically indicates antigenic drift.<p>
+        <p>Comparing rates of adaptation in the surface proteins of different viruses allows us to hypothesize which viruses evolve antigenically and which do not.
+          From this comparison, we can also glean insight into the prevalence or rarity of antigenic evolution amongst RNA viruses that infect humans.
+          Additionally, we can compare lesser-studied viruses to ones that are better-understood to extrapolate real-world implications of varying rates of adaptation.<p>
 
-      <p>Comparing rates of adaptation in the surface proteins of different viruses allows us to hypothesize which viruses evolve antigenically and which do not.
-        From this comparison, we can also glean insight into the prevalence or rarity of antigenic evolution amongst RNA viruses that infect humans.
-        Additionally, we can compare lesser-studied viruses to ones that are better-understood to extrapolate real-world implications of varying rates of adaptation.<p>
+        <p>Each of these viruses contains a polymerase, which we expect to be relatively conserved, as well as surface protein (or protein subunit) that binds to a host-cell receptor.
+          This plot compares the rates of adaptation within these genes.<p>
 
-      <p>Each of these viruses contains a polymerase, which we expect to be relatively conserved, as well as surface protein (or protein subunit) that binds to a host-cell receptor.
-        This plot compares the rates of adaptation within these genes.<p>
+        <h4>Which viruses are included?</h4>
+        <p>This panel focuses on viruses with an RNA genome (positive- or negative-sense) that are endemic in humans, and for which there are a minimum of 50 high-quality sequences spanning at least 20 years of time.<p>
 
-      <h4>Which viruses are included?</h4>
-      <p>This panel focuses on viruses with an RNA genome (positive- or negative-sense) that are endemic in humans, and for which there are a minimum of 50 high-quality sequences spanning at least 20 years of time.<p>
+        <h4>How are the rates calculated?</h4>
 
-      <h4>How are the rates calculated?</h4>
-
+      </div>
     </div>
-  </div>
 
   <div id="vis"></div>
   <script>
