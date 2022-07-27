@@ -11,6 +11,7 @@
   "tree_file": "../seasonal-cov/{virus}/auspice/seasonal_corona_{virus}_{gene}.json",
   "tree_type": "gene-specific",
   "genes_for_divergence": ["S1", "S2", "replicase1ab", "membrane", "envelope", "nucleocapsid", "rdrp"],
+  "genes": ["replicase1ab", "rdrp", "protein4a", "protein4b", "spike", "S1", "S2", "envelope", "membrane", "nucleocapsid"],
   "ha_protein": {"virus_gene": "spike"},
   "receptor_binding": {"virus_gene": "s1"},
   "membrane_fusion": {"virus_gene": "s2"},

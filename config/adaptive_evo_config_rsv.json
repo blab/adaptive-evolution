@@ -12,6 +12,7 @@
   "reference_file": "../rsv/rsv_step3/config/rsv_{subtype}_step3_reference.gb",
   "tree_file": "../rsv/rsv_builds_for_divergence/auspice/rsv_{subtype}.json",
   "tree_type": "genome",
+  "genes": ["NS1", "NS2", "N", "P", "M", "SH", "G", "F", "M2", "L"],
   "ha_protein": {"virus_gene": "G"},
   "receptor_binding": {"virus_gene": "G"},
   "membrane_fusion": {"virus_gene": "F"},

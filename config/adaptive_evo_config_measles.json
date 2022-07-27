@@ -10,6 +10,7 @@
   "reference_file": "../{virus}/config/measles_reference.gb",
   "tree_file": "../{virus}/auspice/measles.json",
   "tree_type": "genome",
+  "genes": ["N", "P", "V", "C", "M", "F", "H", "L"],
   "ha_protein": {"virus_gene": "H"},
   "receptor_binding": {"virus_gene": "H"},
   "membrane_fusion": {"virus_gene": "F"},

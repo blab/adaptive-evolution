@@ -11,6 +11,7 @@
   "tree_file": "../seasonal-flu/auspice/flu_seasonal_{virus}_{gene}_60y.json",
   "tree_type": "gene-specific",
   "genes_for_divergence": ["HA", "NA", "NP", "PA", "PB1", "PB2"],
+  "genes": ["ha1", "ha2", "NA", "NP", "PA", "PB1", "PB2"],
   "ha_protein": {"virus_gene": "ha",
                          "specify_location": {"parent_gene": "ha",
                                             "location": "[[11,1769]]"}},
