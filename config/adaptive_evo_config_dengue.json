@@ -36,6 +36,7 @@
   "metafile_sep": "\t",
   "reference_file": "../{virus}/separate_genotypes/config/reference_dengue_{subtype}.gb",
   "nextstrain_tree_url": "https://nextstrain.org/dengue/{serotype}", 
+  "genes": ["C", "M", "E", "NS1", "NS2A", "NS2B", "NS3", "NS4A","NS4B", "NS5"],
   "ha_protein": {"virus_gene": "E"},
   "receptor_binding": {"virus_gene": "E"},
   "membrane_fusion": {"virus_gene": "E2", 
