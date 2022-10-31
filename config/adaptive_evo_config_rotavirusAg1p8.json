@@ -1,0 +1,25 @@
+{
+  "virus": "rotavirusAg1p8",
+  "virus_family": "reovirus",
+  "genome_type": "Double-stranded RNA, segmented",
+  "enveloped": "False",
+  "transmission": "Fecal-Oral",
+  "subtype": "False",
+  "legible_name": "Rotavirus A/G1P[8]",
+  "color": "#1a3da6",
+  "alignment_file": "../rotavirusA/g1_p8_i1_r1_c1_m1_a1_n1_t1_e1_h1/results/aligned_rotavirusA_{gene}.fasta",
+  "meta_file": "../rotavirusA/g1_p8_i1_r1_c1_m1_a1_n1_t1_e1_h1/results/metadata_rotavirusA_{gene}.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../rotavirusA/g1_p8_i1_r1_c1_m1_a1_n1_t1_e1_h1/config/reference_rotavirusA_{gene}.gb",
+  "root_seq_file": "../rotavirusA/g1_p8_i1_r1_c1_m1_a1_n1_t1_e1_h1/auspice/rotavirusA_{gene}_root-sequence.json",
+  "tree_file": "../rotavirusA/g1_p8_i1_r1_c1_m1_a1_n1_t1_e1_h1/auspice/rotavirusA_{gene}.json",
+  "tree_type": "gene-specific",
+  "nextstrain_tree_url": "https://nextstrain.org/groups/blab/rotavirusA/{gene}/", 
+  "genes": ["R", "C", "M", "P", "A", "I", "T", "N", "G", "E"],
+  "ha_protein": {"virus_gene": "P"},
+  "receptor_binding": {"virus_gene": "P"},
+  "membrane_fusion": {"virus_gene": "None"},
+  "polymerase": {"virus_gene": "R"},
+  "nonantigenic_gene": "R"
+
+}
