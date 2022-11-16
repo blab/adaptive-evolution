@@ -1,0 +1,25 @@
+{
+  "virus": "adenovirusB7",
+  "virus_family": "adenovirus",
+  "genome_type": "Double-stranded DNA",
+  "enveloped": "False",
+  "transmission": "Respiratory",
+  "subtype": "False",
+  "legible_name": "Adenovirus B-7",
+  "color": "#ff6633",
+  "alignment_file": "../adenovirusB/results/aligned_adenovirusB_7.fasta",
+  "meta_file": "../adenovirusB/results/metadata_adenovirusB_7.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../adenovirusB/config/reference_adenovirusB_7.gb",
+  "root_seq_file": "../adenovirusB/auspice/adenovirusB_7_root-sequence.json",
+  "tree_file": "../adenovirusB/auspice/adenovirusB_7.json",
+  "tree_type": "genome",
+  "nextstrain_tree_url": "https://nextstrain.org/groups/blab/adenovirusB/7/", 
+  "genes": ["E1A", "E1B 55K", "IVa2", "pol", "pTP", "pIIIa", "hexon", "protease", "100K", "fiber"],
+  "ha_protein": {"virus_gene": "fiber"},
+  "receptor_binding": {"virus_gene": "fiber"},
+  "membrane_fusion": {"virus_gene": "None"},
+  "polymerase": {"virus_gene": "pol"},
+  "nonantigenic_gene": "pol"
+
+}

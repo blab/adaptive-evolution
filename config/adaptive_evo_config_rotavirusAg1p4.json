@@ -1,0 +1,25 @@
+{
+  "virus": "rotavirusAg1p4",
+  "virus_family": "reovirus",
+  "genome_type": "Double-stranded RNA, segmented",
+  "enveloped": "False",
+  "transmission": "Fecal-Oral",
+  "subtype": "False",
+  "legible_name": "Rotavirus A/P[4]",
+  "color": "#1f49c8",
+  "alignment_file": "../rotavirusA/p4_r1/results/aligned_rotavirusA_{gene}.fasta",
+  "meta_file": "../rotavirusA/p4_r1/results/metadata_rotavirusA_{gene}.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../rotavirusA/p4_r1/config/reference_rotavirusA_{gene}.gb",
+  "root_seq_file": "../rotavirusA/p4_r1/auspice/rotavirusA_{gene}_root-sequence.json",
+  "tree_file": "../rotavirusA/p4_r1/auspice/rotavirusA_{gene}.json",
+  "tree_type": "gene-specific",
+  "nextstrain_tree_url": "https://nextstrain.org/groups/blab/rotavirusA/{gene}/", 
+  "genes": ["P", "R"],
+  "ha_protein": {"virus_gene": "P"},
+  "receptor_binding": {"virus_gene": "P"},
+  "membrane_fusion": {"virus_gene": "None"},
+  "polymerase": {"virus_gene": "R"},
+  "nonantigenic_gene": "R"
+
+}

@@ -1,0 +1,25 @@
+{
+  "virus": "parvovirusB19",
+  "virus_family": "parvovirus",
+  "genome_type": "Single-stranded DNA",
+  "enveloped": "False",
+  "transmission": "Respiratory",
+  "subtype": "False",
+  "legible_name": "Parvovirus B19-1A",
+  "color": "#BC0000",
+  "alignment_file": "../parvovirusB19/results/aligned_parvovirusB19_1a.fasta",
+  "meta_file": "../parvovirusB19/results/metadata_parvovirusB19_1a.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../parvovirusB19/config/reference_parvovirusB19.gb",
+  "root_seq_file": "../parvovirusB19/auspice/parvovirusB19_1a_root-sequence.json",
+  "tree_file": "../parvovirusB19/auspice/parvovirusB19_1a.json",
+  "tree_type": "genome",
+  "nextstrain_tree_url": "https://nextstrain.org/groups/blab/parvovirusB19/1a/", 
+  "genes": ["NS", "U7_5kDa", "VP1", "X", "U11kDa", "VP2"],
+  "ha_protein": {"virus_gene": "V1P"},
+  "receptor_binding": {"virus_gene": "VP1"},
+  "membrane_fusion": {"virus_gene": "None"},
+  "polymerase": {"virus_gene": "None"},
+  "nonantigenic_gene": "NS"
+
+}
