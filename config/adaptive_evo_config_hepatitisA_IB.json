@@ -1,0 +1,27 @@
+{
+  "virus": "hepatitisA_IB",
+  "virus_family": "picornavirus",
+  "genome_type": "Positive-sense RNA",
+  "enveloped": "Quasi-enveloped",
+  "transmission": "Fecal-oral, blood",
+  "cellular_receptor": "",
+  "fusion_protein_class": "N/A",
+  "subtype": "False",
+  "legible_name": "Hepatitis A-IB",
+  "color": "#ca93c0",
+  "alignment_file": "../hepatitisA/results/aligned_hepatitisA_IB.fasta",
+  "meta_file": "../hepatitisA/results/metadata_hepatitisA_IB.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../hepatitisA/config/reference_hepatitisA_all.gb",
+  "root_seq_file": "../hepatitisA/auspice/hepatitisA_IB_root-sequence.json",
+  "tree_file": "../hepatitisA/auspice/hepatitisA_IB.json",
+  "tree_type": "genome",
+  "nextstrain_tree_url": "https://nextstrain.org/groups/blab/hepatitisA/IA/", 
+  "genes": ["VP4", "VP2", "VP1", "VP3", "2A", "2B", "2C", "3A", "3B", "3C", "3D"],
+  "ha_protein": {"virus_gene": "VP1"},
+  "receptor_binding": {"virus_gene": "VP1"},
+  "membrane_fusion": {"virus_gene": "None"},
+  "polymerase": {"virus_gene": "3D"},
+  "nonantigenic_gene": "3D"
+
+}
