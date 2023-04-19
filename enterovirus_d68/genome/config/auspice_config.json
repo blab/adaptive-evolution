@@ -1,0 +1,89 @@
+{
+  "title": "Phylodynamics of Enterovirus D68",
+  "colorings": [
+    {
+      "title": "Host age (years)",
+      "type": "continuous",
+      "key": "age"
+    },
+    {
+      "title": "Age range 1",
+      "type": "categorical",
+      "key": "age_range1"
+    },
+    {
+      "title": "Age range 2",
+      "type": "categorical",
+      "key": "age_range2"
+    },
+    {
+      "title": "Age range 3",
+      "type": "categorical",
+      "key": "age_range3"
+    },
+    {
+      "title": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    {
+      "title": "Country",
+      "key": "country",
+      "type": "categorical"
+    },
+    {
+      "title": "Region",
+      "type": "categorical",
+      "key": "region"
+    },
+    {
+      "type": "categorical",
+      "title": "Collaborators",
+      "key": "collab_country"
+    },
+    {
+      "title": "Date added",
+      "type": "categorical",
+      "key": "date_added"
+    },
+    {
+      "title": "Clade",
+      "type": "categorical",
+      "key": "clade_membership"
+    },
+    {
+      "title": "Symptom",
+      "key": "symptom",
+      "type":"categorical"
+    },
+    {
+      "title": "Gender",
+      "type": "categorical",
+      "key": "sex"
+    }
+  ],
+  "geo_resolutions": [
+    "country", "region"
+  ],
+  "maintainers": [
+    {"name": "Emma Hodcroft", "url": "http://emmahodcroft.com/"},
+    {"name": "Richard Neher", "url": "http://neherlab.org"},
+    {"name": "Robert Dyrdak", "url": "https://staff.ki.se/people/robert-dyrdak"},
+    {"name": "Jan Albert", "url": "https://staff.ki.se/people/jan-albert"}
+  ],
+  "filters": [
+    "country", 
+    "region", 
+    "clade_membership", 
+    "age_range1", 
+    "age_range3",
+    "symptom",
+    "collab_country"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy",
+    "frequencies"
+  ]
+}

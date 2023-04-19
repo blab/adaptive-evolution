@@ -1,0 +1,71 @@
+LOCUS       KX675261                927 bp    RNA     linear   VRL 16-AUG-2016
+DEFINITION  Enterovirus D68 strain USA/FL/2016-19504, complete genome.
+ACCESSION   KX675261
+VERSION     KX675261.1
+DBLINK      BioProject: PRJNA322324
+KEYWORDS    .
+SOURCE      Enterovirus D68 (EV-D68)
+  ORGANISM  Enterovirus D68
+            Viruses; ssRNA viruses; ssRNA positive-strand viruses, no DNA
+            stage; Picornavirales; Picornaviridae; Enterovirus; Enterovirus D.
+REFERENCE   1  (bases 1 to 927)
+  AUTHORS   Ng,T.F.F., Montmayeur,A., Castro,C.J., Rogers,S.L., Chern,S.-W.,
+            Maher,K., Magana,L., Marine,R., Lamson,D., St. George,K.,
+            Oberste,M.S. and Nix,W.A.
+  TITLE     Detection and Genomic Characterization of Enterovirus D68 in
+            Respiratory Samples from Three Acute Flaccid Myelitis Cases in 2016
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 927)
+  AUTHORS   Ng,T.F.F., Montmayeur,A., Castro,C.J., Rogers,S.L., Chern,S.-W.,
+            Maher,K., Magana,L., Marine,R., Lamson,D., St. George,K.,
+            Oberste,M.S. and Nix,W.A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-AUG-2016) Polio and Picornavirus Laboratory Branch,
+            Centers for Disease Control and Prevention, 1600 Clifton Rd. NE,
+            Atlanta, GA 30329, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. R9
+            Sequencing Technology :: Illumina
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..927
+                     /organism="Enterovirus D68"
+                     /mol_type="genomic RNA"
+                     /strain="USA/FL/2016-19504"
+                     /isolation_source="nasal swab"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:42789"
+                     /country="USA: FL"
+                     /collection_date="31-Mar-2016"
+     CDS             1..927
+                     /codon_start=1
+                     /product="polyprotein"
+                     /protein_id="ANZ79242.1"
+                     /translation="LDHLHGAEAAYQIEGIIKTATDTVKSEINAELGVVPSLNAVETG
+                     ATSNTEPEEAIQTRTVINQHGVSETLVENFLSRAALVSKRSFEYKDHTSSAAQADKNF
+                     FKWTINTRSFVQLRRKLELFTYLRFDAEITILTTVAVNGSSNNTYVGLPDLTLQAMFV
+                     PTGALTPEKQDSFHWQSGSNASVFFKISDPPARMTIPFMCINSAYSVFYDGFAGFEKT
+                     GLYGINPADTIGNLCVRIVNEHQPVGFTVTVRVYMKPKHIKAWAPRPPRTLPYMSIAN
+                     ANYKGKERAPNALNAIIGNRDSVKTMPHNIVTT"
+     CDS             1..927
+                     /gene="VP1"
+
+ORIGIN
+        1 ttagaccact tacatggagc agaggcagcc taccagatcg agggcatcat taaaacagca
+       61 actgataccg tgaaaagtga gattaacgct gaacttggtg tggtccctag cttaaatgca
+      121 gttgaaacag gtgcaacatc taacactgaa ccagaagaag ctatacaaac tcgcacagtg
+      181 ataaatcaac acggtgtatc cgaaactcta gtggagaatt ttctcagtag agcagctttg
+      241 gtgtcaaaga gaagtttcga atacaaagac catacttcgt ctgcagcaca agcagataag
+      301 aactttttca aatggacaat taacaccagg tccttcgtac agctaagaag aaagttagaa
+      361 ttattcacat accttagatt cgatgctgag atcactatac tcacaactgt agcagtgaat
+      421 ggcagtagta ataatacata tgtgggtctt cctgacttga cactgcaggc aatgtttgta
+      481 cccactggtg cccttacccc agaaaagcaa gactcattcc actggcagtc aggtagtaat
+      541 gctagtgtat tctttaaaat ctctgacccc ccagccagaa tgaccatacc ttttatgtgt
+      601 attaattcag catactcagt tttttatgat ggctttgccg gatttgagaa aactggtctg
+      661 tatggaataa atccagctga cactattggt aacttgtgtg ttagaatagt gaatgaacac
+      721 caaccagttg gtttcacagt gactgttagg gtttacatga agcctaaaca cataaaagcg
+      781 tgggcaccac gaccaccacg aaccctgcca tacatgagta ttgcaaatgc aaattacaaa
+      841 ggtaaagaaa gagcaccaaa tgcgctcaat gctataattg gcaatagaga cagtgttaaa
+      901 accatgcctc ataatatagt gactact
+//
+

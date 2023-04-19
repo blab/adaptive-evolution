@@ -1,0 +1,111 @@
+{
+  "title": "Phylodynamics of Enterovirus D68 - VP1",
+  "colorings": [
+    {
+      "title": "Host Age (years)",
+      "type": "continuous",
+      "key": "age"
+    },
+    {
+      "title": "Age range 1",
+      "type": "categorical",
+      "key": "age_range1"
+    },
+    {
+      "title": "Age range 2",
+      "type": "categorical",
+      "key": "age_range2"
+    },
+    {
+      "title": "Age range 3",
+      "type": "categorical",
+      "key": "age_range3"
+    },
+    {
+      "title": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    {
+      "title": "Country",
+      "type": "categorical",
+      "key": "country"
+    },
+    {
+      "title": "Region",
+      "type": "categorical",
+      "key": "region"
+    },
+    {
+      "type": "categorical",
+      "title": "Collaborators",
+      "key": "collab_country"
+    },
+    {
+      "title": "Date Added",
+      "type": "categorical",
+      "key": "date_added"
+    },
+    {
+      "title": "Gender",
+      "type": "categorical",
+      "key": "sex"
+    },
+    {
+      "title": "Gap/N-free Sequence Len",
+      "type": "continuous",
+      "key": "seq-len"
+    },
+    {
+      "title": "Clade",
+      "type": "categorical",
+      "key": "clade_membership"
+    },
+    {
+      "title": "Symptom",
+      "type": "categorical",
+      "key": "symptom"
+    },
+    {
+      "title": "Epitope at BC loop (Pos 90,92,95,97,98,103)",
+      "type": "categorical",
+      "key": "BC"
+    },
+    {
+      "title": "Epitope at DE loop (Pos 140,141,142,143,144,145,146,149)",
+      "type": "categorical",
+      "key": "DE"
+    },
+    {
+      "title": "Epitope at C terminus",
+      "type": "categorical",
+      "key": "CTERM"
+    }
+  ],
+  "geo_resolutions": [
+    "country", "region"
+  ],
+  "maintainers": [
+    {"name": "Emma Hodcroft", "url": "http://emmahodcroft.com/"},
+    {"name": "Richard Neher", "url": "http://neherlab.org"},
+    {"name": "Robert Dyrdak", "url": "https://staff.ki.se/people/robert-dyrdak"},
+    {"name": "Jan Albert", "url": "https://staff.ki.se/people/jan-albert"}
+  ],
+  "filters": [
+    "country",
+    "region",
+    "clade_membership",
+    "age_range1",
+    "symptom",
+    "collab_country"
+  ],
+  "display_defaults": {
+    "color_by": "region"
+  },
+  "panels": [
+    "tree",
+    "map",
+    "entropy",
+    "frequencies"
+  ]
+}
