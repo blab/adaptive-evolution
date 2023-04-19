@@ -1,0 +1,75 @@
+LOCUS       NC_011502               1059 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Rotavirus A segment 8, complete genome.
+ACCESSION   NC_011502
+VERSION     NC_011502.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus.
+REFERENCE   1  (bases 1 to 1059)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 1059)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 1059)
+  AUTHORS   Patton,J.T., Small,C., Brown,T.L. and Barro,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838615.
+            On Oct 17, 2011 this sequence version replaced NC_011502.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1059
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="8"
+     gene            47..1000
+                     /gene="NSP2"
+                     /db_xref="GeneID:7011357"
+     CDS             47..1000
+                     /gene="N"
+                     /note="viroplasm RNA binding protein"
+                     /codon_start=1
+                     /product="NSP2"
+                     /protein_id="YP_002302221.1"
+                     /db_xref="GeneID:7011357"
+                     /translation="MAELACFCYPHLENDSYKFIPFNNLAIKAMLTAKVDKKDMDKFY
+                     DSIIYGIAPPPQFKKRYNTNDNSRGMNFETIMFTKVAMLICEALNSLKVTQANVSNVL
+                     SRVVSIRHLENLVIRKENPQDILFHSKDLLLKSTLIAIGQSKEIETTITAEGGEIVFQ
+                     NAAFTMWKLTYLEHQLMPILDQNFIEYKVTLNEDKPISDVHVKELVAELRWQYNKFAV
+                     ITHGKGHYRIVKYSSVANHADRVYATFKSNVKTGVNNDFNLLDQRIIWQNWYAFTSSM
+                     KQGNTLDVCKRLLFQKMKPEKNPFKGLSTDRKMDEVSQVGV"
+ORIGIN      
+        1 ggcttttaaa gcgtctcagt cgccgtttga gccttgcggt gtagccatgg ctgagctagc
+       61 ttgcttttgc tatcctcatt tggagaatga tagctataaa tttattcctt ttaataattt
+      121 agctattaaa gctatgctga cagctaaagt agacaaaaag gacatggata agttttatga
+      181 ttcaattatt tatggaatag caccgcctcc tcaatttaag aaacggtata atactaatga
+      241 taattcaaga ggcatgaatt ttgaaacaat tatgtttact aaggtggcta tgttgatatg
+      301 tgaagctcta aattcattga aagtgacgca agcaaacgtc tctaatgtat tatcacgagt
+      361 agtatcaata aggcatttag aaaatttggt gatacgtaaa gaaaatccac aggatattct
+      421 atttcattca aaagatttac ttttgaaatc aacactgatt gctattggac agtctaaaga
+      481 aattgaaact acaataactg cagaaggagg agaaattgta tttcaaaacg ctgccttcac
+      541 catgtggaaa ctaacttatt tagaacatca attgatgcca attctggatc agaattttat
+      601 tgaatataaa gttacattga acgaagataa accaatttca gatgttcatg ttaaagaatt
+      661 agtcgctgaa cttcgatggc aatataacaa gtttgctgta atcacacatg gtaagggtca
+      721 ttatagaatt gtaaagtatt catcagttgc taatcacgct gacagagtat atgcaacttt
+      781 caagagtaat gttaaaactg gagttaataa tgattttaac ctacttgatc aaagaattat
+      841 ttggcaaaac tggtatgcat ttacatcatc aatgaaacag ggtaatacac ttgacgtgtg
+      901 taaaaggttg cttttccaaa aaatgaaacc agaaaaaaat ccatttaaag ggctgtcaac
+      961 ggatagaaaa atggacgaag tttctcaagt tggcgtttaa ttcgctatca atttgaggat
+     1021 gatgatggct tagcaagaat agaaagcgct tatgtgacc
+//

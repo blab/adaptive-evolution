@@ -1,0 +1,415 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-5.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_oc43_all_M-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    57588 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jan 10 16:31:36 2023
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_oc43_all_M-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00256491 secs using 95.79% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000939846 secs using 84.27% CPU
+Alignment has 196 sequences with 693 columns, 94 distinct patterns
+45 parsimony-informative, 27 singleton sites, 621 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.69549e-05 secs using 78.47% CPU
+   1  OK662397    0.00%    passed     99.93%
+   2  KF530071    0.00%    passed     99.90%
+   3  KF530091    0.00%    passed     99.90%
+   4  KF530088    0.00%    passed     99.54%
+   5  KF530076    0.00%    passed     99.54%
+   6  KF530094    0.00%    passed     99.54%
+   7  KF530089    0.00%    passed     99.54%
+   8  KF530079    0.00%    passed     99.54%
+   9  KF530082    0.00%    passed     99.58%
+  10  KF530067    0.00%    passed     98.68%
+  11  KF530095    0.00%    passed     99.90%
+  12  KF530096    0.00%    passed     99.90%
+  13  KF530072    0.00%    passed     95.92%
+  14  KF530064    0.00%    passed     95.92%
+  15  KF530078    0.00%    passed     95.92%
+  16  KF530092    0.00%    passed     97.82%
+  17  KY014281    0.00%    passed     97.82%
+  18  KF530080    0.00%    passed     95.56%
+  19  KF530065    0.00%    passed     99.46%
+  20  KF530073    0.00%    passed     99.46%
+  21  KF530066    0.00%    passed     99.46%
+  22  KF530061    0.00%    passed     99.46%
+  23  KF530093    0.00%    passed     98.80%
+  24  KF530085    0.00%    passed     98.80%
+  25  KF530075    0.00%    passed     98.80%
+  26  KF530059    0.00%    passed     98.80%
+  27  KF530062    0.00%    passed     98.80%
+  28  KF530074    0.00%    passed     99.46%
+  29  KF530090    0.00%    passed     99.46%
+  30  KF530097    0.00%    passed     99.46%
+  31  KF530060    0.00%    passed     99.46%
+  32  KF530083    0.00%    passed     99.46%
+  33  KF530086    0.00%    passed     99.46%
+  34  KF530077    0.00%    passed     99.46%
+  35  KF530087    0.00%    passed     98.45%
+  36  KP198611    0.00%    passed     95.74%
+  37  KP198610    0.00%    passed     95.74%
+  38  KY014282    0.00%    passed     93.01%
+  39  MF314143    0.00%    passed     93.01%
+  40  KU131570    0.00%    passed     93.01%
+  41  KY967360    0.00%    passed     95.74%
+  42  MN026165    0.00%    passed     97.66%
+  43  MT118672    0.00%    passed     97.66%
+  44  MT118671    0.00%    passed     97.66%
+  45  LC315649    0.00%    passed     92.90%
+  46  JN129834    0.00%    passed     99.91%
+  47  JN129835    0.00%    passed     99.91%
+  48  KF923900    0.00%    passed     99.91%
+  49  KF923905    0.00%    passed     99.91%
+  50  KF923899    0.00%    passed     99.66%
+  51  KF530068    0.00%    passed     99.91%
+  52  KF530081    0.00%    passed     99.91%
+  53  KF530070    0.00%    passed     99.91%
+  54  KF923887    0.00%    passed     99.91%
+  55  KF923889    0.00%    passed     99.91%
+  56  KF530069    0.00%    passed     99.78%
+  57  KF530063    0.00%    passed     99.78%
+  58  KF530099    0.00%    passed     99.78%
+  59  KF530084    0.00%    passed     99.87%
+  60  KF530098    0.00%    passed     99.78%
+  61  KF923888    0.00%    passed     99.73%
+  62  KF923886    0.00%    passed     99.78%
+  63  KF923898    0.00%    passed     99.55%
+  64  MN306043    0.00%    passed     99.78%
+  65  MW052042    0.00%    passed     99.78%
+  66  OK073091    0.00%    passed     99.91%
+  67  OK073092    0.00%    passed     99.91%
+  68  OK391226    0.00%    passed     99.91%
+  69  OK391225    0.00%    passed     99.91%
+  70  OK391224    0.00%    passed     99.91%
+  71  OK391222    0.00%    passed     99.91%
+  72  OK391221    0.00%    passed     99.91%
+  73  OK391223    0.00%    passed     99.73%
+  74  OK073089    0.00%    passed     99.25%
+  75  KF923890    0.00%    passed     99.83%
+  76  KF923907    0.00%    passed     99.83%
+  77  KF923911    0.00%    passed     99.83%
+  78  KF923914    0.00%    passed     99.83%
+  79  KF923909    0.00%    passed     99.83%
+  80  KF923919    0.00%    passed     99.83%
+  81  KF923910    0.00%    passed     99.83%
+  82  KF923892    0.00%    passed     99.83%
+  83  KF923920    0.00%    passed     99.83%
+  84  KF923894    0.00%    passed     99.83%
+  85  KY554974    0.00%    passed     99.83%
+  86  KY554975    0.00%    passed     99.83%
+  87  KY674920    0.00%    passed     99.83%
+  88  KF923916    0.00%    passed     99.83%
+  89  KY554972    0.00%    passed     99.83%
+  90  KY554973    0.00%    passed     99.83%
+  91  KY674918    0.00%    passed     99.83%
+  92  KY674917    0.00%    passed     99.83%
+  93  KF923921    0.00%    passed     99.83%
+  94  KF923908    0.00%    passed     99.83%
+  95  KF923923    0.00%    passed     99.83%
+  96  KX344031    0.00%    passed     99.83%
+  97  MW587041    8.51%    passed     95.04%
+  98  KF923903    0.00%    passed     99.97%
+  99  KX538965    0.00%    passed     99.97%
+ 100  KX538973    0.00%    passed     99.97%
+ 101  KX538971    0.00%    passed     99.97%
+ 102  KX538968    0.00%    passed     99.97%
+ 103  KX538974    0.00%    passed     99.97%
+ 104  KX538967    0.00%    passed     99.97%
+ 105  KX538975    0.00%    passed     99.97%
+ 106  KF923902    0.00%    passed     99.97%
+ 107  KX538964    0.00%    passed     99.97%
+ 108  KX538972    0.00%    passed     99.97%
+ 109  KX538976    0.00%    passed     99.97%
+ 110  KX538966    0.00%    passed     99.97%
+ 111  KX538970    0.00%    passed     99.97%
+ 112  KX538978    0.00%    passed     99.97%
+ 113  LC315646    0.00%    passed     99.97%
+ 114  OK073087    0.00%    passed     99.97%
+ 115  KY967356    0.00%    passed     99.97%
+ 116  OK073088    0.00%    passed     99.97%
+ 117  LC315647    0.00%    passed     99.97%
+ 118  OL770288    0.00%    passed     99.97%
+ 119  OL770287    0.00%    passed     99.97%
+ 120  OL770289    0.00%    passed     99.97%
+ 121  OK073090    0.00%    passed     99.97%
+ 122  MG977451    0.00%    passed     99.97%
+ 123  MG977452    0.00%    passed     99.97%
+ 124  KY983588    0.00%    passed     99.97%
+ 125  KY369906    0.00%    passed     99.97%
+ 126  MW587040    0.00%    passed     99.97%
+ 127  MH121121    0.00%    passed     99.97%
+ 128  KY684759    0.00%    passed     99.97%
+ 129  KY983583    0.00%    passed     99.97%
+ 130  KY967361    0.00%    passed     99.97%
+ 131  KY967358    0.00%    passed     99.97%
+ 132  KY983585    0.00%    passed     99.97%
+ 133  MF374985    0.00%    passed     99.97%
+ 134  KY967359    0.00%    passed     99.97%
+ 135  MF374984    0.00%    passed     99.97%
+ 136  LC687399    0.00%    passed     99.97%
+ 137  LC720427    0.00%    passed     99.97%
+ 138  LC720429    0.00%    passed     99.97%
+ 139  MN306036    0.00%    passed     99.97%
+ 140  MN306041    0.00%    passed     99.97%
+ 141  MT118673    0.00%    passed     99.97%
+ 142  MT118678    0.00%    passed     99.97%
+ 143  MW587042    0.00%    passed     99.97%
+ 144  MT118685    0.00%    passed     99.97%
+ 145  MN306042    0.00%    passed     99.97%
+ 146  MT118683    0.00%    passed     99.97%
+ 147  MN306053    0.00%    passed     99.97%
+ 148  OM386796    0.00%    passed     99.97%
+ 149  OM386797    0.00%    passed     99.97%
+ 150  OM386795    0.00%    passed     99.97%
+ 151  MN310478    9.38%    passed     95.16%
+ 152  MW938760    0.00%    passed     99.97%
+ 153  LC687400    0.00%    passed     99.97%
+ 154  LC687398    0.00%    passed     99.97%
+ 155  OK391227    0.00%    passed     99.97%
+ 156  OK391238    0.00%    passed     99.97%
+ 157  MN026164    0.00%    passed     99.97%
+ 158  MH828490    0.00%    passed     99.97%
+ 159  MF374983    0.00%    passed     99.83%
+ 160  OK391229   18.04%    passed     95.93%
+ 161  KY369907    0.00%    passed     99.98%
+ 162  OK391230    0.00%    passed     99.95%
+ 163  MW411432    0.00%    passed     99.98%
+ 164  MW411433    0.00%    passed     99.98%
+ 165  OK391228    0.00%    passed     99.98%
+ 166  MT118692    0.00%    passed     99.95%
+ 167  KX538969    0.00%    passed    100.00%
+ 168  KX538977    0.00%    passed    100.00%
+ 169  KF923904    0.00%    passed    100.00%
+ 170  KY369905    0.00%    passed    100.00%
+ 171  MT118667    0.00%    passed     99.73%
+ 172  OM386794    0.00%    passed    100.00%
+ 173  OM386798    0.00%    passed     99.95%
+ 174  OM386799    0.00%    passed     99.95%
+ 175  LC315648    0.00%    passed     99.97%
+ 176  KF923913    0.00%    passed     99.98%
+ 177  KF923915    0.00%    passed     99.98%
+ 178  KF923891    0.00%    passed     99.30%
+ 179  KF923922    0.00%    passed     99.98%
+ 180  KF923925    0.00%    passed     99.98%
+ 181  KJ958218    0.00%    passed     99.98%
+ 182  MN310476    0.00%    passed     99.30%
+ 183  MT118668    0.00%    passed     99.30%
+ 184  KF923918    0.00%    passed     99.99%
+ 185  KF923924    0.00%    passed     99.99%
+ 186  KF923895    0.00%    passed     99.99%
+ 187  KJ958219    0.00%    passed     99.95%
+ 188  KX538979    0.00%    passed     99.88%
+ 189  KF923912    0.00%    passed     99.69%
+ 190  KF923917    0.00%    passed     99.32%
+ 191  MW559057    0.00%    passed    100.00%
+ 192  KF923893    0.00%    passed     99.61%
+ 193  KF923896    0.00%    passed     99.92%
+ 194  KF923906    0.00%    passed     99.92%
+ 195  KF923901    0.00%    passed     99.75%
+ 196  KF923897    0.00%    passed     98.68%
+****  TOTAL       0.18%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KF530091 is identical to KF530071 but kept for subsequent analysis
+NOTE: KF530076 is identical to KF530088 but kept for subsequent analysis
+NOTE: KF530096 is identical to KF530095 but kept for subsequent analysis
+NOTE: KF530064 is identical to KF530072 but kept for subsequent analysis
+NOTE: KY014281 is identical to KF530092 but kept for subsequent analysis
+NOTE: KF530073 is identical to KF530065 but kept for subsequent analysis
+NOTE: KF530085 is identical to KF530093 but kept for subsequent analysis
+NOTE: KF530090 is identical to KF530074 but kept for subsequent analysis
+NOTE: KF530083 is identical to KF530060 but kept for subsequent analysis
+NOTE: KP198610 is identical to KP198611 but kept for subsequent analysis
+NOTE: MF314143 is identical to KY014282 but kept for subsequent analysis
+NOTE: MT118671 is identical to MT118672 but kept for subsequent analysis
+NOTE: JN129835 is identical to JN129834 but kept for subsequent analysis
+NOTE: KF530081 is identical to KF530068 but kept for subsequent analysis
+NOTE: KF530063 is identical to KF530069 but kept for subsequent analysis
+NOTE: MW052042 is identical to MN306043 but kept for subsequent analysis
+NOTE: OK073092 is identical to OK073091 but kept for subsequent analysis
+NOTE: OK391225 is identical to OK391226 but kept for subsequent analysis
+NOTE: KF923907 is identical to KF923890 but kept for subsequent analysis
+NOTE: KX538965 is identical to KF923903 but kept for subsequent analysis
+NOTE: MW411433 is identical to MW411432 but kept for subsequent analysis
+NOTE: KX538977 is identical to KX538969 but kept for subsequent analysis
+NOTE: OM386799 is identical to OM386798 but kept for subsequent analysis
+NOTE: KF923915 is identical to KF923913 but kept for subsequent analysis
+NOTE: KF923925 is identical to KF923922 but kept for subsequent analysis
+NOTE: MT118668 is identical to MN310476 but kept for subsequent analysis
+NOTE: KF923924 is identical to KF923918 but kept for subsequent analysis
+NOTE: KF923906 is identical to KF923896 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000494957 secs using 71.52% CPU
+Identifying sites to remove: done in 0.000633001 secs using 97.95% CPU
+NOTE: 103 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KF530094 (identical to KF530088) is ignored but added at the end
+NOTE: KF530089 (identical to KF530088) is ignored but added at the end
+NOTE: KF530079 (identical to KF530088) is ignored but added at the end
+NOTE: KF530078 (identical to KF530072) is ignored but added at the end
+NOTE: KF530066 (identical to KF530065) is ignored but added at the end
+NOTE: KF530061 (identical to KF530065) is ignored but added at the end
+NOTE: KF530075 (identical to KF530093) is ignored but added at the end
+NOTE: KF530059 (identical to KF530093) is ignored but added at the end
+NOTE: KF530062 (identical to KF530093) is ignored but added at the end
+NOTE: KF530097 (identical to KF530074) is ignored but added at the end
+NOTE: KF530086 (identical to KF530060) is ignored but added at the end
+NOTE: KF530077 (identical to KF530060) is ignored but added at the end
+NOTE: KU131570 (identical to KY014282) is ignored but added at the end
+NOTE: KF923900 (identical to JN129834) is ignored but added at the end
+NOTE: KF923905 (identical to JN129834) is ignored but added at the end
+NOTE: KF530070 (identical to KF530068) is ignored but added at the end
+NOTE: KF923887 (identical to KF530068) is ignored but added at the end
+NOTE: KF923889 (identical to KF530068) is ignored but added at the end
+NOTE: KF530099 (identical to KF530069) is ignored but added at the end
+NOTE: OK391224 (identical to OK391226) is ignored but added at the end
+NOTE: OK391222 (identical to OK391226) is ignored but added at the end
+NOTE: OK391221 (identical to OK391226) is ignored but added at the end
+NOTE: KF923911 (identical to KF923890) is ignored but added at the end
+NOTE: KF923914 (identical to KF923890) is ignored but added at the end
+NOTE: KF923909 (identical to KF923890) is ignored but added at the end
+NOTE: KF923919 (identical to KF923890) is ignored but added at the end
+NOTE: KF923910 (identical to KF923890) is ignored but added at the end
+NOTE: KF923892 (identical to KF923890) is ignored but added at the end
+NOTE: KF923920 (identical to KF923890) is ignored but added at the end
+NOTE: KF923894 (identical to KF923890) is ignored but added at the end
+NOTE: KY554974 (identical to KF923890) is ignored but added at the end
+NOTE: KY554975 (identical to KF923890) is ignored but added at the end
+NOTE: KY674920 (identical to KF923890) is ignored but added at the end
+NOTE: KF923916 (identical to KF923890) is ignored but added at the end
+NOTE: KY554972 (identical to KF923890) is ignored but added at the end
+NOTE: KY554973 (identical to KF923890) is ignored but added at the end
+NOTE: KY674918 (identical to KF923890) is ignored but added at the end
+NOTE: KY674917 (identical to KF923890) is ignored but added at the end
+NOTE: KF923921 (identical to KF923890) is ignored but added at the end
+NOTE: KF923908 (identical to KF923890) is ignored but added at the end
+NOTE: KF923923 (identical to KF923890) is ignored but added at the end
+NOTE: KX344031 (identical to KF923890) is ignored but added at the end
+NOTE: KX538973 (identical to KF923903) is ignored but added at the end
+NOTE: KX538971 (identical to KF923903) is ignored but added at the end
+NOTE: KX538968 (identical to KF923903) is ignored but added at the end
+NOTE: KX538974 (identical to KF923903) is ignored but added at the end
+NOTE: KX538967 (identical to KF923903) is ignored but added at the end
+NOTE: KX538975 (identical to KF923903) is ignored but added at the end
+NOTE: KF923902 (identical to KF923903) is ignored but added at the end
+NOTE: KX538964 (identical to KF923903) is ignored but added at the end
+NOTE: KX538972 (identical to KF923903) is ignored but added at the end
+NOTE: KX538976 (identical to KF923903) is ignored but added at the end
+NOTE: KX538966 (identical to KF923903) is ignored but added at the end
+NOTE: KX538970 (identical to KF923903) is ignored but added at the end
+NOTE: KX538978 (identical to KF923903) is ignored but added at the end
+NOTE: LC315646 (identical to KF923903) is ignored but added at the end
+NOTE: OK073087 (identical to KF923903) is ignored but added at the end
+NOTE: KY967356 (identical to KF923903) is ignored but added at the end
+NOTE: OK073088 (identical to KF923903) is ignored but added at the end
+NOTE: LC315647 (identical to KF923903) is ignored but added at the end
+NOTE: OL770288 (identical to KF923903) is ignored but added at the end
+NOTE: OL770287 (identical to KF923903) is ignored but added at the end
+NOTE: OL770289 (identical to KF923903) is ignored but added at the end
+NOTE: OK073090 (identical to KF923903) is ignored but added at the end
+NOTE: MG977451 (identical to KF923903) is ignored but added at the end
+NOTE: MG977452 (identical to KF923903) is ignored but added at the end
+NOTE: KY983588 (identical to KF923903) is ignored but added at the end
+NOTE: KY369906 (identical to KF923903) is ignored but added at the end
+NOTE: MW587040 (identical to KF923903) is ignored but added at the end
+NOTE: MH121121 (identical to KF923903) is ignored but added at the end
+NOTE: KY684759 (identical to KF923903) is ignored but added at the end
+NOTE: KY983583 (identical to KF923903) is ignored but added at the end
+NOTE: KY967361 (identical to KF923903) is ignored but added at the end
+NOTE: KY967358 (identical to KF923903) is ignored but added at the end
+NOTE: KY983585 (identical to KF923903) is ignored but added at the end
+NOTE: MF374985 (identical to KF923903) is ignored but added at the end
+NOTE: KY967359 (identical to KF923903) is ignored but added at the end
+NOTE: MF374984 (identical to KF923903) is ignored but added at the end
+NOTE: LC687399 (identical to KF923903) is ignored but added at the end
+NOTE: LC720427 (identical to KF923903) is ignored but added at the end
+NOTE: LC720429 (identical to KF923903) is ignored but added at the end
+NOTE: MN306036 (identical to KF923903) is ignored but added at the end
+NOTE: MN306041 (identical to KF923903) is ignored but added at the end
+NOTE: MT118673 (identical to KF923903) is ignored but added at the end
+NOTE: MT118678 (identical to KF923903) is ignored but added at the end
+NOTE: MW587042 (identical to KF923903) is ignored but added at the end
+NOTE: MT118685 (identical to KF923903) is ignored but added at the end
+NOTE: MN306042 (identical to KF923903) is ignored but added at the end
+NOTE: MT118683 (identical to KF923903) is ignored but added at the end
+NOTE: MN306053 (identical to KF923903) is ignored but added at the end
+NOTE: OM386796 (identical to KF923903) is ignored but added at the end
+NOTE: OM386797 (identical to KF923903) is ignored but added at the end
+NOTE: OM386795 (identical to KF923903) is ignored but added at the end
+NOTE: MW938760 (identical to KF923903) is ignored but added at the end
+NOTE: LC687400 (identical to KF923903) is ignored but added at the end
+NOTE: LC687398 (identical to KF923903) is ignored but added at the end
+NOTE: OK391227 (identical to KF923903) is ignored but added at the end
+NOTE: OK391238 (identical to KF923903) is ignored but added at the end
+NOTE: MN026164 (identical to KF923903) is ignored but added at the end
+NOTE: MH828490 (identical to KF923903) is ignored but added at the end
+NOTE: OK391228 (identical to MW411432) is ignored but added at the end
+NOTE: KJ958218 (identical to KF923922) is ignored but added at the end
+NOTE: KF923895 (identical to KF923918) is ignored but added at the end
+Alignment was printed to results/aligned_oc43_all_M-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_oc43_all_M-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -4869.439
+2. Current log-likelihood: -4421.968
+3. Current log-likelihood: -4419.916
+Optimal log-likelihood: -4419.904
+Rate parameters:  A-C: 11.68698  A-G: 6.75812  A-T: 10.13339  C-G: 0.27337  C-T: 58.69427  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.156  G: 0.197  T: 0.354
+Parameters optimization took 3 rounds (0.098 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00945711 secs using 97.3% CPU
+Computing ML distances took 0.009848 sec (of wall-clock time) 0.009283 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00029707 secs using 148.1% CPU
+Constructing RapidNJ tree: done in 0.000788927 secs using 182.3% CPU
+Computing RapidNJ tree took 0.001180 sec (of wall-clock time) 0.001934 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1667.567
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.0155339 secs using 93.2% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -1657.056
+Optimizing NNI: done in 0.108846 secs using 98.83% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -1657.056 / CPU time: 0.159
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -1657.056
+Optimal log-likelihood: -1657.056
+Rate parameters:  A-C: 1.78623  A-G: 2.83720  A-T: 1.57758  C-G: 0.37639  C-T: 11.63522  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.156  G: 0.197  T: 0.354
+Parameters optimization took 1 rounds (0.010 sec)
+BEST SCORE FOUND : -1657.056
+Total tree length: 0.141
+
+Total number of iterations: 2
+CPU time used for tree search: 0.156 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.159 sec (0h:0m:0s)
+Total CPU time used: 0.291 sec (0h:0m:0s)
+Total wall-clock time used: 0.372 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_oc43_all_M-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_oc43_all_M-delim.fasta.treefile
+  Likelihood distances:          results/aligned_oc43_all_M-delim.fasta.mldist
+  Screen log file:               results/aligned_oc43_all_M-delim.fasta.log
+
+Date and Time: Tue Jan 10 16:31:36 2023

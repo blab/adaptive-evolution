@@ -1,0 +1,74 @@
+LOCUS       NC_011504                751 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Rotavirus A segment 10, complete genome.
+ACCESSION   NC_011504
+VERSION     NC_011504.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus.
+REFERENCE   1  (bases 1 to 751)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 751)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 751)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2008) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 751)
+  AUTHORS   Patton,J.T., Small,C., Barro,M. and Brown,T.L.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838625.
+            On Oct 18, 2011 this sequence version replaced NC_011504.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..751
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="10"
+     gene            42..569
+                     /locus_tag="RVA_s10_gp1"
+                     /note="NSP4"
+                     /db_xref="GeneID:7011361"
+     CDS             42..569
+                     /locus_tag="RVA_s10_gp1"
+                     /note="assembly protein"
+                     /codon_start=1
+                     /product="NSP4"
+                     /protein_id="YP_002302223.1"
+                     /db_xref="GeneID:7011361"
+                     /translation="MEKLTDLNYTLSVITLMNNTLHTILEDPGMAYFPYIASVLTVLF
+                     ALHKASIPTMKIALKTSKCSYKVVKYCIVTIFNTLLKLAGYKEQITTKDEIEKQMDRV
+                     VKEMRRQLEMIDKLTTREIEQVELLKRIYDKLTVQTTGEIDMTKEINQKNVRTLEEWE
+                     SGKNPYEPREVTAAM"
+ORIGIN      
+        1 ggcttttaaa agttctgttc cgagagagcg cgtgcggaaa gatggaaaag cttaccgacc
+       61 tcaattatac attgagtgta atcactctaa tgaacaatac attgcacaca atacttgagg
+      121 atccaggaat ggcgtatttt ccttatatag catctgtctt aacagttttg tttgcgctac
+      181 ataaagcatc cattccaaca atgaaaattg cattgaaaac gtcaaaatgt tcatataaag
+      241 tggtgaaata ttgtattgta acaattttta atacgttgtt aaaattggca ggttataaag
+      301 agcagataac tactaaagat gagatagaaa agcaaatgga cagagtagtc aaagaaatga
+      361 gacgccagct agaaatgatt gacaaattga ctacacgtga aattgaacaa gtagagttgc
+      421 ttaaacgcat ttacgataaa ttgacggtgc aaacgacagg cgaaatagat atgacaaaag
+      481 agatcaatca aaaaaacgtg agaacgctag aagaatggga aagtggaaaa aatccttatg
+      541 aaccaagaga agtgactgca gcaatgtaag aggttgagct gccgtcgact gtcctcggaa
+      601 gcggcggagt tctttacagt aagcaccatc ggacctgatg gctgactgag aagccacagt
+      661 cagccatatc gcgtgtggct caagccttaa tcccgtttaa ccaatccggt cagcaccgga
+      721 cgttaatgga aggaacggtc ttaatgtgac c
+//

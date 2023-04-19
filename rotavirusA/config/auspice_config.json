@@ -1,0 +1,35 @@
+{
+  "title": "Genetic diversity of Rotavirus A",
+  "maintainers": [
+    {"name": "Katie Kistler"}
+  ],
+  "colorings": [
+     {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "genotype_group",
+      "title": "Genotype Group ",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    }
+  ],
+  "display_defaults": {
+    "color_by": "genotype_group",
+    "map_triplicate": true
+  },
+  "filters": [
+    "host"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}

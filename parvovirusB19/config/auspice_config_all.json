@@ -1,0 +1,35 @@
+{
+  "title": "Genetic diversity of human Parvovirus B19",
+  "maintainers": [
+    {"name": "Katie Kistler"}
+  ],
+  "colorings": [
+     {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "clade_membership",
+      "title": "Clade",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "country",
+      "type": "categorical"
+    }
+  ],
+  "display_defaults": {
+    "color_by": "clade_membership",
+    "map_triplicate": true
+  },
+  "filters": [
+    "host"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}

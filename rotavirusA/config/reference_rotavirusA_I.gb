@@ -1,0 +1,82 @@
+LOCUS       NC_011509               1356 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Rotavirus A segment 6, complete genome.
+ACCESSION   NC_011509
+VERSION     NC_011509.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus.
+REFERENCE   1  (bases 1 to 1356)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 1356)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 1356)
+  AUTHORS   Patton,J.T., Small,C., Brown,T.L. and Barro,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838650.
+            On Oct 17, 2011 this sequence version replaced NC_011509.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1356
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="6"
+     gene            24..1217
+                     /gene="VP6"
+                     /db_xref="GeneID:7011372"
+     CDS             24..1217
+                     /gene="VP6"
+                     /note="inner capsid protein"
+                     /codon_start=1
+                     /product="VP6"
+                     /protein_id="YP_002302229.1"
+                     /db_xref="GeneID:7011372"
+                     /translation="MDVLYSLSKTLKDARDKIVEGTLYSNVSDLIQQFNQMIITMNGN
+                     EFQTGGIGNLPIRNWNFNFGLLGTTLLNLDANYVETARNTIDYFVDFVDNVCMDEMVR
+                     ESQRNGIAPQSDSLRKLSAIKFKRINFDNSSEYIENWNLQNRRQRTGFTFHKPNIFPY
+                     SASFTLNRSQPAHDNLMGTMWLNAGSEIQVAGFDYSCAINAPANIQQFEHIVPLRRVL
+                     TTATITLLPDAERFSFPRVINSADGATTWFFNPVILRPNNVEVEFLLNGQIINTYQAR
+                     FGTIVARNFDTIRLSFQLMRPPNMTPAVAVLFPNAQPFEHHATVGLTLRIESAVCESV
+                     LADASETLLANVTSVRQEYAIPVGPVFPPGMNWTDLITNYSPSREDNLQRVFTVASIR
+                     SMLIK"
+ORIGIN      
+        1 ggcttttaaa cgaagtcttc aacatggatg tcctatactc tttgtcaaag actcttaaag
+       61 acgctagaga caaaattgtc gaaggcacat tgtattctaa cgtgagtgat ctaattcaac
+      121 aatttaatca aatgataatt actatgaatg gaaatgaatt tcaaactgga ggaatcggta
+      181 atttgccaat tagaaactgg aattttaatt tcgggttact tggaacaact ttgctgaact
+      241 tagacgctaa ttatgttgaa acggcaagaa atacaattga ttatttcgtg gattttgtag
+      301 acaatgtatg catggatgag atggttagag aatcacaaag gaacggaatt gcacctcaat
+      361 cagactcgct aagaaagctg tcagccatta aattcaaaag aataaatttt gataattcgt
+      421 cggaatacat agaaaactgg aatttgcaaa atagaagaca gaggacaggt ttcacttttc
+      481 ataaaccaaa catttttcct tattcagcat catttacact aaatagatca caacccgctc
+      541 atgataattt gatgggcaca atgtggttaa acgcaggatc ggaaattcaa gtcgctggat
+      601 ttgactactc atgtgctatt aacgcaccag ccaatataca acaatttgag catattgtgc
+      661 cactccgaag agtgttaact acagctacga taactcttct accagacgcg gaaaggttta
+      721 gttttccaag agtgatcaat tcagctgacg gggcaactac atggtttttc aacccagtga
+      781 ttctcaggcc gaataacgtt gaagtggagt ttctattgaa tggacagata ataaacactt
+      841 atcaagcaag atttggaact atcgtagcta gaaattttga tactattaga ctatcattcc
+      901 agttaatgag accaccaaac atgacaccag cagtagcagt actattcccg aatgcacagc
+      961 cattcgaaca tcatgcaaca gtgggattga cacttagaat tgagtctgca gtttgtgagt
+     1021 ctgtactcgc cgatgcaagt gaaactctat tagcaaatgt aacatccgtt aggcaagagt
+     1081 acgcaatacc agttggacca gtctttccac caggtatgaa ctggactgat ttaatcacca
+     1141 attattcacc gtctagggag gacaatttgc aacgcgtatt tacagtggct tccattagaa
+     1201 gcatgctcat taaatgagga ccaagctaac aacttggtat ccaactttgg tgagtatgta
+     1261 gctatatcaa gctgtttgaa ctctgtaagt aaggatacgt atacgcattc gctacacaga
+     1321 gtaatcactc agatggtata gtgagaggat gtgacc
+//

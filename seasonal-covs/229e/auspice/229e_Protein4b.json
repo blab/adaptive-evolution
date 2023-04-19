@@ -1,0 +1,1848 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Genetic diversity of 229E",
+    "updated": "2023-01-10",
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "Protein4b": {
+        "end": 267,
+        "seqid": "config/reference_229e_Protein4b.gb",
+        "start": 2,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 267,
+        "seqid": "config/reference_229e_Protein4b.gb",
+        "start": 2,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "host"
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1949.1864216261813,
+        "confidence": [
+          1434.2922782950995,
+          1989.072941088803
+        ]
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.011370727419506978,
+          "num_date": {
+            "value": 1994.2898242958315,
+            "confidence": [
+              1991.7518522197347,
+              2001.5246575342467
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C51T",
+              "A100T",
+              "C106T",
+              "T120C",
+              "T240C"
+            ],
+            "Protein4b": [
+              "S17F",
+              "L33F",
+              "I40T",
+              "I80T"
+            ]
+          },
+          "labels": {
+            "aa": "Protein4b: S17F, L33F, I40T, I80T"
+          }
+        },
+        "children": [
+          {
+            "name": "OK662398",
+            "node_attrs": {
+              "div": 0.01137072741950698,
+              "num_date": {
+                "value": 2021.0013698630137,
+                "confidence": [
+                  2021.0013698630137,
+                  2021.8960669927085
+                ]
+              },
+              "country": {
+                "value": "Finland"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "AF304460",
+            "node_attrs": {
+              "div": 0.01137072741950698,
+              "num_date": {
+                "value": 2001.5246575342467,
+                "confidence": [
+                  2001.5246575342467,
+                  2001.5246575342467
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000007",
+        "node_attrs": {
+          "div": 0.007577267318211203,
+          "num_date": {
+            "value": 1983.5328423331375,
+            "confidence": [
+              1970.9049186957675,
+              1989.1027397260275
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "KF514429",
+            "node_attrs": {
+              "div": 0.007577267318211204,
+              "num_date": {
+                "value": 1989.1027397260275,
+                "confidence": [
+                  1989.1027397260275,
+                  1989.1027397260275
+                ]
+              },
+              "country": {
+                "value": "USA"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 0.007577267318211204,
+              "num_date": {
+                "value": 1990.1752188952055,
+                "confidence": [
+                  1982.260899894005,
+                  1991.6596013470862
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "div": 0.007577267318211205,
+                  "num_date": {
+                    "value": 1993.190410958904,
+                    "confidence": [
+                      1987.3652726501534,
+                      1993.190410958904
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "KF514433",
+                    "node_attrs": {
+                      "div": 0.007577267318211206,
+                      "num_date": {
+                        "value": 1993.190410958904,
+                        "confidence": [
+                          1993.190410958904,
+                          1993.190410958904
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "KF514431",
+                    "node_attrs": {
+                      "div": 0.007577267318211206,
+                      "num_date": {
+                        "value": 1995.2232876712328,
+                        "confidence": [
+                          1995.2232876712328,
+                          1995.2232876712328
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "div": 0.007577267318211205,
+                  "num_date": {
+                    "value": 1990.2774521738793,
+                    "confidence": [
+                      1986.6915248446762,
+                      1993.1438356164383
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "KF514432",
+                    "node_attrs": {
+                      "div": 0.007577267318211206,
+                      "num_date": {
+                        "value": 1993.1438356164383,
+                        "confidence": [
+                          1993.1438356164383,
+                          1993.1438356164383
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "div": 0.011356803270264908,
+                      "num_date": {
+                        "value": 1994.5691417172177,
+                        "confidence": [
+                          1987.9994811927625,
+                          2009.9550169126248
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T69C"
+                        ],
+                        "Protein4b": [
+                          "I23T"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "Protein4b: I23T"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000046",
+                        "node_attrs": {
+                          "div": 0.01135680327026491,
+                          "num_date": {
+                            "value": 2008.9855216178519,
+                            "confidence": [
+                              1998.2744358055156,
+                              2009.98378605612
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "JX503061",
+                            "node_attrs": {
+                              "div": 0.011356803270264912,
+                              "num_date": {
+                                "value": 2009.9986301369863,
+                                "confidence": [
+                                  2009.1031453271332,
+                                  2009.9986301369863
+                                ]
+                              },
+                              "country": {
+                                "value": "Italy"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "KY369909",
+                            "node_attrs": {
+                              "div": 0.011356803270264912,
+                              "num_date": {
+                                "value": 2016.0013661202186,
+                                "confidence": [
+                                  2016.0013661202186,
+                                  2016.8680636125907
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000021",
+                        "node_attrs": {
+                          "div": 0.015136340179790585,
+                          "num_date": {
+                            "value": 2009.9662125339291,
+                            "confidence": [
+                              2001.05160038129,
+                              2015.6877974151244
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C87T"
+                            ],
+                            "Protein4b": [
+                              "A29V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "Protein4b: A29V"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000048",
+                            "node_attrs": {
+                              "div": 0.015136340179790587,
+                              "num_date": {
+                                "value": 2015.4366756470426,
+                                "confidence": [
+                                  2010.1262804756416,
+                                  2015.7392233765734
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "KU291448",
+                                "node_attrs": {
+                                  "div": 0.015136340179790589,
+                                  "num_date": {
+                                    "value": 2015.4142793294848,
+                                    "confidence": [
+                                      2015.0013698630137,
+                                      2015.9986301369863
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "Germany"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000049",
+                                "node_attrs": {
+                                  "div": 0.015136340179790589,
+                                  "num_date": {
+                                    "value": 2015.4642432257945,
+                                    "confidence": [
+                                      2014.6895191737506,
+                                      2015.9263336312383
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "KY967357",
+                                    "node_attrs": {
+                                      "div": 0.01513634017979059,
+                                      "num_date": {
+                                        "value": 2015.4642432257945,
+                                        "confidence": [
+                                          2015.0013698630137,
+                                          2015.9986301369863
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "KY983587",
+                                    "node_attrs": {
+                                      "div": 0.01513634017979059,
+                                      "num_date": {
+                                        "value": 2015.4642432257945,
+                                        "confidence": [
+                                          2015.0013698630137,
+                                          2015.9986301369863
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000008",
+                            "node_attrs": {
+                              "div": 0.015136340179790587,
+                              "num_date": {
+                                "value": 2015.4275273038804,
+                                "confidence": [
+                                  2010.921612742099,
+                                  2015.762205096733
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "NODE_0000009",
+                                "node_attrs": {
+                                  "div": 0.015136340179790589,
+                                  "num_date": {
+                                    "value": 2015.4401523406866,
+                                    "confidence": [
+                                      2014.7726866937157,
+                                      2016.4687543941898
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000010",
+                                    "node_attrs": {
+                                      "div": 0.01513634017979059,
+                                      "num_date": {
+                                        "value": 2015.4696640828074,
+                                        "confidence": [
+                                          2014.7787470206445,
+                                          2016.4749779747215
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "ON791801",
+                                        "node_attrs": {
+                                          "div": 0.015136340179790592,
+                                          "num_date": {
+                                            "value": 2022.0013698630137,
+                                            "confidence": [
+                                              2022.0013698630137,
+                                              2022.8958738805454
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000011",
+                                        "node_attrs": {
+                                          "div": 0.015136340179790592,
+                                          "num_date": {
+                                            "value": 2015.4914150405784,
+                                            "confidence": [
+                                              2014.6498247022434,
+                                              2016.5077342879306
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "OK073081",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2018.7928127381083,
+                                                "confidence": [
+                                                  2018.0013698630137,
+                                                  2018.9986301369863
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "China"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000013",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2015.6216005135902,
+                                                "confidence": [
+                                                  2014.895217315307,
+                                                  2016.5608808696782
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "OK073078",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2017.0013698630137,
+                                                    "confidence": [
+                                                      2017.0013698630137,
+                                                      2017.8691968387323
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "China"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000014",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2015.6299018456598,
+                                                    "confidence": [
+                                                      2014.918083743235,
+                                                      2016.701218668077
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "KY996417",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2016.8948087431695,
+                                                        "confidence": [
+                                                          2016.8948087431695,
+                                                          2016.8948087431695
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000015",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2016.2540650236708,
+                                                        "confidence": [
+                                                          2015.599209467771,
+                                                          2016.8316114491208
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "MW587037",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.8948087431695,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "MW587035",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.8948087431695,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000016",
+                                    "node_attrs": {
+                                      "div": 0.01513634017979059,
+                                      "num_date": {
+                                        "value": 2015.4783992522173,
+                                        "confidence": [
+                                          2014.7833482687283,
+                                          2016.4595612370224
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000017",
+                                        "node_attrs": {
+                                          "div": 0.015136340179790592,
+                                          "num_date": {
+                                            "value": 2015.4914150405784,
+                                            "confidence": [
+                                              2014.8100629645094,
+                                              2016.4799594865356
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "OK073080",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2018.0013698630137,
+                                                "confidence": [
+                                                  2018.0013698630137,
+                                                  2018.8935382622751
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "China"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000018",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2015.4783992522173,
+                                                "confidence": [
+                                                  2014.6181063491695,
+                                                  2016.552402132262
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "OK073083",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2017.0013698630137,
+                                                    "confidence": [
+                                                      2017.0013698630137,
+                                                      2017.873649778683
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "China"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000019",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2015.481274821962,
+                                                    "confidence": [
+                                                      2014.6320108915122,
+                                                      2016.6230545557876
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MW532104",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2017.5849315068492,
+                                                        "confidence": [
+                                                          2017.5849315068492,
+                                                          2017.5849315068492
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "China"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000020",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2016.9224342741695,
+                                                        "confidence": [
+                                                          2015.5596994196144,
+                                                          2016.9837897989075
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "KY369908",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.9224342741695,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "MW587036",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.9224342741695,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000022",
+                                        "node_attrs": {
+                                          "div": 0.015136340179790592,
+                                          "num_date": {
+                                            "value": 2015.500503963918,
+                                            "confidence": [
+                                              2014.663527485657,
+                                              2016.4941296595282
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "MN306046",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2019.9129681964819,
+                                                "confidence": [
+                                                  2019.0013698630137,
+                                                  2019.9986301369863
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000023",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2015.500503963918,
+                                                "confidence": [
+                                                  2014.670352702779,
+                                                  2016.5551955080637
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "MT438699",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2017.1575342465753,
+                                                    "confidence": [
+                                                      2017.1575342465753,
+                                                      2017.1575342465753
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "USA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000024",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2015.616005517398,
+                                                    "confidence": [
+                                                      2014.8897220646268,
+                                                      2016.5510428875978
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MW532103",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2017.3328767123287,
+                                                        "confidence": [
+                                                          2017.3328767123287,
+                                                          2017.3328767123287
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "China"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000025",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2015.9249427384984,
+                                                        "confidence": [
+                                                          2015.4049512107138,
+                                                          2016.6093798548416
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "KY369913",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.9615236775967,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "KY369911",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.9615236775967,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000026",
+                                "node_attrs": {
+                                  "div": 0.015136340179790589,
+                                  "num_date": {
+                                    "value": 2015.4612655316903,
+                                    "confidence": [
+                                      2014.9743015078898,
+                                      2015.8475482009258
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000027",
+                                    "node_attrs": {
+                                      "div": 0.01513634017979059,
+                                      "num_date": {
+                                        "value": 2015.4612655316903,
+                                        "confidence": [
+                                          2014.7520191388794,
+                                          2016.4354719675064
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000028",
+                                        "node_attrs": {
+                                          "div": 0.015136340179790592,
+                                          "num_date": {
+                                            "value": 2015.4612655316903,
+                                            "confidence": [
+                                              2014.5920444410324,
+                                              2016.427191236122
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "ON729316",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2019.0013698630137,
+                                                "confidence": [
+                                                  2019.0013698630137,
+                                                  2019.8898358116392
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000029",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2015.4994860987156,
+                                                "confidence": [
+                                                  2014.6681089295066,
+                                                  2016.4368824506887
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "OK073082",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2018.0013698630137,
+                                                    "confidence": [
+                                                      2018.0013698630137,
+                                                      2018.8866322987406
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "China"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000030",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2015.5007662678097,
+                                                    "confidence": [
+                                                      2014.6707670753844,
+                                                      2016.440829371281
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MW532105",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2017.6808219178083,
+                                                        "confidence": [
+                                                          2017.6808219178083,
+                                                          2017.6808219178083
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "China"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000031",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2015.5217355737916,
+                                                        "confidence": [
+                                                          2014.7121409947927,
+                                                          2016.6660065890717
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "KY369912",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.9986338797814,
+                                                            "confidence": [
+                                                              2016.2659019622965,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "KY684760",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.9986338797814,
+                                                            "confidence": [
+                                                              2016.2659019622965,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000032",
+                                        "node_attrs": {
+                                          "div": 0.015136340179790592,
+                                          "num_date": {
+                                            "value": 2015.4612655316903,
+                                            "confidence": [
+                                              2014.7050407302665,
+                                              2016.4406134840133
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "MT797634",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2020.0013661202186,
+                                                "confidence": [
+                                                  2020.0013661202186,
+                                                  2020.0751366120219
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "Hong Kong"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000033",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2015.4950915525737,
+                                                "confidence": [
+                                                  2014.6601469778357,
+                                                  2016.4538461233456
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "OK073077",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2018.0013698630137,
+                                                    "confidence": [
+                                                      2018.0013698630137,
+                                                      2018.8877515741658
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "China"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000034",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2015.537014928807,
+                                                    "confidence": [
+                                                      2014.7427879804413,
+                                                      2016.6718778352695
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MT438697",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2017.1493150684933,
+                                                        "confidence": [
+                                                          2017.1493150684933,
+                                                          2017.1493150684933
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000035",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2016.9136206050855,
+                                                        "confidence": [
+                                                          2015.565663975009,
+                                                          2016.9837897989075
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "KY674914",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.914517421496,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "KY369910",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.914517421496,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000036",
+                                    "node_attrs": {
+                                      "div": 0.01513634017979059,
+                                      "num_date": {
+                                        "value": 2015.4612655316903,
+                                        "confidence": [
+                                          2014.9305032930943,
+                                          2015.9295843757209
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000037",
+                                        "node_attrs": {
+                                          "div": 0.015136340179790592,
+                                          "num_date": {
+                                            "value": 2015.4663979837005,
+                                            "confidence": [
+                                              2014.7885414868788,
+                                              2016.118750036635
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "LC654445",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2020.0013661202186,
+                                                "confidence": [
+                                                  2020.0013661202186,
+                                                  2020.8956097601904
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "Japan"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000038",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2015.4914150405784,
+                                                "confidence": [
+                                                  2014.8081900717566,
+                                                  2016.1466408505034
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "MT118677",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2018.0013698630137,
+                                                    "confidence": [
+                                                      2018.0013698630137,
+                                                      2018.8855558548607
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "USA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000039",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2015.4879209396745,
+                                                    "confidence": [
+                                                      2014.7722985860528,
+                                                      2016.1941371897585
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MT438698",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2017.1493150684933,
+                                                        "confidence": [
+                                                          2017.1493150684933,
+                                                          2017.1493150684933
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000040",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2015.6029270304405,
+                                                        "confidence": [
+                                                          2014.9861789557162,
+                                                          2016.2324245939894
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "MF542265",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.2472677595629,
+                                                            "confidence": [
+                                                              2016.1653005464482,
+                                                              2016.2472677595629
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "Haiti"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "KY369914",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.182252918591,
+                                                            "confidence": [
+                                                              2016.0013661202186,
+                                                              2016.9986338797814
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000041",
+                                        "node_attrs": {
+                                          "div": 0.015136340179790592,
+                                          "num_date": {
+                                            "value": 2015.4683459398073,
+                                            "confidence": [
+                                              2014.916585489523,
+                                              2015.9783899805911
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "LC654446",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2020.0013661202186,
+                                                "confidence": [
+                                                  2020.0013661202186,
+                                                  2020.8956161279607
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "Japan"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000042",
+                                            "node_attrs": {
+                                              "div": 0.015136340179790594,
+                                              "num_date": {
+                                                "value": 2015.5095944370082,
+                                                "confidence": [
+                                                  2014.9696882072817,
+                                                  2016.0271986958371
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "MN369046",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2018.0013698630137,
+                                                    "confidence": [
+                                                      2018.0013698630137,
+                                                      2018.8860750404622
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "USA"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000043",
+                                                "node_attrs": {
+                                                  "div": 0.015136340179790595,
+                                                  "num_date": {
+                                                    "value": 2015.6194704811944,
+                                                    "confidence": [
+                                                      2015.137906183817,
+                                                      2016.0559727046464
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "OK073084",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2017.0013698630137,
+                                                        "confidence": [
+                                                          2017.0013698630137,
+                                                          2017.869254823407
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "China"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000044",
+                                                    "node_attrs": {
+                                                      "div": 0.015136340179790597,
+                                                      "num_date": {
+                                                        "value": 2015.6176493755154,
+                                                        "confidence": [
+                                                          2015.10727445793,
+                                                          2016.1079234972678
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "MT438696",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2016.1079234972678,
+                                                            "confidence": [
+                                                              2016.1079234972678,
+                                                              2016.1079234972678
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000045",
+                                                        "node_attrs": {
+                                                          "div": 0.015136340179790599,
+                                                          "num_date": {
+                                                            "value": 2015.6176493755154,
+                                                            "confidence": [
+                                                              2015.2408665799167,
+                                                              2016.5485361418373
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "MW587038",
+                                                            "node_attrs": {
+                                                              "div": 0.0151363401797906,
+                                                              "num_date": {
+                                                                "value": 2016.9986338797814,
+                                                                "confidence": [
+                                                                  2016.0013661202186,
+                                                                  2016.9986338797814
+                                                                ]
+                                                              },
+                                                              "country": {
+                                                                "value": "China"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "KY621348",
+                                                            "node_attrs": {
+                                                              "div": 0.0151363401797906,
+                                                              "num_date": {
+                                                                "value": 2016.9986338797814,
+                                                                "confidence": [
+                                                                  2016.0013661202186,
+                                                                  2016.9986338797814
+                                                                ]
+                                                              },
+                                                              "country": {
+                                                                "value": "USA"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

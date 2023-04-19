@@ -1,0 +1,2762 @@
+{
+  "annotations": {
+    "E": {
+      "end": 24983,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 24750,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "M": {
+      "end": 25672,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 24995,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "N": {
+      "end": 26855,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 25686,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "ORF1a": {
+      "end": 12550,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 293,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "ORF1ab": {
+      "end": 20568,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 293,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "Protein4a": {
+      "end": 24492,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 24091,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "Protein4b": {
+      "end": 24748,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 24482,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "RdRp": {
+      "end": 15276,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 12497,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "S1": {
+      "end": 22249,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 20615,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "S2": {
+      "end": 24091,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 22250,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "Spike": {
+      "end": 24091,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 20570,
+      "strand": "+",
+      "type": "CDS"
+    },
+    "nuc": {
+      "end": 27317,
+      "seqid": "config/reference_229e_genome.gb",
+      "start": 1,
+      "strand": "+",
+      "type": "source"
+    }
+  },
+  "generated_by": {
+    "program": "augur",
+    "version": "14.1.0"
+  },
+  "nodes": {
+    "AB691764": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "V1631I"
+        ],
+        "ORF1ab": [
+          "V1631I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [
+          "L36F"
+        ],
+        "RdRp": [],
+        "S1": [
+          "R301T"
+        ],
+        "S2": [],
+        "Spike": [
+          "R316T"
+        ]
+      }
+    },
+    "AB691765": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "D2718G"
+        ],
+        "ORF1ab": [
+          "D2718G"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "AB691766": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [
+          "V5753A"
+        ],
+        "Protein4a": [],
+        "Protein4b": [
+          "L36F"
+        ],
+        "RdRp": [],
+        "S1": [
+          "K360T"
+        ],
+        "S2": [
+          "S10L"
+        ],
+        "Spike": [
+          "K375T",
+          "S570L"
+        ]
+      }
+    },
+    "AB691767": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "V623I",
+          "N1526D",
+          "V1906M"
+        ],
+        "ORF1ab": [
+          "V623I",
+          "N1526D",
+          "V1906M"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [
+          "T202F"
+        ],
+        "Spike": [
+          "T762F"
+        ]
+      }
+    },
+    "AF304460": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "JX503060": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "G763C"
+        ],
+        "ORF1ab": [
+          "G763C"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "JX503061": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "D90A",
+          "A220S"
+        ],
+        "ORF1a": [
+          "T247N",
+          "Y558H",
+          "I636V",
+          "E869D",
+          "S1352N",
+          "P2156T",
+          "A2373D",
+          "F2764L",
+          "F2977L",
+          "I3808T"
+        ],
+        "ORF1ab": [
+          "T247N",
+          "Y558H",
+          "I636V",
+          "E869D",
+          "S1352N",
+          "P2156T",
+          "A2373D",
+          "F2764L",
+          "F2977L",
+          "I3808T",
+          "A4540S",
+          "I5470T"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "A472S"
+        ],
+        "S1": [
+          "V55F",
+          "S253A"
+        ],
+        "S2": [],
+        "Spike": [
+          "V70F",
+          "S268A"
+        ]
+      }
+    },
+    "KF514431": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "D1296E"
+        ],
+        "ORF1ab": [
+          "D1296E",
+          "S6036A"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "A26V",
+          "R114H",
+          "V269A"
+        ],
+        "S2": [
+          "K543N"
+        ],
+        "Spike": [
+          "A41V",
+          "R129H",
+          "V284A",
+          "K1103N"
+        ]
+      }
+    },
+    "KF514432": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "W399R",
+          "G3658S",
+          "G3858C",
+          "A3958V"
+        ],
+        "ORF1ab": [
+          "W399R",
+          "G3658S",
+          "G3858C",
+          "A3958V",
+          "M5889I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "KU291448": {
+      "aa_muts": {
+        "E": [
+          "L17I"
+        ],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [
+          "V4770I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "V702I"
+        ],
+        "S1": [
+          "H392S"
+        ],
+        "S2": [
+          "S26F",
+          "K232R"
+        ],
+        "Spike": [
+          "H407S",
+          "S586F",
+          "K792R"
+        ]
+      }
+    },
+    "KY369908": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "S10P"
+        ],
+        "ORF1a": [
+          "D406Y",
+          "T1252A"
+        ],
+        "ORF1ab": [
+          "D406Y",
+          "T1252A"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [
+          "K154M"
+        ],
+        "Spike": [
+          "K714M"
+        ]
+      }
+    },
+    "KY369909": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "KY369912": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "L616S",
+          "D947N",
+          "P1908L",
+          "A3216S"
+        ],
+        "ORF1ab": [
+          "L616S",
+          "D947N",
+          "P1908L",
+          "A3216S"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "KY369913": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "A147V"
+        ],
+        "ORF1a": [
+          "A1000V",
+          "V1814I"
+        ],
+        "ORF1ab": [
+          "A1000V",
+          "V1814I",
+          "A5320S"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [
+          "T42K"
+        ],
+        "Spike": [
+          "T602K"
+        ]
+      }
+    },
+    "KY369914": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "S2570R"
+        ],
+        "ORF1ab": [
+          "S2570R",
+          "D6723G"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "T85N"
+        ],
+        "S2": [
+          "A179V"
+        ],
+        "Spike": [
+          "T100N",
+          "A739V"
+        ]
+      }
+    },
+    "KY621348": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "KY674914": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "KY674919": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "D196E"
+        ],
+        "ORF1a": [
+          "L451F",
+          "M1101I",
+          "T1571N",
+          "D1784E",
+          "L2134F",
+          "I2599V",
+          "V3743I"
+        ],
+        "ORF1ab": [
+          "L451F",
+          "M1101I",
+          "T1571N",
+          "D1784E",
+          "L2134F",
+          "I2599V",
+          "V3743I",
+          "S4374A",
+          "A4844S"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "S306A",
+          "A776S"
+        ],
+        "S1": [
+          "I275T"
+        ],
+        "S2": [
+          "T530I"
+        ],
+        "Spike": [
+          "I290T",
+          "T1090I"
+        ]
+      }
+    },
+    "KY684760": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "G2488V"
+        ],
+        "ORF1ab": [
+          "G2488V"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "KY967357": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "I1736V",
+          "I1817V"
+        ],
+        "ORF1ab": [
+          "I1736V",
+          "I1817V"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "S73L"
+        ],
+        "S2": [],
+        "Spike": [
+          "S88L"
+        ]
+      }
+    },
+    "KY983587": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "G409C",
+          "T810A"
+        ],
+        "ORF1ab": [
+          "G409C",
+          "T810A",
+          "N4887K"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "N819K"
+        ],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "KY996417": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "I46V"
+        ],
+        "ORF1a": [
+          "G686S",
+          "S992F",
+          "V1451L",
+          "T3808I"
+        ],
+        "ORF1ab": [
+          "G686S",
+          "S992F",
+          "V1451L",
+          "T3808I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "N198D"
+        ],
+        "S2": [],
+        "Spike": [
+          "N213D"
+        ]
+      }
+    },
+    "LC654445": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "V1320M",
+          "K1325Q",
+          "S1981L",
+          "A3315V"
+        ],
+        "ORF1ab": [
+          "V1320M",
+          "K1325Q",
+          "S1981L",
+          "A3315V"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "V340A",
+          "N391G"
+        ],
+        "S2": [
+          "I411V"
+        ],
+        "Spike": [
+          "V355A",
+          "N406G",
+          "I971V"
+        ]
+      }
+    },
+    "LC654446": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "S14F",
+          "E4077A"
+        ],
+        "ORF1ab": [
+          "S14F"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "S35T",
+          "G296Q"
+        ],
+        "S2": [],
+        "Spike": [
+          "S50T",
+          "G311Q"
+        ]
+      }
+    },
+    "MN306046": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "MN369046": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "S165F"
+        ],
+        "ORF1a": [
+          "S579N",
+          "G720D",
+          "E813D",
+          "F949L",
+          "Y1321H"
+        ],
+        "ORF1ab": [
+          "S579N",
+          "G720D",
+          "E813D",
+          "F949L",
+          "Y1321H"
+        ],
+        "Protein4a": [
+          "V126A"
+        ],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "F75V",
+          "I266T"
+        ],
+        "S2": [],
+        "Spike": [
+          "F90V",
+          "I281T"
+        ]
+      }
+    },
+    "MT118677": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "K1028E",
+          "M2047I",
+          "T3593N"
+        ],
+        "ORF1ab": [
+          "K1028E",
+          "M2047I",
+          "T3593N",
+          "S4177N"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "S109N"
+        ],
+        "S1": [
+          "H290Y"
+        ],
+        "S2": [],
+        "Spike": [
+          "H305Y"
+        ]
+      }
+    },
+    "MT438697": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "MT438698": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "S14F",
+          "I287V",
+          "D1495N",
+          "Y2092C"
+        ],
+        "ORF1ab": [
+          "S14F",
+          "I287V",
+          "D1495N",
+          "Y2092C"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "MT438699": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "MT438700": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "D80N",
+          "A791V",
+          "N1789S",
+          "S2490A"
+        ],
+        "ORF1ab": [
+          "D80N",
+          "A791V",
+          "N1789S",
+          "S2490A"
+        ],
+        "Protein4a": [],
+        "Protein4b": [
+          "H73Q"
+        ],
+        "RdRp": [],
+        "S1": [
+          "S144P",
+          "T285S",
+          "H290Y",
+          "Y335F"
+        ],
+        "S2": [
+          "T243I"
+        ],
+        "Spike": [
+          "S159P",
+          "T300S",
+          "H305Y",
+          "Y350F",
+          "T803I"
+        ]
+      }
+    },
+    "MT797634": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "A308E",
+          "L451V",
+          "P1910L",
+          "E3849D"
+        ],
+        "ORF1ab": [
+          "A308E",
+          "L451V",
+          "P1910L",
+          "E3849D"
+        ],
+        "Protein4a": [
+          "L79I"
+        ],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "MW039392": {
+      "aa_muts": {
+        "E": [
+          "I12V"
+        ],
+        "M": [],
+        "N": [
+          "A277V",
+          "M348V"
+        ],
+        "ORF1a": [
+          "S635I",
+          "K682N",
+          "D736V",
+          "F992S",
+          "I1691V",
+          "M2412I"
+        ],
+        "ORF1ab": [
+          "S635I",
+          "K682N",
+          "D736V",
+          "F992S",
+          "I1691V",
+          "M2412I"
+        ],
+        "Protein4a": [
+          "L115I"
+        ],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "T76I",
+          "T166A",
+          "G259V",
+          "R297P",
+          "Q334K",
+          "V337A",
+          "D338V",
+          "N339Y",
+          "V340A",
+          "K341N",
+          "L342V",
+          "A343G"
+        ],
+        "S2": [],
+        "Spike": [
+          "T91I",
+          "T181A",
+          "G274V",
+          "R312P",
+          "Q349K",
+          "V352A",
+          "D353V",
+          "N354Y",
+          "V355A",
+          "K356N",
+          "L357V",
+          "A358G"
+        ]
+      }
+    },
+    "MW202340": {
+      "aa_muts": {
+        "E": [
+          "F77L"
+        ],
+        "M": [],
+        "N": [
+          "P124S"
+        ],
+        "ORF1a": [
+          "I3808T"
+        ],
+        "ORF1ab": [
+          "I3808T",
+          "A4314S"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "A246S"
+        ],
+        "S1": [],
+        "S2": [
+          "F585L"
+        ],
+        "Spike": [
+          "F1145L"
+        ]
+      }
+    },
+    "MW532103": {
+      "aa_muts": {
+        "E": [],
+        "M": [
+          "L42V"
+        ],
+        "N": [],
+        "ORF1a": [
+          "S579N",
+          "A1770T",
+          "P1840T",
+          "V2793I"
+        ],
+        "ORF1ab": [
+          "S579N",
+          "A1770T",
+          "P1840T",
+          "V2793I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "T4I",
+          "R87K"
+        ],
+        "S2": [],
+        "Spike": [
+          "T19I",
+          "R102K"
+        ]
+      }
+    },
+    "MW532104": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "G563C",
+          "A1510V"
+        ],
+        "ORF1ab": [
+          "G563C",
+          "A1510V",
+          "T5959I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "MW532105": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "G1393D",
+          "G2886E",
+          "N3653S"
+        ],
+        "ORF1ab": [
+          "G1393D",
+          "G2886E",
+          "N3653S",
+          "R4194H",
+          "A4511T"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "R126H",
+          "A443T"
+        ],
+        "S1": [
+          "E273V",
+          "H392Y"
+        ],
+        "S2": [
+          "E84D"
+        ],
+        "Spike": [
+          "E288V",
+          "H407Y",
+          "E644D"
+        ]
+      }
+    },
+    "MW532106": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "E387K"
+        ],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "F342L"
+        ],
+        "S2": [],
+        "Spike": [
+          "F357L"
+        ]
+      }
+    },
+    "MW532107": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "S1679I",
+          "Q1843H",
+          "T1945N"
+        ],
+        "ORF1ab": [
+          "S1679I",
+          "Q1843H",
+          "T1945N"
+        ],
+        "Protein4a": [
+          "V27I"
+        ],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "F204L",
+          "I266V"
+        ],
+        "S2": [],
+        "Spike": [
+          "F219L",
+          "I281V"
+        ]
+      }
+    },
+    "MW587035": {
+      "aa_muts": {
+        "E": [
+          "F77L"
+        ],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "A294V",
+          "S826F",
+          "I1254V",
+          "T3869M"
+        ],
+        "ORF1ab": [
+          "A294V",
+          "S826F",
+          "I1254V",
+          "T3869M"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [
+          "A179V"
+        ],
+        "Spike": [
+          "A739V"
+        ]
+      }
+    },
+    "MW587036": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "S203F",
+          "L576P",
+          "D1610G",
+          "I3444N"
+        ],
+        "ORF1ab": [
+          "S203F",
+          "L576P",
+          "D1610G",
+          "I3444N"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "L278I",
+          "T285M"
+        ],
+        "S2": [
+          "E61D",
+          "V141G"
+        ],
+        "Spike": [
+          "L293I",
+          "T300M",
+          "E621D",
+          "V701G"
+        ]
+      }
+    },
+    "NODE_0000000": {
+      "aa_muts": {},
+      "aa_sequences": {
+        "E": "MFLKLVDDHALIVNVLLWCVVLIVILLVCITIIKLIKLCFTCHMFCNRTVYGPIKNVYHIYQSYMHIDPFPKRVIDF*",
+        "M": "MSNDNCTGDIVTHLKNWNFGWNVILTIFIVILQFGHYKYSRLFYGLKMLVLWLLWPLVLALSIFDTWANWDSNWAFVAFSFLMAVSTLVMWVMYFANSFRLFRRARTFWAWNPEVNAITVTTVLGQTYYQPIQQAPTGITVTLLSGVLYVDGHRLASGVQVHNLPEYMTVAVPSTTIIYSRVGRSVNSQNSTGWVFYVRVKHGDFSAVSSPMSNMTENERLLHFF*",
+        "N": "MATVKWADASEPQRGRQGRIPYSLYSPLLVDSEQPWKVIPRNLVPINKKDKNKLIGYWNVQKRFRTRKGKRVDLSPKLHFYYLGTGPHKDAKFRERVEGVVWVAVDGAKTEPTGYGVRRKNSEPEIPHFNQKLPNGVTVVEEPDSRAPSRSQSRSQSRGRGESKSQSRNPSSDRNHNSQDDIMKAVAAALKSLGFDKPQEKDKKSAKTGTPKPSRNQSPASSQSAAKILARSQSSETKEQKHEMQKPRWKRQPNDDVTSNVTQCFGPRDLDHNFGSAGVVANGVKAKGYPQFAELVPSTAAMLFDSHIVSKESGNTVVLTFTTRVTVPKDHPHLGKFLEELNAFTREMQQQPLLNPSALEFNPSQTSPATVEPVRDEVSIETDIIDEVN*",
+        "ORF1a": "MACNRVTLAVASDSEISAYGCSTIAQAVRRYSEAASNGFRACRFVSLDLQDCIVGIADDTYVMGLHGNQTLFCNIMKFSDRPFMLHGWLVFSNSNYLLEEFDVVFGKRGGGNVTYTDQYLCGADGKPVMSEDLWQFVDHFGENEEIVINGRTYVCAWLTKRKPLDYKRQNNLAIEEIEYVHGDALHTLRNGSVLEMAKEVKTSSKVVLSDALDKLYKVFGSPVMTNGSNILEAFTKPVFISALVQCTCGTKSWSVGDWTGFKSSCCNLISNKLCVVPGNVKPGDAVITTQQAGAGVKYFCGMTLKFVANIEGVSVWRVIALQSVDCFVASSTFVEEEHVNRMDTFCFNVRNSVTDECRLAMLGAEMTSNVRRQVASGVIDISTGWFDVYDDIFAESKPWFVRKAEDIFGPCWSALVSALKQLKVTTGELVRFVKSICNSAVAVVGGTIQILASVPEKFLNAFDVFVTAIQTVFDCAVETCTIAGKAFDKVFDYVLLDNALVKLVTTKLKGVREGGLNKVKYATVVVGSTEEVKSSRVERSNAVLTIANNYSKLFDEGYTVVIGDVAYFASDGYFRLMASPNSVLTTAVYKPLVDFNVNVMGTRPEKFPTTVTCENLESAVLFVNDKITEFQLDYSIDVIDNEIIVKPNISLCVPLYVRDYVDKWDDFCRQYSNESWFEDDYKAFISVLDITDAAVKAAESKAFVDTIVPPCPSILKVIDGGKIWNGVIKNVNYVRDWLKSLKLNLTQQGLLGTCAKRFKRWLGILLEAYNAFLDTVVSTVKIGGLTFKTYAFDKPYIVIRDIVCKVENKTEAEWIELFPHNDRIKSFSTFESAYMPIADPTHFDIEEVELLDAEFVEPGCGGILSVIDEHVFYKKDGVYYPSNGTNILPVAFTKAAGGKVSFSDDVEVKDIEPVYRVKLCFEFEDEKLVDVCEKAIGKKIKHEGDWDSFCKTIQSALSVVSCYVNLPTYYIYDEEGGNDLSLPVMISEWPLSVQQAQQEATLPDIAEDVVDQVEEVNSIFDIETVDVKHEMSPFEMPFEELNGLKILKQLDNNCWVNSVMLQIQLTGILDGDYAMQFFKMGRVAKMIERCYTAEQCIRGAMGDVGLCMYRLLKDLHTGFMVMDYKCSCTSGRLEESGAVLFCTPTKKAFPYGTCLNCNAPRMCTIRQLQGTIIFVQQKPEPVNPVSFVVKPVCSSIFRGAVSCGHYQTNIYSQNLCVDGFGVNKIQPWTNDALNTICIKDADYNAKDEISVTPIKNTVDTTPKEEFVVKEKLNAFLVHDNVAFYQGDVDTVVNGVDFDFIVNAANENLAHGGGLAKALDVYTKGKLQRLSKEHIGLAGKVRVGTGVMVECDSLRIFNVVGPRKGKHERDLLVKAYNTINNEQGTPLTPILSCGIFGVKLETSLEVLLDVCNTKEFKVFVYTDTEVCKVKDFVSGLVNVQKVAQPKIEQKPVSLIKVAPKPYRVDGKFSYFTEDLLCVADDKPIVLFTDSMLTLDDRGLALDNALSGVLSAAIKDCVDINKAIPSGNLIKFDIDSVVVYMCVVPSEKDKHLDNNVQRCTRKLNRLMCDIVCTIPADYILPLVLSSLTCNVSFVGELKAAEAKVITIKVTEDGVNVHDVTVTTDKSFEQQVGVIADKDKDLSGAVPSDLNTSELLTKAIDVDWVEFYGFKDAVTFATVDHSAFAYESAVVNGIRVLKTSDNNCWVNAVCIALQYSKPHFISQGLDAAWNKFVLGDVEIFVAFVYYVARLVKGDKGDAEDTLNKLSKYLANEAQVQLEHYSSCVECDAKFKNSVTSINSAIVCASVKRDGVQVGYCVHGIKYYSRVKSVRGRAIIVSVEQLEPCVQSRLLSGVAYTAFSGPVDKGHYTVYDTAKKSMYDGDRFVKHDLSLLSVTSVVMVGDYVAPVSTVKPKPVISQLDENAQKFFDFGDFLIHNFVIFFTWLLSMFTLCKTAVTTCDVKIMAKAPQRTGVVLKRSLKYNLKASAAVLKSKWWLLAKFTKLLLLIYTLYSVVLFCVRFGPFKFCSETVNGYAKSNFVKDDYCDGSLGCKMCLFGYQELSQFSHLDVVWKHITDPLFSNIQPFIVMVLLLIFGDNYLRCFLLYFVAQMISTVGVFLGYKETNWFLHFIPFDVICDELLVTVIVIKVISFVRHVLFGCENPDCIACSKSARLKRFPVNTIVNGVQRSFYVNANGGSKFCKKHRFFCVDCDSYGYGSTFITPEVSRELGNITKTNVQPTGPAYVMIDKVEFENGFYRLYSGETFWRYNFDITESKYSCKEVFKNCNVLDDFIVFNNNGTNVTQVKNASVYFSQLLCRPIKLVDSELLSTLSVDFNGVLHKAYIDVLRNSFGKDLNANMSLAECKSALGLSISDHEFTSAISNAHRCDVLLSDLSFNNFVSSYAKPEEKLSAYDLACCMRAGAKVVNANVLTKDQTPIVWHAKDFNSLSAEGRKYIVKTSKAKGLTFLLTINENQAVTQIPATSIVAKQGAGDAGHSLTWLWLLCGLVCLIQFYLCFFMPYFMYDVVSSFEGYDFKYIENGQLKNFEAPLKCVRNVFENFEDWHYAKFGFTPLNKQSCPIVVGVSEIVNTVAGIPSNVYLVGKTLIFTLQAAFGNAGVCYDIFGVTTPEKCIFTSACTRLEGLGGNNVYCYNTELMEGSLPYSSIQANAYYKYDNGNFIKLPEVIAQGFGFRTVRTIATKYCRVGECVDSNAGVCFGFDKWFVNDGRVANGYVCGTGLWNLVFNILSMFSSSFSVAAMSGQILLNCALGAFAIFCCFLVTKFRRMFGDLSVGVCTVVVAVLLNNVSYIVTQNLVTMIAYAILYFFATRSLRYAWIWCAAYLIAYISFAPWWLCAWYFLAMLTGLLPSLLKLKVSTNLFEGDKFVGTFESAAAGTFVIDIRSYEKLANSISPEKLKSYAASYNRYKYYSGNANEADYRCACYAYLAKAMLDFSRDHNDILYTPPTVSYGSTLQAGLRKMAQPSGFVEKCVVRVCYGNTVLNGLWLGDIVYCPRHVIASNTTSAIDYDHEYSIMRLHNFSIISGTAFLGVVGATMHGVTLKIKVSQTNMHTPRHSFRTLKSGEGFNILACYDGCAQGVFGVNMRTNWTIRGSFINGACGSPGYNLKNGEVEFVYMHQIELGSGSHVGSSFDGVMYGGFEDQPNLQVESANQMLTVNVVAFLYAAILNGCTWWLKGDKLFVEHYNEWAQANGFTAMNGEDAFSILAAKTGVCVERLLHAIQVLNNGFGGKQILGYSSLNDEFSINEVVKQMFGVNLQSGKTTSMFKSISLFAGFFVMFWAELFVYTTTIWVNPGFLTPFMILLVALSLCLTFVVKHKVLFLQVFLLPSIIVAAIQNCAWDYHITKVLAEKFDYNVSVMQMDIQGFVNIFICLFVALLHTWRFAKERCTHWCTYLFSLIAVLYTALYSYDYVSLLVMLLCAISNEWYIGAIIFRICRFGVAFLPVEYVSYFDGVKTVLLFYMLLGFVSCMYYGLLYWINRFCKCTLGVYDFCVSPAEFKYMVANGLNAPNGPFDALFLSFKLMGIGGPRTIKVSTVQSKLTDLKCTNVVLMGILSNMNIASNSKEWAYCVEMHNKINLCDDPETAQELLLALLAFFLSKHSDFGLGDLVDSYFENDSILQSVASSFVGMPSFVAYETARQEYENAVANGSSPQIIKQLKKAMNVAKAEFDRESSVQKKINRMAEQAAAAMYKEARAVNRKSKVVSAMHSLLFGMLRRLDMSSVDTILNMARNGVVPLSVIPATSAARLVVVVPDHDSFVKMMVDGFVHYAGVVWTLQEVKDNDGKNVHLKDVTKENQEILVWPLILTCERVVKLQNNEIMPGKMKVKATKGEGDGGIISEGNALYNNEGGRAFMYAYVTTKPGMKYVKWEHDSGVVTVELEPPCRFVIDTPTGPQIKYLYFVKNLNNLRRGAVLGYIGATVRLQAGKQTEFVSNSHLLTHCSFAVDPAAAYLDAVKQGAKPVGNCVKMLTNGSGSGQAITSTIDSNTTQDTYGGASVCIYCRAHVAHPTMDGFCQYKGKWVQVPIGTNDPIRFCLENTVCKVCGCWLNHGCTCDRTAIQSFDSSYLNESGALVPLD*",
+        "ORF1ab": "MACNRVTLAVASDSEISAYGCSTIAQAVRRYSEAASNGFRACRFVSLDLQDCIVGIADDTYVMGLHGNQTLFCNIMKFSDRPFMLHGWLVFSNSNYLLEEFDVVFGKRGGGNVTYTDQYLCGADGKPVMSEDLWQFVDHFGENEEIVINGRTYVCAWLTKRKPLDYKRQNNLAIEEIEYVHGDALHTLRNGSVLEMAKEVKTSSKVVLSDALDKLYKVFGSPVMTNGSNILEAFTKPVFISALVQCTCGTKSWSVGDWTGFKSSCCNLISNKLCVVPGNVKPGDAVITTQQAGAGVKYFCGMTLKFVANIEGVSVWRVIALQSVDCFVASSTFVEEEHVNRMDTFCFNVRNSVTDECRLAMLGAEMTSNVRRQVASGVIDISTGWFDVYDDIFAESKPWFVRKAEDIFGPCWSALVSALKQLKVTTGELVRFVKSICNSAVAVVGGTIQILASVPEKFLNAFDVFVTAIQTVFDCAVETCTIAGKAFDKVFDYVLLDNALVKLVTTKLKGVREGGLNKVKYATVVVGSTEEVKSSRVERSNAVLTIANNYSKLFDEGYTVVIGDVAYFASDGYFRLMASPNSVLTTAVYKPLVDFNVNVMGTRPEKFPTTVTCENLESAVLFVNDKITEFQLDYSIDVIDNEIIVKPNISLCVPLYVRDYVDKWDDFCRQYSNESWFEDDYKAFISVLDITDAAVKAAESKAFVDTIVPPCPSILKVIDGGKIWNGVIKNVNYVRDWLKSLKLNLTQQGLLGTCAKRFKRWLGILLEAYNAFLDTVVSTVKIGGLTFKTYAFDKPYIVIRDIVCKVENKTEAEWIELFPHNDRIKSFSTFESAYMPIADPTHFDIEEVELLDAEFVEPGCGGILSVIDEHVFYKKDGVYYPSNGTNILPVAFTKAAGGKVSFSDDVEVKDIEPVYRVKLCFEFEDEKLVDVCEKAIGKKIKHEGDWDSFCKTIQSALSVVSCYVNLPTYYIYDEEGGNDLSLPVMISEWPLSVQQAQQEATLPDIAEDVVDQVEEVNSIFDIETVDVKHEMSPFEMPFEELNGLKILKQLDNNCWVNSVMLQIQLTGILDGDYAMQFFKMGRVAKMIERCYTAEQCIRGAMGDVGLCMYRLLKDLHTGFMVMDYKCSCTSGRLEESGAVLFCTPTKKAFPYGTCLNCNAPRMCTIRQLQGTIIFVQQKPEPVNPVSFVVKPVCSSIFRGAVSCGHYQTNIYSQNLCVDGFGVNKIQPWTNDALNTICIKDADYNAKDEISVTPIKNTVDTTPKEEFVVKEKLNAFLVHDNVAFYQGDVDTVVNGVDFDFIVNAANENLAHGGGLAKALDVYTKGKLQRLSKEHIGLAGKVRVGTGVMVECDSLRIFNVVGPRKGKHERDLLVKAYNTINNEQGTPLTPILSCGIFGVKLETSLEVLLDVCNTKEFKVFVYTDTEVCKVKDFVSGLVNVQKVAQPKIEQKPVSLIKVAPKPYRVDGKFSYFTEDLLCVADDKPIVLFTDSMLTLDDRGLALDNALSGVLSAAIKDCVDINKAIPSGNLIKFDIDSVVVYMCVVPSEKDKHLDNNVQRCTRKLNRLMCDIVCTIPADYILPLVLSSLTCNVSFVGELKAAEAKVITIKVTEDGVNVHDVTVTTDKSFEQQVGVIADKDKDLSGAVPSDLNTSELLTKAIDVDWVEFYGFKDAVTFATVDHSAFAYESAVVNGIRVLKTSDNNCWVNAVCIALQYSKPHFISQGLDAAWNKFVLGDVEIFVAFVYYVARLVKGDKGDAEDTLNKLSKYLANEAQVQLEHYSSCVECDAKFKNSVTSINSAIVCASVKRDGVQVGYCVHGIKYYSRVKSVRGRAIIVSVEQLEPCVQSRLLSGVAYTAFSGPVDKGHYTVYDTAKKSMYDGDRFVKHDLSLLSVTSVVMVGDYVAPVSTVKPKPVISQLDENAQKFFDFGDFLIHNFVIFFTWLLSMFTLCKTAVTTCDVKIMAKAPQRTGVVLKRSLKYNLKASAAVLKSKWWLLAKFTKLLLLIYTLYSVVLFCVRFGPFKFCSETVNGYAKSNFVKDDYCDGSLGCKMCLFGYQELSQFSHLDVVWKHITDPLFSNIQPFIVMVLLLIFGDNYLRCFLLYFVAQMISTVGVFLGYKETNWFLHFIPFDVICDELLVTVIVIKVISFVRHVLFGCENPDCIACSKSARLKRFPVNTIVNGVQRSFYVNANGGSKFCKKHRFFCVDCDSYGYGSTFITPEVSRELGNITKTNVQPTGPAYVMIDKVEFENGFYRLYSGETFWRYNFDITESKYSCKEVFKNCNVLDDFIVFNNNGTNVTQVKNASVYFSQLLCRPIKLVDSELLSTLSVDFNGVLHKAYIDVLRNSFGKDLNANMSLAECKSALGLSISDHEFTSAISNAHRCDVLLSDLSFNNFVSSYAKPEEKLSAYDLACCMRAGAKVVNANVLTKDQTPIVWHAKDFNSLSAEGRKYIVKTSKAKGLTFLLTINENQAVTQIPATSIVAKQGAGDAGHSLTWLWLLCGLVCLIQFYLCFFMPYFMYDVVSSFEGYDFKYIENGQLKNFEAPLKCVRNVFENFEDWHYAKFGFTPLNKQSCPIVVGVSEIVNTVAGIPSNVYLVGKTLIFTLQAAFGNAGVCYDIFGVTTPEKCIFTSACTRLEGLGGNNVYCYNTELMEGSLPYSSIQANAYYKYDNGNFIKLPEVIAQGFGFRTVRTIATKYCRVGECVDSNAGVCFGFDKWFVNDGRVANGYVCGTGLWNLVFNILSMFSSSFSVAAMSGQILLNCALGAFAIFCCFLVTKFRRMFGDLSVGVCTVVVAVLLNNVSYIVTQNLVTMIAYAILYFFATRSLRYAWIWCAAYLIAYISFAPWWLCAWYFLAMLTGLLPSLLKLKVSTNLFEGDKFVGTFESAAAGTFVIDIRSYEKLANSISPEKLKSYAASYNRYKYYSGNANEADYRCACYAYLAKAMLDFSRDHNDILYTPPTVSYGSTLQAGLRKMAQPSGFVEKCVVRVCYGNTVLNGLWLGDIVYCPRHVIASNTTSAIDYDHEYSIMRLHNFSIISGTAFLGVVGATMHGVTLKIKVSQTNMHTPRHSFRTLKSGEGFNILACYDGCAQGVFGVNMRTNWTIRGSFINGACGSPGYNLKNGEVEFVYMHQIELGSGSHVGSSFDGVMYGGFEDQPNLQVESANQMLTVNVVAFLYAAILNGCTWWLKGDKLFVEHYNEWAQANGFTAMNGEDAFSILAAKTGVCVERLLHAIQVLNNGFGGKQILGYSSLNDEFSINEVVKQMFGVNLQSGKTTSMFKSISLFAGFFVMFWAELFVYTTTIWVNPGFLTPFMILLVALSLCLTFVVKHKVLFLQVFLLPSIIVAAIQNCAWDYHITKVLAEKFDYNVSVMQMDIQGFVNIFICLFVALLHTWRFAKERCTHWCTYLFSLIAVLYTALYSYDYVSLLVMLLCAISNEWYIGAIIFRICRFGVAFLPVEYVSYFDGVKTVLLFYMLLGFVSCMYYGLLYWINRFCKCTLGVYDFCVSPAEFKYMVANGLNAPNGPFDALFLSFKLMGIGGPRTIKVSTVQSKLTDLKCTNVVLMGILSNMNIASNSKEWAYCVEMHNKINLCDDPETAQELLLALLAFFLSKHSDFGLGDLVDSYFENDSILQSVASSFVGMPSFVAYETARQEYENAVANGSSPQIIKQLKKAMNVAKAEFDRESSVQKKINRMAEQAAAAMYKEARAVNRKSKVVSAMHSLLFGMLRRLDMSSVDTILNMARNGVVPLSVIPATSAARLVVVVPDHDSFVKMMVDGFVHYAGVVWTLQEVKDNDGKNVHLKDVTKENQEILVWPLILTCERVVKLQNNEIMPGKMKVKATKGEGDGGIISEGNALYNNEGGRAFMYAYVTTKPGMKYVKWEHDSGVVTVELEPPCRFVIDTPTGPQIKYLYFVKNLNNLRRGAVLGYIGATVRLQAGKQTEFVSNSHLLTHCSFAVDPAAAYLDAVKQGAKPVGNCVKMLTNGSGSGQAITSTIDSNTTQDTYGGASVCIYCRAHVAHPTMDGFCQYKGKWVQVPIGTNDPIRFCLENTVCKVCGCWLNHGCTCDRTAIQSFDSSYLNRVRGSSAARLEPCNGTDIDYCVRAFDVYNKDASFIGKNLKSNCVRFKNVDKDDAFYIVKRCIKSVMDHEQSMYNLLKGCNAVAKHDFFTWHEGRTIYGNVSRQDLTKYTMMDLCFALRNFDEKDCEVFKEILVLTGCCNTDYFEMKNWFDPIENEDIHRVYAALGKVVANAMLKCVAFCDEMVLKGVVGVLTLDNQDLNGNFYDFGDFVLCPPGMGIPYCTSYYAYMMPVMGMTNCLASECFMKSDIFGQDFKTFDLLKYDFTEHKEVLFNKYFKYWGQDYHPDCVDCHDEMCILHCSNFNTLFATTIPNTAFGPLCRKVFIDGVPVVATAGYHFKQLGLVWNKDVNTHSTRLTITELLQFVTDPTLIVASSPALVDKRTVCFSVAALSTGLTSQTVKPGHFNKEFYDFLRSQGFFDEGSELTLKHFFFTQKGDAAIKDFDYYRYNRPTILDIGQARVAYQVAARYFDCYEGGCITSREVVVTNLNKSAGWPLNKFGKAGLYYESISYEEQDAIFLLTKRNILPTMTQLNLKYAISGKERARTVGGVSLLATMTTRQFHQKCLKSIVATRNATVVIGTTKFYGGWDNMLKNLMADVDDPKLMGWDYPKCDRAMPSMIRMLSAMILGSKHVTCCTASDKFYRLSNELAQVLTEVVYSNGGFYFKPGGTTSGDATTAYANSVFNIFQAVSSNINCVLSVNSSNCNNFNVKKLQRQLYDNCYRNSNVDESFVDDFYGYLQKHFSMMILSDDGVVCYNKTYAELGYIADISAFKATLYYQNGVFMSTAKCWTEEDLSIGPHEFCSQHTMQIVDENGKYYLPYPDPSRIISAGVFVDDITKTDAVILLERYVSLAIDAYPLSKHPKPEYRKVFYALLDWVKHLNKTLNEGVLESFSVTLLDEQESKFWDESFYASMYEKSTVLQAAGLCVVCGSQTVLRCGDCLRRPMLCTKCAYDHVFGTDHKFILAITPYVCNTSGCNVTDVTKLYLGGLNYYCVDHKPHLSFPLCSAGNVFGLYKSSALGSMDIDVFNKLSTSDWSDIRDYKLANDAKESLRLFAAETVKAKEESVKSSYAYATLKEIVGPKELLLLWESGKAKPPLNRNSVFTCFQITKDSKFQVGEFVFEKVDYGSDTVTYKSTATTKLVPGMLFILTSHNVAPLRAPTMANQEKYSTIYKLHPSFNVSDAYANLVPYYQLIGKQRITTIQGPPGSGKSHCSIGIGVYYPGARIVFTACSHAAVDSLCAKAVTAYSVDKCTRIIPARARVECYSGFKPNNTSAQYVFSTVNALPEVNADIVVVDEVSMCTNYDLSVINQRISYKHIVYVGDPQQLPAPRVLISKGVMEPIDYNVVTQRMCAIGPDVFLHKCYRCPAEIVNTVSELVYENKFVPVKEASKQCFKIFERGSVQVDNGSSINRRQLDVVKRFIHKNSTWSKAVFISPYNSQNYVAARLLGLQTQTVDSAQGSEYDYVIFAQTSDTAHACNANRFNVAITRAKKGIFCIMSDRTLFDALKFFEVTMTDLQSESSCGLFKDCARNPIDLPPSHATTYLSLSDRFKTSGDLAVQIGNNNVCTYEHVISYMGFRFDVSMPGSHSLFCTRDFAMRHVRGWLGMDVEGAHVTGDNVGTNVPLQVGFSNGVDFVAQPEGCVLTNTGSVVKPVRARAPPGEQFTHIVPLLRKGQPWSVLRKRIVQMIADFLAGSSDVLVFVLWAGGLELTTMRYFVKIGAVKHCQCGTVATCYNSVSNDYCCFKHALGCDYVYNPYVIDIQQWGYVGSLSTNHHAICNVHRNEHVASGDAIMTRCLAVYDCFVKNVDWSITYPMIANENAINKGGRTVQSHIMRAAIKLYNPKAIHDIGNPKGIRCAVTDAKWYCYDKNPINSNVKTLEYDYMTHGQMEGLCLFWNCNVDMYPEFSIVCRFDTRTRSTLNLEGVNGGSLYVNNHAFHTPAYDKRAMAKLKPAPFFYYDDGSCEVVHDQVNYVPLRATNCITKCNIGGAVCSKHANLYRAYVESYNIFTQAGFNIWVPTTFDCYNLWQTFTDVNLQGLENIAFNVVNKGSFVGADGELPVAISGDKVFVRDGNTDNLVFVNKTSLPTNIAFELFAKRKVGLTPPLSILKNLGVVATYKFVLWDYEAERPLTSFTKSVCGYTDFAEDVCTCYDNSIQGSYERFTLSTNAVLFSATAVKTGGKSLPAIKLNFGMLNGNAIATVKSEDGNIKNINWFVYVRKDGKPVDHYDGFYTQGRNLQDFLPRSTMEEDFLNMDIGVFIQKYGLEDFNFEHVVYGDVSKTTLGGLHLLISQVRLSKMGILKAEEFVAASDITLKCCTVTYLNDPSSKTVCTYMDLLLDDFVSLLKSLDLTVVSKVHEVIIDNKPWRWMLWCKDNAVATFYPQLQSAEWKCGYSMPGIYKTQRMCLEPCNLYNYGAGLKLPSGIMFNVVKYTQLCQYFNSTTLCVPHNMRVLHLGAGSDYGVAPGTAVLKRWLPHDAIVVDNDVVDYVSDADFSVTGDCATVYLEDKFDLLISDMYDGRTKAIDGENVSKEGFFTYINGFICEKLAIGGSIAIKVTEYSWNKKLYELVQRFSFWTMFCTSVNTSSSEAFVVGINYLGDFAQGPFIDGNIIHANYVFWRNSTVMSLSYNSVLDLSKFNCKHKATVVVQLKDSDINDMVLSLVRSGKLLVRGNGKCLSFSNHLVSTK*",
+        "Protein4a": "MALGLFTLQFVSAVNQSLIKSKVSAEVSRQVIQDVKDGTVTFNLLAYTLMSLFVVYFALFKARSHRGRSALIVFKILILFVYVPLLYWSQAYIDATLIAVILLGRFFHTAWHCWLYKTWDFIVFNVTTLCYAR*",
+        "Protein4b": "MQGKCWFLENKALKPFVCFYGGDQFLYIGDRIVTYLSTNDLYVALRGRIDKDLSLSRKVELYNGECVYLFCEHPAVGIVNTDFKLEIH*",
+        "RdRp": "SFDSSYLNRVRGSSAARLEPCNGTDIDYCVRAFDVYNKDASFIGKNLKSNCVRFKNVDKDDAFYIVKRCIKSVMDHEQSMYNLLKGCNAVAKHDFFTWHEGRTIYGNVSRQDLTKYTMMDLCFALRNFDEKDCEVFKEILVLTGCCNTDYFEMKNWFDPIENEDIHRVYAALGKVVANAMLKCVAFCDEMVLKGVVGVLTLDNQDLNGNFYDFGDFVLCPPGMGIPYCTSYYAYMMPVMGMTNCLASECFMKSDIFGQDFKTFDLLKYDFTEHKEVLFNKYFKYWGQDYHPDCVDCHDEMCILHCSNFNTLFATTIPNTAFGPLCRKVFIDGVPVVATAGYHFKQLGLVWNKDVNTHSTRLTITELLQFVTDPTLIVASSPALVDKRTVCFSVAALSTGLTSQTVKPGHFNKEFYDFLRSQGFFDEGSELTLKHFFFTQKGDAAIKDFDYYRYNRPTILDIGQARVAYQVAARYFDCYEGGCITSREVVVTNLNKSAGWPLNKFGKAGLYYESISYEEQDAIFLLTKRNILPTMTQLNLKYAISGKERARTVGGVSLLATMTTRQFHQKCLKSIVATRNATVVIGTTKFYGGWDNMLKNLMADVDDPKLMGWDYPKCDRAMPSMIRMLSAMILGSKHVTCCTASDKFYRLSNELAQVLTEVVYSNGGFYFKPGGTTSGDATTAYANSVFNIFQAVSSNINCVLSVNSSNCNNFNVKKLQRQLYDNCYRNSNVDESFVDDFYGYLQKHFSMMILSDDGVVCYNKTYAELGYIADISAFKATLYYQNGVFMSTAKCWTEEDLSIGPHEFCSQHTMQIVDENGKYYLPYPDPSRIISAGVFVDDITKTDAVILLERYVSLAIDAYPLSKHPKPEYRKVFYALLDWVKHLNKTLNEGVLESFSVTLLDEQESKFWDESFYASMYEKSTVLQ",
+        "S1": "CQTTNGMNTSHSVCNGCVGHSENVFAVESGGYIPSDFAFNNWFLLTNTSSVVDGVVRSFQPLLLNCLWSVSGSRFTTGFVYFNGTGRGDCKGFYSNASSDVIRYNINFEENLRRGTILFKTSYGAVVFYCTNNTLVSGDAHIPSGTVLGNFYCFVNTTIGNETTSAFVGALPKTVREFVISRTGHFYINGYRYFTLGNVEAVNFNVTNAETTDFCTVALASYADVLVNVSQTAIANIIYCNSVINRLRCDQLSFDVPDGFYSTSPIQSVELPVSIVSLPVYHKHTFIVLYVNFKLRSGVGRCYNCRPAVVNITLANFNETKGPLCVDTSHFTTQYVVGNAKFDRWSASINTGNCPFSFGKVNNFVKFGSVCFSLKDIPGGCAMPIMANLANLNSHTIGSLYVSWSDGDVITGVPKPVEGVSSFMNVTLNKCTKYNIYDVSGVGVIRISNDTFLNGITYTSTSGNLLGFKDVTNGTIYSITPCNPPDQLVVYQQAVVGAMLSENFTSYGFSNVVEMPKFFYASNGTYNCTDAVLTYSSFGVCADGS",
+        "S2": "IIAVQPRNVSYDSVSAIVTANLSIPSNWTTSVQVEYLQITSTPIVVDCSTYVCNGNVRCVELLKQYTSACKTIEDALRNSAMLESADVSEMLTFDKKAFTLANVSSFGDYNLSSVIPSLPRSGSRVAGRSAIEDILFSKLVTSGLGTVDADYKKCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGIALGGLTSAASIPFSLAIQSRLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQLRQNFQAISSSIQAIYDRLDIIQADQQVDRLITGRLAALNVFVSHTLTKYTEVRASRQLAQQKVNECVKSQSKRYGFCGNGTHIFSLVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVDGRNGYVLRQPNLALYKEGNYYRITSRIMFEPRIPTIADFVQIENCNVTFVNISRSELQTIVPEYIDVNKTLQELSYKLPNYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYDVEKIHIQ*",
+        "Spike": "MFVLLVAYALLHIAGCQTTNGMNTSHSVCNGCVGHSENVFAVESGGYIPSDFAFNNWFLLTNTSSVVDGVVRSFQPLLLNCLWSVSGSRFTTGFVYFNGTGRGDCKGFYSNASSDVIRYNINFEENLRRGTILFKTSYGAVVFYCTNNTLVSGDAHIPSGTVLGNFYCFVNTTIGNETTSAFVGALPKTVREFVISRTGHFYINGYRYFTLGNVEAVNFNVTNAETTDFCTVALASYADVLVNVSQTAIANIIYCNSVINRLRCDQLSFDVPDGFYSTSPIQSVELPVSIVSLPVYHKHTFIVLYVNFKLRSGVGRCYNCRPAVVNITLANFNETKGPLCVDTSHFTTQYVVGNAKFDRWSASINTGNCPFSFGKVNNFVKFGSVCFSLKDIPGGCAMPIMANLANLNSHTIGSLYVSWSDGDVITGVPKPVEGVSSFMNVTLNKCTKYNIYDVSGVGVIRISNDTFLNGITYTSTSGNLLGFKDVTNGTIYSITPCNPPDQLVVYQQAVVGAMLSENFTSYGFSNVVEMPKFFYASNGTYNCTDAVLTYSSFGVCADGSIIAVQPRNVSYDSVSAIVTANLSIPSNWTTSVQVEYLQITSTPIVVDCSTYVCNGNVRCVELLKQYTSACKTIEDALRNSAMLESADVSEMLTFDKKAFTLANVSSFGDYNLSSVIPSLPRSGSRVAGRSAIEDILFSKLVTSGLGTVDADYKKCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGIALGGLTSAASIPFSLAIQSRLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQLRQNFQAISSSIQAIYDRLDIIQADQQVDRLITGRLAALNVFVSHTLTKYTEVRASRQLAQQKVNECVKSQSKRYGFCGNGTHIFSLVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVDGRNGYVLRQPNLALYKEGNYYRITSRIMFEPRIPTIADFVQIENCNVTFVNISRSELQTIVPEYIDVNKTLQELSYKLPNYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYDVEKIHIQ*"
+      }
+    },
+    "NODE_0000001": {
+      "aa_muts": {
+        "E": [
+          "I12V"
+        ],
+        "M": [
+          "L82F"
+        ],
+        "N": [
+          "S165P",
+          "S224T",
+          "A225S",
+          "I228S",
+          "Q351H",
+          "V371A"
+        ],
+        "ORF1a": [
+          "Y19N",
+          "V147I",
+          "R151H",
+          "L268V",
+          "V296I",
+          "V416A",
+          "G514R",
+          "N541T",
+          "A569V",
+          "V593F",
+          "D594A",
+          "K682R",
+          "Y733S",
+          "S865A",
+          "E1030D",
+          "M1031V",
+          "D1247V",
+          "R1341K",
+          "V1372I",
+          "V1397I",
+          "F1415V",
+          "A1442E",
+          "Q1448P",
+          "L1453V",
+          "D1533G",
+          "V1748M",
+          "N1760T",
+          "T1792A",
+          "K1824R",
+          "V1842A",
+          "D1898G",
+          "S1904N",
+          "S1913N",
+          "N1918K",
+          "C1954G",
+          "F2011L",
+          "K2019N",
+          "I2076M",
+          "G2255C",
+          "S2359R",
+          "V2519I",
+          "E2647A",
+          "D2702E",
+          "I2892M",
+          "D3187E",
+          "I3353V",
+          "I3847T",
+          "S3990C",
+          "S4072N"
+        ],
+        "ORF1ab": [
+          "Y19N",
+          "V147I",
+          "R151H",
+          "L268V",
+          "V296I",
+          "V416A",
+          "G514R",
+          "N541T",
+          "A569V",
+          "V593F",
+          "D594A",
+          "K682R",
+          "Y733S",
+          "S865A",
+          "E1030D",
+          "M1031V",
+          "D1247V",
+          "R1341K",
+          "V1372I",
+          "V1397I",
+          "F1415V",
+          "A1442E",
+          "Q1448P",
+          "L1453V",
+          "D1533G",
+          "V1748M",
+          "N1760T",
+          "T1792A",
+          "K1824R",
+          "V1842A",
+          "D1898G",
+          "S1904N",
+          "S1913N",
+          "N1918K",
+          "C1954G",
+          "F2011L",
+          "K2019N",
+          "I2076M",
+          "G2255C",
+          "S2359R",
+          "V2519I",
+          "E2647A",
+          "D2702E",
+          "I2892M",
+          "D3187E",
+          "I3353V",
+          "I3847T",
+          "S3990C",
+          "S4072N",
+          "N4215S",
+          "A4301S",
+          "I4526M",
+          "L4592S",
+          "G4825S",
+          "E4835G",
+          "Q4974H",
+          "T5053N",
+          "T5347N",
+          "V5586I",
+          "E5964D",
+          "D6106E",
+          "L6417V",
+          "D6728E"
+        ],
+        "Protein4a": [
+          "F10L",
+          "I19S",
+          "K20N",
+          "S21A",
+          "S69A",
+          "D94Y"
+        ],
+        "Protein4b": [
+          "T34S",
+          "L36F"
+        ],
+        "RdRp": [
+          "S4N",
+          "N147S",
+          "A233S",
+          "I458M",
+          "L524S",
+          "G757S",
+          "E767G",
+          "Q906H"
+        ],
+        "S1": [
+          "M7L",
+          "H11Y",
+          "H20Y",
+          "S73L",
+          "Y94S",
+          "N96D",
+          "A97V",
+          "S98L",
+          "I106L",
+          "A125V",
+          "S144F",
+          "N208T",
+          "A233S",
+          "N292D",
+          "L295P",
+          "R296Q",
+          "V299G",
+          "R301K",
+          "Y303F",
+          "R306Y",
+          "V309G",
+          "Q334K",
+          "V337A",
+          "G338V",
+          "N339Y",
+          "K341N",
+          "F342V",
+          "D343G",
+          "M386V",
+          "L389W",
+          "N391Y",
+          "L392S",
+          "N393K",
+          "S394Y",
+          "H395Y",
+          "V409G",
+          "K415Q",
+          "N429D",
+          "I447V",
+          "N473K",
+          "M515L"
+        ],
+        "S2": [
+          "M82R",
+          "R121T",
+          "A205V",
+          "S215A",
+          "I311T",
+          "L377I",
+          "R411T",
+          "I445M"
+        ],
+        "Spike": [
+          "M22L",
+          "H26Y",
+          "H35Y",
+          "S88L",
+          "Y109S",
+          "N111D",
+          "A112V",
+          "S113L",
+          "I121L",
+          "A140V",
+          "S159F",
+          "N223T",
+          "A248S",
+          "N307D",
+          "L310P",
+          "R311Q",
+          "V314G",
+          "R316K",
+          "Y318F",
+          "R321Y",
+          "V324G",
+          "Q349K",
+          "V352A",
+          "G353V",
+          "N354Y",
+          "K356N",
+          "F357V",
+          "D358G",
+          "M401V",
+          "L404W",
+          "N406Y",
+          "L407S",
+          "N408K",
+          "S409Y",
+          "H410Y",
+          "V424G",
+          "K430Q",
+          "N444D",
+          "I462V",
+          "N488K",
+          "M530L",
+          "M642R",
+          "R681T",
+          "A765V",
+          "S775A",
+          "I871T",
+          "L937I",
+          "R971T",
+          "I1005M"
+        ]
+      }
+    },
+    "NODE_0000009": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000011": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "T1261I",
+          "E2356D"
+        ],
+        "ORF1ab": [
+          "T1261I",
+          "E2356D",
+          "I4910V",
+          "P6297H"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "I842V"
+        ],
+        "S1": [
+          "D36N",
+          "T195S",
+          "A340V",
+          "T396N"
+        ],
+        "S2": [],
+        "Spike": [
+          "D51N",
+          "T210S",
+          "A355V",
+          "T411N"
+        ]
+      }
+    },
+    "NODE_0000012": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "I1930V"
+        ],
+        "ORF1ab": [
+          "I1930V",
+          "E4202G"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "E134G"
+        ],
+        "S1": [
+          "F75L",
+          "E210A",
+          "K294E",
+          "S297R",
+          "V299P"
+        ],
+        "S2": [],
+        "Spike": [
+          "F90L",
+          "E225A",
+          "K309E",
+          "S312R",
+          "V314P"
+        ]
+      }
+    },
+    "NODE_0000013": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "T70M",
+          "R1132S",
+          "I1454T",
+          "L2500F",
+          "N2668S"
+        ],
+        "ORF1ab": [
+          "T70M",
+          "R1132S",
+          "I1454T",
+          "L2500F",
+          "N2668S",
+          "M4148I",
+          "N6436S"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "M80I"
+        ],
+        "S1": [
+          "D450E"
+        ],
+        "S2": [],
+        "Spike": [
+          "D465E"
+        ]
+      }
+    },
+    "NODE_0000014": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "R30H",
+          "S992F",
+          "T1618N"
+        ],
+        "ORF1ab": [
+          "R30H",
+          "S992F",
+          "T1618N",
+          "E5337D"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000015": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "A468T",
+          "M600I",
+          "D774N",
+          "D1279G"
+        ],
+        "ORF1ab": [
+          "A468T",
+          "M600I",
+          "D774N",
+          "D1279G"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000016": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "F554S",
+          "Y2517H",
+          "S3951A"
+        ],
+        "ORF1ab": [
+          "F554S",
+          "Y2517H",
+          "S3951A",
+          "T5846N"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000017": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "G159S"
+        ],
+        "ORF1a": [
+          "A1282V",
+          "S1713L",
+          "K2019E"
+        ],
+        "ORF1ab": [
+          "A1282V",
+          "S1713L",
+          "K2019E"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "M7T",
+          "R74Q",
+          "L75F",
+          "S268P",
+          "V310I",
+          "A390V",
+          "L392H",
+          "N393K"
+        ],
+        "S2": [
+          "R411I"
+        ],
+        "Spike": [
+          "M22T",
+          "R89Q",
+          "L90F",
+          "S283P",
+          "V325I",
+          "A405V",
+          "L407H",
+          "N408K",
+          "R971I"
+        ]
+      }
+    },
+    "NODE_0000018": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000019": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "A1767V",
+          "L2134F"
+        ],
+        "ORF1ab": [
+          "A1767V",
+          "L2134F"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000020": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "S686G",
+          "I3808T"
+        ],
+        "ORF1ab": [
+          "S686G",
+          "I3808T",
+          "K4199R"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "K131R"
+        ],
+        "S1": [
+          "Q74R",
+          "G160D",
+          "P268S",
+          "I310V"
+        ],
+        "S2": [],
+        "Spike": [
+          "Q89R",
+          "G175D",
+          "P283S",
+          "I325V"
+        ]
+      }
+    },
+    "NODE_0000021": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [
+          "A4100V"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "A32V"
+        ],
+        "S1": [
+          "F342L"
+        ],
+        "S2": [],
+        "Spike": [
+          "F357L"
+        ]
+      }
+    },
+    "NODE_0000022": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "I46V",
+          "V140A"
+        ],
+        "ORF1a": [
+          "S992F"
+        ],
+        "ORF1ab": [
+          "S992F",
+          "Q4974H"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "Q906H"
+        ],
+        "S1": [
+          "D89A",
+          "N198D",
+          "L295H",
+          "R301K",
+          "G338D",
+          "F342L",
+          "D343A"
+        ],
+        "S2": [],
+        "Spike": [
+          "D104A",
+          "N213D",
+          "L310H",
+          "R316K",
+          "G353D",
+          "F357L",
+          "D358A"
+        ]
+      }
+    },
+    "NODE_0000028": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "G161V"
+        ],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "A38S",
+          "T212I",
+          "V273M",
+          "Y290H",
+          "N292K",
+          "R296Q",
+          "A308S"
+        ],
+        "S2": [
+          "R594K"
+        ],
+        "Spike": [
+          "A53S",
+          "T227I",
+          "V288M",
+          "Y305H",
+          "N307K",
+          "R311Q",
+          "A323S",
+          "R1154K"
+        ]
+      }
+    },
+    "NODE_0000029": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "N112S",
+          "R151H",
+          "V1441F",
+          "V2009I",
+          "V3264I"
+        ],
+        "ORF1ab": [
+          "N112S",
+          "R151H",
+          "V1441F",
+          "V2009I",
+          "V3264I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000031": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "S232A"
+        ],
+        "ORF1a": [
+          "V1451L",
+          "I1691V"
+        ],
+        "ORF1ab": [
+          "V1451L",
+          "I1691V",
+          "S5812N"
+        ],
+        "Protein4a": [
+          "D120Y"
+        ],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "R87S"
+        ],
+        "S2": [
+          "Y340H",
+          "I411T"
+        ],
+        "Spike": [
+          "R102S",
+          "Y900H",
+          "I971T"
+        ]
+      }
+    },
+    "NODE_0000033": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "P795T",
+          "S865A",
+          "F1415V",
+          "S2182L",
+          "A2722G",
+          "F3190S",
+          "T3734N"
+        ],
+        "ORF1ab": [
+          "P795T",
+          "S865A",
+          "F1415V",
+          "S2182L",
+          "A2722G",
+          "F3190S",
+          "T3734N",
+          "K5035R",
+          "V5725I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000035": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000036": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "V1282L",
+          "D1878Y"
+        ],
+        "ORF1ab": [
+          "V1282L",
+          "D1878Y",
+          "K4480R"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "K412R"
+        ],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000037": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "G106S"
+        ],
+        "ORF1ab": [
+          "G106S"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000038": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "P795T",
+          "F1415V",
+          "S2182L",
+          "A2722G",
+          "F3190S",
+          "T3734N"
+        ],
+        "ORF1ab": [
+          "P795T",
+          "F1415V",
+          "S2182L",
+          "A2722G",
+          "F3190S",
+          "T3734N"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [
+          "K232R"
+        ],
+        "Spike": [
+          "K792R"
+        ]
+      }
+    },
+    "NODE_0000040": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "E33D",
+          "E141D"
+        ],
+        "ORF1a": [
+          "V1451L"
+        ],
+        "ORF1ab": [
+          "V1451L"
+        ],
+        "Protein4a": [
+          "Q9H"
+        ],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "A26D",
+          "V273E",
+          "Y290H",
+          "N292K",
+          "R296G"
+        ],
+        "S2": [
+          "N285S"
+        ],
+        "Spike": [
+          "A41D",
+          "V288E",
+          "Y305H",
+          "N307K",
+          "R311G",
+          "N845S"
+        ]
+      }
+    },
+    "NODE_0000041": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000042": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "E2650V",
+          "V3454M"
+        ],
+        "ORF1ab": [
+          "E2650V",
+          "V3454M"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "A166T"
+        ],
+        "S2": [],
+        "Spike": [
+          "A181T"
+        ]
+      }
+    },
+    "NODE_0000043": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [
+          "A4540S",
+          "L6204F"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "A472S"
+        ],
+        "S1": [
+          "D376A",
+          "H392Y"
+        ],
+        "S2": [],
+        "Spike": [
+          "D391A",
+          "H407Y"
+        ]
+      }
+    },
+    "NODE_0000044": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "F75V"
+        ],
+        "S2": [],
+        "Spike": [
+          "F90V"
+        ]
+      }
+    },
+    "NODE_0000045": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [
+          "M5889T"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "D198N",
+          "R296Q",
+          "N362I",
+          "D376Y"
+        ],
+        "S2": [
+          "V179A"
+        ],
+        "Spike": [
+          "D213N",
+          "R311Q",
+          "N377I",
+          "D391Y",
+          "V739A"
+        ]
+      }
+    },
+    "NODE_0000046": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "V60I"
+        ],
+        "ORF1a": [
+          "V1436L"
+        ],
+        "ORF1ab": [
+          "V1436L"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "S71Y",
+          "Q74E"
+        ],
+        "S2": [],
+        "Spike": [
+          "S86Y",
+          "Q89E"
+        ]
+      }
+    },
+    "NODE_0000048": {
+      "aa_muts": {
+        "E": [],
+        "M": [
+          "Y39F"
+        ],
+        "N": [],
+        "ORF1a": [
+          "P1910T"
+        ],
+        "ORF1ab": [
+          "P1910T",
+          "A4301S",
+          "V4403L",
+          "I5112S"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "A233S",
+          "V335L"
+        ],
+        "S1": [
+          "A26D"
+        ],
+        "S2": [],
+        "Spike": [
+          "A41D"
+        ]
+      }
+    },
+    "NODE_0000049": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "A3656S"
+        ],
+        "ORF1ab": [
+          "A3656S"
+        ],
+        "Protein4a": [
+          "I19T"
+        ],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "F75V",
+          "T76I",
+          "N350D",
+          "H392Y"
+        ],
+        "S2": [],
+        "Spike": [
+          "F90V",
+          "T91I",
+          "N365D",
+          "H407Y"
+        ]
+      }
+    },
+    "NODE_0000050": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "A3205V",
+          "V3324I",
+          "T3784I"
+        ],
+        "ORF1ab": [
+          "A3205V",
+          "V3324I",
+          "T3784I"
+        ],
+        "Protein4a": [
+          "I19T"
+        ],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "T76I",
+          "N350D",
+          "H392Y"
+        ],
+        "S2": [],
+        "Spike": [
+          "T91I",
+          "N365D",
+          "H407Y"
+        ]
+      }
+    },
+    "NODE_0000051": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000052": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [
+          "T5889M"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000053": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "F75V"
+        ],
+        "S2": [],
+        "Spike": [
+          "F90V"
+        ]
+      }
+    },
+    "NODE_0000054": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "R151H"
+        ],
+        "ORF1ab": [
+          "R151H"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000055": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000057": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "NODE_0000059": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "A461V"
+        ],
+        "ORF1ab": [
+          "A461V"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "Q334R",
+          "A343P"
+        ],
+        "S2": [],
+        "Spike": [
+          "Q349R",
+          "A358P"
+        ]
+      }
+    },
+    "NODE_0000065": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [
+          "A5315V",
+          "I5608V"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "S12A",
+          "A343P"
+        ],
+        "S2": [],
+        "Spike": [
+          "S27A",
+          "A358P"
+        ]
+      }
+    },
+    "OK073077": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "S172I"
+        ],
+        "ORF1a": [
+          "L544I",
+          "L928F",
+          "L1929F"
+        ],
+        "ORF1ab": [
+          "L544I",
+          "L928F",
+          "L1929F",
+          "A6271V"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "OK073078": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "I379L",
+          "T610N",
+          "A1983V"
+        ],
+        "ORF1ab": [
+          "I379L",
+          "T610N",
+          "A1983V"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "OK073079": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "P1908T"
+        ],
+        "ORF1ab": [
+          "P1908T",
+          "K6428R"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "OK073080": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "L295F"
+        ],
+        "ORF1a": [],
+        "ORF1ab": [
+          "S6137N"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "OK073081": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [
+          "R231H",
+          "F304Y"
+        ],
+        "ORF1a": [
+          "S3190P"
+        ],
+        "ORF1ab": [
+          "S3190P",
+          "N4570I"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "N502I"
+        ],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "OK073082": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "N1918S",
+          "K2046N"
+        ],
+        "ORF1ab": [
+          "N1918S",
+          "K2046N",
+          "T6105A"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [
+          "R547H"
+        ],
+        "Spike": [
+          "R1107H"
+        ]
+      }
+    },
+    "OK073083": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "K107N",
+          "A1598V",
+          "I3299T"
+        ],
+        "ORF1ab": [
+          "K107N",
+          "A1598V",
+          "I3299T"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [
+          "G6E"
+        ],
+        "S2": [],
+        "Spike": [
+          "G21E"
+        ]
+      }
+    },
+    "OK073084": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "C437Y"
+        ],
+        "ORF1ab": [
+          "C437Y",
+          "V5318A"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "ON729316": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [],
+        "ORF1ab": [],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    },
+    "X69721": {
+      "aa_muts": {
+        "E": [],
+        "M": [],
+        "N": [],
+        "ORF1a": [
+          "A1982Q",
+          "F4042S"
+        ],
+        "ORF1ab": [
+          "A1982Q",
+          "F4042S",
+          "A4535R",
+          "D4713A",
+          "K5241T",
+          "Y5955D"
+        ],
+        "Protein4a": [],
+        "Protein4b": [],
+        "RdRp": [
+          "A467R",
+          "D645A"
+        ],
+        "S1": [],
+        "S2": [],
+        "Spike": []
+      }
+    }
+  },
+  "reference": {
+    "E": "MFLKLVDDHALIVNVLLWCVVLIVILLVCITIIKLIKLCFTCHMFCNRTVYGPIKNVYHIYQSYMHIDPFPKRVIDF*",
+    "M": "MSNDNCTGDIVTHLKNWNFGWNVILTIFIVILQFGHYKYSRLFYGLKMLVLWLLWPLVLALSIFDTWANWDSNWAFVAFSFLMAVSTLVMWVMYFANSFRLFRRARTFWAWNPEVNAITVTTVLGQTYYQPIQQAPTGITVTLLSGVLYVDGHRLASGVQVHNLPEYMTVAVPSTTIIYSRVGRSVNSQNSTGWVFYVRVKHGDFSAVSSPMSNMTENERLLHFF*",
+    "N": "MATVKWADASEPQRGRQGRIPYSLYSPLLVDSEQPWKVIPRNLVPINKKDKNKLIGYWNVQKRFRTRKGKRVDLSPKLHFYYLGTGPHKDAKFRERVEGVVWVAVDGAKTEPTGYGVRRKNSEPEIPHFNQKLPNGVTVVEEPDSRAPSRSQSRSQSRGRGESKSQSRNPSSDRNHNSQDDIMKAVAAALKSLGFDKPQEKDKKSAKTGTPKPSRNQSPASSQSAAKILARSQSSETKEQKHEMQKPRWKRQPNDDVTSNVTQCFGPRDLDHNFGSAGVVANGVKAKGYPQFAELVPSTAAMLFDSHIVSKESGNTVVLTFTTRVTVPKDHPHLGKFLEELNAFTREMQQQPLLNPSALEFNPSQTSPATVEPVRDEVSIETDIIDEVN*",
+    "ORF1a": "MACNRVTLAVASDSEISAYGCSTIAQAVRRYSEAASNGFRACRFVSLDLQDCIVGIADDTYVMGLHGNQTLFCNIMKFSDRPFMLHGWLVFSNSNYLLEEFDVVFGKRGGGNVTYTDQYLCGADGKPVMSEDLWQFVDHFGENEEIVINGRTYVCAWLTKRKPLDYKRQNNLAIEEIEYVHGDALHTLRNGSVLEMAKEVKTSSKVVLSDALDKLYKVFGSPVMTNGSNILEAFTKPVFISALVQCTCGTKSWSVGDWTGFKSSCCNLISNKLCVVPGNVKPGDAVITTQQAGAGVKYFCGMTLKFVANIEGVSVWRVIALQSVDCFVASSTFVEEEHVNRMDTFCFNVRNSVTDECRLAMLGAEMTSNVRRQVASGVIDISTGWFDVYDDIFAESKPWFVRKAEDIFGPCWSALVSALKQLKVTTGELVRFVKSICNSAVAVVGGTIQILASVPEKFLNAFDVFVTAIQTVFDCAVETCTIAGKAFDKVFDYVLLDNALVKLVTTKLKGVREGGLNKVKYATVVVGSTEEVKSSRVERSNAVLTIANNYSKLFDEGYTVVIGDVAYFASDGYFRLMASPNSVLTTAVYKPLVDFNVNVMGTRPEKFPTTVTCENLESAVLFVNDKITEFQLDYSIDVIDNEIIVKPNISLCVPLYVRDYVDKWDDFCRQYSNESWFEDDYKAFISVLDITDAAVKAAESKAFVDTIVPPCPSILKVIDGGKIWNGVIKNVNYVRDWLKSLKLNLTQQGLLGTCAKRFKRWLGILLEAYNAFLDTVVSTVKIGGLTFKTYAFDKPYIVIRDIVCKVENKTEAEWIELFPHNDRIKSFSTFESAYMPIADPTHFDIEEVELLDAEFVEPGCGGILSVIDEHVFYKKDGVYYPSNGTNILPVAFTKAAGGKVSFSDDVEVKDIEPVYRVKLCFEFEDEKLVDVCEKAIGKKIKHEGDWDSFCKTIQSALSVVSCYVNLPTYYIYDEEGGNDLSLPVMISEWPLSVQQAQQEATLPDIAEDVVDQVEEVNSIFDIETVDVKHEMSPFEMPFEELNGLKILKQLDNNCWVNSVMLQIQLTGILDGDYAMQFFKMGRVAKMIERCYTAEQCIRGAMGDVGLCMYRLLKDLHTGFMVMDYKCSCTSGRLEESGAVLFCTPTKKAFPYGTCLNCNAPRMCTIRQLQGTIIFVQQKPEPVNPVSFVVKPVCSSIFRGAVSCGHYQTNIYSQNLCVDGFGVNKIQPWTNDALNTICIKDADYNAKDEISVTPIKNTVDTTPKEEFVVKEKLNAFLVHDNVAFYQGDVDTVVNGVDFDFIVNAANENLAHGGGLAKALDVYTKGKLQRLSKEHIGLAGKVRVGTGVMVECDSLRIFNVVGPRKGKHERDLLVKAYNTINNEQGTPLTPILSCGIFGVKLETSLEVLLDVCNTKEFKVFVYTDTEVCKVKDFVSGLVNVQKVAQPKIEQKPVSLIKVAPKPYRVDGKFSYFTEDLLCVADDKPIVLFTDSMLTLDDRGLALDNALSGVLSAAIKDCVDINKAIPSGNLIKFDIDSVVVYMCVVPSEKDKHLDNNVQRCTRKLNRLMCDIVCTIPADYILPLVLSSLTCNVSFVGELKAAEAKVITIKVTEDGVNVHDVTVTTDKSFEQQVGVIADKDKDLSGAVPSDLNTSELLTKAIDVDWVEFYGFKDAVTFATVDHSAFAYESAVVNGIRVLKTSDNNCWVNAVCIALQYSKPHFISQGLDAAWNKFVLGDVEIFVAFVYYVARLVKGDKGDAEDTLNKLSKYLANEAQVQLEHYSSCVECDAKFKNSVTSINSAIVCASVKRDGVQVGYCVHGIKYYSRVKSVRGRAIIVSVEQLEPCVQSRLLSGVAYTAFSGPVDKGHYTVYDTAKKSMYDGDRFVKHDLSLLSVTSVVMVGDYVAPVSTVKPKPVISQLDENAQKFFDFGDFLIHNFVIFFTWLLSMFTLCKTAVTTCDVKIMAKAPQRTGVVLKRSLKYNLKASAAVLKSKWWLLAKFTKLLLLIYTLYSVVLFCVRFGPFKFCSETVNGYAKSNFVKDDYCDGSLGCKMCLFGYQELSQFSHLDVVWKHITDPLFSNIQPFIVMVLLLIFGDNYLRCFLLYFVAQMISTVGVFLGYKETNWFLHFIPFDVICDELLVTVIVIKVISFVRHVLFGCENPDCIACSKSARLKRFPVNTIVNGVQRSFYVNANGGSKFCKKHRFFCVDCDSYGYGSTFITPEVSRELGNITKTNVQPTGPAYVMIDKVEFENGFYRLYSGETFWRYNFDITESKYSCKEVFKNCNVLDDFIVFNNNGTNVTQVKNASVYFSQLLCRPIKLVDSELLSTLSVDFNGVLHKAYIDVLRNSFGKDLNANMSLAECKSALGLSISDHEFTSAISNAHRCDVLLSDLSFNNFVSSYAKPEEKLSAYDLACCMRAGAKVVNANVLTKDQTPIVWHAKDFNSLSAEGRKYIVKTSKAKGLTFLLTINENQAVTQIPATSIVAKQGAGDAGHSLTWLWLLCGLVCLIQFYLCFFMPYFMYDVVSSFEGYDFKYIENGQLKNFEAPLKCVRNVFENFEDWHYAKFGFTPLNKQSCPIVVGVSEIVNTVAGIPSNVYLVGKTLIFTLQAAFGNAGVCYDIFGVTTPEKCIFTSACTRLEGLGGNNVYCYNTELMEGSLPYSSIQANAYYKYDNGNFIKLPEVIAQGFGFRTVRTIATKYCRVGECVDSNAGVCFGFDKWFVNDGRVANGYVCGTGLWNLVFNILSMFSSSFSVAAMSGQILLNCALGAFAIFCCFLVTKFRRMFGDLSVGVCTVVVAVLLNNVSYIVTQNLVTMIAYAILYFFATRSLRYAWIWCAAYLIAYISFAPWWLCAWYFLAMLTGLLPSLLKLKVSTNLFEGDKFVGTFESAAAGTFVIDIRSYEKLANSISPEKLKSYAASYNRYKYYSGNANEADYRCACYAYLAKAMLDFSRDHNDILYTPPTVSYGSTLQAGLRKMAQPSGFVEKCVVRVCYGNTVLNGLWLGDIVYCPRHVIASNTTSAIDYDHEYSIMRLHNFSIISGTAFLGVVGATMHGVTLKIKVSQTNMHTPRHSFRTLKSGEGFNILACYDGCAQGVFGVNMRTNWTIRGSFINGACGSPGYNLKNGEVEFVYMHQIELGSGSHVGSSFDGVMYGGFEDQPNLQVESANQMLTVNVVAFLYAAILNGCTWWLKGDKLFVEHYNEWAQANGFTAMNGEDAFSILAAKTGVCVERLLHAIQVLNNGFGGKQILGYSSLNDEFSINEVVKQMFGVNLQSGKTTSMFKSISLFAGFFVMFWAELFVYTTTIWVNPGFLTPFMILLVALSLCLTFVVKHKVLFLQVFLLPSIIVAAIQNCAWDYHITKVLAEKFDYNVSVMQMDIQGFVNIFICLFVALLHTWRFAKERCTHWCTYLFSLIAVLYTALYSYDYVSLLVMLLCAISNEWYIGAIIFRICRFGVAFLPVEYVSYFDGVKTVLLFYMLLGFVSCMYYGLLYWINRFCKCTLGVYDFCVSPAEFKYMVANGLNAPNGPFDALFLSFKLMGIGGPRTIKVSTVQSKLTDLKCTNVVLMGILSNMNIASNSKEWAYCVEMHNKINLCDDPETAQELLLALLAFFLSKHSDFGLGDLVDSYFENDSILQSVASSFVGMPSFVAYETARQEYENAVANGSSPQIIKQLKKAMNVAKAEFDRESSVQKKINRMAEQAAAAMYKEARAVNRKSKVVSAMHSLLFGMLRRLDMSSVDTILNMARNGVVPLSVIPATSAARLVVVVPDHDSFVKMMVDGFVHYAGVVWTLQEVKDNDGKNVHLKDVTKENQEILVWPLILTCERVVKLQNNEIMPGKMKVKATKGEGDGGIISEGNALYNNEGGRAFMYAYVTTKPGMKYVKWEHDSGVVTVELEPPCRFVIDTPTGPQIKYLYFVKNLNNLRRGAVLGYIGATVRLQAGKQTEFVSNSHLLTHCSFAVDPAAAYLDAVKQGAKPVGNCVKMLTNGSGSGQAITSTIDSNTTQDTYGGASVCIYCRAHVAHPTMDGFCQYKGKWVQVPIGTNDPIRFCLENTVCKVCGCWLNHGCTCDRTAIQSFDSSYLNESGALVPLD*",
+    "ORF1ab": "MACNRVTLAVASDSEISAYGCSTIAQAVRRYSEAASNGFRACRFVSLDLQDCIVGIADDTYVMGLHGNQTLFCNIMKFSDRPFMLHGWLVFSNSNYLLEEFDVVFGKRGGGNVTYTDQYLCGADGKPVMSEDLWQFVDHFGENEEIVINGRTYVCAWLTKRKPLDYKRQNNLAIEEIEYVHGDALHTLRNGSVLEMAKEVKTSSKVVLSDALDKLYKVFGSPVMTNGSNILEAFTKPVFISALVQCTCGTKSWSVGDWTGFKSSCCNLISNKLCVVPGNVKPGDAVITTQQAGAGVKYFCGMTLKFVANIEGVSVWRVIALQSVDCFVASSTFVEEEHVNRMDTFCFNVRNSVTDECRLAMLGAEMTSNVRRQVASGVIDISTGWFDVYDDIFAESKPWFVRKAEDIFGPCWSALVSALKQLKVTTGELVRFVKSICNSAVAVVGGTIQILASVPEKFLNAFDVFVTAIQTVFDCAVETCTIAGKAFDKVFDYVLLDNALVKLVTTKLKGVREGGLNKVKYATVVVGSTEEVKSSRVERSNAVLTIANNYSKLFDEGYTVVIGDVAYFASDGYFRLMASPNSVLTTAVYKPLVDFNVNVMGTRPEKFPTTVTCENLESAVLFVNDKITEFQLDYSIDVIDNEIIVKPNISLCVPLYVRDYVDKWDDFCRQYSNESWFEDDYKAFISVLDITDAAVKAAESKAFVDTIVPPCPSILKVIDGGKIWNGVIKNVNYVRDWLKSLKLNLTQQGLLGTCAKRFKRWLGILLEAYNAFLDTVVSTVKIGGLTFKTYAFDKPYIVIRDIVCKVENKTEAEWIELFPHNDRIKSFSTFESAYMPIADPTHFDIEEVELLDAEFVEPGCGGILSVIDEHVFYKKDGVYYPSNGTNILPVAFTKAAGGKVSFSDDVEVKDIEPVYRVKLCFEFEDEKLVDVCEKAIGKKIKHEGDWDSFCKTIQSALSVVSCYVNLPTYYIYDEEGGNDLSLPVMISEWPLSVQQAQQEATLPDIAEDVVDQVEEVNSIFDIETVDVKHEMSPFEMPFEELNGLKILKQLDNNCWVNSVMLQIQLTGILDGDYAMQFFKMGRVAKMIERCYTAEQCIRGAMGDVGLCMYRLLKDLHTGFMVMDYKCSCTSGRLEESGAVLFCTPTKKAFPYGTCLNCNAPRMCTIRQLQGTIIFVQQKPEPVNPVSFVVKPVCSSIFRGAVSCGHYQTNIYSQNLCVDGFGVNKIQPWTNDALNTICIKDADYNAKDEISVTPIKNTVDTTPKEEFVVKEKLNAFLVHDNVAFYQGDVDTVVNGVDFDFIVNAANENLAHGGGLAKALDVYTKGKLQRLSKEHIGLAGKVRVGTGVMVECDSLRIFNVVGPRKGKHERDLLVKAYNTINNEQGTPLTPILSCGIFGVKLETSLEVLLDVCNTKEFKVFVYTDTEVCKVKDFVSGLVNVQKVAQPKIEQKPVSLIKVAPKPYRVDGKFSYFTEDLLCVADDKPIVLFTDSMLTLDDRGLALDNALSGVLSAAIKDCVDINKAIPSGNLIKFDIDSVVVYMCVVPSEKDKHLDNNVQRCTRKLNRLMCDIVCTIPADYILPLVLSSLTCNVSFVGELKAAEAKVITIKVTEDGVNVHDVTVTTDKSFEQQVGVIADKDKDLSGAVPSDLNTSELLTKAIDVDWVEFYGFKDAVTFATVDHSAFAYESAVVNGIRVLKTSDNNCWVNAVCIALQYSKPHFISQGLDAAWNKFVLGDVEIFVAFVYYVARLVKGDKGDAEDTLNKLSKYLANEAQVQLEHYSSCVECDAKFKNSVTSINSAIVCASVKRDGVQVGYCVHGIKYYSRVKSVRGRAIIVSVEQLEPCVQSRLLSGVAYTAFSGPVDKGHYTVYDTAKKSMYDGDRFVKHDLSLLSVTSVVMVGDYVAPVSTVKPKPVISQLDENAQKFFDFGDFLIHNFVIFFTWLLSMFTLCKTAVTTCDVKIMAKAPQRTGVVLKRSLKYNLKASAAVLKSKWWLLAKFTKLLLLIYTLYSVVLFCVRFGPFKFCSETVNGYAKSNFVKDDYCDGSLGCKMCLFGYQELSQFSHLDVVWKHITDPLFSNIQPFIVMVLLLIFGDNYLRCFLLYFVAQMISTVGVFLGYKETNWFLHFIPFDVICDELLVTVIVIKVISFVRHVLFGCENPDCIACSKSARLKRFPVNTIVNGVQRSFYVNANGGSKFCKKHRFFCVDCDSYGYGSTFITPEVSRELGNITKTNVQPTGPAYVMIDKVEFENGFYRLYSGETFWRYNFDITESKYSCKEVFKNCNVLDDFIVFNNNGTNVTQVKNASVYFSQLLCRPIKLVDSELLSTLSVDFNGVLHKAYIDVLRNSFGKDLNANMSLAECKSALGLSISDHEFTSAISNAHRCDVLLSDLSFNNFVSSYAKPEEKLSAYDLACCMRAGAKVVNANVLTKDQTPIVWHAKDFNSLSAEGRKYIVKTSKAKGLTFLLTINENQAVTQIPATSIVAKQGAGDAGHSLTWLWLLCGLVCLIQFYLCFFMPYFMYDVVSSFEGYDFKYIENGQLKNFEAPLKCVRNVFENFEDWHYAKFGFTPLNKQSCPIVVGVSEIVNTVAGIPSNVYLVGKTLIFTLQAAFGNAGVCYDIFGVTTPEKCIFTSACTRLEGLGGNNVYCYNTELMEGSLPYSSIQANAYYKYDNGNFIKLPEVIAQGFGFRTVRTIATKYCRVGECVDSNAGVCFGFDKWFVNDGRVANGYVCGTGLWNLVFNILSMFSSSFSVAAMSGQILLNCALGAFAIFCCFLVTKFRRMFGDLSVGVCTVVVAVLLNNVSYIVTQNLVTMIAYAILYFFATRSLRYAWIWCAAYLIAYISFAPWWLCAWYFLAMLTGLLPSLLKLKVSTNLFEGDKFVGTFESAAAGTFVIDIRSYEKLANSISPEKLKSYAASYNRYKYYSGNANEADYRCACYAYLAKAMLDFSRDHNDILYTPPTVSYGSTLQAGLRKMAQPSGFVEKCVVRVCYGNTVLNGLWLGDIVYCPRHVIASNTTSAIDYDHEYSIMRLHNFSIISGTAFLGVVGATMHGVTLKIKVSQTNMHTPRHSFRTLKSGEGFNILACYDGCAQGVFGVNMRTNWTIRGSFINGACGSPGYNLKNGEVEFVYMHQIELGSGSHVGSSFDGVMYGGFEDQPNLQVESANQMLTVNVVAFLYAAILNGCTWWLKGDKLFVEHYNEWAQANGFTAMNGEDAFSILAAKTGVCVERLLHAIQVLNNGFGGKQILGYSSLNDEFSINEVVKQMFGVNLQSGKTTSMFKSISLFAGFFVMFWAELFVYTTTIWVNPGFLTPFMILLVALSLCLTFVVKHKVLFLQVFLLPSIIVAAIQNCAWDYHITKVLAEKFDYNVSVMQMDIQGFVNIFICLFVALLHTWRFAKERCTHWCTYLFSLIAVLYTALYSYDYVSLLVMLLCAISNEWYIGAIIFRICRFGVAFLPVEYVSYFDGVKTVLLFYMLLGFVSCMYYGLLYWINRFCKCTLGVYDFCVSPAEFKYMVANGLNAPNGPFDALFLSFKLMGIGGPRTIKVSTVQSKLTDLKCTNVVLMGILSNMNIASNSKEWAYCVEMHNKINLCDDPETAQELLLALLAFFLSKHSDFGLGDLVDSYFENDSILQSVASSFVGMPSFVAYETARQEYENAVANGSSPQIIKQLKKAMNVAKAEFDRESSVQKKINRMAEQAAAAMYKEARAVNRKSKVVSAMHSLLFGMLRRLDMSSVDTILNMARNGVVPLSVIPATSAARLVVVVPDHDSFVKMMVDGFVHYAGVVWTLQEVKDNDGKNVHLKDVTKENQEILVWPLILTCERVVKLQNNEIMPGKMKVKATKGEGDGGIISEGNALYNNEGGRAFMYAYVTTKPGMKYVKWEHDSGVVTVELEPPCRFVIDTPTGPQIKYLYFVKNLNNLRRGAVLGYIGATVRLQAGKQTEFVSNSHLLTHCSFAVDPAAAYLDAVKQGAKPVGNCVKMLTNGSGSGQAITSTIDSNTTQDTYGGASVCIYCRAHVAHPTMDGFCQYKGKWVQVPIGTNDPIRFCLENTVCKVCGCWLNHGCTCDRTAIQSFDSSYLNRVRGSSAARLEPCNGTDIDYCVRAFDVYNKDASFIGKNLKSNCVRFKNVDKDDAFYIVKRCIKSVMDHEQSMYNLLKGCNAVAKHDFFTWHEGRTIYGNVSRQDLTKYTMMDLCFALRNFDEKDCEVFKEILVLTGCCNTDYFEMKNWFDPIENEDIHRVYAALGKVVANAMLKCVAFCDEMVLKGVVGVLTLDNQDLNGNFYDFGDFVLCPPGMGIPYCTSYYAYMMPVMGMTNCLASECFMKSDIFGQDFKTFDLLKYDFTEHKEVLFNKYFKYWGQDYHPDCVDCHDEMCILHCSNFNTLFATTIPNTAFGPLCRKVFIDGVPVVATAGYHFKQLGLVWNKDVNTHSTRLTITELLQFVTDPTLIVASSPALVDKRTVCFSVAALSTGLTSQTVKPGHFNKEFYDFLRSQGFFDEGSELTLKHFFFTQKGDAAIKDFDYYRYNRPTILDIGQARVAYQVAARYFDCYEGGCITSREVVVTNLNKSAGWPLNKFGKAGLYYESISYEEQDAIFLLTKRNILPTMTQLNLKYAISGKERARTVGGVSLLATMTTRQFHQKCLKSIVATRNATVVIGTTKFYGGWDNMLKNLMADVDDPKLMGWDYPKCDRAMPSMIRMLSAMILGSKHVTCCTASDKFYRLSNELAQVLTEVVYSNGGFYFKPGGTTSGDATTAYANSVFNIFQAVSSNINCVLSVNSSNCNNFNVKKLQRQLYDNCYRNSNVDESFVDDFYGYLQKHFSMMILSDDGVVCYNKTYAELGYIADISAFKATLYYQNGVFMSTAKCWTEEDLSIGPHEFCSQHTMQIVDENGKYYLPYPDPSRIISAGVFVDDITKTDAVILLERYVSLAIDAYPLSKHPKPEYRKVFYALLDWVKHLNKTLNEGVLESFSVTLLDEQESKFWDESFYASMYEKSTVLQAAGLCVVCGSQTVLRCGDCLRRPMLCTKCAYDHVFGTDHKFILAITPYVCNTSGCNVTDVTKLYLGGLNYYCVDHKPHLSFPLCSAGNVFGLYKSSALGSMDIDVFNKLSTSDWSDIRDYKLANDAKESLRLFAAETVKAKEESVKSSYAYATLKEIVGPKELLLLWESGKAKPPLNRNSVFTCFQITKDSKFQVGEFVFEKVDYGSDTVTYKSTATTKLVPGMLFILTSHNVAPLRAPTMANQEKYSTIYKLHPSFNVSDAYANLVPYYQLIGKQRITTIQGPPGSGKSHCSIGIGVYYPGARIVFTACSHAAVDSLCAKAVTAYSVDKCTRIIPARARVECYSGFKPNNTSAQYVFSTVNALPEVNADIVVVDEVSMCTNYDLSVINQRISYKHIVYVGDPQQLPAPRVLISKGVMEPIDYNVVTQRMCAIGPDVFLHKCYRCPAEIVNTVSELVYENKFVPVKEASKQCFKIFERGSVQVDNGSSINRRQLDVVKRFIHKNSTWSKAVFISPYNSQNYVAARLLGLQTQTVDSAQGSEYDYVIFAQTSDTAHACNANRFNVAITRAKKGIFCIMSDRTLFDALKFFEVTMTDLQSESSCGLFKDCARNPIDLPPSHATTYLSLSDRFKTSGDLAVQIGNNNVCTYEHVISYMGFRFDVSMPGSHSLFCTRDFAMRHVRGWLGMDVEGAHVTGDNVGTNVPLQVGFSNGVDFVAQPEGCVLTNTGSVVKPVRARAPPGEQFTHIVPLLRKGQPWSVLRKRIVQMIADFLAGSSDVLVFVLWAGGLELTTMRYFVKIGAVKHCQCGTVATCYNSVSNDYCCFKHALGCDYVYNPYVIDIQQWGYVGSLSTNHHAICNVHRNEHVASGDAIMTRCLAVYDCFVKNVDWSITYPMIANENAINKGGRTVQSHIMRAAIKLYNPKAIHDIGNPKGIRCAVTDAKWYCYDKNPINSNVKTLEYDYMTHGQMEGLCLFWNCNVDMYPEFSIVCRFDTRTRSTLNLEGVNGGSLYVNNHAFHTPAYDKRAMAKLKPAPFFYYDDGSCEVVHDQVNYVPLRATNCITKCNIGGAVCSKHANLYRAYVESYNIFTQAGFNIWVPTTFDCYNLWQTFTDVNLQGLENIAFNVVNKGSFVGADGELPVAISGDKVFVRDGNTDNLVFVNKTSLPTNIAFELFAKRKVGLTPPLSILKNLGVVATYKFVLWDYEAERPLTSFTKSVCGYTDFAEDVCTCYDNSIQGSYERFTLSTNAVLFSATAVKTGGKSLPAIKLNFGMLNGNAIATVKSEDGNIKNINWFVYVRKDGKPVDHYDGFYTQGRNLQDFLPRSTMEEDFLNMDIGVFIQKYGLEDFNFEHVVYGDVSKTTLGGLHLLISQVRLSKMGILKAEEFVAASDITLKCCTVTYLNDPSSKTVCTYMDLLLDDFVSLLKSLDLTVVSKVHEVIIDNKPWRWMLWCKDNAVATFYPQLQSAEWKCGYSMPGIYKTQRMCLEPCNLYNYGAGLKLPSGIMFNVVKYTQLCQYFNSTTLCVPHNMRVLHLGAGSDYGVAPGTAVLKRWLPHDAIVVDNDVVDYVSDADFSVTGDCATVYLEDKFDLLISDMYDGRTKAIDGENVSKEGFFTYINGFICEKLAIGGSIAIKVTEYSWNKKLYELVQRFSFWTMFCTSVNTSSSEAFVVGINYLGDFAQGPFIDGNIIHANYVFWRNSTVMSLSYNSVLDLSKFNCKHKATVVVQLKDSDINDMVLSLVRSGKLLVRGNGKCLSFSNHLVSTK*",
+    "Protein4a": "MALGLFTLQFVSAVNQSLIKSKVSAEVSRQVIQDVKDGTVTFNLLAYTLMSLFVVYFALFKARSHRGRSALIVFKILILFVYVPLLYWSQAYIDATLIAVILLGRFFHTAWHCWLYKTWDFIVFNVTTLCYAR*",
+    "Protein4b": "MQGKCWFLENKALKPFVCFYGGDQFLYIGDRIVTYLSTNDLYVALRGRIDKDLSLSRKVELYNGECVYLFCEHPAVGIVNTDFKLEIH*",
+    "RdRp": "SFDSSYLNRVRGSSAARLEPCNGTDIDYCVRAFDVYNKDASFIGKNLKSNCVRFKNVDKDDAFYIVKRCIKSVMDHEQSMYNLLKGCNAVAKHDFFTWHEGRTIYGNVSRQDLTKYTMMDLCFALRNFDEKDCEVFKEILVLTGCCNTDYFEMKNWFDPIENEDIHRVYAALGKVVANAMLKCVAFCDEMVLKGVVGVLTLDNQDLNGNFYDFGDFVLCPPGMGIPYCTSYYAYMMPVMGMTNCLASECFMKSDIFGQDFKTFDLLKYDFTEHKEVLFNKYFKYWGQDYHPDCVDCHDEMCILHCSNFNTLFATTIPNTAFGPLCRKVFIDGVPVVATAGYHFKQLGLVWNKDVNTHSTRLTITELLQFVTDPTLIVASSPALVDKRTVCFSVAALSTGLTSQTVKPGHFNKEFYDFLRSQGFFDEGSELTLKHFFFTQKGDAAIKDFDYYRYNRPTILDIGQARVAYQVAARYFDCYEGGCITSREVVVTNLNKSAGWPLNKFGKAGLYYESISYEEQDAIFLLTKRNILPTMTQLNLKYAISGKERARTVGGVSLLATMTTRQFHQKCLKSIVATRNATVVIGTTKFYGGWDNMLKNLMADVDDPKLMGWDYPKCDRAMPSMIRMLSAMILGSKHVTCCTASDKFYRLSNELAQVLTEVVYSNGGFYFKPGGTTSGDATTAYANSVFNIFQAVSSNINCVLSVNSSNCNNFNVKKLQRQLYDNCYRNSNVDESFVDDFYGYLQKHFSMMILSDDGVVCYNKTYAELGYIADISAFKATLYYQNGVFMSTAKCWTEEDLSIGPHEFCSQHTMQIVDENGKYYLPYPDPSRIISAGVFVDDITKTDAVILLERYVSLAIDAYPLSKHPKPEYRKVFYALLDWVKHLNKTLNEGVLESFSVTLLDEQESKFWDESFYASMYEKSTVLQ",
+    "S1": "CQTTNGMNTSHSVCNGCVGHSENVFAVESGGYIPSDFAFNNWFLLTNTSSVVDGVVRSFQPLLLNCLWSVSGSRFTTGFVYFNGTGRGDCKGFYSNASSDVIRYNINFEENLRRGTILFKTSYGAVVFYCTNNTLVSGDAHIPSGTVLGNFYCFVNTTIGNETTSAFVGALPKTVREFVISRTGHFYINGYRYFTLGNVEAVNFNVTNAETTDFCTVALASYADVLVNVSQTAIANIIYCNSVINRLRCDQLSFDVPDGFYSTSPIQSVELPVSIVSLPVYHKHTFIVLYVNFKLRSGVGRCYNCRPAVVNITLANFNETKGPLCVDTSHFTTQYVVGNAKFDRWSASINTGNCPFSFGKVNNFVKFGSVCFSLKDIPGGCAMPIMANLANLNSHTIGSLYVSWSDGDVITGVPKPVEGVSSFMNVTLNKCTKYNIYDVSGVGVIRISNDTFLNGITYTSTSGNLLGFKDVTNGTIYSITPCNPPDQLVVYQQAVVGAMLSENFTSYGFSNVVEMPKFFYASNGTYNCTDAVLTYSSFGVCADGS",
+    "S2": "IIAVQPRNVSYDSVSAIVTANLSIPSNWTTSVQVEYLQITSTPIVVDCSTYVCNGNVRCVELLKQYTSACKTIEDALRNSAMLESADVSEMLTFDKKAFTLANVSSFGDYNLSSVIPSLPRSGSRVAGRSAIEDILFSKLVTSGLGTVDADYKKCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGIALGGLTSAASIPFSLAIQSRLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQLRQNFQAISSSIQAIYDRLDIIQADQQVDRLITGRLAALNVFVSHTLTKYTEVRASRQLAQQKVNECVKSQSKRYGFCGNGTHIFSLVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVDGRNGYVLRQPNLALYKEGNYYRITSRIMFEPRIPTIADFVQIENCNVTFVNISRSELQTIVPEYIDVNKTLQELSYKLPNYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYDVEKIHIQ*",
+    "Spike": "MFVLLVAYALLHIAGCQTTNGMNTSHSVCNGCVGHSENVFAVESGGYIPSDFAFNNWFLLTNTSSVVDGVVRSFQPLLLNCLWSVSGSRFTTGFVYFNGTGRGDCKGFYSNASSDVIRYNINFEENLRRGTILFKTSYGAVVFYCTNNTLVSGDAHIPSGTVLGNFYCFVNTTIGNETTSAFVGALPKTVREFVISRTGHFYINGYRYFTLGNVEAVNFNVTNAETTDFCTVALASYADVLVNVSQTAIANIIYCNSVINRLRCDQLSFDVPDGFYSTSPIQSVELPVSIVSLPVYHKHTFIVLYVNFKLRSGVGRCYNCRPAVVNITLANFNETKGPLCVDTSHFTTQYVVGNAKFDRWSASINTGNCPFSFGKVNNFVKFGSVCFSLKDIPGGCAMPIMANLANLNSHTIGSLYVSWSDGDVITGVPKPVEGVSSFMNVTLNKCTKYNIYDVSGVGVIRISNDTFLNGITYTSTSGNLLGFKDVTNGTIYSITPCNPPDQLVVYQQAVVGAMLSENFTSYGFSNVVEMPKFFYASNGTYNCTDAVLTYSSFGVCADGSIIAVQPRNVSYDSVSAIVTANLSIPSNWTTSVQVEYLQITSTPIVVDCSTYVCNGNVRCVELLKQYTSACKTIEDALRNSAMLESADVSEMLTFDKKAFTLANVSSFGDYNLSSVIPSLPRSGSRVAGRSAIEDILFSKLVTSGLGTVDADYKKCTKGLSIADLACAQYYNGIMVLPGVADAERMAMYTGSLIGGIALGGLTSAASIPFSLAIQSRLNYVALQTDVLQENQKILAASFNKAMTNIVDAFTGVNDAITQTSQALQTVATALNKIQDVVNQQGNSLNHLTSQLRQNFQAISSSIQAIYDRLDIIQADQQVDRLITGRLAALNVFVSHTLTKYTEVRASRQLAQQKVNECVKSQSKRYGFCGNGTHIFSLVNAAPEGLVFLHTVLLPTQYKDVEAWSGLCVDGRNGYVLRQPNLALYKEGNYYRITSRIMFEPRIPTIADFVQIENCNVTFVNISRSELQTIVPEYIDVNKTLQELSYKLPNYTVPDLVVEQYNQTILNLTSEISTLENKSAELNYTVQKLQTLIDNINSTLVDLKWLNRVETYIKWPWWVWLCISVVLIFVVSMLLLCCCSTGCCGFFSCFASSIRGCCESTKLPYYDVEKIHIQ*"
+  }
+}

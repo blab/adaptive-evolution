@@ -1,0 +1,76 @@
+LOCUS       NC_011501               1105 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Rotavirus A segment 7, complete genome.
+ACCESSION   NC_011501
+VERSION     NC_011501.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus.
+REFERENCE   1  (bases 1 to 1105)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 1105)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 1105)
+  AUTHORS   Patton,J.T., Small,C., Brown,T.L. and Barro,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838610.
+            On Oct 17, 2011 this sequence version replaced NC_011501.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1105
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="7"
+     gene            26..973
+                     /gene="NSP3"
+                     /db_xref="GeneID:7011355"
+     CDS             26..973
+                     /gene="NSP3"
+                     /note="translation effector protein"
+                     /codon_start=1
+                     /product="NSP3"
+                     /protein_id="YP_002302220.1"
+                     /db_xref="GeneID:7011355"
+                     /translation="MLKMESTQQMAVSIINSSFEAAVVAATSALENMGIEYDYQDIYS
+                     RVKNKFDFVMDDSGVKNNLIGKAITIDQALNNKFGSAIRNRNWLADTSRAAKLDEDVN
+                     KLRMMLSSKGIDQKMRVLNACFSVKRIPGKSSSIIKCTKLMRDKLERGEVEVDDSFVD
+                     EKMEVDTIDWKSRYEQLEQRFESLKSRVNEKYNNWVLKARKMNENMHSLQNVISQQQA
+                     HIAELQVYNNKLERDLQNKIGSLTSSIEWYLRSMELDPEIKADIEQQINSIDAINPLH
+                     AFDDLESVIRNLISDYDKLFLMFKGLIQRCNYQYSFGCE"
+ORIGIN      
+        1 ggcatttaat gcttttcagt ggttgatgct caagatggag tctacgcaac agatggccgt
+       61 ctcaattatt aactcttctt ttgaagctgc agttgtagct gcaacctcag ctcttgagaa
+      121 tatgggaata gaatatgatt atcaggatat atattctaga gtaaagaata aatttgattt
+      181 tgtgatggac gattctggtg ttaaaaataa tctgattggt aaagcaataa ctattgatca
+      241 agctttgaat aataaatttg gatctgctat aagaaataga aactggcttg ctgatacttc
+      301 tagagcagct aaattggatg aggatgtaaa caaactaaga atgatgttat catcaaaagg
+      361 aattgatcaa aaaatgagag ttttaaacgc atgcttcagt gtaaaaagaa tacctggaaa
+      421 atcatcatct attattaaat gcacaaaatt gatgcgtgat aaattggaac gtggtgaagt
+      481 tgaagtggat gattcatttg tggatgaaaa aatggaagtg gataccattg actggaaatc
+      541 gcgctatgag caattggagc aaaggtttga atcattgaaa tccagggtaa atgaaaaata
+      601 taataattgg gtgttgaaag caagaaaaat gaatgaaaat atgcattctc ttcaaaatgt
+      661 catctctcaa cagcaagcac atatagctga gcttcaagtg tacaataata aactagaacg
+      721 tgatttgcaa aataaaattg gatcccttac ttcttcgatt gaatggtatt taagatcaat
+      781 ggaattagac cctgaaataa aggcagacat tgaacagcaa attaactcaa ttgatgcgat
+      841 aaatccattg cacgcttttg atgacttaga atcagtaata cgtaatttga tatctgatta
+      901 tgacaaatta ttccttatgt tcaaaggatt aatacagaga tgtaattatc aatattcatt
+      961 tggttgcgaa taaccatttt gatacatgtt gaacaatcaa atacagtgtt agtatgttgt
+     1021 catctatgca taaccctcta tgagcacaat agttaaaagc taacactgtc aaaaacctaa
+     1081 atggctatag gggcgttatg tggcc
+//

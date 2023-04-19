@@ -1,0 +1,122 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-5.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_oc43_B_ORF1ab-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    540463 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jan 10 16:31:42 2023
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_oc43_B_ORF1ab-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0207911 secs using 80.49% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.017983 secs using 68.36% CPU
+Alignment has 35 sequences with 21288 columns, 239 distinct patterns
+294 parsimony-informative, 151 singleton sites, 20843 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.79221e-05 secs using 87.64% CPU
+   1  KF530065    0.00%    passed     99.65%
+   2  KF530073    0.00%    passed     99.78%
+   3  KF530066    0.00%    passed     99.79%
+   4  KF530061    0.00%    passed     99.79%
+   5  KF530074    0.00%    passed     99.82%
+   6  KF530097    0.00%    passed     99.86%
+   7  KF530090    0.00%    passed     99.78%
+   8  KF530075    0.00%    passed     99.66%
+   9  KF530059    1.24%    passed     99.67%
+  10  KF530062    1.89%    passed     98.95%
+  11  KF530060    0.00%    passed     99.92%
+  12  KF530093    2.49%    passed     98.87%
+  13  KF530087    0.00%    passed     99.90%
+  14  KF530083    0.00%    passed     99.88%
+  15  KF530086    0.00%    passed     99.92%
+  16  KF530077    0.00%    passed     99.94%
+  17  KF530085    0.00%    passed     99.97%
+  18  KF530072    0.00%    passed    100.00%
+  19  KF530080    0.00%    passed    100.00%
+  20  KF530064    0.00%    passed    100.00%
+  21  KF530078    0.00%    passed    100.00%
+  22  KF530092    0.00%    passed    100.00%
+  23  KY014281    0.00%    passed    100.00%
+  24  KF923896    0.00%    passed     99.98%
+  25  KP198611    0.00%    passed     99.95%
+  26  KY014282    0.00%    passed     99.98%
+  27  KP198610    0.00%    passed     99.91%
+  28  KY967360    0.00%    passed     99.41%
+  29  MN026165    0.80%    passed     95.13%
+  30  MF314143    0.00%    passed     99.37%
+  31  MT118672    0.00%    passed     99.18%
+  32  MT118671    0.00%    passed     99.18%
+  33  KU131570    0.00%    passed     99.18%
+  34  KF923906    0.00%    passed     99.79%
+  35  LC315649    0.00%    passed     99.13%
+****  TOTAL       0.18%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MT118671 is identical to MT118672 but kept for subsequent analysis
+Checking for duplicate sequences: done in 8.2016e-05 secs using 70.72% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -47085.396
+2. Current log-likelihood: -45730.595
+3. Current log-likelihood: -45605.854
+4. Current log-likelihood: -45411.057
+Optimal log-likelihood: -45411.040
+Rate parameters:  A-C: 0.49270  A-G: 2.67508  A-T: 0.42256  C-G: 0.50506  C-T: 7.83201  G-T: 1.00000
+Base frequencies:  A: 0.272  C: 0.143  G: 0.221  T: 0.363
+Parameters optimization took 4 rounds (0.084 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00191307 secs using 99.21% CPU
+Computing ML distances took 0.001988 sec (of wall-clock time) 0.001949 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000108957 secs using 154.2% CPU
+Constructing RapidNJ tree: done in 0.000211954 secs using 165.6% CPU
+Computing RapidNJ tree took 0.000457 sec (of wall-clock time) 0.000652 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -32561.483
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.00921082 secs using 99.95% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -32495.020
+Optimizing NNI: done in 0.0828021 secs using 97.59% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -32488.488
+Finish initializing candidate tree set (4)
+Current best tree score: -32488.488 / CPU time: 0.101
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -32488.488
+Optimal log-likelihood: -32488.480
+Rate parameters:  A-C: 0.55737  A-G: 2.58708  A-T: 0.36737  C-G: 0.55664  C-T: 7.91638  G-T: 1.00000
+Base frequencies:  A: 0.272  C: 0.143  G: 0.221  T: 0.363
+Parameters optimization took 1 rounds (0.002 sec)
+BEST SCORE FOUND : -32488.480
+Total tree length: 0.023
+
+Total number of iterations: 2
+CPU time used for tree search: 0.099 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.102 sec (0h:0m:0s)
+Total CPU time used: 0.200 sec (0h:0m:0s)
+Total wall-clock time used: 0.218 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_oc43_B_ORF1ab-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_oc43_B_ORF1ab-delim.fasta.treefile
+  Likelihood distances:          results/aligned_oc43_B_ORF1ab-delim.fasta.mldist
+  Screen log file:               results/aligned_oc43_B_ORF1ab-delim.fasta.log
+
+Date and Time: Tue Jan 10 16:31:42 2023

@@ -1,0 +1,3092 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Genetic diversity of OC43",
+    "updated": "2023-01-10",
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "Spike": {
+        "end": 4086,
+        "seqid": "config/reference_oc43_Spike.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 4086,
+        "seqid": "config/reference_oc43_Spike.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "host"
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1980.7107384937553,
+        "confidence": [
+          1979.451456488879,
+          1981.9943870749933
+        ]
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.00049126702988734,
+          "num_date": {
+            "value": 1996.6555828069677,
+            "confidence": [
+              1994.933555266609,
+              1997.9041289904308
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C3609T"
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "KF530072",
+            "node_attrs": {
+              "div": 0.0009828684680078445,
+              "num_date": {
+                "value": 1997.9438356164383,
+                "confidence": [
+                  1997.9438356164383,
+                  1997.9438356164383
+                ]
+              },
+              "country": {
+                "value": "USA"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T864C",
+                  "T1842C"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "div": 0.0004912670298873571,
+              "num_date": {
+                "value": 1997.3070301969753,
+                "confidence": [
+                  1996.1689540724976,
+                  1997.955135955826
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "KF530080",
+                "node_attrs": {
+                  "div": 0.0007371056261973747,
+                  "num_date": {
+                    "value": 1997.9630136986302,
+                    "confidence": [
+                      1997.9630136986302,
+                      1997.9630136986302
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A4059T"
+                    ],
+                    "Spike": [
+                      "L1353F"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "Spike: L1353F"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "div": 0.0007368693920043716,
+                  "num_date": {
+                    "value": 1997.9509489034701,
+                    "confidence": [
+                      1997.2842629294732,
+                      1999.847044383148
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A690G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KF530092",
+                    "node_attrs": {
+                      "div": 0.0007368693920043887,
+                      "num_date": {
+                        "value": 2000.6024590163934,
+                        "confidence": [
+                          2000.6024590163934,
+                          2000.6024590163934
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000003",
+                    "node_attrs": {
+                      "div": 0.0014740097942447384,
+                      "num_date": {
+                        "value": 1999.420189050521,
+                        "confidence": [
+                          1998.5561268167935,
+                          2000.4827159623853
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G1512T",
+                          "G1514T",
+                          "T1515G"
+                        ],
+                        "Spike": [
+                          "C505L"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "Spike: C505L"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF963230",
+                        "node_attrs": {
+                          "div": 0.0029504823739319565,
+                          "num_date": {
+                            "value": 2001.1383561643836,
+                            "confidence": [
+                              2001.1383561643836,
+                              2001.1383561643836
+                            ]
+                          },
+                          "country": {
+                            "value": "France"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A694G",
+                              "T730C",
+                              "G1033T",
+                              "C2010T",
+                              "C2078T",
+                              "T2874A"
+                            ],
+                            "Spike": [
+                              "T232A",
+                              "A345S",
+                              "A693V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "Spike: T232A, A345S, A693V"
+                          }
+                        }
+                      },
+                      {
+                        "name": "KF963236",
+                        "node_attrs": {
+                          "div": 0.003690408673019097,
+                          "num_date": {
+                            "value": 2005.1027397260275,
+                            "confidence": [
+                              2005.1027397260275,
+                              2005.1027397260275
+                            ]
+                          },
+                          "country": {
+                            "value": "France"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C259T",
+                              "C358T",
+                              "C441T",
+                              "G690A",
+                              "T870C",
+                              "T1469A",
+                              "C2561T",
+                              "T3351C",
+                              "A4059T"
+                            ],
+                            "Spike": [
+                              "F490Y",
+                              "T854I",
+                              "L1353F"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "Spike: F490Y, T854I, L1353F"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000004",
+                        "node_attrs": {
+                          "div": 0.002948676154209125,
+                          "num_date": {
+                            "value": 2001.8506056733677,
+                            "confidence": [
+                              2000.9894426394073,
+                              2002.141095890411
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G790A",
+                              "T816C",
+                              "C963T",
+                              "T1440C",
+                              "C3375T",
+                              "T3987C"
+                            ],
+                            "Spike": [
+                              "D264N"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "Spike: D264N"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "KY014281",
+                            "node_attrs": {
+                              "div": 0.003932348857671123,
+                              "num_date": {
+                                "value": 2002.9986301369863,
+                                "confidence": [
+                                  2002.2776224367615,
+                                  2002.9986301369863
+                                ]
+                              },
+                              "country": {
+                                "value": "France"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A487G",
+                                  "T1512G",
+                                  "T1514G",
+                                  "G1515T"
+                                ],
+                                "Spike": [
+                                  "I163V",
+                                  "L505C"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "Spike: I163V, L505C"
+                              }
+                            }
+                          },
+                          {
+                            "name": "KF963233",
+                            "node_attrs": {
+                              "div": 0.0029486761542091423,
+                              "num_date": {
+                                "value": 2002.141095890411,
+                                "confidence": [
+                                  2002.141095890411,
+                                  2002.141095890411
+                                ]
+                              },
+                              "country": {
+                                "value": "France"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000006",
+        "node_attrs": {
+          "div": 1.706066820966428e-17,
+          "num_date": {
+            "value": 1980.9108662226345,
+            "confidence": [
+              1979.8044207445007,
+              1982.0227695897242
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "NODE_0000011",
+            "node_attrs": {
+              "div": 3.412133641932856e-17,
+              "num_date": {
+                "value": 1995.4826577324302,
+                "confidence": [
+                  1993.9782409228412,
+                  1996.9248633879781
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "KF530078",
+                "node_attrs": {
+                  "div": 0.0004916679129823037,
+                  "num_date": {
+                    "value": 1996.9603825136612,
+                    "confidence": [
+                      1996.9603825136612,
+                      1996.9603825136612
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1475T",
+                      "G2828A"
+                    ],
+                    "Spike": [
+                      "A492V",
+                      "R943K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "Spike: A492V, R943K"
+                  }
+                }
+              },
+              {
+                "name": "KF530064",
+                "node_attrs": {
+                  "div": 0.0002459523097930966,
+                  "num_date": {
+                    "value": 1996.9248633879781,
+                    "confidence": [
+                      1996.9248633879781,
+                      1996.9248633879781
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1125G"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "div": 0.0024581265197057126,
+              "num_date": {
+                "value": 1982.453698834969,
+                "confidence": [
+                  1981.7950968328987,
+                  1983.0400598221133
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T543C",
+                  "T1023C",
+                  "A1056G",
+                  "T1596C",
+                  "G1624A",
+                  "T1725C",
+                  "T2022C",
+                  "C2943T",
+                  "T3639C"
+                ],
+                "Spike": [
+                  "A542T"
+                ]
+              },
+              "labels": {
+                "aa": "Spike: A542T"
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000009",
+                "node_attrs": {
+                  "div": 0.0024581265197057296,
+                  "num_date": {
+                    "value": 1982.621603612937,
+                    "confidence": [
+                      1982.0884927812147,
+                      1983.0307648996047
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T1386C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "div": 0.003931005569444617,
+                      "num_date": {
+                        "value": 1992.7100460983827,
+                        "confidence": [
+                          1991.9515636771407,
+                          1992.9139344262296
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T684C",
+                          "T1539C",
+                          "T2043C",
+                          "C3375T",
+                          "G3526T",
+                          "C3936T"
+                        ],
+                        "Spike": [
+                          "A1176S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "Spike: A1176S"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF530097",
+                        "node_attrs": {
+                          "div": 0.003931005569444634,
+                          "num_date": {
+                            "value": 1992.9139344262296,
+                            "confidence": [
+                              1992.9139344262296,
+                              1992.9139344262296
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000015",
+                        "node_attrs": {
+                          "div": 0.003931005569444634,
+                          "num_date": {
+                            "value": 1992.957650273224,
+                            "confidence": [
+                              1992.5563035628302,
+                              1992.957650273224
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "KF530074",
+                            "node_attrs": {
+                              "div": 0.003931005569444652,
+                              "num_date": {
+                                "value": 1992.957650273224,
+                                "confidence": [
+                                  1992.957650273224,
+                                  1992.957650273224
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "KF530090",
+                            "node_attrs": {
+                              "div": 0.003931005569444652,
+                              "num_date": {
+                                "value": 1993.0698630136985,
+                                "confidence": [
+                                  1993.0698630136985,
+                                  1993.0698630136985
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "div": 0.002703388416915974,
+                      "num_date": {
+                        "value": 1982.8432377232239,
+                        "confidence": [
+                          1982.4394037949212,
+                          1983.107754127056
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T2686C"
+                        ],
+                        "Spike": [
+                          "S896P"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "Spike: S896P"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000021",
+                        "node_attrs": {
+                          "div": 0.002703388416915991,
+                          "num_date": {
+                            "value": 1983.8649945336379,
+                            "confidence": [
+                              1982.5841326134678,
+                              1985.2999675749088
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "KF530085",
+                            "node_attrs": {
+                              "div": 0.004177686507274618,
+                              "num_date": {
+                                "value": 1987.058904109589,
+                                "confidence": [
+                                  1987.058904109589,
+                                  1987.058904109589
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C358T",
+                                  "G789A",
+                                  "C3205T",
+                                  "C3325T",
+                                  "T3852C",
+                                  "C3936T"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000014",
+                            "node_attrs": {
+                              "div": 0.0031938943374430397,
+                              "num_date": {
+                                "value": 1989.3824869139569,
+                                "confidence": [
+                                  1988.5200898482617,
+                                  1989.6916807138073
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T1557C",
+                                  "A1920G"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "KF530073",
+                                "node_attrs": {
+                                  "div": 0.003684677406803236,
+                                  "num_date": {
+                                    "value": 1989.9712328767123,
+                                    "confidence": [
+                                      1989.9712328767123,
+                                      1989.9712328767123
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1635C",
+                                      "G2318T"
+                                    ],
+                                    "Spike": [
+                                      "R773L"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "Spike: R773L"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000024",
+                                "node_attrs": {
+                                  "div": 0.0031938943374430566,
+                                  "num_date": {
+                                    "value": 1989.5411170720445,
+                                    "confidence": [
+                                      1989.198765937844,
+                                      1989.8754687552293
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "KF530066",
+                                    "node_attrs": {
+                                      "div": 0.003439283272608202,
+                                      "num_date": {
+                                        "value": 1990.0424657534247,
+                                        "confidence": [
+                                          1990.0424657534247,
+                                          1990.0424657534247
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C3325T"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000030",
+                                    "node_attrs": {
+                                      "div": 0.0031938943374430736,
+                                      "num_date": {
+                                        "value": 1989.8297042452648,
+                                        "confidence": [
+                                          1989.4427751428354,
+                                          1990.045205479452
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KF530061",
+                                        "node_attrs": {
+                                          "div": 0.003439452420897343,
+                                          "num_date": {
+                                            "value": 1990.0506849315068,
+                                            "confidence": [
+                                              1990.0506849315068,
+                                              1990.0506849315068
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C1613G"
+                                            ],
+                                            "Spike": [
+                                              "T538R"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "Spike: T538R"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "KF530065",
+                                        "node_attrs": {
+                                          "div": 0.0031938943374430905,
+                                          "num_date": {
+                                            "value": 1990.045205479452,
+                                            "confidence": [
+                                              1990.045205479452,
+                                              1990.045205479452
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000017",
+                        "node_attrs": {
+                          "div": 0.0031938943374430232,
+                          "num_date": {
+                            "value": 1983.1493150684933,
+                            "confidence": [
+                              1982.9092108281582,
+                              1983.1493150684933
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T984C",
+                              "A1399G"
+                            ],
+                            "Spike": [
+                              "N467D"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "Spike: N467D"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "KF530093",
+                            "node_attrs": {
+                              "div": 0.00319389433744304,
+                              "num_date": {
+                                "value": 1983.1493150684933,
+                                "confidence": [
+                                  1983.1493150684933,
+                                  1983.1493150684933
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "NODE_0000018",
+                            "node_attrs": {
+                              "div": 0.003439048485208067,
+                              "num_date": {
+                                "value": 1983.5271216473486,
+                                "confidence": [
+                                  1983.1287578087279,
+                                  1984.1992227687758
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T3852C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "KF530087",
+                                "node_attrs": {
+                                  "div": 0.004667606669523813,
+                                  "num_date": {
+                                    "value": 1987.1739726027397,
+                                    "confidence": [
+                                      1987.1739726027397,
+                                      1987.1739726027397
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C1125G",
+                                      "C1596T",
+                                      "C2283T",
+                                      "T2361C",
+                                      "G3808A"
+                                    ],
+                                    "Spike": [
+                                      "D1270N"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "Spike: D1270N"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000019",
+                                "node_attrs": {
+                                  "div": 0.004174716031907206,
+                                  "num_date": {
+                                    "value": 1984.7997724608192,
+                                    "confidence": [
+                                      1984.3144836649856,
+                                      1984.9961707868817
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1470C",
+                                      "C3205T",
+                                      "G3880T"
+                                    ],
+                                    "Spike": [
+                                      "D1294Y"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "Spike: D1294Y"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KF530060",
+                                    "node_attrs": {
+                                      "div": 0.004420046091024715,
+                                      "num_date": {
+                                        "value": 1985.0205479452054,
+                                        "confidence": [
+                                          1985.0205479452054,
+                                          1985.0205479452054
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C1023T"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000020",
+                                    "node_attrs": {
+                                      "div": 0.004419811585258341,
+                                      "num_date": {
+                                        "value": 1986.575434860314,
+                                        "confidence": [
+                                          1985.6855089032222,
+                                          1987.0960320586682
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1407C"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KF530077",
+                                        "node_attrs": {
+                                          "div": 0.004665079707340804,
+                                          "num_date": {
+                                            "value": 1987.1931506849314,
+                                            "confidence": [
+                                              1987.1931506849314,
+                                              1987.1931506849314
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G486A"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000038",
+                                        "node_attrs": {
+                                          "div": 0.0044198115852583575,
+                                          "num_date": {
+                                            "value": 1987.1109589041096,
+                                            "confidence": [
+                                              1986.5313543286277,
+                                              1987.1109589041096
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "KF530086",
+                                            "node_attrs": {
+                                              "div": 0.004419811585258374,
+                                              "num_date": {
+                                                "value": 1987.1109589041096,
+                                                "confidence": [
+                                                  1987.1109589041096,
+                                                  1987.1109589041096
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "KF530083",
+                                            "node_attrs": {
+                                              "div": 0.004419811585258374,
+                                              "num_date": {
+                                                "value": 1987.2068493150684,
+                                                "confidence": [
+                                                  1987.2068493150684,
+                                                  1987.2068493150684
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000022",
+                "node_attrs": {
+                  "div": 0.0027034204789882165,
+                  "num_date": {
+                    "value": 1982.9701665663042,
+                    "confidence": [
+                      1982.1867929226626,
+                      1984.3900060987291
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G75T"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000023",
+                    "node_attrs": {
+                      "div": 0.003930792383163994,
+                      "num_date": {
+                        "value": 1994.1336709600935,
+                        "confidence": [
+                          1992.6788199601433,
+                          1995.013840181956
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1299C",
+                          "A1648T",
+                          "C1899T",
+                          "T3987C"
+                        ],
+                        "Spike": [
+                          "T550S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "Spike: T550S"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF530062",
+                        "node_attrs": {
+                          "div": 0.004421863572056327,
+                          "num_date": {
+                            "value": 1995.1191780821919,
+                            "confidence": [
+                              1995.1191780821919,
+                              1995.1191780821919
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C2991T",
+                              "A4059T"
+                            ],
+                            "Spike": [
+                              "L1353F"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "Spike: L1353F"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000041",
+                        "node_attrs": {
+                          "div": 0.003930792383164012,
+                          "num_date": {
+                            "value": 1995.0287671232877,
+                            "confidence": [
+                              1993.9747173105268,
+                              1995.0287671232877
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "KF530059",
+                            "node_attrs": {
+                              "div": 0.003930792383164029,
+                              "num_date": {
+                                "value": 1995.0287671232877,
+                                "confidence": [
+                                  1995.0287671232877,
+                                  1995.0287671232877
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "KF530075",
+                            "node_attrs": {
+                              "div": 0.004176238077073198,
+                              "num_date": {
+                                "value": 1995.1849315068494,
+                                "confidence": [
+                                  1995.1849315068494,
+                                  1995.1849315068494
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G1494T"
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000025",
+                    "node_attrs": {
+                      "div": 0.017875902493521043,
+                      "num_date": {
+                        "value": 1999.4090847909908,
+                        "confidence": [
+                          1998.3765819867026,
+                          2001.2084921435892
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T32C",
+                          "A64C",
+                          "C68T",
+                          "T79C",
+                          "A80G",
+                          "G88A",
+                          "G91A",
+                          "T93A",
+                          "G103T",
+                          "T104C",
+                          "C109T",
+                          "T189G",
+                          "C207T",
+                          "T210C",
+                          "G254C",
+                          "T257A",
+                          "A258C",
+                          "C259A",
+                          "T260A",
+                          "G261A",
+                          "A343T",
+                          "A353G",
+                          "C358A",
+                          "C363T",
+                          "C441T",
+                          "T446C",
+                          "A461T",
+                          "A487G",
+                          "C543A",
+                          "T544C",
+                          "T555C",
+                          "C556T",
+                          "G557T",
+                          "C560A",
+                          "G634A",
+                          "A635C",
+                          "G741A",
+                          "A776T",
+                          "A782G",
+                          "A787G",
+                          "G789T",
+                          "G790A",
+                          "A791T",
+                          "T822C",
+                          "C888T",
+                          "T1002C",
+                          "A1009G",
+                          "A1059C",
+                          "C1125T",
+                          "C1488T",
+                          "T1506C",
+                          "G1512T",
+                          "G1514T",
+                          "T1515G",
+                          "T1587C",
+                          "G1618A",
+                          "T2625C",
+                          "A2792C",
+                          "C3654A",
+                          "C3704T",
+                          "C3775T",
+                          "G3937T"
+                        ],
+                        "Spike": [
+                          "M11T",
+                          "T22P",
+                          "S23L",
+                          "Y27R",
+                          "D30N",
+                          "V31I",
+                          "V35S",
+                          "P37S",
+                          "S85T",
+                          "V86D",
+                          "L87K",
+                          "I115F",
+                          "D118G",
+                          "L120M",
+                          "L149S",
+                          "D154V",
+                          "I163V",
+                          "N181K",
+                          "R186F",
+                          "T187K",
+                          "D212T",
+                          "N259I",
+                          "K261R",
+                          "K263D",
+                          "D264I",
+                          "N337D",
+                          "C505L",
+                          "E931A",
+                          "T1235I",
+                          "G1313C"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "Spike: M11T, T22P, S23L, Y27R, D30N, V31I, V35S, P37S, S85T, V86D, L87K, I115F, D118G, L120M, L149S, D154V, I163V, N181K, R186F, T187K, D212T, N259I, K261R, K263D, D264I, N337D, C505L, E931A, T1235I, G1313C"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF963234",
+                        "node_attrs": {
+                          "div": 0.020086266649294124,
+                          "num_date": {
+                            "value": 2003.045205479452,
+                            "confidence": [
+                              2003.045205479452,
+                              2003.045205479452
+                            ]
+                          },
+                          "country": {
+                            "value": "France"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G80T",
+                              "T92G",
+                              "T213C",
+                              "G420A",
+                              "T477C",
+                              "T552C",
+                              "T687C",
+                              "G700T",
+                              "T1386C",
+                              "C3781T"
+                            ],
+                            "Spike": [
+                              "R27L",
+                              "I31R",
+                              "V234F",
+                              "L1261F"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "Spike: R27L, I31R, V234F, L1261F"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000026",
+                        "node_attrs": {
+                          "div": 0.02082472717235985,
+                          "num_date": {
+                            "value": 2003.0759420451818,
+                            "confidence": [
+                              2002.7498467606042,
+                              2004.2841531462072
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T103C",
+                              "A122C",
+                              "C267T",
+                              "C513T",
+                              "T574A",
+                              "T672C",
+                              "T1432C",
+                              "G1507A",
+                              "T1874A",
+                              "T1875A",
+                              "A2574G"
+                            ],
+                            "Spike": [
+                              "S35P",
+                              "D41A",
+                              "L192M",
+                              "F478L",
+                              "G503S",
+                              "I625K"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "Spike: S35P, D41A, L192M, F478L, G503S, I625K"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000045",
+                            "node_attrs": {
+                              "div": 0.020824727172359867,
+                              "num_date": {
+                                "value": 2003.7764654253294,
+                                "confidence": [
+                                  2002.772256643471,
+                                  2004.7893497990515
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "NODE_0000032",
+                                "node_attrs": {
+                                  "div": 0.021560204669716296,
+                                  "num_date": {
+                                    "value": 2007.58614681159,
+                                    "confidence": [
+                                      2006.1645492493394,
+                                      2008.802178796093
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C565T",
+                                      "T566C",
+                                      "T592C"
+                                    ],
+                                    "Spike": [
+                                      "L189S",
+                                      "S198P"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "Spike: L189S, S198P"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KF572806",
+                                    "node_attrs": {
+                                      "div": 0.022787046471680644,
+                                      "num_date": {
+                                        "value": 2010.16301369863,
+                                        "confidence": [
+                                          2010.16301369863,
+                                          2010.2369530550056
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T44C",
+                                          "C1562T",
+                                          "T3411C",
+                                          "G3435A",
+                                          "T4048C"
+                                        ],
+                                        "Spike": [
+                                          "V15A",
+                                          "A521V",
+                                          "Y1350H"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "Spike: V15A, A521V, Y1350H"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "KF572805",
+                                    "node_attrs": {
+                                      "div": 0.02278736078011994,
+                                      "num_date": {
+                                        "value": 2010.16301369863,
+                                        "confidence": [
+                                          2010.16301369863,
+                                          2010.236892452731
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A961C",
+                                          "A1248T",
+                                          "G1252T",
+                                          "G1253T",
+                                          "T2115C"
+                                        ],
+                                        "Spike": [
+                                          "N321H",
+                                          "Q416H",
+                                          "G418F"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "Spike: N321H, Q416H, G418F"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000027",
+                                "node_attrs": {
+                                  "div": 0.021805920832820833,
+                                  "num_date": {
+                                    "value": 2006.601013507807,
+                                    "confidence": [
+                                      2004.5008155788619,
+                                      2007.3396152733405
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A543T",
+                                      "G787A",
+                                      "G2409T",
+                                      "C3639T"
+                                    ],
+                                    "Spike": [
+                                      "K181N",
+                                      "D263N",
+                                      "E803D"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "Spike: K181N, D263N, E803D"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000028",
+                                    "node_attrs": {
+                                      "div": 0.02278830785355019,
+                                      "num_date": {
+                                        "value": 2007.6000972553452,
+                                        "confidence": [
+                                          2006.2824976955014,
+                                          2008.3951161088025
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C478G",
+                                          "A778G",
+                                          "G779C",
+                                          "C3591T"
+                                        ],
+                                        "Spike": [
+                                          "L160V",
+                                          "S260A"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "Spike: L160V, S260A"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KF572808",
+                                        "node_attrs": {
+                                          "div": 0.025739928369789795,
+                                          "num_date": {
+                                            "value": 2010.327397260274,
+                                            "confidence": [
+                                              2010.255890410959,
+                                              2010.327397260274
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "China"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T744A",
+                                              "G1056T",
+                                              "G1593A",
+                                              "C1596T",
+                                              "A1598C",
+                                              "C1601T",
+                                              "T2072A",
+                                              "C2076T",
+                                              "T2079C",
+                                              "T2105C",
+                                              "G2791T",
+                                              "A3785G"
+                                            ],
+                                            "Spike": [
+                                              "N533T",
+                                              "P534L",
+                                              "F691Y",
+                                              "F702S",
+                                              "A931S",
+                                              "D1262G"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "Spike: N533T, P534L, F691Y, F702S, A931S, D1262G"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "KF572810",
+                                        "node_attrs": {
+                                          "div": 0.024508088619361382,
+                                          "num_date": {
+                                            "value": 2010.4972602739726,
+                                            "confidence": [
+                                              2010.4972602739726,
+                                              2010.5712153268846
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "China"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A382G",
+                                              "C383T",
+                                              "T1264A",
+                                              "G2844T",
+                                              "C2845T",
+                                              "A2846C",
+                                              "T3150C"
+                                            ],
+                                            "Spike": [
+                                              "T128V",
+                                              "Y422N",
+                                              "Q949S"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "Spike: T128V, Y422N, Q949S"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000029",
+                                    "node_attrs": {
+                                      "div": 0.02278694355906341,
+                                      "num_date": {
+                                        "value": 2011.1426875505422,
+                                        "confidence": [
+                                          2009.4108977603562,
+                                          2011.5720307522565
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A1399G",
+                                          "G1413A",
+                                          "T1502C",
+                                          "C3205T"
+                                        ],
+                                        "Spike": [
+                                          "N467D",
+                                          "L501S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "Spike: N467D, L501S"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KF572813",
+                                        "node_attrs": {
+                                          "div": 0.02401442493826072,
+                                          "num_date": {
+                                            "value": 2012.2472677595629,
+                                            "confidence": [
+                                              2012.1735233293468,
+                                              2012.2472677595629
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "China"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T993C",
+                                              "C2991T",
+                                              "A3759C",
+                                              "G3808A",
+                                              "G3817T"
+                                            ],
+                                            "Spike": [
+                                              "D1270N",
+                                              "V1273F"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "Spike: D1270N, V1273F"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000039",
+                                        "node_attrs": {
+                                          "div": 0.022786943559063428,
+                                          "num_date": {
+                                            "value": 2012.0389558564618,
+                                            "confidence": [
+                                              2011.017646360962,
+                                              2013.4234627961052
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "MN306043",
+                                            "node_attrs": {
+                                              "div": 0.025981480879551107,
+                                              "num_date": {
+                                                "value": 2019.0013698630137,
+                                                "confidence": [
+                                                  2019.0013698630137,
+                                                  2019.8798424892348
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G233T",
+                                                  "T414C",
+                                                  "C766T",
+                                                  "T1308C",
+                                                  "A1438G",
+                                                  "T1836C",
+                                                  "T2679C",
+                                                  "C2787T",
+                                                  "C3375T",
+                                                  "T3642C",
+                                                  "T3666C",
+                                                  "T3797C",
+                                                  "G3840T"
+                                                ],
+                                                "Spike": [
+                                                  "R78L",
+                                                  "N480D",
+                                                  "V1266A",
+                                                  "E1280D"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "Spike: R78L, N480D, V1266A, E1280D"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "MN310476",
+                                            "node_attrs": {
+                                              "div": 0.024752591981604392,
+                                              "num_date": {
+                                                "value": 2019.0013698630137,
+                                                "confidence": [
+                                                  2019.0013698630137,
+                                                  2019.8339862401901
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T75A",
+                                                  "C372T",
+                                                  "C565T",
+                                                  "T828C",
+                                                  "C1432T",
+                                                  "C1721T",
+                                                  "A3036G",
+                                                  "T3303C"
+                                                ],
+                                                "Spike": [
+                                                  "L478F",
+                                                  "P574L"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "Spike: L478F, P574L"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000033",
+                            "node_attrs": {
+                              "div": 0.021069802595963177,
+                              "num_date": {
+                                "value": 2003.459154554648,
+                                "confidence": [
+                                  2003.0040186314027,
+                                  2004.447970471292
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T2931C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "NODE_0000034",
+                                "node_attrs": {
+                                  "div": 0.021314830524471588,
+                                  "num_date": {
+                                    "value": 2004.1063797323286,
+                                    "confidence": [
+                                      2003.3592561668206,
+                                      2004.8582258429835
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T1514C"
+                                    ],
+                                    "Spike": [
+                                      "L505S"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "Spike: L505S"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KF963237",
+                                    "node_attrs": {
+                                      "div": 0.021560031083582638,
+                                      "num_date": {
+                                        "value": 2006.2780821917809,
+                                        "confidence": [
+                                          2006.2780821917809,
+                                          2006.2780821917809
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "France"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G160A"
+                                        ],
+                                        "Spike": [
+                                          "V54I"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "Spike: V54I"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "KF572807",
+                                    "node_attrs": {
+                                      "div": 0.023524498427702444,
+                                      "num_date": {
+                                        "value": 2006.2452054794521,
+                                        "confidence": [
+                                          2006.1718005611372,
+                                          2006.2452054794521
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1186G",
+                                          "A1297T",
+                                          "A1548G",
+                                          "A2646G",
+                                          "T3492C",
+                                          "G3501A",
+                                          "T3700C",
+                                          "G3825T",
+                                          "T4058C"
+                                        ],
+                                        "Spike": [
+                                          "C396G",
+                                          "T433S",
+                                          "I516M",
+                                          "S1234P",
+                                          "M1275I",
+                                          "L1353S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "Spike: C396G, T433S, I516M, S1234P, M1275I, L1353S"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000035",
+                                "node_attrs": {
+                                  "div": 0.022295681980447627,
+                                  "num_date": {
+                                    "value": 2004.478420704785,
+                                    "confidence": [
+                                      2003.8912908552084,
+                                      2006.1385467311954
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T753C",
+                                      "G3087T",
+                                      "T3704C",
+                                      "T3775C",
+                                      "T3937G"
+                                    ],
+                                    "Spike": [
+                                      "I1235T",
+                                      "C1313G"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "Spike: I1235T, C1313G"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000036",
+                                    "node_attrs": {
+                                      "div": 0.027461794796161454,
+                                      "num_date": {
+                                        "value": 2009.562443941186,
+                                        "confidence": [
+                                          2008.6384898934396,
+                                          2009.8978774313302
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G2057A",
+                                          "T2072A",
+                                          "C2076T",
+                                          "T2079C",
+                                          "T2304C",
+                                          "A2367G",
+                                          "C2388T",
+                                          "T2454C",
+                                          "C2510T",
+                                          "G2574A",
+                                          "C2583T",
+                                          "C2625T",
+                                          "C2652T",
+                                          "T2686C",
+                                          "C2792A",
+                                          "T2811A",
+                                          "T2859C",
+                                          "C2907T",
+                                          "T2922C",
+                                          "C2931T",
+                                          "G2934A"
+                                        ],
+                                        "Spike": [
+                                          "R686H",
+                                          "F691Y",
+                                          "S837L",
+                                          "S896P",
+                                          "A931E"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "Spike: R686H, F691Y, S837L, S896P, A931E"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KP198610",
+                                        "node_attrs": {
+                                          "div": 0.029428022446236803,
+                                          "num_date": {
+                                            "value": 2010.4945205479453,
+                                            "confidence": [
+                                              2010.424431838101,
+                                              2010.4945205479453
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "China"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T75A",
+                                              "A76G",
+                                              "C79A",
+                                              "T81C",
+                                              "A82C",
+                                              "T1512G",
+                                              "T1514G",
+                                              "G1515T"
+                                            ],
+                                            "Spike": [
+                                              "S26G",
+                                              "R27S",
+                                              "I28L",
+                                              "L505C"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "Spike: S26G, R27S, I28L, L505C"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "KF572809",
+                                        "node_attrs": {
+                                          "div": 0.02746179479616147,
+                                          "num_date": {
+                                            "value": 2010.4150684931508,
+                                            "confidence": [
+                                              2010.4150684931508,
+                                              2010.4861532711222
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "China"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000037",
+                                    "node_attrs": {
+                                      "div": 0.02278558482280413,
+                                      "num_date": {
+                                        "value": 2005.3569884649164,
+                                        "confidence": [
+                                          2003.8107249121995,
+                                          2007.220141036104
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C2147T"
+                                        ],
+                                        "Spike": [
+                                          "T716I"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "Spike: T716I"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000042",
+                                        "node_attrs": {
+                                          "div": 0.02278558482280415,
+                                          "num_date": {
+                                            "value": 2006.107583621765,
+                                            "confidence": [
+                                              2005.3137017494228,
+                                              2007.2800352672966
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T3802C"
+                                            ],
+                                            "Spike": [
+                                              "F1268L"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "Spike: F1268L"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "KF963238",
+                                            "node_attrs": {
+                                              "div": 0.022785584822804166,
+                                              "num_date": {
+                                                "value": 2007.4561643835616,
+                                                "confidence": [
+                                                  2007.4561643835616,
+                                                  2007.4561643835616
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "France"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "KF963239",
+                                            "node_attrs": {
+                                              "div": 0.024503077210083872,
+                                              "num_date": {
+                                                "value": 2008.045081967213,
+                                                "confidence": [
+                                                  2008.045081967213,
+                                                  2008.045081967213
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "France"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C672T",
+                                                  "G700T",
+                                                  "C753T",
+                                                  "T829C",
+                                                  "T942C",
+                                                  "C1059T",
+                                                  "T2310C"
+                                                ],
+                                                "Spike": [
+                                                  "V234F",
+                                                  "S277P"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "Spike: V234F, S277P"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000056",
+                                        "node_attrs": {
+                                          "div": 0.023030518049093236,
+                                          "num_date": {
+                                            "value": 2009.0563152780794,
+                                            "confidence": [
+                                              2007.7058183030344,
+                                              2010.0471589459694
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "KF963241",
+                                            "node_attrs": {
+                                              "div": 0.02401153866842394,
+                                              "num_date": {
+                                                "value": 2010.9602739726026,
+                                                "confidence": [
+                                                  2010.9602739726026,
+                                                  2010.9602739726026
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "France"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T495C",
+                                                  "T2469C",
+                                                  "G3725A",
+                                                  "C3958T"
+                                                ],
+                                                "Spike": [
+                                                  "R1242K",
+                                                  "L1320F"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "Spike: R1242K, L1320F"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000057",
+                                            "node_attrs": {
+                                              "div": 0.023030518049093254,
+                                              "num_date": {
+                                                "value": 2009.811594415972,
+                                                "confidence": [
+                                                  2009.0287549612788,
+                                                  2010.0616301820019
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "KF572814",
+                                                "node_attrs": {
+                                                  "div": 0.023766228745095475,
+                                                  "num_date": {
+                                                    "value": 2012.1653005464482,
+                                                    "confidence": [
+                                                      2012.1653005464482,
+                                                      2012.2390490152554
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "China"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T1590C",
+                                                      "G2109A",
+                                                      "C3614T"
+                                                    ],
+                                                    "Spike": [
+                                                      "P1205L"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "Spike: P1205L"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000058",
+                                                "node_attrs": {
+                                                  "div": 0.02303051804909327,
+                                                  "num_date": {
+                                                    "value": 2010.00600591666,
+                                                    "confidence": [
+                                                      2009.5718349322617,
+                                                      2010.076098090978
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "KF572804",
+                                                    "node_attrs": {
+                                                      "div": 0.02303051804909329,
+                                                      "num_date": {
+                                                        "value": 2010.0835616438355,
+                                                        "confidence": [
+                                                          2010.0014873321913,
+                                                          2010.0835616438355
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "China"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000043",
+                                                    "node_attrs": {
+                                                      "div": 0.02327553116658943,
+                                                      "num_date": {
+                                                        "value": 2011.142253721699,
+                                                        "confidence": [
+                                                          2010.094205974766,
+                                                          2011.493966539547
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T2922A"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "KF572811",
+                                                        "node_attrs": {
+                                                          "div": 0.0235206956597437,
+                                                          "num_date": {
+                                                            "value": 2011.9164383561645,
+                                                            "confidence": [
+                                                              2011.9164383561645,
+                                                              2011.9898580190054
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A908G"
+                                                            ],
+                                                            "Spike": [
+                                                              "E303G"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "Spike: E303G"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "KF572812",
+                                                        "node_attrs": {
+                                                          "div": 0.02450279514233618,
+                                                          "num_date": {
+                                                            "value": 2012.1625683060108,
+                                                            "confidence": [
+                                                              2012.0940933420734,
+                                                              2012.1625683060108
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A1046G",
+                                                              "T1264A",
+                                                              "A1505T",
+                                                              "A3703T",
+                                                              "A3705C"
+                                                            ],
+                                                            "Spike": [
+                                                              "D349G",
+                                                              "Y422N",
+                                                              "N502I",
+                                                              "T1235S"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "Spike: D349G, Y422N, N502I, T1235S"
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000044",
+                                        "node_attrs": {
+                                          "div": 0.024748384912032302,
+                                          "num_date": {
+                                            "value": 2007.6545631589552,
+                                            "confidence": [
+                                              2007.087686552883,
+                                              2007.9766967324201
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T75A",
+                                              "A76G",
+                                              "C79A",
+                                              "T81C",
+                                              "A82C",
+                                              "T1512G",
+                                              "T1514G",
+                                              "G1515T"
+                                            ],
+                                            "Spike": [
+                                              "S26G",
+                                              "R27S",
+                                              "I28L",
+                                              "L505C"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "Spike: S26G, R27S, I28L, L505C"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "NODE_0000061",
+                                            "node_attrs": {
+                                              "div": 0.024993293590288134,
+                                              "num_date": {
+                                                "value": 2009.1250097166421,
+                                                "confidence": [
+                                                  2008.161909518342,
+                                                  2010.0471484037823
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "KF923896",
+                                                "node_attrs": {
+                                                  "div": 0.02646630700943618,
+                                                  "num_date": {
+                                                    "value": 2012.0860655737704,
+                                                    "confidence": [
+                                                      2012.0860655737704,
+                                                      2012.1569858234823
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "China"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A1046G",
+                                                      "T1264A",
+                                                      "A1505T",
+                                                      "T2922A",
+                                                      "A3703T",
+                                                      "A3705C"
+                                                    ],
+                                                    "Spike": [
+                                                      "D349G",
+                                                      "Y422N",
+                                                      "N502I",
+                                                      "T1235S"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "Spike: D349G, Y422N, N502I, T1235S"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000062",
+                                                "node_attrs": {
+                                                  "div": 0.02499329359028815,
+                                                  "num_date": {
+                                                    "value": 2009.8105948329999,
+                                                    "confidence": [
+                                                      2009.0663697440782,
+                                                      2010.0616301820019
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "LC315649",
+                                                    "node_attrs": {
+                                                      "div": 0.02769532011945314,
+                                                      "num_date": {
+                                                        "value": 2016.0013661202186,
+                                                        "confidence": [
+                                                          2016.0013661202186,
+                                                          2016.8572621267126
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "Japan"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "G233T",
+                                                          "T495C",
+                                                          "C1002T",
+                                                          "C1230T",
+                                                          "G1944T",
+                                                          "C2076T",
+                                                          "C2388T",
+                                                          "A2711G",
+                                                          "A2716G",
+                                                          "G2868A",
+                                                          "G3725A"
+                                                        ],
+                                                        "Spike": [
+                                                          "R78L",
+                                                          "E904G",
+                                                          "S906G",
+                                                          "R1242K"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "Spike: R78L, E904G, S906G, R1242K"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000063",
+                                                    "node_attrs": {
+                                                      "div": 0.02499329359028817,
+                                                      "num_date": {
+                                                        "value": 2010.00600591666,
+                                                        "confidence": [
+                                                          2009.5945141305335,
+                                                          2010.0739725494282
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "KF923906",
+                                                        "node_attrs": {
+                                                          "div": 0.025728930045950817,
+                                                          "num_date": {
+                                                            "value": 2012.1653005464482,
+                                                            "confidence": [
+                                                              2012.1653005464482,
+                                                              2012.2389201138233
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T1590C",
+                                                              "G2109A",
+                                                              "C3614T"
+                                                            ],
+                                                            "Spike": [
+                                                              "P1205L"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "Spike: P1205L"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "KP198611",
+                                                        "node_attrs": {
+                                                          "div": 0.024993293590288186,
+                                                          "num_date": {
+                                                            "value": 2010.0835616438355,
+                                                            "confidence": [
+                                                              2010.0013698630137,
+                                                              2010.0835616438355
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "name": "NODE_0000048",
+                                            "node_attrs": {
+                                              "div": 0.02474838491203232,
+                                              "num_date": {
+                                                "value": 2007.770338857841,
+                                                "confidence": [
+                                                  2007.349251957108,
+                                                  2007.9911656690601
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T3802C"
+                                                ],
+                                                "Spike": [
+                                                  "F1268L"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "Spike: F1268L"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "KY014282",
+                                                "node_attrs": {
+                                                  "div": 0.024748384912032337,
+                                                  "num_date": {
+                                                    "value": 2007.9986301369863,
+                                                    "confidence": [
+                                                      2007.5782782933275,
+                                                      2007.9986301369863
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "France"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000049",
+                                                "node_attrs": {
+                                                  "div": 0.025483431201353376,
+                                                  "num_date": {
+                                                    "value": 2009.199659120452,
+                                                    "confidence": [
+                                                      2008.3397230808694,
+                                                      2009.9891434807018
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C672T",
+                                                      "C1551T",
+                                                      "A2282C"
+                                                    ],
+                                                    "Spike": [
+                                                      "N761T"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "Spike: N761T"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "KU131570",
+                                                    "node_attrs": {
+                                                      "div": 0.028188792649866,
+                                                      "num_date": {
+                                                        "value": 2011.6342465753426,
+                                                        "confidence": [
+                                                          2011.6342465753426,
+                                                          2011.6342465753426
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "United Kingdom"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "A91G",
+                                                          "T351A",
+                                                          "T525A",
+                                                          "G787A",
+                                                          "G1053T",
+                                                          "C1136T",
+                                                          "C1432T",
+                                                          "C2127T",
+                                                          "C3465T",
+                                                          "C3511A",
+                                                          "C3706T"
+                                                        ],
+                                                        "Spike": [
+                                                          "I31V",
+                                                          "D117E",
+                                                          "H175Q",
+                                                          "D263N",
+                                                          "A379V",
+                                                          "L478F",
+                                                          "P1171T",
+                                                          "P1236S"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "Spike: I31V, D117E, H175Q, D263N, A379V, L478F, P1171T, P1236S"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000050",
+                                                    "node_attrs": {
+                                                      "div": 0.02597333149650619,
+                                                      "num_date": {
+                                                        "value": 2012.0260176550505,
+                                                        "confidence": [
+                                                          2011.1115908038862,
+                                                          2013.3230264406986
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C1630T",
+                                                          "T1695C"
+                                                        ],
+                                                        "Spike": [
+                                                          "P544S"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "Spike: P544S"
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "NODE_0000051",
+                                                        "node_attrs": {
+                                                          "div": 0.028427199895562485,
+                                                          "num_date": {
+                                                            "value": 2018.0021058584202,
+                                                            "confidence": [
+                                                              2017.5810703262944,
+                                                              2018.7002629538397
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C210T",
+                                                              "A524T",
+                                                              "A775G",
+                                                              "A807G",
+                                                              "A843G",
+                                                              "C1644T",
+                                                              "T3300C",
+                                                              "C3417T",
+                                                              "G3648T",
+                                                              "C3944T"
+                                                            ],
+                                                            "Spike": [
+                                                              "H175L",
+                                                              "I259V",
+                                                              "M1216I",
+                                                              "A1315V"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "Spike: H175L, I259V, M1216I, A1315V"
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "MT118672",
+                                                            "node_attrs": {
+                                                              "div": 0.028427199895562503,
+                                                              "num_date": {
+                                                                "value": 2018.2980639048883,
+                                                                "confidence": [
+                                                                  2018.0013698630137,
+                                                                  2018.9986301369863
+                                                                ]
+                                                              },
+                                                              "country": {
+                                                                "value": "USA"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "MT118671",
+                                                            "node_attrs": {
+                                                              "div": 0.028427199895562503,
+                                                              "num_date": {
+                                                                "value": 2018.2980639048883,
+                                                                "confidence": [
+                                                                  2018.0013698630137,
+                                                                  2018.9986301369863
+                                                                ]
+                                                              },
+                                                              "country": {
+                                                                "value": "USA"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000052",
+                                                        "node_attrs": {
+                                                          "div": 0.026218216161279454,
+                                                          "num_date": {
+                                                            "value": 2013.748588717228,
+                                                            "confidence": [
+                                                              2012.5025019840848,
+                                                              2014.7562014974383
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T2049C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "MF314143",
+                                                            "node_attrs": {
+                                                              "div": 0.026708412720577966,
+                                                              "num_date": {
+                                                                "value": 2016.181693989071,
+                                                                "confidence": [
+                                                                  2016.181693989071,
+                                                                  2016.181693989071
+                                                                ]
+                                                              },
+                                                              "country": {
+                                                                "value": "USA"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "G487A",
+                                                                  "A2400C"
+                                                                ],
+                                                                "Spike": [
+                                                                  "V163I"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "Spike: V163I"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "NODE_0000053",
+                                                            "node_attrs": {
+                                                              "div": 0.02670792695528269,
+                                                              "num_date": {
+                                                                "value": 2015.18810495504,
+                                                                "confidence": [
+                                                                  2014.2837168150352,
+                                                                  2015.9911638410383
+                                                                ]
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T2937C",
+                                                                  "T3558C"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "name": "KY967360",
+                                                                "node_attrs": {
+                                                                  "div": 0.026952856155347177,
+                                                                  "num_date": {
+                                                                    "value": 2015.9986301369863,
+                                                                    "confidence": [
+                                                                      2015.190048607228,
+                                                                      2015.9986301369863
+                                                                    ]
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "T2322C"
+                                                                    ]
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "name": "MN026165",
+                                                                "node_attrs": {
+                                                                  "div": 0.026953012363467536,
+                                                                  "num_date": {
+                                                                    "value": 2017.9054794520548,
+                                                                    "confidence": [
+                                                                      2017.9054794520548,
+                                                                      2017.9054794520548
+                                                                    ]
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Kenya"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "C3609T"
+                                                                    ]
+                                                                  }
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

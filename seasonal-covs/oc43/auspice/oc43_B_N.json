@@ -1,0 +1,1517 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Genetic diversity of OC43",
+    "updated": "2023-01-10",
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "N": {
+        "end": 1347,
+        "seqid": "config/reference_oc43_N.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 1347,
+        "seqid": "config/reference_oc43_N.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "host"
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1980.8156787752762,
+        "confidence": [
+          1512.0435808285051,
+          1982.9891143500342
+        ]
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 5.9550328106374884e-18,
+          "num_date": {
+            "value": 1993.7449503582714,
+            "confidence": [
+              1986.478492759241,
+              1996.8592558221603
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 1.1910065621274977e-17,
+              "num_date": {
+                "value": 1996.9248633879781,
+                "confidence": [
+                  1993.721601417974,
+                  1996.9248633879781
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "KF530064",
+                "node_attrs": {
+                  "div": 1.7865098431912464e-17,
+                  "num_date": {
+                    "value": 1996.9248633879781,
+                    "confidence": [
+                      1996.9248633879781,
+                      1996.9248633879781
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "KF530078",
+                "node_attrs": {
+                  "div": 1.7865098431912464e-17,
+                  "num_date": {
+                    "value": 1996.9603825136612,
+                    "confidence": [
+                      1996.9603825136612,
+                      1996.9603825136612
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 1.1910065621274977e-17,
+              "num_date": {
+                "value": 1996.4900360840174,
+                "confidence": [
+                  1991.8387686308777,
+                  1997.5445410329908
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "KF530080",
+                "node_attrs": {
+                  "div": 1.7865098431912464e-17,
+                  "num_date": {
+                    "value": 1997.9630136986302,
+                    "confidence": [
+                      1997.9630136986302,
+                      1997.9630136986302
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "KF530072",
+                "node_attrs": {
+                  "div": 0.0007441948326578079,
+                  "num_date": {
+                    "value": 1997.9438356164383,
+                    "confidence": [
+                      1997.9438356164383,
+                      1997.9438356164383
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1332T"
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000004",
+        "node_attrs": {
+          "div": 0.0007443207404070893,
+          "num_date": {
+            "value": 1983.8333800811888,
+            "confidence": [
+              1549.5262917598675,
+              1993.4289469967684
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "G213A"
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "KP198611",
+            "node_attrs": {
+              "div": 0.013509322469700108,
+              "num_date": {
+                "value": 2010.0835616438355,
+                "confidence": [
+                  2010.0095890410958,
+                  2010.0835616438355
+                ]
+              },
+              "country": {
+                "value": "China"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G667A",
+                  "T747C",
+                  "G750A",
+                  "G807A",
+                  "T846C",
+                  "C873T",
+                  "G894A",
+                  "G983A",
+                  "C1032T",
+                  "T1095C",
+                  "T1117C",
+                  "A1121G",
+                  "T1196A",
+                  "C1238T",
+                  "T1251C",
+                  "G1271T",
+                  "A1322T"
+                ],
+                "N": [
+                  "A223T",
+                  "R328K",
+                  "N374S",
+                  "L399H",
+                  "A413V",
+                  "R424I",
+                  "Y441F"
+                ]
+              },
+              "labels": {
+                "aa": "N: A223T, R328K, N374S, L399H, A413V, R424I, Y441F"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "div": 0.0007443207404070953,
+              "num_date": {
+                "value": 1988.1233385995913,
+                "confidence": [
+                  1658.2443364101696,
+                  1996.1211574744395
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "NODE_0000006",
+                "node_attrs": {
+                  "div": 0.0007443207404071012,
+                  "num_date": {
+                    "value": 1995.740926580098,
+                    "confidence": [
+                      1980.0982378852623,
+                      1999.7535961382212
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "KY014281",
+                    "node_attrs": {
+                      "div": 0.0014887408268958735,
+                      "num_date": {
+                        "value": 2002.0013698630137,
+                        "confidence": [
+                          2002.0013698630137,
+                          2002.8933300830329
+                        ]
+                      },
+                      "country": {
+                        "value": "France"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G1237A"
+                        ],
+                        "N": [
+                          "A413T"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "N: A413T"
+                      }
+                    }
+                  },
+                  {
+                    "name": "KF530092",
+                    "node_attrs": {
+                      "div": 0.001488670829007489,
+                      "num_date": {
+                        "value": 2000.6024590163934,
+                        "confidence": [
+                          2000.6024590163934,
+                          2000.6024590163934
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G1200T"
+                        ],
+                        "N": [
+                          "K400N"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "N: K400N"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "div": 0.0029791889386038242,
+                  "num_date": {
+                    "value": 1996.1971281751737,
+                    "confidence": [
+                      1970.919998975717,
+                      2007.0611002017242
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A653G",
+                      "C1062T",
+                      "G1237T"
+                    ],
+                    "N": [
+                      "N218S",
+                      "A413S"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "N: N218S, A413S"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "div": 0.0029791889386038303,
+                      "num_date": {
+                        "value": 1997.5161117826356,
+                        "confidence": [
+                          1975.5886056194888,
+                          2007.8097501150414
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "KF923896",
+                        "node_attrs": {
+                          "div": 0.005212959077862607,
+                          "num_date": {
+                            "value": 2012.1625683060108,
+                            "confidence": [
+                              2012.0937158469944,
+                              2012.1625683060108
+                            ]
+                          },
+                          "country": {
+                            "value": "China"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T423C",
+                              "C650T",
+                              "T1302C"
+                            ],
+                            "N": [
+                              "A217V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "N: A217V"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000011",
+                        "node_attrs": {
+                          "div": 0.0029791889386038364,
+                          "num_date": {
+                            "value": 2002.422599725285,
+                            "confidence": [
+                              1989.3652336996986,
+                              2007.9022340375318
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000009",
+                            "node_attrs": {
+                              "div": 0.0029791889386038425,
+                              "num_date": {
+                                "value": 2006.9830939273968,
+                                "confidence": [
+                                  1989.5454595694473,
+                                  2007.8481242446521
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "LC315649",
+                                "node_attrs": {
+                                  "div": 0.0037230519657966477,
+                                  "num_date": {
+                                    "value": 2016.0013661202186,
+                                    "confidence": [
+                                      2016.0013661202186,
+                                      2016.8989071038252
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "Japan"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G1229T"
+                                    ],
+                                    "N": [
+                                      "S410I"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "N: S410I"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "KY014282",
+                                "node_attrs": {
+                                  "div": 0.0029791889386038485,
+                                  "num_date": {
+                                    "value": 2007.9986301369863,
+                                    "confidence": [
+                                      2007.0013698630137,
+                                      2007.9986301369863
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "France"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000008",
+                            "node_attrs": {
+                              "div": 0.003722996442022052,
+                              "num_date": {
+                                "value": 2010.1462579029985,
+                                "confidence": [
+                                  2005.1499740069648,
+                                  2010.4617166678247
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C786T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "KF923906",
+                                "node_attrs": {
+                                  "div": 0.004466702129657593,
+                                  "num_date": {
+                                    "value": 2012.2472677595629,
+                                    "confidence": [
+                                      2012.1734972677596,
+                                      2012.2472677595629
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C670T"
+                                    ],
+                                    "N": [
+                                      "P224S"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "N: P224S"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "KP198610",
+                                "node_attrs": {
+                                  "div": 0.003722996442022058,
+                                  "num_date": {
+                                    "value": 2010.4150684931508,
+                                    "confidence": [
+                                      2010.4150684931508,
+                                      2010.4865753424658
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "div": 0.0037231220953715376,
+                      "num_date": {
+                        "value": 1999.8582133327639,
+                        "confidence": [
+                          1984.7104165421038,
+                          2009.0593856383011
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G1074A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KU131570",
+                        "node_attrs": {
+                          "div": 0.005956577674505716,
+                          "num_date": {
+                            "value": 2011.6342465753426,
+                            "confidence": [
+                              2011.6342465753426,
+                              2011.6342465753426
+                            ]
+                          },
+                          "country": {
+                            "value": "United Kingdom"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C164T",
+                              "C626T",
+                              "C686T"
+                            ],
+                            "N": [
+                              "S55L",
+                              "S209F",
+                              "T229I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "N: S55L, S209F, T229I"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000013",
+                        "node_attrs": {
+                          "div": 0.004467029203284757,
+                          "num_date": {
+                            "value": 2004.4311138818025,
+                            "confidence": [
+                              1989.4763776232808,
+                              2013.0772296625883
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C921T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000014",
+                            "node_attrs": {
+                              "div": 0.00670176478538414,
+                              "num_date": {
+                                "value": 2016.2116348392447,
+                                "confidence": [
+                                  2011.1774756878508,
+                                  2018.9658253390576
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C114T",
+                                  "T423A",
+                                  "C618T"
+                                ],
+                                "N": [
+                                  "D141E"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "N: D141E"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "MT118672",
+                                "node_attrs": {
+                                  "div": 0.006701764785384146,
+                                  "num_date": {
+                                    "value": 2018.2314100334859,
+                                    "confidence": [
+                                      2018.0013698630137,
+                                      2018.9986301369863
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "MT118671",
+                                "node_attrs": {
+                                  "div": 0.006701764785384146,
+                                  "num_date": {
+                                    "value": 2018.2314100334859,
+                                    "confidence": [
+                                      2018.0013698630137,
+                                      2018.9986301369863
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000015",
+                            "node_attrs": {
+                              "div": 0.005211718670054947,
+                              "num_date": {
+                                "value": 2010.1931141669693,
+                                "confidence": [
+                                  2005.5651628536293,
+                                  2015.2231566367798
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C490A"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "MF314143",
+                                "node_attrs": {
+                                  "div": 0.005211718670054953,
+                                  "num_date": {
+                                    "value": 2016.181693989071,
+                                    "confidence": [
+                                      2016.181693989071,
+                                      2016.181693989071
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000016",
+                                "node_attrs": {
+                                  "div": 0.005955806174519118,
+                                  "num_date": {
+                                    "value": 2015.0341690778812,
+                                    "confidence": [
+                                      2011.2601141702228,
+                                      2015.9658253390576
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C472T"
+                                    ],
+                                    "N": [
+                                      "P158S"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "N: P158S"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KY967360",
+                                    "node_attrs": {
+                                      "div": 0.005955806174519124,
+                                      "num_date": {
+                                        "value": 2015.9986301369863,
+                                        "confidence": [
+                                          2015.0889261825532,
+                                          2015.9986301369863
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "MN026165",
+                                    "node_attrs": {
+                                      "div": 0.005955806174519124,
+                                      "num_date": {
+                                        "value": 2017.9054794520548,
+                                        "confidence": [
+                                          2017.9054794520548,
+                                          2017.9054794520548
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "Kenya"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000017",
+        "node_attrs": {
+          "div": 0.000744194832657796,
+          "num_date": {
+            "value": 1973.5933619542354,
+            "confidence": [
+              1762.9424715622367,
+              1983.0836115489367
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "NODE_0000028",
+            "node_attrs": {
+              "div": 0.0029804097657196863,
+              "num_date": {
+                "value": 1980.8971059216265,
+                "confidence": [
+                  1975.4849802442277,
+                  1983.1493150684933
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T9C",
+                  "T315C",
+                  "C351T",
+                  "T1196A"
+                ],
+                "N": [
+                  "L399H"
+                ]
+              },
+              "labels": {
+                "aa": "N: L399H"
+              }
+            },
+            "children": [
+              {
+                "name": "KF530087",
+                "node_attrs": {
+                  "div": 0.004470353183772059,
+                  "num_date": {
+                    "value": 1987.1739726027397,
+                    "confidence": [
+                      1987.1739726027397,
+                      1987.1739726027397
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C186T",
+                      "C1242T"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "KF530060",
+                "node_attrs": {
+                  "div": 0.003725235151369327,
+                  "num_date": {
+                    "value": 1985.0205479452054,
+                    "confidence": [
+                      1985.0205479452054,
+                      1985.0205479452054
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A424T"
+                    ],
+                    "N": [
+                      "I142F"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "N: I142F"
+                  }
+                }
+              },
+              {
+                "name": "KF530093",
+                "node_attrs": {
+                  "div": 0.003725092073225776,
+                  "num_date": {
+                    "value": 1983.1493150684933,
+                    "confidence": [
+                      1983.1493150684933,
+                      1983.1493150684933
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C660T"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000031",
+                "node_attrs": {
+                  "div": 0.0037252179046720407,
+                  "num_date": {
+                    "value": 1983.3342899260251,
+                    "confidence": [
+                      1980.2704839548003,
+                      1986.072630173073
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G297A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KF530086",
+                    "node_attrs": {
+                      "div": 0.005961550233017793,
+                      "num_date": {
+                        "value": 1987.1109589041096,
+                        "confidence": [
+                          1987.1109589041096,
+                          1987.1109589041096
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C345T",
+                          "A737G",
+                          "G1282T"
+                        ],
+                        "N": [
+                          "K246R",
+                          "A428S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "N: K246R, A428S"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000019",
+                    "node_attrs": {
+                      "div": 0.0037252179046720468,
+                      "num_date": {
+                        "value": 1987.1931506849314,
+                        "confidence": [
+                          1982.98567224429,
+                          1987.1931506849314
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "KF530077",
+                        "node_attrs": {
+                          "div": 0.003725217904672053,
+                          "num_date": {
+                            "value": 1987.1931506849314,
+                            "confidence": [
+                              1987.1931506849314,
+                              1987.1931506849314
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "KF530083",
+                        "node_attrs": {
+                          "div": 0.003725217904672053,
+                          "num_date": {
+                            "value": 1987.2068493150684,
+                            "confidence": [
+                              1987.2068493150684,
+                              1987.2068493150684
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000020",
+            "node_attrs": {
+              "div": 0.000744194832657802,
+              "num_date": {
+                "value": 1983.5439421146011,
+                "confidence": [
+                  1980.8192599933147,
+                  1986.9932965082521
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C351T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000021",
+                "node_attrs": {
+                  "div": 0.0007441948326578079,
+                  "num_date": {
+                    "value": 1986.03239705262,
+                    "confidence": [
+                      1983.6753837867511,
+                      1987.058904109589
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "KF530085",
+                    "node_attrs": {
+                      "div": 0.0007441948326578139,
+                      "num_date": {
+                        "value": 1987.058904109589,
+                        "confidence": [
+                          1987.058904109589,
+                          1987.058904109589
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000026",
+                    "node_attrs": {
+                      "div": 0.0014884134553724265,
+                      "num_date": {
+                        "value": 1993.0462544773138,
+                        "confidence": [
+                          1989.5606723278183,
+                          1994.809757197013
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G117A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF530059",
+                        "node_attrs": {
+                          "div": 0.0022327316091027907,
+                          "num_date": {
+                            "value": 1995.0287671232877,
+                            "confidence": [
+                              1995.0287671232877,
+                              1995.0287671232877
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G228A"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000023",
+                        "node_attrs": {
+                          "div": 0.0014884134553724323,
+                          "num_date": {
+                            "value": 1995.1191780821919,
+                            "confidence": [
+                              1992.9715454534828,
+                              1995.1191780821919
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "KF530062",
+                            "node_attrs": {
+                              "div": 0.0014884134553724382,
+                              "num_date": {
+                                "value": 1995.1191780821919,
+                                "confidence": [
+                                  1995.1191780821919,
+                                  1995.1191780821919
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "KF530075",
+                            "node_attrs": {
+                              "div": 0.0014884134553724382,
+                              "num_date": {
+                                "value": 1995.1849315068494,
+                                "confidence": [
+                                  1995.1849315068494,
+                                  1995.1849315068494
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000024",
+                "node_attrs": {
+                  "div": 0.0007441948326578079,
+                  "num_date": {
+                    "value": 1985.4903965785936,
+                    "confidence": [
+                      1981.9017008151993,
+                      1987.8970260301405
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000018",
+                    "node_attrs": {
+                      "div": 0.0014882876832089038,
+                      "num_date": {
+                        "value": 1989.8576556502412,
+                        "confidence": [
+                          1983.5593456318213,
+                          1992.1303725056755
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C873T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF530097",
+                        "node_attrs": {
+                          "div": 0.002977211172452305,
+                          "num_date": {
+                            "value": 1992.9139344262296,
+                            "confidence": [
+                              1992.9139344262296,
+                              1992.9139344262296
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G166A",
+                              "G1268T"
+                            ],
+                            "N": [
+                              "G56R",
+                              "S423I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "N: G56R, S423I"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000027",
+                        "node_attrs": {
+                          "div": 0.0014882876832089096,
+                          "num_date": {
+                            "value": 1992.957650273224,
+                            "confidence": [
+                              1990.7933763618057,
+                              1992.957650273224
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "KF530090",
+                            "node_attrs": {
+                              "div": 0.0014882876832089155,
+                              "num_date": {
+                                "value": 1993.0698630136985,
+                                "confidence": [
+                                  1993.0698630136985,
+                                  1993.0698630136985
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "KF530074",
+                            "node_attrs": {
+                              "div": 0.0014882876832089155,
+                              "num_date": {
+                                "value": 1992.957650273224,
+                                "confidence": [
+                                  1992.957650273224,
+                                  1992.957650273224
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000022",
+                    "node_attrs": {
+                      "div": 0.0014883433199558448,
+                      "num_date": {
+                        "value": 1987.4188794529628,
+                        "confidence": [
+                          1983.7174519180082,
+                          1989.9139903451255
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G360T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF530073",
+                        "node_attrs": {
+                          "div": 0.001488343319955851,
+                          "num_date": {
+                            "value": 1989.9712328767123,
+                            "confidence": [
+                              1989.9712328767123,
+                              1989.9712328767123
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000029",
+                        "node_attrs": {
+                          "div": 0.001488343319955851,
+                          "num_date": {
+                            "value": 1988.2245946944067,
+                            "confidence": [
+                              1984.067404096022,
+                              1989.9795978835946
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "KF530066",
+                            "node_attrs": {
+                              "div": 0.001488343319955857,
+                              "num_date": {
+                                "value": 1990.0424657534247,
+                                "confidence": [
+                                  1990.0424657534247,
+                                  1990.0424657534247
+                                ]
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "NODE_0000030",
+                            "node_attrs": {
+                              "div": 0.001488343319955857,
+                              "num_date": {
+                                "value": 1990.045205479452,
+                                "confidence": [
+                                  1988.0210910828032,
+                                  1990.045205479452
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "KF530065",
+                                "node_attrs": {
+                                  "div": 0.001488343319955863,
+                                  "num_date": {
+                                    "value": 1990.045205479452,
+                                    "confidence": [
+                                      1990.045205479452,
+                                      1990.045205479452
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "KF530061",
+                                "node_attrs": {
+                                  "div": 0.001488343319955863,
+                                  "num_date": {
+                                    "value": 1990.0506849315068,
+                                    "confidence": [
+                                      1990.0506849315068,
+                                      1990.0506849315068
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

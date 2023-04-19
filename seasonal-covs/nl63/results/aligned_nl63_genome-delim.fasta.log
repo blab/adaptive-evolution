@@ -1,0 +1,173 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-5.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_nl63_genome-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    660791 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jan 10 14:29:11 2023
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_nl63_genome-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0635052 secs using 89.76% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0296199 secs using 78.78% CPU
+Alignment has 87 sequences with 27553 columns, 1806 distinct patterns
+931 parsimony-informative, 976 singleton sites, 25646 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000910997 secs using 96.82% CPU
+   1  JX504050    0.00%    passed     99.91%
+   2  JQ765568    0.24%    passed     99.84%
+   3  JQ765573    0.24%    passed     99.99%
+   4  JQ900259    0.26%    passed     99.99%
+   5  JQ765575    0.24%    passed     99.99%
+   6  JQ765571    0.24%    passed     99.83%
+   7  JQ765572    0.24%    passed     99.86%
+   8  KY554969    0.16%    passed     99.89%
+   9  KY829118    0.15%    passed     99.89%
+  10  KY554971    0.01%    passed     99.80%
+  11  JQ765574    0.24%    passed     99.89%
+  12  KF530105    0.51%    passed     99.63%
+  13  KT381875    0.00%    passed     99.99%
+  14  KU521535    0.00%    passed     99.96%
+  15  KX179500    0.00%    passed     99.99%
+  16  JQ765567    0.24%    passed     99.96%
+  17  KY554967    0.11%    passed     99.70%
+  18  KY554968    0.11%    passed     99.67%
+  19  KY674915    0.91%    passed     98.98%
+  20  KY554970    0.05%    passed     99.83%
+  21  KY674916    0.22%    passed     99.71%
+  22  JQ765566    0.24%    passed     99.80%
+  23  JQ900255    0.34%    passed     99.17%
+  24  JQ900260   11.23%    passed     99.62%
+  25  KF530104    0.52%    passed     99.86%
+  26  KF530108    0.52%    passed     99.91%
+  27  KF530114    0.52%    passed     99.94%
+  28  KF530109    0.52%    passed     99.94%
+  29  KF530111    0.52%    passed     99.97%
+  30  KF530113    0.52%    passed     99.88%
+  31  KF530107    0.52%    passed     99.96%
+  32  KF530110    0.51%    passed     97.71%
+  33  MG428699    0.23%    passed     99.82%
+  34  MG428701    0.13%    passed     99.71%
+  35  MG428703    0.13%    passed     99.72%
+  36  MG428704    0.13%    passed     99.65%
+  37  MG428707    2.28%    passed     98.28%
+  38  JQ900257    0.55%    passed     99.97%
+  39  JX104161    0.06%    passed     99.80%
+  40  JX524171    0.05%    passed     99.75%
+  41  OK073076    0.06%    passed     99.87%
+  42  KT266906    0.00%    passed     99.84%
+  43  MG428702    0.18%    passed     99.17%
+  44  MG428706    0.40%    passed     99.88%
+  45  MG428700    1.46%    passed     99.62%
+  46  MG428705    0.19%    passed     99.25%
+  47  MH828487    0.00%    passed     98.21%
+  48  MK334043    0.13%    passed     99.87%
+  49  MK334044    0.13%    passed     99.98%
+  50  MN306018    0.87%    passed     98.40%
+  51  LC687394    0.17%    passed     99.99%
+  52  LC687395    0.04%    passed     99.98%
+  53  MW202337    0.04%    passed    100.00%
+  54  LC687397    0.03%    passed    100.00%
+  55  LC687402    0.01%    passed     99.97%
+  56  LC687401    0.01%    passed     99.97%
+  57  LC654455    0.13%    passed     99.99%
+  58  MN306040    1.15%    passed     99.93%
+  59  MT118686    1.11%    passed     99.23%
+  60  MT118694    1.10%    passed     99.36%
+  61  LC687396    0.04%    passed     99.95%
+  62  LC720428    0.09%    passed     99.93%
+  63  MW202338    5.11%    passed     50.41%
+  64  MK334045    0.05%    passed     99.65%
+  65  MH828488    0.00%    passed     97.33%
+  66  KF530106    0.55%    passed     99.29%
+  67  MG772808    0.07%    passed    100.00%
+  68  MZ682627    0.18%    passed     99.97%
+  69  OK625405    0.24%    passed     99.99%
+  70  OK073075    2.44%    passed     93.91%
+  71  JQ765563    0.30%    passed     99.73%
+  72  JQ765569    0.30%    passed     99.90%
+  73  JQ765570    0.30%    passed     99.83%
+  74  DQ445912    0.07%    passed     99.72%
+  75  KF530112    0.57%    passed     99.96%
+  76  JQ765564    0.30%    passed     99.66%
+  77  JQ765565    0.30%    passed     99.93%
+  78  JQ900256    3.10%    passed     99.60%
+  79  JQ900258   23.73%    passed     42.80%
+  80  MK334047    0.08%    passed     99.73%
+  81  MK334046    0.08%    passed     99.42%
+  82  LC488389    0.25%    passed     98.07%
+  83  MW587039   14.35%    passed     69.37%
+  84  KY983586    0.51%    passed     99.89%
+  85  LC488390    0.08%    passed     99.95%
+  86  DQ445911    0.01%    passed     99.97%
+  87  MN026166    2.07%    passed     97.79%
+****  TOTAL       0.99%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.00101686 secs using 91.26% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+
+NOTE: 5 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -129193.357
+2. Current log-likelihood: -122092.050
+3. Current log-likelihood: -119384.613
+4. Current log-likelihood: -119384.018
+Optimal log-likelihood: -119383.979
+Rate parameters:  A-C: 0.81154  A-G: 6.00992  A-T: 0.59725  C-G: 0.83393  C-T: 14.26297  G-T: 1.00000
+Base frequencies:  A: 0.263  C: 0.145  G: 0.200  T: 0.392
+Parameters optimization took 4 rounds (0.999 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0391591 secs using 85.89% CPU
+Computing ML distances took 0.040580 sec (of wall-clock time) 0.034978 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000262022 secs using 134.7% CPU
+Constructing RapidNJ tree: done in 0.000926018 secs using 160.1% CPU
+Computing RapidNJ tree took 0.001289 sec (of wall-clock time) 0.002014 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -61749.137
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.247895 secs using 85.18% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -61485.397
+Optimizing NNI: done in 2.59421 secs using 87.34% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -61439.195
+Finish initializing candidate tree set (4)
+Current best tree score: -61439.195 / CPU time: 3.227
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -61439.195
+Optimal log-likelihood: -61439.188
+Rate parameters:  A-C: 1.03507  A-G: 4.44872  A-T: 0.57537  C-G: 0.81689  C-T: 10.31749  G-T: 1.00000
+Base frequencies:  A: 0.263  C: 0.145  G: 0.200  T: 0.392
+Parameters optimization took 1 rounds (0.072 sec)
+BEST SCORE FOUND : -61439.188
+Total tree length: 0.116
+
+Total number of iterations: 2
+CPU time used for tree search: 2.806 sec (0h:0m:2s)
+Wall-clock time used for tree search: 3.228 sec (0h:0m:3s)
+Total CPU time used: 3.863 sec (0h:0m:3s)
+Total wall-clock time used: 4.467 sec (0h:0m:4s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_nl63_genome-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_nl63_genome-delim.fasta.treefile
+  Likelihood distances:          results/aligned_nl63_genome-delim.fasta.mldist
+  Screen log file:               results/aligned_nl63_genome-delim.fasta.log
+
+Date and Time: Tue Jan 10 14:29:16 2023

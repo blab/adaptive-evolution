@@ -1,0 +1,258 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-5.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_229e_N-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    86960 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jan 10 12:59:47 2023
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_229e_N-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00267005 secs using 95.24% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00908208 secs using 17.69% CPU
+Alignment has 121 sequences with 1170 columns, 122 distinct patterns
+63 parsimony-informative, 54 singleton sites, 1053 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000243902 secs using 20.09% CPU
+   1  AF304460    0.00%    passed     98.62%
+   2  MZ712010    0.00%    passed     98.62%
+   3  OK625404    0.00%    passed     98.62%
+   4  KF293664    0.00%    passed     98.62%
+   5  KF293665    0.00%    passed     98.62%
+   6  OK662398    0.00%    passed     98.62%
+   7  KF293666    0.00%    passed     98.31%
+   8  KU291448    0.00%    passed     99.87%
+   9  KY996417    0.00%    passed     99.87%
+  10  KY369909    0.00%    passed     99.93%
+  11  KY621348    0.00%    passed     99.93%
+  12  KY674914    0.00%    passed     99.93%
+  13  KY369913    0.00%    passed     99.98%
+  14  KY983587    0.00%    passed     99.93%
+  15  MT438697    0.00%    passed     99.93%
+  16  MT438699    0.00%    passed     99.93%
+  17  MT438698    0.00%    passed     99.93%
+  18  KY369908    0.00%    passed     99.76%
+  19  MT438700    0.00%    passed     99.98%
+  20  KY967357    0.00%    passed     99.98%
+  21  MN306046    0.00%    passed     99.94%
+  22  ON729316    0.00%    passed     99.94%
+  23  MT797634    0.00%    passed     99.99%
+  24  ON791801    0.00%    passed     99.99%
+  25  LC654445    0.00%    passed     99.94%
+  26  MW587037    0.00%    passed    100.00%
+  27  MW587038    0.00%    passed    100.00%
+  28  OK073078    0.00%    passed    100.00%
+  29  OK073079    0.00%    passed    100.00%
+  30  OK073082    0.00%    passed    100.00%
+  31  OK073084    0.00%    passed    100.00%
+  32  MW532103    0.00%    passed    100.00%
+  33  MW587036    3.25%    passed     99.49%
+  34  OK073083    0.00%    passed     99.99%
+  35  MW532104    0.00%    passed     99.96%
+  36  MN369046    1.54%    passed     99.96%
+  37  MW587035    0.00%    passed    100.00%
+  38  KT359752    0.26%    passed     99.96%
+  39  KT359753    0.26%    passed     99.96%
+  40  KT359755    0.26%    passed     99.96%
+  41  KT359756    0.26%    passed     99.96%
+  42  KT359757    0.26%    passed     99.96%
+  43  KT359758    0.26%    passed     99.96%
+  44  KT359760    0.26%    passed     99.96%
+  45  KT359761    0.26%    passed     99.96%
+  46  KT359762    0.26%    passed     99.96%
+  47  KT359763    0.26%    passed     99.96%
+  48  KT359764    0.26%    passed     99.96%
+  49  KT359765    0.26%    passed     99.96%
+  50  KT359766    0.26%    passed     99.96%
+  51  KT359769    0.51%    passed     99.98%
+  52  KM055528    0.00%    passed     99.99%
+  53  KM055513    0.00%    passed     99.99%
+  54  KM055529    0.00%    passed     99.99%
+  55  KT359767    0.26%    passed     99.99%
+  56  JX503060    0.00%    passed     99.92%
+  57  MW532106    0.00%    passed     99.84%
+  58  LC005737    6.15%    passed     99.77%
+  59  KM055501    0.00%    passed     99.97%
+  60  KM055502    0.00%    passed     99.97%
+  61  KM055503    0.00%    passed     99.97%
+  62  KM055506    0.00%    passed     99.97%
+  63  KM055514    0.00%    passed     99.97%
+  64  KM055517    0.00%    passed     99.97%
+  65  KM055520    0.00%    passed     99.97%
+  66  KM055530    0.00%    passed     99.97%
+  67  KM055522    0.00%    passed     99.92%
+  68  LC005738    6.15%    passed     99.78%
+  69  LC005740    6.15%    passed     99.78%
+  70  LC005739    6.15%    passed     99.94%
+  71  LC005741    6.15%    passed     99.38%
+  72  KM055504    0.00%    passed     99.96%
+  73  KM055512    0.00%    passed     99.96%
+  74  KM055505    0.00%    passed     99.97%
+  75  KM055509    0.00%    passed     99.86%
+  76  KM055510    0.00%    passed     99.86%
+  77  MW532107    0.00%    passed     99.92%
+  78  AB691767    0.00%    passed     99.92%
+  79  KM055519    0.00%    passed     99.92%
+  80  KM055515    0.00%    passed     99.75%
+  81  KM055521    0.00%    passed     99.97%
+  82  KM055511    0.00%    passed     99.97%
+  83  KM055527    0.00%    passed     99.99%
+  84  KT359768    0.26%    passed     99.93%
+  85  OK073080    0.00%    passed    100.00%
+  86  OK073077    0.00%    passed     99.98%
+  87  KM055516    0.00%    passed     99.52%
+  88  KM055518    0.00%    passed     99.75%
+  89  MH828489    0.00%    passed     99.97%
+  90  KT359759    0.26%    passed    100.00%
+  91  KY369912    0.00%    passed     99.96%
+  92  KY369914    0.00%    passed     99.87%
+  93  OK073081    0.00%    passed     99.86%
+  94  KM055524    0.00%    passed     99.99%
+  95  KY674919    0.00%    passed     99.60%
+  96  AB691764    0.00%    passed     99.96%
+  97  AB691765    0.00%    passed     99.96%
+  98  AB691766    0.00%    passed     99.96%
+  99  KM055523    0.00%    passed     99.96%
+ 100  KF514430    0.00%    passed     99.92%
+ 101  KF514432    0.00%    passed     99.99%
+ 102  KF514433    0.00%    passed     99.99%
+ 103  KF514431    0.00%    passed     99.98%
+ 104  KM055525    0.00%    passed     99.99%
+ 105  KM055526    0.00%    passed     99.94%
+ 106  KM055507    0.00%    passed     99.86%
+ 107  KM055508    0.00%    passed     99.86%
+ 108  JX503061    0.00%    passed     99.69%
+ 109  LC005736    6.15%    passed     99.71%
+ 110  KY369910    0.00%    passed     99.32%
+ 111  KY369911    0.00%    passed     99.32%
+ 112  MT438696    0.00%    passed     99.65%
+ 113  MF542265    0.00%    passed     99.83%
+ 114  KY684760    0.00%    passed     99.94%
+ 115  MW532105    0.00%    passed     99.94%
+ 116  MT118677    0.00%    passed     99.94%
+ 117  MW202340    0.00%    passed     99.30%
+ 118  LC654446    0.00%    passed     99.12%
+ 119  MW039392    0.00%    passed     98.70%
+ 120  KF514429    0.00%    passed     99.98%
+ 121  KT359754    0.26%    passed     99.20%
+****  TOTAL       0.38%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MZ712010 is identical to AF304460 but kept for subsequent analysis
+NOTE: KY621348 is identical to KY369909 but kept for subsequent analysis
+NOTE: MT438697 is identical to KY983587 but kept for subsequent analysis
+NOTE: ON729316 is identical to MN306046 but kept for subsequent analysis
+NOTE: ON791801 is identical to MT797634 but kept for subsequent analysis
+NOTE: MW587038 is identical to MW587037 but kept for subsequent analysis
+NOTE: KT359753 is identical to KT359752 but kept for subsequent analysis
+NOTE: KM055513 is identical to KM055528 but kept for subsequent analysis
+NOTE: KM055502 is identical to KM055501 but kept for subsequent analysis
+NOTE: LC005740 is identical to LC005738 but kept for subsequent analysis
+NOTE: KM055512 is identical to KM055504 but kept for subsequent analysis
+NOTE: KM055510 is identical to KM055509 but kept for subsequent analysis
+NOTE: AB691767 is identical to MW532107 but kept for subsequent analysis
+NOTE: AB691765 is identical to AB691764 but kept for subsequent analysis
+NOTE: KM055508 is identical to KM055507 but kept for subsequent analysis
+NOTE: KY369911 is identical to KY369910 but kept for subsequent analysis
+NOTE: MW532105 is identical to KY684760 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000334978 secs using 70.45% CPU
+Identifying sites to remove: done in 0.00101686 secs using 97.75% CPU
+NOTE: 33 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: OK625404 (identical to AF304460) is ignored but added at the end
+NOTE: KF293664 (identical to AF304460) is ignored but added at the end
+NOTE: KF293665 (identical to AF304460) is ignored but added at the end
+NOTE: OK662398 (identical to AF304460) is ignored but added at the end
+NOTE: KY674914 (identical to KY369909) is ignored but added at the end
+NOTE: MT438699 (identical to KY983587) is ignored but added at the end
+NOTE: MT438698 (identical to KY983587) is ignored but added at the end
+NOTE: OK073078 (identical to MW587037) is ignored but added at the end
+NOTE: OK073079 (identical to MW587037) is ignored but added at the end
+NOTE: OK073082 (identical to MW587037) is ignored but added at the end
+NOTE: OK073084 (identical to MW587037) is ignored but added at the end
+NOTE: MW532103 (identical to MW587037) is ignored but added at the end
+NOTE: KT359755 (identical to KT359752) is ignored but added at the end
+NOTE: KT359756 (identical to KT359752) is ignored but added at the end
+NOTE: KT359757 (identical to KT359752) is ignored but added at the end
+NOTE: KT359758 (identical to KT359752) is ignored but added at the end
+NOTE: KT359760 (identical to KT359752) is ignored but added at the end
+NOTE: KT359761 (identical to KT359752) is ignored but added at the end
+NOTE: KT359762 (identical to KT359752) is ignored but added at the end
+NOTE: KT359763 (identical to KT359752) is ignored but added at the end
+NOTE: KT359764 (identical to KT359752) is ignored but added at the end
+NOTE: KT359765 (identical to KT359752) is ignored but added at the end
+NOTE: KT359766 (identical to KT359752) is ignored but added at the end
+NOTE: KM055529 (identical to KM055528) is ignored but added at the end
+NOTE: KM055503 (identical to KM055501) is ignored but added at the end
+NOTE: KM055506 (identical to KM055501) is ignored but added at the end
+NOTE: KM055514 (identical to KM055501) is ignored but added at the end
+NOTE: KM055517 (identical to KM055501) is ignored but added at the end
+NOTE: KM055520 (identical to KM055501) is ignored but added at the end
+NOTE: KM055530 (identical to KM055501) is ignored but added at the end
+NOTE: KM055519 (identical to MW532107) is ignored but added at the end
+NOTE: AB691766 (identical to AB691764) is ignored but added at the end
+NOTE: KM055523 (identical to AB691764) is ignored but added at the end
+Alignment was printed to results/aligned_229e_N-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_229e_N-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -4591.542
+2. Current log-likelihood: -4337.343
+Optimal log-likelihood: -4336.130
+Rate parameters:  A-C: 0.38315  A-G: 1.35090  A-T: 0.20984  C-G: 0.04254  C-T: 4.11096  G-T: 1.00000
+Base frequencies:  A: 0.302  C: 0.221  G: 0.214  T: 0.264
+Parameters optimization took 2 rounds (0.136 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.047935 secs using 24.03% CPU
+Computing ML distances took 0.048076 sec (of wall-clock time) 0.011612 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00018692 secs using 171.2% CPU
+Constructing RapidNJ tree: done in 0.000441074 secs using 185.5% CPU
+Computing RapidNJ tree took 0.000675 sec (of wall-clock time) 0.001190 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -2669.813
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.0124872 secs using 50.36% CPU
+BETTER TREE FOUND at iteration 1: -2669.813
+Optimizing NNI: done in 0.225379 secs using 59.36% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -2669.813 / CPU time: 0.249
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -2669.813
+2. Current log-likelihood: -2666.555
+Optimal log-likelihood: -2666.554
+Rate parameters:  A-C: 0.44313  A-G: 0.95393  A-T: 0.21255  C-G: 0.10293  C-T: 2.83746  G-T: 1.00000
+Base frequencies:  A: 0.302  C: 0.221  G: 0.214  T: 0.264
+Parameters optimization took 2 rounds (0.056 sec)
+BEST SCORE FOUND : -2666.554
+Total tree length: 0.117
+
+Total number of iterations: 2
+CPU time used for tree search: 0.147 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.251 sec (0h:0m:0s)
+Total CPU time used: 0.258 sec (0h:0m:0s)
+Total wall-clock time used: 0.557 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_229e_N-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_229e_N-delim.fasta.treefile
+  Likelihood distances:          results/aligned_229e_N-delim.fasta.mldist
+  Screen log file:               results/aligned_229e_N-delim.fasta.log
+
+Date and Time: Tue Jan 10 12:59:47 2023

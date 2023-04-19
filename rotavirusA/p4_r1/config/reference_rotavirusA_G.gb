@@ -1,0 +1,75 @@
+LOCUS       NC_011503               1062 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Rotavirus A segment 9, complete genome.
+ACCESSION   NC_011503
+VERSION     NC_011503.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus.
+REFERENCE   1  (bases 1 to 1062)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 1062)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 1062)
+  AUTHORS   Patton,J.T., Small,C., Brown,T.L. and Barro,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838620.
+            On Oct 17, 2011 this sequence version replaced NC_011503.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1062
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="9"
+     gene            49..1029
+                     /gene="VP7"
+                     /db_xref="GeneID:7011359"
+     CDS             49..1029
+                     /gene="G"
+                     /note="capsid glycoprotein"
+                     /codon_start=1
+                     /product="VP7"
+                     /protein_id="YP_002302222.1"
+                     /db_xref="GeneID:7011359"
+                     /translation="MYGIEYTTVLTFLISIILLNYILKSLTRIMDFIIYRFLFIIVIL
+                     SPFLRAQNYGINLPITGSMDTAYANSTQEETFLTSTLCLYYPTEAATEINDNSWKDTL
+                     SQLFLTKGWPTGSVYFKEYTNIASFSVDPQLYCDYNVVLMKYDATLQLDMSELADLIL
+                     NEWLCNPMDITLYYYQQTDEANKWISMGSSCTIKVCPLNTQTLGIGCLTTDATTFEEV
+                     ATAEKLVITDVVDGVNHKLDVTTATCTIRNCKKLGPRENVAVIQVGGSDILDITADPT
+                     TAPQTERMMRINWKKWWQVFYTVVDYVDQIIQVMSKRSRSLNSAAFYYRV"
+ORIGIN      
+        1 ggctttaaaa gagagaattt ccgtttggct agcggttagc tccttttaat gtatggtatt
+       61 gaatatacca cagttctaac ctttctgata tcgattattc tactaaatta catacttaaa
+      121 tcattaacta gaataatgga ctttataatt tatagatttc tttttataat tgtgatattg
+      181 tcaccatttc tcagagcaca aaattatggt attaatcttc caatcacagg ctccatggac
+      241 actgcatacg ctaattcaac gcaagaagaa acattcctca cttctacact ttgcctatat
+      301 tatccgactg aggctgcgac tgaaataaac gataattcat ggaaagacac actgtcacaa
+      361 ctatttctta cgaaagggtg gccaactgga tccgtatatt ttaaagaata tactaacatt
+      421 gcatcgtttt ctgttgatcc gcagttgtat tgtgattata acgtagtact aatgaaatat
+      481 gacgcgacgt tgcaattgga tatgtcagaa cttgcggatc taatattaaa cgaatggttg
+      541 tgtaatccaa tggatattac tctgtattat tatcagcaaa ctgacgaagc gaataaatgg
+      601 atatcaatgg gctcatcatg tacaattaaa gtatgtccac ttaatacaca aactcttgga
+      661 attggatgct tgacaactga tgctacaact tttgaagaag ttgcgacagc tgaaaagttg
+      721 gtaattactg acgtggttga tggcgttaat cataagctgg atgtcacaac agcaacgtgt
+      781 actattagaa actgtaagaa attgggacca agagaaaacg tagccgttat acaagttggt
+      841 ggttctgaca tcctcgatat aactgctgat ccaactactg caccacagac agaacggatg
+      901 atgcgaatta actggaaaaa atggtggcaa gttttttata ctgtagtaga ctatgtagat
+      961 cagataatac aagttatgtc caaaagatca agatcactaa attcagcagc attttattac
+     1021 agagtgtagg tataacttag gttagaattg tatgatgtga cc
+//

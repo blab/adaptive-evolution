@@ -1,0 +1,86 @@
+LOCUS       NC_011505                667 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Rotavirus A segment 11, complete genome.
+ACCESSION   NC_011505
+VERSION     NC_011505.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus.
+REFERENCE   1  (bases 1 to 667)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 667)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 667)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2008) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   4  (bases 1 to 667)
+  AUTHORS   Patton,J.T., Small,C., Brown,T.L. and Barro,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838630.
+            On Oct 18, 2011 this sequence version replaced NC_011505.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..667
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="11"
+     gene            22..618
+                     /locus_tag="RVA_s11_gp1"
+                     /note="NSP5"
+                     /db_xref="GeneID:7011364"
+     CDS             22..618
+                     /locus_tag="RVA_s11_gp1"
+                     /note="phosphoprotein"
+                     /codon_start=1
+                     /product="NSP5"
+                     /protein_id="YP_002302224.1"
+                     /db_xref="GeneID:7011364"
+                     /translation="MSLSIDVTSLPSIPSTIYKNESSSTTSTLSGKSIGRSEQYISPD
+                     AEAFNKYMLSKSPEDIGPSDSASNDPLTSFSIRSNAVKTNADAGVSMDSSAQSRPSSN
+                     VGCDQVDFSLNKGLKVKANLDSSISISTDTKKEKSKQNHKSRKHYPRIEAESDSDDYV
+                     LDDSDSDDGKCKNCKYKKKYFALRMRMKQVAMQLIEDL"
+     gene            80..358
+                     /locus_tag="RVA_s11_gp2"
+                     /note="NSP6"
+                     /db_xref="GeneID:7011363"
+     CDS             80..358
+                     /locus_tag="RVA_s11_gp2"
+                     /note="nonstructural protein"
+                     /codon_start=1
+                     /product="NSP6"
+                     /protein_id="YP_002302225.1"
+                     /db_xref="GeneID:7011363"
+                     /translation="MNRLQQRQLFLENLLVGVNSTFHQMQKHSINTCCRSLQRILDHL
+                     ILLQTIHSPVFRLDRMQLRQMQTLACLWIHQHNHDLQVMSDAIKWISP"
+ORIGIN      
+        1 ggcttttaaa gcgctacagt gatgtctctc agtattgacg tgacgagtct tccttctatt
+       61 ccttcaacta tatataagaa tgaatcgtct tcaacaacgt caactctttc tggaaaatct
+      121 attggtagga gtgaacagta catttcacca gatgcagaag cattcaataa atacatgctg
+      181 tcgaagtctc cagaggatat tggaccatct gattctgctt caaacgatcc actcaccagt
+      241 ttttcgatta gatcgaatgc agttaagaca aatgcagacg ctggcgtgtc tatggattca
+      301 tcagcacaat cacgaccttc aagtaatgtc ggatgcgatc aagtggattt ctccttaaat
+      361 aaaggcttaa aagtaaaagc taatttggac tcatcaatat caatatctac ggatactaaa
+      421 aaggagaaat caaaacaaaa ccataaaagt aggaagcact acccaagaat tgaagcagag
+      481 tctgattcag atgattatgt actggatgat tcagatagtg atgatggtaa atgtaagaac
+      541 tgtaaatata agaagaaata cttcgcatta agaatgagaa tgaaacaagt cgcaatgcaa
+      601 ttgattgaag atttgtaagt ctgacctggg aacacactag ggagctcccc actcccgttt
+      661 tgtgacc
+//

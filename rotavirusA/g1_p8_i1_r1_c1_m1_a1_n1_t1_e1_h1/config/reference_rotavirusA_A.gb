@@ -1,0 +1,87 @@
+LOCUS       NC_011500               1614 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Rotavirus A segment 5, complete genome.
+ACCESSION   NC_011500
+VERSION     NC_011500.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus.
+REFERENCE   1  (bases 1 to 1614)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 1614)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 1614)
+  AUTHORS   Patton,J.T., Small,C., Brown,T.L. and Barro,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838599.
+            On Oct 17, 2011 this sequence version replaced NC_011500.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1614
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="5"
+     gene            31..1521
+                     /gene="NSP1"
+                     /db_xref="GeneID:7011353"
+     CDS             31..1521
+                     /gene="A"
+                     /note="interferon antagonist protein"
+                     /codon_start=1
+                     /product="NSP1"
+                     /protein_id="YP_002302219.1"
+                     /db_xref="GeneID:7011353"
+                     /translation="MATFKDACFHYRRLTALNRRLCNIGANSICMPVPDAKIKGWCLE
+                     CCQIADLTHCYGCSLPHVCKWCVQNRRCFLDNEPHLLKLRTVKHPITKDKLQCIIDLY
+                     NIIFPINDKVIRKFERMIKQRKCRNQYKIEWYNHLLLPITLNAAAFKFDENNLYYVFG
+                     LYEKSVSDIYAPYRIVNFINEFDKLLLDDINFTRMSNLPIELRNHYAKKYFQLSRLPS
+                     SKLKQIYFSDFTKETVIFNTYTKTPGRSIYRNVTEFNWRDELELYSDLKNDKNKLIAA
+                     MMTSKYTRFYAHDNNFGRLKMTIFELGHHCQPNYVASNHPGNASDIQYCKWCNIKYFL
+                     SKIDWRIRDMYNLLMEFIKDCYKSNVNVGHCSSVENIYPLIKRLIWSLFTNHMDQTIE
+                     EVFNHMSPVSVEGTNVIMLILGLNISLYNEIKRTLNVDSIPMVLNLNEFSSIVKSISS
+                     KWYNVDELDKLPMSIKSTEELIEMKNSGTLTEEFELLISNSEDDNE"
+ORIGIN      
+        1 ggcttttttt tgaaaagtct tgtgttagcc atggctactt ttaaagatgc atgctttcat
+       61 tatcgtagat taactgcttt aaatcggaga ttatgcaaca ttggtgcaaa ttctatttgc
+      121 atgccagttc ctgatgcgaa aattaagggg tggtgtttag aatgttgtca aatagctgat
+      181 ttaacccatt gttatggttg ctcattgccg catgtttgca aatggtgtgt tcagaacaga
+      241 agatgcttcc ttgacaatga acctcatttg cttaagctta gaactgtgaa acatccaatt
+      301 accaaagaca aattacagtg tatcatagac ttgtacaata taatatttcc aattaatgat
+      361 aaagtaatta gaaaatttga aagaatgata aagcaaagaa aatgtaggaa tcaatataaa
+      421 attgaatggt ataatcattt gctgctccca attacattaa atgctgctgc atttaagttt
+      481 gatgaaaata atctttatta tgtttttggg ttatatgaga aatcagtcag tgatatatat
+      541 gctccatata gaattgttaa ctttataaat gaatttgata aattattgct tgatgatatt
+      601 aactttacaa gaatgtccaa tctaccaata gagttgagaa accattatgc aaagaaatac
+      661 ttccaattat caagactgcc atcatcaaaa ctaaagcaaa tttacttttc agattttact
+      721 aaagaaactg tgatttttaa tacttataca aaaacgccag gaagatcaat atacagaaat
+      781 gtaactgaat ttaattggag agatgaattg gagctttatt ctgatttaaa aaatgataag
+      841 aataaattaa ttgctgcaat gatgacgagt aagtatactc ggttctatgc tcatgataat
+      901 aattttggaa ggttgaaaat gacaatattt gagttgggac atcattgtca gcctaactac
+      961 gtggcatcta atcacccagg caatgcttcc gatatccagt actgtaaatg gtgtaatata
+     1021 aaatattttc ttagtaaaat tgattggcgg attcgtgata tgtataattt attgatggaa
+     1081 tttattaagg attgttataa aagtaatgtt aacgttggac attgtagttc tgttgaaaac
+     1141 atatatcctt taattaaaag attaatttgg agtttgttta ctaatcacat ggatcaaaca
+     1201 attgaagaag tgtttaatca catgtcgcca gtgtcagttg aaggtacgaa tgtcatcatg
+     1261 ttgattcttg gattgaatat tagtttgtat aatgaaatta agcgcacttt gaatgtagat
+     1321 agcataccaa tggtacttaa tttaaatgaa ttcagtagta tagttaaatc aattagcagt
+     1381 aaatggtata atgttgatga attggataaa ttgccaatgt caataaaatc aacggaggaa
+     1441 ctgattgaaa tgaagaattc tggaacttta actgaagaat ttgagctact gatctccaac
+     1501 tcagaagatg acaatgagtg aaattactaa tgtcactatc taattataca gtatttagcc
+     1561 atcacaagac cgtccagact agagtagcgc ctagctggca aaatactgtg aacc
+//

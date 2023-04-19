@@ -1,0 +1,2339 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Genetic diversity of OC43",
+    "updated": "2023-01-10",
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "ORF1ab": {
+        "end": 21288,
+        "seqid": "config/reference_oc43_ORF1ab.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 21288,
+        "seqid": "config/reference_oc43_ORF1ab.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "host"
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1981.8468704810225,
+        "confidence": [
+          1981.2970928693783,
+          1982.4236807733053
+        ]
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "div": 0.0003285342974889904,
+          "num_date": {
+            "value": 1989.2920941838772,
+            "confidence": [
+              1988.630462482294,
+              1989.6955932122157
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A2264G",
+              "C2640T",
+              "C3370T",
+              "T7440C",
+              "C9938T",
+              "C16278T"
+            ],
+            "ORF1ab": [
+              "Q755R",
+              "L1124F",
+              "T3313I"
+            ]
+          },
+          "labels": {
+            "aa": "ORF1ab: Q755R, L1124F, T3313I"
+          }
+        },
+        "children": [
+          {
+            "name": "KF530061",
+            "node_attrs": {
+              "div": 0.0005162644508336482,
+              "num_date": {
+                "value": 1990.0506849315068,
+                "confidence": [
+                  1990.0506849315068,
+                  1990.0506849315068
+                ]
+              },
+              "country": {
+                "value": "USA"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T2619C",
+                  "C3444T",
+                  "G7389A",
+                  "A11928G"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 0.0003285342974889904,
+              "num_date": {
+                "value": 1989.620427887029,
+                "confidence": [
+                  1989.2258654869029,
+                  1989.87765232244
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "KF530065",
+                "node_attrs": {
+                  "div": 0.0004223861786641649,
+                  "num_date": {
+                    "value": 1990.045205479452,
+                    "confidence": [
+                      1990.045205479452,
+                      1990.045205479452
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T12102C",
+                      "T12861C"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000015",
+                "node_attrs": {
+                  "div": 0.0003285342974889904,
+                  "num_date": {
+                    "value": 1989.8466285467027,
+                    "confidence": [
+                      1989.5705215268003,
+                      1989.9712328767123
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "KF530073",
+                    "node_attrs": {
+                      "div": 0.00037546119275142555,
+                      "num_date": {
+                        "value": 1989.9712328767123,
+                        "confidence": [
+                          1989.9712328767123,
+                          1989.9712328767123
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G8247A"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "KF530066",
+                    "node_attrs": {
+                      "div": 0.0003285342974889904,
+                      "num_date": {
+                        "value": 1990.0424657534247,
+                        "confidence": [
+                          1990.0424657534247,
+                          1990.0424657534247
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000003",
+        "node_attrs": {
+          "div": 3.990014599243366e-22,
+          "num_date": {
+            "value": 1981.9370016886355,
+            "confidence": [
+              1981.4304398999536,
+              1982.4369533835945
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "NODE_0000004",
+            "node_attrs": {
+              "div": 0.0002346384197882069,
+              "num_date": {
+                "value": 1990.215188356181,
+                "confidence": [
+                  1988.3904701146812,
+                  1990.4269553099339
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C5739T",
+                  "C15174T",
+                  "G16194T",
+                  "T18009C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000005",
+                "node_attrs": {
+                  "div": 0.0006101644274008428,
+                  "num_date": {
+                    "value": 1992.6569819833462,
+                    "confidence": [
+                      1992.365258332795,
+                      1992.866813292086
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C525T",
+                      "G2896T",
+                      "C6757T",
+                      "G11100A",
+                      "A11131C",
+                      "G11463A",
+                      "G17286T",
+                      "C17511T"
+                    ],
+                    "ORF1ab": [
+                      "D966Y",
+                      "I3711L",
+                      "E5762D"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "ORF1ab: D966Y, I3711L, E5762D"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KF530090",
+                    "node_attrs": {
+                      "div": 0.0006570906689954146,
+                      "num_date": {
+                        "value": 1993.0698630136985,
+                        "confidence": [
+                          1993.0698630136985,
+                          1993.0698630136985
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G5130A"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000006",
+                    "node_attrs": {
+                      "div": 0.000657091637134092,
+                      "num_date": {
+                        "value": 1992.8839735361205,
+                        "confidence": [
+                          1992.6087114835482,
+                          1992.9139344262296
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C543T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF530074",
+                        "node_attrs": {
+                          "div": 0.0007040204299766748,
+                          "num_date": {
+                            "value": 1992.957650273224,
+                            "confidence": [
+                              1992.957650273224,
+                              1992.957650273224
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G7040A"
+                            ],
+                            "ORF1ab": [
+                              "S2347N"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "ORF1ab: S2347N"
+                          }
+                        }
+                      },
+                      {
+                        "name": "KF530097",
+                        "node_attrs": {
+                          "div": 0.000657091637134092,
+                          "num_date": {
+                            "value": 1992.9139344262296,
+                            "confidence": [
+                              1992.9139344262296,
+                              1992.9139344262296
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "div": 0.0009388778931288254,
+                  "num_date": {
+                    "value": 1994.4685690929737,
+                    "confidence": [
+                      1994.016935212922,
+                      1994.7853491381825
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T3966C",
+                      "C4272T",
+                      "G6690A",
+                      "T9049C",
+                      "C9955T",
+                      "T10785C",
+                      "T11829C",
+                      "T13827C",
+                      "C13894T",
+                      "C14631T",
+                      "T15021C",
+                      "T17178C",
+                      "C19335T",
+                      "C19655T",
+                      "C20043T"
+                    ],
+                    "ORF1ab": [
+                      "F3017L",
+                      "S6552F"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "ORF1ab: F3017L, S6552F"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KF530075",
+                    "node_attrs": {
+                      "div": 0.0009858004597774579,
+                      "num_date": {
+                        "value": 1995.1849315068494,
+                        "confidence": [
+                          1995.1849315068494,
+                          1995.1849315068494
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G5133T"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000008",
+                    "node_attrs": {
+                      "div": 0.0009858004597774579,
+                      "num_date": {
+                        "value": 1994.6959144216312,
+                        "confidence": [
+                          1994.368033910672,
+                          1994.9091051981277
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G20877T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF530059",
+                        "node_attrs": {
+                          "div": 0.0010796723670730062,
+                          "num_date": {
+                            "value": 1995.0287671232877,
+                            "confidence": [
+                              1995.0287671232877,
+                              1995.0287671232877
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A13467G",
+                              "C17398T"
+                            ],
+                            "ORF1ab": [
+                              "P5800S"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "ORF1ab: P5800S"
+                          }
+                        }
+                      },
+                      {
+                        "name": "KF530062",
+                        "node_attrs": {
+                          "div": 0.001126620311314321,
+                          "num_date": {
+                            "value": 1995.1191780821919,
+                            "confidence": [
+                              1995.1191780821919,
+                              1995.1191780821919
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C2366T",
+                              "G20700T",
+                              "C20739T"
+                            ],
+                            "ORF1ab": [
+                              "A789V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "ORF1ab: A789V"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000009",
+            "node_attrs": {
+              "div": 0.0003754932525049057,
+              "num_date": {
+                "value": 1982.5977508694514,
+                "confidence": [
+                  1982.2584863154618,
+                  1982.8947871665805
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G5133T",
+                  "A6461G",
+                  "C8726T",
+                  "T9720C",
+                  "T11979C",
+                  "C16035T",
+                  "A17535T",
+                  "C19503T",
+                  "C20532T"
+                ],
+                "ORF1ab": [
+                  "D2154G",
+                  "T2909M"
+                ]
+              },
+              "labels": {
+                "aa": "ORF1ab: D2154G, T2909M"
+              }
+            },
+            "children": [
+              {
+                "name": "KF530085",
+                "node_attrs": {
+                  "div": 0.0008919730105763251,
+                  "num_date": {
+                    "value": 1987.058904109589,
+                    "confidence": [
+                      1987.058904109589,
+                      1987.058904109589
+                    ]
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C1956T",
+                      "C2975A",
+                      "A3018T",
+                      "T3022C",
+                      "G6015T",
+                      "C9732T",
+                      "C10543T",
+                      "T12639C",
+                      "C12726T",
+                      "G14409T",
+                      "C16722T"
+                    ],
+                    "ORF1ab": [
+                      "A992D",
+                      "E1006D",
+                      "L2005F",
+                      "L3515F",
+                      "K4803N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "ORF1ab: A992D, E1006D, L2005F, L3515F, K4803N"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000010",
+                "node_attrs": {
+                  "div": 0.0006571182430612039,
+                  "num_date": {
+                    "value": 1982.9819127275146,
+                    "confidence": [
+                      1982.7836687936024,
+                      1983.1088255310171
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A2767C",
+                      "A2987G",
+                      "A7587G",
+                      "T18930A",
+                      "C19335T",
+                      "C19767T"
+                    ],
+                    "ORF1ab": [
+                      "I923L",
+                      "Y996C"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "ORF1ab: I923L, Y996C"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KF530087",
+                    "node_attrs": {
+                      "div": 0.0011735534283223682,
+                      "num_date": {
+                        "value": 1987.1739726027397,
+                        "confidence": [
+                          1987.1739726027397,
+                          1987.1739726027397
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C1749T",
+                          "C3190T",
+                          "C6139A",
+                          "C6495T",
+                          "C7381T",
+                          "T10299C",
+                          "T11481C",
+                          "A12201G",
+                          "T15931C",
+                          "A16396C",
+                          "G17226A"
+                        ],
+                        "ORF1ab": [
+                          "P2047T",
+                          "I5466L"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "ORF1ab: P2047T, I5466L"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000011",
+                    "node_attrs": {
+                      "div": 0.0007509800313743335,
+                      "num_date": {
+                        "value": 1983.1493150684933,
+                        "confidence": [
+                          1983.0001596808881,
+                          1983.1493150684933
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C3591T",
+                          "C20043A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KF530093",
+                        "node_attrs": {
+                          "div": 0.0007509800313743336,
+                          "num_date": {
+                            "value": 1983.1493150684933,
+                            "confidence": [
+                              1983.1493150684933,
+                              1983.1493150684933
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000012",
+                        "node_attrs": {
+                          "div": 0.0009387414097931562,
+                          "num_date": {
+                            "value": 1983.4644965939347,
+                            "confidence": [
+                              1983.2166638730992,
+                              1983.8209404610243
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C1833T",
+                              "C2484T",
+                              "G16888A",
+                              "C18339T"
+                            ],
+                            "ORF1ab": [
+                              "V5630I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "ORF1ab: V5630I"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000013",
+                            "node_attrs": {
+                              "div": 0.0010795749931712328,
+                              "num_date": {
+                                "value": 1984.2752014011007,
+                                "confidence": [
+                                  1983.86124864262,
+                                  1984.645980409847
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C7143A",
+                                  "A9828G",
+                                  "T15573C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "KF530060",
+                                "node_attrs": {
+                                  "div": 0.0013143126153656618,
+                                  "num_date": {
+                                    "value": 1985.0205479452054,
+                                    "confidence": [
+                                      1985.0205479452054,
+                                      1985.0205479452054
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T279C",
+                                      "G3682C",
+                                      "G4489A",
+                                      "T14187C",
+                                      "G19694T"
+                                    ],
+                                    "ORF1ab": [
+                                      "A1228P",
+                                      "V1497I",
+                                      "S6565I"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "ORF1ab: A1228P, V1497I, S6565I"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000014",
+                                "node_attrs": {
+                                  "div": 0.0014082597685583756,
+                                  "num_date": {
+                                    "value": 1986.8567814763448,
+                                    "confidence": [
+                                      1986.5020530830666,
+                                      1987.0950089429512
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T486A",
+                                      "A4946G",
+                                      "T6793C",
+                                      "T11289A",
+                                      "G14157T",
+                                      "G16242T",
+                                      "T16245C"
+                                    ],
+                                    "ORF1ab": [
+                                      "N1649S",
+                                      "Y2265H"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "ORF1ab: N1649S, Y2265H"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KF530083",
+                                    "node_attrs": {
+                                      "div": 0.0015021303785939509,
+                                      "num_date": {
+                                        "value": 1987.2068493150684,
+                                        "confidence": [
+                                          1987.2068493150684,
+                                          1987.2068493150684
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G2805A",
+                                          "T3557C"
+                                        ],
+                                        "ORF1ab": [
+                                          "I1186T"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "ORF1ab: I1186T"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000033",
+                                    "node_attrs": {
+                                      "div": 0.0014082597685583756,
+                                      "num_date": {
+                                        "value": 1987.0711474104648,
+                                        "confidence": [
+                                          1986.821894972878,
+                                          1987.1109589041096
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KF530077",
+                                        "node_attrs": {
+                                          "div": 0.001455194642916525,
+                                          "num_date": {
+                                            "value": 1987.1931506849314,
+                                            "confidence": [
+                                              1987.1931506849314,
+                                              1987.1931506849314
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G17733T"
+                                            ],
+                                            "ORF1ab": [
+                                              "K5911N"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "ORF1ab: K5911N"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "KF530086",
+                                        "node_attrs": {
+                                          "div": 0.0014082597685583756,
+                                          "num_date": {
+                                            "value": 1987.1109589041096,
+                                            "confidence": [
+                                              1987.1109589041096,
+                                              1987.1109589041096
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000016",
+                            "node_attrs": {
+                              "div": 0.008412941589288021,
+                              "num_date": {
+                                "value": 1996.6810687652562,
+                                "confidence": [
+                                  1996.4264977099206,
+                                  1996.8395669945617
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T87C",
+                                  "G262C",
+                                  "T336C",
+                                  "A474G",
+                                  "C619T",
+                                  "C972T",
+                                  "A991G",
+                                  "C1143T",
+                                  "C1308T",
+                                  "C1338T",
+                                  "T1543C",
+                                  "C1584T",
+                                  "G1689A",
+                                  "C1749T",
+                                  "A1813G",
+                                  "T1867G",
+                                  "A2236G",
+                                  "T2316C",
+                                  "A2557C",
+                                  "C2637T",
+                                  "A2670G",
+                                  "G2700T",
+                                  "T2821C",
+                                  "G2850A",
+                                  "C2857T",
+                                  "A2862T",
+                                  "A2945G",
+                                  "G3009A",
+                                  "A3037G",
+                                  "T3519C",
+                                  "A3888T",
+                                  "T3897C",
+                                  "A4035G",
+                                  "T4135C",
+                                  "C4143T",
+                                  "C4272T",
+                                  "G4510C",
+                                  "T4605C",
+                                  "T4701C",
+                                  "C4848T",
+                                  "C5040T",
+                                  "C5276T",
+                                  "T5388C",
+                                  "T5584C",
+                                  "C5894A",
+                                  "T6007C",
+                                  "G6057T",
+                                  "C6060T",
+                                  "G6064A",
+                                  "T6068G",
+                                  "G6082A",
+                                  "A6086G",
+                                  "T6171C",
+                                  "T6195C",
+                                  "T6413C",
+                                  "T6687C",
+                                  "T6945A",
+                                  "C7066T",
+                                  "C7136T",
+                                  "G7157A",
+                                  "A7178G",
+                                  "T7251C",
+                                  "T7371C",
+                                  "T7614C",
+                                  "A7824G",
+                                  "G8013A",
+                                  "T8067C",
+                                  "C8077A",
+                                  "A8296G",
+                                  "A8448G",
+                                  "G8649T",
+                                  "G8709T",
+                                  "G8763T",
+                                  "T9117C",
+                                  "C9201T",
+                                  "T9293C",
+                                  "C9452G",
+                                  "T9456G",
+                                  "T9612C",
+                                  "G9843A",
+                                  "T9873A",
+                                  "T10017G",
+                                  "A10062T",
+                                  "A10314G",
+                                  "G10351T",
+                                  "G10396A",
+                                  "T10734G",
+                                  "T10749C",
+                                  "C10771T",
+                                  "C10876T",
+                                  "C10929T",
+                                  "T11019C",
+                                  "T11154C",
+                                  "G11263A",
+                                  "C11316T",
+                                  "C11325T",
+                                  "C11464T",
+                                  "C11553T",
+                                  "G11598T",
+                                  "G11823A",
+                                  "C11979T",
+                                  "G12744A",
+                                  "T12813C",
+                                  "A12909G",
+                                  "A13144G",
+                                  "A13229G",
+                                  "T14256A",
+                                  "C14490T",
+                                  "T14772C",
+                                  "T14980C",
+                                  "T14988C",
+                                  "C15213T",
+                                  "C15531T",
+                                  "C15582T",
+                                  "T15840C",
+                                  "T15885C",
+                                  "T15915C",
+                                  "G16155A",
+                                  "T16314C",
+                                  "T16461C",
+                                  "C16638T",
+                                  "C16722T",
+                                  "C16782T",
+                                  "T16893G",
+                                  "G16908A",
+                                  "A17002G",
+                                  "T17019C",
+                                  "C17064T",
+                                  "C17277T",
+                                  "G17691T",
+                                  "T17826C",
+                                  "C17979T",
+                                  "G17990T",
+                                  "T18018C",
+                                  "G18303T",
+                                  "G18627A",
+                                  "C18707G",
+                                  "C18720T",
+                                  "C18918T",
+                                  "T18994C",
+                                  "T19017C",
+                                  "C19053T",
+                                  "A19152G",
+                                  "C19155T",
+                                  "G19360A",
+                                  "A19452T",
+                                  "A19572G",
+                                  "A19740T",
+                                  "A20043C",
+                                  "T20097C",
+                                  "C20144T",
+                                  "T20196C",
+                                  "C20208T",
+                                  "G20700T",
+                                  "C20739T",
+                                  "C20763T",
+                                  "T20829C",
+                                  "C20844T"
+                                ],
+                                "ORF1ab": [
+                                  "D88H",
+                                  "R207C",
+                                  "N331D",
+                                  "T605A",
+                                  "S623A",
+                                  "I746V",
+                                  "S941P",
+                                  "L953F",
+                                  "D982G",
+                                  "N1013D",
+                                  "F1379L",
+                                  "V1504L",
+                                  "T1759I",
+                                  "F1862L",
+                                  "T1965N",
+                                  "S2003P",
+                                  "G2022S",
+                                  "V2023G",
+                                  "G2028S",
+                                  "D2029G",
+                                  "I2138T",
+                                  "T2379I",
+                                  "R2386K",
+                                  "N2393S",
+                                  "L2693I",
+                                  "I2766V",
+                                  "E2921D",
+                                  "V3098A",
+                                  "T3151S",
+                                  "V3451L",
+                                  "V3466I",
+                                  "L3591F",
+                                  "V3755I",
+                                  "Q3866H",
+                                  "T4382A",
+                                  "N4410S",
+                                  "I5668V",
+                                  "R5997L",
+                                  "A6236G",
+                                  "Y6332H",
+                                  "A6454T",
+                                  "I6524M",
+                                  "A6715V"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "ORF1ab: D88H, R207C, N331D, T605A, S623A, I746V, S941P, L953F, D982G, N1013D, F1379L, V1504L, T1759I, F1862L, T1965N, S2003P, G2022S, V2023G, G2028S, D2029G, I2138T, T2379I, R2386K, N2393S, L2693I, I2766V, E2921D, V3098A, T3151S, V3451L, V3466I, L3591F, V3755I, Q3866H, T4382A, N4410S, I5668V, R5997L, A6236G, Y6332H, A6454T, I6524M, A6715V"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "NODE_0000017",
+                                "node_attrs": {
+                                  "div": 0.008459877768041623,
+                                  "num_date": {
+                                    "value": 1996.8013763962613,
+                                    "confidence": [
+                                      1996.6180261969982,
+                                      1996.8975483114261
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C544T"
+                                    ],
+                                    "ORF1ab": [
+                                      "R182W"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "ORF1ab: R182W"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KF530064",
+                                    "node_attrs": {
+                                      "div": 0.00850681579721697,
+                                      "num_date": {
+                                        "value": 1996.9248633879781,
+                                        "confidence": [
+                                          1996.9248633879781,
+                                          1996.9248633879781
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G5709T"
+                                        ],
+                                        "ORF1ab": [
+                                          "Q1903H"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "ORF1ab: Q1903H"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "KF530078",
+                                    "node_attrs": {
+                                      "div": 0.008553756623768026,
+                                      "num_date": {
+                                        "value": 1996.9603825136612,
+                                        "confidence": [
+                                          1996.9603825136612,
+                                          1996.9603825136612
+                                        ]
+                                      },
+                                      "country": {
+                                        "value": "USA"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T2109C",
+                                          "C20407T"
+                                        ],
+                                        "ORF1ab": [
+                                          "P6803S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "ORF1ab: P6803S"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000018",
+                                "node_attrs": {
+                                  "div": 0.008459879425884866,
+                                  "num_date": {
+                                    "value": 1997.2480430086741,
+                                    "confidence": [
+                                      1996.8434870721715,
+                                      1997.4666782550526
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T9711A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000019",
+                                    "node_attrs": {
+                                      "div": 0.008553758305776524,
+                                      "num_date": {
+                                        "value": 1997.5041340193097,
+                                        "confidence": [
+                                          1997.2148506737187,
+                                          1997.7441019251423
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C7404T",
+                                          "G11145A"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KF530072",
+                                        "node_attrs": {
+                                          "div": 0.008647638228526369,
+                                          "num_date": {
+                                            "value": 1997.9438356164383,
+                                            "confidence": [
+                                              1997.9438356164383,
+                                              1997.9438356164383
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G12516A",
+                                              "T14169C"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "KF530080",
+                                        "node_attrs": {
+                                          "div": 0.008647642392486833,
+                                          "num_date": {
+                                            "value": 1997.9630136986302,
+                                            "confidence": [
+                                              1997.9630136986302,
+                                              1997.9630136986302
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C8474T",
+                                              "A11943G"
+                                            ],
+                                            "ORF1ab": [
+                                              "T2825I"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "ORF1ab: T2825I"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000020",
+                                    "node_attrs": {
+                                      "div": 0.008553754991047987,
+                                      "num_date": {
+                                        "value": 1999.1687137069655,
+                                        "confidence": [
+                                          1997.2403579569157,
+                                          1999.4655096595632
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C4140T",
+                                          "T7170C"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000021",
+                                        "node_attrs": {
+                                          "div": 0.008741524822713297,
+                                          "num_date": {
+                                            "value": 2000.037310236986,
+                                            "confidence": [
+                                              1999.5497641538009,
+                                              2000.2386280413089
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C3444T",
+                                              "T6038G",
+                                              "T6696C",
+                                              "A14152G"
+                                            ],
+                                            "ORF1ab": [
+                                              "V2013G",
+                                              "I4718V"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "ORF1ab: V2013G, I4718V"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "KF530092",
+                                            "node_attrs": {
+                                              "div": 0.00888234537391312,
+                                              "num_date": {
+                                                "value": 2000.6024590163934,
+                                                "confidence": [
+                                                  2000.6024590163934,
+                                                  2000.6024590163934
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "USA"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T7503C",
+                                                  "G13530T",
+                                                  "C15502T"
+                                                ],
+                                                "ORF1ab": [
+                                                  "H5168Y"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "ORF1ab: H5168Y"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "KY014281",
+                                            "node_attrs": {
+                                              "div": 0.0091171178025492,
+                                              "num_date": {
+                                                "value": 2002.0013698630137,
+                                                "confidence": [
+                                                  2002.0013698630137,
+                                                  2002.7198019724701
+                                                ]
+                                              },
+                                              "country": {
+                                                "value": "France"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "G1573A",
+                                                  "C2197T",
+                                                  "T2939C",
+                                                  "G8247A",
+                                                  "T8956C",
+                                                  "C10656T",
+                                                  "G13698A",
+                                                  "T17748C"
+                                                ],
+                                                "ORF1ab": [
+                                                  "G525S",
+                                                  "R733C",
+                                                  "V980A",
+                                                  "F2986L"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "ORF1ab: G525S, R733C, V980A, F2986L"
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000022",
+                                        "node_attrs": {
+                                          "div": 0.010011091052706866,
+                                          "num_date": {
+                                            "value": 2007.021385682331,
+                                            "confidence": [
+                                              2006.344885098614,
+                                              2007.673906808688
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A498G",
+                                              "C854T",
+                                              "C2132T",
+                                              "G2945A",
+                                              "C3014T",
+                                              "A3231C",
+                                              "T4344C",
+                                              "C4705T",
+                                              "T5101G",
+                                              "T5127C",
+                                              "A5785G",
+                                              "A6082G",
+                                              "C7260T",
+                                              "T8293G",
+                                              "A8919G",
+                                              "A9443G",
+                                              "A9654G",
+                                              "G9705T",
+                                              "G9986A",
+                                              "C10113T",
+                                              "C11019T",
+                                              "C11232T",
+                                              "T13560C",
+                                              "T16821C",
+                                              "T16827A",
+                                              "T16998A",
+                                              "C17997T",
+                                              "T18279C",
+                                              "C18348T",
+                                              "C19017T",
+                                              "G20358T"
+                                            ],
+                                            "ORF1ab": [
+                                              "T285I",
+                                              "A711V",
+                                              "G982D",
+                                              "S1005F",
+                                              "S1701A",
+                                              "T1929A",
+                                              "S2028G",
+                                              "L2765V",
+                                              "K3148R",
+                                              "R3329Q",
+                                              "E6786D"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "ORF1ab: T285I, A711V, G982D, S1005F, S1701A, T1929A, S2028G, L2765V, K3148R, R3329Q, E6786D"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "NODE_0000023",
+                                            "node_attrs": {
+                                              "div": 0.010058039981833793,
+                                              "num_date": {
+                                                "value": 2007.82607396852,
+                                                "confidence": [
+                                                  2006.84995526304,
+                                                  2009.2276244064813
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C16443T"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "KF923896",
+                                                "node_attrs": {
+                                                  "div": 0.010904180276568778,
+                                                  "num_date": {
+                                                    "value": 2012.0860655737704,
+                                                    "confidence": [
+                                                      2012.0860655737704,
+                                                      2012.1549180327868
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "China"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T1764C",
+                                                      "G6276A",
+                                                      "C7127G",
+                                                      "T7129C",
+                                                      "C7790T",
+                                                      "T8700A",
+                                                      "T9201C",
+                                                      "A10570T",
+                                                      "T10572A",
+                                                      "A10573T",
+                                                      "C10943T",
+                                                      "G10993A",
+                                                      "T15525C",
+                                                      "C16301G",
+                                                      "G16302C",
+                                                      "C17246A",
+                                                      "T18720C",
+                                                      "G21036A"
+                                                    ],
+                                                    "ORF1ab": [
+                                                      "A2376G",
+                                                      "S2377P",
+                                                      "A2597V",
+                                                      "I3524L",
+                                                      "M3525L",
+                                                      "S3648L",
+                                                      "G3665S",
+                                                      "T5434S",
+                                                      "S5749Y"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "ORF1ab: A2376G, S2377P, A2597V, I3524L, M3525L, S3648L, G3665S, T5434S, S5749Y"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000024",
+                                                "node_attrs": {
+                                                  "div": 0.010104993152613933,
+                                                  "num_date": {
+                                                    "value": 2008.7775112065092,
+                                                    "confidence": [
+                                                      2007.8059631793026,
+                                                      2009.1399497127265
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T1125A"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "LC315649",
+                                                    "node_attrs": {
+                                                      "div": 0.01142168493251959,
+                                                      "num_date": {
+                                                        "value": 2016.0013661202186,
+                                                        "confidence": [
+                                                          2016.0013661202186,
+                                                          2016.7423459408442
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "Japan"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C31T",
+                                                          "G652A",
+                                                          "C949T",
+                                                          "C2316T",
+                                                          "A2695G",
+                                                          "C2847T",
+                                                          "A3727G",
+                                                          "C4488T",
+                                                          "C4771T",
+                                                          "A5079G",
+                                                          "A5307G",
+                                                          "T5577C",
+                                                          "C6413T",
+                                                          "T7338C",
+                                                          "T8187C",
+                                                          "G11078A",
+                                                          "G11850T",
+                                                          "C16719T",
+                                                          "G17946T",
+                                                          "C17989T",
+                                                          "C18018T",
+                                                          "T18075A",
+                                                          "C19440T",
+                                                          "G19443A",
+                                                          "T19477A",
+                                                          "G20035A",
+                                                          "C21033T",
+                                                          "C21102T"
+                                                        ],
+                                                        "ORF1ab": [
+                                                          "V218I",
+                                                          "R317C",
+                                                          "T899A",
+                                                          "I1243V",
+                                                          "T2138I",
+                                                          "R3693H",
+                                                          "L5997F",
+                                                          "F6493I",
+                                                          "D6679N"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "ORF1ab: V218I, R317C, T899A, I1243V, T2138I, R3693H, L5997F, F6493I, D6679N"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000025",
+                                                    "node_attrs": {
+                                                      "div": 0.01019890267330642,
+                                                      "num_date": {
+                                                        "value": 2008.9306625900617,
+                                                        "confidence": [
+                                                          2008.4975773913995,
+                                                          2009.3778656146349
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C6380T",
+                                                          "G10655A"
+                                                        ],
+                                                        "ORF1ab": [
+                                                          "A2127V",
+                                                          "R3552H"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "ORF1ab: A2127V, R3552H"
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "KF923906",
+                                                        "node_attrs": {
+                                                          "div": 0.011468203362770922,
+                                                          "num_date": {
+                                                            "value": 2012.2472677595629,
+                                                            "confidence": [
+                                                              2012.1738016576994,
+                                                              2012.2472677595629
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C2292T",
+                                                              "C2351T",
+                                                              "A4116G",
+                                                              "C5272T",
+                                                              "T5276C",
+                                                              "G5283A",
+                                                              "C5979T",
+                                                              "C6951T",
+                                                              "C7439T",
+                                                              "T7950C",
+                                                              "C8067T",
+                                                              "G8293T",
+                                                              "C8364T",
+                                                              "G12199A",
+                                                              "A12990G",
+                                                              "G15891A",
+                                                              "A16155G",
+                                                              "T17082C",
+                                                              "T17766C",
+                                                              "C18279T",
+                                                              "T18348C",
+                                                              "T18720C",
+                                                              "T19017C",
+                                                              "C19636T",
+                                                              "T19740G",
+                                                              "C20067T",
+                                                              "T20157C"
+                                                            ],
+                                                            "ORF1ab": [
+                                                              "S784F",
+                                                              "R1758C",
+                                                              "I1759T",
+                                                              "T2480I",
+                                                              "V2765L",
+                                                              "V4067I",
+                                                              "L6546F"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "ORF1ab: S784F, R1758C, I1759T, T2480I, V2765L, V4067I, L6546F"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000026",
+                                                        "node_attrs": {
+                                                          "div": 0.010245855745774548,
+                                                          "num_date": {
+                                                            "value": 2009.1339546034299,
+                                                            "confidence": [
+                                                              2008.8118448219511,
+                                                              2009.486195145699
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T15525C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "KP198611",
+                                                            "node_attrs": {
+                                                              "div": 0.010527641600863202,
+                                                              "num_date": {
+                                                                "value": 2010.0835616438355,
+                                                                "confidence": [
+                                                                  2010.0098491495798,
+                                                                  2010.0835616438355
+                                                                ]
+                                                              },
+                                                              "country": {
+                                                                "value": "China"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T1308C",
+                                                                  "A2167G",
+                                                                  "T2857C",
+                                                                  "T2901A",
+                                                                  "C3373T",
+                                                                  "C7266T"
+                                                                ],
+                                                                "ORF1ab": [
+                                                                  "I723V",
+                                                                  "F953L",
+                                                                  "D967E",
+                                                                  "P1125S"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "ORF1ab: I723V, F953L, D967E, P1125S"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "KP198610",
+                                                            "node_attrs": {
+                                                              "div": 0.010809597093736242,
+                                                              "num_date": {
+                                                                "value": 2010.4945205479453,
+                                                                "confidence": [
+                                                                  2010.4236367037918,
+                                                                  2010.4945205479453
+                                                                ]
+                                                              },
+                                                              "country": {
+                                                                "value": "China"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "G78A",
+                                                                  "A2253C",
+                                                                  "G7880T",
+                                                                  "T9201C",
+                                                                  "T9459C",
+                                                                  "T9705G",
+                                                                  "A13549G",
+                                                                  "C13560T",
+                                                                  "C13575T",
+                                                                  "C13716T",
+                                                                  "T13989G",
+                                                                  "C19386T"
+                                                                ],
+                                                                "ORF1ab": [
+                                                                  "L751F",
+                                                                  "C2627F",
+                                                                  "I4517V"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "ORF1ab: L751F, C2627F, I4517V"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "name": "NODE_0000027",
+                                            "node_attrs": {
+                                              "div": 0.010058038464582086,
+                                              "num_date": {
+                                                "value": 2007.2930868355998,
+                                                "confidence": [
+                                                  2006.7341059550754,
+                                                  2007.7627850950435
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A5319G"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "KY014282",
+                                                "node_attrs": {
+                                                  "div": 0.010292831573302248,
+                                                  "num_date": {
+                                                    "value": 2007.9986301369863,
+                                                    "confidence": [
+                                                      2007.5357698623723,
+                                                      2007.9986301369863
+                                                    ]
+                                                  },
+                                                  "country": {
+                                                    "value": "France"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C2448T",
+                                                      "T3141C",
+                                                      "G11704C",
+                                                      "G11707C",
+                                                      "T15144C"
+                                                    ],
+                                                    "ORF1ab": [
+                                                      "V3902L",
+                                                      "D3903H"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "ORF1ab: V3902L, D3903H"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000028",
+                                                "node_attrs": {
+                                                  "div": 0.01043381564274823,
+                                                  "num_date": {
+                                                    "value": 2009.816061403651,
+                                                    "confidence": [
+                                                      2009.2031507552156,
+                                                      2010.4468595117385
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C2993T",
+                                                      "C4365T",
+                                                      "G5544T",
+                                                      "C6495T",
+                                                      "A12338G",
+                                                      "C14481T",
+                                                      "G16899A",
+                                                      "C19801G"
+                                                    ],
+                                                    "ORF1ab": [
+                                                      "A998V",
+                                                      "K1848N",
+                                                      "Y4113C",
+                                                      "Q6601E"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "ORF1ab: A998V, K1848N, Y4113C, Q6601E"
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "KU131570",
+                                                    "node_attrs": {
+                                                      "div": 0.011091722647700308,
+                                                      "num_date": {
+                                                        "value": 2011.6342465753426,
+                                                        "confidence": [
+                                                          2011.6342465753426,
+                                                          2011.6342465753426
+                                                        ]
+                                                      },
+                                                      "country": {
+                                                        "value": "United Kingdom"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C262T",
+                                                          "T1125C",
+                                                          "C2604T",
+                                                          "G3920A",
+                                                          "T7455C",
+                                                          "G8254A",
+                                                          "G11078A",
+                                                          "A11710G",
+                                                          "C11718T",
+                                                          "C12529T",
+                                                          "C14604T",
+                                                          "C16821T",
+                                                          "C19386T",
+                                                          "G19999T"
+                                                        ],
+                                                        "ORF1ab": [
+                                                          "H88Y",
+                                                          "G1307D",
+                                                          "V2752I",
+                                                          "R3693H",
+                                                          "S3904G",
+                                                          "L4177F",
+                                                          "D6667Y"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "ORF1ab: H88Y, G1307D, V2752I, R3693H, S3904G, L4177F, D6667Y"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000029",
+                                                    "node_attrs": {
+                                                      "div": 0.010668658180547196,
+                                                      "num_date": {
+                                                        "value": 2012.998810176718,
+                                                        "confidence": [
+                                                          2012.0253662958567,
+                                                          2015.3092189917033
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "G472A",
+                                                          "G5565T",
+                                                          "C15072T",
+                                                          "A17594G",
+                                                          "T18828C"
+                                                        ],
+                                                        "ORF1ab": [
+                                                          "A158T",
+                                                          "K1855N",
+                                                          "K5865R"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "ORF1ab: A158T, K1855N, K5865R"
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "MF314143",
+                                                        "node_attrs": {
+                                                          "div": 0.011091512906190452,
+                                                          "num_date": {
+                                                            "value": 2016.181693989071,
+                                                            "confidence": [
+                                                              2016.181693989071,
+                                                              2016.181693989071
+                                                            ]
+                                                          },
+                                                          "country": {
+                                                            "value": "USA"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G408T",
+                                                              "T3333C",
+                                                              "C4935T",
+                                                              "G5857C",
+                                                              "C11718T",
+                                                              "C12642T",
+                                                              "C13866T",
+                                                              "C14925T",
+                                                              "G20406A"
+                                                            ],
+                                                            "ORF1ab": [
+                                                              "E1953Q"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "ORF1ab: E1953Q"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000030",
+                                                        "node_attrs": {
+                                                          "div": 0.010715616517515385,
+                                                          "num_date": {
+                                                            "value": 2014.647439554538,
+                                                            "confidence": [
+                                                              2013.046363066879,
+                                                              2015.29478724689
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T9285C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "NODE_0000031",
+                                                            "node_attrs": {
+                                                              "div": 0.010856515387718141,
+                                                              "num_date": {
+                                                                "value": 2015.141268378049,
+                                                                "confidence": [
+                                                                  2014.5029216294402,
+                                                                  2015.682035628846
+                                                                ]
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "G6777T",
+                                                                  "C17805A",
+                                                                  "C19425T"
+                                                                ]
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "name": "KY967360",
+                                                                "node_attrs": {
+                                                                  "div": 0.01118535961382823,
+                                                                  "num_date": {
+                                                                    "value": 2015.9986301369863,
+                                                                    "confidence": [
+                                                                      2015.5256153990226,
+                                                                      2015.9986301369863
+                                                                    ]
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "C161T",
+                                                                      "C6713T",
+                                                                      "C8032T",
+                                                                      "G8371A",
+                                                                      "A18300G",
+                                                                      "T18654C",
+                                                                      "G19587T"
+                                                                    ],
+                                                                    "ORF1ab": [
+                                                                      "P54L",
+                                                                      "A2238V",
+                                                                      "A2791T",
+                                                                      "K6529N"
+                                                                    ]
+                                                                  },
+                                                                  "labels": {
+                                                                    "aa": "ORF1ab: P54L, A2238V, A2791T, K6529N"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "name": "MN026165",
+                                                                "node_attrs": {
+                                                                  "div": 0.010997467715367595,
+                                                                  "num_date": {
+                                                                    "value": 2017.9054794520548,
+                                                                    "confidence": [
+                                                                      2017.9054794520548,
+                                                                      2017.9054794520548
+                                                                    ]
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "Kenya"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {
+                                                                    "nuc": [
+                                                                      "C3231T",
+                                                                      "T7851C",
+                                                                      "C12160T"
+                                                                    ]
+                                                                  }
+                                                                }
+                                                              }
+                                                            ]
+                                                          },
+                                                          {
+                                                            "name": "NODE_0000032",
+                                                            "node_attrs": {
+                                                              "div": 0.011420511776865837,
+                                                              "num_date": {
+                                                                "value": 2018.0115961984002,
+                                                                "confidence": [
+                                                                  2017.7901867737958,
+                                                                  2018.5188706658234
+                                                                ]
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "C87T",
+                                                                  "A319G",
+                                                                  "C1548T",
+                                                                  "C4401T",
+                                                                  "C4771T",
+                                                                  "C5388T",
+                                                                  "G6048T",
+                                                                  "G6771T",
+                                                                  "C8328T",
+                                                                  "G10515A",
+                                                                  "T12102C",
+                                                                  "C15840T",
+                                                                  "G17253A",
+                                                                  "G18864T",
+                                                                  "T20844C"
+                                                                ],
+                                                                "ORF1ab": [
+                                                                  "T107A",
+                                                                  "Q2257H"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "ORF1ab: T107A, Q2257H"
+                                                              }
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "name": "MT118672",
+                                                                "node_attrs": {
+                                                                  "div": 0.011420511776865837,
+                                                                  "num_date": {
+                                                                    "value": 2018.1776310416549,
+                                                                    "confidence": [
+                                                                      2018.0013698630137,
+                                                                      2018.9986301369863
+                                                                    ]
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                }
+                                                              },
+                                                              {
+                                                                "name": "MT118671",
+                                                                "node_attrs": {
+                                                                  "div": 0.011420511776865837,
+                                                                  "num_date": {
+                                                                    "value": 2018.1776310416549,
+                                                                    "confidence": [
+                                                                      2018.0013698630137,
+                                                                      2018.9986301369863
+                                                                    ]
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "USA"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

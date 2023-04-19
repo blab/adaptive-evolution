@@ -1,0 +1,110 @@
+LOCUS       NC_011508               2591 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Rotavirus A segment 3, complete genome.
+ACCESSION   NC_011508
+VERSION     NC_011508.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Rotavirus A
+  ORGANISM  Rotavirus A
+            Viruses; Riboviria; Orthornavirae; Duplornaviricota;
+            Resentoviricetes; Reovirales; Sedoreoviridae; Rotavirus.
+REFERENCE   1  (bases 1 to 2591)
+  AUTHORS   Small,C., Barro,M., Brown,T.L. and Patton,J.T.
+  TITLE     Genome heterogeneity of SA11 rotavirus due to reassortment with 'O'
+            agent
+  JOURNAL   Virology 359 (2), 415-424 (2007)
+   PUBMED   17059839
+REFERENCE   2  (bases 1 to 2591)
+  AUTHORS   Patton,J.T. and Small,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-OCT-2011) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+  REMARK    Sequence update by submitter
+REFERENCE   3  (bases 1 to 2591)
+  AUTHORS   Patton,J.T., Small,C., Brown,T.L. and Barro,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (06-JUL-2006) NIH, NIAID, Bldg. 50, Rm. 6314, 50 South
+            Drive, Bethesda, MD 20892, USA
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to DQ838645.
+            On Oct 17, 2011 this sequence version replaced NC_011508.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2591
+                     /organism="Rotavirus A"
+                     /mol_type="genomic RNA"
+                     /strain="RVA/Simian-tc/ZAF/SA11-H96/1958/G3P5B[2]"
+                     /serotype="G3"
+                     /db_xref="taxon:28875"
+                     /segment="3"
+     gene            50..2557
+                     /gene="VP3"
+                     /db_xref="GeneID:7011370"
+     CDS             50..2557
+                     /gene="VP3"
+                     /note="RNA capping protein"
+                     /codon_start=1
+                     /product="VP3"
+                     /protein_id="YP_002302228.1"
+                     /db_xref="GeneID:7011370"
+                     /translation="MKVLALRHSVAQVYADTQVYVHDDTKDSYENAFLISNLTTHNIL
+                     YLNYSIKTLEILNKSGIAAIALQSLEELFTLIRCNFTYDYELDIIYLHDYSYYTNNEI
+                     RTDQHWITKTNIEEYLLPGWKLTYVGYNGSETRGHYNFSFKCQNAATDDDLIIEYIYS
+                     EALDFQNFMLKKIKERMTTSLPIARLSNRVFRDKLFPSLLKEHKNVVNVGPRNESMFT
+                     FLNYPTIKQFSNGAYLVKDTIKLKQERWLGKRISQFDIGQYKNMLNVLTAIYYYYNLY
+                     KSKPIIYMIGSAPSYWIYDVRHYSDFFFETWDPLDTPYSSIHHKELFFINDVKKLKDN
+                     SILYIDIRTDRGNADWKKWRKTVEEQTINNLDIAYEYLRTGKAKVCCVKMTAMDLELP
+                     ISAKLLHHPTTEIRSEFYLLLDTWDLTNIRRFIPKGVLYSFINNIITENVFIQQPFKV
+                     KVLNDSYIVALYALSNDFNNRSEVIKLINNQKQSLITVRINNTFKDEPKVGFKNIYDW
+                     TFLPTDFDTKEAIITSYDGCLGLFGLSISLASKPTGNNHLFILSGTDKYYKLDQFANH
+                     TSISRRSHQIRFSESATSYSGYIFRDLSNNNFNLIGTNIENSVSGHVYNALIYYRYNY
+                     SFDLKRWIYLHSIDKVDIEGGKYYELAPIELIYACRSAKEFATLQDDLTVLRYSNEIE
+                     NYINTVYSITYADDPNYFIGIQFRNIPYKYDVKIPHLTFGVLHISDNMVPDVIDILKI
+                     MKNELFKMDITTSYTYMLSDGIYVANVSGVLSTYFKIYNVFYKNQITFGQSRMFIPHI
+                     TLSFNNMRTVRIETTKLQIKSIYLRKIKGDTVFDMVE"
+ORIGIN      
+        1 ggcttttaaa gcagtaccag tagtgtgttt tacctctgat ggtgtaaaca tgaaagtact
+       61 agctttaaga cacagtgtgg ctcaagtgta tgcagacact caagtctacg ttcatgatga
+      121 tacaaaagat agttatgaaa acgctttttt aatctctaat cttacgaccc ataatatttt
+      181 atacttaaat tatagcatta aaacattaga aatattaaat aagtcaggaa tagctgcaat
+      241 tgctttacaa tcacttgaag aattattcac attaataagg tgtaatttca cttatgatta
+      301 tgaacttgat ataatatatt tacatgatta ttcatattat accaataatg aaattagaac
+      361 agaccaacat tggataacaa aaacaaatat tgaagaatat ttactacctg gatggaaatt
+      421 aacatatgtt ggttataatg gaagtgaaac tagaggacat tataactttt catttaaatg
+      481 tcaaaacgct gcaacagatg atgatctaat aattgaatac atttattcag aagcgttgga
+      541 cttccaaaat tttatgttaa aaaagataaa ggaaagaatg actacatcgt tgcctatagc
+      601 tagattatct aacagagtat ttagggataa gttattccca tcattattga aagaacataa
+      661 gaatgtagtg aacgttggtc cgcgtaatga atctatgttt acatttttaa attatccaac
+      721 tataaaacaa ttttcaaatg gtgcgtattt agtaaaagat actataaaat taaaacaaga
+      781 acgatggtta ggtaaaagga tatctcagtt tgatattggt cagtataaaa atatgctgaa
+      841 tgttcttaca gcaatttatt attactataa tttatataaa agtaaaccaa ttatatatat
+      901 gatcggatct gctccatctt attggatata tgacgttagg cattattccg attttttctt
+      961 tgaaacttgg gatccattgg acacaccata ttcatcaatc catcacaaag aattattttt
+     1021 tataaatgat gtgaagaaac tgaaggataa ctcaatattg tatattgata taagaaccga
+     1081 taggggcaat gctgattgga aaaaatggag aaagacagta gaagaacaaa ctattaataa
+     1141 tttggacata gcttatgaat atttacgaac gggtaaagcg aaggtgtgtt gtgttaagat
+     1201 gacagctatg gatttggaac tgccaatttc agctaaatta ctgcaccacc caactacgga
+     1261 aataagatca gaattttatt tattactaga tacttgggat ttaactaaca ttaggaggtt
+     1321 cattcctaaa ggcgtgttat attcatttat aaacaatata ataactgaaa atgtgtttat
+     1381 tcaacaacca tttaaagtaa aagtactgaa tgatagttat attgtagcgt tatatgcatt
+     1441 atcaaatgat tttaataata gatcagaagt aattaaatta attaataatc agaaacaatc
+     1501 tctaataact gttagaataa ataatacgtt taaggatgaa ccaaaagttg ggttcaaaaa
+     1561 tatctatgat tggacctttc ttccaaccga ctttgatacc aaagaagcta taattacttc
+     1621 atacgacggt tgtttaggac tctttggttt gtctatatcg ttagcatcaa aaccaacagg
+     1681 gaataatcat ttattcattt taagtggtac agataagtat tataaattgg atcaatttgc
+     1741 taatcacacc agtatatcga gaagatcaca ccaaattagg ttttcggaat ctgctacttc
+     1801 atattcaggt tatatattta gagatttgtc caataataat tttaatctaa ttggtactaa
+     1861 tatagagaat tcagtatcag gtcatgtata taatgcttta atttattata gatataatta
+     1921 ttcatttgat cttaaacgct ggatttattt acattctata gataaagttg atatagaagg
+     1981 aggaaagtat tatgaactcg caccaataga attaatttat gcatgtagat cagcaaaaga
+     2041 atttgctaca ttgcaggatg acttaactgt attgagatat tcaaacgaaa tagagaatta
+     2101 tattaataca gtatatagta taacatacgc tgatgatccg aattacttta tcggaataca
+     2161 atttagaaat ataccatata aatatgatgt taaaataccg catttaacct tcggagtatt
+     2221 acatatttct gataacatgg tgccagacgt gattgacata ctaaagataa tgaagaatga
+     2281 attatttaaa atggatatta cgaccagtta tacatatatg ttatcagatg gaatctacgt
+     2341 agcaaatgtt agtggagtat tatctacata ctttaaaatc tataacgtat tttataaaaa
+     2401 tcaaataact tttggccaat ccagaatgtt tattccgcac ataacattaa gcttcaataa
+     2461 catgagaaca gtaaggatag agactactaa attacaaatt aaatccattt atttaagaaa
+     2521 gattaagggt gatacagtgt ttgatatggt tgagtgagct aaaaacttaa cacactagtc
+     2581 atgatgtgac c
+//

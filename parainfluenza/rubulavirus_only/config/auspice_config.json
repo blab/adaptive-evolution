@@ -1,0 +1,30 @@
+{
+  "title": "Genetic diversity of Parainfluenza Virus. Data collected by Vipr",
+  "maintainers": [
+    {"name": "Katie Kistler"}
+  ],
+  "colorings": [
+     {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "country",
+      "type": "categorical"
+    }
+  ],
+  "display_defaults": {
+    "color_by": "num_date",
+    "map_triplicate": true
+  },
+  "filters": [
+    "host"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}

@@ -1,0 +1,182 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-5.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_nl63_ORF1ab-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    842096 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jan 10 14:29:55 2023
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_nl63_ORF1ab-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0542059 secs using 79.79% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.023911 secs using 80.18% CPU
+Alignment has 88 sequences with 20190 columns, 1581 distinct patterns
+707 parsimony-informative, 6080 singleton sites, 13403 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000290871 secs using 90.42% CPU
+   1  JX504050    0.00%    passed     99.67%
+   2  JQ765568    0.00%    passed     99.78%
+   3  JQ900259    0.02%    passed     99.87%
+   4  JQ765573    0.00%    passed     99.91%
+   5  JQ765575    0.00%    passed     99.81%
+   6  JQ765571    0.00%    passed     99.98%
+   7  JQ765572    0.00%    passed     99.99%
+   8  KY554969    0.00%    passed     99.43%
+   9  KY829118    0.00%    passed     99.43%
+  10  KY554971    0.00%    passed     99.39%
+  11  JQ765574    0.00%    passed     99.72%
+  12  KT381875    0.00%    passed     99.02%
+  13  KU521535    0.00%    passed     98.82%
+  14  KX179500    0.00%    passed     99.19%
+  15  JQ765567    0.00%    passed     98.78%
+  16  KY554967    0.00%    passed     98.68%
+  17  KY554968    0.00%    passed     98.68%
+  18  KY674915    0.00%    passed     98.68%
+  19  KY674916    0.00%    passed     98.68%
+  20  KY554970    0.00%    passed     98.44%
+  21  JQ765566    0.00%    passed     99.12%
+  22  JQ900255    0.00%    passed     99.18%
+  23  KF530105    0.00%    passed     99.63%
+  24  JQ900260    9.40%    passed     94.21%
+  25  MK334043    0.00%    passed     99.74%
+  26  MK334044    0.00%    passed     99.69%
+  27  MN306018    0.36%    passed     98.98%
+  28  LC687394    0.00%    passed     99.73%
+  29  LC687397    0.00%    passed     99.73%
+  30  MW202337    0.00%    passed     99.84%
+  31  LC687395    0.00%    passed     99.94%
+  32  LC654455    0.00%    passed     99.79%
+  33  LC687402    0.00%    passed     99.64%
+  34  LC687401    0.00%    passed     99.58%
+  35  MN306040    1.31%    passed     99.00%
+  36  MT118686    0.67%    passed     98.65%
+  37  MW202338    0.07%    passed     99.56%
+  38  MT118694    0.30%    passed     99.76%
+  39  LC687396    0.00%    passed     99.66%
+  40  LC720428    0.07%    passed     99.42%
+  41  KY983586    0.34%    passed     99.56%
+  42  LC488390    0.00%    passed     98.75%
+  43  DQ445911    0.00%    passed     99.53%
+  44  KF530104    0.00%    passed     99.82%
+  45  KF530108    0.00%    passed     99.89%
+  46  KF530114    0.00%    passed     99.93%
+  47  KF530111    0.00%    passed     99.98%
+  48  KF530109    0.00%    passed     99.93%
+  49  KF530107    0.00%    passed     99.96%
+  50  KF530113    0.00%    passed     99.91%
+  51  KF530110    0.00%    passed     98.13%
+  52  MG428699    0.18%    passed     99.46%
+  53  MG428704    0.18%    passed     99.43%
+  54  MG428703    0.18%    passed     99.61%
+  55  MG428706    0.18%    passed     99.41%
+  56  MG428705    0.18%    passed     99.51%
+  57  MG428700    1.86%    passed     99.80%
+  58  MG428702    0.18%    passed     98.97%
+  59  MG428701    0.18%    passed     99.64%
+  60  JX104161    0.08%    passed     99.75%
+  61  JX524171    0.07%    passed     99.77%
+  62  JQ900257    0.32%    passed     99.45%
+  63  MG428707    2.68%    passed     96.62%
+  64  KT266906    0.00%    passed     99.79%
+  65  OK073076    0.07%    passed     99.81%
+  66  MH828487    0.00%    passed     99.58%
+  67  MK334045    0.00%    passed    100.00%
+  68  MH828488    0.00%    passed     99.75%
+  69  MG772808    0.07%    passed     99.82%
+  70  MZ682627    0.07%    passed     99.90%
+  71  OK625405    0.07%    passed     99.90%
+  72  MN026166    0.13%    passed     99.94%
+  73  MW587039   16.33%    passed     83.74%
+  74  JQ765563    0.07%    passed     99.71%
+  75  JQ765569    0.07%    passed     99.19%
+  76  DQ445912    0.07%    passed     99.09%
+  77  KF530112    0.07%    passed     99.77%
+  78  JQ765570    0.07%    passed     99.77%
+  79  JQ765564    0.07%    passed     99.77%
+  80  JQ765565    0.07%    passed     98.74%
+  81  JQ900256    1.31%    passed     97.25%
+  82  JQ900258   23.10%    passed     75.41%
+  83  MK334047    0.07%    passed     99.78%
+  84  MK334046    0.07%    passed     99.60%
+  85  LC488389    0.01%    passed     99.11%
+  86  OK073075    3.16%    passed     98.87%
+  87  KF530106    0.04%    passed     99.23%
+  88  AF304460    0.88%    failed      0.00%
+****  TOTAL       0.74%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KY829118 is identical to KY554969 but kept for subsequent analysis
+NOTE: KY554968 is identical to KY554967 but kept for subsequent analysis
+NOTE: OK625405 is identical to MZ682627 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00124788 secs using 70.12% CPU
+Identifying sites to remove: done in 0.0262208 secs using 89.8% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KY674915 (identical to KY554967) is ignored but added at the end
+NOTE: KY674916 (identical to KY554967) is ignored but added at the end
+Alignment was printed to results/aligned_nl63_ORF1ab-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_nl63_ORF1ab-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -101141.018
+2. Current log-likelihood: -95384.517
+3. Current log-likelihood: -95316.587
+4. Current log-likelihood: -95315.749
+Optimal log-likelihood: -95315.731
+Rate parameters:  A-C: 1.20722  A-G: 4.55510  A-T: 1.04088  C-G: 0.61186  C-T: 8.81328  G-T: 1.00000
+Base frequencies:  A: 0.266  C: 0.134  G: 0.205  T: 0.395
+Parameters optimization took 4 rounds (0.872 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0277081 secs using 93.99% CPU
+Computing ML distances took 0.028938 sec (of wall-clock time) 0.027161 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000406981 secs using 92.39% CPU
+Constructing RapidNJ tree: done in 0.000883102 secs using 172.7% CPU
+Computing RapidNJ tree took 0.001480 sec (of wall-clock time) 0.002141 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -62089.749
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.270251 secs using 96.61% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -61284.750
+Optimizing NNI: done in 1.72061 secs using 90.31% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -61284.750 / CPU time: 2.347
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -61284.750
+Optimal log-likelihood: -61284.744
+Rate parameters:  A-C: 1.51338  A-G: 3.22644  A-T: 1.30289  C-G: 0.91932  C-T: 5.38535  G-T: 1.00000
+Base frequencies:  A: 0.266  C: 0.134  G: 0.205  T: 0.395
+Parameters optimization took 1 rounds (0.045 sec)
+BEST SCORE FOUND : -61284.744
+Total tree length: 0.522
+
+Total number of iterations: 2
+CPU time used for tree search: 2.155 sec (0h:0m:2s)
+Wall-clock time used for tree search: 2.348 sec (0h:0m:2s)
+Total CPU time used: 3.171 sec (0h:0m:3s)
+Total wall-clock time used: 3.478 sec (0h:0m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_nl63_ORF1ab-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_nl63_ORF1ab-delim.fasta.treefile
+  Likelihood distances:          results/aligned_nl63_ORF1ab-delim.fasta.mldist
+  Screen log file:               results/aligned_nl63_ORF1ab-delim.fasta.log
+
+Date and Time: Tue Jan 10 14:29:59 2023

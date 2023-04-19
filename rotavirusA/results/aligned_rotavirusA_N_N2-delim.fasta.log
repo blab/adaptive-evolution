@@ -1,0 +1,1124 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_rotavirusA_N_N2-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    456633 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Oct 28 15:31:52 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_rotavirusA_N_N2-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0194471 secs using 90.47% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00713897 secs using 78.75% CPU
+Alignment has 795 sequences with 1059 columns, 733 distinct patterns
+534 parsimony-informative, 133 singleton sites, 392 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00206399 secs using 53.97% CPU
+   1  GQ414547    3.78%    passed     98.13%
+   2  KC819345   19.83%    passed     73.46%
+   3  KC986969   11.33%    passed     40.34%
+   4  MN066952    4.44%    passed     98.91%
+   5  MH182453    0.28%    passed     99.51%
+   6  KJ752614    5.29%    passed     74.97%
+   7  JX567765    0.00%    passed     79.85%
+   8  JF421982    0.00%    passed     92.47%
+   9  KC020023    0.00%    passed     96.02%
+  10  KC020028    0.00%    passed     96.02%
+  11  KC020026    0.00%    passed     96.67%
+  12  KX880443    3.49%    passed     93.06%
+  13  KC443594    5.29%    passed     76.68%
+  14  MF469337    5.29%    passed     76.68%
+  15  KT919443    5.29%    passed     77.22%
+  16  MF168220    5.19%    passed     76.29%
+  17  LC384337    0.09%    passed     86.05%
+  18  KJ411439    0.00%    passed     98.11%
+  19  LC336595    3.87%    passed     86.90%
+  20  JX094035   11.61%    passed     66.30%
+  21  KU128899    0.94%    passed     97.43%
+  22  KJ752390    5.48%    passed     75.41%
+  23  KP752444    5.48%    passed     75.41%
+  24  MH060085    0.00%    passed     99.27%
+  25  MH060125    0.00%    passed     99.27%
+  26  MH060095    0.00%    passed     98.76%
+  27  MH060105    0.00%    passed     98.74%
+  28  MH060115    0.00%    passed     98.74%
+  29  LC102913    4.15%    passed     97.46%
+  30  LC102902    4.15%    passed     97.46%
+  31  LC102924    4.15%    passed     97.46%
+  32  LC102946    4.15%    passed     97.46%
+  33  LC102957    4.15%    passed     97.46%
+  34  LC102990    4.15%    passed     97.46%
+  35  LC103001    4.15%    passed     97.46%
+  36  LC103012    4.15%    passed     97.46%
+  37  LC103023    4.15%    passed     97.85%
+  38  LC102979    4.15%    passed     97.85%
+  39  LC102935    4.15%    passed     95.97%
+  40  LC103045    4.15%    passed     95.97%
+  41  LC102968    4.15%    passed     97.61%
+  42  LC102891    3.97%    passed     98.41%
+  43  LC103034    3.49%    passed     96.32%
+  44  LC386072    1.61%    passed     97.26%
+  45  KY972324    6.89%    passed     75.46%
+  46  KJ803831   11.24%    passed     72.00%
+  47  KF500515    0.00%    passed     75.32%
+  48  JF805006   11.14%    passed     99.19%
+  49  KC822934    0.00%    passed     82.84%
+  50  KF690132    0.00%    passed     95.28%
+  51  MT276810    0.94%    passed     93.24%
+  52  JQ715660    7.37%    passed     53.69%
+  53  JQ715662    6.99%    passed     62.47%
+  54  JQ715661    6.61%    passed     60.55%
+  55  KJ820843    3.49%    passed     72.61%
+  56  KC443583    5.29%    passed     80.74%
+  57  HQ641360    0.00%    passed     88.75%
+  58  KU356592    0.00%    passed     88.75%
+  59  KC020020    0.00%    passed     95.43%
+  60  KC834695    0.00%    passed     97.01%
+  61  KC834693    0.00%    passed     91.61%
+  62  KC155682    0.00%    passed     98.46%
+  63  JX965149    0.00%    passed     93.39%
+  64  MN551952    0.00%    passed     97.57%
+  65  MN552047    0.00%    passed     96.75%
+  66  KC443517    5.29%    passed    100.00%
+  67  KJ626722    5.29%    passed     99.92%
+  68  KJ627157    5.29%    passed     99.92%
+  69  KJ412771    5.29%    passed     99.92%
+  70  KJ626600    5.29%    passed     99.92%
+  71  KJ626566    5.29%    passed     99.92%
+  72  KJ626711    5.29%    passed     99.92%
+  73  KJ412538    5.29%    passed     99.92%
+  74  KJ626961    5.29%    passed     99.92%
+  75  KJ626855    5.29%    passed     99.92%
+  76  KJ626769    5.29%    passed     99.92%
+  77  KJ626825    5.29%    passed     99.92%
+  78  KJ626747    5.29%    passed    100.00%
+  79  KJ626994    5.29%    passed    100.00%
+  80  KJ626889    5.29%    passed    100.00%
+  81  KJ626983    5.29%    passed     99.92%
+  82  KJ626934    5.29%    passed     99.86%
+  83  MF168159    5.29%    passed     99.73%
+  84  MF168268    5.10%    passed     99.49%
+  85  KT918442    5.19%    passed     99.90%
+  86  MF167961    5.19%    passed     99.90%
+  87  KT918838    4.82%    passed     99.76%
+  88  LC173756    0.94%    passed     97.74%
+  89  LC173757    0.94%    passed     97.74%
+  90  LC173769    1.04%    passed     97.81%
+  91  LC173771    1.70%    passed     98.03%
+  92  LC173764    0.76%    passed     98.47%
+  93  LC173772    0.76%    passed     97.40%
+  94  LC173770    2.74%    passed     97.33%
+  95  LC173762    0.00%    passed     97.80%
+  96  LC173763    0.00%    passed     97.80%
+  97  LC173714    0.00%    passed     97.69%
+  98  LC173728    0.00%    passed     97.69%
+  99  MN552019    0.00%    passed     97.00%
+ 100  LC105232    2.74%    passed     98.68%
+ 101  LC105159    4.63%    passed     99.41%
+ 102  LC105084    2.17%    passed     98.07%
+ 103  LC105073    2.08%    passed     98.07%
+ 104  LC105106    2.08%    passed     98.07%
+ 105  LC105170    2.08%    passed     99.06%
+ 106  LC105288    2.08%    passed     99.06%
+ 107  LC105148    2.36%    passed     98.42%
+ 108  LC105137    3.49%    passed     99.20%
+ 109  LC173717    0.00%    passed     88.88%
+ 110  MN552054    0.00%    passed     98.96%
+ 111  MF469131    6.52%    passed     99.09%
+ 112  LC105029    2.36%    passed     97.92%
+ 113  KX655513    0.00%    passed     89.36%
+ 114  KC834694    0.00%    passed     97.44%
+ 115  KF636318    5.29%    passed     99.48%
+ 116  KP752716    5.29%    passed     99.62%
+ 117  KJ753001    5.29%    passed     98.77%
+ 118  KJ752401    5.29%    passed     99.04%
+ 119  KJ753601    5.29%    passed     98.64%
+ 120  KP752728    5.29%    passed     99.30%
+ 121  KC443561    5.29%    passed     98.64%
+ 122  KC443295    5.29%    passed     98.64%
+ 123  KC443462    5.29%    passed     98.64%
+ 124  KC443693    5.29%    passed     98.64%
+ 125  KC443506    5.29%    passed     98.64%
+ 126  KC443660    5.29%    passed     99.04%
+ 127  KC443396    5.29%    passed     99.14%
+ 128  KC443240    5.29%    passed     99.37%
+ 129  KJ752201    5.29%    passed     97.54%
+ 130  KC443141    5.29%    passed     99.66%
+ 131  KC443440    5.29%    passed     99.66%
+ 132  KC443418    5.29%    passed     99.66%
+ 133  KC443726    5.29%    passed     99.66%
+ 134  KC443704    5.29%    passed     99.66%
+ 135  KC443284    5.29%    passed     99.66%
+ 136  KC443163    5.29%    passed     99.16%
+ 137  KC443429    5.29%    passed     99.81%
+ 138  KC443174    5.29%    passed     99.33%
+ 139  KC443495    5.29%    passed     99.33%
+ 140  KC443539    5.29%    passed     99.88%
+ 141  KC443770    5.29%    passed     99.33%
+ 142  KJ752680    5.29%    passed     99.98%
+ 143  KJ753310    5.29%    passed     99.98%
+ 144  KJ751665    5.29%    passed     99.98%
+ 145  KJ752504    5.29%    passed     99.98%
+ 146  KJ752212    5.29%    passed     99.98%
+ 147  KJ751808    5.29%    passed     99.98%
+ 148  KJ751698    5.29%    passed     99.97%
+ 149  KJ751654    5.29%    passed     99.56%
+ 150  KP752456    5.29%    passed     99.56%
+ 151  KJ753519    5.29%    passed    100.00%
+ 152  KJ752091    5.29%    passed     99.74%
+ 153  KJ751885    5.29%    passed     99.96%
+ 154  KJ751720    5.29%    passed    100.00%
+ 155  KP752478    5.29%    passed    100.00%
+ 156  KJ752124    5.29%    passed     99.48%
+ 157  KC443273    5.29%    passed     99.74%
+ 158  KC443229    5.29%    passed     99.74%
+ 159  KC443473    5.29%    passed     99.74%
+ 160  KC443251    5.29%    passed     99.74%
+ 161  KC443748    5.29%    passed     99.74%
+ 162  KC443152    5.29%    passed     99.74%
+ 163  KC443638    5.29%    passed     99.74%
+ 164  KC443130    5.29%    passed     99.73%
+ 165  KC443627    5.29%    passed     99.92%
+ 166  KC443319    5.29%    passed     99.92%
+ 167  KC443759    5.29%    passed     99.92%
+ 168  KC443330    5.29%    passed     99.85%
+ 169  KC443196    5.29%    passed     99.85%
+ 170  KC443218    5.29%    passed     94.86%
+ 171  KC443363    5.29%    passed     94.86%
+ 172  KC443262    5.29%    passed     99.77%
+ 173  KC443616    5.29%    passed     99.77%
+ 174  KC443550    5.29%    passed     99.77%
+ 175  KC443407    5.29%    passed     99.77%
+ 176  KC443682    5.29%    passed     99.98%
+ 177  KC443374    5.57%    passed    100.00%
+ 178  KC443207    5.57%    passed    100.00%
+ 179  KC443352    5.29%    passed     99.69%
+ 180  KJ639030    0.00%    passed     95.95%
+ 181  KJ639019    0.00%    passed     98.26%
+ 182  KC822939    0.00%    passed     97.60%
+ 183  KC822941    0.00%    passed     94.51%
+ 184  MN552070    0.00%    passed     96.37%
+ 185  KC571498    0.00%    passed     97.69%
+ 186  KU356625    0.00%    passed     97.41%
+ 187  KU199288    0.00%    passed     97.41%
+ 188  KU356603    0.00%    passed     97.41%
+ 189  KU356658    0.00%    passed     98.73%
+ 190  KU356636    0.00%    passed     99.28%
+ 191  KU356669    0.00%    passed     98.34%
+ 192  KU356647    0.00%    passed     99.43%
+ 193  KU360979    4.25%    passed     99.97%
+ 194  KU360977    4.82%    passed     99.73%
+ 195  KU360978    2.83%    passed     98.18%
+ 196  KU248435    0.00%    passed     98.86%
+ 197  KC155686    0.00%    passed     99.75%
+ 198  KC020021    0.00%    passed     99.29%
+ 199  MG181784    0.00%    passed     98.90%
+ 200  MG181806    0.00%    passed     98.90%
+ 201  MG181795    0.00%    passed     99.29%
+ 202  MG181817    0.00%    passed     99.29%
+ 203  MG181861    0.00%    passed     98.28%
+ 204  MG181872    0.00%    passed     99.29%
+ 205  KC020030    0.00%    passed     99.79%
+ 206  MT339201    2.55%    passed     98.87%
+ 207  MW275253    0.76%    passed     99.17%
+ 208  MW275264    0.47%    passed     99.12%
+ 209  MW275275    1.42%    passed     98.14%
+ 210  MZ093767    9.92%    passed     87.58%
+ 211  MZ093778    9.92%    passed     87.58%
+ 212  MZ093789    9.92%    passed     87.58%
+ 213  MZ093832    9.92%    passed     87.58%
+ 214  MZ097248    9.92%    passed     87.58%
+ 215  KJ753397    5.29%    passed     99.63%
+ 216  KP170845    6.33%    passed     96.68%
+ 217  KP170846    6.33%    passed     94.60%
+ 218  KX362718    8.88%    passed     84.98%
+ 219  KX362729    3.12%    passed     99.74%
+ 220  KX362641    3.12%    passed     99.78%
+ 221  KX362828    0.76%    passed     99.52%
+ 222  KX362751    0.76%    passed     98.77%
+ 223  KX362652    0.00%    passed     98.52%
+ 224  KX362839    0.00%    passed     98.95%
+ 225  KX363131    0.00%    passed     98.95%
+ 226  KX363258    0.00%    passed     98.95%
+ 227  KX362784    0.00%    passed     96.75%
+ 228  LC173684    0.00%    passed     99.47%
+ 229  LC173690    0.00%    passed     99.47%
+ 230  LC173713    0.00%    passed     99.47%
+ 231  KX362857    0.09%    passed     98.92%
+ 232  LC173686    0.09%    passed     99.57%
+ 233  LC173683    0.94%    passed     99.28%
+ 234  KX362674    5.67%    passed     99.96%
+ 235  KX362619    6.04%    passed     99.10%
+ 236  KX363227    8.78%    passed     96.19%
+ 237  KX362663    2.93%    passed     99.30%
+ 238  KX362576    4.15%    passed     98.86%
+ 239  KX362587    3.21%    passed     98.69%
+ 240  KY634788   10.20%    passed     84.78%
+ 241  KY634769   10.20%    passed     88.30%
+ 242  KY634840   10.20%    passed     88.30%
+ 243  KY634745   10.20%    passed     87.92%
+ 244  KY634712   10.20%    passed     87.92%
+ 245  KY634823   10.20%    passed     91.31%
+ 246  KY634723   10.20%    passed     88.30%
+ 247  KY634682   10.20%    passed     92.17%
+ 248  KY634660   10.20%    passed     92.17%
+ 249  KY634619   17.47%    passed     86.18%
+ 250  KX363206   20.87%    passed     70.19%
+ 251  KY634694   16.71%    passed     74.89%
+ 252  KY634851   10.20%    passed     86.84%
+ 253  KY634638   10.20%    passed     98.41%
+ 254  KX778499    2.93%    passed     98.12%
+ 255  KX362933   16.90%    passed     68.39%
+ 256  JX307621    5.76%    passed     98.22%
+ 257  JX307620    5.76%    passed     99.23%
+ 258  JX307622    5.76%    passed     99.99%
+ 259  KP170849    6.33%    passed     97.96%
+ 260  KP170847    6.33%    passed     97.96%
+ 261  MN066894   11.80%    passed     95.35%
+ 262  MN066920   11.43%    passed     92.40%
+ 263  JX307619    5.76%    passed     92.21%
+ 264  KC443780    5.29%    passed     96.50%
+ 265  KC443385    5.29%    passed     96.50%
+ 266  KP753230    5.29%    passed     99.19%
+ 267  KP752655    5.29%    passed     99.19%
+ 268  KP752797    5.29%    passed     99.59%
+ 269  MN067179    7.93%    passed     99.45%
+ 270  MZ095143    9.92%    passed     96.27%
+ 271  MZ095153    9.92%    passed     96.27%
+ 272  MZ095165    9.92%    passed     96.27%
+ 273  MZ095187    9.92%    passed     96.27%
+ 274  MZ096966    9.92%    passed     97.35%
+ 275  MZ094000    9.92%    passed     94.69%
+ 276  MZ094029    9.92%    passed     94.69%
+ 277  MZ094061    9.92%    passed     94.69%
+ 278  MZ094122    9.92%    passed     94.69%
+ 279  MZ094188    9.92%    passed     94.69%
+ 280  MZ094199    9.92%    passed     94.69%
+ 281  MZ094231    9.92%    passed     94.69%
+ 282  MZ094242    9.92%    passed     94.69%
+ 283  MZ094269    9.92%    passed     94.69%
+ 284  MZ094313    9.92%    passed     94.69%
+ 285  MZ094366    9.92%    passed     94.69%
+ 286  MZ094420    9.92%    passed     94.69%
+ 287  MZ094409    9.92%    passed     95.77%
+ 288  MZ093978    9.92%    passed     96.27%
+ 289  MZ094519    9.92%    passed     94.69%
+ 290  MZ094706    9.92%    passed     96.27%
+ 291  MZ095997    9.92%    passed     94.69%
+ 292  MZ096041    9.92%    passed     94.69%
+ 293  MZ096063    9.92%    passed     94.69%
+ 294  MZ096118    9.92%    passed     94.69%
+ 295  MZ096911    9.92%    passed     94.69%
+ 296  MZ096019    9.92%    passed     93.21%
+ 297  MZ096074    9.92%    passed     93.21%
+ 298  MZ096085    9.92%    passed     93.21%
+ 299  MZ096933    9.92%    passed     93.21%
+ 300  MZ096955    9.92%    passed     92.55%
+ 301  MZ096096    9.92%    passed     93.07%
+ 302  MZ096140    9.92%    passed     93.07%
+ 303  MZ096151    9.92%    passed     93.07%
+ 304  MZ096944    9.92%    passed     93.07%
+ 305  MZ096107    9.92%    passed     91.29%
+ 306  MZ096129    9.92%    passed     91.29%
+ 307  MZ096922    9.92%    passed     91.29%
+ 308  MZ097259    9.92%    passed     95.56%
+ 309  MZ094253   18.70%    passed     91.84%
+ 310  JX965148    0.00%    passed     88.78%
+ 311  KP007155    0.00%    passed     92.91%
+ 312  KP007177    0.00%    passed     90.49%
+ 313  KP007197    0.00%    passed     88.92%
+ 314  KP007166    0.00%    passed     86.88%
+ 315  MN551971    0.00%    passed     89.50%
+ 316  MN551975    0.00%    passed     86.24%
+ 317  KC847044    0.00%    passed     90.26%
+ 318  MN223989    0.00%    passed     90.26%
+ 319  MN223994    0.00%    passed     90.26%
+ 320  MN552142    0.00%    passed     77.99%
+ 321  MG181322    0.00%    passed     81.31%
+ 322  MG181839    0.00%    passed     82.19%
+ 323  MG181916    0.00%    passed     82.19%
+ 324  MG181927    0.00%    passed     82.19%
+ 325  MG181575    0.00%    passed     85.69%
+ 326  MG181597    0.00%    passed     82.19%
+ 327  MG181630    0.00%    passed     81.31%
+ 328  MG181729    0.00%    passed     81.31%
+ 329  MG181619    0.00%    passed     82.19%
+ 330  MG181652    0.00%    passed     82.19%
+ 331  MG181697    0.00%    passed     82.19%
+ 332  MG181707    0.00%    passed     82.19%
+ 333  MG181718    0.00%    passed     82.19%
+ 334  MG181741    0.00%    passed     82.19%
+ 335  MG181751    0.00%    passed     82.19%
+ 336  MG181641    0.00%    passed     84.10%
+ 337  MG181586    0.00%    passed     83.50%
+ 338  MG181608    0.00%    passed     83.50%
+ 339  MG181685    0.00%    passed     79.98%
+ 340  MG181674    0.00%    passed     76.10%
+ 341  MG181762    0.00%    passed     79.31%
+ 342  MG181828    0.00%    passed     84.81%
+ 343  MN066779   14.26%    passed     90.97%
+ 344  MN067096   11.80%    passed     97.03%
+ 345  MN066789   14.35%    passed     92.50%
+ 346  MN067161   14.16%    passed     90.53%
+ 347  MN067186   13.79%    passed     87.97%
+ 348  MN067016   17.19%    passed     88.48%
+ 349  KP170850    6.33%    passed     93.44%
+ 350  KP170848    6.33%    passed     92.30%
+ 351  JX965150    0.00%    passed     96.54%
+ 352  MN066885   11.52%    passed     84.69%
+ 353  MN067139   11.24%    passed     83.07%
+ 354  MN066903    5.85%    passed     88.24%
+ 355  MN067087   14.16%    passed     72.46%
+ 356  MN067024   14.16%    passed     75.84%
+ 357  MH182454    0.19%    passed     84.38%
+ 358  KC782515    0.00%    passed     87.88%
+ 359  MH182456    0.19%    passed     86.93%
+ 360  MN066989   14.07%    passed     88.79%
+ 361  MN067169   13.88%    passed     83.94%
+ 362  MN066969   14.16%    passed     84.25%
+ 363  MN066998   14.16%    passed     86.73%
+ 364  MN066840   11.71%    passed     89.42%
+ 365  MN066929   13.98%    passed     85.48%
+ 366  HQ641369    0.00%    passed     97.57%
+ 367  KU248401    0.00%    passed     99.00%
+ 368  KU248412    0.00%    passed     99.00%
+ 369  KU248379    0.00%    passed     99.32%
+ 370  KU248390    0.00%    passed     99.32%
+ 371  KU199277    0.00%    passed     98.44%
+ 372  KU248423    0.00%    passed     94.69%
+ 373  JQ837885    0.00%    passed     92.29%
+ 374  KT936622    0.00%    passed     95.78%
+ 375  KC822946    0.00%    passed     97.33%
+ 376  KP007188    0.00%    passed     95.78%
+ 377  KP007208    0.00%    passed     95.41%
+ 378  LC173589    0.00%    passed     94.62%
+ 379  LC173590    0.00%    passed     94.62%
+ 380  LC173591    0.00%    passed     94.62%
+ 381  LC173595    0.00%    passed     94.62%
+ 382  LC173596    0.00%    passed     94.62%
+ 383  LC173608    0.00%    passed     94.62%
+ 384  LC173609    0.00%    passed     94.62%
+ 385  LC173611    0.00%    passed     94.62%
+ 386  LC173618    0.00%    passed     94.62%
+ 387  LC173626    0.00%    passed     94.62%
+ 388  LC173630    0.00%    passed     94.62%
+ 389  LC173632    0.00%    passed     94.62%
+ 390  LC173634    0.00%    passed     94.62%
+ 391  LC173635    0.00%    passed     94.62%
+ 392  LC173637    0.00%    passed     94.62%
+ 393  LC173645    0.00%    passed     94.62%
+ 394  LC173755    0.00%    passed     94.62%
+ 395  LC173759    0.00%    passed     94.62%
+ 396  LC173760    0.00%    passed     94.62%
+ 397  LC173638    0.00%    passed     94.62%
+ 398  LC173652    0.00%    passed     94.62%
+ 399  LC173653    0.00%    passed     94.62%
+ 400  LC173657    0.00%    passed     94.62%
+ 401  LC173658    0.00%    passed     94.62%
+ 402  LC173659    0.00%    passed     94.62%
+ 403  LC173663    0.00%    passed     94.62%
+ 404  LC173664    0.00%    passed     94.62%
+ 405  LC173673    0.00%    passed     94.62%
+ 406  LC173679    0.00%    passed     94.62%
+ 407  LC173722    0.00%    passed     94.62%
+ 408  LC173725    0.00%    passed     94.62%
+ 409  LC173730    0.00%    passed     94.62%
+ 410  LC173731    0.00%    passed     94.62%
+ 411  LC173734    0.00%    passed     94.62%
+ 412  LC465259    0.00%    passed     94.62%
+ 413  LC173613    0.00%    passed     96.37%
+ 414  LC173614    0.00%    passed     92.40%
+ 415  LC173644    0.00%    passed     92.40%
+ 416  LC173620    0.00%    passed     96.37%
+ 417  LC173643    0.00%    passed     96.37%
+ 418  LC173651    0.00%    passed     96.37%
+ 419  LC173668    0.00%    passed     94.75%
+ 420  LC173671    0.00%    passed     96.37%
+ 421  LC173674    0.00%    passed     94.10%
+ 422  LC173678    0.00%    passed     96.37%
+ 423  LC173719    0.00%    passed     94.10%
+ 424  LC173621    0.00%    passed     96.37%
+ 425  LC173629    0.00%    passed     96.37%
+ 426  LC173640    0.00%    passed     96.37%
+ 427  LC173622    0.00%    passed     94.62%
+ 428  LC173732    0.00%    passed     96.37%
+ 429  LC173735    0.00%    passed     97.69%
+ 430  LC173616    0.00%    passed     95.89%
+ 431  LC173624    0.00%    passed     91.01%
+ 432  LC173669    0.00%    passed     95.78%
+ 433  KU059784    0.00%    passed     96.65%
+ 434  KU059795    0.00%    passed     96.89%
+ 435  KU059773    0.00%    passed     98.57%
+ 436  KU550308    0.00%    passed     96.32%
+ 437  KU550305    0.00%    passed     96.32%
+ 438  KU550307    0.00%    passed     95.24%
+ 439  KU550304    0.00%    passed     97.26%
+ 440  KU550309    0.00%    passed     97.26%
+ 441  LC541934    0.00%    passed     97.69%
+ 442  MH704734    0.00%    passed     97.69%
+ 443  MN577183    0.00%    passed     97.56%
+ 444  OK349185    0.00%    passed     96.22%
+ 445  OK349196    0.00%    passed     97.55%
+ 446  KX362740    0.00%    passed     95.04%
+ 447  MH704735    0.00%    passed     95.29%
+ 448  LC173592    0.09%    passed     92.35%
+ 449  LC173639    0.09%    passed     94.57%
+ 450  LC173666    0.09%    passed     94.57%
+ 451  LC173667    0.09%    passed     94.57%
+ 452  LC173646    0.09%    passed     96.33%
+ 453  LC173647    0.09%    passed     96.33%
+ 454  LC173650    0.09%    passed     96.33%
+ 455  LC173607    1.04%    passed     96.05%
+ 456  LC173627    1.04%    passed     96.05%
+ 457  LC173655    1.04%    passed     96.05%
+ 458  LC173610    0.38%    passed     94.50%
+ 459  LC173648    0.38%    passed     94.50%
+ 460  LC173642    0.76%    passed     95.57%
+ 461  LC173615    1.13%    passed     96.96%
+ 462  LC173710    1.13%    passed     96.96%
+ 463  LC173727    1.13%    passed     96.96%
+ 464  LC173600    0.19%    passed     94.31%
+ 465  LC173700    0.19%    passed     96.09%
+ 466  LC173641    0.47%    passed     94.99%
+ 467  LC173662    0.47%    passed     94.99%
+ 468  LC173672    2.83%    passed     94.99%
+ 469  LC173649    0.85%    passed     93.99%
+ 470  LC173660    0.85%    passed     95.93%
+ 471  LC173670    0.85%    passed     97.42%
+ 472  LC173676    0.85%    passed     95.34%
+ 473  LC173675    1.32%    passed     96.60%
+ 474  LC173598    0.94%    passed     95.74%
+ 475  LC173617    0.94%    passed     96.20%
+ 476  LC173619    0.94%    passed     96.20%
+ 477  LC173631    0.94%    passed     96.20%
+ 478  LC173636    0.94%    passed     96.20%
+ 479  LC173758    0.94%    passed     96.20%
+ 480  LC173661    0.94%    passed     96.20%
+ 481  LC173677    0.94%    passed     96.20%
+ 482  LC173711    0.94%    passed     96.20%
+ 483  LC173715    0.94%    passed     96.20%
+ 484  LC173723    0.94%    passed     96.20%
+ 485  LC173628    0.94%    passed     97.65%
+ 486  LC173718    0.94%    passed     97.65%
+ 487  LC173747    0.94%    passed     93.78%
+ 488  LC173720    0.94%    passed     95.35%
+ 489  LC173612    5.19%    passed     99.18%
+ 490  LC173623    5.19%    passed     99.08%
+ 491  LC173654    3.12%    passed     96.57%
+ 492  AB975850   10.76%    passed     89.23%
+ 493  AB975838   10.76%    passed     89.23%
+ 494  AB975849   10.76%    passed     89.23%
+ 495  AB975839   10.76%    passed     89.23%
+ 496  AB975824   10.76%    passed     89.23%
+ 497  AB975828   10.76%    passed     89.23%
+ 498  AB975829   10.76%    passed     89.23%
+ 499  AB975823   10.76%    passed     89.23%
+ 500  AB975847   10.76%    passed     89.23%
+ 501  AB975827   10.76%    passed     89.82%
+ 502  AB975830   10.76%    passed     89.82%
+ 503  AB975859   10.76%    passed     92.17%
+ 504  AB975862   10.76%    passed     92.17%
+ 505  AB975866   10.76%    passed     92.17%
+ 506  AB975856   10.76%    passed     92.17%
+ 507  AB975869   10.76%    passed     92.17%
+ 508  AB975865   10.76%    passed     92.17%
+ 509  AB975863   10.76%    passed     92.17%
+ 510  AB975871   10.76%    passed     92.17%
+ 511  AB975872   10.76%    passed     92.17%
+ 512  AB975825   10.76%    passed     88.15%
+ 513  AB975833   10.76%    passed     92.17%
+ 514  AB975832   10.76%    passed     92.17%
+ 515  AB975834   10.76%    passed     89.82%
+ 516  AB975852   10.76%    passed     88.00%
+ 517  MF044116   10.76%    passed     83.09%
+ 518  AB975851   12.18%    passed     77.67%
+ 519  AB975844   11.61%    passed     83.97%
+ 520  AB975843   11.61%    passed     83.97%
+ 521  AB975837   11.61%    passed     83.97%
+ 522  AB975836   12.18%    passed     83.93%
+ 523  AB975841   11.33%    passed     87.10%
+ 524  AB975868   11.33%    passed     90.26%
+ 525  AB975855   11.33%    passed     90.26%
+ 526  AB975857   11.05%    passed     92.62%
+ 527  AB975854   11.05%    passed     92.62%
+ 528  AB975853   11.05%    passed     89.83%
+ 529  AB975826   11.05%    passed     89.83%
+ 530  AB975861   11.33%    passed     92.24%
+ 531  AB975845   11.33%    passed     89.31%
+ 532  AB975848   11.33%    passed     89.31%
+ 533  AB975840   11.33%    passed     89.31%
+ 534  AB975831   11.33%    passed     89.31%
+ 535  AB975864   11.05%    passed     91.65%
+ 536  AB975870   11.05%    passed     91.65%
+ 537  AB975858   11.05%    passed     91.65%
+ 538  AB975867   11.61%    passed     89.69%
+ 539  AB975860   12.18%    passed     90.61%
+ 540  LC173656    5.19%    passed     98.03%
+ 541  LC462861    1.51%    passed     97.62%
+ 542  LC465248    0.85%    passed     96.15%
+ 543  LC465270    0.85%    passed     96.15%
+ 544  LC465281    0.85%    passed     96.15%
+ 545  AB975842   11.90%    passed     87.99%
+ 546  KU550306    1.32%    passed     99.00%
+ 547  LC463288    1.32%    passed     97.11%
+ 548  LC542477    1.32%    passed     99.01%
+ 549  LC386083    0.94%    passed     98.82%
+ 550  LC541945    2.74%    passed     99.74%
+ 551  LC542011    3.49%    passed     98.91%
+ 552  LC541956    0.94%    passed     98.20%
+ 553  LC542110    0.94%    passed     95.96%
+ 554  LC542099    0.00%    passed     93.95%
+ 555  LC542088    5.00%    passed     98.52%
+ 556  LC542033    0.28%    passed     98.76%
+ 557  LC542312    0.94%    passed     99.12%
+ 558  LC542356    0.94%    passed     98.68%
+ 559  LC542258    0.94%    passed     98.68%
+ 560  LC542532    0.94%    passed     98.68%
+ 561  LC542510    0.94%    passed     99.12%
+ 562  LC542389    5.48%    passed     94.20%
+ 563  LC542422    1.79%    passed     99.33%
+ 564  LC542543    1.79%    passed     99.33%
+ 565  LC542587    1.79%    passed     99.33%
+ 566  LC542521    1.32%    passed     99.86%
+ 567  LC542444    2.46%    passed     97.44%
+ 568  LC173625    3.21%    passed     98.10%
+ 569  LC066657    0.94%    passed     93.49%
+ 570  LC066668    0.94%    passed     93.90%
+ 571  LC463299    0.94%    passed     95.97%
+ 572  LC066646    1.13%    passed     96.60%
+ 573  KT006915    4.06%    passed     99.06%
+ 574  LC541989    1.04%    passed     98.57%
+ 575  LC542022    1.98%    passed     98.69%
+ 576  LC542000    4.25%    passed     98.77%
+ 577  LC105252    2.08%    passed     98.93%
+ 578  LC105430    2.08%    passed     99.09%
+ 579  LC465824    1.32%    passed     97.11%
+ 580  LC468242    1.89%    passed     97.91%
+ 581  LC463209    3.49%    passed     98.45%
+ 582  LC463277    3.40%    passed     98.03%
+ 583  AB975846   13.31%    passed     78.95%
+ 584  LC105007    2.27%    passed     99.34%
+ 585  LC463266    2.83%    passed     98.89%
+ 586  LC465292    3.78%    passed     98.68%
+ 587  MF044083    1.89%    passed     98.96%
+ 588  MF044105    1.70%    passed     98.52%
+ 589  MF044094    4.82%    passed     95.74%
+ 590  LC542400    2.74%    passed     97.95%
+ 591  LC542499    3.21%    passed     98.34%
+ 592  LC542291    1.42%    passed     98.05%
+ 593  LC542433    1.70%    passed     99.11%
+ 594  MF044127    1.79%    passed     97.68%
+ 595  MF044160    1.79%    passed     97.08%
+ 596  LC541978    3.02%    passed     99.34%
+ 597  MF044171    1.70%    passed     99.03%
+ 598  LC542301    2.55%    passed     99.16%
+ 599  LC542378    3.87%    passed     98.38%
+ 600  LC542345    2.74%    passed     99.88%
+ 601  LC542044    1.61%    passed     99.64%
+ 602  LC541967    7.74%    passed     89.48%
+ 603  KX880421    3.49%    passed     96.96%
+ 604  LC542055    2.17%    passed     98.85%
+ 605  LC542121    2.74%    passed     98.01%
+ 606  LC542323    2.27%    passed     99.48%
+ 607  LC542280    2.27%    passed     99.48%
+ 608  LC542488    2.27%    passed     98.91%
+ 609  LC542247    2.55%    passed     99.25%
+ 610  LC542554    2.83%    passed     99.11%
+ 611  LC542455    1.51%    passed     99.34%
+ 612  LC542209    1.61%    passed     98.93%
+ 613  LC542220    2.46%    passed     99.35%
+ 614  LC542231    3.59%    passed     98.10%
+ 615  LC542269    2.93%    passed     98.88%
+ 616  LC542334    2.55%    passed     98.74%
+ 617  LC542367    1.32%    passed     98.14%
+ 618  LC542466    3.68%    passed     98.40%
+ 619  LC542576    2.64%    passed     97.30%
+ 620  LC542565    1.61%    passed     99.65%
+ 621  LC542198    3.49%    passed     97.91%
+ 622  MZ096460    9.92%    passed     86.07%
+ 623  MZ096471    9.92%    passed     86.07%
+ 624  KY634799   10.20%    passed     88.80%
+ 625  KY634671   10.20%    passed     88.80%
+ 626  KY634734   14.35%    passed     57.87%
+ 627  MN401295    2.46%    passed     95.91%
+ 628  MN577186    0.00%    passed     98.62%
+ 629  LC542187    2.64%    passed     99.52%
+ 630  KX880432    4.63%    passed     99.24%
+ 631  LC542710    1.79%    passed     95.22%
+ 632  LC542721    1.79%    passed     95.22%
+ 633  MF044138    1.98%    passed     98.47%
+ 634  MF044149   13.22%    passed     65.14%
+ 635  LC465303    2.55%    passed     91.04%
+ 636  KU360981    5.67%    passed     99.63%
+ 637  KU360985    4.63%    passed     96.92%
+ 638  KU360980    7.55%    passed     99.70%
+ 639  KU360984    7.74%    passed    100.00%
+ 640  KU360983    6.70%    passed     98.89%
+ 641  KU360986    6.23%    passed     98.65%
+ 642  KU360987    6.04%    passed     98.18%
+ 643  KX274511   10.95%    passed     97.17%
+ 644  KX274529   16.90%    passed     84.66%
+ 645  KX274513    9.82%    passed     99.23%
+ 646  KX274514    9.82%    passed     99.05%
+ 647  KX274516    9.82%    passed     97.92%
+ 648  KX274515    9.82%    passed     96.52%
+ 649  KX274522    9.82%    passed     99.36%
+ 650  KX274526    9.82%    passed     99.05%
+ 651  KX274527    9.82%    passed     98.51%
+ 652  KX274528    9.82%    passed     96.61%
+ 653  KX274524    9.82%    passed     97.13%
+ 654  KU360982    6.80%    passed     99.36%
+ 655  KX274512    9.82%    passed     96.04%
+ 656  KX274523   10.10%    passed     97.36%
+ 657  MG181663    0.00%    passed     95.29%
+ 658  KU356581    0.00%    passed     80.73%
+ 659  AB975835   11.90%    passed     79.80%
+ 660  JN116542   11.80%    passed     85.55%
+ 661  JN116544   21.06%    passed     73.75%
+ 662  KJ752113    5.29%    passed     99.94%
+ 663  KJ752346    5.29%    passed     99.69%
+ 664  KJ753353    5.29%    passed     99.64%
+ 665  KC155671    0.00%    passed     97.85%
+ 666  KF636307    5.29%    passed     99.45%
+ 667  KJ752454    5.29%    passed     99.04%
+ 668  KJ753807    5.29%    passed     98.79%
+ 669  KF636353    5.29%    passed     98.79%
+ 670  KJ751598    5.29%    passed     99.77%
+ 671  KJ751609    5.29%    passed     99.45%
+ 672  KC443185    5.29%    passed     99.25%
+ 673  KC443341    5.29%    passed     99.25%
+ 674  KC443649    5.29%    passed     99.04%
+ 675  KC443605    5.29%    passed     98.51%
+ 676  KC443737    5.29%    passed     98.51%
+ 677  KC443715    5.29%    passed     98.51%
+ 678  KC443671    5.29%    passed     97.24%
+ 679  KC443528    5.29%    passed     98.14%
+ 680  KP752567    2.46%    passed     98.55%
+ 681  LC406826    2.08%    passed     97.97%
+ 682  MZ093989    9.92%    passed     68.91%
+ 683  MZ093886    9.92%    passed     68.91%
+ 684  MZ093905    9.92%    passed     73.69%
+ 685  MZ094051    9.92%    passed     73.69%
+ 686  MZ094083    9.92%    passed     74.61%
+ 687  MZ094155    9.92%    passed     74.61%
+ 688  MZ094166    9.92%    passed     74.61%
+ 689  MZ097175    9.92%    passed     76.64%
+ 690  MZ097239    9.92%    passed     73.69%
+ 691  MZ094072    9.92%    passed     79.23%
+ 692  MZ094094    9.92%    passed     79.23%
+ 693  MZ094105    9.92%    passed     79.23%
+ 694  MZ094133    9.92%    passed     79.23%
+ 695  MZ094177    9.92%    passed     79.23%
+ 696  MZ094210    9.92%    passed     79.23%
+ 697  MZ094221    9.92%    passed     79.23%
+ 698  MZ094291    9.92%    passed     79.23%
+ 699  MZ094302    9.92%    passed     79.23%
+ 700  MZ094324    9.92%    passed     79.23%
+ 701  MZ094355    9.92%    passed     79.23%
+ 702  MZ094377    9.92%    passed     79.23%
+ 703  MZ093925    9.92%    passed     79.23%
+ 704  MZ093957    9.92%    passed     79.23%
+ 705  MZ093967    9.92%    passed     79.23%
+ 706  MZ097164    9.92%    passed     79.23%
+ 707  MZ097197    9.92%    passed     79.23%
+ 708  MZ097207    9.92%    passed     79.23%
+ 709  MZ097218    9.92%    passed     79.23%
+ 710  MZ094346    9.92%    passed     74.72%
+ 711  MZ094387    9.92%    passed     77.33%
+ 712  MZ093631    9.92%    passed     79.77%
+ 713  MZ094398    9.92%    passed     77.94%
+ 714  MZ096548    9.92%    passed     60.99%
+ 715  MZ096581    9.92%    passed     67.14%
+ 716  MZ094335    9.92%    passed     67.82%
+ 717  MZ097186   12.46%    passed     59.01%
+ 718  MZ094280   11.33%    passed     62.93%
+ 719  MZ093642   11.33%    passed     58.03%
+ 720  MZ094020   15.01%    passed     70.37%
+ 721  KX655524    0.00%    passed     96.23%
+ 722  KX655502    0.00%    passed     97.00%
+ 723  KX632261    0.00%    passed     97.00%
+ 724  KX655469    0.00%    passed     98.62%
+ 725  LC406837    0.94%    passed     97.58%
+ 726  KJ752658    5.29%    passed     99.77%
+ 727  JX891385   15.58%    passed     54.68%
+ 728  JX891386   15.58%    passed     54.68%
+ 729  JX891387   15.58%    passed     54.68%
+ 730  LC406815    2.55%    passed     94.34%
+ 731  JF460830    0.00%    passed     96.90%
+ 732  JF460841    0.00%    passed     96.90%
+ 733  KJ870896    0.09%    passed     97.53%
+ 734  KJ870885    0.00%    passed     96.94%
+ 735  MG181773    0.00%    passed     99.44%
+ 736  MG181850    0.00%    passed     99.44%
+ 737  MG181883    0.00%    passed     98.44%
+ 738  MG181894    0.00%    passed     98.44%
+ 739  MG181905    0.00%    passed     99.53%
+ 740  KJ583192   10.20%    passed     86.35%
+ 741  KJ583181    8.22%    passed     97.19%
+ 742  KX655480    0.00%    passed     91.76%
+ 743  KX632338    0.00%    passed     89.23%
+ 744  KX632283    0.00%    passed     89.12%
+ 745  KX655447    0.00%    passed     94.36%
+ 746  LC406793    1.13%    passed     89.74%
+ 747  LC406804    0.85%    passed     84.73%
+ 748  KJ752179    5.29%    passed     99.98%
+ 749  KP752808    5.29%    passed     99.91%
+ 750  KP753141    5.67%    passed     99.89%
+ 751  KJ753783    5.29%    passed     98.51%
+ 752  KJ752157    5.29%    passed     98.20%
+ 753  KP752689    5.29%    passed     98.53%
+ 754  KP752967    5.29%    passed     94.07%
+ 755  KP752501    3.02%    passed     97.80%
+ 756  KX362707   15.20%    passed     93.32%
+ 757  KX362795    7.84%    passed     99.27%
+ 758  JF304922    0.00%    passed     99.20%
+ 759  KY657948    9.92%    passed     77.11%
+ 760  KY657949    9.92%    passed     21.76%
+ 761  KY657942    9.92%    passed     90.57%
+ 762  KY657943    9.92%    passed     69.66%
+ 763  KY657944    9.92%    passed     26.35%
+ 764  KY657945    9.92%    passed     14.02%
+ 765  KY657946    9.92%    failed      1.34%
+ 766  KY657947    9.92%    failed      0.03%
+ 767  MZ094010   16.43%    passed     62.48%
+ 768  MZ094144    9.92%    passed     77.55%
+ 769  KY657954    9.92%    passed     55.16%
+ 770  KY657955    9.92%    passed     33.77%
+ 771  KY657956    9.92%    passed      8.81%
+ 772  KY657957    9.92%    failed      1.41%
+ 773  KY657958    9.92%    failed      0.48%
+ 774  KY657959    9.92%    failed      0.04%
+ 775  KX274525    9.82%    passed     89.53%
+ 776  KU356614    0.00%    passed     84.16%
+ 777  KY657936    9.92%    failed      0.00%
+ 778  KY657937    9.92%    failed      0.00%
+ 779  KY657938    9.92%    failed      0.02%
+ 780  KY657939    9.92%    failed      0.90%
+ 781  KY657940    9.92%    passed     25.21%
+ 782  KY657941    9.92%    passed     75.54%
+ 783  KY657950    9.92%    failed      0.05%
+ 784  KY657951    9.92%    failed      0.00%
+ 785  KY657952    9.92%    failed      0.00%
+ 786  KY657953    9.92%    failed      0.00%
+ 787  KX655458    0.00%    passed     66.99%
+ 788  KU714451    0.09%    passed     80.67%
+ 789  KX362806   14.64%    passed     68.22%
+ 790  JX040428    5.85%    passed     91.90%
+ 791  KY113327    0.19%    passed     98.32%
+ 792  KY113343    5.95%    passed     79.11%
+ 793  MN066871    4.91%    passed     77.06%
+ 794  JF804985    3.49%    passed     83.27%
+ 795  MW292236    1.51%    passed     69.66%
+****  TOTAL       4.80%  13 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KC020028 is identical to KC020023 but kept for subsequent analysis
+NOTE: MF469337 is identical to KC443594 but kept for subsequent analysis
+NOTE: KP752444 is identical to KJ752390 but kept for subsequent analysis
+NOTE: MH060125 is identical to MH060085 but kept for subsequent analysis
+NOTE: MH060115 is identical to MH060105 but kept for subsequent analysis
+NOTE: LC102902 is identical to LC102913 but kept for subsequent analysis
+NOTE: LC103045 is identical to LC102935 but kept for subsequent analysis
+NOTE: KU356592 is identical to HQ641360 but kept for subsequent analysis
+NOTE: KJ627157 is identical to KJ626722 but kept for subsequent analysis
+NOTE: KJ626889 is identical to KJ626994 but kept for subsequent analysis
+NOTE: LC173757 is identical to LC173756 but kept for subsequent analysis
+NOTE: LC173763 is identical to LC173762 but kept for subsequent analysis
+NOTE: LC173728 is identical to LC173714 but kept for subsequent analysis
+NOTE: LC105106 is identical to LC105073 but kept for subsequent analysis
+NOTE: LC105288 is identical to LC105170 but kept for subsequent analysis
+NOTE: KC443295 is identical to KC443561 but kept for subsequent analysis
+NOTE: KC443440 is identical to KC443141 but kept for subsequent analysis
+NOTE: KC443495 is identical to KC443174 but kept for subsequent analysis
+NOTE: KJ753310 is identical to KJ752680 but kept for subsequent analysis
+NOTE: KP752456 is identical to KJ751654 but kept for subsequent analysis
+NOTE: KP752478 is identical to KJ751720 but kept for subsequent analysis
+NOTE: KC443229 is identical to KC443273 but kept for subsequent analysis
+NOTE: KC443319 is identical to KC443627 but kept for subsequent analysis
+NOTE: KC443363 is identical to KC443218 but kept for subsequent analysis
+NOTE: KC443616 is identical to KC443262 but kept for subsequent analysis
+NOTE: KC443207 is identical to KC443374 but kept for subsequent analysis
+NOTE: KU199288 is identical to KU356625 but kept for subsequent analysis
+NOTE: MG181806 is identical to MG181784 but kept for subsequent analysis
+NOTE: MG181817 is identical to MG181795 but kept for subsequent analysis
+NOTE: MZ093778 is identical to MZ093767 but kept for subsequent analysis
+NOTE: KX363131 is identical to KX362839 but kept for subsequent analysis
+NOTE: LC173690 is identical to LC173684 but kept for subsequent analysis
+NOTE: KY634840 is identical to KY634769 but kept for subsequent analysis
+NOTE: KY634660 is identical to KY634682 but kept for subsequent analysis
+NOTE: KP170847 is identical to KP170849 but kept for subsequent analysis
+NOTE: KC443385 is identical to KC443780 but kept for subsequent analysis
+NOTE: KP752655 is identical to KP753230 but kept for subsequent analysis
+NOTE: MZ095153 is identical to MZ095143 but kept for subsequent analysis
+NOTE: MZ094029 is identical to MZ094000 but kept for subsequent analysis
+NOTE: MZ096041 is identical to MZ095997 but kept for subsequent analysis
+NOTE: MZ096074 is identical to MZ096019 but kept for subsequent analysis
+NOTE: MZ096140 is identical to MZ096096 but kept for subsequent analysis
+NOTE: MZ096129 is identical to MZ096107 but kept for subsequent analysis
+NOTE: MN223994 is identical to MN223989 but kept for subsequent analysis
+NOTE: MG181916 is identical to MG181839 but kept for subsequent analysis
+NOTE: MG181729 is identical to MG181630 but kept for subsequent analysis
+NOTE: MG181652 is identical to MG181619 but kept for subsequent analysis
+NOTE: MG181608 is identical to MG181586 but kept for subsequent analysis
+NOTE: KU248412 is identical to KU248401 but kept for subsequent analysis
+NOTE: KU248390 is identical to KU248379 but kept for subsequent analysis
+NOTE: LC173590 is identical to LC173589 but kept for subsequent analysis
+NOTE: LC173644 is identical to LC173614 but kept for subsequent analysis
+NOTE: LC173651 is identical to LC173643 but kept for subsequent analysis
+NOTE: LC173629 is identical to LC173621 but kept for subsequent analysis
+NOTE: KU550305 is identical to KU550308 but kept for subsequent analysis
+NOTE: KU550309 is identical to KU550304 but kept for subsequent analysis
+NOTE: LC173666 is identical to LC173639 but kept for subsequent analysis
+NOTE: LC173650 is identical to LC173647 but kept for subsequent analysis
+NOTE: LC173627 is identical to LC173607 but kept for subsequent analysis
+NOTE: LC173648 is identical to LC173610 but kept for subsequent analysis
+NOTE: LC173710 is identical to LC173615 but kept for subsequent analysis
+NOTE: LC173619 is identical to LC173617 but kept for subsequent analysis
+NOTE: AB975838 is identical to AB975850 but kept for subsequent analysis
+NOTE: AB975830 is identical to AB975827 but kept for subsequent analysis
+NOTE: AB975862 is identical to AB975859 but kept for subsequent analysis
+NOTE: AB975832 is identical to AB975833 but kept for subsequent analysis
+NOTE: AB975843 is identical to AB975844 but kept for subsequent analysis
+NOTE: AB975855 is identical to AB975868 but kept for subsequent analysis
+NOTE: AB975854 is identical to AB975857 but kept for subsequent analysis
+NOTE: AB975826 is identical to AB975853 but kept for subsequent analysis
+NOTE: AB975848 is identical to AB975845 but kept for subsequent analysis
+NOTE: AB975870 is identical to AB975864 but kept for subsequent analysis
+NOTE: LC465270 is identical to LC465248 but kept for subsequent analysis
+NOTE: LC542258 is identical to LC542356 but kept for subsequent analysis
+NOTE: LC542543 is identical to LC542422 but kept for subsequent analysis
+NOTE: LC542280 is identical to LC542323 but kept for subsequent analysis
+NOTE: MZ096471 is identical to MZ096460 but kept for subsequent analysis
+NOTE: KY634671 is identical to KY634799 but kept for subsequent analysis
+NOTE: LC542721 is identical to LC542710 but kept for subsequent analysis
+NOTE: KC443341 is identical to KC443185 but kept for subsequent analysis
+NOTE: KC443737 is identical to KC443605 but kept for subsequent analysis
+NOTE: MZ093886 is identical to MZ093989 but kept for subsequent analysis
+NOTE: MZ094155 is identical to MZ094083 but kept for subsequent analysis
+NOTE: MZ094094 is identical to MZ094072 but kept for subsequent analysis
+NOTE: KX632261 is identical to KX655502 but kept for subsequent analysis
+NOTE: JX891386 is identical to JX891385 but kept for subsequent analysis
+NOTE: JF460841 is identical to JF460830 but kept for subsequent analysis
+NOTE: MG181850 is identical to MG181773 but kept for subsequent analysis
+NOTE: MG181894 is identical to MG181883 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0118718 secs using 66.4% CPU
+Identifying sites to remove: done in 0.00514197 secs using 86.31% CPU
+NOTE: 150 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LC102924 (identical to LC102913) is ignored but added at the end
+NOTE: LC102946 (identical to LC102913) is ignored but added at the end
+NOTE: LC102957 (identical to LC102913) is ignored but added at the end
+NOTE: LC102990 (identical to LC102913) is ignored but added at the end
+NOTE: LC103001 (identical to LC102913) is ignored but added at the end
+NOTE: LC103012 (identical to LC102913) is ignored but added at the end
+NOTE: KJ412771 (identical to KJ626722) is ignored but added at the end
+NOTE: KJ626600 (identical to KJ626722) is ignored but added at the end
+NOTE: KJ626566 (identical to KJ626722) is ignored but added at the end
+NOTE: KJ626711 (identical to KJ626722) is ignored but added at the end
+NOTE: KJ412538 (identical to KJ626722) is ignored but added at the end
+NOTE: KJ626961 (identical to KJ626722) is ignored but added at the end
+NOTE: KJ626855 (identical to KJ626722) is ignored but added at the end
+NOTE: KJ626769 (identical to KJ626722) is ignored but added at the end
+NOTE: KJ626825 (identical to KJ626722) is ignored but added at the end
+NOTE: KC443462 (identical to KC443561) is ignored but added at the end
+NOTE: KC443693 (identical to KC443561) is ignored but added at the end
+NOTE: KC443506 (identical to KC443561) is ignored but added at the end
+NOTE: KC443418 (identical to KC443141) is ignored but added at the end
+NOTE: KC443726 (identical to KC443141) is ignored but added at the end
+NOTE: KC443704 (identical to KC443141) is ignored but added at the end
+NOTE: KC443284 (identical to KC443141) is ignored but added at the end
+NOTE: KJ751665 (identical to KJ752680) is ignored but added at the end
+NOTE: KJ752504 (identical to KJ752680) is ignored but added at the end
+NOTE: KJ752212 (identical to KJ752680) is ignored but added at the end
+NOTE: KJ751808 (identical to KJ752680) is ignored but added at the end
+NOTE: KC443473 (identical to KC443273) is ignored but added at the end
+NOTE: KC443251 (identical to KC443273) is ignored but added at the end
+NOTE: KC443748 (identical to KC443273) is ignored but added at the end
+NOTE: KC443152 (identical to KC443273) is ignored but added at the end
+NOTE: KC443638 (identical to KC443273) is ignored but added at the end
+NOTE: KC443759 (identical to KC443627) is ignored but added at the end
+NOTE: KC443550 (identical to KC443262) is ignored but added at the end
+NOTE: KC443407 (identical to KC443262) is ignored but added at the end
+NOTE: KU356603 (identical to KU356625) is ignored but added at the end
+NOTE: MZ093789 (identical to MZ093767) is ignored but added at the end
+NOTE: MZ093832 (identical to MZ093767) is ignored but added at the end
+NOTE: MZ097248 (identical to MZ093767) is ignored but added at the end
+NOTE: LC173713 (identical to LC173684) is ignored but added at the end
+NOTE: MZ095165 (identical to MZ095143) is ignored but added at the end
+NOTE: MZ095187 (identical to MZ095143) is ignored but added at the end
+NOTE: MZ094061 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094122 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094188 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094199 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094231 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094242 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094269 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094313 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094366 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ094420 (identical to MZ094000) is ignored but added at the end
+NOTE: MZ096063 (identical to MZ095997) is ignored but added at the end
+NOTE: MZ096118 (identical to MZ095997) is ignored but added at the end
+NOTE: MZ096911 (identical to MZ095997) is ignored but added at the end
+NOTE: MZ096085 (identical to MZ096019) is ignored but added at the end
+NOTE: MZ096933 (identical to MZ096019) is ignored but added at the end
+NOTE: MZ096151 (identical to MZ096096) is ignored but added at the end
+NOTE: MZ096944 (identical to MZ096096) is ignored but added at the end
+NOTE: MZ096922 (identical to MZ096107) is ignored but added at the end
+NOTE: MG181927 (identical to MG181839) is ignored but added at the end
+NOTE: MG181697 (identical to MG181619) is ignored but added at the end
+NOTE: MG181707 (identical to MG181619) is ignored but added at the end
+NOTE: MG181718 (identical to MG181619) is ignored but added at the end
+NOTE: MG181741 (identical to MG181619) is ignored but added at the end
+NOTE: LC173591 (identical to LC173589) is ignored but added at the end
+NOTE: LC173595 (identical to LC173589) is ignored but added at the end
+NOTE: LC173596 (identical to LC173589) is ignored but added at the end
+NOTE: LC173608 (identical to LC173589) is ignored but added at the end
+NOTE: LC173609 (identical to LC173589) is ignored but added at the end
+NOTE: LC173611 (identical to LC173589) is ignored but added at the end
+NOTE: LC173618 (identical to LC173589) is ignored but added at the end
+NOTE: LC173626 (identical to LC173589) is ignored but added at the end
+NOTE: LC173630 (identical to LC173589) is ignored but added at the end
+NOTE: LC173632 (identical to LC173589) is ignored but added at the end
+NOTE: LC173634 (identical to LC173589) is ignored but added at the end
+NOTE: LC173635 (identical to LC173589) is ignored but added at the end
+NOTE: LC173637 (identical to LC173589) is ignored but added at the end
+NOTE: LC173645 (identical to LC173589) is ignored but added at the end
+NOTE: LC173755 (identical to LC173589) is ignored but added at the end
+NOTE: LC173759 (identical to LC173589) is ignored but added at the end
+NOTE: LC173760 (identical to LC173589) is ignored but added at the end
+NOTE: LC173638 (identical to LC173589) is ignored but added at the end
+NOTE: LC173652 (identical to LC173589) is ignored but added at the end
+NOTE: LC173653 (identical to LC173589) is ignored but added at the end
+NOTE: LC173657 (identical to LC173589) is ignored but added at the end
+NOTE: LC173658 (identical to LC173589) is ignored but added at the end
+NOTE: LC173659 (identical to LC173589) is ignored but added at the end
+NOTE: LC173663 (identical to LC173589) is ignored but added at the end
+NOTE: LC173664 (identical to LC173589) is ignored but added at the end
+NOTE: LC173673 (identical to LC173589) is ignored but added at the end
+NOTE: LC173679 (identical to LC173589) is ignored but added at the end
+NOTE: LC173722 (identical to LC173589) is ignored but added at the end
+NOTE: LC173725 (identical to LC173589) is ignored but added at the end
+NOTE: LC173730 (identical to LC173589) is ignored but added at the end
+NOTE: LC173731 (identical to LC173589) is ignored but added at the end
+NOTE: LC173734 (identical to LC173589) is ignored but added at the end
+NOTE: LC465259 (identical to LC173589) is ignored but added at the end
+NOTE: LC173640 (identical to LC173621) is ignored but added at the end
+NOTE: LC173667 (identical to LC173639) is ignored but added at the end
+NOTE: LC173655 (identical to LC173607) is ignored but added at the end
+NOTE: LC173727 (identical to LC173615) is ignored but added at the end
+NOTE: LC173631 (identical to LC173617) is ignored but added at the end
+NOTE: LC173636 (identical to LC173617) is ignored but added at the end
+NOTE: LC173758 (identical to LC173617) is ignored but added at the end
+NOTE: LC173661 (identical to LC173617) is ignored but added at the end
+NOTE: LC173677 (identical to LC173617) is ignored but added at the end
+NOTE: LC173711 (identical to LC173617) is ignored but added at the end
+NOTE: LC173715 (identical to LC173617) is ignored but added at the end
+NOTE: LC173723 (identical to LC173617) is ignored but added at the end
+NOTE: AB975849 (identical to AB975850) is ignored but added at the end
+NOTE: AB975839 (identical to AB975850) is ignored but added at the end
+NOTE: AB975824 (identical to AB975850) is ignored but added at the end
+NOTE: AB975828 (identical to AB975850) is ignored but added at the end
+NOTE: AB975829 (identical to AB975850) is ignored but added at the end
+NOTE: AB975823 (identical to AB975850) is ignored but added at the end
+NOTE: AB975847 (identical to AB975850) is ignored but added at the end
+NOTE: AB975866 (identical to AB975859) is ignored but added at the end
+NOTE: AB975856 (identical to AB975859) is ignored but added at the end
+NOTE: AB975869 (identical to AB975859) is ignored but added at the end
+NOTE: AB975865 (identical to AB975859) is ignored but added at the end
+NOTE: AB975863 (identical to AB975859) is ignored but added at the end
+NOTE: AB975871 (identical to AB975859) is ignored but added at the end
+NOTE: AB975872 (identical to AB975859) is ignored but added at the end
+NOTE: AB975837 (identical to AB975844) is ignored but added at the end
+NOTE: AB975840 (identical to AB975845) is ignored but added at the end
+NOTE: AB975831 (identical to AB975845) is ignored but added at the end
+NOTE: AB975858 (identical to AB975864) is ignored but added at the end
+NOTE: LC465281 (identical to LC465248) is ignored but added at the end
+NOTE: LC542532 (identical to LC542356) is ignored but added at the end
+NOTE: LC542587 (identical to LC542422) is ignored but added at the end
+NOTE: KC443715 (identical to KC443605) is ignored but added at the end
+NOTE: MZ094166 (identical to MZ094083) is ignored but added at the end
+NOTE: MZ094105 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094133 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094177 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094210 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094221 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094291 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094302 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094324 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094355 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ094377 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ093925 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ093957 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ093967 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ097164 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ097197 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ097207 (identical to MZ094072) is ignored but added at the end
+NOTE: MZ097218 (identical to MZ094072) is ignored but added at the end
+NOTE: JX891387 (identical to JX891385) is ignored but added at the end
+Alignment was printed to results/aligned_rotavirusA_N_N2-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_rotavirusA_N_N2-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.015 seconds
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -91206.883
+2. Current log-likelihood: -78269.082
+3. Current log-likelihood: -78175.052
+4. Current log-likelihood: -78167.994
+5. Current log-likelihood: -78167.096
+Optimal log-likelihood: -78166.750
+Rate parameters:  A-C: 2.00243  A-G: 14.65698  A-T: 0.62319  C-G: 0.98453  C-T: 16.94428  G-T: 1.00000
+Base frequencies:  A: 0.357  C: 0.155  G: 0.198  T: 0.290
+Parameters optimization took 5 rounds (1.994 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.673533 secs using 99.54% CPU
+Computing ML distances took 0.676550 sec (of wall-clock time) 0.672320 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00756001 secs using 186.6% CPU
+Constructing RapidNJ tree: done in 0.013396 secs using 180.8% CPU
+Computing RapidNJ tree took 0.021055 sec (of wall-clock time) 0.038380 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -17593.724
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.679596 secs using 99.91% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -17463.595
+Optimizing NNI: done in 7.67725 secs using 99.98% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -17463.595 / CPU time: 8.916
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:12s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -17463.595
+Optimal log-likelihood: -17463.591
+Rate parameters:  A-C: 2.04126  A-G: 9.14249  A-T: 0.73539  C-G: 1.20469  C-T: 13.39029  G-T: 1.00000
+Base frequencies:  A: 0.357  C: 0.155  G: 0.198  T: 0.290
+Parameters optimization took 1 rounds (0.135 sec)
+BEST SCORE FOUND : -17463.591
+Total tree length: 2.681
+
+Total number of iterations: 2
+CPU time used for tree search: 8.913 sec (0h:0m:8s)
+Wall-clock time used for tree search: 8.918 sec (0h:0m:8s)
+Total CPU time used: 12.398 sec (0h:0m:12s)
+Total wall-clock time used: 12.283 sec (0h:0m:12s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_rotavirusA_N_N2-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_rotavirusA_N_N2-delim.fasta.treefile
+  Likelihood distances:          results/aligned_rotavirusA_N_N2-delim.fasta.mldist
+  Screen log file:               results/aligned_rotavirusA_N_N2-delim.fasta.log
+
+Date and Time: Fri Oct 28 15:32:04 2022
