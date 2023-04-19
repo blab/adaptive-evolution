@@ -1,0 +1,14 @@
+# Gene map (genome annotation) of RSV in GFF format.
+# For gene map purpses we only need some of the columns. We substitute unused values with "." as per GFF spec.
+# See GFF format reference at https://www.ensembl.org/info/website/upload/gff.html
+# seqname	source	feature	start	end	score	strand	frame	attribute
+.	.	gene	99	518	.	+	.	 gene_name=NS1
+.	.	gene	628	1002	.	+	.	 gene_name=NS2
+.	.	gene	1140	2315	.	+	.	 gene_name=N
+.	.	gene	2348	3073	.	+	.	 gene_name=P
+.	.	gene	3233	4003	.	+	.	 gene_name=M
+.	.	gene	4274	4468	.	+	.	 gene_name=SH
+.	.	gene	4659	5555	.	+	.	 gene_name=G
+.	.	gene	5632	7356	.	+	.	 gene_name=F
+.	.	gene	7576	8160	.	+	.	 gene_name=M2
+.	.	gene	8468	14965	.	+	.	 gene_name=L

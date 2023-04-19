@@ -1,0 +1,50 @@
+{
+  "title": "RSV phylogeny",
+  "maintainers": [
+    {"name": "Katie Kistler", "url": "http://bedford.io/team/katie-kistler/"}
+  ],
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "date",
+      "type": "continuous"
+    },
+    {
+      "key": "author",
+      "title": "author",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "country",
+      "type": "categorical"
+    },
+    {
+      "key": "G_duplication",
+      "title": "Gduplication",
+      "type": "categorical"
+    },
+    {
+      "key": "region",
+      "title": "region",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "region"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "author"
+  ]
+}

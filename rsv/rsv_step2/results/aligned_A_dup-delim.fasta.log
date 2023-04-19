@@ -1,0 +1,690 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_A_dup-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    725139 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Apr  6 10:40:45 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_A_dup-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.149184 secs using 88.76% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.1586 secs using 43.47% CPU
+Alignment has 552 sequences with 15277 columns, 4206 distinct patterns
+3035 parsimony-informative, 1520 singleton sites, 10722 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.010936 secs using 55.55% CPU
+   1  KM042386    0.68%    passed     99.94%
+   2  KJ627264    0.68%    passed     99.46%
+   3  KM042391    0.80%    passed     99.40%
+   4  KJ672465    0.68%    passed     99.33%
+   5  KJ672441    0.68%    passed     99.76%
+   6  KJ672467    0.69%    passed     99.97%
+   7  KJ672469    0.68%    passed     99.68%
+   8  KJ672470    0.68%    passed     99.95%
+   9  KJ672428    0.69%    passed     99.89%
+  10  KC731482    0.30%    passed     99.87%
+  11  KJ672433    0.68%    passed     99.82%
+  12  KJ672466    0.68%    passed     99.95%
+  13  KT285064    0.09%    passed     98.12%
+  14  KU950531    0.37%    passed     99.96%
+  15  KJ672448    0.69%    passed     99.97%
+  16  JX627336    0.01%    passed     99.91%
+  17  KJ672452    0.68%    passed     99.89%
+  18  KJ672475    0.68%    passed     99.94%
+  19  KJ672464    0.68%    passed     99.97%
+  20  KU950505    0.29%    passed     99.85%
+  21  KJ672432    0.69%    passed     99.98%
+  22  KJ672446    0.69%    passed     99.87%
+  23  KJ672424    0.68%    passed     99.94%
+  24  KJ672444    0.69%    passed     99.94%
+  25  KJ672458    0.69%    passed     99.71%
+  26  KJ672449    0.68%    passed     99.74%
+  27  KJ672429    0.69%    passed     99.92%
+  28  KJ672471    0.69%    passed     99.97%
+  29  KJ672437    0.69%    passed     99.17%
+  30  KJ672454    0.69%    passed     99.92%
+  31  KJ672461    0.68%    passed     99.94%
+  32  KJ672442    0.69%    passed     99.90%
+  33  KJ672472    0.68%    passed     99.70%
+  34  KM042390    0.69%    passed     99.73%
+  35  KM042384    0.69%    passed     99.86%
+  36  KM042388    0.68%    passed     99.61%
+  37  KJ672440    0.69%    passed     99.94%
+  38  KJ672457    0.69%    passed     99.16%
+  39  KJ672468    0.69%    passed     99.96%
+  40  KM042392    0.68%    passed     99.78%
+  41  KJ672480    0.82%    passed     99.97%
+  42  KM042383    0.68%    passed     99.91%
+  43  KM042385    0.69%    passed     99.91%
+  44  KU839637    0.68%    passed     99.87%
+  45  KM042389    0.97%    passed     99.97%
+  46  KU950590    0.29%    passed     99.79%
+  47  KU950524    0.29%    passed     99.88%
+  48  KU950557    0.34%    passed     99.81%
+  49  KU839631    0.69%    passed     99.84%
+  50  KU950683    0.29%    passed     99.87%
+  51  KU950513    1.44%    passed     97.66%
+  52  KU950567    0.29%    passed     99.86%
+  53  KU950506    0.49%    passed     99.85%
+  54  KU950636    0.30%    passed     99.88%
+  55  KU950628    0.37%    passed     99.66%
+  56  KU950644    1.23%    passed     99.31%
+  57  KU950643    0.31%    passed     99.91%
+  58  KU839630    0.69%    passed     99.87%
+  59  KU950485    0.30%    passed     99.90%
+  60  KU950654    0.29%    passed     99.98%
+  61  KU950698    0.29%    passed     99.80%
+  62  KU950475    0.29%    passed    100.00%
+  63  KU950491    1.73%    passed     99.64%
+  64  KU950518    0.31%    passed     99.74%
+  65  KU950642    0.37%    passed     99.69%
+  66  KU950472    1.06%    passed     99.84%
+  67  KU950464    0.29%    passed     99.74%
+  68  KU950696    0.29%    passed     99.99%
+  69  KU950474    0.29%    passed     99.91%
+  70  KU950511    0.28%    passed     99.92%
+  71  KU950519    0.31%    passed     99.84%
+  72  KU950677    0.29%    passed    100.00%
+  73  KU950666    1.41%    passed     99.20%
+  74  KU950483    0.39%    passed     99.95%
+  75  KU950615    0.35%    passed     99.84%
+  76  KU950655    0.29%    passed     99.57%
+  77  KU950456    0.30%    passed     99.80%
+  78  KU950499    1.49%    passed     97.02%
+  79  KU950480    0.31%    passed     99.99%
+  80  KU839639    0.69%    passed     99.77%
+  81  KU950680    0.34%    passed     99.90%
+  82  KU950540    0.34%    passed    100.00%
+  83  KU950617    0.40%    passed     99.98%
+  84  KU950651    0.29%    passed     99.79%
+  85  KU950670    0.62%    passed     98.70%
+  86  KU950671    0.43%    passed     99.99%
+  87  KU950493    0.39%    passed     99.99%
+  88  KU950639    0.29%    passed     99.78%
+  89  KU950627    0.32%    passed     99.83%
+  90  KU839624    0.69%    passed     99.78%
+  91  KU950585    0.39%    passed     99.75%
+  92  KU950523    0.34%    passed     99.98%
+  93  KU950455    0.39%    passed     99.87%
+  94  KU950560    1.20%    passed     99.08%
+  95  KU950521    0.41%    passed     99.93%
+  96  KU950694    0.37%    passed     99.96%
+  97  KU950608    1.45%    passed     98.41%
+  98  KU950486    0.30%    passed     99.80%
+  99  KU950664    0.32%    passed     99.67%
+ 100  KU950685    0.31%    passed     99.99%
+ 101  KU950673    0.43%    passed     99.78%
+ 102  KU950686    0.30%    passed     99.92%
+ 103  KU950544    0.29%    passed     99.73%
+ 104  KU950556    0.73%    passed     99.96%
+ 105  KU950520    0.66%    passed     99.80%
+ 106  KU950509    0.28%    passed     99.92%
+ 107  KU950623    0.29%    passed     99.80%
+ 108  KU839626    0.69%    passed     99.76%
+ 109  KU950537    0.30%    passed     99.92%
+ 110  KU950692    0.31%    passed     99.53%
+ 111  KU950631    0.29%    passed     99.91%
+ 112  KU950610    0.30%    passed     99.76%
+ 113  KU950502    0.38%    passed     99.71%
+ 114  KU950550    0.31%    passed     99.96%
+ 115  KU950598    0.37%    passed     99.73%
+ 116  KU950583    0.37%    passed     99.99%
+ 117  KU950549    0.31%    passed     99.71%
+ 118  KU950470    0.38%    passed     99.73%
+ 119  KU950638    0.29%    passed     99.43%
+ 120  KU950674    0.29%    passed     99.93%
+ 121  KU950527    0.96%    passed     99.99%
+ 122  KU950650    0.29%    passed     99.80%
+ 123  MN306045    0.64%    passed     99.76%
+ 124  MN306029    0.58%    passed    100.00%
+ 125  MN306030    1.10%    passed     95.73%
+ 126  KU950459    1.03%    passed     99.86%
+ 127  KU950581    0.30%    passed     99.78%
+ 128  KU950596    0.32%    passed     99.73%
+ 129  MN306048    0.29%    passed     99.68%
+ 130  KX655675    0.35%    passed     99.65%
+ 131  KX655626    1.75%    passed     98.31%
+ 132  MN306017    0.12%    passed     99.87%
+ 133  MN306021    1.19%    passed     99.75%
+ 134  KX655640    0.75%    passed     98.82%
+ 135  KX655644    0.38%    passed     99.86%
+ 136  MN306031    0.49%    passed     93.09%
+ 137  KX655694    1.03%    passed     95.91%
+ 138  KX765904    0.35%    passed     99.26%
+ 139  KX765886    0.35%    passed     99.96%
+ 140  KX765894    0.35%    passed     96.81%
+ 141  KX765887    0.35%    passed     99.98%
+ 142  KX765898    0.35%    passed     99.95%
+ 143  KX765911    0.35%    passed     97.60%
+ 144  KX765902    0.36%    passed     99.95%
+ 145  KX765917    0.34%    passed     99.87%
+ 146  KX765919    0.35%    passed     99.26%
+ 147  KX765914    0.35%    passed     99.99%
+ 148  KX765915    0.34%    passed     99.89%
+ 149  KX765916    0.34%    passed     99.31%
+ 150  KY982516    0.39%    passed     99.99%
+ 151  KX765925    0.34%    passed     99.39%
+ 152  KY982517    0.36%    passed     99.99%
+ 153  KX765931    0.35%    passed     97.41%
+ 154  KX765926    0.34%    passed     99.88%
+ 155  KX765936    0.35%    passed     99.26%
+ 156  KX765932    0.35%    passed     99.98%
+ 157  KX765974    0.35%    passed     99.11%
+ 158  KX765938    0.35%    passed     96.75%
+ 159  KX765971    0.35%    passed     99.37%
+ 160  KX765972    0.35%    passed     99.26%
+ 161  KX765977    0.34%    passed     99.98%
+ 162  KX765941    0.34%    passed     99.96%
+ 163  KX765950    0.35%    passed     99.99%
+ 164  KX765954    0.69%    passed     99.01%
+ 165  KX765940    0.35%    passed     98.88%
+ 166  KX765955    0.35%    passed     99.99%
+ 167  KX765939    0.35%    passed     99.26%
+ 168  KX765948    0.35%    passed     99.98%
+ 169  KX765944    0.34%    passed     99.45%
+ 170  KX765951    0.35%    passed    100.00%
+ 171  KX894797    0.68%    passed     99.70%
+ 172  KX894799    0.69%    passed     99.97%
+ 173  KX765960    0.35%    passed     98.35%
+ 174  KX765967    0.35%    passed     98.30%
+ 175  KX765956    0.35%    passed     99.98%
+ 176  KX894804    0.68%    passed     99.95%
+ 177  KX765970    0.34%    passed     99.36%
+ 178  KX894805    0.68%    passed     99.61%
+ 179  KX894806    0.69%    passed     99.97%
+ 180  KY883567    0.75%    passed     99.66%
+ 181  KY883566    0.39%    passed     99.91%
+ 182  MK749886    1.19%    passed     99.65%
+ 183  MK749895    1.20%    passed     99.93%
+ 184  MK749867    1.19%    passed     99.48%
+ 185  MK749893    1.19%    passed     99.47%
+ 186  KX894803    0.35%    passed     99.97%
+ 187  MF614946    0.30%    passed     99.59%
+ 188  MK749884    1.19%    passed     99.83%
+ 189  MH447952    1.09%    passed     98.57%
+ 190  MH447951    0.38%    passed     99.99%
+ 191  MH290724    0.36%    passed     99.99%
+ 192  MK749890    1.20%    passed     99.77%
+ 193  MF614947    0.27%    passed     99.74%
+ 194  MH447957    0.45%    passed     99.91%
+ 195  MH447956    0.37%    passed     99.74%
+ 196  MH447954    0.40%    passed     99.97%
+ 197  MH447959    0.37%    passed     99.60%
+ 198  LC474557    0.31%    passed     98.95%
+ 199  LC474556    0.32%    passed     99.76%
+ 200  LC474558    0.31%    passed     99.45%
+ 201  MH447953    0.46%    passed     99.97%
+ 202  MH447958    0.43%    passed     99.97%
+ 203  MK749913    1.13%    passed     99.87%
+ 204  MH447960    0.37%    passed     99.92%
+ 205  MH447955    0.35%    passed     99.61%
+ 206  MG793382    0.29%    passed    100.00%
+ 207  MK749911    1.21%    passed     99.94%
+ 208  MG839543    0.41%    passed    100.00%
+ 209  MN630089    0.49%    passed     99.22%
+ 210  MN630098    1.23%    passed     99.37%
+ 211  MK749909    1.19%    passed     99.96%
+ 212  MK749912    1.20%    passed     99.43%
+ 213  MN630101    2.79%    passed     83.72%
+ 214  MN630102    1.64%    passed     96.58%
+ 215  MK749917    1.19%    passed     99.89%
+ 216  MN630088    0.58%    passed     99.51%
+ 217  MN630090    0.67%    passed     99.85%
+ 218  MN630105    2.07%    passed     94.09%
+ 219  MN630093    0.66%    passed     99.79%
+ 220  MN630096    0.89%    passed     99.76%
+ 221  MN630099    0.62%    passed     99.52%
+ 222  MG813978    1.30%    passed     97.68%
+ 223  MG813982    1.60%    passed     98.65%
+ 224  MN630100    0.27%    passed     99.91%
+ 225  MN630104    0.25%    passed     99.69%
+ 226  MG813980    1.30%    passed     99.52%
+ 227  MG813977    1.32%    passed     98.81%
+ 228  MN630103    2.93%    passed     94.21%
+ 229  MG813987    1.77%    passed     97.54%
+ 230  MG813979    1.30%    passed     97.68%
+ 231  MG813981    1.30%    passed     99.52%
+ 232  MG813984    1.29%    passed     99.70%
+ 233  MG813985    1.29%    passed     99.70%
+ 234  MG813983    1.30%    passed     99.31%
+ 235  MG813988    1.32%    passed     99.58%
+ 236  MG813986    1.57%    passed     99.51%
+ 237  MG813990    1.29%    passed     99.61%
+ 238  MG813991    1.29%    passed     99.61%
+ 239  MT422270    2.08%    passed     99.53%
+ 240  MG813992    1.33%    passed     98.96%
+ 241  MG813993    1.30%    passed     98.59%
+ 242  MW020596    0.45%    passed     99.99%
+ 243  MW020597    0.46%    passed     99.97%
+ 244  MN531557    2.45%    passed     97.09%
+ 245  MN630106    0.77%    passed     99.88%
+ 246  MW020598    0.46%    passed     99.99%
+ 247  LC530050    0.29%    passed    100.00%
+ 248  MW020599    0.44%    passed     99.97%
+ 249  MT422269    2.26%    passed     98.54%
+ 250  MT422272    2.08%    passed     94.89%
+ 251  MT422271    2.08%    passed     94.89%
+ 252  MT422273    2.12%    passed     95.29%
+ 253  MW033958    0.07%    passed     99.87%
+ 254  MW160747    0.39%    passed     99.86%
+ 255  MW582528    0.00%    passed     99.80%
+ 256  MW160753    0.40%    passed     97.00%
+ 257  MW160749    0.39%    passed     99.93%
+ 258  MW160762    0.39%    passed     98.76%
+ 259  MT506703    0.87%    passed     99.62%
+ 260  MW160754    0.43%    passed     99.98%
+ 261  MW160758    0.39%    passed     99.93%
+ 262  MW160759    0.43%    passed     99.99%
+ 263  MW160756    0.39%    passed     99.89%
+ 264  MW160766    0.39%    passed     99.75%
+ 265  MW160764    0.63%    passed     99.82%
+ 266  MW160761    0.39%    passed     99.92%
+ 267  MW160767    0.40%    passed     99.95%
+ 268  MW160778    1.45%    passed     99.37%
+ 269  MW160768    0.39%    passed     99.70%
+ 270  MW160782    1.34%    passed     99.86%
+ 271  MW160783    0.39%    passed     99.70%
+ 272  MW160772    0.39%    passed     99.96%
+ 273  MW160771    0.49%    passed     99.87%
+ 274  MW160773    0.39%    passed     99.63%
+ 275  MW160774    0.39%    passed     97.72%
+ 276  MW160779    0.62%    passed     99.83%
+ 277  MW160776    0.39%    passed     99.48%
+ 278  MW160785    0.39%    passed     97.41%
+ 279  MW160795    0.39%    passed     99.30%
+ 280  MW160787    0.39%    passed     99.92%
+ 281  MW160820    1.43%    passed     92.97%
+ 282  MW160797    0.39%    passed     99.97%
+ 283  MW160801    0.39%    passed     99.76%
+ 284  MW160803    0.39%    passed     99.97%
+ 285  MW160799    0.39%    passed     99.91%
+ 286  MW160809    0.40%    passed     99.50%
+ 287  MW160819    0.39%    passed     95.43%
+ 288  MW160807    0.40%    passed     99.99%
+ 289  MW160824    0.39%    passed     99.87%
+ 290  MW160822    0.39%    passed     99.92%
+ 291  MW160825    0.39%    passed     99.96%
+ 292  MW160830    0.39%    passed     99.82%
+ 293  MW160827    0.43%    passed     99.77%
+ 294  MW160828    0.41%    passed     99.90%
+ 295  MZ515645    0.01%    passed     99.58%
+ 296  MZ515643    0.01%    passed     99.85%
+ 297  MZ515646    0.08%    passed     99.93%
+ 298  MZ515647    0.00%    passed     99.35%
+ 299  MZ515649    0.01%    passed     99.91%
+ 300  MZ515652    0.03%    passed     99.90%
+ 301  MZ515650    0.00%    passed     98.47%
+ 302  MZ515651    0.01%    passed     99.37%
+ 303  MZ515679    0.00%    passed     99.38%
+ 304  MZ515655    0.00%    passed     98.47%
+ 305  MZ515666    0.01%    passed     99.96%
+ 306  MZ515668    0.00%    passed     99.86%
+ 307  MZ515687    0.01%    passed     99.80%
+ 308  MZ515685    0.01%    passed     99.92%
+ 309  MZ515681    0.01%    passed     99.68%
+ 310  MZ515682    0.01%    passed     99.99%
+ 311  MZ515680    0.01%    passed     99.85%
+ 312  MZ515688    0.03%    passed     98.93%
+ 313  MZ515689    0.01%    passed     99.94%
+ 314  MZ515690    0.12%    passed     99.31%
+ 315  MZ516055    0.02%    passed     99.97%
+ 316  MZ516057    0.03%    passed     98.91%
+ 317  MZ515692    0.01%    passed     99.84%
+ 318  MZ516058    0.03%    passed     99.99%
+ 319  MZ516053    0.03%    passed     99.64%
+ 320  MZ516063    0.00%    passed     99.27%
+ 321  MZ516066    0.02%    passed     99.90%
+ 322  MZ516068    0.01%    passed     99.83%
+ 323  MZ516067    0.00%    passed     99.27%
+ 324  MZ516071    0.04%    passed     99.16%
+ 325  MZ516075    0.02%    passed     99.39%
+ 326  MZ516072    0.00%    passed     98.73%
+ 327  MZ516073    0.01%    passed     99.98%
+ 328  MZ516074    0.01%    passed     99.92%
+ 329  MZ516076    0.00%    passed     99.99%
+ 330  MZ516080    0.01%    passed     99.64%
+ 331  MZ516077    0.02%    passed     98.91%
+ 332  MZ516096    0.54%    passed     99.65%
+ 333  MZ516090    0.01%    passed     98.98%
+ 334  MZ516097    0.36%    passed     99.23%
+ 335  MZ516086    0.01%    passed     99.65%
+ 336  MZ516087    0.03%    passed     99.81%
+ 337  MZ516092    0.00%    passed     99.99%
+ 338  MZ516088    0.03%    passed     99.51%
+ 339  MZ516093    0.03%    passed     99.93%
+ 340  MZ516110    0.03%    passed     99.35%
+ 341  MZ516117    0.10%    passed     99.30%
+ 342  MZ516100    0.01%    passed     99.96%
+ 343  MZ516108    0.04%    passed     99.86%
+ 344  MZ516103    0.09%    passed     99.60%
+ 345  MZ516111    0.01%    passed     99.84%
+ 346  MZ516112    0.00%    passed     98.30%
+ 347  MZ516118    0.03%    passed    100.00%
+ 348  MZ516134    0.01%    passed     99.98%
+ 349  MZ516120    0.01%    passed     99.31%
+ 350  MZ516129    0.03%    passed     98.89%
+ 351  MZ516132    0.03%    passed     99.63%
+ 352  MZ516005    1.49%    passed     99.83%
+ 353  MZ515998    0.10%    passed    100.00%
+ 354  MZ515999    0.54%    passed     99.62%
+ 355  MZ516137    0.01%    passed     99.98%
+ 356  MZ516130    0.05%    passed     99.86%
+ 357  MZ516002    0.01%    passed     99.88%
+ 358  MZ516000    0.03%    passed     99.23%
+ 359  MZ516007    0.05%    passed     99.17%
+ 360  MZ516004    5.48%    passed     77.60%
+ 361  MZ516019    1.55%    passed     99.38%
+ 362  MZ516008    0.01%    passed     99.05%
+ 363  MZ516010    0.36%    passed     99.26%
+ 364  MZ516011    0.01%    passed     99.03%
+ 365  MZ516012    0.03%    passed     99.08%
+ 366  MZ516014    0.01%    passed     99.31%
+ 367  MZ516026    0.02%    passed     99.86%
+ 368  MZ516015    0.01%    passed     99.99%
+ 369  MZ516017    0.01%    passed     99.65%
+ 370  MZ516024    0.01%    passed     99.98%
+ 371  MZ516027    0.00%    passed     99.28%
+ 372  MZ516023    0.01%    passed     99.98%
+ 373  MZ516028    0.03%    passed     99.19%
+ 374  MZ516029    0.01%    passed     98.85%
+ 375  MZ516033    0.01%    passed     99.35%
+ 376  MZ516038    0.01%    passed     99.50%
+ 377  MZ516039    0.00%    passed     99.96%
+ 378  MZ516031    0.04%    passed     99.16%
+ 379  MZ516040    0.03%    passed     99.79%
+ 380  MZ516043    0.02%    passed     99.78%
+ 381  MZ516044    0.02%    passed     99.86%
+ 382  MZ515555    0.00%    passed     99.69%
+ 383  MZ516047    0.02%    passed     99.90%
+ 384  MZ516052    0.02%    passed     99.89%
+ 385  MZ515559    0.03%    passed     99.95%
+ 386  MZ515567    0.03%    passed     98.90%
+ 387  MZ515568    0.01%    passed     99.93%
+ 388  MZ515566    0.00%    passed     97.12%
+ 389  MZ515569    0.02%    passed     99.66%
+ 390  MZ515564    0.39%    passed     99.91%
+ 391  MZ515571    0.01%    passed     99.38%
+ 392  MZ515570    0.04%    passed     99.87%
+ 393  MZ515573    0.01%    passed     98.76%
+ 394  MZ515572    0.37%    passed     99.75%
+ 395  MZ515576    0.03%    passed     99.88%
+ 396  MZ515575    0.02%    passed     99.54%
+ 397  MZ515593    0.58%    passed     99.87%
+ 398  MZ515580    0.03%    passed     99.51%
+ 399  MZ515585    0.02%    passed     99.39%
+ 400  MZ515583    0.01%    passed     98.51%
+ 401  MZ515579    0.04%    passed     99.48%
+ 402  MZ515592    0.01%    passed     99.99%
+ 403  MZ515597    0.03%    passed     99.98%
+ 404  MZ515588    0.08%    passed     99.90%
+ 405  MZ515609    0.02%    passed     99.88%
+ 406  MZ515600    0.02%    passed     99.96%
+ 407  MZ515614    0.01%    passed     99.42%
+ 408  MZ515606    0.07%    passed     99.49%
+ 409  MZ515617    0.00%    passed     99.27%
+ 410  MZ515616    0.01%    passed     99.99%
+ 411  MZ515619    0.00%    passed     99.73%
+ 412  MZ515620    0.02%    passed     99.96%
+ 413  MZ515626    0.47%    passed     99.86%
+ 414  MZ515623    0.01%    passed     99.99%
+ 415  MZ515633    0.02%    passed     99.94%
+ 416  MZ515629    0.26%    passed     99.80%
+ 417  MZ515631    0.01%    passed     99.73%
+ 418  MZ515634    0.00%    passed     99.29%
+ 419  MZ515628    0.01%    passed     99.97%
+ 420  MZ515632    0.03%    passed     99.37%
+ 421  MZ515641    0.03%    passed     99.94%
+ 422  MZ515640    0.01%    passed     98.84%
+ 423  MZ515695    0.05%    passed     99.92%
+ 424  MZ515696    0.01%    passed     99.61%
+ 425  MZ515693    0.01%    passed     99.96%
+ 426  MZ515701    0.03%    passed     99.56%
+ 427  MZ515706    0.01%    passed     99.38%
+ 428  MZ515703    0.03%    passed     98.53%
+ 429  MZ515700    0.01%    passed     99.93%
+ 430  MZ515709    0.03%    passed     99.45%
+ 431  MZ515717    0.01%    passed     99.99%
+ 432  MZ515720    0.03%    passed     99.45%
+ 433  MZ515718    0.03%    passed     98.67%
+ 434  MZ515735    0.00%    passed     99.95%
+ 435  MZ515723    0.00%    passed     99.68%
+ 436  MZ515731    0.03%    passed     99.53%
+ 437  MZ515734    3.12%    passed     98.21%
+ 438  MZ515740    0.02%    passed     98.53%
+ 439  MZ515737    0.16%    passed     99.54%
+ 440  MZ515744    0.01%    passed     99.67%
+ 441  MZ515749    0.03%    passed     98.40%
+ 442  MZ515768    1.17%    passed     99.71%
+ 443  MZ515758    0.04%    passed     99.93%
+ 444  MZ515755    0.03%    passed     99.94%
+ 445  MZ515752    0.00%    passed     99.81%
+ 446  MZ515766    0.03%    passed     99.52%
+ 447  MZ515760    1.34%    passed     99.27%
+ 448  MZ515772    0.03%    passed     99.97%
+ 449  MZ515777    0.01%    passed     99.63%
+ 450  MZ515781    0.02%    passed     99.94%
+ 451  MZ515773    0.01%    passed     99.32%
+ 452  MZ515782    0.01%    passed     98.59%
+ 453  MZ515784    0.01%    passed     99.80%
+ 454  MZ515780    0.01%    passed     99.97%
+ 455  MZ515789    0.03%    passed    100.00%
+ 456  MZ515790    0.01%    passed     99.96%
+ 457  MZ515800    0.01%    passed     99.90%
+ 458  MZ515795    1.11%    passed     99.85%
+ 459  MZ515801    0.01%    passed     99.55%
+ 460  MZ515797    0.22%    passed     99.92%
+ 461  MZ515802    0.04%    passed     99.75%
+ 462  MZ515803    0.01%    passed     99.85%
+ 463  MZ515825    0.03%    passed     99.84%
+ 464  MZ515804    0.00%    passed     99.95%
+ 465  MZ515811    0.01%    passed     99.80%
+ 466  MZ515819    0.00%    passed     99.99%
+ 467  MZ515821    0.07%    passed     99.31%
+ 468  MZ515828    0.00%    passed     99.48%
+ 469  MZ515814    0.03%    passed     99.88%
+ 470  MZ515833    0.03%    passed     99.04%
+ 471  MZ515842    0.01%    passed     98.03%
+ 472  MZ515851    0.00%    passed     99.92%
+ 473  MZ515835    0.03%    passed     99.64%
+ 474  MZ515841    0.01%    passed     97.78%
+ 475  MZ515834    0.01%    passed     99.98%
+ 476  MZ515840    0.02%    passed     99.83%
+ 477  MZ515848    0.01%    passed     99.98%
+ 478  MZ515852    0.02%    passed     99.99%
+ 479  MZ515847    0.01%    passed     99.96%
+ 480  MZ515850    0.02%    passed     99.33%
+ 481  MZ515859    0.03%    passed     99.59%
+ 482  MZ515853    0.00%    passed     99.99%
+ 483  MZ515860    0.01%    passed     98.74%
+ 484  MZ515861    0.21%    passed     99.98%
+ 485  MZ515854    0.00%    passed     99.52%
+ 486  MZ515864    0.01%    passed     99.99%
+ 487  MZ515878    0.94%    passed     98.95%
+ 488  MZ515866    0.05%    passed     99.84%
+ 489  MZ515870    0.02%    passed     99.99%
+ 490  MZ515862    0.05%    passed     99.97%
+ 491  MZ515877    0.01%    passed     99.44%
+ 492  MZ515873    0.02%    passed     99.39%
+ 493  MZ515880    0.03%    passed     99.89%
+ 494  MZ515882    0.00%    passed     99.61%
+ 495  MZ515884    0.01%    passed     99.98%
+ 496  MZ515891    0.00%    passed     99.99%
+ 497  MZ515888    2.22%    passed     99.79%
+ 498  MZ515901    0.00%    passed     99.64%
+ 499  MZ515887    0.00%    passed     99.87%
+ 500  MZ515898    0.03%    passed     99.43%
+ 501  MZ515907    0.01%    passed     99.68%
+ 502  MZ515902    0.02%    passed     99.90%
+ 503  MZ515905    0.03%    passed     99.53%
+ 504  MZ515909    0.03%    passed     99.50%
+ 505  MZ515910    0.00%    passed     99.53%
+ 506  MZ515908    0.03%    passed     99.94%
+ 507  MZ515913    0.03%    passed     98.83%
+ 508  MZ515911    0.01%    passed     99.68%
+ 509  MZ515922    0.00%    passed     99.99%
+ 510  MZ515921    0.03%    passed     99.34%
+ 511  MZ515923    0.00%    passed     99.44%
+ 512  MZ515927    0.00%    passed     99.99%
+ 513  MZ515928    0.00%    passed     99.60%
+ 514  MZ515929    0.01%    passed     99.89%
+ 515  MZ515933    0.01%    passed     99.96%
+ 516  MZ515931    0.02%    passed     99.91%
+ 517  MZ515939    0.05%    passed     99.90%
+ 518  MZ515954    0.00%    passed     99.27%
+ 519  MZ515942    0.00%    passed     99.86%
+ 520  MZ515948    0.03%    passed     99.17%
+ 521  MZ515941    0.01%    passed     99.74%
+ 522  MZ515940    0.01%    passed     98.84%
+ 523  MZ515945    0.04%    passed     99.81%
+ 524  MZ515956    0.02%    passed     99.90%
+ 525  MZ515943    0.04%    passed     99.48%
+ 526  MZ515951    0.01%    passed     99.87%
+ 527  MZ515962    0.02%    passed     99.94%
+ 528  MZ515957    0.24%    passed     99.98%
+ 529  MZ515961    0.01%    passed     98.90%
+ 530  MZ515963    0.01%    passed     99.84%
+ 531  MZ515967    0.02%    passed     99.95%
+ 532  MZ515959    0.02%    passed     99.96%
+ 533  MZ515964    0.00%    passed     99.35%
+ 534  MZ515966    0.01%    passed     99.87%
+ 535  MZ515969    0.01%    passed     99.76%
+ 536  MZ515986    0.01%    passed     98.85%
+ 537  MZ515980    0.43%    passed     99.97%
+ 538  MZ515985    0.03%    passed     99.21%
+ 539  MZ515971    0.01%    passed     99.99%
+ 540  MZ515993    0.01%    passed     99.96%
+ 541  MZ515973    0.03%    passed     99.97%
+ 542  MZ515989    0.01%    passed     99.92%
+ 543  MZ515992    0.03%    passed     99.94%
+ 544  MZ515984    0.02%    passed     99.46%
+ 545  MZ151855    2.08%    passed     90.94%
+ 546  MZ515987    0.02%    passed     99.17%
+ 547  MZ151852    2.08%    passed     99.31%
+ 548  OK649682    0.23%    passed     99.93%
+ 549  MZ151854    2.08%    passed     90.94%
+ 550  OK649681    0.34%    passed     99.96%
+ 551  OK649684    0.18%    passed     99.47%
+ 552  OK649683    0.24%    passed     99.86%
+****  TOTAL       0.40%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KJ672466 is identical to KJ672470 but kept for subsequent analysis
+NOTE: KX894806 is identical to KJ672448 but kept for subsequent analysis
+NOTE: KJ672461 is identical to KJ672424 but kept for subsequent analysis
+NOTE: KJ672454 is identical to KJ672429 but kept for subsequent analysis
+NOTE: KU950537 is identical to KU950686 but kept for subsequent analysis
+NOTE: LC530050 is identical to MG793382 but kept for subsequent analysis
+NOTE: MG813979 is identical to MG813978 but kept for subsequent analysis
+NOTE: MG813981 is identical to MG813980 but kept for subsequent analysis
+NOTE: MG813985 is identical to MG813984 but kept for subsequent analysis
+NOTE: MG813991 is identical to MG813990 but kept for subsequent analysis
+NOTE: MT422271 is identical to MT422272 but kept for subsequent analysis
+NOTE: MZ515680 is identical to MZ515643 but kept for subsequent analysis
+NOTE: MZ515964 is identical to MZ515647 but kept for subsequent analysis
+NOTE: MZ515655 is identical to MZ515650 but kept for subsequent analysis
+NOTE: MZ515993 is identical to MZ515666 but kept for subsequent analysis
+NOTE: MZ515942 is identical to MZ515668 but kept for subsequent analysis
+NOTE: MZ515784 is identical to MZ515687 but kept for subsequent analysis
+NOTE: MZ516074 is identical to MZ515685 but kept for subsequent analysis
+NOTE: MZ516111 is identical to MZ515692 but kept for subsequent analysis
+NOTE: MZ516067 is identical to MZ516063 but kept for subsequent analysis
+NOTE: MZ516047 is identical to MZ516066 but kept for subsequent analysis
+NOTE: MZ516031 is identical to MZ516071 but kept for subsequent analysis
+NOTE: MZ515585 is identical to MZ516075 but kept for subsequent analysis
+NOTE: MZ516017 is identical to MZ516086 but kept for subsequent analysis
+NOTE: MZ515891 is identical to MZ516092 but kept for subsequent analysis
+NOTE: MZ515693 is identical to MZ516100 but kept for subsequent analysis
+NOTE: MZ516014 is identical to MZ516120 but kept for subsequent analysis
+NOTE: MZ515864 is identical to MZ516015 but kept for subsequent analysis
+NOTE: MZ515986 is identical to MZ516029 but kept for subsequent analysis
+NOTE: MZ515700 is identical to MZ515568 but kept for subsequent analysis
+NOTE: MZ515943 is identical to MZ515579 but kept for subsequent analysis
+NOTE: MZ515959 is identical to MZ515600 but kept for subsequent analysis
+NOTE: MZ515781 is identical to MZ515633 but kept for subsequent analysis
+NOTE: MZ515940 is identical to MZ515640 but kept for subsequent analysis
+NOTE: MZ515720 is identical to MZ515709 but kept for subsequent analysis
+NOTE: MZ515804 is identical to MZ515735 but kept for subsequent analysis
+NOTE: MZ515908 is identical to MZ515755 but kept for subsequent analysis
+NOTE: MZ515853 is identical to MZ515819 but kept for subsequent analysis
+NOTE: MZ515933 is identical to MZ515847 but kept for subsequent analysis
+NOTE: MZ151854 is identical to MZ151855 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0175042 secs using 53.24% CPU
+Identifying sites to remove: done in 0.133516 secs using 46.19% CPU
+NOTE: 9 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KX894804 (identical to KJ672470) is ignored but added at the end
+NOTE: MZ515803 (identical to MZ515643) is ignored but added at the end
+NOTE: MZ515989 (identical to MZ515685) is ignored but added at the end
+NOTE: MZ515617 (identical to MZ516063) is ignored but added at the end
+NOTE: MZ515954 (identical to MZ516063) is ignored but added at the end
+NOTE: MZ515873 (identical to MZ516075) is ignored but added at the end
+NOTE: MZ515927 (identical to MZ516092) is ignored but added at the end
+NOTE: MZ515962 (identical to MZ515633) is ignored but added at the end
+NOTE: MZ515922 (identical to MZ515819) is ignored but added at the end
+Alignment was printed to results/aligned_A_dup-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_A_dup-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+
+NOTE: 74 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -302262.045
+2. Current log-likelihood: -286910.583
+3. Current log-likelihood: -276109.092
+4. Current log-likelihood: -276091.873
+Optimal log-likelihood: -276062.541
+Rate parameters:  A-C: 2.12978  A-G: 11.49243  A-T: 1.82616  C-G: 0.07433  C-T: 21.65436  G-T: 1.00000
+Base frequencies:  A: 0.389  C: 0.177  G: 0.157  T: 0.277
+Parameters optimization took 4 rounds (16.166 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.92163 secs using 97.05% CPU
+Computing ML distances took 1.947315 sec (of wall-clock time) 1.876900 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00592113 secs using 177.9% CPU
+Constructing RapidNJ tree: done in 0.014869 secs using 178.4% CPU
+Computing RapidNJ tree took 0.021382 sec (of wall-clock time) 0.037604 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -88483.033
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 3.84013 secs using 92.97% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -88273.796
+Optimizing NNI: done in 46.9683 secs using 98.11% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -88273.796 / CPU time: 53.343
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:1m:12s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -88273.796
+Optimal log-likelihood: -88273.769
+Rate parameters:  A-C: 1.91358  A-G: 10.75160  A-T: 1.52574  C-G: 0.13421  C-T: 20.43761  G-T: 1.00000
+Base frequencies:  A: 0.389  C: 0.177  G: 0.157  T: 0.277
+Parameters optimization took 1 rounds (0.661 sec)
+BEST SCORE FOUND : -88273.769
+Total tree length: 0.560
+
+Total number of iterations: 2
+CPU time used for tree search: 52.070 sec (0h:0m:52s)
+Wall-clock time used for tree search: 53.345 sec (0h:0m:53s)
+Total CPU time used: 71.285 sec (0h:1m:11s)
+Total wall-clock time used: 73.424 sec (0h:1m:13s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_A_dup-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_A_dup-delim.fasta.treefile
+  Likelihood distances:          results/aligned_A_dup-delim.fasta.mldist
+  Screen log file:               results/aligned_A_dup-delim.fasta.log
+
+Date and Time: Wed Apr  6 10:42:00 2022

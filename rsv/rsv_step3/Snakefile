@@ -1,0 +1,178 @@
+SUBTYPE = ['A','B']
+
+rule all:
+    input:
+        auspice_json = expand("auspice/rsv_{subtype}.json", subtype= SUBTYPE)
+
+
+rule files:
+    params:
+        input_fasta = "data/aligned_{subtype}_all.fasta",
+        #metadata is from step1
+        metadata = "data/metadata_{subtype}.tsv",
+        #insertions are from step2
+        insertions = "data/insertions_{subtype}_step2.tsv",
+        exclude_sites = "config/exclude-sites_{subtype}.txt",
+        dropped_strains = "config/dropped_strains.txt",
+        reference = "config/rsv_{subtype}_step3_reference.gb",
+        fasta_reference = "config/rsv_{subtype}_step3_reference.fasta",
+        genemap = "config/genemap_{subtype}_step3.gff",
+        auspice_config = "config/auspice_config.json",
+        description = "config/description.md"
+
+files = rules.files.params
+
+
+#start from aligned fasta
+
+rule tree:
+    message: "Building tree"
+    input:
+        alignment = files.input_fasta
+        # exclude_sites = files.exclude_sites
+        #--exclude-sites {input.exclude_sites} \
+    output:
+        tree = "results/tree_raw_{subtype}.nwk"
+    shell:
+        """
+        augur tree \
+            --alignment {input.alignment} \
+            --output {output.tree}
+        """
+
+rule refine:
+    message:
+        """
+        Refining tree
+          - estimate timetree
+          - use {params.coalescent} coalescent timescale
+          - estimate {params.date_inference} node dates
+          - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
+        """
+    input:
+        tree = rules.tree.output.tree,
+        alignment = files.input_fasta,
+        metadata = files.metadata
+    output:
+        tree = "results/tree_{subtype}.nwk",
+        node_data = "results/branch_lengths_{subtype}.json"
+    params:
+        coalescent = "opt",
+        date_inference = "marginal",
+        clock_filter_iqd = 4
+    shell:
+        """
+        augur refine \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --output-tree {output.tree} \
+            --output-node-data {output.node_data} \
+            --timetree \
+            --coalescent {params.coalescent} \
+            --date-confidence \
+            --date-inference {params.date_inference} \
+            --clock-filter-iqd {params.clock_filter_iqd}
+        """
+
+rule ancestral:
+    message: "Reconstructing ancestral sequences and mutations"
+    input:
+        tree = rules.refine.output.tree,
+        alignment = files.input_fasta
+    output:
+        node_data = "results/nt_muts_{subtype}.json"
+    params:
+        inference = "joint"
+    shell:
+        """
+        augur ancestral \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --output-node-data {output.node_data} \
+            --inference {params.inference}
+        """
+
+rule translate:
+    message: "Translating amino acid sequences"
+    input:
+        tree = rules.refine.output.tree,
+        node_data = rules.ancestral.output.node_data,
+        reference = files.reference
+    output:
+        node_data = "results/aa_muts_{subtype}.json"
+    shell:
+        """
+        augur translate \
+            --tree {input.tree} \
+            --ancestral-sequences {input.node_data} \
+            --reference-sequence {input.reference} \
+            --output {output.node_data} \
+        """
+
+
+rule export:
+    message: "Exporting data files for for auspice"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = files.metadata,
+        branch_lengths = rules.refine.output.node_data,
+        nt_muts = rules.ancestral.output.node_data,
+        aa_muts = rules.translate.output.node_data,
+        auspice_config = files.auspice_config,
+        description = files.description
+    output:
+        auspice_json = 'auspice/rsv_{subtype}_noinsertions.json'
+    shell:
+        """
+        export AUGUR_RECURSION_LIMIT=10000;
+        augur export v2 \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --auspice-config {input.auspice_config} \
+            --description {input.description} \
+            --include-root-sequence \
+            --output {output.auspice_json}
+        """
+
+rule infer_insertions:
+    input:
+        insertions = files.insertions,
+        tree = rules.refine.output.tree,
+        genemap = files.genemap,
+    output: "results/insertions_{subtype}.json"
+    log: "logs/infer_insertions_{subtype}.txt"
+    shell:
+        """
+        python3 scripts/reconstruct_insertions.py \
+            --insertions {input.insertions} \
+            --genemap {input.genemap} \
+            --tree {input.tree} \
+            --output {output} 2>&1 | tee {log}
+        """
+
+rule add_branch_labels:
+    message: "Adding custom branch labels to the Auspice JSON"
+    input:
+        auspice_json = rules.export.output.auspice_json,
+        insertions = rules.infer_insertions.output
+    output:
+        auspice_json = 'auspice/rsv_{subtype}.json',
+    log:
+        "logs/add_branch_labels_{subtype}.txt"
+    shell:
+        """
+        python3 scripts/add_branch_labels.py \
+            --input {input.auspice_json} \
+            --insertions {input.insertions} \
+            --output {output.auspice_json}
+        """
+
+rule clean:
+    message: "Removing directories: {params}"
+    params:
+        "results ",
+        "auspice"
+    shell:
+        "rm -rfv {params}"

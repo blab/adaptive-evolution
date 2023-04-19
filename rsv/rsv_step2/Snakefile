@@ -1,0 +1,221 @@
+SUBTYPE = ['A', 'B']
+CLADE = ['dup','other']
+
+rule all:
+    input:
+        auspice_json = expand("auspice/rsv_{subtype}_{clade}.json", subtype= SUBTYPE, clade=CLADE)
+
+
+rule files:
+    params:
+        input_fasta = "data/rsv_{subtype}_{clade}.fasta",
+        dropped_strains = "config/dropped_strains.txt",
+        reference = "config/rsv_{subtype}_step2_{clade}_reference.gb",
+        fasta_reference = "config/rsv_{subtype}_step2_{clade}_reference.fasta",
+        genemap = "config/genemap_{subtype}_step2_{clade}.gff",
+        # colors = "config/colors.tsv",
+        auspice_config = "config/auspice_config.json",
+        description = "config/description.md"
+
+files = rules.files.params
+
+
+rule parse:
+    message: "Parsing fasta into sequences and metadata"
+    input:
+        sequences = files.input_fasta
+    output:
+        sequences = "results/sequences_{subtype}_{clade}.fasta",
+        metadata = "results/metadata_{subtype}_{clade}.tsv"
+    params:
+        fasta_fields = "strain strain_name segment date host country subtype virus",
+    shell:
+        """
+        augur parse \
+            --sequences {input.sequences} \
+            --output-sequences {output.sequences} \
+            --output-metadata {output.metadata} \
+            --fields {params.fasta_fields}
+        """
+
+rule filter:
+    message:
+        """
+        Filtering to
+          - {params.sequences_per_group} sequence(s) per {params.group_by!s}
+          - excluding strains in {input.exclude}
+        """
+    input:
+        sequences = rules.parse.output.sequences,
+        metadata = rules.parse.output.metadata,
+        exclude = files.dropped_strains
+    output:
+        sequences = "results/filtered_{subtype}_{clade}.fasta"
+    params:
+        group_by = "country year",
+        sequences_per_group = 100
+    shell:
+        """
+        augur filter \
+            --sequences {input.sequences} \
+            --metadata {input.metadata} \
+            --output {output.sequences} \
+            --exclude {input.exclude} \
+            --group-by {params.group_by} \
+            --sequences-per-group {params.sequences_per_group}
+        """
+
+rule align:
+    message:
+        """
+        Aligning sequences to {input.reference}
+            - gaps relative to reference are considered real
+        """
+    input:
+        sequences = rules.filter.output.sequences,
+        reference = files.fasta_reference,
+        genemap = files.genemap
+    output:
+        alignment = "results/aligned_{subtype}_{clade}.fasta",
+        insertions = "results/insertions_{subtype}_{clade}.tsv"
+        # translations = expand("results/translations/aligned_{{subtype}}.gene.{g}.fasta", g=["N","P","M","SH","G","F","M2","L"])
+    params:
+        outdir = "results/translations/{subtype}_{clade}",
+        # genes = N,P,M,SH,G,F,M2,L,
+        basename = "nextalign"
+    log:
+        "logs/align_{subtype}_{clade}.txt"
+    benchmark:
+        "benchmarks/align_{subtype}_{clade}.txt"
+    shell:
+        """
+        nextalign \
+            --reference {input.reference} \
+            --genemap {input.genemap} \
+            --genes N,P,M,SH,G,F,M2-1,M2-2,L \
+            --sequences {input.sequences} \
+            --output-dir {params.outdir} \
+            --output-basename {params.basename} \
+            --output-fasta {output.alignment} \
+            --output-insertions {output.insertions} > {log} 2>&1
+        """
+
+
+rule tree:
+    message: "Building tree"
+    input:
+        alignment = rules.align.output.alignment
+    output:
+        tree = "results/tree_raw_{subtype}_{clade}.nwk"
+    shell:
+        """
+        augur tree \
+            --alignment {input.alignment} \
+            --output {output.tree}
+        """
+
+rule refine:
+    message:
+        """
+        Refining tree
+          - estimate timetree
+          - use {params.coalescent} coalescent timescale
+          - estimate {params.date_inference} node dates
+          - filter tips more than {params.clock_filter_iqd} IQDs from clock expectation
+        """
+    input:
+        tree = rules.tree.output.tree,
+        alignment = rules.align.output.alignment,
+        metadata = rules.parse.output.metadata
+    output:
+        tree = "results/tree_{subtype}_{clade}.nwk",
+        node_data = "results/branch_lengths_{subtype}_{clade}.json"
+    params:
+        coalescent = "opt",
+        date_inference = "marginal",
+        clock_filter_iqd = 4
+    shell:
+        """
+        augur refine \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --metadata {input.metadata} \
+            --output-tree {output.tree} \
+            --output-node-data {output.node_data} \
+            --timetree \
+            --coalescent {params.coalescent} \
+            --date-confidence \
+            --date-inference {params.date_inference} \
+            --clock-filter-iqd {params.clock_filter_iqd}
+        """
+
+rule ancestral:
+    message: "Reconstructing ancestral sequences and mutations"
+    input:
+        tree = rules.refine.output.tree,
+        alignment = rules.align.output.alignment
+    output:
+        node_data = "results/nt_muts_{subtype}_{clade}.json"
+    params:
+        inference = "joint"
+    shell:
+        """
+        augur ancestral \
+            --tree {input.tree} \
+            --alignment {input.alignment} \
+            --output-node-data {output.node_data} \
+            --inference {params.inference}
+        """
+
+rule translate:
+    message: "Translating amino acid sequences"
+    input:
+        tree = rules.refine.output.tree,
+        node_data = rules.ancestral.output.node_data,
+        reference = files.reference
+    output:
+        node_data = "results/aa_muts_{subtype}_{clade}.json"
+    shell:
+        """
+        augur translate \
+            --tree {input.tree} \
+            --ancestral-sequences {input.node_data} \
+            --reference-sequence {input.reference} \
+            --output {output.node_data} \
+        """
+
+
+rule export:
+    message: "Exporting data files for for auspice"
+    input:
+        tree = rules.refine.output.tree,
+        metadata = rules.parse.output.metadata,
+        branch_lengths = rules.refine.output.node_data,
+        nt_muts = rules.ancestral.output.node_data,
+        aa_muts = rules.translate.output.node_data,
+        # colors = files.colors,
+        auspice_config = files.auspice_config,
+        description = files.description
+    output:
+        auspice_json = 'auspice/rsv_{subtype}_{clade}.json'
+    shell:
+        """
+        export AUGUR_RECURSION_LIMIT=10000;
+        augur export v2 \
+            --tree {input.tree} \
+            --metadata {input.metadata} \
+            --node-data {input.branch_lengths} {input.nt_muts} {input.aa_muts} \
+            --auspice-config {input.auspice_config} \
+            --description {input.description} \
+            --include-root-sequence \
+            --output {output.auspice_json}
+        """
+
+
+rule clean:
+    message: "Removing directories: {params}"
+    params:
+        "results ",
+        "auspice"
+    shell:
+        "rm -rfv {params}"

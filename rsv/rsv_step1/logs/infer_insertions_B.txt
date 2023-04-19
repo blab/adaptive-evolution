@@ -1,0 +1,19 @@
+
+0.00	-TreeAnc: set-up
+
+0.25	-SequenceData: loaded alignment.
+
+0.25	-SeqData: making compressed alignment...
+
+0.27	-SequenceData: constructed compressed alignment...
+0.28	---**WARNING: Number of tips in tree (893) differs from number of sequences
+    	   in alignment (898)**
+
+0.29	-TreeAnc.infer_ancestral_sequences with method: probabilistic, joint
+
+0.29	WARNING: Previous versions of TreeTime (<0.7.0) RECONSTRUCTED sequences of
+    	tips at positions with AMBIGUOUS bases. This resulted in unexpected
+    	behavior is some cases and is no longer done by default. If you want to
+    	replace those ambiguous sites with their most likely state, rerun with
+    	`reconstruct_tip_states=True` or `--reconstruct-tip-states`.
+0.29	--TreeAnc._ml_anc_joint: type of reconstruction: Joint
