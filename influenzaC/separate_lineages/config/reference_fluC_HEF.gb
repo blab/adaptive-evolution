@@ -1,0 +1,108 @@
+LOCUS       NC_006310               2073 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Influenza C virus (C/Ann Arbor/1/50) HEF gene for
+            hemagglutinin-esterase-fusion, complete cds.
+ACCESSION   NC_006310
+VERSION     NC_006310.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Influenza C virus (C/Ann Arbor/1/50)
+  ORGANISM  Influenza C virus (C/Ann Arbor/1/50)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Gammainfluenzavirus.
+REFERENCE   1
+  AUTHORS   Muraki,Y., Washioka,H., Sugawara,K., Matsuzaki,Y., Takashita,E. and
+            Hongo,S.
+  TITLE     Identification of an amino acid residue on influenza C virus M1
+            protein responsible for formation of the cord-like structures of
+            the virus
+  JOURNAL   J. Gen. Virol. 85 (PT 7), 1885-1893 (2004)
+   PUBMED   15218173
+REFERENCE   2  (bases 1 to 2073)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2073)
+  AUTHORS   Muraki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-NOV-2003) Contact:Yasushi Muraki Department of
+            Microbiology, Kanazawa Medical University School of Medicine;
+            Uchinada, Ishikawa 920-0293, Japan E-mail
+            :ymuraki@kanazawa-med.ac.jp Phone :81-76-218-8097 Fax
+            :81-76-286-3961
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AB126194.
+            On Oct 4, 2017 this sequence version replaced NC_006310.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2073
+                     /organism="Influenza C virus (C/Ann Arbor/1/50)"
+                     /mol_type="genomic RNA"
+                     /strain="C/Ann Arbor/1/50"
+                     /db_xref="taxon:11553"
+                     /segment="4"
+     gene            22..1989
+                     /gene="HEF"
+                     /locus_tag="FLUCVs4gp1"
+                     /db_xref="GeneID:3077359"
+     CDS             22..1989
+                     /gene="HEF"
+                     /locus_tag="FLUCVs4gp1"
+                     /codon_start=1
+                     /product="hemagglutinin-esterase-fusion"
+                     /protein_id="YP_089655.1"
+                     /db_xref="GeneID:3077359"
+                     /translation="MFFSLLLMLGLTEAEKIKICLQKQVNSSFSLHNGFGGNLYATEE
+                     KRMFELVKPKAGASVLNQSTWIGFGDSRTDKSNSAFPRSADVSAKTADKFRSLSGGSL
+                     MLSMFGPPGKVDYLYQGCGKHKVFYEGVNWSPHAAINCYRKNWTDIKLNFQKNIYELA
+                     SQSHCMSLVNALDKTIPLQATAGVAKNCNNSFLKNPALYTQEVNPSVEKCGKENLAFF
+                     TLPTQFGTYECKLHLVASCYFIYDSKEVYNKRGCDNYFQVIYDSSGKVVGGLDNRVSP
+                     YTGNSGDTPTMQCDMLQLKPGRYSVRSSPRFLLMPERSYCFDMKEKGPVTAVQSIWGK
+                     GRESDHAVDQACLSTPGCMLIQKQKPYIGEADDHHGDQEMRELLSGLDYEARCISQSG
+                     WVNETSPFTEEYLLPPKFGRCPLAAKEESIPKIPDGLLIPTSGTDTTVTKPKSRIFGI
+                     DDLIIGLLFVAIVEAGIGGYLLGSRKVSGGGVTKESAEKGFEKIGNDIQILRSSTNIA
+                     IEKLNDRISHDEQAIRDLTLEIENARSEALLGELGIIRALLVGNISIGLQESLWELAS
+                     EITNRAGDLAVEVSPGCWVIDNNICDQSCQNFIFKFNETAPVPTIPPLDTKIDLQSDP
+                     FYWGSSLGLAITAAISLAALVISGIAICRTK"
+    mat_peptide		 64..1359
+    				 /product="HEF1"
+    mat_peptide		 1360..1986
+    				 /product="HEF2"
+ORIGIN      
+        1 agcagaagca ggggtttaat aatgtttttc tcattactct tgatgttggg cctcacagag
+       61 gctgaaaaaa taaagatatg ccttcaaaag caagtgaaca gtagcttcag cctacacaat
+      121 ggcttcggag gaaatttgta tgccacggaa gaaaaaagaa tgtttgagct tgttaagccc
+      181 aaagctggag cctctgtctt gaatcaaagt acatggattg gctttggaga ttcaaggact
+      241 gacaaaagca attcagcttt tcctaggtct gcggatgttt cagcaaaaac tgctgataag
+      301 tttcgttctt tgtctggtgg atccttgatg ttgagtatgt ttggaccacc tgggaaggta
+      361 gactaccttt accaaggatg tggaaaacat aaggtttttt atgaaggagt taactggagt
+      421 ccacatgctg ctataaattg ttacagaaaa aattggactg atatcaaact gaatttccag
+      481 aaaaacattt atgaactggc ttcacaatca cattgcatga gcttggtgaa tgccttggac
+      541 aaaactattc ctttacaagc gactgcaggg gttgcaaaaa attgcaacaa cagcttctta
+      601 aaaaatccag cattgtacac acaagaagtc aatccttcag tagaaaaatg tgggaaagaa
+      661 aatcttgctt tcttcacact tccaacccaa tttggaacct atgagtgcaa actgcatctt
+      721 gtggcttctt gctatttcat ctatgatagt aaagaagtgt acaataaaag aggatgtgac
+      781 aactactttc aagtgatcta tgattcatct ggaaaagttg ttggaggact agataacagg
+      841 gtatcacctt acacagggaa ttctggagac accccaacaa tgcaatgtga catgctccag
+      901 ctgaaacctg gaagatattc agtaagaagc tctccaagat tccttttaat gcccgaaaga
+      961 agttattgct ttgacatgaa agaaaaagga ccagtcactg ctgtccaatc catttgggga
+     1021 aaaggcagag aatctgacca tgcagtggat caagcttgct tgagcactcc agggtgcatg
+     1081 ttgatccaaa agcaaaagcc atacattgga gaagctgatg atcaccatgg agatcaagaa
+     1141 atgagggagt tgctgtcagg actggactat gaagctagat gcatatcaca atcagggtgg
+     1201 gtgaatgaaa ccagcccttt tacggaagaa tacctccttc ctcccaaatt tggaagatgc
+     1261 cccttggctg caaaggaaga atccattcca aaaatcccag atggccttct aattcccacc
+     1321 agtggaactg ataccactgt aaccaaacct aagagcagaa tttttggaat cgatgacctc
+     1381 attattggtt tgctctttgt tgcaatcgtt gaagcaggaa ttggaggcta tctgcttgga
+     1441 agtagaaaag tatcaggagg aggtgtgaca aaagaatcag ctgaaaaagg gtttgagaaa
+     1501 attggaaatg acatacaaat cctaagatct tctacaaata tcgcaataga aaaactgaat
+     1561 gacagaattt ctcatgatga gcaagccatc agagatctaa ctttagaaat tgaaaatgca
+     1621 agatctgaag ctttgttagg agaattggga ataataagag ccttgttggt aggaaatata
+     1681 agcataggat tacaagaatc tttatgggaa ctagcttcag aaataacaaa tagagcagga
+     1741 gatctagcag ttgaagtctc tccaggttgc tgggtaattg acaataacat ttgtgatcaa
+     1801 agttgtcaaa actttatttt caagttcaac gaaactgcac ctgttccaac cattccccct
+     1861 cttgacacaa aaattgatct gcaatcagat cctttttact ggggaagcag cttgggctta
+     1921 gcaataactg ctgctatttc attggcagct ttggtgatct ctgggatcgc catctgcaga
+     1981 actaaatgac tgggacaatt ttaaaaaatg gataatatat tagtcaatat tttgtacagt
+     2041 tttataaaaa acaaaaatcc ccttgctact gct
+//

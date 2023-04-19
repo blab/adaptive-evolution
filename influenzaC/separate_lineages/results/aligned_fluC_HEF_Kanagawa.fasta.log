@@ -1,0 +1,81 @@
+inputfile = orig
+112 x 2073 - 957 d
+nthread = 1
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   101   
+
+Step 2/2
+ 1 / 112 (1 threads)    101 / 112 (1 threads)   
+makedirectionlist (nuc) Version 7.490
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+1 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+112 x 2073 - 957 d
+directionfile = _direction
+inputfile = orig
+subalignment = 0
+subalignmentoffset = 0
+112 x 2073 - 957 d
+nthread = 1
+nthreadpair = 1
+nthreadtb = 1
+ppenalty_ex = 0
+stacksize: 8176 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+
+There are 5 ambiguous characters.
+    1 / 112 (thread    0)  101 / 112 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 112   10 / 112   20 / 112   30 / 112   40 / 112   50 / 112   60 / 112   70 / 112   80 / 112   90 / 112  100 / 112  110 / 112
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 111 (thread    0) fSTEP     2 / 111 (thread    0) fSTEP     3 / 111 (thread    0) fSTEP     4 / 111 (thread    0) fSTEP     5 / 111 (thread    0) fSTEP     6 / 111 (thread    0) fSTEP     7 / 111 (thread    0) fSTEP     8 / 111 (thread    0) fSTEP     9 / 111 (thread    0) fSTEP    10 / 111 (thread    0) fSTEP    11 / 111 (thread    0) fSTEP    12 / 111 (thread    0) fSTEP    13 / 111 (thread    0) fSTEP    14 / 111 (thread    0) fSTEP    15 / 111 (thread    0) fSTEP    16 / 111 (thread    0) fSTEP    17 / 111 (thread    0) fSTEP    18 / 111 (thread    0) fSTEP    19 / 111 (thread    0) fSTEP    20 / 111 (thread    0) fSTEP    21 / 111 (thread    0) fSTEP    22 / 111 (thread    0) fSTEP    23 / 111 (thread    0) fSTEP    24 / 111 (thread    0) fSTEP    25 / 111 (thread    0) fSTEP    26 / 111 (thread    0) fSTEP    27 / 111 (thread    0) fSTEP    28 / 111 (thread    0) fSTEP    29 / 111 (thread    0) fSTEP    30 / 111 (thread    0) fSTEP    31 / 111 (thread    0) fSTEP    32 / 111 (thread    0) fSTEP    33 / 111 (thread    0) fSTEP    34 / 111 (thread    0) fSTEP    35 / 111 (thread    0) fSTEP    36 / 111 (thread    0) fSTEP    37 / 111 (thread    0) fSTEP    38 / 111 (thread    0) fSTEP    39 / 111 (thread    0) fSTEP    40 / 111 (thread    0) fSTEP    41 / 111 (thread    0) fSTEP    42 / 111 (thread    0) fSTEP    43 / 111 (thread    0) fSTEP    44 / 111 (thread    0) fSTEP    45 / 111 (thread    0) fSTEP    46 / 111 (thread    0) fSTEP    47 / 111 (thread    0) fSTEP    48 / 111 (thread    0) fSTEP    49 / 111 (thread    0) fSTEP    50 / 111 (thread    0) fSTEP    51 / 111 (thread    0) fSTEP    52 / 111 (thread    0) fSTEP    53 / 111 (thread    0) fSTEP    54 / 111 (thread    0) fSTEP    55 / 111 (thread    0) fSTEP    56 / 111 (thread    0) fSTEP    57 / 111 (thread    0) fSTEP    58 / 111 (thread    0) fSTEP    59 / 111 (thread    0) fSTEP    60 / 111 (thread    0) fSTEP    61 / 111 (thread    0) fSTEP    62 / 111 (thread    0) fSTEP    63 / 111 (thread    0) fSTEP    64 / 111 (thread    0) fSTEP    65 / 111 (thread    0) fSTEP    66 / 111 (thread    0) fSTEP    67 / 111 (thread    0) fSTEP    68 / 111 (thread    0) fSTEP    69 / 111 (thread    0) fSTEP    70 / 111 (thread    0) fSTEP    71 / 111 (thread    0) fSTEP    72 / 111 (thread    0) fSTEP    73 / 111 (thread    0) fSTEP    74 / 111 (thread    0) fSTEP    75 / 111 (thread    0) fSTEP    76 / 111 (thread    0) fSTEP    77 / 111 (thread    0) fSTEP    78 / 111 (thread    0) fSTEP    79 / 111 (thread    0) fSTEP    80 / 111 (thread    0) fSTEP    81 / 111 (thread    0) fSTEP    82 / 111 (thread    0) fSTEP    83 / 111 (thread    0) fSTEP    84 / 111 (thread    0) fSTEP    85 / 111 (thread    0) fSTEP    86 / 111 (thread    0) fSTEP    87 / 111 (thread    0) fSTEP    88 / 111 (thread    0) fSTEP    89 / 111 (thread    0) fSTEP    90 / 111 (thread    0) fSTEP    91 / 111 (thread    0) fSTEP    92 / 111 (thread    0) fSTEP    93 / 111 (thread    0) fSTEP    94 / 111 (thread    0) fSTEP    95 / 111 (thread    0) fSTEP    96 / 111 (thread    0) fSTEP    97 / 111 (thread    0) fSTEP    98 / 111 (thread    0) fSTEP    99 / 111 (thread    0) fSTEP   100 / 111 (thread    0) fSTEP   101 / 111 (thread    0) fSTEP   102 / 111 (thread    0) fSTEP   103 / 111 (thread    0) fSTEP   104 / 111 (thread    0) fSTEP   105 / 111 (thread    0) fSTEP   106 / 111 (thread    0) fSTEP   107 / 111 (thread    0) fSTEP   108 / 111 (thread    0) fSTEP   109 / 111 (thread    0) fSTEP   110 / 111 (thread    0) fSTEP   111 / 111 (thread    0) f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 112 (thread    0)  100 / 112 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 112   10 / 112   20 / 112   30 / 112   40 / 112   50 / 112   60 / 112   70 / 112   80 / 112   90 / 112  100 / 112  110 / 112
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 111 (thread    0) fSTEP     2 / 111 (thread    0) fSTEP     3 / 111 (thread    0) fSTEP     4 / 111 (thread    0) fSTEP     5 / 111 (thread    0) fSTEP     6 / 111 (thread    0) fSTEP     7 / 111 (thread    0) fSTEP     8 / 111 (thread    0) fSTEP     9 / 111 (thread    0) fSTEP    10 / 111 (thread    0) fSTEP    11 / 111 (thread    0) fSTEP    12 / 111 (thread    0) fSTEP    13 / 111 (thread    0) fSTEP    14 / 111 (thread    0) fSTEP    15 / 111 (thread    0) fSTEP    16 / 111 (thread    0) fSTEP    17 / 111 (thread    0) fSTEP    18 / 111 (thread    0) fSTEP    19 / 111 (thread    0) fSTEP    20 / 111 (thread    0) fSTEP    21 / 111 (thread    0) fSTEP    22 / 111 (thread    0) fSTEP    23 / 111 (thread    0) fSTEP    24 / 111 (thread    0) fSTEP    25 / 111 (thread    0) fSTEP    26 / 111 (thread    0) fSTEP    27 / 111 (thread    0) fSTEP    28 / 111 (thread    0) fSTEP    29 / 111 (thread    0) fSTEP    30 / 111 (thread    0) fSTEP    31 / 111 (thread    0) fSTEP    32 / 111 (thread    0) fSTEP    33 / 111 (thread    0) fSTEP    34 / 111 (thread    0) fSTEP    35 / 111 (thread    0) fSTEP    36 / 111 (thread    0) fSTEP    37 / 111 (thread    0) fSTEP    38 / 111 (thread    0) fSTEP    39 / 111 (thread    0) fSTEP    40 / 111 (thread    0) fSTEP    41 / 111 (thread    0) fSTEP    42 / 111 (thread    0) fSTEP    43 / 111 (thread    0) fSTEP    44 / 111 (thread    0) fSTEP    45 / 111 (thread    0) fSTEP    46 / 111 (thread    0) fSTEP    47 / 111 (thread    0) fSTEP    48 / 111 (thread    0) fSTEP    49 / 111 (thread    0) fSTEP    50 / 111 (thread    0) fSTEP    51 / 111 (thread    0) fSTEP    52 / 111 (thread    0) fSTEP    53 / 111 (thread    0) fSTEP    54 / 111 (thread    0) fSTEP    55 / 111 (thread    0) fSTEP    56 / 111 (thread    0) fSTEP    57 / 111 (thread    0) fSTEP    58 / 111 (thread    0) fSTEP    59 / 111 (thread    0) fSTEP    60 / 111 (thread    0) fSTEP    61 / 111 (thread    0) fSTEP    62 / 111 (thread    0) fSTEP    63 / 111 (thread    0) fSTEP    64 / 111 (thread    0) fSTEP    65 / 111 (thread    0) fSTEP    66 / 111 (thread    0) fSTEP    67 / 111 (thread    0) fSTEP    68 / 111 (thread    0) fSTEP    69 / 111 (thread    0) fSTEP    70 / 111 (thread    0) fSTEP    71 / 111 (thread    0) fSTEP    72 / 111 (thread    0) fSTEP    73 / 111 (thread    0) fSTEP    74 / 111 (thread    0) fSTEP    75 / 111 (thread    0) fSTEP    76 / 111 (thread    0) fSTEP    77 / 111 (thread    0) fSTEP    78 / 111 (thread    0) fSTEP    79 / 111 (thread    0) fSTEP    80 / 111 (thread    0) fSTEP    81 / 111 (thread    0) fSTEP    82 / 111 (thread    0) fSTEP    83 / 111 (thread    0) fSTEP    84 / 111 (thread    0) fSTEP    85 / 111 (thread    0) fSTEP    86 / 111 (thread    0) fSTEP    87 / 111 (thread    0) fSTEP    88 / 111 (thread    0) fSTEP    89 / 111 (thread    0) fSTEP    90 / 111 (thread    0) fSTEP    91 / 111 (thread    0) fSTEP    92 / 111 (thread    0) fSTEP    93 / 111 (thread    0) fSTEP    94 / 111 (thread    0) fSTEP    95 / 111 (thread    0) fSTEP    96 / 111 (thread    0) fSTEP    97 / 111 (thread    0) fSTEP    98 / 111 (thread    0) fSTEP    99 / 111 (thread    0) fSTEP   100 / 111 (thread    0) fSTEP   101 / 111 (thread    0) fSTEP   102 / 111 (thread    0) fSTEP   103 / 111 (thread    0) fSTEP   104 / 111 (thread    0) fSTEP   105 / 111 (thread    0) fSTEP   106 / 111 (thread    0) fSTEP   107 / 111 (thread    0) fSTEP   108 / 111 (thread    0) fSTEP   109 / 111 (thread    0) fSTEP   110 / 111 (thread    0) fSTEP   111 / 111 (thread    0) f
+done.
+
+disttbfast (nuc) Version 7.490
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

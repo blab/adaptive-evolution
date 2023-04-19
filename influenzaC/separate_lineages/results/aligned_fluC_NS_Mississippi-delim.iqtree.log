@@ -1,0 +1,122 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_fluC_NS_Mississippi-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    411395 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct 24 17:43:29 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_fluC_NS_Mississippi-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.000614166 secs using 94.6% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.000644922 secs using 73.65% CPU
+Alignment has 33 sequences with 935 columns, 92 distinct patterns
+44 parsimony-informative, 31 singleton sites, 860 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.00136e-05 secs using 89.88% CPU
+   1  AB283001.1    0.00%    passed     99.83%
+   2  FR671425.1    2.25%    passed     99.57%
+   3  AM410043.1    0.00%    passed     99.72%
+   4  LC124977.1    5.88%    passed     99.38%
+   5  LC124979.1    5.88%    passed     99.70%
+   6  LC124980.1    5.88%    passed     99.70%
+   7  LC124978.1    5.88%    passed     98.80%
+   8  LC124981.1    5.88%    passed     98.28%
+   9  LC124982.1    5.88%    passed     99.72%
+  10  AB099627.1    7.81%    passed     98.09%
+  11  AB086796.1    7.81%    passed     97.14%
+  12  AB086801.1    7.81%    passed     97.53%
+  13  AB086803.1    7.81%    passed     97.53%
+  14  LC124998.1    5.88%    passed     98.80%
+  15  AB099626.1    7.81%    passed     97.53%
+  16  AB034155.1    5.78%    passed     99.11%
+  17  AB034156.1    5.78%    passed     99.65%
+  18  AB034162.1    5.78%    passed     99.84%
+  19  AB034158.1    5.78%    passed     99.64%
+  20  AB034165.1    5.78%    passed     99.92%
+  21  AB034167.1    5.78%    passed     99.05%
+  22  AB034166.1    5.78%    passed     99.94%
+  23  AB099624.1    7.81%    passed     97.68%
+  24  AB099625.1    7.81%    passed     98.10%
+  25  AB034157.1    5.78%    passed     99.65%
+  26  AB034160.1    5.78%    passed     99.46%
+  27  AB034159.1    5.78%    passed     99.87%
+  28  AB034161.1    5.78%    passed     99.64%
+  29  M10087.1      0.11%    passed     99.40%
+  30  M14881.1      4.39%    passed     97.75%
+  31  M15090.1      4.39%    passed     97.75%
+  32  M15089.1      4.39%    passed     97.04%
+  33  M31007.1      4.39%    passed     95.17%
+****  TOTAL         5.43%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: LC124980.1 is identical to LC124979.1 but kept for subsequent analysis
+NOTE: AB086803.1 is identical to AB086801.1 but kept for subsequent analysis
+NOTE: M15090.1 is identical to M14881.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 8.4877e-05 secs using 65.98% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -2996.721
+2. Current log-likelihood: -2837.640
+3. Current log-likelihood: -2809.808
+4. Current log-likelihood: -2807.723
+Optimal log-likelihood: -2807.550
+Rate parameters:  A-C: 2.91540  A-G: 14.57504  A-T: 0.58154  C-G: 0.51267  C-T: 21.75346  G-T: 1.00000
+Base frequencies:  A: 0.358  C: 0.182  G: 0.191  T: 0.269
+Parameters optimization took 4 rounds (0.030 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0018959 secs using 87.93% CPU
+Computing ML distances took 0.002032 sec (of wall-clock time) 0.001747 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 9.70364e-05 secs using 80.38% CPU
+Constructing RapidNJ tree: done in 0.000211954 secs using 168% CPU
+Computing RapidNJ tree took 0.000461 sec (of wall-clock time) 0.000533 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1883.982
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.00462008 secs using 99.35% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -1880.187
+Optimizing NNI: done in 0.037909 secs using 78.37% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -1880.187 / CPU time: 0.053
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -1880.187
+2. Current log-likelihood: -1880.038
+3. Current log-likelihood: -1879.975
+Optimal log-likelihood: -1879.970
+Rate parameters:  A-C: 1.60651  A-G: 11.67634  A-T: 1.08168  C-G: 0.00010  C-T: 16.53718  G-T: 1.00000
+Base frequencies:  A: 0.358  C: 0.182  G: 0.191  T: 0.269
+Parameters optimization took 3 rounds (0.017 sec)
+BEST SCORE FOUND : -1879.970
+Total tree length: 0.099
+
+Total number of iterations: 2
+CPU time used for tree search: 0.044 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.053 sec (0h:0m:0s)
+Total CPU time used: 0.098 sec (0h:0m:0s)
+Total wall-clock time used: 0.122 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_fluC_NS_Mississippi-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_fluC_NS_Mississippi-delim.fasta.treefile
+  Likelihood distances:          results/aligned_fluC_NS_Mississippi-delim.fasta.mldist
+  Screen log file:               results/aligned_fluC_NS_Mississippi-delim.fasta.log
+
+Date and Time: Mon Oct 24 17:43:29 2022

@@ -1,0 +1,1611 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Genetic diversity of influenza C",
+    "updated": "2022-10-24",
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "FLUCVs7gp1": {
+        "end": 767,
+        "seqid": "config/reference_fluC_NS.gb",
+        "start": 27,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "FLUCVs7gp2": {
+        "end": 888,
+        "seqid": "config/reference_fluC_NS.gb",
+        "start": 27,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 935,
+        "seqid": "config/reference_fluC_NS.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "host"
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000002",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1918.9290816032158,
+        "confidence": [
+          1054.9301730647544,
+          1940.6800005377747
+        ]
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000007",
+        "node_attrs": {
+          "div": 0.006435206228063545,
+          "num_date": {
+            "value": 1960.397399388993,
+            "confidence": [
+              1925.8964677298834,
+              1971.9249556999728
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "T22C",
+              "T173C",
+              "G233A",
+              "C255A",
+              "C313T",
+              "A662G",
+              "C774T",
+              "G835A",
+              "A855G",
+              "T868C",
+              "T873C"
+            ],
+            "FLUCVs7gp1": [
+              "P77T",
+              "A96V"
+            ],
+            "FLUCVs7gp2": [
+              "K108R",
+              "V166I"
+            ]
+          },
+          "labels": {
+            "aa": "FLUCVs7gp1: P77T, A96V; FLUCVs7gp2: K108R, V166I"
+          }
+        },
+        "children": [
+          {
+            "name": "NODE_0000012",
+            "node_attrs": {
+              "div": 0.007503555131413041,
+              "num_date": {
+                "value": 1966.6224329279794,
+                "confidence": [
+                  1953.4216493592878,
+                  1975.8370823658975
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G778A"
+                ],
+                "FLUCVs7gp2": [
+                  "A147T"
+                ]
+              },
+              "labels": {
+                "aa": "FLUCVs7gp2: A147T"
+              }
+            },
+            "children": [
+              {
+                "name": "AB034160.1",
+                "node_attrs": {
+                  "div": 0.008574990537703686,
+                  "num_date": {
+                    "value": 1977.0013698630137,
+                    "confidence": [
+                      1977.0013698630137,
+                      1977.898904109589
+                    ]
+                  },
+                  "host": {
+                    "value": "AB034160.1"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G163A"
+                    ],
+                    "FLUCVs7gp1": [
+                      "R46K"
+                    ],
+                    "FLUCVs7gp2": [
+                      "R46K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs7gp1: R46K; FLUCVs7gp2: R46K"
+                  }
+                }
+              },
+              {
+                "name": "AB034159.1",
+                "node_attrs": {
+                  "div": 0.010723240933019167,
+                  "num_date": {
+                    "value": 1976.9986338797814,
+                    "confidence": [
+                      1976.105003747974,
+                      1976.9986338797814
+                    ]
+                  },
+                  "host": {
+                    "value": "AB034159.1"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A191T",
+                      "T254C",
+                      "T257C"
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "div": 0.006435206228063566,
+              "num_date": {
+                "value": 1966.933557970492,
+                "confidence": [
+                  1956.394634646836,
+                  1971.9735384375206
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "AB034157.1",
+                "node_attrs": {
+                  "div": 0.007506025267922076,
+                  "num_date": {
+                    "value": 1971.9986301369863,
+                    "confidence": [
+                      1971.1026759906863,
+                      1971.9986301369863
+                    ]
+                  },
+                  "host": {
+                    "value": "AB034157.1"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C449T"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "AB099624.1",
+                "node_attrs": {
+                  "div": 0.006435206228063587,
+                  "num_date": {
+                    "value": 1976.0013661202186,
+                    "confidence": [
+                      1976.0013661202186,
+                      1976.897687736575
+                    ]
+                  },
+                  "host": {
+                    "value": "AB099624.1"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "div": 0.007503555131413041,
+              "num_date": {
+                "value": 1964.7342667982352,
+                "confidence": [
+                  1935.6907418251944,
+                  1977.059179431635
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G143A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "AB034161.1",
+                "node_attrs": {
+                  "div": 0.01180207540684329,
+                  "num_date": {
+                    "value": 1979.9986301369863,
+                    "confidence": [
+                      1979.1070680297942,
+                      1979.9986301369863
+                    ]
+                  },
+                  "host": {
+                    "value": "AB034161.1"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G126A",
+                      "C256T",
+                      "A282G",
+                      "A879T"
+                    ],
+                    "FLUCVs7gp1": [
+                      "V34I",
+                      "T77I",
+                      "M86V"
+                    ],
+                    "FLUCVs7gp2": [
+                      "V34I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs7gp1: V34I, T77I, M86V; FLUCVs7gp2: V34I"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000009",
+                "node_attrs": {
+                  "div": 0.009643319369594078,
+                  "num_date": {
+                    "value": 1974.2815627334085,
+                    "confidence": [
+                      1965.0881449698768,
+                      1978.9735652763827
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G272A",
+                      "C652T"
+                    ],
+                    "FLUCVs7gp1": [
+                      "T209I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs7gp1: T209I"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "AB099625.1",
+                    "node_attrs": {
+                      "div": 0.0096433193695941,
+                      "num_date": {
+                        "value": 1978.0013698630137,
+                        "confidence": [
+                          1978.0013698630137,
+                          1978.894838257041
+                        ]
+                      },
+                      "host": {
+                        "value": "AB099625.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "M10087.1",
+                    "node_attrs": {
+                      "div": 0.0096433193695941,
+                      "num_date": {
+                        "value": 1978.0013698630137,
+                        "confidence": [
+                          1978.0013698630137,
+                          1978.8948154893317
+                        ]
+                      },
+                      "host": {
+                        "value": "M10087.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000031",
+        "node_attrs": {
+          "div": 0.0042856588727568975,
+          "num_date": {
+            "value": 1927.2530127475425,
+            "confidence": [
+              1288.5347603593666,
+              1942.4316716397773
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 0.007498425981655138,
+              "num_date": {
+                "value": 1947.3508761877063,
+                "confidence": [
+                  1916.8856423826044,
+                  1966.9405404006975
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C275T",
+                  "T920A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "AM410043.1",
+                "node_attrs": {
+                  "div": 0.011786447129115049,
+                  "num_date": {
+                    "value": 1966.0013698630137,
+                    "confidence": [
+                      1966.0013698630137,
+                      1966.9986301369863
+                    ]
+                  },
+                  "host": {
+                    "value": "AM410043.1"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T56C",
+                      "T57C",
+                      "G246A",
+                      "C709A"
+                    ],
+                    "FLUCVs7gp1": [
+                      "A74T",
+                      "T228K"
+                    ],
+                    "FLUCVs7gp2": [
+                      "H124N"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs7gp1: A74T, T228K; FLUCVs7gp2: H124N"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000010",
+                "node_attrs": {
+                  "div": 0.007498425981655159,
+                  "num_date": {
+                    "value": 1950.9779542694823,
+                    "confidence": [
+                      1918.6037227972063,
+                      1967.8762276948275
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "LC124981.1",
+                    "node_attrs": {
+                      "div": 0.010716284585938252,
+                      "num_date": {
+                        "value": 1969.0013698630137,
+                        "confidence": [
+                          1969.0013698630137,
+                          1969.898904109589
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      },
+                      "host": {
+                        "value": "Homo sapiens LC124981.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T443C",
+                          "C557T",
+                          "C792T"
+                        ],
+                        "FLUCVs7gp2": [
+                          "S73L"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs7gp2: S73L"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000011",
+                    "node_attrs": {
+                      "div": 0.007498425981655179,
+                      "num_date": {
+                        "value": 1960.529654532894,
+                        "confidence": [
+                          1917.2915673512327,
+                          1966.7613465338018
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "AB034156.1",
+                        "node_attrs": {
+                          "div": 0.009643016527769584,
+                          "num_date": {
+                            "value": 1967.0013698630137,
+                            "confidence": [
+                              1967.0013698630137,
+                              1967.8986648950788
+                            ]
+                          },
+                          "host": {
+                            "value": "AB034156.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C769A",
+                              "T810C"
+                            ],
+                            "FLUCVs7gp2": [
+                              "L144M"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "FLUCVs7gp2: L144M"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000004",
+                        "node_attrs": {
+                          "div": 0.01178482148649314,
+                          "num_date": {
+                            "value": 1974.094920186084,
+                            "confidence": [
+                              1964.8970568440702,
+                              1979.297452828961
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A140G",
+                              "T176C",
+                              "T416G",
+                              "G835A"
+                            ],
+                            "FLUCVs7gp2": [
+                              "V166I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "FLUCVs7gp2: V166I"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "AB099626.1",
+                            "node_attrs": {
+                              "div": 0.011784821486493161,
+                              "num_date": {
+                                "value": 1979.0013698630137,
+                                "confidence": [
+                                  1979.0013698630137,
+                                  1979.8985726223054
+                                ]
+                              },
+                              "host": {
+                                "value": "AB099626.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "AB034162.1",
+                            "node_attrs": {
+                              "div": 0.01285517246263845,
+                              "num_date": {
+                                "value": 1981.0013698630137,
+                                "confidence": [
+                                  1981.0013698630137,
+                                  1981.8980400410724
+                                ]
+                              },
+                              "host": {
+                                "value": "AB034162.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G289A"
+                                ],
+                                "FLUCVs7gp1": [
+                                  "G88E"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "FLUCVs7gp1: G88E"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000001",
+            "node_attrs": {
+              "div": 0.0064228735988626166,
+              "num_date": {
+                "value": 1933.7692630320414,
+                "confidence": [
+                  1438.8270539568914,
+                  1944.1896814356512
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C159T",
+                  "A562G"
+                ],
+                "FLUCVs7gp1": [
+                  "K179R"
+                ],
+                "FLUCVs7gp2": [
+                  "N75D"
+                ]
+              },
+              "labels": {
+                "aa": "FLUCVs7gp1: K179R; FLUCVs7gp2: N75D"
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000000",
+                "node_attrs": {
+                  "div": 0.0096374428640233,
+                  "num_date": {
+                    "value": 1945.8791003208185,
+                    "confidence": [
+                      1922.0488075471765,
+                      1950.3992506131517
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G163A",
+                      "C320A",
+                      "T920A"
+                    ],
+                    "FLUCVs7gp1": [
+                      "R46K",
+                      "S98R"
+                    ],
+                    "FLUCVs7gp2": [
+                      "R46K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs7gp1: R46K, S98R; FLUCVs7gp2: R46K"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "AB283001.1",
+                    "node_attrs": {
+                      "div": 0.009637442864023321,
+                      "num_date": {
+                        "value": 1950.0013698630137,
+                        "confidence": [
+                          1950.0013698630137,
+                          1950.8916557253747
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      },
+                      "host": {
+                        "value": "AB283001.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T22C"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "FR671425.1",
+                    "node_attrs": {
+                      "div": 0.01179120889173958,
+                      "num_date": {
+                        "value": 1950.9986301369863,
+                        "confidence": [
+                          1950.114006779391,
+                          1950.9986301369863
+                        ]
+                      },
+                      "host": {
+                        "value": "FR671425.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G624A"
+                        ],
+                        "FLUCVs7gp1": [
+                          "V200I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs7gp1: V200I"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000014",
+                "node_attrs": {
+                  "div": 0.010703664511497398,
+                  "num_date": {
+                    "value": 1944.44636036227,
+                    "confidence": [
+                      1933.165492185775,
+                      1947.924977572063
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C155T",
+                      "T254C",
+                      "G290A",
+                      "T354C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "LC124977.1",
+                    "node_attrs": {
+                      "div": 0.011773822297388336,
+                      "num_date": {
+                        "value": 1947.9986301369863,
+                        "confidence": [
+                          1947.107418927748,
+                          1947.9986301369863
+                        ]
+                      },
+                      "country": {
+                        "value": "USA"
+                      },
+                      "host": {
+                        "value": "Homo sapiens LC124977.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A429G"
+                        ],
+                        "FLUCVs7gp1": [
+                          "T135A"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs7gp1: T135A"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "div": 0.010703664511497419,
+                      "num_date": {
+                        "value": 1946.9979656422352,
+                        "confidence": [
+                          1943.5522468209435,
+                          1947.8630912206347
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "M14881.1",
+                        "node_attrs": {
+                          "div": 0.01070366451149744,
+                          "num_date": {
+                            "value": 1947.9986301369863,
+                            "confidence": [
+                              1947.0013698630137,
+                              1947.9986301369863
+                            ]
+                          },
+                          "host": {
+                            "value": "M14881.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000017",
+                        "node_attrs": {
+                          "div": 0.01070366451149744,
+                          "num_date": {
+                            "value": 1962.1147948444163,
+                            "confidence": [
+                              1955.8296563355175,
+                              1966.924977572063
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "LC124980.1",
+                            "node_attrs": {
+                              "div": 0.01070366451149746,
+                              "num_date": {
+                                "value": 1967.0013698630137,
+                                "confidence": [
+                                  1967.0013698630137,
+                                  1967.8913498088693
+                                ]
+                              },
+                              "country": {
+                                "value": "France"
+                              },
+                              "host": {
+                                "value": "Homo sapiens LC124980.1"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "NODE_0000019",
+                            "node_attrs": {
+                              "div": 0.01070366451149746,
+                              "num_date": {
+                                "value": 1965.9979656422352,
+                                "confidence": [
+                                  1961.8952743624902,
+                                  1966.9735652763827
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "LC124979.1",
+                                "node_attrs": {
+                                  "div": 0.010703664511497481,
+                                  "num_date": {
+                                    "value": 1966.7793302009338,
+                                    "confidence": [
+                                      1966.0013698630137,
+                                      1966.9986301369863
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "South Africa"
+                                  },
+                                  "host": {
+                                    "value": "Homo sapiens LC124979.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "M15090.1",
+                                "node_attrs": {
+                                  "div": 0.010703664511497481,
+                                  "num_date": {
+                                    "value": 1966.7793302009338,
+                                    "confidence": [
+                                      1966.0013698630137,
+                                      1966.9986301369863
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "M15090.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000018",
+                "node_attrs": {
+                  "div": 0.007490417535765641,
+                  "num_date": {
+                    "value": 1936.9615053482632,
+                    "confidence": [
+                      1491.9897076520663,
+                      1946.9465148645452
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T173C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "AB034155.1",
+                    "node_attrs": {
+                      "div": 0.012852102637119462,
+                      "num_date": {
+                        "value": 1964.0013661202186,
+                        "confidence": [
+                          1964.0013661202186,
+                          1964.8989071038252
+                        ]
+                      },
+                      "host": {
+                        "value": "AB034155.1"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A140G",
+                          "A203G",
+                          "A461G",
+                          "G562A",
+                          "T894C"
+                        ],
+                        "FLUCVs7gp1": [
+                          "R179K"
+                        ],
+                        "FLUCVs7gp2": [
+                          "D75N"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs7gp1: R179K; FLUCVs7gp2: D75N"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000020",
+                    "node_attrs": {
+                      "div": 0.01284403597796411,
+                      "num_date": {
+                        "value": 1953.9979656422352,
+                        "confidence": [
+                          1947.3550414906565,
+                          1954.9735652763827
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A92G",
+                          "T452C",
+                          "C483T",
+                          "C680T",
+                          "G756A"
+                        ],
+                        "FLUCVs7gp1": [
+                          "P153S",
+                          "A244T"
+                        ],
+                        "FLUCVs7gp2": [
+                          "P114L"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs7gp1: P153S, A244T; FLUCVs7gp2: P114L"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "LC124978.1",
+                        "node_attrs": {
+                          "div": 0.01284403597796413,
+                          "num_date": {
+                            "value": 1954.60172434079,
+                            "confidence": [
+                              1954.0013698630137,
+                              1954.9986301369863
+                            ]
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "host": {
+                            "value": "Homo sapiens LC124978.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "M15089.1",
+                        "node_attrs": {
+                          "div": 0.01284403597796413,
+                          "num_date": {
+                            "value": 1954.60172434079,
+                            "confidence": [
+                              1954.0013698630137,
+                              1954.9986301369863
+                            ]
+                          },
+                          "host": {
+                            "value": "M15089.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000021",
+                    "node_attrs": {
+                      "div": 0.013924970339133135,
+                      "num_date": {
+                        "value": 1961.4105260982374,
+                        "confidence": [
+                          1911.3260122019692,
+                          1974.9735384280968
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G158A",
+                          "C275T",
+                          "T297C",
+                          "G356A",
+                          "G835A",
+                          "A845C"
+                        ],
+                        "FLUCVs7gp1": [
+                          "F91L"
+                        ],
+                        "FLUCVs7gp2": [
+                          "V166I",
+                          "N169T"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs7gp1: F91L; FLUCVs7gp2: V166I, N169T"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "AB034158.1",
+                        "node_attrs": {
+                          "div": 0.014996165369112345,
+                          "num_date": {
+                            "value": 1974.0013698630137,
+                            "confidence": [
+                              1974.0013698630137,
+                              1974.898904109589
+                            ]
+                          },
+                          "host": {
+                            "value": "AB034158.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G732A"
+                            ],
+                            "FLUCVs7gp1": [
+                              "A236T"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "FLUCVs7gp1: A236T"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000028",
+                        "node_attrs": {
+                          "div": 0.017135088839710662,
+                          "num_date": {
+                            "value": 1969.9900883242788,
+                            "confidence": [
+                              1951.996254447657,
+                              1992.8946641563275
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T275G",
+                              "T302C",
+                              "A789G"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000030",
+                            "node_attrs": {
+                              "div": 0.02249114971080679,
+                              "num_date": {
+                                "value": 1990.9166491320727,
+                                "confidence": [
+                                  1981.884955312783,
+                                  1996.9735690191703
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T200G",
+                                  "C389T",
+                                  "G401A",
+                                  "A726G",
+                                  "C819T"
+                                ],
+                                "FLUCVs7gp1": [
+                                  "D58E",
+                                  "T234A"
+                                ],
+                                "FLUCVs7gp2": [
+                                  "D58E"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "FLUCVs7gp1: D58E, T234A; FLUCVs7gp2: D58E"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "AB086801.1",
+                                "node_attrs": {
+                                  "div": 0.02249114971080681,
+                                  "num_date": {
+                                    "value": 1996.8558450682356,
+                                    "confidence": [
+                                      1996.0013661202186,
+                                      1996.9986338797814
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "AB086801.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "AB086803.1",
+                                "node_attrs": {
+                                  "div": 0.02249114971080681,
+                                  "num_date": {
+                                    "value": 1996.8558450682356,
+                                    "confidence": [
+                                      1996.0013661202186,
+                                      1996.9986338797814
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "AB086803.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000023",
+                            "node_attrs": {
+                              "div": 0.017135088839710683,
+                              "num_date": {
+                                "value": 1972.2401086528746,
+                                "confidence": [
+                                  1954.02500742675,
+                                  1993.9609521754153
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "AB086796.1",
+                                "node_attrs": {
+                                  "div": 0.01928082522870127,
+                                  "num_date": {
+                                    "value": 1993.0013698630137,
+                                    "confidence": [
+                                      1993.0013698630137,
+                                      1993.898904109589
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "AB086796.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A211G",
+                                      "C446T"
+                                    ],
+                                    "FLUCVs7gp1": [
+                                      "D62G"
+                                    ],
+                                    "FLUCVs7gp2": [
+                                      "D62G"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "FLUCVs7gp1: D62G; FLUCVs7gp2: D62G"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "LC124998.1",
+                                "node_attrs": {
+                                  "div": 0.02142450051916796,
+                                  "num_date": {
+                                    "value": 2004.405737704918,
+                                    "confidence": [
+                                      2004.405737704918,
+                                      2004.405737704918
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "Japan"
+                                  },
+                                  "host": {
+                                    "value": "Homo sapiens LC124998.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A141G",
+                                      "C255T",
+                                      "C436T",
+                                      "C680T"
+                                    ],
+                                    "FLUCVs7gp1": [
+                                      "T39A",
+                                      "P77S",
+                                      "T137I"
+                                    ],
+                                    "FLUCVs7gp2": [
+                                      "T39A",
+                                      "P114L"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "FLUCVs7gp1: T39A, P77S, T137I; FLUCVs7gp2: T39A, P114L"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000026",
+                        "node_attrs": {
+                          "div": 0.013924970339133156,
+                          "num_date": {
+                            "value": 1964.5549882264745,
+                            "confidence": [
+                              1955.5927628995742,
+                              1974.7425480851466
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000022",
+                            "node_attrs": {
+                              "div": 0.01499362007460138,
+                              "num_date": {
+                                "value": 1971.7386111337096,
+                                "confidence": [
+                                  1966.2108621539426,
+                                  1978.8162422873531
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G163A"
+                                ],
+                                "FLUCVs7gp1": [
+                                  "R46K"
+                                ],
+                                "FLUCVs7gp2": [
+                                  "R46K"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "FLUCVs7gp1: R46K; FLUCVs7gp2: R46K"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "LC124982.1",
+                                "node_attrs": {
+                                  "div": 0.0149936200746014,
+                                  "num_date": {
+                                    "value": 1980.0013661202186,
+                                    "confidence": [
+                                      1980.0013661202186,
+                                      1980.8932192581872
+                                    ]
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  },
+                                  "host": {
+                                    "value": "Homo sapiens LC124982.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "M31007.1",
+                                "node_attrs": {
+                                  "div": 0.016064279995007636,
+                                  "num_date": {
+                                    "value": 1980.9986338797814,
+                                    "confidence": [
+                                      1980.0013661202186,
+                                      1980.9986338797814
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "M31007.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G901A"
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000029",
+                            "node_attrs": {
+                              "div": 0.013924970339133176,
+                              "num_date": {
+                                "value": 1969.7422547875517,
+                                "confidence": [
+                                  1964.0657333107924,
+                                  1973.8305818485192
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "AB034167.1",
+                                "node_attrs": {
+                                  "div": 0.016069504566203572,
+                                  "num_date": {
+                                    "value": 1983.0013698630137,
+                                    "confidence": [
+                                      1983.0013698630137,
+                                      1983.9986301369863
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "AB034167.1"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G69A",
+                                      "G683A"
+                                    ],
+                                    "FLUCVs7gp1": [
+                                      "V15I"
+                                    ],
+                                    "FLUCVs7gp2": [
+                                      "V15I",
+                                      "S115N"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "FLUCVs7gp1: V15I; FLUCVs7gp2: V15I, S115N"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000024",
+                                "node_attrs": {
+                                  "div": 0.013924970339133197,
+                                  "num_date": {
+                                    "value": 1971.5641730799343,
+                                    "confidence": [
+                                      1966.4737429346667,
+                                      1975.137829349748
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "AB034166.1",
+                                    "node_attrs": {
+                                      "div": 0.014996755093602859,
+                                      "num_date": {
+                                        "value": 1982.0013698630137,
+                                        "confidence": [
+                                          1982.0013698630137,
+                                          1982.8976180733066
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "AB034166.1"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A614T"
+                                        ],
+                                        "FLUCVs7gp1": [
+                                          "K196N"
+                                        ],
+                                        "FLUCVs7gp2": [
+                                          "K92I"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "FLUCVs7gp1: K196N; FLUCVs7gp2: K92I"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000025",
+                                    "node_attrs": {
+                                      "div": 0.013924970339133218,
+                                      "num_date": {
+                                        "value": 1974.2066780748278,
+                                        "confidence": [
+                                          1966.6181541742296,
+                                          1979.093004492958
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "AB034165.1",
+                                        "node_attrs": {
+                                          "div": 0.013924970339133239,
+                                          "num_date": {
+                                            "value": 1982.0013698630137,
+                                            "confidence": [
+                                              1982.0013698630137,
+                                              1982.898904109589
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "AB034165.1"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "AB099627.1",
+                                        "node_attrs": {
+                                          "div": 0.013924970339133239,
+                                          "num_date": {
+                                            "value": 1979.0013698630137,
+                                            "confidence": [
+                                              1979.0013698630137,
+                                              1979.8975983722084
+                                            ]
+                                          },
+                                          "country": {
+                                            "value": "Greece"
+                                          },
+                                          "host": {
+                                            "value": "AB099627.1"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

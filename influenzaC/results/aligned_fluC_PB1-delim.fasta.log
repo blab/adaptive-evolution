@@ -1,0 +1,252 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_fluC_PB1-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    262368 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Oct 19 16:11:29 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_fluC_PB1-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00672197 secs using 90.66% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00295711 secs using 83.09% CPU
+Alignment has 149 sequences with 2363 columns, 495 distinct patterns
+331 parsimony-informative, 152 singleton sites, 1880 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000283957 secs using 32.4% CPU
+   1  AB126192.2    0.00%    passed     97.06%
+   2  FR671421.1    0.00%    passed     96.12%
+   3  M28060.1      0.00%    passed     95.15%
+   4  LC123385.1    1.74%    passed     99.73%
+   5  LC123389.1    1.74%    passed     99.73%
+   6  AF170575.2    0.00%    passed     98.04%
+   7  JX947864.1    4.19%    passed     98.95%
+   8  LC123386.1    1.74%    passed     96.24%
+   9  LC123388.1    1.74%    passed     98.66%
+  10  LC123390.1    1.74%    passed     97.67%
+  11  LC123409.1    1.74%    passed     97.93%
+  12  LC123397.1    1.74%    passed     99.27%
+  13  LC123402.1    1.74%    passed     99.51%
+  14  LC123413.1    1.74%    passed     99.52%
+  15  LC123411.1    1.74%    passed     99.94%
+  16  LC123414.1    1.74%    passed     99.82%
+  17  LC123391.1    1.74%    passed     99.69%
+  18  LC123394.1    1.74%    passed     99.71%
+  19  LC123395.1    1.74%    passed     99.45%
+  20  LC123399.1    1.74%    passed     99.69%
+  21  LC123393.1    1.74%    passed     99.58%
+  22  LC123396.1    1.74%    passed     97.23%
+  23  LC123417.1    1.74%    passed     99.92%
+  24  LC123425.1    1.74%    passed     99.82%
+  25  LC123419.1    1.74%    passed     99.76%
+  26  LC123438.1    1.74%    passed     98.30%
+  27  LC123420.1    1.74%    passed     99.97%
+  28  LC123387.1    1.74%    passed     98.21%
+  29  LC123392.1    1.74%    passed     99.14%
+  30  LC123398.1    1.74%    passed     96.08%
+  31  LC123401.1    1.74%    passed     96.19%
+  32  LC123408.1    1.74%    passed     94.68%
+  33  LC720289.1    4.15%    passed     95.92%
+  34  MZ330928.1    4.15%    passed     97.43%
+  35  MZ330935.1    4.15%    passed     97.43%
+  36  MZ330942.1    4.15%    passed     94.59%
+  37  KM507546.1    4.15%    passed     97.75%
+  38  KM507553.1    4.15%    passed     97.74%
+  39  MK480603.1    7.07%    passed     98.70%
+  40  MH828693.1    1.74%    passed     98.75%
+  41  MK050103.1    4.15%    passed     97.70%
+  42  LC123480.1    1.74%    passed     99.26%
+  43  LC123486.1    1.74%    passed     98.94%
+  44  LC123483.1    1.74%    passed     99.26%
+  45  KM504278.1    0.00%    passed     99.55%
+  46  MZ330907.1    4.15%    passed     98.09%
+  47  MZ330998.1    4.15%    passed     98.09%
+  48  MZ331012.1    4.15%    passed     98.20%
+  49  MZ330914.1    4.15%    passed     96.23%
+  50  MZ330963.1    4.15%    passed     96.23%
+  51  MZ330921.1    4.15%    passed     95.46%
+  52  MZ330956.1    4.15%    passed     96.56%
+  53  MZ331005.1    4.15%    passed     97.24%
+  54  MZ330984.1    4.15%    passed     96.56%
+  55  MZ330991.1    4.15%    passed     96.56%
+  56  MZ330977.1    4.15%    passed     96.75%
+  57  MZ330970.1    4.15%    passed     97.93%
+  58  LC123476.1    1.74%    passed     99.49%
+  59  LC123482.1    1.74%    passed     99.71%
+  60  LC123477.1    1.74%    passed     99.57%
+  61  LC123481.1    1.74%    passed     99.24%
+  62  LC123466.1    1.74%    passed     99.96%
+  63  LC123468.1    1.74%    passed     99.96%
+  64  LC123469.1    1.74%    passed     99.96%
+  65  LC123471.1    1.74%    passed     99.92%
+  66  LC603654.1    1.74%    passed     99.58%
+  67  LC123435.1    1.74%    passed     99.30%
+  68  LC123421.1    1.74%    passed     99.86%
+  69  LC123437.1    1.74%    passed     99.82%
+  70  LC123439.1    1.74%    passed     99.71%
+  71  LC123444.1    1.74%    passed     99.11%
+  72  LC123446.1    1.74%    passed     99.59%
+  73  LC123441.1    1.74%    passed     99.91%
+  74  LC123445.1    1.74%    passed     99.59%
+  75  LC123447.1    1.74%    passed     99.62%
+  76  LC123448.1    1.74%    passed     99.62%
+  77  LC123451.1    1.74%    passed     99.58%
+  78  LC123453.1    1.74%    passed     99.58%
+  79  LC123454.1    1.74%    passed     99.64%
+  80  LC123455.1    1.74%    passed     99.64%
+  81  LC123457.1    1.74%    passed     99.57%
+  82  LC123427.1    1.74%    passed     99.89%
+  83  LC123432.1    1.74%    passed     99.94%
+  84  LC123433.1    1.74%    passed     99.85%
+  85  LC123443.1    1.74%    passed     99.90%
+  86  LC123428.1    1.74%    passed     99.92%
+  87  LC123430.1    1.74%    passed     99.95%
+  88  LC123434.1    1.74%    passed     99.59%
+  89  LC123440.1    1.74%    passed     99.20%
+  90  LC123450.1    1.74%    passed     99.54%
+  91  LC123442.1    1.74%    passed     98.09%
+  92  LC123429.1    1.74%    passed     99.89%
+  93  KT232083.1    4.19%    passed     98.47%
+  94  LC123475.1    1.74%    passed     99.37%
+  95  LC123485.1    1.74%    passed     99.82%
+  96  LC123412.1    1.74%    passed     99.73%
+  97  LC123422.1    1.74%    passed     99.70%
+  98  LC123423.1    1.74%    passed     99.73%
+  99  LC123426.1    1.74%    passed     99.58%
+ 100  LC123431.1    1.74%    passed     99.58%
+ 101  LC123436.1    1.74%    passed     99.49%
+ 102  LC123449.1    1.74%    passed     99.60%
+ 103  LC123452.1    1.74%    passed     99.90%
+ 104  LC123463.1    1.74%    passed     99.56%
+ 105  LC123464.1    1.74%    passed     99.18%
+ 106  LC123474.1    1.74%    passed     99.64%
+ 107  LC123458.1    1.74%    passed     99.56%
+ 108  LC123461.1    1.74%    passed     99.71%
+ 109  LC123462.1    1.74%    passed     99.77%
+ 110  LC123456.1    1.74%    passed     99.68%
+ 111  LC123460.1    1.74%    passed     99.92%
+ 112  LC123459.1    1.74%    passed     99.84%
+ 113  LC123465.1    1.74%    passed     99.90%
+ 114  LC123467.1    1.74%    passed     99.71%
+ 115  LC123470.1    1.74%    passed     99.99%
+ 116  LC123473.1    1.74%    passed     99.97%
+ 117  LC123472.1    1.74%    passed     99.93%
+ 118  KT835338.1    7.15%    passed     99.50%
+ 119  KT835339.1    7.91%    passed     99.07%
+ 120  LC327653.1    1.90%    passed     99.94%
+ 121  LC123484.1    1.74%    passed     99.92%
+ 122  LC123478.1    1.74%    passed     98.74%
+ 123  LC123479.1    1.74%    passed     98.13%
+ 124  JX963122.1    6.43%    passed     98.72%
+ 125  JX963125.1    6.52%    passed     98.22%
+ 126  JX963124.1    8.46%    passed     97.21%
+ 127  JX963123.1    7.36%    passed     96.46%
+ 128  MK480582.1    5.63%    passed     97.68%
+ 129  MK480596.1    5.92%    passed     99.24%
+ 130  KT835336.1    7.62%    passed     96.10%
+ 131  KT835335.1    7.36%    passed     99.42%
+ 132  KT835337.1    7.83%    passed     98.53%
+ 133  LC123424.1    1.74%    passed     99.37%
+ 134  LC603647.1    1.74%    passed     98.63%
+ 135  LC123410.1    1.74%    passed     98.63%
+ 136  LC123400.1    1.74%    passed     99.30%
+ 137  LC123403.1    1.74%    passed     98.63%
+ 138  LC123404.1    1.74%    passed     98.63%
+ 139  LC123405.1    1.74%    passed     98.94%
+ 140  LC123407.1    1.74%    passed     98.86%
+ 141  LC123416.1    1.74%    passed     99.58%
+ 142  LC123415.1    1.74%    passed     99.46%
+ 143  LC123418.1    1.74%    passed     99.30%
+ 144  MZ330886.1    4.15%    passed     97.05%
+ 145  MZ330949.1    4.15%    passed     97.05%
+ 146  MZ330893.1    4.15%    passed     97.38%
+ 147  MZ330900.1    4.15%    passed     96.87%
+ 148  MK480589.1    5.50%    passed     96.44%
+ 149  LC327660.1    1.90%    passed     99.87%
+****  TOTAL         2.54%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: MZ330935.1 is identical to MZ330928.1 but kept for subsequent analysis
+NOTE: MZ330998.1 is identical to MZ330907.1 but kept for subsequent analysis
+NOTE: MZ330963.1 is identical to MZ330914.1 but kept for subsequent analysis
+NOTE: MZ330991.1 is identical to MZ330984.1 but kept for subsequent analysis
+NOTE: LC123468.1 is identical to LC123466.1 but kept for subsequent analysis
+NOTE: LC123448.1 is identical to LC123447.1 but kept for subsequent analysis
+NOTE: LC123455.1 is identical to LC123454.1 but kept for subsequent analysis
+NOTE: LC123410.1 is identical to LC603647.1 but kept for subsequent analysis
+NOTE: LC123404.1 is identical to LC123403.1 but kept for subsequent analysis
+NOTE: MZ330949.1 is identical to MZ330886.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000428915 secs using 80.44% CPU
+Identifying sites to remove: done in 0.00311494 secs using 95.6% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LC123469.1 (identical to LC123466.1) is ignored but added at the end
+Alignment was printed to results/aligned_fluC_PB1-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_fluC_PB1-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 2 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -30239.668
+2. Current log-likelihood: -26164.700
+3. Current log-likelihood: -26027.253
+4. Current log-likelihood: -26025.886
+Optimal log-likelihood: -26025.865
+Rate parameters:  A-C: 5.52572  A-G: 62.27921  A-T: 2.32560  C-G: 0.31333  C-T: 100.00000  G-T: 1.00000
+Base frequencies:  A: 0.382  C: 0.147  G: 0.205  T: 0.266
+Parameters optimization took 4 rounds (0.441 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0298529 secs using 98.92% CPU
+Computing ML distances took 0.030533 sec (of wall-clock time) 0.029758 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000415087 secs using 186.7% CPU
+Constructing RapidNJ tree: done in 0.000878096 secs using 187.7% CPU
+Computing RapidNJ tree took 0.001358 sec (of wall-clock time) 0.002494 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -9833.094
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.074285 secs using 197.7% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -9785.984
+Optimizing NNI: done in 1.10484 secs using 99.87% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -9785.984 / CPU time: 1.320
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -9785.984
+Optimal log-likelihood: -9785.982
+Rate parameters:  A-C: 3.38303  A-G: 29.48399  A-T: 1.79333  C-G: 0.69935  C-T: 48.17900  G-T: 1.00000
+Base frequencies:  A: 0.382  C: 0.147  G: 0.205  T: 0.266
+Parameters optimization took 1 rounds (0.022 sec)
+BEST SCORE FOUND : -9785.982
+Total tree length: 0.407
+
+Total number of iterations: 2
+CPU time used for tree search: 1.489 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.320 sec (0h:0m:1s)
+Total CPU time used: 2.044 sec (0h:0m:2s)
+Total wall-clock time used: 1.870 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_fluC_PB1-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_fluC_PB1-delim.fasta.treefile
+  Likelihood distances:          results/aligned_fluC_PB1-delim.fasta.mldist
+  Screen log file:               results/aligned_fluC_PB1-delim.fasta.log
+
+Date and Time: Wed Oct 19 16:11:31 2022

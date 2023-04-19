@@ -1,0 +1,35 @@
+{
+  "title": "Genetic diversity of influenza C",
+  "maintainers": [
+    {"name": "Katie Kistler"}
+  ],
+  "colorings": [
+     {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "country",
+      "title": "country",
+      "type": "categorical"
+    },
+    {
+      "key": "subtype",
+      "title": "Subtype",
+      "type": "categorical"
+    }
+  ],
+  "display_defaults": {
+    "color_by": "country",
+    "map_triplicate": true
+  },
+  "filters": [
+    "host"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ]
+}

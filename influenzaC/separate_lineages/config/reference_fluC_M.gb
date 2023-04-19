@@ -1,0 +1,99 @@
+LOCUS       NC_006312               1180 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Influenza C virus (C/Ann Arbor/1/50) M1, CM2 genes for matrix
+            protein, CM2 protein, complete cds.
+ACCESSION   NC_006312
+VERSION     NC_006312.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Influenza C virus (C/Ann Arbor/1/50)
+  ORGANISM  Influenza C virus (C/Ann Arbor/1/50)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Gammainfluenzavirus.
+REFERENCE   1
+  AUTHORS   Muraki,Y., Washioka,H., Sugawara,K., Matsuzaki,Y., Takashita,E. and
+            Hongo,S.
+  TITLE     Identification of an amino acid residue on influenza C virus M1
+            protein responsible for formation of the cord-like structures of
+            the virus
+  JOURNAL   J. Gen. Virol. 85 (PT 7), 1885-1893 (2004)
+   PUBMED   15218173
+REFERENCE   2  (bases 1 to 1180)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1180)
+  AUTHORS   Muraki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-NOV-2003) Contact:Yasushi Muraki Department of
+            Microbiology, Kanazawa Medical University School of Medicine;
+            Uchinada, Ishikawa 920-0293, Japan E-mail
+            :ymuraki@kanazawa-med.ac.jp Phone :81-76-218-8097 Fax
+            :81-76-286-3961
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AB126196.
+            On Oct 4, 2017 this sequence version replaced NC_006312.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1180
+                     /organism="Influenza C virus (C/Ann Arbor/1/50)"
+                     /mol_type="genomic RNA"
+                     /strain="C/Ann Arbor/1/50"
+                     /db_xref="taxon:11553"
+                     /segment="6"
+     gene            26..982
+                     /gene="M1"
+                     /locus_tag="FLUCVs6gp1"
+                     /db_xref="GeneID:3077361"
+     CDS             join(26..753,982)
+                     /gene="M1"
+                     /locus_tag="FLUCVs6gp1"
+                     /codon_start=1
+                     /product="matrix protein"
+                     /protein_id="YP_089657.1"
+                     /db_xref="GeneID:3077361"
+                     /translation="MAHEILIAETEAFLKNVAPETRTAIISAITGGKSACKSAAKLIK
+                     NEHLPLMSGEATTMHIVMRCLYPEIKPWKKASDMLNKATSSLKKSEGRDIRKQMKAAG
+                     DFLGVESMMKMRAFRDDQIMEMVEEVYDHPDDYTPDIRIGTITAWLRCKNKKSERYRS
+                     NVSESGRTALKIHEVRKASTAMNEIAGITGLGEEALSLQRQTESLAILCNHTFGSNIM
+                     RPHLEKAIKGVEGRVGEMGRMAMK"
+     gene            731..1150
+                     /gene="CM2"
+                     /locus_tag="FLUCVs6gp2"
+                     /db_xref="GeneID:3077362"
+     CDS             731..1150
+                     /gene="CM2"
+                     /locus_tag="FLUCVs6gp2"
+                     /codon_start=1
+                     /product="CM2 protein"
+                     /protein_id="YP_089658.1"
+                     /db_xref="GeneID:3077362"
+                     /translation="MGRMAMKWLVVIICFSITSQPASACNLKTCLKLFNNTDAVTVHC
+                     FNENQGYMLTLASLGLGIITMLYLLVKIIIELVNGFVLGRWERWCGDIKTTIMPEIDS
+                     MEKDIALSRERLDLGEDAPDETDNSPIPFSNDGIFEI"
+     intron          754..981
+                     /gene="M1"
+                     /locus_tag="FLUCVs6gp1"
+ORIGIN      
+        1 agcagaagca ggggatttca aaacaatggc acatgaaata ctgattgctg aaacagaggc
+       61 atttctaaaa aatgttgctc ctgagaccag gacagcaata atttcagcaa taacaggagg
+      121 aaaatcagcc tgcaaatcag cagctaaact gattaagaat gaacatcttc ccctaatgtc
+      181 tggagaagcc accacaatgc acatcgttat gaggtgctta tatcctgaaa taaaaccatg
+      241 gaaaaaggca agcgacatgc tgaataaagc aacttctagt ttgaaaaaat cagaaggaag
+      301 agacataaga aagcaaatga aagcagctgg agacttcttg ggagtggagt caatgatgaa
+      361 aatgagggcc ttcagagatg accaaataat ggaaatggtt gaagaagtat atgatcaccc
+      421 agacgactac acaccagaca tccgaatagg aacaatcaca gcttggttga gatgcaaaaa
+      481 caagaaaagt gaaagataca ggagtaatgt ctcagaaagt ggaagaacag ctttaaaaat
+      541 tcatgaagta agaaaagcca gcacagcaat gaacgagatt gctggtatta ctggccttgg
+      601 agaagaagca ctatctctcc aaagacaaac agaaagtttg gccatattat gtaatcacac
+      661 ttttggaagt aatataatga gaccccactt ggaaaaagca ataaaaggag ttgaaggcag
+      721 agttggagag atgggacgaa tggcaatgaa atggttagtt gttataatat gtttctctat
+      781 aacaagtcaa cctgcttctg cttgcaatct aaagacctgt ctaaaactat ttaacaatac
+      841 tgatgcggta actgttcatt gttttaatga aaaccaagga tacatgctaa cattagcctc
+      901 tttgggatta gggataatta ctatgttgta tttattagta aaaatcataa ttgaacttgt
+      961 caatggtttt gtgctcggca gatgggagag atggtgtgga gatataaaga ccacaattat
+     1021 gcctgaaatt gactcgatgg aaaaagatat tgccctttct agggagagac ttgacctggg
+     1081 agaggatgct cctgacgaaa ccgacaactc accaattcct ttttccaatg atggtatttt
+     1141 tgaaatttaa ttaccttgaa aaaatcccct tgctactgct
+//

@@ -1,0 +1,155 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_fluC_NP_Yamagata-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    762531 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct 24 17:43:25 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_fluC_NP_Yamagata-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00460291 secs using 78.52% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00215101 secs using 65.55% CPU
+Alignment has 62 sequences with 1807 columns, 263 distinct patterns
+154 parsimony-informative, 113 singleton sites, 1540 constant sites
+            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.09944e-05 secs using 90.34% CPU
+   1  AB126195.1    0.00%    passed     99.37%
+   2  LC123722.1    3.21%    passed     99.82%
+   3  LC123725.1    3.21%    passed     99.34%
+   4  AF170573.2    0.28%    passed     99.25%
+   5  FR671423.1    0.28%    passed     90.69%
+   6  LC123723.1    3.43%    passed     99.73%
+   7  LC123726.1    2.93%    passed     99.66%
+   8  AB684308.1    2.93%    passed     99.66%
+   9  LC123727.1    2.93%    passed     99.82%
+  10  LC123733.1    2.93%    passed     99.58%
+  11  AB684309.1    2.93%    passed     99.31%
+  12  LC123731.1    2.93%    passed     99.40%
+  13  LC123743.1    2.93%    passed     99.99%
+  14  LC123746.1    2.93%    passed     97.15%
+  15  LC123753.1    2.93%    passed     99.96%
+  16  LC123769.1    2.93%    passed     97.87%
+  17  LC123732.1    2.93%    passed     99.89%
+  18  LC123736.1    2.93%    passed     99.38%
+  19  LC123745.1    2.93%    passed     99.60%
+  20  LC123747.1    2.93%    passed     98.88%
+  21  LC123748.1    2.99%    passed     98.80%
+  22  M17700.1      0.66%    passed     93.07%
+  23  LC123751.1    2.93%    passed     98.31%
+  24  AB684311.1    2.93%    passed     89.56%
+  25  LC123728.1    2.93%    passed     99.88%
+  26  LC123729.1    2.93%    passed     97.89%
+  27  LC123730.1    2.93%    passed     97.01%
+  28  LC603643.1    2.93%    passed     94.03%
+  29  LC123744.1    2.93%    passed     94.03%
+  30  LC123734.1    2.93%    passed     98.25%
+  31  LC123737.1    2.93%    passed     97.28%
+  32  LC123738.1    2.93%    passed     97.28%
+  33  LC123739.1    2.93%    passed     97.28%
+  34  LC123741.1    2.93%    passed     99.72%
+  35  LC123750.1    2.93%    passed     99.66%
+  36  MK480588.1    9.24%    passed     97.59%
+  37  LC327663.1    2.93%    passed     99.52%
+  38  LC123758.1    2.93%    passed     99.96%
+  39  LC123782.1    2.93%    passed     99.66%
+  40  LC123786.1    2.93%    passed     99.67%
+  41  LC123789.1    2.93%    passed     99.86%
+  42  LC123790.1    2.93%    passed     99.31%
+  43  LC123793.1    2.93%    passed     99.22%
+  44  LC123779.1    2.93%    passed     99.90%
+  45  LC123788.1    2.93%    passed     99.77%
+  46  LC123787.1    2.93%    passed     98.67%
+  47  LC123791.1    2.93%    passed     98.80%
+  48  LC123792.1    2.93%    passed     98.45%
+  49  AB684316.1    2.93%    passed     98.45%
+  50  LC123802.1    2.93%    passed     98.72%
+  51  LC123768.1    2.93%    passed     99.96%
+  52  LC123770.1    2.93%    passed    100.00%
+  53  LC123775.1    2.93%    passed     99.80%
+  54  AB684314.1    2.93%    passed     99.58%
+  55  LC123795.1    2.93%    passed     99.89%
+  56  LC123798.1    2.93%    passed     99.96%
+  57  LC123801.1    2.93%    passed    100.00%
+  58  LC123800.1    2.93%    passed     99.93%
+  59  LC123754.1    2.93%    passed     99.96%
+  60  KT835358.1   10.18%    passed     99.51%
+  61  KT835360.1    9.80%    passed     99.23%
+  62  LC123724.1    2.93%    passed     99.39%
+****  TOTAL         3.11%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: LC123744.1 is identical to LC603643.1 but kept for subsequent analysis
+NOTE: LC123738.1 is identical to LC123737.1 but kept for subsequent analysis
+NOTE: AB684316.1 is identical to LC123792.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000138998 secs using 74.82% CPU
+Identifying sites to remove: done in 0.00143886 secs using 92.78% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: LC123739.1 (identical to LC123737.1) is ignored but added at the end
+Alignment was printed to results/aligned_fluC_NP_Yamagata-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_fluC_NP_Yamagata-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -10708.359
+2. Current log-likelihood: -9599.418
+3. Current log-likelihood: -9551.904
+4. Current log-likelihood: -9550.706
+Optimal log-likelihood: -9550.497
+Rate parameters:  A-C: 0.83957  A-G: 17.10756  A-T: 1.23283  C-G: 0.00010  C-T: 30.79869  G-T: 1.00000
+Base frequencies:  A: 0.376  C: 0.170  G: 0.214  T: 0.240
+Parameters optimization took 4 rounds (0.093 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00702095 secs using 80.36% CPU
+Computing ML distances took 0.007154 sec (of wall-clock time) 0.005738 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000133991 secs using 70.15% CPU
+Constructing RapidNJ tree: done in 0.000230074 secs using 93.45% CPU
+Computing RapidNJ tree took 0.000414 sec (of wall-clock time) 0.000338 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5104.956
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.025527 secs using 85.26% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -5077.120
+Optimizing NNI: done in 0.335023 secs using 68.25% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -5077.120 / CPU time: 0.410
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -5077.120
+Optimal log-likelihood: -5077.106
+Rate parameters:  A-C: 1.28916  A-G: 16.29424  A-T: 1.50128  C-G: 0.00010  C-T: 30.88957  G-T: 1.00000
+Base frequencies:  A: 0.376  C: 0.170  G: 0.214  T: 0.240
+Parameters optimization took 1 rounds (0.066 sec)
+BEST SCORE FOUND : -5077.106
+Total tree length: 0.215
+
+Total number of iterations: 2
+CPU time used for tree search: 0.286 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.411 sec (0h:0m:0s)
+Total CPU time used: 0.404 sec (0h:0m:0s)
+Total wall-clock time used: 0.625 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_fluC_NP_Yamagata-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_fluC_NP_Yamagata-delim.fasta.treefile
+  Likelihood distances:          results/aligned_fluC_NP_Yamagata-delim.fasta.mldist
+  Screen log file:               results/aligned_fluC_NP_Yamagata-delim.fasta.log
+
+Date and Time: Mon Oct 24 17:43:26 2022

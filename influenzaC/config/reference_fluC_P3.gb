@@ -1,0 +1,107 @@
+LOCUS       NC_006309               2183 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Influenza C virus (C/Ann Arbor/1/50) P3 gene for polymerase 3,
+            complete cds.
+ACCESSION   NC_006309
+VERSION     NC_006309.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Influenza C virus (C/Ann Arbor/1/50)
+  ORGANISM  Influenza C virus (C/Ann Arbor/1/50)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Gammainfluenzavirus.
+REFERENCE   1
+  AUTHORS   Muraki,Y., Washioka,H., Sugawara,K., Matsuzaki,Y., Takashita,E. and
+            Hongo,S.
+  TITLE     Identification of an amino acid residue on influenza C virus M1
+            protein responsible for formation of the cord-like structures of
+            the virus
+  JOURNAL   J. Gen. Virol. 85 (PT 7), 1885-1893 (2004)
+   PUBMED   15218173
+REFERENCE   2  (bases 1 to 2183)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2183)
+  AUTHORS   Muraki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-NOV-2003) Contact:Yasushi Muraki Department of
+            Microbiology, Kanazawa Medical University School of Medicine;
+            Uchinada, Ishikawa 920-0293, Japan E-mail
+            :ymuraki@kanazawa-med.ac.jp Phone :81-76-218-8097 Fax
+            :81-76-286-3961
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AB126193.
+            On Oct 4, 2017 this sequence version replaced NC_006309.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2183
+                     /organism="Influenza C virus (C/Ann Arbor/1/50)"
+                     /mol_type="genomic RNA"
+                     /strain="C/Ann Arbor/1/50"
+                     /db_xref="taxon:11553"
+                     /segment="3"
+     gene            22..2151
+                     /gene="P3"
+                     /locus_tag="FLUCVs3gp1"
+                     /db_xref="GeneID:3077358"
+     CDS             22..2151
+                     /gene="P3"
+                     /locus_tag="FLUCVs3gp1"
+                     /codon_start=1
+                     /product="polymerase 3"
+                     /protein_id="YP_089654.1"
+                     /db_xref="GeneID:3077358"
+                     /translation="MSKTFAEIAEAFLEPEAVRIAKEAVEEYGDHERKIIQIGIHFQV
+                     CCMFCDEYLSTNGSDRFVLIEGRKRGTAVSLQNELCKSYDLEPLPFLCDIFDREEKQF
+                     VEIGITRKADDSYFQSKFGKLGNSCKIFVFSYDGRLDKNCEGPMEEQKLRIFSFLATA
+                     ADFLRKENMFNEIFLPDNEETIIEMKKGKTFLKLRDESVPLPFQTYEQMKDYCEKFKG
+                     NPRELASKVSQMQSNIKLPIKHYEQNKFRQIRLPKGPMAPYTHKFLMEEAWMFTKISD
+                     PERSRAGEILIDFFKKGNLSAIRPKDKPLQGKYPIHYKNLWNQIKAAIADRTMVINEN
+                     DHSEFLGGIGRASKKIPEVSLTQDVITTEGLKQSENKLPEPRSFPKWFNAEWMWAIKD
+                     SDLTGWVPMAEYPPADNELEDYAEHLNKTMEGVLQGTNCAREMGKCILTVGALMTECR
+                     LFPGKIKVVPIYARSKERKSMQEGLPVPSEMDCLFGICVKSKSHLNKDDGMYTIITFE
+                     FSIREPNLEKHQKYTVFEAGHTTVRMKKGESVIGREVPLYLYCRTTALSKIKNDWLSK
+                     ARRCFITTMDTVETICLRESAKAEENLVEKTLNEKQMWIGKKNGELIAQPLREALRVQ
+                     LVQQFYFCIYNDSQLEGFCNEQKKILMALEGDKKNKSSFGFNPEGLLEKIEECLINNP
+                     MCLFMAQRLNELVIEASKRGAKFFKID"
+ORIGIN      
+        1 agcagaagca ggggatccga aatgtcaaaa acttttgccg aaatagcaga ggcttttcta
+       61 gagccagaag ctgtaagaat agccaaagaa gcagtagaag aatatgggga tcacgaaaga
+      121 aaaataatac aaattggaat acactttcaa gtttgctgca tgttctgtga tgagtatttg
+      181 agtacaaatg ggagtgatag atttgtgctc attgaaggaa gaaaaagagg aactgcagtg
+      241 tctttacaaa atgagctatg taaaagttat gatcttgaac cactaccttt tctttgtgac
+      301 atttttgaca gggaggaaaa acaattcgtt gaaattggaa taacaagaaa agcagatgat
+      361 agctattttc aatccaagtt tggtaaactt ggaaatagct gcaagatatt tgtattctcc
+      421 tatgatggaa gattagacaa aaattgtgaa ggccctatgg aggaacaaaa attgagaatt
+      481 ttcagttttc ttgcaactgc tgctgatttt cttaggaaag aaaacatgtt taacgaaatc
+      541 ttcttaccag acaatgaaga aaccatcatt gaaatgaaga aaggaaaaac atttctaaaa
+      601 ttgagggatg aaagtgttcc tttacctttt caaacttatg aacagatgaa agattactgc
+      661 gaaaaattta aaggaaatcc aagagaatta gcttctaaag taagccaaat gcaaagcaat
+      721 attaaattac caataaaaca ttatgagcag aataaatttc gacaaatacg tctaccaaag
+      781 ggaccaatgg caccctatac ccacaagttc ttaatggaag aagcatggat gtttacaaaa
+      841 attagtgatc cagaaagatc aagagctggt gaaattctca ttgatttctt caagaaaggg
+      901 aatctttctg caatcagacc caaagacaaa ccattacaag ggaaatatcc catacattac
+      961 aaaaatcttt ggaatcagat taaagcagca attgccgata gaaccatggt aataaatgaa
+     1021 aatgatcatt cagagtttct aggaggaatt ggaagagcct ctaaaaagat cccagaggtt
+     1081 tctctgacac aagatgtaat aacaacagaa ggattaaaac aatcagaaaa taagttacca
+     1141 gaaccaagat ctttccctaa atggttcaat gctgagtgga tgtgggcaat aaaagattct
+     1201 gaccttactg gatgggtgcc catggcagaa taccctcctg ctgataatga attggaagat
+     1261 tacgctgaac atctaaataa aaccatggaa ggggtcttgc aaggaacaaa ttgcgcaaga
+     1321 gaaatgggga aatgcattct tactgttggg gcactaatga ctgaatgtag actatttcct
+     1381 gggaaaataa aagtggtgcc catatatgct agaagtaaag aaaggaaatc aatgcaagaa
+     1441 gggcttccgg tgccctcaga aatggactgt ttatttggta tatgcgtcaa gtcaaaatca
+     1501 catttaaaca aggatgatgg aatgtacaca ataataacat ttgaattctc aataagagag
+     1561 cctaatttag aaaaacatca aaaatatact gtatttgaag caggacacac aacagttaga
+     1621 atgaagaaag gagagtcagt tattggaaga gaagtccctc tttatttata ctgtaggaca
+     1681 actgcccttt ccaaaatcaa gaatgactgg ctatcaaagg ctagaagatg tttcatcaca
+     1741 actatggaca cagtggaaac catatgtcta agagagtcag caaaggctga agaaaatcta
+     1801 gttgaaaaga cattaaacga aaaacagatg tggattggga agaaaaatgg agagttaatt
+     1861 gctcaacctt taagagaagc tttaagagta cagctggtac aacaattcta tttctgcatc
+     1921 tataatgaca gtcaattaga aggcttttgt aatgagcaga agaaaatcct aatggctctt
+     1981 gaaggtgaca agaaaaataa atcatctttt ggatttaatc cagaaggatt attagaaaag
+     2041 attgaagagt gtcttataaa taatccgatg tgccttttta tggctcaaag gttgaatgaa
+     2101 cttgtaattg aggcctcaaa aagaggcgct aagtttttca aaattgattg atcattataa
+     2161 gaaaaaatcc ccttgctact gct
+//

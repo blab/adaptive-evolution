@@ -1,0 +1,134 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.attlocal.net (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_hepatitisA_IB-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    682704 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Nov 29 11:48:26 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_hepatitisA_IB-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00711799 secs using 85.47% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00609612 secs using 74.31% CPU
+Alignment has 48 sequences with 7478 columns, 782 distinct patterns
+830 parsimony-informative, 482 singleton sites, 6166 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 7.48634e-05 secs using 88.16% CPU
+   1  M14707      0.00%    passed     99.62%
+   2  KX343014    0.94%    passed     96.10%
+   3  KX343015    0.94%    passed     96.10%
+   4  KX343016    1.78%    passed     98.46%
+   5  KX343018    2.27%    passed     97.86%
+   6  KX343017    1.79%    passed     98.95%
+   7  KP879217    0.03%    passed     99.87%
+   8  AF268396    0.13%    passed     99.48%
+   9  M16632      0.07%    passed     99.54%
+  10  KF569906    1.20%    passed     99.35%
+  11  MT181522    0.94%    passed     99.24%
+  12  KX035096    0.07%    passed     99.95%
+  13  M59808      0.92%    passed     99.92%
+  14  KP879216    0.07%    passed     99.85%
+  15  KF724017    0.98%    passed     98.49%
+  16  KF724018    0.98%    passed     98.09%
+  17  KF724019    0.98%    passed     97.71%
+  18  KF724023    0.98%    passed     97.15%
+  19  KF724020    0.98%    passed     99.11%
+  20  KF724021    0.98%    passed     98.99%
+  21  KF724022    0.98%    passed     98.95%
+  22  M59809      0.98%    passed     97.52%
+  23  M59810      0.76%    passed     98.72%
+  24  MK829707    0.04%    passed     99.21%
+  25  DQ646426    0.11%    passed     99.94%
+  26  MN746031    3.96%    passed     77.96%
+  27  MN746032    3.96%    passed     78.09%
+  28  KX228694    2.07%    passed     96.20%
+  29  MN832785    2.09%    passed     98.35%
+  30  MH577308    0.23%    passed     99.87%
+  31  MH577310    0.24%    passed     99.85%
+  32  MH577311    0.27%    passed     99.86%
+  33  MH577309    0.23%    passed     99.70%
+  34  MH577312    0.27%    passed     99.72%
+  35  MH577313    0.24%    passed     99.71%
+  36  MH577314    0.67%    passed     99.49%
+  37  KY003229    1.28%    passed     97.80%
+  38  LC515201    0.92%    passed    100.00%
+  39  MG546668    3.38%    passed     98.94%
+  40  EF406358    0.91%    passed     95.14%
+  41  EF406359    0.92%    passed     93.11%
+  42  EF406360    0.92%    passed     94.93%
+  43  EF406363    0.92%    passed     94.93%
+  44  EF406361    0.92%    passed     94.31%
+  45  EF406362    0.92%    passed     95.16%
+  46  AF314208    0.92%    passed     96.14%
+  47  M20273      0.12%    passed     94.30%
+  48  LC128713    0.88%    passed     98.43%
+****  TOTAL       0.98%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KX343015 is identical to KX343014 but kept for subsequent analysis
+NOTE: EF406363 is identical to EF406360 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000159025 secs using 80.49% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -51119.559
+2. Current log-likelihood: -46074.640
+3. Current log-likelihood: -45298.262
+4. Current log-likelihood: -45204.284
+Optimal log-likelihood: -45204.281
+Rate parameters:  A-C: 2.04309  A-G: 18.84759  A-T: 2.81756  C-G: 1.60663  C-T: 39.30586  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.161  G: 0.219  T: 0.328
+Parameters optimization took 4 rounds (0.122 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00477004 secs using 89.08% CPU
+Computing ML distances took 0.004942 sec (of wall-clock time) 0.004391 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 7.08103e-05 secs using 177.9% CPU
+Constructing RapidNJ tree: done in 0.000149012 secs using 172.5% CPU
+Computing RapidNJ tree took 0.000261 sec (of wall-clock time) 0.000445 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -22587.121
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.033396 secs using 174.5% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -22542.492
+Optimizing NNI: done in 0.265642 secs using 142.5% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -22542.492 / CPU time: 0.340
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -22542.492
+Optimal log-likelihood: -22542.490
+Rate parameters:  A-C: 1.76874  A-G: 15.02687  A-T: 2.07858  C-G: 1.56335  C-T: 33.14354  G-T: 1.00000
+Base frequencies:  A: 0.293  C: 0.161  G: 0.219  T: 0.328
+Parameters optimization took 1 rounds (0.009 sec)
+BEST SCORE FOUND : -22542.490
+Total tree length: 0.287
+
+Total number of iterations: 2
+CPU time used for tree search: 0.509 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.340 sec (0h:0m:0s)
+Total CPU time used: 0.670 sec (0h:0m:0s)
+Total wall-clock time used: 0.504 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_hepatitisA_IB-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_hepatitisA_IB-delim.fasta.treefile
+  Likelihood distances:          results/aligned_hepatitisA_IB-delim.fasta.mldist
+  Screen log file:               results/aligned_hepatitisA_IB-delim.fasta.log
+
+Date and Time: Tue Nov 29 11:48:27 2022

@@ -1,0 +1,1859 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Genetic diversity of influenza C",
+    "updated": "2022-10-24",
+    "maintainers": [
+      {
+        "name": "Katie Kistler"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "country",
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "FLUCVs2gp1": {
+        "end": 2282,
+        "seqid": "config/reference_fluC_PB1.gb",
+        "start": 18,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 2363,
+        "seqid": "config/reference_fluC_PB1.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "colorings": [
+      {
+        "key": "num_date",
+        "title": "Sampling date",
+        "type": "continuous"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "country",
+        "title": "country",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "host"
+    ],
+    "panels": [
+      "tree",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000005",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1931.7226794804162,
+        "confidence": [
+          1929.5312955873171,
+          1938.39610459718
+        ]
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000029",
+        "node_attrs": {
+          "div": 0.00047404996698704256,
+          "num_date": {
+            "value": 1932.5264556931024,
+            "confidence": [
+              1930.7835612930826,
+              1938.6687646957478
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "NODE_0000006",
+            "node_attrs": {
+              "div": 0.0013206860592310352,
+              "num_date": {
+                "value": 1936.8981554364607,
+                "confidence": [
+                  1932.8404354849986,
+                  1941.3254282687499
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G989A",
+                  "G1547A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "LC123386.1",
+                "node_attrs": {
+                  "div": 0.006427708633019603,
+                  "num_date": {
+                    "value": 1954.9986301369863,
+                    "confidence": [
+                      1954.0013698630137,
+                      1954.9986301369863
+                    ]
+                  },
+                  "host": {
+                    "value": "Homo sapiens LC123386.1"
+                  },
+                  "country": {
+                    "value": "USA"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A119T",
+                      "T143C",
+                      "G218A",
+                      "A299C",
+                      "A572G",
+                      "G584A",
+                      "G725A",
+                      "A1112C",
+                      "T1295C",
+                      "A1391G",
+                      "A1550T",
+                      "G2114A"
+                    ],
+                    "FLUCVs2gp1": [
+                      "M189I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs2gp1: M189I"
+                  }
+                }
+              },
+              {
+                "name": "LC123392.1",
+                "node_attrs": {
+                  "div": 0.014160233469960194,
+                  "num_date": {
+                    "value": 1974.9986301369863,
+                    "confidence": [
+                      1974.103867744724,
+                      1974.9986301369863
+                    ]
+                  },
+                  "host": {
+                    "value": "Homo sapiens LC123392.1"
+                  },
+                  "country": {
+                    "value": "Japan"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A185G",
+                      "G302A",
+                      "G338A",
+                      "C383T",
+                      "A398G",
+                      "G455A",
+                      "T467C",
+                      "T521C",
+                      "G589A",
+                      "G803A",
+                      "C830T",
+                      "A980G",
+                      "G1064A",
+                      "A1085G",
+                      "A1109G",
+                      "A1169G",
+                      "C1220T",
+                      "A1229G",
+                      "C1263T",
+                      "A1292G",
+                      "C1311T",
+                      "A1499G",
+                      "T1715C",
+                      "C1898T",
+                      "C2025T",
+                      "T2033C",
+                      "T2093C",
+                      "A2096G",
+                      "G2135A",
+                      "C2216T"
+                    ],
+                    "FLUCVs2gp1": [
+                      "R191K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs2gp1: R191K"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "div": 0.0025931173567236183,
+              "num_date": {
+                "value": 1937.5296635352893,
+                "confidence": [
+                  1934.9054259694917,
+                  1941.8851702628544
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A1667G",
+                  "G1778A",
+                  "C2081T",
+                  "C2216T",
+                  "C2225T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000000",
+                "node_attrs": {
+                  "div": 0.005561918312615696,
+                  "num_date": {
+                    "value": 1942.8726241592083,
+                    "confidence": [
+                      1940.5716224377084,
+                      1946.1620743327844
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T278C",
+                      "A290G",
+                      "T959C",
+                      "C1157T",
+                      "T1158C",
+                      "A1433G",
+                      "G2006A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "AB126192.2",
+                    "node_attrs": {
+                      "div": 0.006408352007059186,
+                      "num_date": {
+                        "value": 1950.0013698630137,
+                        "confidence": [
+                          1950.0013698630137,
+                          1950.8848946200617
+                        ]
+                      },
+                      "host": {
+                        "value": "AB126192.2"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C875T",
+                          "A1199G"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000001",
+                    "node_attrs": {
+                      "div": 0.009808478449061415,
+                      "num_date": {
+                        "value": 1948.9015460901092,
+                        "confidence": [
+                          1947.0796418521893,
+                          1949.9162101287623
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C59T",
+                          "A194G",
+                          "G248T",
+                          "G323A",
+                          "G1720A",
+                          "A1774G",
+                          "T1934C",
+                          "T2009C",
+                          "G2090A",
+                          "A2165G"
+                        ],
+                        "FLUCVs2gp1": [
+                          "E77D",
+                          "R568K",
+                          "N586S",
+                          "M691I"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs2gp1: E77D, R568K, N586S, M691I"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "FR671421.1",
+                        "node_attrs": {
+                          "div": 0.011078442969076509,
+                          "num_date": {
+                            "value": 1950.9986301369863,
+                            "confidence": [
+                              1950.1607715177624,
+                              1950.9986301369863
+                            ]
+                          },
+                          "host": {
+                            "value": "FR671421.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G1049A",
+                              "A1283G",
+                              "A1763G"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "M28060.1",
+                        "node_attrs": {
+                          "div": 0.010654729001806319,
+                          "num_date": {
+                            "value": 1950.9986301369863,
+                            "confidence": [
+                              1950.1273676505482,
+                              1950.9986301369863
+                            ]
+                          },
+                          "host": {
+                            "value": "M28060.1"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A12G",
+                              "T2351C"
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000003",
+                "node_attrs": {
+                  "div": 0.004713119184049033,
+                  "num_date": {
+                    "value": 1947.0379358468929,
+                    "confidence": [
+                      1945.3452157581585,
+                      1947.9836192887037
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G558A",
+                      "A728G",
+                      "G1049A",
+                      "G1526A",
+                      "T1916C"
+                    ],
+                    "FLUCVs2gp1": [
+                      "V181I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs2gp1: V181I"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "LC123385.1",
+                    "node_attrs": {
+                      "div": 0.004713119184049059,
+                      "num_date": {
+                        "value": 1947.9986301369863,
+                        "confidence": [
+                          1947.117748385594,
+                          1947.9986301369863
+                        ]
+                      },
+                      "host": {
+                        "value": "Homo sapiens LC123385.1"
+                      },
+                      "country": {
+                        "value": "USA"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000004",
+                    "node_attrs": {
+                      "div": 0.0055603115844734905,
+                      "num_date": {
+                        "value": 1963.7661194857237,
+                        "confidence": [
+                          1958.6051396598916,
+                          1965.5031946575707
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G568A",
+                          "A582G"
+                        ],
+                        "FLUCVs2gp1": [
+                          "R184K",
+                          "M189V"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs2gp1: R184K, M189V"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "LC123389.1",
+                        "node_attrs": {
+                          "div": 0.0055603115844735165,
+                          "num_date": {
+                            "value": 1967.0013698630137,
+                            "confidence": [
+                              1967.0013698630137,
+                              1967.882467549661
+                            ]
+                          },
+                          "host": {
+                            "value": "Homo sapiens LC123389.1"
+                          },
+                          "country": {
+                            "value": "France"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "AF170575.2",
+                        "node_attrs": {
+                          "div": 0.006831754727206948,
+                          "num_date": {
+                            "value": 1966.9986301369863,
+                            "confidence": [
+                              1966.1069234961692,
+                              1966.9986301369863
+                            ]
+                          },
+                          "host": {
+                            "value": "AF170575.2"
+                          },
+                          "country": {
+                            "value": "South Africa"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G821A",
+                              "T2093C",
+                              "A2268C"
+                            ],
+                            "FLUCVs2gp1": [
+                              "I751L"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "FLUCVs2gp1: I751L"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000007",
+        "node_attrs": {
+          "div": 0.0007964945749813961,
+          "num_date": {
+            "value": 1935.2495708817573,
+            "confidence": [
+              1931.4832710536975,
+              1941.2591453056043
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C998T",
+              "G1214A"
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "LC123387.1",
+            "node_attrs": {
+              "div": 0.009766903168571015,
+              "num_date": {
+                "value": 1964.9986338797814,
+                "confidence": [
+                  1964.0360496067315,
+                  1964.9986338797814
+                ]
+              },
+              "host": {
+                "value": "Homo sapiens LC123387.1"
+              },
+              "country": {
+                "value": "Japan"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C125T",
+                  "T197C",
+                  "T344C",
+                  "C434T",
+                  "G614A",
+                  "G854A",
+                  "G872A",
+                  "T881C",
+                  "C1010T",
+                  "A1046T",
+                  "T1349C",
+                  "T1379C",
+                  "C1385T",
+                  "T1442G",
+                  "T1730C",
+                  "G1754A",
+                  "C1820T",
+                  "G2102C",
+                  "G2153A",
+                  "T2294C",
+                  "A2337G"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "div": 0.0033411463292079427,
+              "num_date": {
+                "value": 1945.4974303235272,
+                "confidence": [
+                  1935.4677684732565,
+                  1949.0415812233148
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C473T",
+                  "C701T",
+                  "T959C",
+                  "A1892G",
+                  "G2030A",
+                  "G2102A",
+                  "A2165G"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000009",
+                "node_attrs": {
+                  "div": 0.004611685528751631,
+                  "num_date": {
+                    "value": 1949.0524282764986,
+                    "confidence": [
+                      1937.83716841337,
+                      1951.4899524168977
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A1580G",
+                      "T1880C",
+                      "T1937C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "div": 0.017878338399949022,
+                      "num_date": {
+                        "value": 1977.0249508548875,
+                        "confidence": [
+                          1974.8060974534742,
+                          1978.9126681145956
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T174A",
+                          "A213C",
+                          "G311A",
+                          "C446T",
+                          "A491G",
+                          "T527C",
+                          "A539G",
+                          "A562G",
+                          "A572G",
+                          "A623T",
+                          "C653T",
+                          "T674C",
+                          "C707T",
+                          "T776C",
+                          "A860G",
+                          "A1106G",
+                          "A1310G",
+                          "T1370C",
+                          "G1547A",
+                          "G1613A",
+                          "T1685C",
+                          "G1733A",
+                          "G1805A",
+                          "C1895T",
+                          "T1934C",
+                          "G1964A",
+                          "G2005A",
+                          "G2006A",
+                          "G2114A",
+                          "T2147C",
+                          "G2153A"
+                        ],
+                        "FLUCVs2gp1": [
+                          "S53T",
+                          "K182R",
+                          "R663K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "FLUCVs2gp1: S53T, K182R, R663K"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "LC123408.1",
+                        "node_attrs": {
+                          "div": 0.021702105875774442,
+                          "num_date": {
+                            "value": 1982.9986301369863,
+                            "confidence": [
+                              1982.1522899144893,
+                              1982.9986301369863
+                            ]
+                          },
+                          "host": {
+                            "value": "Homo sapiens LC123408.1"
+                          },
+                          "country": {
+                            "value": "Japan"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T281C",
+                              "G388T",
+                              "A598G",
+                              "G803A",
+                              "G857A",
+                              "T1442C",
+                              "C1661T",
+                              "G1811A",
+                              "G2248A"
+                            ],
+                            "FLUCVs2gp1": [
+                              "R124I",
+                              "K194R",
+                              "R744K"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "FLUCVs2gp1: R124I, K194R, R744K"
+                          }
+                        }
+                      },
+                      {
+                        "name": "LC123398.1",
+                        "node_attrs": {
+                          "div": 0.017878338399949047,
+                          "num_date": {
+                            "value": 1979.0013698630137,
+                            "confidence": [
+                              1979.0013698630137,
+                              1979.867441562987
+                            ]
+                          },
+                          "host": {
+                            "value": "Homo sapiens LC123398.1"
+                          },
+                          "country": {
+                            "value": "Greece"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "LC123401.1",
+                        "node_attrs": {
+                          "div": 0.01914923205502799,
+                          "num_date": {
+                            "value": 1980.9986338797814,
+                            "confidence": [
+                              1980.1108383312953,
+                              1980.9986338797814
+                            ]
+                          },
+                          "host": {
+                            "value": "Homo sapiens LC123401.1"
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T197C",
+                              "G971A",
+                              "C1817T"
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "div": 0.0071560053424923765,
+                      "num_date": {
+                        "value": 1957.3267187613574,
+                        "confidence": [
+                          1944.34494570023,
+                          1961.2821136605087
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C83T",
+                          "A401C",
+                          "A407G",
+                          "C755A",
+                          "G989A",
+                          "T1475C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "LC123390.1",
+                        "node_attrs": {
+                          "div": 0.010550629906099103,
+                          "num_date": {
+                            "value": 1969.1673051733017,
+                            "confidence": [
+                              1969.0013698630137,
+                              1969.9986301369863
+                            ]
+                          },
+                          "host": {
+                            "value": "Homo sapiens LC123390.1"
+                          },
+                          "country": {
+                            "value": "USA"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A491G",
+                              "T602C",
+                              "A773G",
+                              "G815A",
+                              "C896T",
+                              "A1004G",
+                              "T1043C",
+                              "C1919T"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "LC123409.1",
+                        "node_attrs": {
+                          "div": 0.014823140147505113,
+                          "num_date": {
+                            "value": 1983.9986301369863,
+                            "confidence": [
+                              1983.0851521879526,
+                              1983.9986301369863
+                            ]
+                          },
+                          "host": {
+                            "value": "Homo sapiens LC123409.1"
+                          },
+                          "country": {
+                            "value": "United Kingdom"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T230C",
+                              "A482G",
+                              "T659C",
+                              "G666A",
+                              "G725A",
+                              "A734G",
+                              "T776C",
+                              "G898A",
+                              "G899A",
+                              "C1181T",
+                              "T1394C",
+                              "G1466A",
+                              "A1544G",
+                              "A1655G",
+                              "C2000T",
+                              "G2063A",
+                              "G2165A",
+                              "A2186G"
+                            ],
+                            "FLUCVs2gp1": [
+                              "D217N",
+                              "R294K"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "FLUCVs2gp1: D217N, R294K"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000014",
+                        "node_attrs": {
+                          "div": 0.0075791250420530155,
+                          "num_date": {
+                            "value": 1959.0532295184544,
+                            "confidence": [
+                              1945.5338737709399,
+                              1962.7089904649358
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G302A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "LC123388.1",
+                            "node_attrs": {
+                              "div": 0.010124434444214628,
+                              "num_date": {
+                                "value": 1967.9986301369863,
+                                "confidence": [
+                                  1967.0013698630137,
+                                  1967.9986301369863
+                                ]
+                              },
+                              "host": {
+                                "value": "Homo sapiens LC123388.1"
+                              },
+                              "country": {
+                                "value": "South Africa"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G711A",
+                                  "A1229G",
+                                  "T1496C",
+                                  "G1512A",
+                                  "A1787G",
+                                  "G2153A"
+                                ],
+                                "FLUCVs2gp1": [
+                                  "D232N",
+                                  "D499N"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "FLUCVs2gp1: D232N, D499N"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000015",
+                            "node_attrs": {
+                              "div": 0.013965146084293497,
+                              "num_date": {
+                                "value": 1976.1589903061424,
+                                "confidence": [
+                                  1971.971996912113,
+                                  1978.4733408604445
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T134C",
+                                  "G503A",
+                                  "A509G",
+                                  "A623T",
+                                  "C653T",
+                                  "T1058C",
+                                  "C1157T",
+                                  "G1547A",
+                                  "A1598G",
+                                  "T1649A",
+                                  "C1820T",
+                                  "G1892A",
+                                  "G2063A",
+                                  "T2324A",
+                                  "T2336C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "LC123397.1",
+                                "node_attrs": {
+                                  "div": 0.014812758364510155,
+                                  "num_date": {
+                                    "value": 1979.0013698630137,
+                                    "confidence": [
+                                      1979.0013698630137,
+                                      1979.8938868272166
+                                    ]
+                                  },
+                                  "host": {
+                                    "value": "Homo sapiens LC123397.1"
+                                  },
+                                  "country": {
+                                    "value": "USA"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G1265A",
+                                      "A1436G"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000016",
+                                "node_attrs": {
+                                  "div": 0.015236767689149342,
+                                  "num_date": {
+                                    "value": 1978.7801981535952,
+                                    "confidence": [
+                                      1976.7157642178604,
+                                      1981.275537498825
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G137A",
+                                      "T425A",
+                                      "C830T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "LC123402.1",
+                                    "node_attrs": {
+                                      "div": 0.016509360359009264,
+                                      "num_date": {
+                                        "value": 1981.9986301369863,
+                                        "confidence": [
+                                          1981.1270479018726,
+                                          1981.9986301369863
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "Homo sapiens LC123402.1"
+                                      },
+                                      "country": {
+                                        "value": "Japan"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T341C",
+                                          "G589A",
+                                          "C905T"
+                                        ],
+                                        "FLUCVs2gp1": [
+                                          "R191K"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "FLUCVs2gp1: R191K"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000017",
+                                    "node_attrs": {
+                                      "div": 0.015660366790912705,
+                                      "num_date": {
+                                        "value": 1981.661658333207,
+                                        "confidence": [
+                                          1979.1704525614196,
+                                          1984.5226133535682
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C1634T"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "LC123414.1",
+                                        "node_attrs": {
+                                          "div": 0.018635311216354925,
+                                          "num_date": {
+                                            "value": 1992.8838797814208,
+                                            "confidence": [
+                                              1992.8838797814208,
+                                              1992.8838797814208
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "Homo sapiens LC123414.1"
+                                          },
+                                          "country": {
+                                            "value": "Japan"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C200T",
+                                              "G243A",
+                                              "T371C",
+                                              "C383T",
+                                              "T497C",
+                                              "G899A",
+                                              "C2216T"
+                                            ],
+                                            "FLUCVs2gp1": [
+                                              "D76N"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "FLUCVs2gp1: D76N"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "LC123413.1",
+                                        "node_attrs": {
+                                          "div": 0.016933725367654785,
+                                          "num_date": {
+                                            "value": 1991.1520547945206,
+                                            "confidence": [
+                                              1991.1520547945206,
+                                              1991.1520547945206
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "Homo sapiens LC123413.1"
+                                          },
+                                          "country": {
+                                            "value": "Japan"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G509A",
+                                              "T545A",
+                                              "G1466A"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "LC123411.1",
+                                        "node_attrs": {
+                                          "div": 0.017783663888241416,
+                                          "num_date": {
+                                            "value": 1988.9467213114754,
+                                            "confidence": [
+                                              1988.9467213114754,
+                                              1988.9467213114754
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "Homo sapiens LC123411.1"
+                                          },
+                                          "country": {
+                                            "value": "Japan"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C59T",
+                                              "A807G",
+                                              "T1013A",
+                                              "T1298C",
+                                              "C2225T"
+                                            ],
+                                            "FLUCVs2gp1": [
+                                              "I264V"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "FLUCVs2gp1: I264V"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000019",
+                "node_attrs": {
+                  "div": 0.007165507828245803,
+                  "num_date": {
+                    "value": 1961.6061164194089,
+                    "confidence": [
+                      1955.5465374707223,
+                      1967.5383829217678
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C56T",
+                      "C59A",
+                      "C125T",
+                      "G287A",
+                      "A299C",
+                      "A678G",
+                      "A1412G",
+                      "G1415A",
+                      "G1466A"
+                    ],
+                    "FLUCVs2gp1": [
+                      "I221V"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "FLUCVs2gp1: I221V"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000020",
+                    "node_attrs": {
+                      "div": 0.008013062183731962,
+                      "num_date": {
+                        "value": 1968.5723119907261,
+                        "confidence": [
+                          1963.2723223547093,
+                          1971.9836192887037
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A632G",
+                          "C1385T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "LC123391.1",
+                        "node_attrs": {
+                          "div": 0.008013062183731988,
+                          "num_date": {
+                            "value": 1971.0013698630137,
+                            "confidence": [
+                              1971.0013698630137,
+                              1971.865501526143
+                            ]
+                          },
+                          "host": {
+                            "value": "Homo sapiens LC123391.1"
+                          },
+                          "country": {
+                            "value": "Japan"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000021",
+                        "node_attrs": {
+                          "div": 0.010134067052667882,
+                          "num_date": {
+                            "value": 1974.5389553161028,
+                            "confidence": [
+                              1971.0832727409993,
+                              1975.7068984988236
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A104C",
+                              "A359G",
+                              "G725A",
+                              "A965G",
+                              "T1559C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "LC123394.1",
+                            "node_attrs": {
+                              "div": 0.010981828892579143,
+                              "num_date": {
+                                "value": 1976.9986338797814,
+                                "confidence": [
+                                  1976.1096406544252,
+                                  1976.9986338797814
+                                ]
+                              },
+                              "host": {
+                                "value": "Homo sapiens LC123394.1"
+                              },
+                              "country": {
+                                "value": "Japan"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G395A",
+                                  "G596A"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "LC123395.1",
+                            "node_attrs": {
+                              "div": 0.011406296592276346,
+                              "num_date": {
+                                "value": 1977.9986301369863,
+                                "confidence": [
+                                  1977.1077302266547,
+                                  1977.9986301369863
+                                ]
+                              },
+                              "host": {
+                                "value": "Homo sapiens LC123395.1"
+                              },
+                              "country": {
+                                "value": "Japan"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C1121T",
+                                  "C1676T",
+                                  "G1853A"
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000022",
+                    "node_attrs": {
+                      "div": 0.007589087729047483,
+                      "num_date": {
+                        "value": 1963.6942157737603,
+                        "confidence": [
+                          1957.4274191103698,
+                          1968.3272031623985
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A1118G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000023",
+                        "node_attrs": {
+                          "div": 0.00843645456494605,
+                          "num_date": {
+                            "value": 1968.5873963086099,
+                            "confidence": [
+                              1961.7382983513016,
+                              1971.709909694224
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A1655G",
+                              "G2165A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "LC123399.1",
+                            "node_attrs": {
+                              "div": 0.010133846746557464,
+                              "num_date": {
+                                "value": 1979.0013698630137,
+                                "confidence": [
+                                  1979.0013698630137,
+                                  1979.8840056478216
+                                ]
+                              },
+                              "host": {
+                                "value": "Homo sapiens LC123399.1"
+                              },
+                              "country": {
+                                "value": "Japan"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G725A",
+                                  "T1076A",
+                                  "A1124G",
+                                  "A2012G"
+                                ],
+                                "FLUCVs2gp1": [
+                                  "I369M"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "FLUCVs2gp1: I369M"
+                              }
+                            }
+                          },
+                          {
+                            "name": "LC123396.1",
+                            "node_attrs": {
+                              "div": 0.012686433262683986,
+                              "num_date": {
+                                "value": 1978.9986301369863,
+                                "confidence": [
+                                  1978.1141347995092,
+                                  1978.9986301369863
+                                ]
+                              },
+                              "host": {
+                                "value": "Homo sapiens LC123396.1"
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C269T",
+                                  "A557G",
+                                  "C653T",
+                                  "A1481G",
+                                  "T1523C",
+                                  "A1862G",
+                                  "A1877G",
+                                  "A1970G",
+                                  "G2005A",
+                                  "A2027G"
+                                ],
+                                "FLUCVs2gp1": [
+                                  "R663K"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "FLUCVs2gp1: R663K"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000024",
+                        "node_attrs": {
+                          "div": 0.008861278167597984,
+                          "num_date": {
+                            "value": 1966.7589256985234,
+                            "confidence": [
+                              1962.335336666101,
+                              1972.735727632654
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A104C",
+                              "G716A",
+                              "T887A"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "LC123393.1",
+                            "node_attrs": {
+                              "div": 0.011408244173622614,
+                              "num_date": {
+                                "value": 1976.1792354402428,
+                                "confidence": [
+                                  1976.0013661202186,
+                                  1976.9986338797814
+                                ]
+                              },
+                              "host": {
+                                "value": "Homo sapiens LC123393.1"
+                              },
+                              "country": {
+                                "value": "USA"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G237A",
+                                  "A598G",
+                                  "T602C",
+                                  "A1079G",
+                                  "C1311T",
+                                  "T1583C"
+                                ],
+                                "FLUCVs2gp1": [
+                                  "D74N",
+                                  "K194R"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "FLUCVs2gp1: D74N, K194R"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000025",
+                            "node_attrs": {
+                              "div": 0.011835146009954407,
+                              "num_date": {
+                                "value": 1976.1665727479196,
+                                "confidence": [
+                                  1971.1333863871969,
+                                  1980.910551556634
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A152G",
+                                  "G725A",
+                                  "T833G",
+                                  "G872A",
+                                  "G899A",
+                                  "C1220A",
+                                  "T1628C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "NODE_0000026",
+                                "node_attrs": {
+                                  "div": 0.01565819562405108,
+                                  "num_date": {
+                                    "value": 1989.3814015759024,
+                                    "confidence": [
+                                      1984.7938286039312,
+                                      1992.3798022689925
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A209G",
+                                      "T335C",
+                                      "G503A",
+                                      "T629C",
+                                      "T932A",
+                                      "T1730C",
+                                      "A1758G",
+                                      "C2025T",
+                                      "A2255G"
+                                    ],
+                                    "FLUCVs2gp1": [
+                                      "I581V"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "FLUCVs2gp1: I581V"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "LC123419.1",
+                                    "node_attrs": {
+                                      "div": 0.01650581348415426,
+                                      "num_date": {
+                                        "value": 1993.3794520547945,
+                                        "confidence": [
+                                          1993.3794520547945,
+                                          1993.3794520547945
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "Homo sapiens LC123419.1"
+                                      },
+                                      "country": {
+                                        "value": "Japan"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G195A",
+                                          "C1263T"
+                                        ],
+                                        "FLUCVs2gp1": [
+                                          "V60I"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "FLUCVs2gp1: V60I"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "LC123438.1",
+                                    "node_attrs": {
+                                      "div": 0.021186370156847392,
+                                      "num_date": {
+                                        "value": 2004.405737704918,
+                                        "confidence": [
+                                          2004.405737704918,
+                                          2004.405737704918
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "Homo sapiens LC123438.1"
+                                      },
+                                      "country": {
+                                        "value": "Japan"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C161T",
+                                          "A479G",
+                                          "G833A",
+                                          "T848C",
+                                          "A962G",
+                                          "T1367C",
+                                          "C1385T",
+                                          "A1616G",
+                                          "C1631T",
+                                          "T1652C",
+                                          "A1973G",
+                                          "T1997C",
+                                          "G2114A"
+                                        ]
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000027",
+                                "node_attrs": {
+                                  "div": 0.012682733620096328,
+                                  "num_date": {
+                                    "value": 1978.5440936554862,
+                                    "confidence": [
+                                      1974.797048674505,
+                                      1984.5181207050257
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G353A",
+                                      "T425C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "LC123417.1",
+                                    "node_attrs": {
+                                      "div": 0.017365068652956228,
+                                      "num_date": {
+                                        "value": 1993.0890410958905,
+                                        "confidence": [
+                                          1993.0890410958905,
+                                          1993.0890410958905
+                                        ]
+                                      },
+                                      "host": {
+                                        "value": "Homo sapiens LC123417.1"
+                                      },
+                                      "country": {
+                                        "value": "Japan"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C83T",
+                                          "G323A",
+                                          "C434T",
+                                          "T527C",
+                                          "G589A",
+                                          "A1145T",
+                                          "C1193T",
+                                          "A1784G",
+                                          "G1844A",
+                                          "A1877G",
+                                          "T2172C"
+                                        ],
+                                        "FLUCVs2gp1": [
+                                          "R191K"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "FLUCVs2gp1: R191K"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000028",
+                                    "node_attrs": {
+                                      "div": 0.013106425943074596,
+                                      "num_date": {
+                                        "value": 1981.849801085048,
+                                        "confidence": [
+                                          1975.6534158902293,
+                                          1985.392361041595
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G2114A"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "LC123425.1",
+                                        "node_attrs": {
+                                          "div": 0.0169346934611398,
+                                          "num_date": {
+                                            "value": 2000.0887978142077,
+                                            "confidence": [
+                                              2000.0887978142077,
+                                              2000.0887978142077
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "Homo sapiens LC123425.1"
+                                          },
+                                          "country": {
+                                            "value": "Japan"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A32G",
+                                              "T125C",
+                                              "G617A",
+                                              "C959T",
+                                              "C1010T",
+                                              "G1136A",
+                                              "T1653C",
+                                              "A2102G",
+                                              "A2120T"
+                                            ]
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "LC123420.1",
+                                        "node_attrs": {
+                                          "div": 0.01865189434279891,
+                                          "num_date": {
+                                            "value": 1996.3920765027322,
+                                            "confidence": [
+                                              1996.3920765027322,
+                                              1996.3920765027322
+                                            ]
+                                          },
+                                          "host": {
+                                            "value": "Homo sapiens LC123420.1"
+                                          },
+                                          "country": {
+                                            "value": "Japan"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C299A",
+                                              "A359G",
+                                              "A407G",
+                                              "A428G",
+                                              "G443T",
+                                              "G596A",
+                                              "G671A",
+                                              "G833A",
+                                              "C1151T",
+                                              "A1565T",
+                                              "A1836G",
+                                              "T2009A",
+                                              "C2024T"
+                                            ],
+                                            "FLUCVs2gp1": [
+                                              "I607V"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "FLUCVs2gp1: I607V"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

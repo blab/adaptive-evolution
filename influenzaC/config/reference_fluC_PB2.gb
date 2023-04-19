@@ -1,0 +1,111 @@
+LOCUS       NC_006307               2365 bp    RNA     linear   VRL 13-AUG-2018
+DEFINITION  Influenza C virus (C/Ann Arbor/1/50) PB2 gene for polymerase 2,
+            complete cds.
+ACCESSION   NC_006307
+VERSION     NC_006307.2
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Influenza C virus (C/Ann Arbor/1/50)
+  ORGANISM  Influenza C virus (C/Ann Arbor/1/50)
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Insthoviricetes; Articulavirales;
+            Orthomyxoviridae; Gammainfluenzavirus.
+REFERENCE   1
+  AUTHORS   Muraki,Y., Washioka,H., Sugawara,K., Matsuzaki,Y., Takashita,E. and
+            Hongo,S.
+  TITLE     Identification of an amino acid residue on influenza C virus M1
+            protein responsible for formation of the cord-like structures of
+            the virus
+  JOURNAL   J. Gen. Virol. 85 (PT 7), 1885-1893 (2004)
+   PUBMED   15218173
+REFERENCE   2  (bases 1 to 2365)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (04-OCT-2017) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 2365)
+  AUTHORS   Muraki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-NOV-2003) Contact:Yasushi Muraki Department of
+            Microbiology, Kanazawa Medical University School of Medicine;
+            Uchinada, Ishikawa 920-0293, Japan E-mail
+            :ymuraki@kanazawa-med.ac.jp Phone :81-76-218-8097 Fax
+            :81-76-286-3961
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to AB126191.
+            On Oct 4, 2017 this sequence version replaced NC_006307.1.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..2365
+                     /organism="Influenza C virus (C/Ann Arbor/1/50)"
+                     /mol_type="genomic RNA"
+                     /strain="C/Ann Arbor/1/50"
+                     /db_xref="taxon:11553"
+                     /segment="1"
+     gene            22..2346
+                     /gene="PB2"
+                     /locus_tag="FLUCVs1gp1"
+                     /db_xref="GeneID:3077363"
+     CDS             22..2346
+                     /gene="PB2"
+                     /locus_tag="FLUCVs1gp1"
+                     /codon_start=1
+                     /product="polymerase 2"
+                     /protein_id="YP_089652.1"
+                     /db_xref="GeneID:3077363"
+                     /translation="MSFLLTIAKEYKRLCQDAKAAQMMTVGTVSNYTTFKKWTTSRKE
+                     KNPSLRMRWAMSSKFPIIANKRMLEEAQIPKEHNNVALWEDTEDVSKRDHVLASASCI
+                     NYWNFCGPCVNNSEVIKEVYKSRFGRLERRKEIMWKELRFTLVDRQRRRVDTQPVEQR
+                     LRTGEIKDLQMWTLFEDEAPLASKFILDNYGLVKEMRSKFANKPLNKEVVAHMLEKQF
+                     NPESRFLPVFGAIRPERMELIHALGGETWIQEANTAGISNVDQRKNDMRAVCRKVCLA
+                     ANASIMNAKSKLVEYIKSTSMRIGETERKLEELILETDDVSPEVTLCKSALGGPLGKT
+                     LSFGPMLLKKISGSGVKVKDTVYIQGVRAVQFEYWSEQEEFYGEYKSATALFSRKERS
+                     LEWITIGGGINEDRKRLLAMCMIFCRDGDYFKDAPATITMADLSTKLGREIPYQYVMM
+                     NWIQKSEDNLEALLYSRGIVETNPGKMGSSMGIDGSKRAIKSLRAVTIQSGKIDMPES
+                     KEKIHLELSDNLEAFDSSGRIVATILDLPSDKKVTFQDVSFQHPDLAVLRDEKTAITK
+                     GYEALIKRLGTGDNDIPSLIAKKDYLSLYNLPEVKLMAPLIRPNRKGVYSRVARKLVS
+                     TQVTTGHYSLHELIKVLPFTYFAPKQGMFEGRLFFSNDSFVEPGVNNNVFSWSKADSS
+                     KIYCHGIAIRVPLVVGDEHMDTSLALLEGFSVCENDPRAPMVTRQDLIDVGFGQKVRL
+                     FVGQGSVRTFKRTASQRAASSDVNKNVKKIKMSN"
+ORIGIN      
+        1 agcagaagca gaggattgga aatgtctttt ctattgacaa tagcaaagga atacaaaaga
+       61 ctatgccaag atgctaaggc agctcaaatg atgacagtag gaactgtatc aaactacact
+      121 acgttcaaga aatggactac atcaaggaag gaaaagaatc cttcactaag aatgagatgg
+      181 gcaatgagca gcaaattccc aataatagct aacaagagaa tgctggaaga agctcaaatt
+      241 cctaaagaac acaacaatgt agccctttgg gaagacacag aagatgtttc aaaaagggat
+      301 catgttcttg caagcgcctc ttgtataaat tattggaatt tttgtggacc ttgtgtcaac
+      361 aattcagaag tgatcaaaga agtttataaa tctagatttg gaagattaga aagaaggaaa
+      421 gaaataatgt ggaaagaact tagatttaca ttagttgata gacaacgaag aagagttgac
+      481 actcagcctg tagaacaaag attgagaact ggagaaatta aagacttgca aatgtggact
+      541 ttgttcgaag atgaagctcc tcttgctagc aaatttattt tagacaatta tggtctagtc
+      601 aaagaaatga gatcaaagtt tgcaaacaaa cctctgaata aagaagtagt tgcacacatg
+      661 ttagaaaaac aattcaatcc ggaaagtaga ttcttgcctg ttttcggagc tataaggcca
+      721 gaaagaatgg aattgatcca tgcattagga ggagaaactt ggatacaaga agctaacact
+      781 gcagggattt ccaatgttga tcaaaggaaa aatgatatga gagcagtatg taggaaagtt
+      841 tgtcttgcag caaatgcaag tataatgaac gccaaaagca aactggttga gtatataaaa
+      901 agtacaagta tgagaattgg agaaacagaa agaaagcttg aagaacttat acttgaaacc
+      961 gatgatgtct cacctgaagt aacattatgt aaatctgctt taggaggacc attaggaaaa
+     1021 actctatctt ttgggcccat gctactcaag aaaatttctg gttccggagt aaaagttaaa
+     1081 gatacagtat atatccaagg tgtcagagca gtacaatttg aatactggag tgagcaagaa
+     1141 gaattctatg gagaatataa gtcagccacc gctttattca gcagaaagga aagatcacta
+     1201 gaatggatta caataggagg aggaataaat gaagacagaa agagacttct agctatgtgc
+     1261 atgatatttt gcagagatgg agattatttt aaagacgccc ctgcaacaat aacaatggca
+     1321 gatttaagta cgaagttagg aagagaaatt ccatatcaat atgtgatgat gaattggata
+     1381 caaaaatcag aagataatct cgaagcctta ttatacagta ggggaattgt agaaaccaat
+     1441 ccaggaaaaa tggggagctc aatgggaatt gatggttcca aaagagcaat taaatcttta
+     1501 agggctgtca caatacaatc aggaaagatt gacatgccag aatcaaaaga aaaaattcac
+     1561 cttgagctct ctgataatct tgaagcattt gattcatcag gaagaattgt tgcaacaatt
+     1621 ttagaccttc ctagtgacaa aaaggtaaca tttcaggatg taagctttca acatcctgat
+     1681 ctggcagtat tgagagatga gaaaacggcc ataacaaaag ggtatgaagc gctaatcaaa
+     1741 aggctaggaa caggggacaa tgatattcct tccttaattg caaagaagga ttatttgtct
+     1801 ctttataatt taccagaagt aaaattaatg gctcccttaa tcagacccaa tagaaaagga
+     1861 gtttattcca gagttgctag aaaattagtg tctacacaag ttactactgg acattattca
+     1921 ttacatgaat tgataaaggt cttacccttt acttatttcg ccccaaaaca gggaatgttt
+     1981 gaaggaaggc ttttctttag caacgatagc tttgttgagc ctggagtaaa taacaatgta
+     2041 ttttcttgga gtaaggctga cagttctaaa atatattgtc atggaatagc gataagggta
+     2101 cctttagttg ttggagatga acacatggac acttcgttag cactattaga agggtttagt
+     2161 gtttgtgaaa acgaccccag agcaccaatg gtaacaagac aagatttaat tgatgtggga
+     2221 tttgggcaaa aagttagact cttcgtaggc caagggagcg ttagaacctt caagcgaact
+     2281 gcctcacaaa gggctgcatc aagcgatgta aataagaatg tgaaaaagat aaagatgtct
+     2341 aactaaaaat cctcttgcta ctgct
+//
