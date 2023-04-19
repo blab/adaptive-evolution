@@ -1,0 +1,4209 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Norovirus GII.17 p48 Build",
+    "updated": "2022-07-20",
+    "build_url": "https://github.com/blab/norovirus",
+    "maintainers": [
+      {
+        "name": "Trevor Bedford",
+        "url": "http://bedford.io/team/trevor-bedford/"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "genome_annotations": {
+      "3CLpro": {
+        "end": 3577,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 3035,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NTPase": {
+        "end": 2098,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 1001,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "VP1": {
+        "end": 6737,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 5091,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "VP2": {
+        "end": 7501,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 6737,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "VPg": {
+        "end": 3034,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 2636,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 7527,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      },
+      "p22": {
+        "end": 2635,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 2099,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "p48": {
+        "end": 1000,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 5,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "rdrp": {
+        "end": 5107,
+        "seqid": "config/norovirus_outgroup.gb",
+        "start": 3578,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "ORF2_type",
+        "title": "Vp1 Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "ORF1_type",
+        "title": "Rdrp Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "country",
+      "ORF2_type",
+      "ORF1_type"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "China": {
+            "latitude": 35.000074,
+            "longitude": 104.999927
+          },
+          "South_Korea": {
+            "latitude": 35.3985008,
+            "longitude": 127.937111
+          },
+          "Hong_Kong": {
+            "latitude": 22.3964,
+            "longitude": 114.1095
+          },
+          "Spain": {
+            "latitude": 40.0028028,
+            "longitude": -4.0031039
+          },
+          "USA": {
+            "latitude": 39.7837304,
+            "longitude": -100.4458824
+          },
+          "France": {
+            "latitude": 46.603354,
+            "longitude": 1.8883335
+          },
+          "Brazil": {
+            "latitude": -10.3333332,
+            "longitude": -53.1999999
+          },
+          "Japan": {
+            "latitude": 35.68536,
+            "longitude": 139.75309
+          },
+          "Indonesia": {
+            "latitude": -5.0,
+            "longitude": 120.0
+          },
+          "Canada": {
+            "latitude": 61.0666922,
+            "longitude": -107.991707
+          },
+          "Australia": {
+            "latitude": -24.7761085,
+            "longitude": 134.755
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 2008.2817177051904,
+        "confidence": [
+          1888.0038649631288,
+          2013.6246824902078
+        ]
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000019",
+        "node_attrs": {
+          "div": 0.005038725119264419,
+          "num_date": {
+            "value": 2011.9161733350177,
+            "confidence": [
+              1953.8580687656809,
+              2012.755439609723
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A704G",
+              "T708G",
+              "A783G",
+              "A859G",
+              "C870T",
+              "C873T",
+              "T876C",
+              "T904A",
+              "A942C"
+            ],
+            "p48": [
+              "N234D",
+              "L235R",
+              "Y260C",
+              "I285M",
+              "P289L",
+              "A290V",
+              "I291T",
+              "H313P"
+            ]
+          },
+          "labels": {
+            "aa": "p48: N234D, L235R, Y260C, I285M, P289L, A290V, I291T, H313P"
+          }
+        },
+        "children": [
+          {
+            "name": "MK282256",
+            "node_attrs": {
+              "div": 0.00907171404370867,
+              "num_date": {
+                "value": 2013.609948837186,
+                "confidence": [
+                  2013.1598572696653,
+                  2013.9986301369863
+                ]
+              },
+              "ORF1_type": {
+                "value": "GII.P17"
+              },
+              "country": {
+                "value": "South_Korea"
+              },
+              "ORF2_type": {
+                "value": "GII.17"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A676T",
+                  "A688C",
+                  "A691T",
+                  "C707T"
+                ],
+                "p48": [
+                  "E224D",
+                  "E228D",
+                  "Q229H",
+                  "R235C"
+                ]
+              },
+              "labels": {
+                "aa": "p48: E224D, E228D, Q229H, R235C"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000020",
+            "node_attrs": {
+              "div": 0.009073529897624236,
+              "num_date": {
+                "value": 2013.2576444326467,
+                "confidence": [
+                  2012.8490604367596,
+                  2013.6616438356164
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T75C",
+                  "T102C",
+                  "G396T",
+                  "T622G"
+                ],
+                "p48": [
+                  "V24A",
+                  "L33S",
+                  "W131L"
+                ]
+              },
+              "labels": {
+                "aa": "p48: V24A, L33S, W131L"
+              }
+            },
+            "children": [
+              {
+                "name": "KU557788",
+                "node_attrs": {
+                  "div": 0.009073529897624246,
+                  "num_date": {
+                    "value": 2013.2576444317033,
+                    "confidence": [
+                      2013.6616438356164,
+                      2013.6616438356164
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "China"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "KU557789",
+                "node_attrs": {
+                  "div": 0.009073529897624246,
+                  "num_date": {
+                    "value": 2013.2862870662186,
+                    "confidence": [
+                      2013.6890410958904,
+                      2013.6890410958904
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "China"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000022",
+            "node_attrs": {
+              "div": 0.006044289170919004,
+              "num_date": {
+                "value": 2012.383195285135,
+                "confidence": [
+                  2011.0445217573076,
+                  2013.6635688198082
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A502T"
+                ],
+                "p48": [
+                  "K166N"
+                ]
+              },
+              "labels": {
+                "aa": "p48: K166N"
+              }
+            },
+            "children": [
+              {
+                "name": "MK282258",
+                "node_attrs": {
+                  "div": 0.006044289170919015,
+                  "num_date": {
+                    "value": 2012.5673569408261,
+                    "confidence": [
+                      2013.0013698630137,
+                      2013.89103037235
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "South_Korea"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                }
+              },
+              {
+                "name": "MK282257",
+                "node_attrs": {
+                  "div": 0.007048969867097949,
+                  "num_date": {
+                    "value": 2012.8568052877101,
+                    "confidence": [
+                      2013.0013698630137,
+                      2013.9986301369863
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "South_Korea"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G753A"
+                    ],
+                    "p48": [
+                      "R250Q"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: R250Q"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000018",
+        "node_attrs": {
+          "div": 0.004034224641731039,
+          "num_date": {
+            "value": 2011.9066556737241,
+            "confidence": [
+              1961.2311334312915,
+              2013.8717416234174
+            ]
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "LC597112",
+            "node_attrs": {
+              "div": 0.013143928063606538,
+              "num_date": {
+                "value": 2016.7463212295484,
+                "confidence": [
+                  2016.0954817639654,
+                  2016.9986338797814
+                ]
+              },
+              "ORF1_type": {
+                "value": "GII.P17"
+              },
+              "country": {
+                "value": "Indonesia"
+              },
+              "ORF2_type": {
+                "value": "GII.17"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T108A",
+                  "C117A",
+                  "T330C",
+                  "T450A",
+                  "T503C",
+                  "A575G",
+                  "C615T",
+                  "C643T",
+                  "G933A"
+                ],
+                "p48": [
+                  "L35*",
+                  "P38H",
+                  "I109T",
+                  "M149K",
+                  "*167Q",
+                  "T191A",
+                  "T204I",
+                  "C310Y"
+                ]
+              },
+              "labels": {
+                "aa": "p48: L35*, P38H, I109T, M149K, *167Q, T191A, T204I, C310Y"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000010",
+            "node_attrs": {
+              "div": 0.005039093756624698,
+              "num_date": {
+                "value": 2012.3972574504762,
+                "confidence": [
+                  2010.9942423357638,
+                  2014.8867795743838
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A557C"
+                ],
+                "p48": [
+                  "I185L"
+                ]
+              },
+              "labels": {
+                "aa": "p48: I185L"
+              }
+            },
+            "children": [
+              {
+                "name": "KT970370",
+                "node_attrs": {
+                  "div": 0.0060432774515998934,
+                  "num_date": {
+                    "value": 2014.649676469151,
+                    "confidence": [
+                      2014.9931506849316,
+                      2014.9931506849316
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "China"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A735G"
+                    ],
+                    "p48": [
+                      "Y244C"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: Y244C"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000012",
+                "node_attrs": {
+                  "div": 0.0070487201409674015,
+                  "num_date": {
+                    "value": 2014.3995242814585,
+                    "confidence": [
+                      2013.6641423890906,
+                      2014.9
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A318G",
+                      "G510A"
+                    ],
+                    "p48": [
+                      "K105R",
+                      "R169H"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: K105R, R169H"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KR083017",
+                    "node_attrs": {
+                      "div": 0.007048720140967412,
+                      "num_date": {
+                        "value": 2014.5522915117988,
+                        "confidence": [
+                          2014.9,
+                          2014.9
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "USA"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000009",
+                    "node_attrs": {
+                      "div": 0.007048720140967412,
+                      "num_date": {
+                        "value": 2014.4252179129794,
+                        "confidence": [
+                          2014.2362573207993,
+                          2014.994856581968
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "KY424350",
+                        "node_attrs": {
+                          "div": 0.007048720140967422,
+                          "num_date": {
+                            "value": 2014.5694770934513,
+                            "confidence": [
+                              2014.9164383561645,
+                              2014.9986301369863
+                            ]
+                          },
+                          "ORF1_type": {
+                            "value": "GII.P17"
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "ORF2_type": {
+                            "value": "GII.17"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "KY424349",
+                        "node_attrs": {
+                          "div": 0.007048720140967422,
+                          "num_date": {
+                            "value": 2014.5694770934513,
+                            "confidence": [
+                              2014.9164383561645,
+                              2014.9986301369863
+                            ]
+                          },
+                          "ORF1_type": {
+                            "value": "GII.P17"
+                          },
+                          "country": {
+                            "value": "USA"
+                          },
+                          "ORF2_type": {
+                            "value": "GII.17"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000014",
+                "node_attrs": {
+                  "div": 0.006043140549504288,
+                  "num_date": {
+                    "value": 2013.3636781626903,
+                    "confidence": [
+                      2012.00628732499,
+                      2014.538518973053
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C225T"
+                    ],
+                    "p48": [
+                      "P74L"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: P74L"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KT326180",
+                    "node_attrs": {
+                      "div": 0.007060951293418405,
+                      "num_date": {
+                        "value": 2013.9948430510096,
+                        "confidence": [
+                          2014.0013698630137,
+                          2014.9986301369863
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "Hong_Kong"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T711C"
+                        ],
+                        "p48": [
+                          "I236T"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: I236T"
+                      }
+                    }
+                  },
+                  {
+                    "name": "LC369243",
+                    "node_attrs": {
+                      "div": 0.006043140549504288,
+                      "num_date": {
+                        "value": 2014.6582692604488,
+                        "confidence": [
+                          2015.0013698630137,
+                          2015.8753911669387
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "Japan"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "div": 0.0080522440567232,
+                      "num_date": {
+                        "value": 2014.272733947792,
+                        "confidence": [
+                          2013.1032184789906,
+                          2014.8988570182746
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A468G",
+                          "C781T"
+                        ],
+                        "p48": [
+                          "N155S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: N155S"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "LC369229",
+                        "node_attrs": {
+                          "div": 0.009058139445778296,
+                          "num_date": {
+                            "value": 2014.6554049969973,
+                            "confidence": [
+                              2014.0013698630137,
+                              2014.9986301369863
+                            ]
+                          },
+                          "ORF1_type": {
+                            "value": "GII.P17"
+                          },
+                          "country": {
+                            "value": "Japan"
+                          },
+                          "ORF2_type": {
+                            "value": "GII.17"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C487T"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "LC369228",
+                        "node_attrs": {
+                          "div": 0.008052244056723211,
+                          "num_date": {
+                            "value": 2014.272733947792,
+                            "confidence": [
+                              2014.0013698630137,
+                              2014.9986301369863
+                            ]
+                          },
+                          "ORF1_type": {
+                            "value": "GII.P17"
+                          },
+                          "country": {
+                            "value": "Japan"
+                          },
+                          "ORF2_type": {
+                            "value": "GII.17"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "LC369230",
+                        "node_attrs": {
+                          "div": 0.008052244056723211,
+                          "num_date": {
+                            "value": 2014.272733947792,
+                            "confidence": [
+                              2014.0013698630137,
+                              2014.9986301369863
+                            ]
+                          },
+                          "ORF1_type": {
+                            "value": "GII.P17"
+                          },
+                          "country": {
+                            "value": "Japan"
+                          },
+                          "ORF2_type": {
+                            "value": "GII.17"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000008",
+            "node_attrs": {
+              "div": 0.006044792944614446,
+              "num_date": {
+                "value": 2012.40982229131,
+                "confidence": [
+                  2010.578198535511,
+                  2014.6723173613202
+                ]
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T102C",
+                  "T780C"
+                ],
+                "p48": [
+                  "L33S",
+                  "F259S"
+                ]
+              },
+              "labels": {
+                "aa": "p48: L33S, F259S"
+              }
+            },
+            "children": [
+              {
+                "name": "KT970375",
+                "node_attrs": {
+                  "div": 0.008057655334359363,
+                  "num_date": {
+                    "value": 2014.7384686361486,
+                    "confidence": [
+                      2015.0780821917808,
+                      2015.0780821917808
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "China"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T108A",
+                      "T237C"
+                    ],
+                    "p48": [
+                      "L35*",
+                      "M78T"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: L35*, M78T"
+                  }
+                }
+              },
+              {
+                "name": "KT780399",
+                "node_attrs": {
+                  "div": 0.007050844881369144,
+                  "num_date": {
+                    "value": 2013.6128131006374,
+                    "confidence": [
+                      2014.0013698630137,
+                      2014.8958172600571
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "Hong_Kong"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C307T"
+                    ]
+                  }
+                }
+              },
+              {
+                "name": "LC369225",
+                "node_attrs": {
+                  "div": 0.00805997807245535,
+                  "num_date": {
+                    "value": 2014.6582692604488,
+                    "confidence": [
+                      2015.0013698630137,
+                      2015.9194827524134
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "Japan"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C231T",
+                      "A354G"
+                    ],
+                    "p48": [
+                      "A76V",
+                      "E117G"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: A76V, E117G"
+                  }
+                }
+              },
+              {
+                "name": "KT780394",
+                "node_attrs": {
+                  "div": 0.008058293900784731,
+                  "num_date": {
+                    "value": 2013.6128131006374,
+                    "confidence": [
+                      2014.0013698630137,
+                      2014.9986301369863
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "Hong_Kong"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C217T",
+                      "A372G"
+                    ],
+                    "p48": [
+                      "K123R"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: K123R"
+                  }
+                }
+              },
+              {
+                "name": "KT780395",
+                "node_attrs": {
+                  "div": 0.007050844881369144,
+                  "num_date": {
+                    "value": 2013.6128131006374,
+                    "confidence": [
+                      2014.0013698630137,
+                      2014.8958172600571
+                    ]
+                  },
+                  "ORF1_type": {
+                    "value": "GII.P17"
+                  },
+                  "country": {
+                    "value": "Hong_Kong"
+                  },
+                  "ORF2_type": {
+                    "value": "GII.17"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C215T"
+                    ],
+                    "p48": [
+                      "H71Y"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: H71Y"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000058",
+                "node_attrs": {
+                  "div": 0.0070497087107263,
+                  "num_date": {
+                    "value": 2014.0504819955354,
+                    "confidence": [
+                      2012.0287624475025,
+                      2014.8277332942966
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T164C"
+                    ],
+                    "p48": [
+                      "Y54H"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: Y54H"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "MG692610",
+                    "node_attrs": {
+                      "div": 0.00704970871072631,
+                      "num_date": {
+                        "value": 2014.3947570229075,
+                        "confidence": [
+                          2014.7493150684932,
+                          2014.831506849315
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "KU557786",
+                    "node_attrs": {
+                      "div": 0.00805614411511072,
+                      "num_date": {
+                        "value": 2014.6410836787963,
+                        "confidence": [
+                          2014.9849315068493,
+                          2014.9849315068493
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T330C"
+                        ],
+                        "p48": [
+                          "I109T"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: I109T"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000080",
+                "node_attrs": {
+                  "div": 0.007049587937112911,
+                  "num_date": {
+                    "value": 2013.415854413051,
+                    "confidence": [
+                      2011.9774368664455,
+                      2014.5373064626342
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G753A"
+                    ],
+                    "p48": [
+                      "R250Q"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: R250Q"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KR020503",
+                    "node_attrs": {
+                      "div": 0.008071412301110215,
+                      "num_date": {
+                        "value": 2014.569477092508,
+                        "confidence": [
+                          2014.9164383561645,
+                          2014.9164383561645
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C214T"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "KT780397",
+                    "node_attrs": {
+                      "div": 0.0090634462604947,
+                      "num_date": {
+                        "value": 2014.6493061079095,
+                        "confidence": [
+                          2014.0013698630137,
+                          2014.9986301369863
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "Hong_Kong"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T90C",
+                          "T885C"
+                        ],
+                        "p48": [
+                          "L29P",
+                          "L294S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: L29P, L294S"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000033",
+                "node_attrs": {
+                  "div": 0.007049587937112911,
+                  "num_date": {
+                    "value": 2013.326320941139,
+                    "confidence": [
+                      2010.5142106172202,
+                      2014.4149583364353
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G443A"
+                    ],
+                    "p48": [
+                      "G147R"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: G147R"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "MK648241",
+                    "node_attrs": {
+                      "div": 0.008054382642229137,
+                      "num_date": {
+                        "value": 2016.7491815800718,
+                        "confidence": [
+                          2017.0013698630137,
+                          2017.0835616438355
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "Canada"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A683G"
+                        ],
+                        "p48": [
+                          "K227E"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: K227E"
+                      }
+                    }
+                  },
+                  {
+                    "name": "MH746922",
+                    "node_attrs": {
+                      "div": 0.014115076252792923,
+                      "num_date": {
+                        "value": 2015.9608008908924,
+                        "confidence": [
+                          2016.1653005464482,
+                          2016.2472677595629
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "Brazil"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G40A",
+                          "G41A",
+                          "T330C",
+                          "T503C",
+                          "A597T",
+                          "T621C",
+                          "A783G"
+                        ],
+                        "p48": [
+                          "A13T",
+                          "I109T",
+                          "*167Q",
+                          "H198L",
+                          "V206A",
+                          "Y260C"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: A13T, I109T, *167Q, H198L, V206A, Y260C"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000035",
+                    "node_attrs": {
+                      "div": 0.010067906730095047,
+                      "num_date": {
+                        "value": 2014.3203880968106,
+                        "confidence": [
+                          2012.770273903579,
+                          2015.3310053532005
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C280T",
+                          "T636C",
+                          "A826G"
+                        ],
+                        "p48": [
+                          "V211A"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: V211A"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "MH747480",
+                        "node_attrs": {
+                          "div": 0.014098924143485913,
+                          "num_date": {
+                            "value": 2015.526141086265,
+                            "confidence": [
+                              2015.7493150684932,
+                              2015.831506849315
+                            ]
+                          },
+                          "ORF1_type": {
+                            "value": "GII.P17"
+                          },
+                          "country": {
+                            "value": "Brazil"
+                          },
+                          "ORF2_type": {
+                            "value": "GII.17"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T213C",
+                              "A443G",
+                              "T570C",
+                              "C648A"
+                            ],
+                            "p48": [
+                              "L70P",
+                              "R147G",
+                              "L189S",
+                              "T215N"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "p48: L70P, R147G, L189S, T215N"
+                          }
+                        }
+                      },
+                      {
+                        "name": "MH747481",
+                        "node_attrs": {
+                          "div": 0.0110728224962069,
+                          "num_date": {
+                            "value": 2015.5290053497165,
+                            "confidence": [
+                              2015.8342465753424,
+                              2015.9136986301369
+                            ]
+                          },
+                          "ORF1_type": {
+                            "value": "GII.P17"
+                          },
+                          "country": {
+                            "value": "Brazil"
+                          },
+                          "ORF2_type": {
+                            "value": "GII.17"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T774C"
+                            ],
+                            "p48": [
+                              "M257T"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "p48: M257T"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000065",
+                "node_attrs": {
+                  "div": 0.0070496547295974925,
+                  "num_date": {
+                    "value": 2013.3272134880435,
+                    "confidence": [
+                      2012.0046101856344,
+                      2014.5189889838034
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A900G"
+                    ],
+                    "p48": [
+                      "N299S"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "p48: N299S"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "KU561256",
+                    "node_attrs": {
+                      "div": 0.00906074026414457,
+                      "num_date": {
+                        "value": 2014.6582692604488,
+                        "confidence": [
+                          2015.0013698630137,
+                          2015.9986301369863
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "South_Korea"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T852C",
+                          "C891T"
+                        ],
+                        "p48": [
+                          "F283S",
+                          "A296V"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: F283S, A296V"
+                      }
+                    }
+                  },
+                  {
+                    "name": "KT380915",
+                    "node_attrs": {
+                      "div": 0.007049654729597503,
+                      "num_date": {
+                        "value": 2013.6128131006374,
+                        "confidence": [
+                          2014.0013698630137,
+                          2014.862018314806
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "KU561252",
+                    "node_attrs": {
+                      "div": 0.009061015808187831,
+                      "num_date": {
+                        "value": 2014.6171035264151,
+                        "confidence": [
+                          2014.0013698630137,
+                          2014.9986301369863
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "South_Korea"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A154G",
+                          "T624C"
+                        ],
+                        "p48": [
+                          "M207T"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: M207T"
+                      }
+                    }
+                  },
+                  {
+                    "name": "MK789432",
+                    "node_attrs": {
+                      "div": 0.011080211357731297,
+                      "num_date": {
+                        "value": 2016.915308860261,
+                        "confidence": [
+                          2017.0863013698631,
+                          2017.1602739726027
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "Spain"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A247G",
+                          "G562A",
+                          "C822T",
+                          "T828A"
+                        ],
+                        "p48": [
+                          "T273I",
+                          "L275*"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: T273I, L275*"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000050",
+                "node_attrs": {
+                  "div": 0.0070497087107263,
+                  "num_date": {
+                    "value": 2012.7434932238557,
+                    "confidence": [
+                      2010.9947971220101,
+                      2014.8264922743997
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T82C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "MT371769",
+                    "node_attrs": {
+                      "div": 0.015538651353129103,
+                      "num_date": {
+                        "value": 2015.7008611558654,
+                        "confidence": [
+                          2015.9986301369863,
+                          2015.9986301369863
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "USA"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C102A",
+                          "G122C",
+                          "C280G",
+                          "A306G",
+                          "A320G",
+                          "G444A",
+                          "C487T",
+                          "T816C"
+                        ],
+                        "p48": [
+                          "S33*",
+                          "G40R",
+                          "N101S",
+                          "T106A",
+                          "G147E",
+                          "L271S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: S33*, G40R, N101S, T106A, G147E, L271S"
+                      }
+                    }
+                  },
+                  {
+                    "name": "LC369255",
+                    "node_attrs": {
+                      "div": 0.0070497087107263,
+                      "num_date": {
+                        "value": 2014.6582692604488,
+                        "confidence": [
+                          2015.0013698630137,
+                          2015.8617081538587
+                        ]
+                      },
+                      "ORF1_type": {
+                        "value": "GII.P17"
+                      },
+                      "country": {
+                        "value": "Japan"
+                      },
+                      "ORF2_type": {
+                        "value": "GII.17"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    }
+                  },
+                  {
+                    "name": "NODE_0000052",
+                    "node_attrs": {
+                      "div": 0.00805509010774712,
+                      "num_date": {
+                        "value": 2013.4507286920953,
+                        "confidence": [
+                          2012.0535412536337,
+                          2014.8397260273973
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A161T"
+                        ],
+                        "p48": [
+                          "K53*"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "p48: K53*"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "KU557790",
+                        "node_attrs": {
+                          "div": 0.011077541354650411,
+                          "num_date": {
+                            "value": 2014.4892777158648,
+                            "confidence": [
+                              2014.8397260273973,
+                              2014.8397260273973
+                            ]
+                          },
+                          "ORF1_type": {
+                            "value": "GII.P17"
+                          },
+                          "country": {
+                            "value": "China"
+                          },
+                          "ORF2_type": {
+                            "value": "GII.17"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C82T",
+                              "A233T",
+                              "A303G"
+                            ],
+                            "p48": [
+                              "R77W",
+                              "Y100C"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "p48: R77W, Y100C"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000023",
+                        "node_attrs": {
+                          "div": 0.00805509010774712,
+                          "num_date": {
+                            "value": 2014.3904325366734,
+                            "confidence": [
+                              2013.7903864496338,
+                              2014.9931506849316
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "KT780400",
+                            "node_attrs": {
+                              "div": 0.00805509010774713,
+                              "num_date": {
+                                "value": 2014.6582692604488,
+                                "confidence": [
+                                  2015.0013698630137,
+                                  2015.8728026928188
+                                ]
+                              },
+                              "ORF1_type": {
+                                "value": "GII.P17"
+                              },
+                              "country": {
+                                "value": "Hong_Kong"
+                              },
+                              "ORF2_type": {
+                                "value": "GII.17"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "KT970369",
+                            "node_attrs": {
+                              "div": 0.00805509010774712,
+                              "num_date": {
+                                "value": 2014.649676469151,
+                                "confidence": [
+                                  2014.9931506849316,
+                                  2014.9931506849316
+                                ]
+                              },
+                              "ORF1_type": {
+                                "value": "GII.P17"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "ORF2_type": {
+                                "value": "GII.17"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000021",
+                "node_attrs": {
+                  "div": 0.006044792944614456,
+                  "num_date": {
+                    "value": 2013.287469295183,
+                    "confidence": [
+                      2009.8978561600932,
+                      2014.5302443234284
+                    ]
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {}
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000030",
+                    "node_attrs": {
+                      "div": 0.006044792944614467,
+                      "num_date": {
+                        "value": 2013.287469295183,
+                        "confidence": [
+                          2009.9317232915612,
+                          2014.4550958607883
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000095",
+                        "node_attrs": {
+                          "div": 0.007050044783663923,
+                          "num_date": {
+                            "value": 2014.4723740142126,
+                            "confidence": [
+                              2013.4341639855318,
+                              2016.270182417453
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A170C"
+                            ],
+                            "p48": [
+                              "N56H"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "p48: N56H"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "MK907800",
+                            "node_attrs": {
+                              "div": 0.010074045991305108,
+                              "num_date": {
+                                "value": 2016.540657721757,
+                                "confidence": [
+                                  2016.801912568306,
+                                  2016.801912568306
+                                ]
+                              },
+                              "ORF1_type": {
+                                "value": "GII.P17"
+                              },
+                              "country": {
+                                "value": "France"
+                              },
+                              "ORF2_type": {
+                                "value": "GII.17"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A153G",
+                                  "G443A",
+                                  "G715A"
+                                ],
+                                "p48": [
+                                  "K50R",
+                                  "G147R"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "p48: K50R, G147R"
+                              }
+                            }
+                          },
+                          {
+                            "name": "MK907801",
+                            "node_attrs": {
+                              "div": 0.008054999682764163,
+                              "num_date": {
+                                "value": 2016.540657721757,
+                                "confidence": [
+                                  2016.801912568306,
+                                  2016.801912568306
+                                ]
+                              },
+                              "ORF1_type": {
+                                "value": "GII.P17"
+                              },
+                              "country": {
+                                "value": "France"
+                              },
+                              "ORF2_type": {
+                                "value": "GII.17"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A4C"
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000007",
+                        "node_attrs": {
+                          "div": 0.007049654729597513,
+                          "num_date": {
+                            "value": 2013.5275276555333,
+                            "confidence": [
+                              2010.7789207701335,
+                              2015.0403202762927
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A810G"
+                            ],
+                            "p48": [
+                              "D269G"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "p48: D269G"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "MK789433",
+                            "node_attrs": {
+                              "div": 0.017187635549476304,
+                              "num_date": {
+                                "value": 2017.52826123889,
+                                "confidence": [
+                                  2017.6671232876713,
+                                  2017.7465753424658
+                                ]
+                              },
+                              "ORF1_type": {
+                                "value": "GII.P17"
+                              },
+                              "country": {
+                                "value": "Spain"
+                              },
+                              "ORF2_type": {
+                                "value": "GII.17"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C29T",
+                                  "T75C",
+                                  "C102T",
+                                  "C219T",
+                                  "T297A",
+                                  "A303G",
+                                  "T621C",
+                                  "C699T",
+                                  "G931A",
+                                  "T951C"
+                                ],
+                                "p48": [
+                                  "V24A",
+                                  "S33L",
+                                  "P72L",
+                                  "L98Q",
+                                  "Y100C",
+                                  "V206A",
+                                  "S232F",
+                                  "M316T"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "p48: V24A, S33L, P72L, L98Q, Y100C, V206A, S232F, M316T"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000005",
+                            "node_attrs": {
+                              "div": 0.014122406477003191,
+                              "num_date": {
+                                "value": 2017.9245754399042,
+                                "confidence": [
+                                  2014.438111864535,
+                                  2018.1253297666758
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T82C",
+                                  "T105C",
+                                  "A291G",
+                                  "C448A",
+                                  "T474C",
+                                  "T711C",
+                                  "G834T"
+                                ],
+                                "p48": [
+                                  "L34P",
+                                  "L157P",
+                                  "I236T",
+                                  "S277I"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "p48: L34P, L157P, I236T, S277I"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "MN996296",
+                                "node_attrs": {
+                                  "div": 0.014122406477003201,
+                                  "num_date": {
+                                    "value": 2017.9321223846136,
+                                    "confidence": [
+                                      2018.1328767123289,
+                                      2018.1328767123289
+                                    ]
+                                  },
+                                  "ORF1_type": {
+                                    "value": "GII.P17"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "ORF2_type": {
+                                    "value": "GII.17"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "NODE_0000034",
+                                "node_attrs": {
+                                  "div": 0.014122406477003201,
+                                  "num_date": {
+                                    "value": 2017.932122385557,
+                                    "confidence": [
+                                      2016.6085785208509,
+                                      2018.1328767123289
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "MN960578",
+                                    "node_attrs": {
+                                      "div": 0.014122406477003212,
+                                      "num_date": {
+                                        "value": 2017.9321223846136,
+                                        "confidence": [
+                                          2018.1328767123289,
+                                          2018.1328767123289
+                                        ]
+                                      },
+                                      "ORF1_type": {
+                                        "value": "GII.P17"
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "ORF2_type": {
+                                        "value": "GII.17"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "MN996300",
+                                    "node_attrs": {
+                                      "div": 0.014122406477003212,
+                                      "num_date": {
+                                        "value": 2017.9321223846136,
+                                        "confidence": [
+                                          2018.1328767123289,
+                                          2018.1328767123289
+                                        ]
+                                      },
+                                      "ORF1_type": {
+                                        "value": "GII.P17"
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "ORF2_type": {
+                                        "value": "GII.17"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000024",
+                    "node_attrs": {
+                      "div": 0.006044792944614467,
+                      "num_date": {
+                        "value": 2013.4164344718945,
+                        "confidence": [
+                          2010.243562687284,
+                          2014.4392624961379
+                        ]
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000025",
+                        "node_attrs": {
+                          "div": 0.006044792944614477,
+                          "num_date": {
+                            "value": 2013.4977436081456,
+                            "confidence": [
+                              2012.5572593708696,
+                              2014.3603947800757
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000026",
+                            "node_attrs": {
+                              "div": 0.0060447929446144875,
+                              "num_date": {
+                                "value": 2013.4977436081456,
+                                "confidence": [
+                                  2013.0441468162962,
+                                  2014.74095389946
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "KU561253",
+                                "node_attrs": {
+                                  "div": 0.006044792944614498,
+                                  "num_date": {
+                                    "value": 2013.6128131006374,
+                                    "confidence": [
+                                      2014.0013698630137,
+                                      2014.9986301369863
+                                    ]
+                                  },
+                                  "ORF1_type": {
+                                    "value": "GII.P17"
+                                  },
+                                  "country": {
+                                    "value": "South_Korea"
+                                  },
+                                  "ORF2_type": {
+                                    "value": "GII.17"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "LC369214",
+                                "node_attrs": {
+                                  "div": 0.006044792944614498,
+                                  "num_date": {
+                                    "value": 2013.6128131006374,
+                                    "confidence": [
+                                      2014.0013698630137,
+                                      2014.9986301369863
+                                    ]
+                                  },
+                                  "ORF1_type": {
+                                    "value": "GII.P17"
+                                  },
+                                  "country": {
+                                    "value": "Japan"
+                                  },
+                                  "ORF2_type": {
+                                    "value": "GII.17"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000027",
+                            "node_attrs": {
+                              "div": 0.0060447929446144875,
+                              "num_date": {
+                                "value": 2013.4977436081456,
+                                "confidence": [
+                                  2013.0440579177603,
+                                  2014.7409258713371
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "KT780396",
+                                "node_attrs": {
+                                  "div": 0.0060447929446144875,
+                                  "num_date": {
+                                    "value": 2013.6128131006374,
+                                    "confidence": [
+                                      2014.0013698630137,
+                                      2014.9986301369863
+                                    ]
+                                  },
+                                  "ORF1_type": {
+                                    "value": "GII.P17"
+                                  },
+                                  "country": {
+                                    "value": "Hong_Kong"
+                                  },
+                                  "ORF2_type": {
+                                    "value": "GII.17"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              },
+                              {
+                                "name": "KT780398",
+                                "node_attrs": {
+                                  "div": 0.0060447929446144875,
+                                  "num_date": {
+                                    "value": 2013.6128131006374,
+                                    "confidence": [
+                                      2014.0013698630137,
+                                      2014.9986301369863
+                                    ]
+                                  },
+                                  "ORF1_type": {
+                                    "value": "GII.P17"
+                                  },
+                                  "country": {
+                                    "value": "Hong_Kong"
+                                  },
+                                  "ORF2_type": {
+                                    "value": "GII.17"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000028",
+                        "node_attrs": {
+                          "div": 0.006044792944614477,
+                          "num_date": {
+                            "value": 2013.4164344718945,
+                            "confidence": [
+                              2010.2792205613737,
+                              2014.3866910819972
+                            ]
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000029",
+                            "node_attrs": {
+                              "div": 0.0060447929446144875,
+                              "num_date": {
+                                "value": 2013.4188675359258,
+                                "confidence": [
+                                  2010.4207149584677,
+                                  2014.5620952243742
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "KU557785",
+                                "node_attrs": {
+                                  "div": 0.007050844881369186,
+                                  "num_date": {
+                                    "value": 2014.4921419793163,
+                                    "confidence": [
+                                      2014.8424657534247,
+                                      2014.8424657534247
+                                    ]
+                                  },
+                                  "ORF1_type": {
+                                    "value": "GII.P17"
+                                  },
+                                  "country": {
+                                    "value": "China"
+                                  },
+                                  "ORF2_type": {
+                                    "value": "GII.17"
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C288T"
+                                    ],
+                                    "p48": [
+                                      "T95I"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "p48: T95I"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000056",
+                                "node_attrs": {
+                                  "div": 0.007049587937112953,
+                                  "num_date": {
+                                    "value": 2014.3250572604377,
+                                    "confidence": [
+                                      2011.7477518568382,
+                                      2015.2391617228102
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G771A"
+                                    ],
+                                    "p48": [
+                                      "R256Q"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "p48: R256Q"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "KT992789",
+                                    "node_attrs": {
+                                      "div": 0.007049587937112953,
+                                      "num_date": {
+                                        "value": 2014.8272608040895,
+                                        "confidence": [
+                                          2015.16301369863,
+                                          2015.2452054794521
+                                        ]
+                                      },
+                                      "ORF1_type": {
+                                        "value": "GII.P17"
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "ORF2_type": {
+                                        "value": "GII.17"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "KT992788",
+                                    "node_attrs": {
+                                      "div": 0.008054731757949652,
+                                      "num_date": {
+                                        "value": 2014.9131887076358,
+                                        "confidence": [
+                                          2015.16301369863,
+                                          2015.2452054794521
+                                        ]
+                                      },
+                                      "ORF1_type": {
+                                        "value": "GII.P17"
+                                      },
+                                      "country": {
+                                        "value": "China"
+                                      },
+                                      "ORF2_type": {
+                                        "value": "GII.17"
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G485T"
+                                        ],
+                                        "p48": [
+                                          "A161S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "p48: A161S"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000031",
+                            "node_attrs": {
+                              "div": 0.0060447929446144875,
+                              "num_date": {
+                                "value": 2013.4164344718945,
+                                "confidence": [
+                                  2010.3161234642264,
+                                  2014.3671019170652
+                                ]
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "name": "NODE_0000032",
+                                "node_attrs": {
+                                  "div": 0.006044792944614498,
+                                  "num_date": {
+                                    "value": 2013.4164344718945,
+                                    "confidence": [
+                                      2010.3752251219503,
+                                      2014.4316987078776
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000059",
+                                    "node_attrs": {
+                                      "div": 0.0070496547295975445,
+                                      "num_date": {
+                                        "value": 2014.359260695086,
+                                        "confidence": [
+                                          2011.5947364429765,
+                                          2015.3836830391112
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A831G"
+                                        ],
+                                        "p48": [
+                                          "E276G"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "p48: E276G"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KT780409",
+                                        "node_attrs": {
+                                          "div": 0.009063539608832048,
+                                          "num_date": {
+                                            "value": 2015.7008611568087,
+                                            "confidence": [
+                                              2015.0698145256695,
+                                              2015.9986301369863
+                                            ]
+                                          },
+                                          "ORF1_type": {
+                                            "value": "GII.P17"
+                                          },
+                                          "country": {
+                                            "value": "Hong_Kong"
+                                          },
+                                          "ORF2_type": {
+                                            "value": "GII.17"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G204A",
+                                              "T330C"
+                                            ],
+                                            "p48": [
+                                              "R67K",
+                                              "I109T"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "p48: R67K, I109T"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "MN394546",
+                                        "node_attrs": {
+                                          "div": 0.009074637651444558,
+                                          "num_date": {
+                                            "value": 2019.0978776093898,
+                                            "confidence": [
+                                              2019.2479452054795,
+                                              2019.2479452054795
+                                            ]
+                                          },
+                                          "ORF1_type": {
+                                            "value": "GII.P17"
+                                          },
+                                          "country": {
+                                            "value": "USA"
+                                          },
+                                          "ORF2_type": {
+                                            "value": "GII.17"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C93T",
+                                              "C699T"
+                                            ],
+                                            "p48": [
+                                              "T30I",
+                                              "S232F"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "p48: T30I, S232F"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000039",
+                                    "node_attrs": {
+                                      "div": 0.007049708710726352,
+                                      "num_date": {
+                                        "value": 2014.2753996846902,
+                                        "confidence": [
+                                          2011.7894196370228,
+                                          2014.927397260274
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T893C"
+                                        ],
+                                        "p48": [
+                                          "*297Q"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "p48: *297Q"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "KP998539",
+                                        "node_attrs": {
+                                          "div": 0.007049708710726362,
+                                          "num_date": {
+                                            "value": 2014.580934146314,
+                                            "confidence": [
+                                              2014.927397260274,
+                                              2014.927397260274
+                                            ]
+                                          },
+                                          "ORF1_type": {
+                                            "value": "GII.P17"
+                                          },
+                                          "country": {
+                                            "value": "Hong_Kong"
+                                          },
+                                          "ORF2_type": {
+                                            "value": "GII.17"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000040",
+                                        "node_attrs": {
+                                          "div": 0.00906245168598237,
+                                          "num_date": {
+                                            "value": 2015.0633880928287,
+                                            "confidence": [
+                                              2013.8403111784746,
+                                              2016.4521821329458
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G186A",
+                                              "C648A"
+                                            ],
+                                            "p48": [
+                                              "R61Q",
+                                              "T215N"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "p48: R61Q, T215N"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "MH746925",
+                                            "node_attrs": {
+                                              "div": 0.010068421463636554,
+                                              "num_date": {
+                                                "value": 2016.2235931496427,
+                                                "confidence": [
+                                                  2016.4986338797814,
+                                                  2016.5806010928961
+                                                ]
+                                              },
+                                              "ORF1_type": {
+                                                "value": "GII.P17"
+                                              },
+                                              "country": {
+                                                "value": "Brazil"
+                                              },
+                                              "ORF2_type": {
+                                                "value": "GII.17"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C792A"
+                                                ],
+                                                "p48": [
+                                                  "S263Y"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "p48: S263Y"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "MH608288",
+                                            "node_attrs": {
+                                              "div": 0.009062451685982381,
+                                              "num_date": {
+                                                "value": 2015.7037215073321,
+                                                "confidence": [
+                                                  2016.0013661202186,
+                                                  2016.8677193065291
+                                                ]
+                                              },
+                                              "ORF1_type": {
+                                                "value": "GII.P17"
+                                              },
+                                              "country": {
+                                                "value": "Brazil"
+                                              },
+                                              "ORF2_type": {
+                                                "value": "GII.17"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000036",
+                                            "node_attrs": {
+                                              "div": 0.009062451685982381,
+                                              "num_date": {
+                                                "value": 2015.0728347346371,
+                                                "confidence": [
+                                                  2014.1824122908586,
+                                                  2016.5695125249074
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "MH638230",
+                                                "node_attrs": {
+                                                  "div": 0.009062451685982392,
+                                                  "num_date": {
+                                                    "value": 2016.2235931496427,
+                                                    "confidence": [
+                                                      2016.4986338797814,
+                                                      2016.5806010928961
+                                                    ]
+                                                  },
+                                                  "ORF1_type": {
+                                                    "value": "GII.P17"
+                                                  },
+                                                  "country": {
+                                                    "value": "Brazil"
+                                                  },
+                                                  "ORF2_type": {
+                                                    "value": "GII.17"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000037",
+                                                "node_attrs": {
+                                                  "div": 0.009062451685982392,
+                                                  "num_date": {
+                                                    "value": 2015.0977217345037,
+                                                    "confidence": [
+                                                      2014.1046423178957,
+                                                      2016.5768275381024
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MH746923",
+                                                    "node_attrs": {
+                                                      "div": 0.009062451685982402,
+                                                      "num_date": {
+                                                        "value": 2016.2235931496427,
+                                                        "confidence": [
+                                                          2016.4986338797814,
+                                                          2016.5806010928961
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "Brazil"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "MH746924",
+                                                    "node_attrs": {
+                                                      "div": 0.009062451685982402,
+                                                      "num_date": {
+                                                        "value": 2016.2235931496427,
+                                                        "confidence": [
+                                                          2016.4986338797814,
+                                                          2016.5806010928961
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "Brazil"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000038",
+                                "node_attrs": {
+                                  "div": 0.006044792944614498,
+                                  "num_date": {
+                                    "value": 2013.4164344718945,
+                                    "confidence": [
+                                      2010.351197342236,
+                                      2014.3669436998096
+                                    ]
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "name": "NODE_0000041",
+                                    "node_attrs": {
+                                      "div": 0.006044792944614508,
+                                      "num_date": {
+                                        "value": 2013.4164344718945,
+                                        "confidence": [
+                                          2010.375452636258,
+                                          2014.4780858691427
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "LC369248",
+                                        "node_attrs": {
+                                          "div": 0.007051823393346725,
+                                          "num_date": {
+                                            "value": 2014.6582692604488,
+                                            "confidence": [
+                                              2015.0013698630137,
+                                              2015.905209876805
+                                            ]
+                                          },
+                                          "ORF1_type": {
+                                            "value": "GII.P17"
+                                          },
+                                          "country": {
+                                            "value": "Japan"
+                                          },
+                                          "ORF2_type": {
+                                            "value": "GII.17"
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A264G"
+                                            ],
+                                            "p48": [
+                                              "E87G"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "p48: E87G"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000069",
+                                        "node_attrs": {
+                                          "div": 0.007049517947374663,
+                                          "num_date": {
+                                            "value": 2014.3400693969797,
+                                            "confidence": [
+                                              2011.3705072346363,
+                                              2014.9817756719726
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "C786T"
+                                            ],
+                                            "p48": [
+                                              "A261V"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "p48: A261V"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "KT780414",
+                                            "node_attrs": {
+                                              "div": 0.008055569940837143,
+                                              "num_date": {
+                                                "value": 2014.9773514840945,
+                                                "confidence": [
+                                                  2015.0013698630137,
+                                                  2015.9289328051118
+                                                ]
+                                              },
+                                              "ORF1_type": {
+                                                "value": "GII.P17"
+                                              },
+                                              "country": {
+                                                "value": "Hong_Kong"
+                                              },
+                                              "ORF2_type": {
+                                                "value": "GII.17"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T951C"
+                                                ],
+                                                "p48": [
+                                                  "M316T"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "p48: M316T"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "KY392867",
+                                            "node_attrs": {
+                                              "div": 0.009087681730553597,
+                                              "num_date": {
+                                                "value": 2015.7008611568087,
+                                                "confidence": [
+                                                  2015.0013698630137,
+                                                  2015.9986301369863
+                                                ]
+                                              },
+                                              "ORF1_type": {
+                                                "value": "GII.P17"
+                                              },
+                                              "country": {
+                                                "value": "Brazil"
+                                              },
+                                              "ORF2_type": {
+                                                "value": "GII.17"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C102T",
+                                                  "T858C"
+                                                ],
+                                                "p48": [
+                                                  "S33L",
+                                                  "I285T"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "p48: S33L, I285T"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "LC369257",
+                                            "node_attrs": {
+                                              "div": 0.011079390033794715,
+                                              "num_date": {
+                                                "value": 2015.7008611568087,
+                                                "confidence": [
+                                                  2015.1076926755163,
+                                                  2015.9986301369863
+                                                ]
+                                              },
+                                              "ORF1_type": {
+                                                "value": "GII.P17"
+                                              },
+                                              "country": {
+                                                "value": "Japan"
+                                              },
+                                              "ORF2_type": {
+                                                "value": "GII.17"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T2G",
+                                                  "C522T",
+                                                  "G646A",
+                                                  "A750G"
+                                                ],
+                                                "p48": [
+                                                  "T173I",
+                                                  "N249S"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "p48: T173I, N249S"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000043",
+                                            "node_attrs": {
+                                              "div": 0.0070495179473746734,
+                                              "num_date": {
+                                                "value": 2014.3977539719526,
+                                                "confidence": [
+                                                  2011.4354706656982,
+                                                  2015.070767062744
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "NODE_0000044",
+                                                "node_attrs": {
+                                                  "div": 0.007049517947374684,
+                                                  "num_date": {
+                                                    "value": 2014.398951473102,
+                                                    "confidence": [
+                                                      2014.039348096113,
+                                                      2015.0780821917808
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "KT780416",
+                                                    "node_attrs": {
+                                                      "div": 0.007049517947374694,
+                                                      "num_date": {
+                                                        "value": 2014.6582692604488,
+                                                        "confidence": [
+                                                          2015.0013698630137,
+                                                          2015.9986301369863
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "Hong_Kong"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "KT970376",
+                                                    "node_attrs": {
+                                                      "div": 0.007049517947374694,
+                                                      "num_date": {
+                                                        "value": 2014.7384686361486,
+                                                        "confidence": [
+                                                          2015.0780821917808,
+                                                          2015.0780821917808
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "China"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "name": "NODE_0000045",
+                                                "node_attrs": {
+                                                  "div": 0.007049517947374684,
+                                                  "num_date": {
+                                                    "value": 2014.4395262617568,
+                                                    "confidence": [
+                                                      2011.5091970822582,
+                                                      2015.608829174732
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MF421538",
+                                                    "node_attrs": {
+                                                      "div": 0.007049517947374694,
+                                                      "num_date": {
+                                                        "value": 2016.8838019613506,
+                                                        "confidence": [
+                                                          2017.1301369863013,
+                                                          2017.1301369863013
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "China"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000070",
+                                                    "node_attrs": {
+                                                      "div": 0.009059978289849887,
+                                                      "num_date": {
+                                                        "value": 2016.043572419432,
+                                                        "confidence": [
+                                                          2013.5772586650237,
+                                                          2016.7757354512603
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "A303G",
+                                                          "C801T"
+                                                        ],
+                                                        "p48": [
+                                                          "Y100C",
+                                                          "S266F"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "p48: Y100C, S266F"
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "MF421542",
+                                                        "node_attrs": {
+                                                          "div": 0.01006521093373453,
+                                                          "num_date": {
+                                                            "value": 2017.1129430374735,
+                                                            "confidence": [
+                                                              2017.349315068493,
+                                                              2017.349315068493
+                                                            ]
+                                                          },
+                                                          "ORF1_type": {
+                                                            "value": "GII.P17"
+                                                          },
+                                                          "country": {
+                                                            "value": "China"
+                                                          },
+                                                          "ORF2_type": {
+                                                            "value": "GII.17"
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C751A"
+                                                            ],
+                                                            "p48": [
+                                                              "N249K"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "p48: N249K"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000068",
+                                                        "node_attrs": {
+                                                          "div": 0.009059978289849897,
+                                                          "num_date": {
+                                                            "value": 2016.043572419432,
+                                                            "confidence": [
+                                                              2013.6934683790023,
+                                                              2016.9410647095847
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "MF421541",
+                                                            "node_attrs": {
+                                                              "div": 0.009059978289849908,
+                                                              "num_date": {
+                                                                "value": 2017.1129430374735,
+                                                                "confidence": [
+                                                                  2017.349315068493,
+                                                                  2017.349315068493
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "China"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "NODE_0000071",
+                                                            "node_attrs": {
+                                                              "div": 0.009059978289849908,
+                                                              "num_date": {
+                                                                "value": 2016.043572419432,
+                                                                "confidence": [
+                                                                  2013.7358738773914,
+                                                                  2017.349315068493
+                                                                ]
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "children": [
+                                                              {
+                                                                "name": "MF421539",
+                                                                "node_attrs": {
+                                                                  "div": 0.009059978289849918,
+                                                                  "num_date": {
+                                                                    "value": 2017.1129430374735,
+                                                                    "confidence": [
+                                                                      2017.349315068493,
+                                                                      2017.349315068493
+                                                                    ]
+                                                                  },
+                                                                  "ORF1_type": {
+                                                                    "value": "GII.P17"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "China"
+                                                                  },
+                                                                  "ORF2_type": {
+                                                                    "value": "GII.17"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                }
+                                                              },
+                                                              {
+                                                                "name": "MF421540",
+                                                                "node_attrs": {
+                                                                  "div": 0.009059978289849918,
+                                                                  "num_date": {
+                                                                    "value": 2017.1129430374735,
+                                                                    "confidence": [
+                                                                      2017.349315068493,
+                                                                      2017.349315068493
+                                                                    ]
+                                                                  },
+                                                                  "ORF1_type": {
+                                                                    "value": "GII.P17"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "China"
+                                                                  },
+                                                                  "ORF2_type": {
+                                                                    "value": "GII.17"
+                                                                  }
+                                                                },
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                }
+                                                              }
+                                                            ]
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "NODE_0000048",
+                                    "node_attrs": {
+                                      "div": 0.006044792944614508,
+                                      "num_date": {
+                                        "value": 2013.424277510206,
+                                        "confidence": [
+                                          2011.9787886353447,
+                                          2014.4082499449803
+                                        ]
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "NODE_0000049",
+                                        "node_attrs": {
+                                          "div": 0.006044792944614519,
+                                          "num_date": {
+                                            "value": 2013.424277510206,
+                                            "confidence": [
+                                              2012.0771985729234,
+                                              2014.9032307854977
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "LC369215",
+                                            "node_attrs": {
+                                              "div": 0.007049708710726373,
+                                              "num_date": {
+                                                "value": 2014.6582692604488,
+                                                "confidence": [
+                                                  2015.0013698630137,
+                                                  2015.9163205023567
+                                                ]
+                                              },
+                                              "ORF1_type": {
+                                                "value": "GII.P17"
+                                              },
+                                              "country": {
+                                                "value": "Japan"
+                                              },
+                                              "ORF2_type": {
+                                                "value": "GII.17"
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T335C"
+                                                ],
+                                                "p48": [
+                                                  "F111L"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "p48: F111L"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "NODE_0000081",
+                                            "node_attrs": {
+                                              "div": 0.0070495179473746734,
+                                              "num_date": {
+                                                "value": 2014.3904325366734,
+                                                "confidence": [
+                                                  2014.1312510954224,
+                                                  2015.7008368919785
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "C27T"
+                                                ],
+                                                "p48": [
+                                                  "P8L"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "p48: P8L"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "LC369219",
+                                                "node_attrs": {
+                                                  "div": 0.007049517947374684,
+                                                  "num_date": {
+                                                    "value": 2014.6582692604488,
+                                                    "confidence": [
+                                                      2015.0013698630137,
+                                                      2015.9986301369863
+                                                    ]
+                                                  },
+                                                  "ORF1_type": {
+                                                    "value": "GII.P17"
+                                                  },
+                                                  "country": {
+                                                    "value": "Japan"
+                                                  },
+                                                  "ORF2_type": {
+                                                    "value": "GII.17"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              },
+                                              {
+                                                "name": "LC369221",
+                                                "node_attrs": {
+                                                  "div": 0.007049517947374684,
+                                                  "num_date": {
+                                                    "value": 2014.6582692604488,
+                                                    "confidence": [
+                                                      2015.0013698630137,
+                                                      2015.9986301369863
+                                                    ]
+                                                  },
+                                                  "ORF1_type": {
+                                                    "value": "GII.P17"
+                                                  },
+                                                  "country": {
+                                                    "value": "Japan"
+                                                  },
+                                                  "ORF2_type": {
+                                                    "value": "GII.17"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "name": "NODE_0000051",
+                                        "node_attrs": {
+                                          "div": 0.006044792944614519,
+                                          "num_date": {
+                                            "value": 2013.5156646605171,
+                                            "confidence": [
+                                              2012.1181364332426,
+                                              2014.451236775746
+                                            ]
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "NODE_0000053",
+                                            "node_attrs": {
+                                              "div": 0.006044792944614529,
+                                              "num_date": {
+                                                "value": 2013.5156646605171,
+                                                "confidence": [
+                                                  2012.170731898664,
+                                                  2014.8533749324815
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "KT970372",
+                                                "node_attrs": {
+                                                  "div": 0.007049517947374684,
+                                                  "num_date": {
+                                                    "value": 2014.7126902650846,
+                                                    "confidence": [
+                                                      2015.0534246575342,
+                                                      2015.0534246575342
+                                                    ]
+                                                  },
+                                                  "ORF1_type": {
+                                                    "value": "GII.P17"
+                                                  },
+                                                  "country": {
+                                                    "value": "China"
+                                                  },
+                                                  "ORF2_type": {
+                                                    "value": "GII.17"
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C360T"
+                                                    ],
+                                                    "p48": [
+                                                      "S119L"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "p48: S119L"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000047",
+                                                "node_attrs": {
+                                                  "div": 0.007049517947374684,
+                                                  "num_date": {
+                                                    "value": 2014.3415931198595,
+                                                    "confidence": [
+                                                      2013.7807992072799,
+                                                      2015.790044498612
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C487T"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "KY905330",
+                                                    "node_attrs": {
+                                                      "div": 0.008058886618500526,
+                                                      "num_date": {
+                                                        "value": 2016.2235931496427,
+                                                        "confidence": [
+                                                          2016.4986338797814,
+                                                          2016.5806010928961
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "Australia"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C768T"
+                                                        ],
+                                                        "p48": [
+                                                          "P255L"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "p48: P255L"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "MT238669",
+                                                    "node_attrs": {
+                                                      "div": 0.008056218678927881,
+                                                      "num_date": {
+                                                        "value": 2015.5748335639978,
+                                                        "confidence": [
+                                                          2015.8780821917808,
+                                                          2015.8780821917808
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C420T"
+                                                        ],
+                                                        "p48": [
+                                                          "T139I"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "p48: T139I"
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "name": "NODE_0000055",
+                                            "node_attrs": {
+                                              "div": 0.006044792944614529,
+                                              "num_date": {
+                                                "value": 2014.3236869723737,
+                                                "confidence": [
+                                                  2011.5045060133202,
+                                                  2014.9773855365388
+                                                ]
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "NODE_0000057",
+                                                "node_attrs": {
+                                                  "div": 0.00604479294461454,
+                                                  "num_date": {
+                                                    "value": 2014.3622400025768,
+                                                    "confidence": [
+                                                      2013.5622832833294,
+                                                      2014.9849315068493
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "MT238665",
+                                                    "node_attrs": {
+                                                      "div": 0.00604479294461455,
+                                                      "num_date": {
+                                                        "value": 2015.6607614675438,
+                                                        "confidence": [
+                                                          2015.9602739726026,
+                                                          2015.9602739726026
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "USA"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "KU557787",
+                                                    "node_attrs": {
+                                                      "div": 0.00604479294461454,
+                                                      "num_date": {
+                                                        "value": 2014.6410836787963,
+                                                        "confidence": [
+                                                          2014.9849315068493,
+                                                          2014.9849315068493
+                                                        ]
+                                                      },
+                                                      "ORF1_type": {
+                                                        "value": "GII.P17"
+                                                      },
+                                                      "country": {
+                                                        "value": "China"
+                                                      },
+                                                      "ORF2_type": {
+                                                        "value": "GII.17"
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    }
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "name": "NODE_0000060",
+                                                "node_attrs": {
+                                                  "div": 0.00604479294461454,
+                                                  "num_date": {
+                                                    "value": 2014.3236869723737,
+                                                    "confidence": [
+                                                      2011.5557211048085,
+                                                      2015.069107142048
+                                                    ]
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "NODE_0000061",
+                                                    "node_attrs": {
+                                                      "div": 0.00604479294461455,
+                                                      "num_date": {
+                                                        "value": 2014.3236869723737,
+                                                        "confidence": [
+                                                          2011.6422747333586,
+                                                          2015.1540443044762
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "NODE_0000062",
+                                                        "node_attrs": {
+                                                          "div": 0.00604479294461456,
+                                                          "num_date": {
+                                                            "value": 2014.3904325366734,
+                                                            "confidence": [
+                                                              2013.2831947878194,
+                                                              2015.592507302706
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "LC369227",
+                                                            "node_attrs": {
+                                                              "div": 0.006044792944614571,
+                                                              "num_date": {
+                                                                "value": 2014.6582692604488,
+                                                                "confidence": [
+                                                                  2015.0013698630137,
+                                                                  2015.9986301369863
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "Japan"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "LC369241",
+                                                            "node_attrs": {
+                                                              "div": 0.00604479294461456,
+                                                              "num_date": {
+                                                                "value": 2014.6582692604488,
+                                                                "confidence": [
+                                                                  2015.0013698630137,
+                                                                  2015.9986301369863
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "Japan"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000063",
+                                                        "node_attrs": {
+                                                          "div": 0.00604479294461456,
+                                                          "num_date": {
+                                                            "value": 2014.3236869723737,
+                                                            "confidence": [
+                                                              2011.6778331533565,
+                                                              2015.1657534246576
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "MK789431",
+                                                            "node_attrs": {
+                                                              "div": 0.007051877690258274,
+                                                              "num_date": {
+                                                                "value": 2015.5290053497165,
+                                                                "confidence": [
+                                                                  2015.8342465753424,
+                                                                  2015.9136986301369
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "Spain"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T426C"
+                                                                ],
+                                                                "p48": [
+                                                                  "M141T"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "p48: M141T"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "KU561249",
+                                                            "node_attrs": {
+                                                              "div": 0.0070508448813692585,
+                                                              "num_date": {
+                                                                "value": 2014.830125066598,
+                                                                "confidence": [
+                                                                  2015.1657534246576,
+                                                                  2015.1657534246576
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "Hong_Kong"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "C423T"
+                                                                ],
+                                                                "p48": [
+                                                                  "T140I"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "p48: T140I"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000064",
+                                                    "node_attrs": {
+                                                      "div": 0.00604479294461455,
+                                                      "num_date": {
+                                                        "value": 2014.3531498057673,
+                                                        "confidence": [
+                                                          2011.9098575553319,
+                                                          2015.5404173011884
+                                                        ]
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "NODE_0000066",
+                                                        "node_attrs": {
+                                                          "div": 0.00604479294461456,
+                                                          "num_date": {
+                                                            "value": 2015.0852132606892,
+                                                            "confidence": [
+                                                              2012.570369290111,
+                                                              2017.0797880888172
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "LC258403",
+                                                            "node_attrs": {
+                                                              "div": 0.006044792944614571,
+                                                              "num_date": {
+                                                                "value": 2016.8379737470696,
+                                                                "confidence": [
+                                                                  2017.0863013698631,
+                                                                  2017.1602739726027
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "Japan"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "MK648242",
+                                                            "node_attrs": {
+                                                              "div": 0.006044792944614571,
+                                                              "num_date": {
+                                                                "value": 2016.7491815800718,
+                                                                "confidence": [
+                                                                  2017.0013698630137,
+                                                                  2017.0835616438355
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "Canada"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000067",
+                                                        "node_attrs": {
+                                                          "div": 0.00604479294461456,
+                                                          "num_date": {
+                                                            "value": 2014.3904325366734,
+                                                            "confidence": [
+                                                              2013.2861005947611,
+                                                              2015.7158932061016
+                                                            ]
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "LC369216",
+                                                            "node_attrs": {
+                                                              "div": 0.006044792944614571,
+                                                              "num_date": {
+                                                                "value": 2014.6582692604488,
+                                                                "confidence": [
+                                                                  2015.0013698630137,
+                                                                  2015.9986301369863
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "Japan"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "LC369222",
+                                                            "node_attrs": {
+                                                              "div": 0.006044792944614571,
+                                                              "num_date": {
+                                                                "value": 2014.6582692604488,
+                                                                "confidence": [
+                                                                  2015.0013698630137,
+                                                                  2015.9986301369863
+                                                                ]
+                                                              },
+                                                              "ORF1_type": {
+                                                                "value": "GII.P17"
+                                                              },
+                                                              "country": {
+                                                                "value": "Japan"
+                                                              },
+                                                              "ORF2_type": {
+                                                                "value": "GII.17"
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

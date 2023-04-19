@@ -1,0 +1,46 @@
+{
+  "title": "Norovirus Build",
+  "maintainers": [
+    {"name": "Trevor Bedford", "url": "http://bedford.io/team/trevor-bedford/"}
+  ],
+  "build_url": "https://github.com/blab/norovirus",
+  "colorings": [
+    {
+      "key": "ORF2_type",
+      "title": "Vp1 Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "ORF1_type",
+      "title": "Rdrp Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "region"
+  ],
+  "panels": [
+     "tree",
+     "map",
+     "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true
+  },
+  "filters": [
+    "country",
+    "ORF2_type",
+    "ORF1_type"
+  ]
+}
