@@ -1,0 +1,27 @@
+{
+  "virus": "measles",
+  "virus_family": "paramyxovirus",
+  "genome_type": "Negative-sense RNA",
+  "enveloped": "True",
+  "transmission": "Respiratory",
+  "cellular_receptor": "SLAMF1, Nectin-4",
+  "fusion_protein_class": "Class I",
+  "subtype": "False",
+  "legible_name": "Measles",
+  "color": "#F5AD52",
+  "alignment_file": "../{virus}/results/aligned.fasta",
+  "meta_file": "../{virus}/data/metadata.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../{virus}/config/measles_reference.gb",
+  "root_seq_file": "../{virus}/auspice/measles_root-sequence.json",
+  "tree_file": "../{virus}/auspice/measles.json",
+  "tree_type": "genome",
+  "nextstrain_tree_url": "https://nextstrain.org/measles", 
+  "genes": ["N", "P", "V", "C", "M", "F", "H", "L"],
+  "ha_protein": {"virus_gene": "H"},
+  "receptor_binding": {"virus_gene": "H"},
+  "membrane_fusion": {"virus_gene": "F"},
+  "polymerase": {"virus_gene": "L"},
+  "nonantigenic_gene": "L"
+
+}

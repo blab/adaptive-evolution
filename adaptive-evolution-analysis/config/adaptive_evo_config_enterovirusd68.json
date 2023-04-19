@@ -1,0 +1,24 @@
+{
+  "virus": "enterovirusd68",
+  "virus_family": "picornavirus",
+  "genome_type": "Positive-sense RNA",
+  "enveloped": "False",
+  "transmission": "Respiratory",
+  "cellular_receptor": "Sialic acid",
+  "fusion_protein_class": "N/A",
+  "subtype": "False",
+  "legible_name": "Enterovirus D68",
+  "color": "#9779bd",
+  "alignment_file": "../enterovirus_d68/genome/aligned_filtered.fasta",
+  "meta_file": "../enterovirus_d68/genome/metadata.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../enterovirus_d68/genome/config/ev_d68_reference_genome.gb",
+  "nextstrain_tree_url": "https://nextstrain.org/enterovirus/d68/genome",
+  "genes": ["VP4", "VP2", "VP3", "VP1", "2A", "2B", "2C", "3A", "3B", "3C", "3D"],
+  "ha_protein": {"virus_gene": "VP1"},
+  "receptor_binding": {"virus_gene": "VP1"},
+  "membrane_fusion": {"virus_gene": "None"},
+  "polymerase": {"virus_gene": "3D"},
+  "nonantigenic_gene": "3D"
+
+}

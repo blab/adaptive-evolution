@@ -1,0 +1,23 @@
+{
+  "virus": "sars221L",
+  "virus_family": "coronavirus",
+  "genome_type": "Positive-sense RNA",
+  "enveloped": "True",
+  "transmission": "Respiratory",
+  "cellular_receptor": "ACE2",
+  "fusion_protein_class": "Class I",
+  "subtype": "False",
+  "legible_name": "SARS-CoV-2 Omicron 21L",
+  "color": "#196468",
+  "alignment_file": "../ncov_21L/results/global_all-time/filtered.fasta",
+  "meta_file": "../ncov_21L/results/global_all-time/metadata_adjusted.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../ncov_21L/reference_seq_edited.gb",
+  "genes": ["ORF1a", "ORF1b", "S1", "S2", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"],
+  "ha_protein": {"virus_gene": "S"},
+  "receptor_binding": {"virus_gene": "S1"},
+  "membrane_fusion": {"virus_gene": "S2"},
+  "polymerase": {"virus_gene": "RdRp"},
+  "nonantigenic_gene": "S2"
+
+}

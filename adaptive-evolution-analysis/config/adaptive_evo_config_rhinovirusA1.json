@@ -1,0 +1,24 @@
+{
+  "virus": "rhinovirusA",
+  "virus_family": "picornavirus",
+  "genome_type": "Positive-sense RNA",
+  "enveloped": "False",
+  "transmission": "Respiratory, fomites",
+  "cellular_receptor": "LDL Receptor",
+  "fusion_protein_class": "N/A",
+  "subtype": "False",
+  "legible_name": "Rhinovirus A1",
+  "color": "#9779bd",
+  "alignment_file": "../rhinovirusA/results/aligned_rhinovirusA_1.fasta",
+  "meta_file": "../rhinovirusA/results/metadata_rhinovirusA_1.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../rhinovirusA/config/reference_rhinovirusA_all.gb",
+  "nextstrain_tree_url": "https://nextstrain.org/groups/blab/rhinovirusA/1",
+  "genes": ["VP4", "VP2", "VP3", "VP1", "2A", "2B", "2C", "3A", "3B", "3C", "3D"],
+  "ha_protein": {"virus_gene": "VP3"},
+  "receptor_binding": {"virus_gene": "VP3"},
+  "membrane_fusion": {"virus_gene": "None"},
+  "polymerase": {"virus_gene": "3D"},
+  "nonantigenic_gene": "3D"
+
+}

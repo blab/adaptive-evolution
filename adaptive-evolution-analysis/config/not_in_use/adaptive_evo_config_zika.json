@@ -1,0 +1,21 @@
+{
+  "virus": "zika",
+  "virus_family": "flavivirus",
+  "subtype": "False",
+  "legible_name": "Zika",
+  "color": "#0a829f",
+  "alignment_file": "../zika/results/aligned.fasta",
+  "meta_file": "../zika/data/metadata.tsv",
+  "metafile_sep": "\t",
+  "reference_file": "../zika/config/{virus}_reference.gb",
+  "ha_protein": {"virus_gene": "ENV"},
+  "receptor_binding": {"virus_gene": "E3", 
+                       "specify_location": {"parent_gene": "ENV",
+                                            "location": "[[1872,2175]]"}},
+  "membrane_fusion": {"virus_gene": "E2", 
+                       "specify_location": {"parent_gene": "ENV",
+                                            "location": "[[1116,1356],[1560,1815]]"}},
+  "polymerase": {"virus_gene": "NS5"},
+  "nonantigenic_gene": "NS5"
+
+}
