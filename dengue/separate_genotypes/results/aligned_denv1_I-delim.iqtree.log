@@ -1,0 +1,620 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv1_I-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    798749 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:26:33 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv1_I-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.097554 secs using 92.27% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0424809 secs using 80.3% CPU
+Alignment has 513 sequences with 10735 columns, 4324 distinct patterns
+3044 parsimony-informative, 1235 singleton sites, 6455 constant sites
+                                                                                                                                                    Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00524497 secs using 91.44% CPU
+   1  03_HD_019                                                                                                                                             5.18%    passed     92.00%
+   2  04_HD_009                                                                                                                                             5.18%    passed     92.00%
+   3  01_TN_088                                                                                                                                             5.18%    passed     93.55%
+   4  01_TN_078                                                                                                                                             5.18%    passed     91.54%
+   5  01_TN_081                                                                                                                                             5.18%    passed     91.54%
+   6  01_PK_90_L2                                                                                                                                           5.18%    passed     92.32%
+   7  01_TN_087                                                                                                                                             5.18%    passed     92.32%
+   8  01_TN_083                                                                                                                                             5.18%    passed     92.32%
+   9  09_HD_019                                                                                                                                             5.18%    passed     92.16%
+  10  03_HD_014                                                                                                                                             5.18%    passed     94.58%
+  11  03_HD_009                                                                                                                                             5.18%    passed     93.16%
+  12  03_HD_002                                                                                                                                             5.18%    passed     91.14%
+  13  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3872_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.55%    passed     99.30%
+  14  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3886_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.45%    passed     99.13%
+  15  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3857_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.45%    passed     99.59%
+  16  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1977_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             0.42%    passed     99.83%
+  17  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2824_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.86%
+  18  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2751_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.55%    passed     99.70%
+  19  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2687_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.48%    passed     99.71%
+  20  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1940_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             0.48%    passed     99.94%
+  21  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1502_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.52%    passed     99.64%
+  22  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1579_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.14%
+  23  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1559_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.14%
+  24  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V985_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.48%
+  25  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1628_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.28%
+  26  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V951_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                              0.42%    passed     99.73%
+  27  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1798_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     97.57%
+  28  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1541_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.32%
+  29  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V953_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                              0.42%    passed     99.48%
+  30  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V952_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                              0.42%    passed     99.64%
+  31  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1698_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.57%
+  32  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1700_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.65%
+  33  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1658_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.70%
+  34  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2770_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.48%    passed     99.69%
+  35  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2735_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.56%    passed     99.88%
+  36  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1550_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.66%
+  37  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V966_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                              0.42%    passed     99.59%
+  38  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3954_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             5.42%    passed     95.29%
+  39  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V949_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                              0.48%    passed     99.64%
+  40  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1646_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.59%
+  41  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4076_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.42%    passed     99.49%
+  42  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4014_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.52%    passed     89.50%
+  43  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4035_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.57%    passed     97.68%
+  44  PF13_DELIM-HLXSOGPVMIFBSKHEETGX_190813_45                                                                                                             1.29%    passed     99.30%
+  45  Ncal2013                                                                                                                                              0.16%    passed     99.31%
+  46  NDF30                                                                                                                                                 0.02%    passed     98.55%
+  47  04_HD_007                                                                                                                                             5.18%    passed     99.72%
+  48  11_HD_001                                                                                                                                             5.18%    passed     99.34%
+  49  03_HD_006                                                                                                                                             5.18%    passed     99.37%
+  50  04_HD_015                                                                                                                                             5.18%    passed     98.99%
+  51  01_TN_091                                                                                                                                             5.18%    passed     99.34%
+  52  09_HD_013                                                                                                                                             5.18%    passed     98.52%
+  53  11_HD_006                                                                                                                                             5.18%    passed     90.56%
+  54  01_TN_076                                                                                                                                             5.18%    passed     99.72%
+  55  01_TN_077                                                                                                                                             5.18%    passed     99.80%
+  56  01_TN_040                                                                                                                                             5.18%    passed     99.11%
+  57  01_TN_056                                                                                                                                             5.18%    passed     99.47%
+  58  11_HD_004                                                                                                                                             5.18%    passed     99.46%
+  59  08_HD_001                                                                                                                                             5.18%    passed     98.86%
+  60  V25657                                                                                                                                                0.42%    passed     99.75%
+  61  Henan201903                                                                                                                                           0.37%    passed     99.84%
+  62  LSDFV02                                                                                                                                               0.45%    passed     99.68%
+  63  V44137                                                                                                                                                0.00%    passed     99.98%
+  64  04_HD_018                                                                                                                                             5.18%    passed     99.82%
+  65  V21285                                                                                                                                                0.00%    passed     99.65%
+  66  Hue265_DELIM-HLXSOGPVMIFBSKHEETGX_2013                                                                                                                0.03%    passed     98.85%
+  67  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3868_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.50%    passed     99.10%
+  68  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4043_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.40%    passed     99.01%
+  69  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4234_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             2.49%    passed     97.73%
+  70  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_IPC_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3787_DELIM-HLXSOGPVMIFBSKHEETGX_2009                                            2.43%    passed     96.55%
+  71  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1993_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     99.83%
+  72  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4260_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.56%    passed     99.95%
+  73  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2001_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.42%    passed     99.49%
+  74  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4239_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.67%    passed     99.72%
+  75  ZH415                                                                                                                                                 0.60%    passed     99.95%
+  76  ZH398                                                                                                                                                 0.62%    passed     99.96%
+  77  Laos2012                                                                                                                                              1.69%    passed     99.58%
+  78  Thai2012                                                                                                                                              0.16%    passed     99.79%
+  79  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_CT9_DELIM-HLXSOGPVMIFBSKHEETGX_2012                                                       0.35%    passed     99.97%
+  80  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_8_DELIM-HLXSOGPVMIFBSKHEETGX_Thailand_DELIM-HLXSOGPVMIFBSKHEETGX_01_DELIM-HLXSOGPVMIFBSKHEETGX_2013                 0.02%    passed     99.94%
+  81  DHF                                                                                                                                                   1.84%    passed     99.36%
+  82  SV594                                                                                                                                                 0.56%    passed     99.83%
+  83  SV437                                                                                                                                                 0.56%    passed     99.46%
+  84  GD01_DELIM-HLXSOGPVMIFBSKHEETGX_06                                                                                                                    0.00%    passed     99.91%
+  85  DEN1_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_XNC                                                                                     0.00%    passed     99.82%
+  86  DF1203                                                                                                                                                0.00%    passed     99.70%
+  87  03_HD_022                                                                                                                                             5.18%    passed     96.77%
+  88  04_HD_010                                                                                                                                             5.18%    passed     96.77%
+  89  GZ_DELIM-HLXSOGPVMIFBSKHEETGX_33754_DELIM-HLXSOGPVMIFBSKHEETGX_D1_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                     1.12%    passed     98.71%
+  90  Sz_25_DELIM-HLXSOGPVMIFBSKHEETGX_M_DELIM-HLXSOGPVMIFBSKHEETGX_SZ_DELIM-HLXSOGPVMIFBSKHEETGX_2014_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                      0.46%    passed     98.07%
+  91  N5_DELIM-HLXSOGPVMIFBSKHEETGX_DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_M_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_2014                       1.04%    passed     98.56%
+  92  DENV1_DELIM-HLXSOGPVMIFBSKHEETGX_CN_DELIM-HLXSOGPVMIFBSKHEETGX_GZDF716_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                0.00%    passed     97.77%
+  93  N46_DELIM-HLXSOGPVMIFBSKHEETGX_DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_M_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_2014                      0.03%    passed     96.97%
+  94  GZ_DELIM-HLXSOGPVMIFBSKHEETGX_35293_DELIM-HLXSOGPVMIFBSKHEETGX_D1_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                     1.03%    passed     97.20%
+  95  GZ_DELIM-HLXSOGPVMIFBSKHEETGX_14828_DELIM-HLXSOGPVMIFBSKHEETGX_D1_DELIM-HLXSOGPVMIFBSKHEETGX_2015                                                     1.01%    passed     97.59%
+  96  P1278_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_GD_DELIM-HLXSOGPVMIFBSKHEETGX_ZS_DELIM-HLXSOGPVMIFBSKHEETGX_2014                    1.42%    passed     98.66%
+  97  GZ8_63_DELIM-HLXSOGPVMIFBSKHEETGX_S_DELIM-HLXSOGPVMIFBSKHEETGX_Liwan_DELIM-HLXSOGPVMIFBSKHEETGX_2013_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                  0.57%    passed     99.61%
+  98  GZ27                                                                                                                                                  0.00%    passed     99.02%
+  99  GZ8_59_DELIM-HLXSOGPVMIFBSKHEETGX_S_DELIM-HLXSOGPVMIFBSKHEETGX_Dongshan_DELIM-HLXSOGPVMIFBSKHEETGX_2013_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1               0.44%    passed     99.47%
+ 100  GZ8_55_DELIM-HLXSOGPVMIFBSKHEETGX_S_DELIM-HLXSOGPVMIFBSKHEETGX_Baiyun_DELIM-HLXSOGPVMIFBSKHEETGX_2013_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                 1.11%    passed     99.35%
+ 101  GZ_DELIM-HLXSOGPVMIFBSKHEETGX_26785_DELIM-HLXSOGPVMIFBSKHEETGX_D1_DELIM-HLXSOGPVMIFBSKHEETGX_2013                                                     1.24%    passed     99.18%
+ 102  GZ8_84_DELIM-HLXSOGPVMIFBSKHEETGX_S_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_2014_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                     4.47%    passed     95.70%
+ 103  CHN_DELIM-HLXSOGPVMIFBSKHEETGX_GuangDong_DELIM-HLXSOGPVMIFBSKHEETGX_ZhongShan_DELIM-HLXSOGPVMIFBSKHEETGX_Guzhen01_DELIM-HLXSOGPVMIFBSKHEETGX_2013     1.42%    passed     94.86%
+ 104  CHN_DELIM-HLXSOGPVMIFBSKHEETGX_GuangDong_DELIM-HLXSOGPVMIFBSKHEETGX_ZhongShan_DELIM-HLXSOGPVMIFBSKHEETGX_HuangPu01_DELIM-HLXSOGPVMIFBSKHEETGX_2013    1.42%    passed     94.21%
+ 105  CHN_DELIM-HLXSOGPVMIFBSKHEETGX_GuangDong_DELIM-HLXSOGPVMIFBSKHEETGX_ZhongShan_DELIM-HLXSOGPVMIFBSKHEETGX_Henglan01_DELIM-HLXSOGPVMIFBSKHEETGX_2013    1.42%    passed     94.82%
+ 106  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4174DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.98%
+ 107  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4175DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.99%
+ 108  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4172DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.98%
+ 109  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K2901DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.99%
+ 110  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K3297DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.98%
+ 111  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4604DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.97%
+ 112  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K2887DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed    100.00%
+ 113  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4441DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.98%
+ 114  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K872DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                 0.00%    passed     99.99%
+ 115  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K3908DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.97%
+ 116  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4820DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.99%
+ 117  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K3904DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.99%
+ 118  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K3886DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.99%
+ 119  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K847DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                 0.00%    passed     99.90%
+ 120  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4606DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.99%
+ 121  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4468DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.95%
+ 122  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K3916DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.99%
+ 123  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4605DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.90%
+ 124  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4620DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.96%
+ 125  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4609DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.82%
+ 126  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K3300DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.12%    passed     99.91%
+ 127  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_06K2236DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                                0.00%    passed     99.99%
+ 128  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K2928DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.61%
+ 129  D1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_05K4173DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                                0.00%    passed     99.95%
+ 130  Fj231_DELIM-HLXSOGPVMIFBSKHEETGX_04                                                                                                                   0.00%    passed     99.62%
+ 131  SG_EHI_D1227Y03                                                                                                                                       0.87%    passed     99.62%
+ 132  SG_EHI_D1210Y03                                                                                                                                       0.87%    passed     99.71%
+ 133  SG_EHI_D1209Y03                                                                                                                                       0.87%    passed     96.49%
+ 134  MKS_2094                                                                                                                                              0.00%    passed     99.81%
+ 135  DenKor_02                                                                                                                                             0.00%    passed     99.99%
+ 136  MKS_0397                                                                                                                                              0.00%    passed     99.98%
+ 137  MKS_2138                                                                                                                                              0.00%    passed     99.96%
+ 138  MKS_WS72                                                                                                                                              0.00%    passed     99.98%
+ 139  MKS_WS81                                                                                                                                              0.00%    passed     99.98%
+ 140  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Saitama_DELIM-HLXSOGPVMIFBSKHEETGX_NIID100_DELIM-HLXSOGPVMIFBSKHEETGX_2014                0.39%    passed     99.59%
+ 141  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_NIID149_DELIM-HLXSOGPVMIFBSKHEETGX_2014                  0.39%    passed     99.59%
+ 142  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_NIID111_DELIM-HLXSOGPVMIFBSKHEETGX_2014                  0.39%    passed     99.59%
+ 143  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Hyogo_DELIM-HLXSOGPVMIFBSKHEETGX_NIID188_DELIM-HLXSOGPVMIFBSKHEETGX_2014                  0.39%    passed     99.59%
+ 144  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Chiba_DELIM-HLXSOGPVMIFBSKHEETGX_NIID153_DELIM-HLXSOGPVMIFBSKHEETGX_2014                  0.39%    passed     99.47%
+ 145  MJ06_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     95.70%
+ 146  MJ03_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     95.70%
+ 147  SCP17_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                5.18%    passed     95.70%
+ 148  MJ09_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     95.70%
+ 149  YP11_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     95.70%
+ 150  NYC02_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                5.18%    passed     95.70%
+ 151  YP04_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     95.70%
+ 152  YP10_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     95.01%
+ 153  YP18_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     95.01%
+ 154  YP02_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     96.32%
+ 155  MJ07_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                 5.18%    passed     94.96%
+ 156  DV1C_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_GDgz_DELIM-HLXSOGPVMIFBSKHEETGX_14629_DELIM-HLXSOGPVMIFBSKHEETGX_2014                0.42%    passed     99.86%
+ 157  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_10760Y15                                                                                                         0.00%    passed     99.88%
+ 158  V10760                                                                                                                                                0.00%    passed     99.88%
+ 159  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_04009Y13                                                                                                         0.69%    passed     99.86%
+ 160  V13160                                                                                                                                                0.00%    passed     99.86%
+ 161  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_07211Y14                                                                                                         0.00%    passed     99.54%
+ 162  V26424                                                                                                                                                0.00%    passed     99.82%
+ 163  DENV1_DELIM-HLXSOGPVMIFBSKHEETGX_CN_DELIM-HLXSOGPVMIFBSKHEETGX_GZ35_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                   1.00%    passed     99.83%
+ 164  TM236                                                                                                                                                 0.64%    passed     99.76%
+ 165  TM85                                                                                                                                                  1.20%    passed     99.66%
+ 166  TM79                                                                                                                                                  0.57%    passed     99.40%
+ 167  TM71                                                                                                                                                  0.71%    passed     99.77%
+ 168  TM248                                                                                                                                                 0.57%    passed     99.55%
+ 169  TM99                                                                                                                                                  4.58%    passed     95.26%
+ 170  TM50                                                                                                                                                  4.14%    passed     92.98%
+ 171  TM23                                                                                                                                                  2.04%    passed     98.23%
+ 172  TM27                                                                                                                                                  0.94%    passed     99.93%
+ 173  TM19                                                                                                                                                  1.22%    passed     99.92%
+ 174  TM70                                                                                                                                                  1.24%    passed     98.95%
+ 175  TM32                                                                                                                                                  0.61%    passed     99.77%
+ 176  TM45                                                                                                                                                  0.99%    passed     99.85%
+ 177  V7980                                                                                                                                                 0.00%    passed     97.89%
+ 178  V44259                                                                                                                                                0.54%    passed     98.96%
+ 179  V8826                                                                                                                                                 0.51%    passed     98.62%
+ 180  V21653                                                                                                                                                0.23%    passed     97.71%
+ 181  V5372                                                                                                                                                 0.00%    passed     98.47%
+ 182  V46407                                                                                                                                                0.00%    passed     98.63%
+ 183  09041_DELIM-HLXSOGPVMIFBSKHEETGX_DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_2017                                                 0.33%    passed     98.68%
+ 184  V8355                                                                                                                                                 0.00%    passed     96.87%
+ 185  V17168                                                                                                                                                0.00%    passed     99.78%
+ 186  BO15_DELIM-HLXSOGPVMIFBSKHEETGX_14                                                                                                                    0.57%    passed     99.46%
+ 187  MKS_WS88                                                                                                                                              0.00%    passed     98.96%
+ 188  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_SG_DELIM-HLXSOGPVMIFBSKHEETGX_07K3640DK1_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                            0.03%    passed     99.54%
+ 189  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Taiwan_DELIM-HLXSOGPVMIFBSKHEETGX_709TN0706a                                                                            0.43%    passed     96.66%
+ 190  GZ_DELIM-HLXSOGPVMIFBSKHEETGX_6519_DELIM-HLXSOGPVMIFBSKHEETGX_D1_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                                      1.67%    passed     96.58%
+ 191  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1991_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     98.66%
+ 192  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1978_DELIM-HLXSOGPVMIFBSKHEETGX_2000                                             0.42%    passed     98.06%
+ 193  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1979_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.42%    passed     98.05%
+ 194  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2826_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.57%    passed     98.83%
+ 195  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2825_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.55%    passed     98.59%
+ 196  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1996_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.55%    passed     99.45%
+ 197  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1995_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     99.36%
+ 198  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1989_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     98.55%
+ 199  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1983_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.49%    passed     96.12%
+ 200  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1997_DELIM-HLXSOGPVMIFBSKHEETGX_2004                                             0.42%    passed     98.97%
+ 201  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3794_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                            15.38%    passed     96.88%
+ 202  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2901_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     98.90%
+ 203  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2906_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.05%
+ 204  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V981_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.42%
+ 205  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2709_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     98.79%
+ 206  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1896_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.11%
+ 207  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1832_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.88%
+ 208  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3903_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.10%    passed     99.58%
+ 209  SUB_038A                                                                                                                                              0.00%    passed    100.00%
+ 210  LNT613_Laos_2008                                                                                                                                      8.50%    passed     99.15%
+ 211  UI15488                                                                                                                                               0.56%    passed     99.28%
+ 212  SV224                                                                                                                                                 0.56%    passed     98.77%
+ 213  KDH0030A                                                                                                                                              0.00%    passed     99.99%
+ 214  GZ10                                                                                                                                                  0.10%    passed     99.93%
+ 215  D1Myanmar31987_DELIM-HLXSOGPVMIFBSKHEETGX_98                                                                                                          0.00%    passed     99.92%
+ 216  D1Myanmar059_DELIM-HLXSOGPVMIFBSKHEETGX_01                                                                                                            1.13%    passed     98.93%
+ 217  D1Myanmar49440_DELIM-HLXSOGPVMIFBSKHEETGX_02                                                                                                          1.13%    passed     99.92%
+ 218  D1Myanmar44168_DELIM-HLXSOGPVMIFBSKHEETGX_01                                                                                                          1.13%    passed     99.72%
+ 219  D1Myanmar37726_DELIM-HLXSOGPVMIFBSKHEETGX_01                                                                                                          1.13%    passed     99.50%
+ 220  D1Myanmar305_DELIM-HLXSOGPVMIFBSKHEETGX_01                                                                                                            1.13%    passed     99.26%
+ 221  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2276_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.42%    passed     99.64%
+ 222  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2274_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.55%    passed     99.63%
+ 223  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2277_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.58%    passed     99.88%
+ 224  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Taiwan_DELIM-HLXSOGPVMIFBSKHEETGX_813KH9809b                                                                            0.43%    passed     99.55%
+ 225  SV427                                                                                                                                                 0.56%    passed     98.48%
+ 226  SV385                                                                                                                                                 0.56%    passed     97.25%
+ 227  SV410                                                                                                                                                 0.56%    passed     96.16%
+ 228  SV393                                                                                                                                                 0.56%    passed     98.12%
+ 229  SV409                                                                                                                                                 0.56%    passed     98.48%
+ 230  SV541                                                                                                                                                 0.56%    passed     97.58%
+ 231  SV243                                                                                                                                                 0.56%    passed     96.16%
+ 232  SV228                                                                                                                                                 0.56%    passed     96.74%
+ 233  SV231                                                                                                                                                 0.56%    passed     97.22%
+ 234  SV220                                                                                                                                                 0.56%    passed     94.85%
+ 235  SV232                                                                                                                                                 0.56%    passed     97.25%
+ 236  SV381                                                                                                                                                 0.56%    passed     97.71%
+ 237  SV602                                                                                                                                                 0.56%    passed     96.99%
+ 238  SV337                                                                                                                                                 0.58%    passed     96.99%
+ 239  SV300                                                                                                                                                 0.56%    passed     98.42%
+ 240  SV130                                                                                                                                                 0.56%    passed     97.88%
+ 241  SV218                                                                                                                                                 0.56%    passed     98.19%
+ 242  SV204                                                                                                                                                 0.56%    passed     96.37%
+ 243  SV532                                                                                                                                                 0.56%    passed     96.07%
+ 244  SV671                                                                                                                                                 0.56%    passed     96.15%
+ 245  SV582                                                                                                                                                 0.56%    passed     96.12%
+ 246  LNT2313                                                                                                                                               0.56%    passed     99.17%
+ 247  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_30889Y14                                                                                                         0.00%    passed     98.00%
+ 248  V23136                                                                                                                                                0.00%    passed     98.13%
+ 249  V31633                                                                                                                                                0.00%    passed     96.69%
+ 250  V14455                                                                                                                                                0.00%    passed     97.32%
+ 251  V11777                                                                                                                                                0.00%    passed     97.47%
+ 252  V7724                                                                                                                                                 0.00%    passed     99.92%
+ 253  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_01963Y14                                                                                                         0.00%    passed     99.17%
+ 254  DG14                                                                                                                                                  0.20%    passed     99.83%
+ 255  YNBN1023                                                                                                                                             25.87%    passed     98.73%
+ 256  YNBN1018                                                                                                                                             25.87%    passed     99.46%
+ 257  YNBN1027                                                                                                                                             25.86%    passed     99.80%
+ 258  YNBN1020                                                                                                                                             25.85%    passed     99.56%
+ 259  YNBN1025                                                                                                                                             25.85%    passed     99.67%
+ 260  YNBN1021                                                                                                                                             25.87%    passed     99.73%
+ 261  YNBN1019                                                                                                                                             25.85%    passed     99.21%
+ 262  YNBN1028                                                                                                                                             25.92%    passed     99.53%
+ 263  YNBN1013                                                                                                                                             25.91%    passed     99.65%
+ 264  YNBN1012                                                                                                                                             25.90%    passed     99.52%
+ 265  YNBN1022                                                                                                                                             25.76%    passed     99.15%
+ 266  YNBN1006                                                                                                                                             25.75%    passed     99.07%
+ 267  YNBN1011                                                                                                                                             25.92%    passed     99.30%
+ 268  YNBN1015                                                                                                                                             25.82%    passed     99.22%
+ 269  YNBN1014                                                                                                                                             25.77%    passed     99.66%
+ 270  YNBN1016                                                                                                                                             26.21%    passed     98.97%
+ 271  YNBN1010                                                                                                                                             25.88%    passed     99.35%
+ 272  YNBN1024                                                                                                                                             25.68%    passed     99.09%
+ 273  YNBN1009                                                                                                                                             25.88%    passed     99.13%
+ 274  YN176272                                                                                                                                              0.00%    passed     96.35%
+ 275  YN2                                                                                                                                                   0.00%    passed     96.35%
+ 276  YN176282                                                                                                                                              0.00%    passed     96.80%
+ 277  YN17741                                                                                                                                               0.00%    passed     95.98%
+ 278  V48555                                                                                                                                                0.00%    passed     96.58%
+ 279  LSDFV01                                                                                                                                               0.36%    passed     96.36%
+ 280  TM385                                                                                                                                                 1.24%    passed     99.49%
+ 281  TM24                                                                                                                                                  3.42%    passed     99.56%
+ 282  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_07771Y14                                                                                                         0.00%    passed     99.94%
+ 283  V33084                                                                                                                                                0.00%    passed     99.68%
+ 284  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_38043Y14                                                                                                         0.00%    passed     99.68%
+ 285  GZ_12_DELIM-HLXSOGPVMIFBSKHEETGX_M_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_2014_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                      0.44%    passed     99.46%
+ 286  GZ_11_DELIM-HLXSOGPVMIFBSKHEETGX_M_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_2014_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                      0.44%    passed     99.55%
+ 287  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_ZW_0802_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                               0.59%    passed     99.63%
+ 288  GZ8_46_DELIM-HLXSOGPVMIFBSKHEETGX_S_DELIM-HLXSOGPVMIFBSKHEETGX_Haizhu_DELIM-HLXSOGPVMIFBSKHEETGX_2014_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                 0.82%    passed     99.38%
+ 289  V9063                                                                                                                                                 0.00%    passed     99.35%
+ 290  GZ_DELIM-HLXSOGPVMIFBSKHEETGX_34502_DELIM-HLXSOGPVMIFBSKHEETGX_D1_DELIM-HLXSOGPVMIFBSKHEETGX_2014                                                     1.26%    passed     99.75%
+ 291  V9778                                                                                                                                                 0.50%    passed     98.63%
+ 292  V42327                                                                                                                                                0.55%    passed     99.98%
+ 293  2016_Singapore_DENV_1_NPHL                                                                                                                            0.27%    passed     99.90%
+ 294  V5696                                                                                                                                                 0.00%    passed     99.49%
+ 295  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Taiwan_DELIM-HLXSOGPVMIFBSKHEETGX_806KH1405a                                                                            0.43%    passed     97.72%
+ 296  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_51415Y13                                                                                                         0.00%    passed     99.58%
+ 297  SUB_048A                                                                                                                                              0.00%    passed     95.22%
+ 298  V13250                                                                                                                                                0.00%    passed     97.46%
+ 299  V34427                                                                                                                                                0.00%    passed     92.53%
+ 300  V25333                                                                                                                                                0.00%    passed     98.91%
+ 301  SUB_027A                                                                                                                                              0.00%    passed     97.60%
+ 302  SUB_003A                                                                                                                                              0.00%    passed     99.71%
+ 303  DENV1_8356                                                                                                                                            1.05%    passed     99.01%
+ 304  SUB_120A                                                                                                                                              0.00%    passed     99.84%
+ 305  SUB_098A                                                                                                                                              0.00%    passed     99.46%
+ 306  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_35503Y13                                                                                                         0.25%    passed     99.94%
+ 307  DENV1_18805                                                                                                                                           0.66%    passed     97.30%
+ 308  DENV1_18014                                                                                                                                           3.35%    passed     97.44%
+ 309  Thai2013                                                                                                                                              0.16%    passed     99.78%
+ 310  D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Shizuoka_DELIM-HLXSOGPVMIFBSKHEETGX_NIID181_DELIM-HLXSOGPVMIFBSKHEETGX_2014               0.39%    passed     94.69%
+ 311  V5486                                                                                                                                                 0.00%    passed     99.06%
+ 312  V7581                                                                                                                                                 0.00%    passed     98.73%
+ 313  JMB_059                                                                                                                                               0.07%    passed     99.53%
+ 314  UI17443                                                                                                                                               0.56%    passed     97.67%
+ 315  UI17268                                                                                                                                               0.56%    passed     98.16%
+ 316  UI14612                                                                                                                                               0.56%    passed     96.40%
+ 317  UI15040                                                                                                                                               0.56%    passed     96.80%
+ 318  UI14881                                                                                                                                               0.56%    passed     96.77%
+ 319  UI15814                                                                                                                                               0.56%    passed     96.22%
+ 320  UI15711                                                                                                                                               0.56%    passed     96.77%
+ 321  UI17578                                                                                                                                               0.56%    passed     97.30%
+ 322  UI18600                                                                                                                                               0.56%    passed     98.98%
+ 323  UI18560                                                                                                                                               0.56%    passed     96.80%
+ 324  UI18058                                                                                                                                               0.56%    passed     98.37%
+ 325  UI18608                                                                                                                                               0.56%    passed     94.98%
+ 326  UI17524                                                                                                                                               0.56%    passed     96.25%
+ 327  LNT1660                                                                                                                                               0.56%    passed     95.62%
+ 328  UI17517                                                                                                                                               0.56%    passed     97.27%
+ 329  UI18022                                                                                                                                               0.56%    passed     96.94%
+ 330  UI17968                                                                                                                                               0.56%    passed     99.19%
+ 331  UI15219                                                                                                                                               0.56%    passed     96.68%
+ 332  UI18014                                                                                                                                               0.56%    passed     99.23%
+ 333  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4009_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.95%    passed     95.84%
+ 334  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1974_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             0.42%    passed     99.92%
+ 335  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3878_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.62%    passed     98.87%
+ 336  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3874_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.54%    passed     99.39%
+ 337  ZJ01_DELIM-HLXSOGPVMIFBSKHEETGX_2004                                                                                                                  0.07%    passed     99.51%
+ 338  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2269_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.55%    passed     99.16%
+ 339  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2273_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.55%    passed     98.94%
+ 340  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2275_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.55%    passed     98.33%
+ 341  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2272_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.55%    passed     98.72%
+ 342  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2270_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.59%    passed     99.10%
+ 343  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_TH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2271_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.54%    passed     98.90%
+ 344  ThD1_0049_01                                                                                                                                          0.00%    passed     98.59%
+ 345  ThD1_0102_01                                                                                                                                          0.00%    passed     98.81%
+ 346  SV68                                                                                                                                                  0.56%    passed     94.55%
+ 347  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_GM1502_2015_                                         0.00%    passed     99.63%
+ 348  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_LC1502_2015_                                         0.00%    passed     99.76%
+ 349  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_GM1503_2015_                                         0.00%    passed     99.67%
+ 350  Th17_087DV1                                                                                                                                           0.38%    passed     99.76%
+ 351  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_MY22_2017_                                                                         0.00%    passed     99.95%
+ 352  SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_09717Y13                                                                                                         0.00%    passed     99.94%
+ 353  DV1_SL_2009a                                                                                                                                          0.03%    passed     98.44%
+ 354  DV1_SL_2009d                                                                                                                                          0.01%    passed     99.49%
+ 355  DV1_SL_2009e                                                                                                                                          0.00%    passed     97.47%
+ 356  DV1_SL_2009b                                                                                                                                          0.01%    passed     98.94%
+ 357  DV1_SL_2009c                                                                                                                                          0.01%    passed     99.26%
+ 358  DV1_SL_2010b                                                                                                                                          0.00%    passed     96.92%
+ 359  SL_2012_GS0289                                                                                                                                        0.82%    passed     96.96%
+ 360  V42876                                                                                                                                                0.00%    passed     99.46%
+ 361  SL_2012_GS0292                                                                                                                                        3.87%    passed     97.79%
+ 362  SL_2012_GS0319                                                                                                                                        0.42%    passed     96.82%
+ 363  V42373                                                                                                                                                0.00%    passed     98.50%
+ 364  GD02_DELIM-HLXSOGPVMIFBSKHEETGX_06                                                                                                                    0.00%    passed     99.39%
+ 365  GZ_DELIM-HLXSOGPVMIFBSKHEETGX_6553_DELIM-HLXSOGPVMIFBSKHEETGX_D1_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                                      1.49%    passed     99.86%
+ 366  GZ8_A3795_DELIM-HLXSOGPVMIFBSKHEETGX_M_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_2006_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                  0.47%    passed     99.01%
+ 367  DEN1_DELIM-HLXSOGPVMIFBSKHEETGX_GZ_DELIM-HLXSOGPVMIFBSKHEETGX_OY                                                                                      0.00%    passed     99.90%
+ 368  V9200                                                                                                                                                 0.00%    passed     99.80%
+ 369  SL_2012_GS0308                                                                                                                                        0.58%    passed     95.39%
+ 370  V35737                                                                                                                                                0.00%    passed     99.90%
+ 371  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_MY21_2017_                                                                         0.00%    passed     99.90%
+ 372  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_15DGR7_2015_                                         0.31%    passed     99.37%
+ 373  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_15DGR4_2015_                                         0.00%    passed     98.96%
+ 374  GZ8_67_DELIM-HLXSOGPVMIFBSKHEETGX_S_DELIM-HLXSOGPVMIFBSKHEETGX_Baiyun_DELIM-HLXSOGPVMIFBSKHEETGX_2013_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                 0.60%    passed     99.63%
+ 375  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_YNH12_2013_                                          0.00%    passed     99.56%
+ 376  BNI_5201                                                                                                                                              1.06%    passed     97.71%
+ 377  YNBN1008                                                                                                                                             26.06%    passed     94.87%
+ 378  YNBN1007                                                                                                                                             25.87%    passed     95.66%
+ 379  YNBN1001                                                                                                                                             25.98%    passed     96.73%
+ 380  YNBN1004                                                                                                                                             25.95%    passed     89.31%
+ 381  DENV1_17461                                                                                                                                           1.56%    passed     98.82%
+ 382  V28041                                                                                                                                                0.48%    passed     99.62%
+ 383  V32089                                                                                                                                                0.01%    passed     99.10%
+ 384  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_DGRL_161_2014_                                       0.21%    passed     99.87%
+ 385  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_DGRL_177_2014_                                       0.00%    passed     99.96%
+ 386  YNPE1                                                                                                                                                 0.03%    passed     99.18%
+ 387  DK87                                                                                                                                                  0.16%    passed     89.81%
+ 388  SDDF1543                                                                                                                                              0.02%    passed     99.83%
+ 389  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V799_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.96%
+ 390  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2881_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     98.81%
+ 391  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1504_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.65%
+ 392  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2706_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.96%
+ 393  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V992_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.97%
+ 394  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1975_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             0.42%    passed     99.53%
+ 395  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V795_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.86%
+ 396  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1965_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             0.42%    passed     99.45%
+ 397  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2693_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.65%
+ 398  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2705_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.91%
+ 399  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2700_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.87%
+ 400  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2864_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.87%
+ 401  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2848_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.42%    passed     99.80%
+ 402  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2852_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.42%    passed     99.90%
+ 403  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V989_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.87%
+ 404  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1321_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     99.34%
+ 405  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V821_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.95%
+ 406  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2860_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.51%    passed     99.85%
+ 407  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V819_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.84%
+ 408  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2686_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.44%    passed     99.77%
+ 409  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2765_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.91%
+ 410  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1644_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.56%    passed     99.72%
+ 411  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3863_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.95%    passed     97.83%
+ 412  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2820_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.47%
+ 413  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1879_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.51%    passed     99.96%
+ 414  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2814_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.10%
+ 415  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2847_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.75%    passed     99.81%
+ 416  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3986_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             0.55%    passed    100.00%
+ 417  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1814_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.48%    passed     99.72%
+ 418  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4057_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.43%    passed     98.19%
+ 419  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1985_DELIM-HLXSOGPVMIFBSKHEETGX_2002                                             0.58%    passed     99.87%
+ 420  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V768_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                              0.42%    passed     99.36%
+ 421  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1987_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.48%    passed     99.50%
+ 422  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1990_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.48%    passed     98.32%
+ 423  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2863_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.44%    passed     99.51%
+ 424  2008_DELIM-HLXSOGPVMIFBSKHEETGX_00475                                                                                                                 5.18%    passed     90.96%
+ 425  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2779_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.42%    passed     99.80%
+ 426  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2014_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.48%    passed     98.96%
+ 427  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2000_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.55%    passed     99.79%
+ 428  GZ_DELIM-HLXSOGPVMIFBSKHEETGX_8513_DELIM-HLXSOGPVMIFBSKHEETGX_D1_DELIM-HLXSOGPVMIFBSKHEETGX_2011                                                      1.51%    passed     99.79%
+ 429  UI14029                                                                                                                                               0.56%    passed     99.92%
+ 430  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_15DGR55_2015_                                        0.21%    passed     99.68%
+ 431  V30629                                                                                                                                                0.00%    passed     99.95%
+ 432  Sz_9_DELIM-HLXSOGPVMIFBSKHEETGX_M_DELIM-HLXSOGPVMIFBSKHEETGX_SZ_DELIM-HLXSOGPVMIFBSKHEETGX_2014_DELIM-HLXSOGPVMIFBSKHEETGX_DEV1                       2.73%    passed     97.46%
+ 433  KDH0026A                                                                                                                                              0.00%    passed     99.29%
+ 434  DENV1_384                                                                                                                                             1.45%    passed     99.10%
+ 435  LNT1128_Laos_2009                                                                                                                                     8.50%    passed     91.87%
+ 436  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_China_DELIM-HLXSOGPVMIFBSKHEETGX_YN_DELIM-HLXSOGPVMIFBSKHEETGX_DGRL_6_2014_                                         0.00%    passed     97.03%
+ 437  TM30                                                                                                                                                  1.89%    passed     97.36%
+ 438  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1992_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     98.37%
+ 439  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2878_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.42%    passed     98.95%
+ 440  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V941_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                              0.42%    passed     99.43%
+ 441  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1984_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.42%    passed     96.04%
+ 442  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2725_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.51%    passed     97.84%
+ 443  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1986_DELIM-HLXSOGPVMIFBSKHEETGX_2002                                            16.99%    passed     70.15%
+ 444  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1982_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.55%    passed     97.14%
+ 445  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1981_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.42%    passed     97.03%
+ 446  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_IPC_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3919_DELIM-HLXSOGPVMIFBSKHEETGX_2000                                            0.48%    passed     99.54%
+ 447  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1994_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.83%    passed     99.42%
+ 448  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2373_DELIM-HLXSOGPVMIFBSKHEETGX_2001                                             0.82%    passed     98.55%
+ 449  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1988_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     99.38%
+ 450  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_KH_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1998_DELIM-HLXSOGPVMIFBSKHEETGX_2004                                             0.87%    passed     84.33%
+ 451  30399_DELIM-HLXSOGPVMIFBSKHEETGX_95                                                                                                                   0.00%    passed     99.47%
+ 452  30231_DELIM-HLXSOGPVMIFBSKHEETGX_97                                                                                                                   0.00%    passed     99.67%
+ 453  ThD1_0488_94                                                                                                                                          0.00%    passed     99.73%
+ 454  ThD1_0097_94                                                                                                                                          0.00%    passed     99.58%
+ 455  03881_DELIM-HLXSOGPVMIFBSKHEETGX_92                                                                                                                   0.00%    passed     99.71%
+ 456  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2851_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.55%    passed     99.98%
+ 457  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2834_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     99.99%
+ 458  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V769_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                              0.42%    passed     99.99%
+ 459  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2832_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     99.99%
+ 460  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2831_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.44%    passed     99.98%
+ 461  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V931_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                              0.42%    passed    100.00%
+ 462  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2835_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.55%    passed     99.96%
+ 463  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2836_DELIM-HLXSOGPVMIFBSKHEETGX_2004                                             0.42%    passed     99.99%
+ 464  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2845_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.42%    passed    100.00%
+ 465  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2837_DELIM-HLXSOGPVMIFBSKHEETGX_2004                                             0.42%    passed     99.96%
+ 466  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2827_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.50%    passed     99.99%
+ 467  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2838_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.42%    passed     99.90%
+ 468  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2830_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     99.90%
+ 469  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V767_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                              0.42%    passed     99.98%
+ 470  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2829_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.57%    passed     99.83%
+ 471  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2842_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.42%    passed     99.95%
+ 472  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V770_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                              0.42%    passed     99.90%
+ 473  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2833_DELIM-HLXSOGPVMIFBSKHEETGX_2003                                             0.42%    passed     99.87%
+ 474  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2840_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.42%    passed     99.69%
+ 475  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2886_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.58%    passed     99.15%
+ 476  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V993_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.13%
+ 477  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V800_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.43%    passed     99.85%
+ 478  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2868_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.43%    passed     99.78%
+ 479  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2854_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.45%    passed     99.52%
+ 480  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2855_DELIM-HLXSOGPVMIFBSKHEETGX_2005                                             0.54%    passed     99.84%
+ 481  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_IPC_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3916_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                            0.42%    passed    100.00%
+ 482  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2895_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                             0.52%    passed     99.98%
+ 483  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3945_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.45%    passed     99.85%
+ 484  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3861_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.48%    passed     99.70%
+ 485  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V4013_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.32%    passed     99.84%
+ 486  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3870_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             3.05%    passed     99.12%
+ 487  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3993_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             5.12%    passed     98.82%
+ 488  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V828_DELIM-HLXSOGPVMIFBSKHEETGX_2006                                              0.42%    passed     99.61%
+ 489  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2769_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.48%    passed     99.92%
+ 490  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V2766_DELIM-HLXSOGPVMIFBSKHEETGX_2007                                             0.43%    passed     99.99%
+ 491  DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V3897_DELIM-HLXSOGPVMIFBSKHEETGX_2008                                             2.32%    passed     99.71%
+ 492  V360052                                                                                                                                               0.54%    passed     99.60%
+ 493  TM100                                                                                                                                                 3.63%    passed     94.62%
+ 494  D87_116                                                                                                                                               0.00%    passed     99.19%
+ 495  00407_DELIM-HLXSOGPVMIFBSKHEETGX_95                                                                                                                   0.00%    passed     87.58%
+ 496  KD86_035                                                                                                                                              0.00%    passed     95.36%
+ 497  KD92_080                                                                                                                                              0.00%    passed     93.38%
+ 498  KD90_157                                                                                                                                              0.00%    passed     89.34%
+ 499  ThD1_0336_91                                                                                                                                          0.00%    passed     95.84%
+ 500  ThD1_0323_91                                                                                                                                          0.00%    passed     97.08%
+ 501  D90_1197                                                                                                                                              0.00%    passed     96.11%
+ 502  ThD1_0008_81                                                                                                                                          0.00%    passed     93.42%
+ 503  ThD1_0081_82                                                                                                                                          0.00%    passed     92.13%
+ 504  V832                                                                                                                                                  0.60%    passed     98.03%
+ 505  D1Myanmar38862_DELIM-HLXSOGPVMIFBSKHEETGX_01                                                                                                          1.13%    passed     97.67%
+ 506  D1Myanmar44988_DELIM-HLXSOGPVMIFBSKHEETGX_02                                                                                                          1.13%    passed     95.26%
+ 507  D1Myanmar194_DELIM-HLXSOGPVMIFBSKHEETGX_01                                                                                                            1.13%    passed     95.46%
+ 508  D1Myanmar206_DELIM-HLXSOGPVMIFBSKHEETGX_01                                                                                                            1.13%    passed     96.09%
+ 509  D1Myanmar31459_DELIM-HLXSOGPVMIFBSKHEETGX_98                                                                                                          0.08%    passed     96.13%
+ 510  DENV_1_Jeddah                                                                                                                                         1.05%    passed     97.52%
+ 511  DENV1_2522                                                                                                                                            3.33%    passed     99.31%
+ 512  GD99_DELIM-HLXSOGPVMIFBSKHEETGX_99                                                                                                                    0.00%    passed     96.63%
+ 513  UNKNOWN_DQ836632                                                                                                                                     50.77%    passed     21.34%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                                 2.28%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 04_HD_009 is identical to 03_HD_019 but kept for subsequent analysis
+NOTE: 01_TN_081 is identical to 01_TN_078 but kept for subsequent analysis
+NOTE: 01_TN_087 is identical to 01_PK_90_L2 but kept for subsequent analysis
+NOTE: DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1559_DELIM-HLXSOGPVMIFBSKHEETGX_2007 is identical to DENV_1_DELIM-HLXSOGPVMIFBSKHEETGX_VN_DELIM-HLXSOGPVMIFBSKHEETGX_BID_V1579_DELIM-HLXSOGPVMIFBSKHEETGX_2007 but kept for subsequent analysis
+NOTE: 04_HD_010 is identical to 03_HD_022 but kept for subsequent analysis
+NOTE: D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_NIID149_DELIM-HLXSOGPVMIFBSKHEETGX_2014 is identical to D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Saitama_DELIM-HLXSOGPVMIFBSKHEETGX_NIID100_DELIM-HLXSOGPVMIFBSKHEETGX_2014 but kept for subsequent analysis
+NOTE: MJ03_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014 is identical to MJ06_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014 but kept for subsequent analysis
+NOTE: V10760 is identical to SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_10760Y15 but kept for subsequent analysis
+NOTE: YN2 is identical to YN176272 but kept for subsequent analysis
+NOTE: SG_EHI_D1_DELIM-HLXSOGPVMIFBSKHEETGX_38043Y14 is identical to V33084 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00611186 secs using 95.65% CPU
+Identifying sites to remove: done in 0.0348542 secs using 88.39% CPU
+NOTE: 7 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: 01_TN_083 (identical to 01_PK_90_L2) is ignored but added at the end
+NOTE: D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_NIID111_DELIM-HLXSOGPVMIFBSKHEETGX_2014 (identical to D1_DELIM-HLXSOGPVMIFBSKHEETGX_Hu_DELIM-HLXSOGPVMIFBSKHEETGX_Saitama_DELIM-HLXSOGPVMIFBSKHEETGX_NIID100_DELIM-HLXSOGPVMIFBSKHEETGX_2014) is ignored but added at the end
+NOTE: SCP17_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014 (identical to MJ06_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014) is ignored but added at the end
+NOTE: MJ09_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014 (identical to MJ06_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014) is ignored but added at the end
+NOTE: YP11_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014 (identical to MJ06_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014) is ignored but added at the end
+NOTE: NYC02_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014 (identical to MJ06_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014) is ignored but added at the end
+NOTE: YP04_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014 (identical to MJ06_DELIM-HLXSOGPVMIFBSKHEETGX_Mosq_DELIM-HLXSOGPVMIFBSKHEETGX_Tokyo_DELIM-HLXSOGPVMIFBSKHEETGX_2014) is ignored but added at the end
+Alignment was printed to results/aligned_denv1_I-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_denv1_I-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+
+NOTE: 71 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -489923.061
+2. Current log-likelihood: -420974.533
+3. Current log-likelihood: -420717.726
+4. Current log-likelihood: -420548.063
+Optimal log-likelihood: -420548.049
+Rate parameters:  A-C: 1.24342  A-G: 13.19234  A-T: 2.05645  C-G: 0.44898  C-T: 43.19155  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.207  G: 0.258  T: 0.214
+Parameters optimization took 4 rounds (6.544 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.41717 secs using 99.87% CPU
+Computing ML distances took 1.427622 sec (of wall-clock time) 1.424153 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00461602 secs using 183.9% CPU
+Constructing RapidNJ tree: done in 0.00861502 secs using 191.7% CPU
+Computing RapidNJ tree took 0.013326 sec (of wall-clock time) 0.025069 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -107120.282
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 2.73211 secs using 99.24% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -106216.889
+Optimizing NNI: done in 42.8119 secs using 98.62% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -106216.889 / CPU time: 48.197
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:57s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -106216.889
+Optimal log-likelihood: -106216.888
+Rate parameters:  A-C: 1.28464  A-G: 9.68076  A-T: 1.69963  C-G: 0.76646  C-T: 29.43839  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.207  G: 0.258  T: 0.214
+Parameters optimization took 1 rounds (0.616 sec)
+BEST SCORE FOUND : -106216.888
+Total tree length: 1.191
+
+Total number of iterations: 2
+CPU time used for tree search: 47.582 sec (0h:0m:47s)
+Wall-clock time used for tree search: 48.198 sec (0h:0m:48s)
+Total CPU time used: 57.320 sec (0h:0m:57s)
+Total wall-clock time used: 57.847 sec (0h:0m:57s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv1_I-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv1_I-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv1_I-delim.fasta.mldist
+  Screen log file:               results/aligned_denv1_I-delim.fasta.log
+
+Date and Time: Tue May 31 11:27:32 2022

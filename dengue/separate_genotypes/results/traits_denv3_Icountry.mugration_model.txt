@@ -1,0 +1,37 @@
+Map from character to field name
+A:	Cook Islands
+B:	French Polynesia
+C:	Indonesia
+D:	New Caledonia
+E:	Philippines
+F:	Wallis And Futuna
+G:	?
+
+
+Substitution rate (mu): 286.90016
+
+Equilibrium frequencies (pi_i):
+  A: 0.1451
+  B: 0.1445
+  C: 0.2293
+  D: 0.168
+  E: 0.1338
+  F: 0.1793
+
+Symmetrized rates from j->i (W_ij):
+	A	B	C	D	E	F
+  A	0	1.3803	0.9637	0.9186	0.9208	0.9192
+  B	1.3803	0	1.4969	1.7448	0.9285	1.7328
+  C	0.9637	1.4969	0	0.9808	1.4991	0.9861
+  D	0.9186	1.7448	0.9808	0	0.9219	1.7532
+  E	0.9208	0.9285	1.4991	0.9219	0	0.9227
+  F	0.9192	1.7328	0.9861	1.7532	0.9227	0
+
+Actual rates from j->i (Q_ij):
+	A	B	C	D	E	F
+  A	0	0.2002	0.1398	0.1333	0.1336	0.1333
+  B	0.1995	0	0.2164	0.2522	0.1342	0.2505
+  C	0.221	0.3432	0	0.2249	0.3437	0.2261
+  D	0.1543	0.2932	0.1648	0	0.1549	0.2946
+  E	0.1232	0.1243	0.2006	0.1234	0	0.1235
+  F	0.1648	0.3107	0.1768	0.3143	0.1654	0

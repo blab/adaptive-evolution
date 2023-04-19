@@ -1,0 +1,29 @@
+Map from character to field name
+A:	Europe
+B:	North America
+C:	South America
+D:	South Asia
+E:	?
+
+
+Substitution rate (mu): 21.034429
+
+Equilibrium frequencies (pi_i):
+  A: 0.2505
+  B: 0.3256
+  C: 0.2095
+  D: 0.2144
+
+Symmetrized rates from j->i (W_ij):
+	A	B	C	D
+  A	0	1.7727	0.7367	0.9062
+  B	1.7727	0	2.4026	1.0155
+  C	0.7367	2.4026	0	0.7418
+  D	0.9062	1.0155	0.7418	0
+
+Actual rates from j->i (Q_ij):
+	A	B	C	D
+  A	0	0.4441	0.1845	0.227
+  B	0.5771	0	0.7822	0.3306
+  C	0.1543	0.5033	0	0.1554
+  D	0.1943	0.2178	0.1591	0

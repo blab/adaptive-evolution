@@ -1,0 +1,2557 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "14.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "China",
+        "Comoros",
+        "India",
+        "Malaysia",
+        "Singapore",
+        "South Korea",
+        "Thailand",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.14469049557929012,
+        0.14639428815705366,
+        0.12008374325022465,
+        0.13606458783838174,
+        0.17040253984643408,
+        0.14346757118929637,
+        0.13889677413931945
+      ],
+      "rate": 148.45819017032224,
+      "transition_matrix": [
+        [
+          0.0,
+          0.8302303170159241,
+          1.0022190509512232,
+          0.8281525682595824,
+          1.9493919392954802,
+          0.8300510961956219,
+          0.8321420808242196
+        ],
+        [
+          0.8302303170159241,
+          0.0,
+          1.0717697777011206,
+          0.8309378733291051,
+          0.9607383722462142,
+          0.8390970837763985,
+          0.9072785911298076
+        ],
+        [
+          1.0022190509512232,
+          1.0717697777011206,
+          0.0,
+          0.8310593674580921,
+          4.46468217450495,
+          1.1150413397629784,
+          1.263112652487445
+        ],
+        [
+          0.8281525682595824,
+          0.8309378733291051,
+          0.8310593674580921,
+          0.0,
+          1.2565593633867211,
+          0.8308668306305168,
+          0.8321021543762589
+        ],
+        [
+          1.9493919392954802,
+          0.9607383722462142,
+          4.46468217450495,
+          1.2565593633867211,
+          0.0,
+          1.000774217316432,
+          0.9855431897519433
+        ],
+        [
+          0.8300510961956219,
+          0.8390970837763985,
+          1.1150413397629784,
+          0.8308668306305168,
+          1.000774217316432,
+          0.0,
+          0.8611704808863394
+        ],
+        [
+          0.8321420808242196,
+          0.9072785911298076,
+          1.263112652487445,
+          0.8321021543762589,
+          0.9855431897519433,
+          0.8611704808863394,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "Africa",
+        "China",
+        "Japan Korea",
+        "South Asia",
+        "Southeast Asia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.17775574680155795,
+        0.19661790970133972,
+        0.1799864685502878,
+        0.15731445287560059,
+        0.28832542207121387
+      ],
+      "rate": 144.50589150556942,
+      "transition_matrix": [
+        [
+          0.0,
+          0.671792444262662,
+          0.674663121358078,
+          0.7074846682409198,
+          0.9728418843749914
+        ],
+        [
+          0.671792444262662,
+          0.0,
+          0.6726083219994672,
+          0.8097281079293812,
+          1.5762852711260569
+        ],
+        [
+          0.674663121358078,
+          0.6726083219994672,
+          0.0,
+          0.7909999526513589,
+          0.930932659155974
+        ],
+        [
+          0.7074846682409198,
+          0.8097281079293812,
+          0.7909999526513589,
+          0.0,
+          3.8885883766936287
+        ],
+        [
+          0.9728418843749914,
+          1.5762852711260569,
+          0.930932659155974,
+          3.8885883766936287,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "Comoros_04329/93": {
+      "country": "Comoros",
+      "country_confidence": {
+        "Comoros": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/SG/CT1/2012": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "D1/SG/CT11/2012": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/SG/CT16/2012": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/SG/CT17/2012": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/SG/CT25/2012": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV1/CN/GZDF696/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV1/CN/GZDF780/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV1/CN/GZDF874/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV1/CN/GZDF876/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV1_16687": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_1/China/YN/YNH22_2013_": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_1/IND/826883/1982": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DV1D/China/GDfs/14264/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DV1E/China/GDgz/14243/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DenKor_01": {
+      "country": "South Korea",
+      "country_confidence": {
+        "South Korea": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "GZ/13986/D1/2015": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ/31358/D1/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "GZ/33206/D1/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ8_2/S/Yuexiu/2014/DEV1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ8_44/S/Tianhe/2014/DEV1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ8_48/S/Yuexiu/2014/DEV1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ8_53/S/Liwan/2013/DEV1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ8_81/S/Panyu/2014/DEV1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ8_9/S/Yuexiu/2014/DEV1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ_4/M/GZ/2014/DEV1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Gz_7/M/GZ/2014/DEV1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.001156840004368996,
+        "Singapore": 0.9986119976763608
+      },
+      "country_entropy": 0.01143249540774742,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0025950059183979346,
+        "Southeast Asia": 0.9970458480070951
+      },
+      "region_entropy": 0.021546418613686214
+    },
+    "NODE_0000001": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.001297913515153929,
+        "Singapore": 0.9984580487260806
+      },
+      "country_entropy": 0.012499828439339802,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.003028281455715939,
+        "Southeast Asia": 0.9965858809314336
+      },
+      "region_entropy": 0.024320885419674306
+    },
+    "NODE_0000002": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0014231840869037573,
+        "Singapore": 0.998329434511714
+      },
+      "country_entropy": 0.013358909886789377,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0033788669190612398,
+        "Southeast Asia": 0.9962305678879756
+      },
+      "region_entropy": 0.026374370343856725
+    },
+    "NODE_0000003": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0024293550048221394,
+        "Singapore": 0.9972906454017522
+      },
+      "country_entropy": 0.01997779226186154,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.005341047920869128,
+        "Southeast Asia": 0.9942548888648405
+      },
+      "region_entropy": 0.03716450985095158
+    },
+    "NODE_0000004": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Comoros": 0.05394032265705895,
+        "India": 0.2502226597169289,
+        "Singapore": 0.1299104069673988,
+        "Thailand": 0.46570647573371443
+      },
+      "country_entropy": 1.464797912787422,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.027127446606558886,
+        "China": 0.038681931182899504,
+        "South Asia": 0.3287957134011631,
+        "Southeast Asia": 0.5838587007429589
+      },
+      "region_entropy": 0.9862170078636101
+    },
+    "NODE_0000006": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.002007150372850694,
+        "Singapore": 0.9976552330521454
+      },
+      "country_entropy": 0.01792673680667771,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.004689624109749256,
+        "Southeast Asia": 0.9947778547009034
+      },
+      "region_entropy": 0.03480671708064766
+    },
+    "NODE_0000007": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.001227723870345893,
+        "Singapore": 0.9985360206357443
+      },
+      "country_entropy": 0.011958050028360274,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002811883798167421,
+        "Southeast Asia": 0.9968184328404905
+      },
+      "region_entropy": 0.022919537938345738
+    },
+    "NODE_0000008": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.009404824552676784,
+        "Singapore": 0.9900345484617231
+      },
+      "country_entropy": 0.05841735897725254,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.013959878741556252,
+        "Southeast Asia": 0.9859609908119052
+      },
+      "region_entropy": 0.07437222541957411
+    },
+    "NODE_0000009": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.004589524017329711,
+        "India": 0.02021604469119762,
+        "Malaysia": 0.10983123327741069,
+        "Singapore": 0.8610041818647497
+      },
+      "country_entropy": 0.5035103774621378,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.011700744017041274,
+        "Southeast Asia": 0.9871040383455555
+      },
+      "region_entropy": 0.07391459353716327
+    },
+    "NODE_0000010": {
+      "country": "Malaysia",
+      "country_confidence": {
+        "India": 0.0016263225971878527,
+        "Malaysia": 0.9678504787962932,
+        "Singapore": 0.02863078159596425
+      },
+      "country_entropy": 0.15819404758870143,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.005198396525647549,
+        "Southeast Asia": 0.9941917231576719
+      },
+      "region_entropy": 0.03814952730174279
+    },
+    "NODE_0000011": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.16789637642642594,
+        "Singapore": 0.8302018849942664
+      },
+      "country_entropy": 0.4687809674477342,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0010361237178184394,
+        "South Asia": 0.2481019975921448,
+        "Southeast Asia": 0.750224591893139
+      },
+      "region_entropy": 0.5736862052435657
+    },
+    "NODE_0000012": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.08030904149665072,
+        "Singapore": 0.9184525341211883
+      },
+      "country_entropy": 0.2906425574088299,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0010325877591958912,
+        "South Asia": 0.14712196068198657,
+        "Southeast Asia": 0.8513262756280642
+      },
+      "region_entropy": 0.4303738583302362
+    },
+    "NODE_0000013": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9990877893783524
+      },
+      "country_entropy": 0.007455890741388466,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0030986329668599797,
+        "Southeast Asia": 0.9968381652103253
+      },
+      "region_entropy": 0.021712286281244903
+    },
+    "NODE_0000015": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0011145383466528297,
+        "Singapore": 0.9986647097095274
+      },
+      "country_entropy": 0.011046839583744632,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002602162957784817,
+        "Southeast Asia": 0.9970586202283909
+      },
+      "region_entropy": 0.021415913804050307
+    },
+    "NODE_0000016": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0012377241322897095,
+        "Singapore": 0.9985294858630687
+      },
+      "country_entropy": 0.01199218579200227,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002984882164078967,
+        "Southeast Asia": 0.9966511963134038
+      },
+      "region_entropy": 0.02388028787794654
+    },
+    "NODE_0000017": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0011508106084316422,
+        "Singapore": 0.9986186316207445
+      },
+      "country_entropy": 0.011386033741184283,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0025892343130100703,
+        "Southeast Asia": 0.9970530495449683
+      },
+      "region_entropy": 0.021499796913770075
+    },
+    "NODE_0000018": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0790814369347356,
+        "Singapore": 0.9191158766268163
+      },
+      "country_entropy": 0.2920343016660485,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0014570916415719384,
+        "South Asia": 0.14689061667172676,
+        "Southeast Asia": 0.8509498846608554
+      },
+      "region_entropy": 0.4341946791692069
+    },
+    "NODE_0000019": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.0031808360336573935,
+        "India": 0.15939730986716447,
+        "Singapore": 0.8330317658234979,
+        "Thailand": 0.001428205116657824
+      },
+      "country_entropy": 0.4930342040433695,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.0011977609367054011,
+        "China": 0.003957907901393797,
+        "South Asia": 0.2463345763148724,
+        "Southeast Asia": 0.7474136039904654
+      },
+      "region_entropy": 0.6001543929810136
+    },
+    "NODE_0000020": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.0028522191428114485,
+        "India": 0.20860043569975045,
+        "Singapore": 0.7852866283158112
+      },
+      "country_entropy": 0.5566409767734639,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.0010362928106856547,
+        "China": 0.0038085559044376705,
+        "South Asia": 0.31314902101264624,
+        "Southeast Asia": 0.6809874648927908
+      },
+      "region_entropy": 0.660587923097627
+    },
+    "NODE_0000021": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.008535147245516572,
+        "India": 0.10620518095650228,
+        "Malaysia": 0.003005943702139031,
+        "Singapore": 0.8753960327624057
+      },
+      "country_entropy": 0.4544596031141543,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.0037721959214583023,
+        "China": 0.012042341495362709,
+        "South Asia": 0.16999484090125205,
+        "Southeast Asia": 0.8105166191277183
+      },
+      "region_entropy": 0.5663712530853893
+    },
+    "NODE_0000022": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.002052039938501717,
+        "India": 0.44865922648185846,
+        "Singapore": 0.5464727884242978
+      },
+      "country_entropy": 0.7229476760150886,
+      "region": "South Asia",
+      "region_confidence": {
+        "China": 0.0022205082315915232,
+        "South Asia": 0.5578977767730833,
+        "Southeast Asia": 0.43844458046261403
+      },
+      "region_entropy": 0.7110540388206285
+    },
+    "NODE_0000023": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.07336957308598227,
+        "Singapore": 0.9247597060895416
+      },
+      "country_entropy": 0.27837211682984314,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.001398660202644996,
+        "South Asia": 0.12535824840113188,
+        "Southeast Asia": 0.8724697447933608
+      },
+      "region_entropy": 0.3946143149991215
+    },
+    "NODE_0000024": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0628974926132431,
+        "Singapore": 0.9356766901570756
+      },
+      "country_entropy": 0.24747047017705234,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0012375259897807796,
+        "South Asia": 0.11125713497325897,
+        "Southeast Asia": 0.8868912883414033
+      },
+      "region_entropy": 0.36401846118316294
+    },
+    "NODE_0000025": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.005040449137370641,
+        "Singapore": 0.9942869136230078
+      },
+      "country_entropy": 0.03815286031990661,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.01101606367860924,
+        "Southeast Asia": 0.988007680574828
+      },
+      "region_entropy": 0.06919244707704267
+    },
+    "NODE_0000026": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.0011008723135073042,
+        "India": 0.10340877930238702,
+        "Singapore": 0.8941505789397677
+      },
+      "country_entropy": 0.35289483440344244,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0014740187477317469,
+        "South Asia": 0.1557474966422789,
+        "Southeast Asia": 0.8418855718811775
+      },
+      "region_entropy": 0.4510116364620244
+    },
+    "NODE_0000027": {
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9379627499251065,
+        "Singapore": 0.061249224524309746
+      },
+      "country_entropy": 0.23798720563664594,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9424802828374458,
+        "Southeast Asia": 0.057070045334722826
+      },
+      "region_entropy": 0.22316644824339474
+    },
+    "NODE_0000028": {
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9884450705467922,
+        "Singapore": 0.011382418469217918
+      },
+      "country_entropy": 0.06419543007916108,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9871242660160741,
+        "Southeast Asia": 0.012769273182297291
+      },
+      "region_entropy": 0.06955617583151058
+    },
+    "NODE_0000029": {
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9966888364753473,
+        "Singapore": 0.0031419145160921447
+      },
+      "country_entropy": 0.023147022195847782,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9951188896877978,
+        "Southeast Asia": 0.004785144227428497
+      },
+      "region_entropy": 0.03142227403140632
+    },
+    "NODE_0000030": {
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9851178421314422,
+        "Singapore": 0.014423187664462525
+      },
+      "country_entropy": 0.08008260096295342,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9812395925897374,
+        "Southeast Asia": 0.018407032970791732
+      },
+      "region_entropy": 0.09521282384213449
+    },
+    "NODE_0000031": {
+      "country": "India",
+      "country_confidence": {
+        "China": 0.002754581687973896,
+        "India": 0.9391615002560554,
+        "Singapore": 0.05732330037268976
+      },
+      "country_entropy": 0.24557618423981514,
+      "region": "South Asia",
+      "region_confidence": {
+        "China": 0.002869714589386426,
+        "South Asia": 0.9295496251121743,
+        "Southeast Asia": 0.06726175409188372
+      },
+      "region_entropy": 0.2690440490455195
+    },
+    "NODE_0000032": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.10393143278389201,
+        "India": 0.3111841837435123,
+        "Singapore": 0.5777820222881463,
+        "Thailand": 0.0019483192116887045
+      },
+      "country_entropy": 0.9604860721355584,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.09917789728552086,
+        "Japan Korea": 0.001691614756336468,
+        "South Asia": 0.30996311166289736,
+        "Southeast Asia": 0.587587269999298
+      },
+      "region_entropy": 0.925670850014429
+    },
+    "NODE_0000033": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.04240174973118657,
+        "India": 0.39114263765971335,
+        "Singapore": 0.42516063216105504,
+        "Thailand": 0.062461514157813466
+      },
+      "country_entropy": 1.3234237754802638,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.023109677123159957,
+        "China": 0.038888064543128466,
+        "South Asia": 0.41588643362330174,
+        "Southeast Asia": 0.5056620143310697
+      },
+      "region_entropy": 0.9905963634525891
+    },
+    "NODE_0000035": {
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9772136978830022,
+        "Singapore": 0.019086431588432654,
+        "Thailand": 0.0010907797775493086
+      },
+      "country_entropy": 0.12459535341511936,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9694957320106585,
+        "Southeast Asia": 0.028663187384025995
+      },
+      "region_entropy": 0.1453919808737471
+    },
+    "NODE_0000036": {
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9976545779372775,
+        "Singapore": 0.0021735096741535725
+      },
+      "country_entropy": 0.017426667575014175,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9961502042828059,
+        "Southeast Asia": 0.0037586921658418764
+      },
+      "region_entropy": 0.02577359476914426
+    },
+    "NODE_0000037": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.05680432954715818,
+        "India": 0.32638930324649074,
+        "Singapore": 0.38463130650604166,
+        "Thailand": 0.11192350153680383
+      },
+      "country_entropy": 1.5235400654824045,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.03849011268086909,
+        "China": 0.053230039209022695,
+        "South Asia": 0.3579486274297674,
+        "Southeast Asia": 0.5269429603671636
+      },
+      "region_entropy": 1.0746787960960762
+    },
+    "NODE_0000038": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.00669726386911831,
+        "Singapore": 0.9922321361168841
+      },
+      "country_entropy": 0.04999533954492024,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.013153573936689108,
+        "Southeast Asia": 0.9854173601480671
+      },
+      "region_entropy": 0.08202541707988571
+    },
+    "NODE_0000039": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Comoros": 0.16051788883288373,
+        "India": 0.15553707513761603,
+        "Singapore": 0.137149619468022,
+        "Thailand": 0.4419246464634351
+      },
+      "country_entropy": 1.566200899115128,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.10449213058797681,
+        "China": 0.04026014689660705,
+        "South Asia": 0.19721910652038913,
+        "Southeast Asia": 0.6339323180122344
+      },
+      "region_entropy": 1.0642454242405168
+    },
+    "NODE_0000040": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Comoros": 0.0983141202975387,
+        "India": 0.14291647165644325,
+        "Singapore": 0.11143352795847773,
+        "Thailand": 0.5612943985045827
+      },
+      "country_entropy": 1.3774147939342098,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.05363396458341462,
+        "China": 0.028066152834595685,
+        "South Asia": 0.1752087665535831,
+        "Southeast Asia": 0.7229358902661128
+      },
+      "region_entropy": 0.8756077919208469
+    },
+    "NODE_0000041": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Comoros": 0.04619378564687602,
+        "India": 0.11772867595482732,
+        "Singapore": 0.07339063033924412,
+        "Thailand": 0.7160515380158294
+      },
+      "country_entropy": 1.0175751415304246,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.01797613065980504,
+        "China": 0.013072468126195379,
+        "South Asia": 0.1350871423134414,
+        "Southeast Asia": 0.8262923455380994
+      },
+      "region_entropy": 0.5939996462881164
+    },
+    "NODE_0000042": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Comoros": 0.0012229647803592642,
+        "India": 0.0036960222745898268,
+        "Singapore": 0.0020916528157745667,
+        "Thailand": 0.9915962632417068
+      },
+      "country_entropy": 0.06083704990732115,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Africa": 0.0011153294152059618,
+        "China": 0.0015062980649058924,
+        "South Asia": 0.023836373831878827,
+        "Southeast Asia": 0.9730194519570281
+      },
+      "region_entropy": 0.13699841950058306
+    },
+    "NODE_0000043": {
+      "country": "South Korea",
+      "country_confidence": {
+        "India": 0.2543337025901615,
+        "Singapore": 0.2721591301467456,
+        "South Korea": 0.3373977672873918,
+        "Thailand": 0.053072737953034105
+      },
+      "country_entropy": 1.520784723767365,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.038435875449050104,
+        "Japan Korea": 0.2927242907088737,
+        "South Asia": 0.25951566764134665,
+        "Southeast Asia": 0.3885608049985253
+      },
+      "region_entropy": 1.2827005989930131
+    },
+    "NODE_0000044": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.34806028325176896,
+        "Singapore": 0.3760010076122982,
+        "South Korea": 0.1765699376056603,
+        "Thailand": 0.033820123302651266
+      },
+      "country_entropy": 1.4039726398746353,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.03164621409695426,
+        "Japan Korea": 0.15152001369817625,
+        "South Asia": 0.33724759236560437,
+        "Southeast Asia": 0.4646185558698629
+      },
+      "region_entropy": 1.1808098270622445
+    },
+    "NODE_0000045": {
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9862305850525339,
+        "Singapore": 0.011153859218752336
+      },
+      "country_entropy": 0.08335189999730518,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9810529702685903,
+        "Southeast Asia": 0.017404564294980034
+      },
+      "region_entropy": 0.10084708618449181
+    },
+    "NODE_0000046": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.01624495921249011,
+        "India": 0.2854465947616878,
+        "Singapore": 0.6455355432263664,
+        "South Korea": 0.030674534844130137
+      },
+      "country_entropy": 0.9224024276893072,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.017555443352365648,
+        "Japan Korea": 0.029326412220554585,
+        "South Asia": 0.2913254769643272,
+        "Southeast Asia": 0.6556521952653318
+      },
+      "region_entropy": 0.8418021281507013
+    },
+    "NODE_0000047": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.01358501111888377,
+        "India": 0.2996894281445104,
+        "Singapore": 0.6511230056114315,
+        "South Korea": 0.018130515641313388
+      },
+      "country_entropy": 0.861340056776017,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.014873932949180326,
+        "Japan Korea": 0.017256243949026112,
+        "South Asia": 0.3079745252568109,
+        "Southeast Asia": 0.6547946397311971
+      },
+      "region_entropy": 0.7995434628982836
+    },
+    "NODE_0000048": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0012867116313303522,
+        "Singapore": 0.9984786751534558
+      },
+      "country_entropy": 0.01233716845275999,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002972967190940149,
+        "Southeast Asia": 0.9966627645532704
+      },
+      "region_entropy": 0.023814172306839243
+    },
+    "NODE_0000049": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9998418431405031
+      },
+      "country_entropy": 0.0015921055510782253,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9994919933750678
+      },
+      "region_entropy": 0.00447346552882962
+    },
+    "NODE_0000050": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0010414234948947936,
+        "Singapore": 0.9987394824533412
+      },
+      "country_entropy": 0.010531317062118465,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002262029131080496,
+        "Southeast Asia": 0.9974034534862071
+      },
+      "region_entropy": 0.01932793565257662
+    },
+    "NODE_0000052": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999965736472
+      },
+      "country_entropy": 7.026617354707158e-08,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999999933868152
+      },
+      "region_entropy": 1.1600681459587865e-06
+    },
+    "NODE_0000054": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.001141221089397396,
+        "Singapore": 0.9986284393134163
+      },
+      "country_entropy": 0.01131900570567601,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002530073520933733,
+        "Southeast Asia": 0.9971130363235372
+      },
+      "region_entropy": 0.021139667800243803
+    },
+    "NODE_0000055": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0011412207535015306,
+        "Singapore": 0.9986284396530953
+      },
+      "country_entropy": 0.01131900339292597,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002530065095025659,
+        "Southeast Asia": 0.9971130448018548
+      },
+      "region_entropy": 0.02113961697671163
+    },
+    "NODE_0000057": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0010267403014192645,
+        "Singapore": 0.9987548471253228
+      },
+      "country_entropy": 0.010423935390073394,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002198965142683342,
+        "Southeast Asia": 0.9974684594424835
+      },
+      "region_entropy": 0.018926166952891624
+    },
+    "NODE_0000060": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9998603192727773
+      },
+      "country_entropy": 0.0014257879923702985,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999573959816561
+      },
+      "region_entropy": 0.0038341018455579135
+    },
+    "NODE_0000062": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.001039649007999617,
+        "Singapore": 0.9987413071451522
+      },
+      "country_entropy": 0.010518653130600797,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0022516028814928814,
+        "Southeast Asia": 0.9974140674439628
+      },
+      "region_entropy": 0.01926278987138945
+    },
+    "NODE_0000064": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999964449861249
+      },
+      "country_entropy": 4.9623196207901125e-05,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999792536682615
+      },
+      "region_entropy": 0.00025094610803698365
+    },
+    "NODE_0000068": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0012011942435845079,
+        "Singapore": 0.9985615247197495
+      },
+      "country_entropy": 0.011789646201861395,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0026985612982631086,
+        "Southeast Asia": 0.9969307810591008
+      },
+      "region_entropy": 0.0222604345780374
+    },
+    "NODE_0000069": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0017346545952994473,
+        "Singapore": 0.9978990540676747
+      },
+      "country_entropy": 0.016483651200759637,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0037945668328445425,
+        "Southeast Asia": 0.9956459916100895
+      },
+      "region_entropy": 0.030151761653890163
+    },
+    "NODE_0000070": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.05112365960845422,
+        "India": 0.00554301886536614,
+        "Singapore": 0.9419522969158037
+      },
+      "country_entropy": 0.24812981679683255,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.06659894364246345,
+        "South Asia": 0.008919819727159089,
+        "Southeast Asia": 0.9234006693538938
+      },
+      "region_entropy": 0.30423459420758237
+    },
+    "NODE_0000071": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.0032010284443226996,
+        "India": 0.0022104207835492618,
+        "Singapore": 0.994366100906402
+      },
+      "country_entropy": 0.03969412097510071,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.005502794684468486,
+        "South Asia": 0.004955833800048128,
+        "Southeast Asia": 0.9893007386518486
+      },
+      "region_entropy": 0.06774323563781129
+    },
+    "NODE_0000072": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.00125988153710951,
+        "Singapore": 0.9983373574772781
+      },
+      "country_entropy": 0.013594520202649205,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.002873430926397523,
+        "Southeast Asia": 0.9964005260812216
+      },
+      "region_entropy": 0.026066921564343086
+    },
+    "NODE_0000073": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0014297314045188198,
+        "Singapore": 0.9981422780006562
+      },
+      "country_entropy": 0.014933744824687446,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0034253096857727967,
+        "Southeast Asia": 0.9957871807946077
+      },
+      "region_entropy": 0.02971575155196788
+    },
+    "NODE_0000074": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0014421521945800963,
+        "Singapore": 0.9982897011011597
+      },
+      "country_entropy": 0.013671151758225837,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.003481818703387638,
+        "Southeast Asia": 0.9960732670693545
+      },
+      "region_entropy": 0.027409547259104154
+    },
+    "NODE_0000075": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0011712637572697335,
+        "Singapore": 0.9985962033961648
+      },
+      "country_entropy": 0.011542608510046598,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0026542955854683527,
+        "Southeast Asia": 0.9969822838768337
+      },
+      "region_entropy": 0.021934854285489334
+    },
+    "NODE_0000076": {
+      "country": "Singapore",
+      "country_confidence": {
+        "India": 0.0011712637572697335,
+        "Singapore": 0.9985962033961648
+      },
+      "country_entropy": 0.011542608510046598,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "South Asia": 0.0026542955854683527,
+        "Southeast Asia": 0.9969822838768337
+      },
+      "region_entropy": 0.021934854285489334
+    },
+    "NODE_0000077": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998687316239376
+      },
+      "country_entropy": 0.0014489159713020694,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.999830832437737
+      },
+      "region_entropy": 0.0017503139705566193
+    },
+    "NODE_0000078": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.0033019450357564964,
+        "India": 0.001847918354412544,
+        "Singapore": 0.9946345962506936
+      },
+      "country_entropy": 0.03795837801035794,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.005537916722700838,
+        "South Asia": 0.0038517715904347024,
+        "Southeast Asia": 0.9903831742272461
+      },
+      "region_entropy": 0.061821971578769834
+    },
+    "NODE_0000079": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.05962491001080591,
+        "India": 0.005894132330883586,
+        "Singapore": 0.9330709373383859
+      },
+      "country_entropy": 0.2742079586996333,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.07822334556937308,
+        "South Asia": 0.009561670110194194,
+        "Southeast Asia": 0.9111050823738694
+      },
+      "region_entropy": 0.3369305841672785
+    },
+    "NODE_0000080": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.003301945000957468,
+        "India": 0.0018479178134071488,
+        "Singapore": 0.9946345968309935
+      },
+      "country_entropy": 0.03795837436540811,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.005537916120670436,
+        "South Asia": 0.003851758640987447,
+        "Southeast Asia": 0.9903831878194255
+      },
+      "region_entropy": 0.06182189622319083
+    },
+    "NODE_0000081": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999998693124913
+      },
+      "country_entropy": 2.2057957376448748e-06,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999998186076458
+      },
+      "region_entropy": 3.002205322275977e-06
+    },
+    "NODE_0000082": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998637726122745
+      },
+      "country_entropy": 0.0014974879580464647,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998235022922152
+      },
+      "region_entropy": 0.001817692244214216
+    },
+    "NODE_0000084": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.999858630277407
+      },
+      "country_entropy": 0.0015476298167000388,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998158661726796
+      },
+      "region_entropy": 0.0018875271250319695
+    },
+    "NODE_0000086": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998685512627514
+      },
+      "country_entropy": 0.0014506630899570022,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998305354228336
+      },
+      "region_entropy": 0.0017530309587659794
+    },
+    "NODE_0000087": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999953353353587
+      },
+      "country_entropy": 6.53858946052872e-05,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.99999305963325
+      },
+      "region_entropy": 9.236388787550376e-05
+    },
+    "NODE_0000088": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998584429599398
+      },
+      "country_entropy": 0.0015494280330214016,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998155563920227
+      },
+      "region_entropy": 0.0018903321163787359
+    },
+    "NODE_0000090": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998637709296508
+      },
+      "country_entropy": 0.001497505177223692,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998234973834933
+      },
+      "region_entropy": 0.0018177378242326407
+    },
+    "NODE_0000091": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998687385898756
+      },
+      "country_entropy": 0.0014488492603765921,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998308451062002
+      },
+      "region_entropy": 0.0017501988267543248
+    },
+    "NODE_0000092": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998635853349592
+      },
+      "country_entropy": 0.001499283988360414,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998231892945721
+      },
+      "region_entropy": 0.0018205285246450191
+    },
+    "NODE_0000094": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998687386469277
+      },
+      "country_entropy": 0.0014488486908102623,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998308453031954
+      },
+      "region_entropy": 0.0017501970120670034
+    },
+    "NODE_0000097": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998689211053651
+      },
+      "country_entropy": 0.0014470801848600681,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998311479248428
+      },
+      "region_entropy": 0.001747427464443497
+    },
+    "NODE_0000098": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998689262359096
+      },
+      "country_entropy": 0.0014470319365531782,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998311555432522
+      },
+      "region_entropy": 0.001747359059807461
+    },
+    "NODE_0000099": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998689211053651
+      },
+      "country_entropy": 0.0014470801848600681,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998311479248428
+      },
+      "region_entropy": 0.001747427464443497
+    },
+    "NODE_0000100": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998689262359096
+      },
+      "country_entropy": 0.0014470319365531782,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998311555432522
+      },
+      "region_entropy": 0.001747359059807461
+    },
+    "R1_J10": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "R1_J47": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "RGCB419": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "RGCB585": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "RGCB592": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "RR107": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "RR121": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "RR57": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_05022Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_05722Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_07074Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_09119Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_10152Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_10689Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SGEHI_D1_14150Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_15005Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_16120Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SGEHI_D1_18736Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SGEHI_D1_19711Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_19725Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_21469Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_23018Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SGEHI_D1_23469Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_23537Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_40115Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_40160Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_41081Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_44259Y12": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_46841Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_50688Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SGEHI_D1_50722Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SGEHI_D1_50837Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D1/0091Y09": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D1/03329Y15": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SG_EHI_D1/09106Y11": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D1/15834Y11": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SG_EHI_D1/18640Y12": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D1/44614Y11": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D1/50903Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "T24_S68": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "T28_S69": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "TM242": {
+      "country": "Malaysia",
+      "country_confidence": {
+        "Malaysia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "TM301": {
+      "country": "Malaysia",
+      "country_confidence": {
+        "Malaysia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD1_0442_80": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD1_0673_80": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "UOH_21749": {
+      "country": "India",
+      "country_confidence": {
+        "India": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V11887": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V13085": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V15628": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V18806": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V19492": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V22125": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V29368": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V29793": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V30014": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V3083": {
+      "country": "India",
+      "country_confidence": {
+        "India": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V31460": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V31808": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V3329": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "V3720": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V38661": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V44692": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "V49862": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V5044": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V50458": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V51870": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V52742": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V5538": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V6038": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wenzhou_1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wuhan_1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wuhan_2": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wuhan_3": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ww2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    }
+  }
+}

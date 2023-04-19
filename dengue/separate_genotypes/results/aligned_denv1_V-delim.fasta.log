@@ -1,0 +1,487 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv1_V-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    446480 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:54:39 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv1_V-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.076503 secs using 88.86% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0310781 secs using 83.46% CPU
+Alignment has 387 sequences with 10735 columns, 3819 distinct patterns
+2575 parsimony-informative, 1155 singleton sites, 7005 constant sites
+                                                                                                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00726795 secs using 88.07% CPU
+   1  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3391_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.57%    passed     99.48%
+   2  DENV1_VE_IDAMS_910132_2015_10_19                                                                                                            0.00%    passed     99.31%
+   3  TD_00043_S                                                                                                                                  0.53%    passed     99.19%
+   4  TD_00044_S                                                                                                                                  0.53%    passed     99.19%
+   5  TD_00061_P                                                                                                                                  0.56%    passed     99.16%
+   6  DENV1_DELIM-OTVBJVTROQUYIXEXBICK_EC_DELIM-OTVBJVTROQUYIXEXBICK_Esmeraldas_DELIM-OTVBJVTROQUYIXEXBICK_210_DELIM-OTVBJVTROQUYIXEXBICK_2014    0.45%    passed     99.96%
+   7  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2464_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.19%
+   8  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1135_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.36%
+   9  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3573_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.33%    passed     99.70%
+  10  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1136_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     98.43%
+  11  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3576_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.32%    passed     99.56%
+  12  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2467_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.61%
+  13  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3543_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   2.42%    passed     99.89%
+  14  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2254_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.54%    passed     99.40%
+  15  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2241_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   2.32%    passed     99.85%
+  16  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2253_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.48%    passed     98.92%
+  17  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2423_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   2.33%    passed     99.68%
+  18  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2255_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.58%    passed     99.59%
+  19  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3562_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   2.49%    passed     99.64%
+  20  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2615_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.36%
+  21  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2468_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.53%    passed     99.88%
+  22  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3548_DELIM-OTVBJVTROQUYIXEXBICK_2000                                   2.56%    passed     99.96%
+  23  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3540_DELIM-OTVBJVTROQUYIXEXBICK_1997                                   2.03%    passed     99.97%
+  24  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3547_DELIM-OTVBJVTROQUYIXEXBICK_2000                                  13.50%    passed     97.03%
+  25  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3565_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   2.60%    passed     99.92%
+  26  VE_61063_2006                                                                                                                               0.00%    passed     99.74%
+  27  HNRG13707                                                                                                                                   0.00%    passed     99.23%
+  28  HNRG14076                                                                                                                                   0.00%    passed     99.06%
+  29  13501_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_10                                                                        0.00%    passed     98.51%
+  30  14985_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_10                                                                        0.00%    passed     99.07%
+  31  12898_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_10                                                                        0.00%    passed     98.96%
+  32  HNRG12447                                                                                                                                   0.00%    passed     98.44%
+  33  HNRG13405                                                                                                                                   0.00%    passed     97.86%
+  34  HNRG14635                                                                                                                                   0.00%    passed     98.48%
+  35  HNRG14043                                                                                                                                   0.00%    passed     99.13%
+  36  HNRG13154                                                                                                                                   0.00%    passed     98.94%
+  37  HNRG12188                                                                                                                                   0.00%    passed     99.32%
+  38  HNRG13301                                                                                                                                   0.00%    passed     99.30%
+  39  HNRG13188                                                                                                                                   0.00%    passed     99.39%
+  40  HNRG13561                                                                                                                                   0.00%    passed     99.17%
+  41  HNRG12589                                                                                                                                   0.00%    passed     98.68%
+  42  HNRG12560                                                                                                                                   0.00%    passed     99.19%
+  43  HNRG13708                                                                                                                                   0.00%    passed     97.96%
+  44  HNRG15417                                                                                                                                   0.00%    passed     99.17%
+  45  HNRG28226                                                                                                                                   0.00%    passed     97.34%
+  46  HNRG25001                                                                                                                                   0.00%    passed     98.69%
+  47  HNRG14194                                                                                                                                   0.00%    passed     97.18%
+  48  HNRG27486                                                                                                                                   0.00%    passed     95.66%
+  49  1266_DELIM-OTVBJVTROQUYIXEXBICK_2011_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_RJ_DELIM-OTVBJVTROQUYIXEXBICK_2011            5.21%    passed     99.03%
+  50  DENV1_BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_287_DELIM-OTVBJVTROQUYIXEXBICK_2011                                     1.35%    passed     99.45%
+  51  BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_395_DELIM-OTVBJVTROQUYIXEXBICK_2011                                           1.56%    passed     99.27%
+  52  DENV1_BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_354_DELIM-OTVBJVTROQUYIXEXBICK_2011                                     2.86%    passed     99.96%
+  53  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V852_DELIM-OTVBJVTROQUYIXEXBICK_2006                                    0.42%    passed     98.29%
+  54  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7705_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   2.67%    passed     99.80%
+  55  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7719_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   2.71%    passed     99.91%
+  56  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7713_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   2.71%    passed     98.36%
+  57  Haiti2012                                                                                                                                   0.17%    passed     96.97%
+  58  2010_1806                                                                                                                                   6.12%    passed     98.33%
+  59  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V8187_DELIM-OTVBJVTROQUYIXEXBICK_2010                                   2.63%    passed    100.00%
+  60  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V8182_DELIM-OTVBJVTROQUYIXEXBICK_2010                                   2.60%    passed     99.96%
+  61  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7707_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   2.71%    passed     99.98%
+  62  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V8184_DELIM-OTVBJVTROQUYIXEXBICK_2010                                   2.71%    passed     99.91%
+  63  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7704_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   2.71%    passed     99.72%
+  64  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7708_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   2.72%    passed     99.98%
+  65  Haiti_DELIM-OTVBJVTROQUYIXEXBICK_1207_DELIM-OTVBJVTROQUYIXEXBICK_2014                                                                       0.00%    passed     99.16%
+  66  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2606_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   2.50%    passed     99.67%
+  67  VE_61068_2006                                                                                                                               0.00%    passed     99.89%
+  68  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2461_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.43%
+  69  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2401_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     99.68%
+  70  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2258_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.42%    passed     99.36%
+  71  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3380_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.57%    passed     99.84%
+  72  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3578_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.40%    passed     99.93%
+  73  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2465_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.57%    passed     99.33%
+  74  VE_61084_2007                                                                                                                               0.00%    passed     99.78%
+  75  VE_61059_2006                                                                                                                               0.00%    passed     99.60%
+  76  VE_61060_2006                                                                                                                               0.00%    passed     99.60%
+  77  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2250_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.88%    passed     99.69%
+  78  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2252_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   2.14%    passed     99.23%
+  79  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2265_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   1.94%    passed     99.95%
+  80  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2263_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.56%    passed     99.99%
+  81  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2460_DELIM-OTVBJVTROQUYIXEXBICK_2007                                  23.46%    passed     63.57%
+  82  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2227_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   0.56%    passed     99.89%
+  83  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2229_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   0.56%    passed     99.92%
+  84  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2243_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.48%    passed     99.66%
+  85  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2245_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.42%    passed     99.86%
+  86  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2230_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   0.56%    passed     99.80%
+  87  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2237_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   0.88%    passed     99.90%
+  88  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2235_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   0.42%    passed     99.97%
+  89  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2264_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.42%    passed     99.66%
+  90  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2249_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   2.26%    passed     99.43%
+  91  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2459_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.48%    passed     99.91%
+  92  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2251_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.42%    passed     99.70%
+  93  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1134_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     97.08%
+  94  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2463_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     97.01%
+  95  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2462_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.48%    passed     96.86%
+  96  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2260_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.80%    passed     99.76%
+  97  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2466_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.51%    passed     99.38%
+  98  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3563_DELIM-OTVBJVTROQUYIXEXBICK_2006                                  38.39%    passed     41.61%
+  99  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3388_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     98.28%
+ 100  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3387_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.91%
+ 101  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7291_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   2.70%    passed     99.31%
+ 102  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7292_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   2.68%    passed     99.40%
+ 103  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2171_DELIM-OTVBJVTROQUYIXEXBICK_1999                                   0.57%    passed     97.33%
+ 104  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2168_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.48%    passed     98.56%
+ 105  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3377_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     99.32%
+ 106  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3376_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     99.72%
+ 107  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2469_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     97.13%
+ 108  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3558_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   2.61%    passed     99.94%
+ 109  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3550_DELIM-OTVBJVTROQUYIXEXBICK_2001                                   2.49%    passed     99.76%
+ 110  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7290_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   2.70%    passed     99.59%
+ 111  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3378_DELIM-OTVBJVTROQUYIXEXBICK_1999                                   0.58%    passed     99.64%
+ 112  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3379_DELIM-OTVBJVTROQUYIXEXBICK_2001                                   1.04%    passed     99.74%
+ 113  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3385_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.42%    passed     99.15%
+ 114  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3383_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   2.32%    passed     99.94%
+ 115  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3386_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.56%    passed     98.59%
+ 116  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3381_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.69%    passed     98.18%
+ 117  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3390_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.56%    passed     97.59%
+ 118  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_CO_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3382_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.42%    passed     99.15%
+ 119  DENV1_3852                                                                                                                                  4.15%    passed     99.33%
+ 120  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3541_DELIM-OTVBJVTROQUYIXEXBICK_1997                                   2.32%    passed     99.93%
+ 121  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2248_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.48%    passed     98.44%
+ 122  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2261_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.48%    passed     97.90%
+ 123  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2259_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.48%    passed     96.41%
+ 124  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3566_DELIM-OTVBJVTROQUYIXEXBICK_2006                                  50.75%    passed     37.72%
+ 125  HNRG28425                                                                                                                                   0.00%    passed     94.68%
+ 126  HNRG37945                                                                                                                                   0.00%    passed     99.62%
+ 127  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2458_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   1.29%    passed     97.62%
+ 128  00099_S                                                                                                                                     0.56%    passed     99.92%
+ 129  TD_00087_P                                                                                                                                  0.54%    passed     99.96%
+ 130  DENV1_18037                                                                                                                                 4.56%    passed     99.79%
+ 131  DENV1_10429                                                                                                                                 1.55%    passed     99.92%
+ 132  DENV1_17388                                                                                                                                 1.43%    passed     95.55%
+ 133  DENV1_4876                                                                                                                                  1.73%    passed     96.49%
+ 134  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7673_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.44%    passed     99.89%
+ 135  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7682_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.27%    passed     99.75%
+ 136  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7684_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.07%    passed     99.73%
+ 137  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7678_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.64%    passed     99.31%
+ 138  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7677_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.18%    passed     99.90%
+ 139  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7685_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   0.04%    passed     99.98%
+ 140  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7640_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   4.02%    passed     95.87%
+ 141  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7654_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.12%    passed     99.99%
+ 142  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2645_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     99.64%
+ 143  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2646_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     99.68%
+ 144  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2330_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     99.70%
+ 145  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2343_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.44%    passed     99.50%
+ 146  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V746_DELIM-OTVBJVTROQUYIXEXBICK_2006                                    2.54%    passed    100.00%
+ 147  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7675_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   3.72%    passed     97.49%
+ 148  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7659_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   4.63%    passed     99.52%
+ 149  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7686_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.07%    passed     99.86%
+ 150  BLM_DELIM-OTVBJVTROQUYIXEXBICK_2016_DELIM-OTVBJVTROQUYIXEXBICK_MA_WGS16_006                                                                 0.17%    passed     99.59%
+ 151  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3752_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     99.64%
+ 152  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7615_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.73%    passed     99.64%
+ 153  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3757_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.53%    passed     99.60%
+ 154  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7563_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.71%    passed     97.76%
+ 155  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7595_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.66%    passed     98.81%
+ 156  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3733_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.65%    passed     99.54%
+ 157  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7611_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.71%    passed     99.85%
+ 158  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7610_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.70%    passed     99.72%
+ 159  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V621_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.82%
+ 160  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3664_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.48%    passed     99.80%
+ 161  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3722_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.32%    passed     96.60%
+ 162  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3659_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.48%    passed     99.26%
+ 163  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3731_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.68%
+ 164  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3721_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.77%
+ 165  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3658_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.74%    passed     99.30%
+ 166  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3739_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.48%    passed     99.83%
+ 167  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3679_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.79%    passed     99.67%
+ 168  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3676_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   1.00%    passed     99.74%
+ 169  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3657_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.54%    passed     99.44%
+ 170  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V617_DELIM-OTVBJVTROQUYIXEXBICK_2004                                    0.42%    passed    100.00%
+ 171  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7606_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.70%    passed     89.44%
+ 172  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3686_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.56%    passed     98.65%
+ 173  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3690_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.32%    passed     90.66%
+ 174  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7565_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.71%    passed     97.02%
+ 175  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7587_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.71%    passed     94.49%
+ 176  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7586_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.70%    passed     93.73%
+ 177  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7612_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.71%    passed     96.19%
+ 178  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7598_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.67%    passed     91.98%
+ 179  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7614_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.71%    passed     91.97%
+ 180  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7576_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.71%    passed     93.71%
+ 181  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7599_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   4.04%    passed     89.63%
+ 182  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7600_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.70%    passed     94.12%
+ 183  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3754_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     98.07%
+ 184  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7607_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.67%    passed     89.88%
+ 185  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7593_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.70%    passed     97.48%
+ 186  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V602_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.89%
+ 187  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V540_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.99%
+ 188  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1071_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.42%    passed     99.99%
+ 189  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V614_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.99%
+ 190  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V604_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.99%
+ 191  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V656_DELIM-OTVBJVTROQUYIXEXBICK_2004                                    0.53%    passed     99.98%
+ 192  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1073_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.42%    passed     99.99%
+ 193  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2643_DELIM-OTVBJVTROQUYIXEXBICK_2005                                  26.70%    passed     62.27%
+ 194  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V630_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.97%
+ 195  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2341_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.42%    passed     99.93%
+ 196  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V610_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed    100.00%
+ 197  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V606_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed    100.00%
+ 198  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V657_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.98%
+ 199  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V641_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.99%
+ 200  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1072_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.42%    passed     99.91%
+ 201  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2342_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.56%    passed     99.97%
+ 202  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V650_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   26.69%    passed     56.06%
+ 203  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V519_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.22%    passed     99.99%
+ 204  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1069_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.42%    passed     99.66%
+ 205  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V624_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.66%
+ 206  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V536_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.62%
+ 207  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V669_DELIM-OTVBJVTROQUYIXEXBICK_2004                                    0.42%    passed    100.00%
+ 208  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V664_DELIM-OTVBJVTROQUYIXEXBICK_2004                                    0.42%    passed     99.99%
+ 209  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V653_DELIM-OTVBJVTROQUYIXEXBICK_2004                                    0.42%    passed     99.98%
+ 210  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2642_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   0.42%    passed    100.00%
+ 211  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V629_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     97.46%
+ 212  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V628_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed    100.00%
+ 213  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V635_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.97%
+ 214  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V667_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.59%    passed    100.00%
+ 215  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1070_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.20%    passed     99.90%
+ 216  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3711_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.77%    passed     99.96%
+ 217  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3734_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.48%    passed     99.94%
+ 218  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3687_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.48%    passed     99.84%
+ 219  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3735_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.56%    passed     99.96%
+ 220  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3745_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.45%    passed     99.98%
+ 221  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3694_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.48%    passed     99.94%
+ 222  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3747_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.48%    passed     99.99%
+ 223  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3753_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.48%    passed     99.74%
+ 224  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7609_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.71%    passed     99.09%
+ 225  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7605_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.67%    passed     99.04%
+ 226  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7568_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.67%    passed     98.47%
+ 227  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7596_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.67%    passed     98.52%
+ 228  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7588_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.70%    passed     98.73%
+ 229  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7572_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.67%    passed     99.09%
+ 230  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7601_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.70%    passed     98.34%
+ 231  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7604_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.71%    passed     98.66%
+ 232  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7613_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.71%    passed     98.69%
+ 233  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3732_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.74%    passed     99.96%
+ 234  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3741_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   1.18%    passed     99.92%
+ 235  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3758_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.48%    passed     99.91%
+ 236  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3746_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.68%    passed     99.95%
+ 237  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7619_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.71%    passed     99.10%
+ 238  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3700_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.51%    passed     99.92%
+ 239  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7567_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.65%    passed     98.34%
+ 240  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7569_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.70%    passed     98.15%
+ 241  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3743_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.44%    passed     99.91%
+ 242  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3724_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.48%    passed     99.86%
+ 243  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3759_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     99.84%
+ 244  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3656_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.42%    passed     99.62%
+ 245  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3689_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.59%
+ 246  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3726_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.42%    passed     99.43%
+ 247  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3761_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.54%    passed     99.79%
+ 248  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3749_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.50%    passed     99.73%
+ 249  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3737_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.69%    passed     99.38%
+ 250  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3744_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.48%    passed     99.48%
+ 251  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3655_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   6.96%    passed     98.69%
+ 252  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3662_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   5.35%    passed     96.17%
+ 253  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3663_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   4.12%    passed     94.56%
+ 254  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3748_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     99.65%
+ 255  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7590_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   2.71%    passed     99.32%
+ 256  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V652_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     99.90%
+ 257  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3756_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.48%    passed     99.93%
+ 258  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7608_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   2.66%    passed     95.50%
+ 259  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3760_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.68%    passed     98.02%
+ 260  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7298_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   2.70%    passed     97.80%
+ 261  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V8196_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   2.61%    passed     98.59%
+ 262  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7302_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   2.70%    passed     99.17%
+ 263  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V8195_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   2.38%    passed     98.68%
+ 264  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_InDRE_33B_DELIM-OTVBJVTROQUYIXEXBICK_2014                                  40.48%    passed     74.55%
+ 265  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V5067_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.72%    passed     99.04%
+ 266  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V5071_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.72%    passed     98.70%
+ 267  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V5068_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.55%    passed     98.82%
+ 268  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V622_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   26.71%    passed     53.29%
+ 269  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_InDRE_27B_DELIM-OTVBJVTROQUYIXEXBICK_2013                                  40.45%    passed     80.05%
+ 270  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V646_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.42%    passed     97.57%
+ 271  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BOL_KW010                                                                                                 1.24%    passed     99.86%
+ 272  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3738_DELIM-OTVBJVTROQUYIXEXBICK_2007                                  47.25%    passed     41.53%
+ 273  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3675_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   3.50%    passed     97.97%
+ 274  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V534_DELIM-OTVBJVTROQUYIXEXBICK_2005                                    0.47%    passed     99.41%
+ 275  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V642_DELIM-OTVBJVTROQUYIXEXBICK_2006                                    0.42%    passed     97.77%
+ 276  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3708_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   1.03%    passed     99.12%
+ 277  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3750_DELIM-OTVBJVTROQUYIXEXBICK_2008                                  44.77%    passed     35.28%
+ 278  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3681_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   4.19%    passed     98.19%
+ 279  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3751_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   1.23%    passed     98.73%
+ 280  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3692_DELIM-OTVBJVTROQUYIXEXBICK_2007                                  10.13%    passed     51.52%
+ 281  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7681_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   5.00%    passed     99.10%
+ 282  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7680_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.09%    passed     99.72%
+ 283  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7676_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.18%    passed     99.46%
+ 284  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7696_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.12%    passed     99.60%
+ 285  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7691_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   4.01%    passed     94.71%
+ 286  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V5504_DELIM-OTVBJVTROQUYIXEXBICK_2009                                   2.59%    passed     97.87%
+ 287  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7650_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.20%    passed     98.30%
+ 288  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7644_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.08%    passed     98.42%
+ 289  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7651_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   3.80%    passed     83.73%
+ 290  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7655_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   4.15%    passed     85.70%
+ 291  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7692_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.11%    passed     99.85%
+ 292  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7672_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   0.98%    passed     99.96%
+ 293  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7690_DELIM-OTVBJVTROQUYIXEXBICK_2012                                   1.11%    passed     99.82%
+ 294  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2652_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   0.42%    passed     99.50%
+ 295  VE_61006_2006                                                                                                                               0.00%    passed     98.70%
+ 296  VE_61081_2007                                                                                                                               0.00%    passed     99.34%
+ 297  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7624_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   2.70%    passed     98.13%
+ 298  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_BID_V7625_DELIM-OTVBJVTROQUYIXEXBICK_2011                                   3.27%    passed     98.65%
+ 299  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2162_DELIM-OTVBJVTROQUYIXEXBICK_1997                                   0.56%    passed     99.46%
+ 300  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3561_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   2.21%    passed     99.43%
+ 301  Toulon_CNR_25329_DELIM-OTVBJVTROQUYIXEXBICK_2014                                                                                            0.56%    passed     97.66%
+ 302  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_InDRE_36C_DELIM-OTVBJVTROQUYIXEXBICK_2014                                  40.42%    passed     85.01%
+ 303  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_MX_DELIM-OTVBJVTROQUYIXEXBICK_InDRE_35B_DELIM-OTVBJVTROQUYIXEXBICK_2014                                  40.42%    passed     84.26%
+ 304  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3549_DELIM-OTVBJVTROQUYIXEXBICK_2000                                   1.17%    passed     98.95%
+ 305  74488_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_01                                                                        0.00%    passed     97.82%
+ 306  75861_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_01                                                                        0.14%    passed     99.13%
+ 307  40604_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_97                                                                        0.00%    passed     99.95%
+ 308  21814_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_96                                                                        0.00%    passed     99.65%
+ 309  70523_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_00                                                                        0.00%    passed     99.55%
+ 310  52082_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_98                                                                        0.07%    passed     99.92%
+ 311  66694_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_ES_DELIM-OTVBJVTROQUYIXEXBICK_2000                                           5.21%    passed     95.67%
+ 312  59049_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_99                                                                        0.00%    passed     99.67%
+ 313  41111_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_97                                                                        0.00%    passed     99.94%
+ 314  SB_01057805_DF02_                                                                                                                           0.00%    passed     98.55%
+ 315  88463_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_02                                                                        0.00%    passed     99.95%
+ 316  68826_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_RJ_DELIM-OTVBJVTROQUYIXEXBICK_2001                                           5.21%    passed     92.69%
+ 317  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2378_DELIM-OTVBJVTROQUYIXEXBICK_2001                                   0.44%    passed     99.40%
+ 318  38159_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_RJ_DELIM-OTVBJVTROQUYIXEXBICK_1989                                           5.21%    passed     86.42%
+ 319  36034_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_RJ_DELIM-OTVBJVTROQUYIXEXBICK_1988                                           5.21%    passed     93.10%
+ 320  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3544_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   1.27%    passed     99.80%
+ 321  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2169_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     98.61%
+ 322  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3545_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   2.46%    passed     99.22%
+ 323  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3553_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   1.68%    passed     99.34%
+ 324  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3552_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   2.38%    passed     99.91%
+ 325  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VE_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2425_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   4.25%    passed     95.95%
+ 326  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1743_DELIM-OTVBJVTROQUYIXEXBICK_1995                                   0.42%    passed     99.80%
+ 327  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2096_DELIM-OTVBJVTROQUYIXEXBICK_1993                                   0.42%    passed     99.93%
+ 328  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2135_DELIM-OTVBJVTROQUYIXEXBICK_1992                                   0.42%    passed     99.94%
+ 329  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2097_DELIM-OTVBJVTROQUYIXEXBICK_1986                                   0.42%    passed     99.98%
+ 330  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2130_DELIM-OTVBJVTROQUYIXEXBICK_1995                                   0.42%    passed     99.94%
+ 331  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2136_DELIM-OTVBJVTROQUYIXEXBICK_1992                                   0.42%    passed     99.70%
+ 332  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2139_DELIM-OTVBJVTROQUYIXEXBICK_1996                                   0.42%    passed     99.96%
+ 333  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2138_DELIM-OTVBJVTROQUYIXEXBICK_1996                                   0.55%    passed     99.80%
+ 334  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V853_DELIM-OTVBJVTROQUYIXEXBICK_1998                                    0.42%    passed     99.82%
+ 335  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1738_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     99.46%
+ 336  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1739_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     99.80%
+ 337  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2131_DELIM-OTVBJVTROQUYIXEXBICK_1996                                   0.42%    passed     99.50%
+ 338  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2094_DELIM-OTVBJVTROQUYIXEXBICK_1995                                   0.42%    passed     99.50%
+ 339  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2140_DELIM-OTVBJVTROQUYIXEXBICK_1996                                   0.42%    passed     99.17%
+ 340  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2142_DELIM-OTVBJVTROQUYIXEXBICK_1987                                   0.51%    passed     99.88%
+ 341  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2095_DELIM-OTVBJVTROQUYIXEXBICK_1994                                   0.42%    passed     99.96%
+ 342  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2128_DELIM-OTVBJVTROQUYIXEXBICK_1995                                   0.42%    passed     99.96%
+ 343  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1741_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     99.94%
+ 344  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2127_DELIM-OTVBJVTROQUYIXEXBICK_1994                                   0.42%    passed     99.88%
+ 345  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2137_DELIM-OTVBJVTROQUYIXEXBICK_1992                                   0.42%    passed     99.86%
+ 346  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1734_DELIM-OTVBJVTROQUYIXEXBICK_1995                                   0.42%    passed     99.86%
+ 347  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1740_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     99.51%
+ 348  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1742_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     98.13%
+ 349  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2093_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     99.57%
+ 350  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1051_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   9.41%    passed     93.83%
+ 351  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2129_DELIM-OTVBJVTROQUYIXEXBICK_1995                                   0.60%    passed     99.97%
+ 352  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2134_DELIM-OTVBJVTROQUYIXEXBICK_1993                                   0.42%    passed     99.45%
+ 353  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2143_DELIM-OTVBJVTROQUYIXEXBICK_1987                                   0.48%    passed     98.84%
+ 354  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1056_DELIM-OTVBJVTROQUYIXEXBICK_1995                                   8.03%    passed     92.05%
+ 355  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2132_DELIM-OTVBJVTROQUYIXEXBICK_1993                                   0.42%    passed     99.21%
+ 356  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1162_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   0.42%    passed     97.12%
+ 357  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_PR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1053_DELIM-OTVBJVTROQUYIXEXBICK_1998                                   8.07%    passed     96.72%
+ 358  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1744_DELIM-OTVBJVTROQUYIXEXBICK_1995                                   0.42%    passed     99.70%
+ 359  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2133_DELIM-OTVBJVTROQUYIXEXBICK_1993                                   0.20%    passed     99.50%
+ 360  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_SV_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2938_DELIM-OTVBJVTROQUYIXEXBICK_1993                                   0.55%    passed     99.82%
+ 361  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V3490_DELIM-OTVBJVTROQUYIXEXBICK_2008                                   1.89%    passed     97.42%
+ 362  242_DELIM-OTVBJVTROQUYIXEXBICK_2010_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_RJ_DELIM-OTVBJVTROQUYIXEXBICK_2010             5.21%    passed     93.35%
+ 363  DENV1_BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_509_DELIM-OTVBJVTROQUYIXEXBICK_2012                                     0.02%    passed     95.67%
+ 364  HNRG24827                                                                                                                                   0.00%    passed     95.94%
+ 365  HNRG27213                                                                                                                                   0.00%    passed     98.32%
+ 366  13861_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_10                                                                        0.00%    passed     94.39%
+ 367  9808_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_10                                                                         0.00%    passed     93.02%
+ 368  DENV1_BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_17_DELIM-OTVBJVTROQUYIXEXBICK_2010                                      2.97%    passed     93.14%
+ 369  13671_DELIM-OTVBJVTROQUYIXEXBICK_BR_PE_DELIM-OTVBJVTROQUYIXEXBICK_10                                                                        0.00%    passed     96.28%
+ 370  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2395_DELIM-OTVBJVTROQUYIXEXBICK_2006                                   0.42%    passed     93.53%
+ 371  DENV1_BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_778_DELIM-OTVBJVTROQUYIXEXBICK_2013                                     1.20%    passed     98.13%
+ 372  DENV1_BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_807_DELIM-OTVBJVTROQUYIXEXBICK_2013                                     0.44%    passed     95.93%
+ 373  BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_1107_DELIM-OTVBJVTROQUYIXEXBICK_2013                                          1.23%    passed     98.40%
+ 374  BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_885_DELIM-OTVBJVTROQUYIXEXBICK_2013                                           1.27%    passed     98.12%
+ 375  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2374_DELIM-OTVBJVTROQUYIXEXBICK_2000                                   0.54%    passed     89.96%
+ 376  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2381_DELIM-OTVBJVTROQUYIXEXBICK_2002                                   0.48%    passed     94.49%
+ 377  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2389_DELIM-OTVBJVTROQUYIXEXBICK_2004                                   0.44%    passed     82.67%
+ 378  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_VG_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2937_DELIM-OTVBJVTROQUYIXEXBICK_1985                                   0.42%    passed     94.71%
+ 379  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2384_DELIM-OTVBJVTROQUYIXEXBICK_2003                                   0.48%    passed     94.56%
+ 380  DENV1_BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_484_DELIM-OTVBJVTROQUYIXEXBICK_2012                                     0.18%    passed     90.73%
+ 381  BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_2271_DELIM-OTVBJVTROQUYIXEXBICK_2014                                          1.31%    passed     98.13%
+ 382  BR_DELIM-OTVBJVTROQUYIXEXBICK_SJRP_DELIM-OTVBJVTROQUYIXEXBICK_709_DELIM-OTVBJVTROQUYIXEXBICK_2013                                           1.34%    passed     97.47%
+ 383  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2392_DELIM-OTVBJVTROQUYIXEXBICK_2005                                   0.49%    passed     95.74%
+ 384  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2398_DELIM-OTVBJVTROQUYIXEXBICK_2007                                   0.61%    passed     94.70%
+ 385  DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_BR_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2375_DELIM-OTVBJVTROQUYIXEXBICK_2000                                   0.50%    passed     90.05%
+ 386  Reunion_191_DELIM-OTVBJVTROQUYIXEXBICK_04                                                                                                   0.17%    passed     99.76%
+ 387  RGCB294                                                                                                                                     0.19%    passed     82.15%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                       2.43%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: TD_00044_S is identical to TD_00043_S but kept for subsequent analysis
+NOTE: VE_61060_2006 is identical to VE_61059_2006 but kept for subsequent analysis
+NOTE: DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1071_DELIM-OTVBJVTROQUYIXEXBICK_2005 is identical to DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V540_DELIM-OTVBJVTROQUYIXEXBICK_2005 but kept for subsequent analysis
+NOTE: DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V624_DELIM-OTVBJVTROQUYIXEXBICK_2005 is identical to DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1069_DELIM-OTVBJVTROQUYIXEXBICK_2005 but kept for subsequent analysis
+NOTE: DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2094_DELIM-OTVBJVTROQUYIXEXBICK_1995 is identical to DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2131_DELIM-OTVBJVTROQUYIXEXBICK_1996 but kept for subsequent analysis
+NOTE: DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2128_DELIM-OTVBJVTROQUYIXEXBICK_1995 is identical to DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2095_DELIM-OTVBJVTROQUYIXEXBICK_1994 but kept for subsequent analysis
+NOTE: DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V1734_DELIM-OTVBJVTROQUYIXEXBICK_1995 is identical to DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_US_DELIM-OTVBJVTROQUYIXEXBICK_BID_V2137_DELIM-OTVBJVTROQUYIXEXBICK_1992 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00555992 secs using 96.13% CPU
+Identifying sites to remove: done in 0.0278239 secs using 89.43% CPU
+NOTE: 2 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V614_DELIM-OTVBJVTROQUYIXEXBICK_2005 (identical to DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V540_DELIM-OTVBJVTROQUYIXEXBICK_2005) is ignored but added at the end
+NOTE: DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V604_DELIM-OTVBJVTROQUYIXEXBICK_2005 (identical to DENV_1_DELIM-OTVBJVTROQUYIXEXBICK_NI_DELIM-OTVBJVTROQUYIXEXBICK_BID_V540_DELIM-OTVBJVTROQUYIXEXBICK_2005) is ignored but added at the end
+Alignment was printed to results/aligned_denv1_V-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_denv1_V-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.007 seconds
+
+NOTE: 47 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -350258.253
+2. Current log-likelihood: -312703.174
+3. Current log-likelihood: -300968.195
+4. Current log-likelihood: -300944.178
+5. Current log-likelihood: -300931.909
+Optimal log-likelihood: -300931.676
+Rate parameters:  A-C: 2.41421  A-G: 17.47125  A-T: 2.67802  C-G: 1.25556  C-T: 64.92472  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.205  G: 0.260  T: 0.216
+Parameters optimization took 5 rounds (5.426 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.738538 secs using 99.7% CPU
+Computing ML distances took 0.745107 sec (of wall-clock time) 0.741726 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00338793 secs using 165.9% CPU
+Constructing RapidNJ tree: done in 0.00503111 secs using 190.6% CPU
+Computing RapidNJ tree took 0.008498 sec (of wall-clock time) 0.015350 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -83777.122
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 2.12041 secs using 99.48% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -82866.112
+Optimizing NNI: done in 26.531 secs using 99.47% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -82866.112 / CPU time: 31.196
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:38s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -82866.112
+Optimal log-likelihood: -82866.111
+Rate parameters:  A-C: 1.22473  A-G: 6.85589  A-T: 1.22041  C-G: 0.93608  C-T: 22.14326  G-T: 1.00000
+Base frequencies:  A: 0.319  C: 0.205  G: 0.260  T: 0.216
+Parameters optimization took 1 rounds (0.535 sec)
+BEST SCORE FOUND : -82866.111
+Total tree length: 0.874
+
+Total number of iterations: 2
+CPU time used for tree search: 31.041 sec (0h:0m:31s)
+Wall-clock time used for tree search: 31.197 sec (0h:0m:31s)
+Total CPU time used: 38.834 sec (0h:0m:38s)
+Total wall-clock time used: 38.856 sec (0h:0m:38s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv1_V-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv1_V-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv1_V-delim.fasta.mldist
+  Screen log file:               results/aligned_denv1_V-delim.fasta.log
+
+Date and Time: Tue May 31 11:55:18 2022

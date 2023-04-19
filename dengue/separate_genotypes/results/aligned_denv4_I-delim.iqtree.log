@@ -1,0 +1,148 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv4_I-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    827661 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:38:07 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv4_I-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0117121 secs using 95.78% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.011364 secs using 72.13% CPU
+Alignment has 64 sequences with 10649 columns, 2275 distinct patterns
+1699 parsimony-informative, 868 singleton sites, 8081 constant sites
+                                                                                                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000469923 secs using 52.77% CPU
+   1  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V2058_DELIM-XVYJSEOMMJKGAKWATIXJ_2008         26.79%    passed     81.30%
+   2  DF_patient                                                                                                         0.15%    passed     99.96%
+   3  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V2057_DELIM-XVYJSEOMMJKGAKWATIXJ_2007         43.25%    passed     73.56%
+   4  DHF_patient                                                                                                        0.09%    passed     99.86%
+   5  DSS_patient                                                                                                        0.01%    passed     99.63%
+   6  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V3814_DELIM-XVYJSEOMMJKGAKWATIXJ_2001         39.53%    passed     70.57%
+   7  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4334_DELIM-XVYJSEOMMJKGAKWATIXJ_2006         45.09%    passed     57.20%
+   8  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4329_DELIM-XVYJSEOMMJKGAKWATIXJ_2005         39.70%    passed     69.57%
+   9  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4332_DELIM-XVYJSEOMMJKGAKWATIXJ_2006         45.28%    passed     64.12%
+  10  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4335_DELIM-XVYJSEOMMJKGAKWATIXJ_2007         45.10%    passed     67.74%
+  11  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4327_DELIM-XVYJSEOMMJKGAKWATIXJ_2005         39.96%    passed     82.08%
+  12  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4326_DELIM-XVYJSEOMMJKGAKWATIXJ_2005         39.73%    passed     80.89%
+  13  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4328_DELIM-XVYJSEOMMJKGAKWATIXJ_2005         39.55%    passed     86.70%
+  14  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4331_DELIM-XVYJSEOMMJKGAKWATIXJ_2006         32.66%    passed     56.35%
+  15  ThD4_0348_91                                                                                                       0.01%    passed     99.98%
+  16  ThD4_0485_01                                                                                                       0.02%    passed     99.92%
+  17  SV296                                                                                                              0.46%    passed     97.02%
+  18  11_DELIM-XVYJSEOMMJKGAKWATIXJ_1666                                                                                 4.55%    passed     99.71%
+  19  H781363                                                                                                            0.44%    passed     99.65%
+  20  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4317_DELIM-XVYJSEOMMJKGAKWATIXJ_2007         19.94%    passed     86.62%
+  21  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4323_DELIM-XVYJSEOMMJKGAKWATIXJ_2008         50.73%    passed     87.98%
+  22  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4322_DELIM-XVYJSEOMMJKGAKWATIXJ_2008          9.63%    passed     98.68%
+  23  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V3835_DELIM-XVYJSEOMMJKGAKWATIXJ_2007         11.37%    passed     99.00%
+  24  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V2055_DELIM-XVYJSEOMMJKGAKWATIXJ_2002          0.62%    passed     97.78%
+  25  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V2056_DELIM-XVYJSEOMMJKGAKWATIXJ_2005          9.02%    passed     93.78%
+  26  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V3811_DELIM-XVYJSEOMMJKGAKWATIXJ_2008         52.95%    passed     59.84%
+  27  GZ18XN11706                                                                                                        2.84%    passed     96.63%
+  28  GZ18XN17096                                                                                                        2.84%    passed     98.26%
+  29  GZ18XN13312                                                                                                        2.84%    passed     96.42%
+  30  GZ18XN16107                                                                                                        2.84%    passed     98.72%
+  31  SG_EHI_D4_DELIM-XVYJSEOMMJKGAKWATIXJ_25178Y11                                                                      0.01%    passed     99.21%
+  32  DENV4_002                                                                                                          4.58%    passed     98.32%
+  33  ThD4_0087_77                                                                                                       0.01%    passed     98.44%
+  34  Th16_037DV4                                                                                                        0.45%    passed     98.96%
+  35  Th16_020DV4                                                                                                        0.45%    passed     98.57%
+  36  SG_EHI_D4_DELIM-XVYJSEOMMJKGAKWATIXJ_02990Y14                                                                      0.01%    passed     99.95%
+  37  2013JH285                                                                                                          0.05%    passed     99.27%
+  38  Th16_046DV4                                                                                                        0.45%    passed     99.59%
+  39  Th17_098DV4                                                                                                        0.45%    passed     99.42%
+  40  Th17_091DV4                                                                                                        0.45%    passed     99.20%
+  41  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_China_DELIM-XVYJSEOMMJKGAKWATIXJ_YN_DELIM-XVYJSEOMMJKGAKWATIXJ_15DGR35_2015_     0.01%    passed     99.62%
+  42  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_China_DELIM-XVYJSEOMMJKGAKWATIXJ_YN_DELIM-XVYJSEOMMJKGAKWATIXJ_15DGR9_2015_      0.01%    passed     99.34%
+  43  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_China_DELIM-XVYJSEOMMJKGAKWATIXJ_YN_DELIM-XVYJSEOMMJKGAKWATIXJ_15DGR32_2015_     0.03%    passed     99.47%
+  44  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_China_DELIM-XVYJSEOMMJKGAKWATIXJ_YN_DELIM-XVYJSEOMMJKGAKWATIXJ_15DGR394_2015_    0.01%    passed     96.44%
+  45  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_China_DELIM-XVYJSEOMMJKGAKWATIXJ_YN_DELIM-XVYJSEOMMJKGAKWATIXJ_15DGR50_2015_     0.05%    passed     99.85%
+  46  Th16_010DV4                                                                                                        0.45%    passed     98.99%
+  47  GZ19XN01404                                                                                                        2.84%    passed     97.44%
+  48  Th16_006DV4                                                                                                        0.45%    passed     98.46%
+  49  Th16_001DV4                                                                                                        0.45%    passed     98.30%
+  50  CTI2_13                                                                                                            0.36%    passed     98.16%
+  51  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4318_DELIM-XVYJSEOMMJKGAKWATIXJ_2007         40.14%    passed     78.58%
+  52  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_TH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V4330_DELIM-XVYJSEOMMJKGAKWATIXJ_2006         32.74%    passed     48.00%
+  53  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_KH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V3836_DELIM-XVYJSEOMMJKGAKWATIXJ_2007         20.04%    passed     83.87%
+  54  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_IND_DELIM-XVYJSEOMMJKGAKWATIXJ_793679_DELIM-XVYJSEOMMJKGAKWATIXJ_1979            0.36%    passed     99.71%
+  55  UOH_23916                                                                                                          0.06%    passed     96.05%
+  56  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_IND_DELIM-XVYJSEOMMJKGAKWATIXJ_0952326_DELIM-XVYJSEOMMJKGAKWATIXJ_2009           0.06%    passed     80.46%
+  57  DENV4_3274                                                                                                         1.38%    passed     85.07%
+  58  D4_DELIM-XVYJSEOMMJKGAKWATIXJ_Pakistan_DELIM-XVYJSEOMMJKGAKWATIXJ_150_DELIM-XVYJSEOMMJKGAKWATIXJ_2009              0.01%    passed     86.81%
+  59  D4_DELIM-XVYJSEOMMJKGAKWATIXJ_IND_DELIM-XVYJSEOMMJKGAKWATIXJ_PUNE_DELIM-XVYJSEOMMJKGAKWATIXJ_IRSHA_FG_03_S_49_     0.01%    passed     48.17%
+  60  D4_DELIM-XVYJSEOMMJKGAKWATIXJ_IND_DELIM-XVYJSEOMMJKGAKWATIXJ_PUNE_DELIM-XVYJSEOMMJKGAKWATIXJ_IRSHA_FG_01_1028_     0.01%    passed     44.41%
+  61  GD09_DELIM-XVYJSEOMMJKGAKWATIXJ_90                                                                                 0.01%    passed     99.89%
+  62  D4_DELIM-XVYJSEOMMJKGAKWATIXJ_Philippines_DELIM-XVYJSEOMMJKGAKWATIXJ_0310aTw                                       0.44%    passed     94.78%
+  63  H241                                                                                                               0.03%    passed     99.14%
+  64  DENV_4_DELIM-XVYJSEOMMJKGAKWATIXJ_PH_DELIM-XVYJSEOMMJKGAKWATIXJ_BID_V3361_DELIM-XVYJSEOMMJKGAKWATIXJ_1956          0.54%    passed     97.90%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                             11.18%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.000380993 secs using 92.92% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 4 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -94812.521
+2. Current log-likelihood: -83154.854
+3. Current log-likelihood: -83061.791
+Optimal log-likelihood: -83061.183
+Rate parameters:  A-C: 1.08021  A-G: 13.28003  A-T: 1.83317  C-G: 0.63922  C-T: 33.28266  G-T: 1.00000
+Base frequencies:  A: 0.307  C: 0.209  G: 0.264  T: 0.219
+Parameters optimization took 3 rounds (0.548 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0119491 secs using 97.62% CPU
+Computing ML distances took 0.012525 sec (of wall-clock time) 0.012123 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00011301 secs using 170.8% CPU
+Constructing RapidNJ tree: done in 0.000223875 secs using 184% CPU
+Computing RapidNJ tree took 0.000378 sec (of wall-clock time) 0.000664 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -42706.057
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.104334 secs using 194.7% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -42590.136
+Optimizing NNI: done in 1.23449 secs using 99.77% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -42590.136 / CPU time: 1.492
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -42590.136
+Optimal log-likelihood: -42590.136
+Rate parameters:  A-C: 1.29345  A-G: 11.51329  A-T: 2.01461  C-G: 0.99242  C-T: 29.34400  G-T: 1.00000
+Base frequencies:  A: 0.307  C: 0.209  G: 0.264  T: 0.219
+Parameters optimization took 1 rounds (0.036 sec)
+BEST SCORE FOUND : -42590.136
+Total tree length: 0.435
+
+Total number of iterations: 2
+CPU time used for tree search: 1.594 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.492 sec (0h:0m:1s)
+Total CPU time used: 2.368 sec (0h:0m:2s)
+Total wall-clock time used: 2.198 sec (0h:0m:2s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv4_I-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv4_I-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv4_I-delim.fasta.mldist
+  Screen log file:               results/aligned_denv4_I-delim.fasta.log
+
+Date and Time: Tue May 31 11:38:10 2022

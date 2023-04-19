@@ -1,0 +1,844 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "14.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Cook Islands",
+        "French Polynesia",
+        "Indonesia",
+        "New Caledonia",
+        "Philippines",
+        "Wallis And Futuna",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.14506210316404322,
+        0.1445498626973553,
+        0.2292684358207079,
+        0.16801459845098124,
+        0.13382523291520024,
+        0.17927976695171213
+      ],
+      "rate": 286.9001597710861,
+      "transition_matrix": [
+        [
+          0.0,
+          1.3802642741836095,
+          0.963731422049057,
+          0.9186373666056624,
+          0.9208496514006613,
+          0.9191631686299204
+        ],
+        [
+          1.3802642741836095,
+          0.0,
+          1.4969129331863347,
+          1.7448460836790582,
+          0.9285066679413215,
+          1.7327793534134965
+        ],
+        [
+          0.963731422049057,
+          1.4969129331863347,
+          0.0,
+          0.9808174109798986,
+          1.4990666266581194,
+          0.9861336654689153
+        ],
+        [
+          0.9186373666056624,
+          1.7448460836790582,
+          0.9808174109798986,
+          0.0,
+          0.9219158240947489,
+          1.7531651338629006
+        ],
+        [
+          0.9208496514006613,
+          0.9285066679413215,
+          1.4990666266581194,
+          0.9219158240947489,
+          0.0,
+          0.9227253534568773
+        ],
+        [
+          0.9191631686299204,
+          1.7327793534134965,
+          0.9861336654689153,
+          1.7531651338629006,
+          0.9227253534568773,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "Oceania",
+        "Southeast Asia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.44052501624314944,
+        0.5594749837568507
+      ],
+      "rate": 25.563868509997416,
+      "transition_matrix": [
+        [
+          0.0,
+          2.0287043298260827
+        ],
+        [
+          2.0287043298260827,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "98902890_DF_DV_3": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_3/CK/BID_V2972/1991": {
+      "country": "Cook Islands",
+      "country_confidence": {
+        "Cook Islands": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_0388": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MKS_2006": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_2065": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MKS_3000": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NC89/060289_283": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC95/170895_3750": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC95/240295_418": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC95/271295_4197": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC96/181196_4690": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC96/211096_4631": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "French Polynesia": 0.0027363309374924144,
+        "Indonesia": 0.9906768223656095,
+        "Philippines": 0.002750329338629795,
+        "Wallis And Futuna": 0.0014288003934771509
+      },
+      "country_entropy": 0.06717605641391114,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999954129499963
+      },
+      "region_entropy": 0.0005041014457170364
+    },
+    "NODE_0000001": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "French Polynesia": 0.02503804902978533,
+        "Indonesia": 0.9029925557999504,
+        "Philippines": 0.025350241906158442,
+        "Wallis And Futuna": 0.017273699264964793
+      },
+      "country_entropy": 0.4714895267417786,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9995328322511231
+      },
+      "region_entropy": 0.004049684991812872
+    },
+    "NODE_0000002": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "French Polynesia": 0.08372886252741865,
+        "Indonesia": 0.6302045762591211,
+        "Philippines": 0.08418540199899724,
+        "Wallis And Futuna": 0.0743852278931953
+      },
+      "country_entropy": 1.2507235176374027,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.004503002818396221,
+        "Southeast Asia": 0.9954969971816037
+      },
+      "region_entropy": 0.028822621960150317
+    },
+    "NODE_0000003": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "French Polynesia": 0.1412219035289172,
+        "Indonesia": 0.2677731799057071,
+        "New Caledonia": 0.15577897040365082,
+        "Wallis And Futuna": 0.16631529487447624
+      },
+      "country_entropy": 1.7567953751645022,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.035356971273985495,
+        "Southeast Asia": 0.9646430287260144
+      },
+      "region_entropy": 0.15289659394948407
+    },
+    "NODE_0000004": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "French Polynesia": 0.14000970552265304,
+        "Indonesia": 0.301870895120796,
+        "New Caledonia": 0.14749653989429384,
+        "Wallis And Futuna": 0.15748760936893255
+      },
+      "country_entropy": 1.7334068912926162,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.0670272243413258,
+        "Southeast Asia": 0.9329727756586741
+      },
+      "region_entropy": 0.2458805162531127
+    },
+    "NODE_0000005": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "French Polynesia": 0.04477467908393401,
+        "Indonesia": 0.7738389150248198,
+        "Philippines": 0.07515343659651358,
+        "Wallis And Futuna": 0.03901781512003561
+      },
+      "country_entropy": 0.886387068511605,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.0032512966556617665,
+        "Southeast Asia": 0.9967487033443382
+      },
+      "region_entropy": 0.02187171312576372
+    },
+    "NODE_0000006": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "French Polynesia": 0.12661588446473615,
+        "Indonesia": 0.45969330702891736,
+        "New Caledonia": 0.10920776656034324,
+        "Wallis And Futuna": 0.11665521113961072
+      },
+      "country_entropy": 1.555320770787162,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.09198196063713848,
+        "Southeast Asia": 0.9080180393628615
+      },
+      "region_entropy": 0.3070995318498023
+    },
+    "NODE_0000007": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.8404415346956341,
+        "Indonesia": 0.024959157376460036,
+        "New Caledonia": 0.05665283985651467,
+        "Wallis And Futuna": 0.05794631849963027
+      },
+      "country_entropy": 0.6572859910865068,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9961321211913519,
+        "Southeast Asia": 0.003867878808648138
+      },
+      "region_entropy": 0.02534664533881861
+    },
+    "NODE_0000008": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.8229577765593147,
+        "Indonesia": 0.01224230312305679,
+        "New Caledonia": 0.07739263963666458,
+        "Wallis And Futuna": 0.0779204011422175
+      },
+      "country_entropy": 0.6614754867484713,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998953112448893
+      },
+      "region_entropy": 0.0010641053423221507
+    },
+    "NODE_0000009": {
+      "country": "Wallis And Futuna",
+      "country_confidence": {
+        "French Polynesia": 0.25465692993692296,
+        "Indonesia": 0.01445639834702265,
+        "New Caledonia": 0.3591796326240004,
+        "Wallis And Futuna": 0.3591833424299525
+      },
+      "country_entropy": 1.2084011791621507,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999823674629328
+      },
+      "region_entropy": 0.0002106339808099234
+    },
+    "NODE_0000010": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9998308863889229
+      },
+      "country_entropy": 0.0018410974298888163,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999896340342
+      },
+      "region_entropy": 2.0093952966845152e-07
+    },
+    "NODE_0000011": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "French Polynesia": 0.14375685043957187,
+        "Indonesia": 0.2410516566138233,
+        "New Caledonia": 0.16410282305257762,
+        "Wallis And Futuna": 0.17513550991125007
+      },
+      "country_entropy": 1.7700063946240083,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.10063498242950093,
+        "Southeast Asia": 0.899365017570499
+      },
+      "region_entropy": 0.32647593657571855
+    },
+    "NODE_0000013": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "Cook Islands": 0.005783082950135462,
+        "French Polynesia": 0.9924822499018634
+      },
+      "country_entropy": 0.05046612114519842,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999996399780993
+      },
+      "region_entropy": 5.701701129911035e-06
+    },
+    "NODE_0000015": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9993483509879234
+      },
+      "country_entropy": 0.0063911701591714415,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999991155572387
+      },
+      "region_entropy": 1.3212076018547238e-05
+    },
+    "NODE_0000017": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "Cook Islands": 0.0010052435555559496,
+        "French Polynesia": 0.9950660555092594,
+        "New Caledonia": 0.0016180549295384333,
+        "Wallis And Futuna": 0.001174918160015591
+      },
+      "country_entropy": 0.038383045538706556,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999818947566361
+      },
+      "region_entropy": 0.00021580182378516297
+    },
+    "NODE_0000018": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9840620139909759,
+        "Indonesia": 0.0018009206355137977,
+        "New Caledonia": 0.010039258240939562,
+        "Wallis And Futuna": 0.00273321828375172
+      },
+      "country_entropy": 0.09932161747291338,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999814762853371
+      },
+      "region_entropy": 0.00022036643424729857
+    },
+    "NODE_0000019": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.8886045624483176,
+        "Indonesia": 0.005543465771899265,
+        "New Caledonia": 0.09145792435123487,
+        "Wallis And Futuna": 0.010129890050721969
+      },
+      "country_entropy": 0.42496751163282753,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999983567987821
+      },
+      "region_entropy": 0.00019745150855630443
+    },
+    "NODE_0000020": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9821568011411602,
+        "Indonesia": 0.001766889967954316,
+        "New Caledonia": 0.01051806586907815,
+        "Wallis And Futuna": 0.004280057681988296
+      },
+      "country_entropy": 0.10941602064801867,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999983986181454
+      },
+      "region_entropy": 0.00019283921030677914
+    },
+    "NODE_0000021": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9817378135345189,
+        "Indonesia": 0.0017850393899290005,
+        "New Caledonia": 0.004081337951190381,
+        "Wallis And Futuna": 0.011105351937658674
+      },
+      "country_entropy": 0.11118383798778317,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999839960066941
+      },
+      "region_entropy": 0.0001927307165749653
+    },
+    "NODE_0000022": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.8838169242131859,
+        "Indonesia": 0.005517596335884711,
+        "New Caledonia": 0.009307442439095884,
+        "Wallis And Futuna": 0.09713035929876866
+      },
+      "country_entropy": 0.4336226695173762,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999840045267537
+      },
+      "region_entropy": 0.0001926366302159033
+    },
+    "NODE_0000023": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9870900326600189,
+        "Indonesia": 0.0014328632920013484,
+        "New Caledonia": 0.0020513981287685816,
+        "Wallis And Futuna": 0.008389049014466937
+      },
+      "country_entropy": 0.0827577479588261,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999843647307624
+      },
+      "region_entropy": 0.00018865474274471552
+    },
+    "NODE_0000024": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.06898680012074113,
+        "Indonesia": 0.0033400844117359627,
+        "New Caledonia": 0.9165383304774019,
+        "Wallis And Futuna": 0.008214301713149278
+      },
+      "country_entropy": 0.3418311237183256,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999984346308287
+      },
+      "region_entropy": 0.00018885859437770238
+    },
+    "NODE_0000025": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 0.9986225743803044
+      },
+      "country_entropy": 0.011732990351296916,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999996270686557
+      },
+      "region_entropy": 5.893011111106566e-06
+    },
+    "NODE_0000027": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.0023932035652304193,
+        "New Caledonia": 0.9844573402591098,
+        "Wallis And Futuna": 0.011501185573008778
+      },
+      "country_entropy": 0.0934984935264484,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999797445316989
+      },
+      "region_entropy": 0.00023915784422347047
+    },
+    "NODE_0000028": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.0070838106403194575,
+        "Indonesia": 0.0026344717405772495,
+        "New Caledonia": 0.8918230856663666,
+        "Wallis And Futuna": 0.09578061445476065
+      },
+      "country_entropy": 0.39520000277597134,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999837804598465
+      },
+      "region_entropy": 0.00019510948124858027
+    },
+    "PF89/27643": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF89/320219": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF90/3050": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF90/3056": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF90/6056": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF91/090891_22130": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "PF92/2956": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF92/4190": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF93/200493_110185": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF94/136116": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF95/190795_20064": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF96/040996_24881": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF96/150296_46183": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Sleman/78": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "WF89/140889_4838": {
+      "country": "Wallis And Futuna",
+      "country_confidence": {
+        "Wallis And Futuna": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "WF95/050495_1650": {
+      "country": "Wallis And Futuna",
+      "country_confidence": {
+        "Wallis And Futuna": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "WF95/090595_2448": {
+      "country": "Wallis And Futuna",
+      "country_confidence": {
+        "Wallis And Futuna": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "mutant_InJ_I6_82": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "mutant_PhMH_J1_97": {
+      "country": "Philippines",
+      "country_confidence": {
+        "Philippines": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    }
+  }
+}

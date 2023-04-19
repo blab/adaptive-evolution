@@ -1,0 +1,189 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv1_III-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    411140 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:59:47 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv1_III-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0186381 secs using 96.04% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0110781 secs using 80.46% CPU
+Alignment has 103 sequences with 10735 columns, 1047 distinct patterns
+837 parsimony-informative, 842 singleton sites, 9056 constant sites
+                                                                                                                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000142097 secs using 95.71% CPU
+   1  D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_SG_DELIM-YUPTVXPQFCJZMGLEUBVZ_CT25_DELIM-YUPTVXPQFCJZMGLEUBVZ_2012                                          0.61%    passed     99.97%
+   2  D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_SG_DELIM-YUPTVXPQFCJZMGLEUBVZ_CT16_DELIM-YUPTVXPQFCJZMGLEUBVZ_2012                                          0.61%    passed     99.96%
+   3  D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_SG_DELIM-YUPTVXPQFCJZMGLEUBVZ_CT17_DELIM-YUPTVXPQFCJZMGLEUBVZ_2012                                          0.61%    passed     99.98%
+   4  D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_SG_DELIM-YUPTVXPQFCJZMGLEUBVZ_CT11_DELIM-YUPTVXPQFCJZMGLEUBVZ_2012                                          0.61%    passed     99.65%
+   5  GZ8_53_DELIM-YUPTVXPQFCJZMGLEUBVZ_S_DELIM-YUPTVXPQFCJZMGLEUBVZ_Liwan_DELIM-YUPTVXPQFCJZMGLEUBVZ_2013_DELIM-YUPTVXPQFCJZMGLEUBVZ_DEV1      1.19%    passed     99.78%
+   6  GZ8_48_DELIM-YUPTVXPQFCJZMGLEUBVZ_S_DELIM-YUPTVXPQFCJZMGLEUBVZ_Yuexiu_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014_DELIM-YUPTVXPQFCJZMGLEUBVZ_DEV1     0.62%    passed     99.06%
+   7  GZ8_44_DELIM-YUPTVXPQFCJZMGLEUBVZ_S_DELIM-YUPTVXPQFCJZMGLEUBVZ_Tianhe_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014_DELIM-YUPTVXPQFCJZMGLEUBVZ_DEV1     0.66%    passed     99.44%
+   8  GZ_DELIM-YUPTVXPQFCJZMGLEUBVZ_31358_DELIM-YUPTVXPQFCJZMGLEUBVZ_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014                                         1.31%    passed     99.86%
+   9  GZ_DELIM-YUPTVXPQFCJZMGLEUBVZ_33206_DELIM-YUPTVXPQFCJZMGLEUBVZ_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014                                         1.31%    passed     99.92%
+  10  ww2014                                                                                                                                    0.61%    passed     99.70%
+  11  DV1E_DELIM-YUPTVXPQFCJZMGLEUBVZ_China_DELIM-YUPTVXPQFCJZMGLEUBVZ_GDgz_DELIM-YUPTVXPQFCJZMGLEUBVZ_14243_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014    1.02%    passed     99.74%
+  12  SGEHI_D1_41081Y13                                                                                                                         0.20%    passed     99.84%
+  13  SGEHI_D1_05022Y13                                                                                                                         0.20%    passed     99.96%
+  14  SGEHI_D1_23537Y13                                                                                                                         0.20%    passed     99.96%
+  15  SGEHI_D1_44259Y12                                                                                                                         0.20%    passed     99.98%
+  16  SGEHI_D1_10152Y13                                                                                                                         0.20%    passed     99.83%
+  17  SGEHI_D1_09119Y13                                                                                                                         0.20%    passed     99.93%
+  18  SGEHI_D1_15005Y13                                                                                                                         0.61%    passed     99.96%
+  19  SGEHI_D1_23018Y13                                                                                                                         0.20%    passed     99.94%
+  20  SGEHI_D1_10689Y13                                                                                                                         0.20%    passed     99.94%
+  21  SGEHI_D1_50837Y13                                                                                                                         0.20%    passed     99.92%
+  22  SGEHI_D1_50688Y13                                                                                                                         0.20%    passed     99.91%
+  23  SGEHI_D1_46841Y13                                                                                                                         0.20%    passed     99.91%
+  24  SGEHI_D1_40160Y13                                                                                                                         0.68%    passed     99.89%
+  25  SGEHI_D1_23469Y13                                                                                                                         0.20%    passed     99.89%
+  26  SGEHI_D1_19711Y13                                                                                                                         0.20%    passed     99.85%
+  27  DENV1_DELIM-YUPTVXPQFCJZMGLEUBVZ_CN_DELIM-YUPTVXPQFCJZMGLEUBVZ_GZDF874_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014                                    0.20%    passed     99.80%
+  28  DENV1_DELIM-YUPTVXPQFCJZMGLEUBVZ_CN_DELIM-YUPTVXPQFCJZMGLEUBVZ_GZDF780_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014                                    0.20%    passed     99.91%
+  29  DENV1_DELIM-YUPTVXPQFCJZMGLEUBVZ_CN_DELIM-YUPTVXPQFCJZMGLEUBVZ_GZDF696_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014                                    0.20%    passed     99.93%
+  30  DENV1_DELIM-YUPTVXPQFCJZMGLEUBVZ_CN_DELIM-YUPTVXPQFCJZMGLEUBVZ_GZDF876_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014                                    0.20%    passed     99.94%
+  31  SGEHI_D1_40115Y13                                                                                                                         0.20%    passed     99.94%
+  32  V5538                                                                                                                                     0.20%    passed     99.93%
+  33  SGEHI_D1_50722Y13                                                                                                                         0.20%    passed     99.93%
+  34  SGEHI_D1_21469Y13                                                                                                                         0.20%    passed     99.84%
+  35  SGEHI_D1_16120Y13                                                                                                                         0.20%    passed     99.91%
+  36  SGEHI_D1_18736Y13                                                                                                                         0.20%    passed     99.88%
+  37  SGEHI_D1_19725Y13                                                                                                                         0.20%    passed     99.89%
+  38  DV1D_DELIM-YUPTVXPQFCJZMGLEUBVZ_China_DELIM-YUPTVXPQFCJZMGLEUBVZ_GDfs_DELIM-YUPTVXPQFCJZMGLEUBVZ_14264_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014    0.90%    passed     99.71%
+  39  Wuhan_3                                                                                                                                   0.30%    passed     99.94%
+  40  Wuhan_2                                                                                                                                   0.30%    passed     99.91%
+  41  Wuhan_1                                                                                                                                   0.30%    passed     99.88%
+  42  GZ8_2_DELIM-YUPTVXPQFCJZMGLEUBVZ_S_DELIM-YUPTVXPQFCJZMGLEUBVZ_Yuexiu_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014_DELIM-YUPTVXPQFCJZMGLEUBVZ_DEV1      0.84%    passed     99.46%
+  43  GZ_DELIM-YUPTVXPQFCJZMGLEUBVZ_13986_DELIM-YUPTVXPQFCJZMGLEUBVZ_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_2015                                         1.20%    passed     99.65%
+  44  GZ8_81_DELIM-YUPTVXPQFCJZMGLEUBVZ_S_DELIM-YUPTVXPQFCJZMGLEUBVZ_Panyu_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014_DELIM-YUPTVXPQFCJZMGLEUBVZ_DEV1      0.58%    passed     99.06%
+  45  GZ8_9_DELIM-YUPTVXPQFCJZMGLEUBVZ_S_DELIM-YUPTVXPQFCJZMGLEUBVZ_Yuexiu_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014_DELIM-YUPTVXPQFCJZMGLEUBVZ_DEV1      0.40%    passed     99.26%
+  46  GZ_4_DELIM-YUPTVXPQFCJZMGLEUBVZ_M_DELIM-YUPTVXPQFCJZMGLEUBVZ_GZ_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014_DELIM-YUPTVXPQFCJZMGLEUBVZ_DEV1           0.95%    passed     99.96%
+  47  Gz_7_DELIM-YUPTVXPQFCJZMGLEUBVZ_M_DELIM-YUPTVXPQFCJZMGLEUBVZ_GZ_DELIM-YUPTVXPQFCJZMGLEUBVZ_2014_DELIM-YUPTVXPQFCJZMGLEUBVZ_DEV1           0.65%    passed     99.45%
+  48  V5044                                                                                                                                     0.20%    passed     99.94%
+  49  V30014                                                                                                                                    0.20%    passed     99.99%
+  50  V29793                                                                                                                                    0.20%    passed     99.99%
+  51  V52742                                                                                                                                    0.46%    passed     99.87%
+  52  V15628                                                                                                                                    0.20%    passed     99.90%
+  53  V3329                                                                                                                                     0.20%    passed     99.96%
+  54  SG_EHI_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_03329Y15                                                                                             0.20%    passed     99.96%
+  55  V6038                                                                                                                                     0.20%    passed     99.79%
+  56  SGEHI_D1_07074Y13                                                                                                                         1.01%    passed     99.91%
+  57  V13085                                                                                                                                    0.20%    passed     99.86%
+  58  Wenzhou_1                                                                                                                                 0.30%    passed     99.83%
+  59  SGEHI_D1_14150Y13                                                                                                                         0.61%    passed     99.86%
+  60  V49862                                                                                                                                    0.20%    passed     99.99%
+  61  SGEHI_D1_05722Y13                                                                                                                         0.20%    passed     99.98%
+  62  V3720                                                                                                                                     0.20%    passed     99.59%
+  63  TM242                                                                                                                                     5.60%    passed     98.04%
+  64  SG_EHI_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_44614Y11                                                                                             0.20%    passed     99.89%
+  65  SG_EHI_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_15834Y11                                                                                             0.20%    passed     99.98%
+  66  V18806                                                                                                                                    0.20%    passed     99.63%
+  67  SG_EHI_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_18640Y12                                                                                             0.28%    passed     99.70%
+  68  V29368                                                                                                                                    0.20%    passed     99.91%
+  69  D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_SG_DELIM-YUPTVXPQFCJZMGLEUBVZ_CT1_DELIM-YUPTVXPQFCJZMGLEUBVZ_2012                                           0.61%    passed     99.56%
+  70  RR57                                                                                                                                      0.61%    passed     99.99%
+  71  SG_EHI_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_0091Y09                                                                                              0.20%    passed     99.89%
+  72  T24_S68                                                                                                                                   1.59%    passed     99.74%
+  73  V44692                                                                                                                                    0.20%    passed    100.00%
+  74  RR121                                                                                                                                     0.61%    passed     99.99%
+  75  RR107                                                                                                                                     0.61%    passed     99.97%
+  76  T28_S69                                                                                                                                   0.62%    passed     99.96%
+  77  V31808                                                                                                                                    0.20%    passed     99.92%
+  78  V51870                                                                                                                                    0.20%    passed     99.85%
+  79  V31460                                                                                                                                    0.20%    passed     99.94%
+  80  V38661                                                                                                                                    0.20%    passed     99.97%
+  81  V50458                                                                                                                                    0.20%    passed     99.96%
+  82  DENV_1_DELIM-YUPTVXPQFCJZMGLEUBVZ_China_DELIM-YUPTVXPQFCJZMGLEUBVZ_YN_DELIM-YUPTVXPQFCJZMGLEUBVZ_YNH22_2013_                              0.26%    passed     99.13%
+  83  DENV1_16687                                                                                                                               3.73%    passed     92.57%
+  84  R1_J47                                                                                                                                    0.27%    passed     99.82%
+  85  V19492                                                                                                                                    0.20%    passed     99.91%
+  86  V22125                                                                                                                                    0.20%    passed     99.48%
+  87  TM301                                                                                                                                     4.40%    passed     93.73%
+  88  RGCB585                                                                                                                                   0.38%    passed     98.29%
+  89  RGCB592                                                                                                                                   0.38%    passed     98.71%
+  90  RGCB419                                                                                                                                   0.38%    passed     98.11%
+  91  DenKor_01                                                                                                                                 0.00%    passed     98.67%
+  92  R1_J10                                                                                                                                    0.34%    passed     97.26%
+  93  V11887                                                                                                                                    0.00%    passed     98.05%
+  94  SG_EHI_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_50903Y13                                                                                             0.00%    passed     92.86%
+  95  V3083                                                                                                                                     0.00%    passed     97.39%
+  96  UOH_21749                                                                                                                                 0.00%    passed     95.91%
+  97  DENV_1_DELIM-YUPTVXPQFCJZMGLEUBVZ_IND_DELIM-YUPTVXPQFCJZMGLEUBVZ_826883_DELIM-YUPTVXPQFCJZMGLEUBVZ_1982                                   1.02%    passed     99.68%
+  98  ThD1_0442_80                                                                                                                              0.00%    passed     99.39%
+  99  ThD1_0673_80                                                                                                                              0.00%    passed     99.05%
+ 100  Comoros_04329_DELIM-YUPTVXPQFCJZMGLEUBVZ_93                                                                                               0.13%    passed     99.39%
+ 101  SG_EHI_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_09106Y11                                                                                             0.00%    passed     98.95%
+ 102  DS06_210505                                                                                                                               1.02%    passed     93.82%
+ 103  DENV_1_DELIM-YUPTVXPQFCJZMGLEUBVZ_IND_DELIM-YUPTVXPQFCJZMGLEUBVZ_55290_DELIM-YUPTVXPQFCJZMGLEUBVZ_2005                                    0.34%    passed     99.86%
+****  TOTAL                                                                                                                                     0.50%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: SGEHI_D1_10689Y13 is identical to SGEHI_D1_23018Y13 but kept for subsequent analysis
+NOTE: SG_EHI_D1_DELIM-YUPTVXPQFCJZMGLEUBVZ_03329Y15 is identical to V3329 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000364065 secs using 87.07% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -57539.126
+2. Current log-likelihood: -52754.533
+3. Current log-likelihood: -51454.448
+Optimal log-likelihood: -51454.284
+Rate parameters:  A-C: 1.36532  A-G: 11.49948  A-T: 1.89942  C-G: 0.40105  C-T: 40.93488  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.207  G: 0.260  T: 0.215
+Parameters optimization took 3 rounds (0.360 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.023468 secs using 98.98% CPU
+Computing ML distances took 0.023965 sec (of wall-clock time) 0.023535 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000229836 secs using 171% CPU
+Constructing RapidNJ tree: done in 0.000458002 secs using 184.7% CPU
+Computing RapidNJ tree took 0.000745 sec (of wall-clock time) 0.001320 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -31414.743
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.14442 secs using 196.5% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -31365.997
+Optimizing NNI: done in 1.11389 secs using 99.92% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -31365.997 / CPU time: 1.402
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -31365.997
+2. Current log-likelihood: -31365.942
+Optimal log-likelihood: -31365.937
+Rate parameters:  A-C: 1.79330  A-G: 12.05475  A-T: 2.46921  C-G: 0.95280  C-T: 38.97501  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.207  G: 0.260  T: 0.215
+Parameters optimization took 2 rounds (0.059 sec)
+BEST SCORE FOUND : -31365.937
+Total tree length: 0.217
+
+Total number of iterations: 2
+CPU time used for tree search: 1.548 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.402 sec (0h:0m:1s)
+Total CPU time used: 2.093 sec (0h:0m:2s)
+Total wall-clock time used: 1.918 sec (0h:0m:1s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv1_III-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv1_III-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv1_III-delim.fasta.mldist
+  Screen log file:               results/aligned_denv1_III-delim.fasta.log
+
+Date and Time: Tue May 31 11:59:49 2022

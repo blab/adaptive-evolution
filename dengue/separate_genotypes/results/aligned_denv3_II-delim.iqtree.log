@@ -1,0 +1,262 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv3_II-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    547100 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:49:03 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv3_II-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0326819 secs using 94.73% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0150189 secs using 84.19% CPU
+Alignment has 176 sequences with 10707 columns, 2007 distinct patterns
+1474 parsimony-informative, 946 singleton sites, 8287 constant sites
+                                                                                                            Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000676155 secs using 98.5% CPU
+   1  UI17583                                                                                                       0.45%    passed     99.54%
+   2  UI17816                                                                                                       0.45%    passed     99.62%
+   3  UI17402                                                                                                       0.45%    passed     99.62%
+   4  UI16836                                                                                                       0.45%    passed     99.62%
+   5  UI17706                                                                                                       0.45%    passed     99.68%
+   6  UI17982                                                                                                       0.45%    passed     99.71%
+   7  UI18630                                                                                                       0.45%    passed     99.48%
+   8  UI17760                                                                                                       0.58%    passed     99.54%
+   9  YN01                                                                                                          0.00%    passed     99.80%
+  10  YN02                                                                                                          0.00%    passed     99.64%
+  11  MN1308                                                                                                        0.00%    passed     99.73%
+  12  MN1302                                                                                                        0.00%    passed     99.73%
+  13  JH967                                                                                                         0.00%    passed     99.93%
+  14  JH250                                                                                                         0.00%    passed     99.82%
+  15  JH88                                                                                                          0.00%    passed     99.74%
+  16  YNSW2                                                                                                         0.07%    passed     99.69%
+  17  YNSW1                                                                                                         0.00%    passed     99.53%
+  18  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_21                                              0.01%    passed     99.59%
+  19  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_22                                              0.00%    passed     99.65%
+  20  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_50                                              0.00%    passed     99.79%
+  21  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_107                                             0.00%    passed     99.80%
+  22  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_108                                             0.00%    passed     99.86%
+  23  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_20                                              0.00%    passed     99.77%
+  24  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_110                                             0.00%    passed     99.79%
+  25  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_92                                              0.00%    passed     99.79%
+  26  HN_DELIM-CIGUALYCYLKVYUVIXYGM_2013_DELIM-CIGUALYCYLKVYUVIXYGM_11                                              0.00%    passed     99.57%
+  27  CNR_15418                                                                                                     0.45%    passed     95.89%
+  28  Pythium                                                                                                       0.29%    passed     92.76%
+  29  BDH02_7                                                                                                       0.00%    passed     99.73%
+  30  mutant_BDH02_04                                                                                               0.00%    passed     99.79%
+  31  BDH02_3                                                                                                       0.00%    passed     99.63%
+  32  BDH02_4                                                                                                       0.00%    passed     99.88%
+  33  BDH02_1                                                                                                       0.00%    passed     99.63%
+  34  mutant_BDH02_07                                                                                               0.00%    passed     99.35%
+  35  98TW407                                                                                                       0.00%    passed     99.75%
+  36  98TW503                                                                                                       0.00%    passed     99.84%
+  37  98TW358                                                                                                       0.00%    passed     99.88%
+  38  98TW414                                                                                                       0.01%    passed     99.88%
+  39  98TW364                                                                                                       0.00%    passed     99.86%
+  40  98TW434                                                                                                       0.00%    passed     99.91%
+  41  98TWmosq                                                                                                      0.01%    passed     99.91%
+  42  98TW388                                                                                                       0.00%    passed     99.90%
+  43  98TW368                                                                                                       0.00%    passed     99.88%
+  44  98TW360                                                                                                       0.00%    passed     99.81%
+  45  98TW349                                                                                                       0.00%    passed     99.81%
+  46  98TW390                                                                                                       0.00%    passed     99.73%
+  47  C0360_DELIM-CIGUALYCYLKVYUVIXYGM_94                                                                           0.00%    passed     99.76%
+  48  Cairns_98                                                                                                     0.00%    passed     99.45%
+  49  ThD3_1687_98                                                                                                  0.05%    passed     99.29%
+  50  C0331_DELIM-CIGUALYCYLKVYUVIXYGM_94                                                                           0.00%    passed     97.70%
+  51  ThD3_0055_93                                                                                                  0.00%    passed     99.48%
+  52  ThD3_0104_93                                                                                                  0.00%    passed     99.86%
+  53  ThD3_0010_87                                                                                                  0.00%    passed     99.77%
+  54  ThD3_0007_87                                                                                                  0.00%    passed     99.85%
+  55  D83_144                                                                                                       0.00%    passed     99.74%
+  56  ThD3_1283_98                                                                                                  0.00%    passed     99.96%
+  57  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2053_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.55%    passed     99.99%
+  58  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2054_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.55%    passed     99.99%
+  59  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3826_DELIM-CIGUALYCYLKVYUVIXYGM_2007    1.73%    passed     99.80%
+  60  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2091_DELIM-CIGUALYCYLKVYUVIXYGM_2007     1.70%    passed     99.99%
+  61  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3827_DELIM-CIGUALYCYLKVYUVIXYGM_2007    0.60%    passed     99.92%
+  62  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3828_DELIM-CIGUALYCYLKVYUVIXYGM_2007    0.86%    passed     99.97%
+  63  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4292_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.61%    passed     99.95%
+  64  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3829_DELIM-CIGUALYCYLKVYUVIXYGM_2007     1.70%    passed     98.96%
+  65  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4293_DELIM-CIGUALYCYLKVYUVIXYGM_2007     1.60%    passed     99.89%
+  66  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4297_DELIM-CIGUALYCYLKVYUVIXYGM_2007    0.70%    passed     99.81%
+  67  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3819_DELIM-CIGUALYCYLKVYUVIXYGM_2006    0.41%    passed     99.69%
+  68  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3823_DELIM-CIGUALYCYLKVYUVIXYGM_2006     1.70%    passed     99.98%
+  69  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3816_DELIM-CIGUALYCYLKVYUVIXYGM_2006     1.70%    passed     99.97%
+  70  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3820_DELIM-CIGUALYCYLKVYUVIXYGM_2006    1.83%    passed     99.83%
+  71  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3822_DELIM-CIGUALYCYLKVYUVIXYGM_2006    1.85%    passed     99.88%
+  72  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3825_DELIM-CIGUALYCYLKVYUVIXYGM_2006    1.71%    passed     99.97%
+  73  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3824_DELIM-CIGUALYCYLKVYUVIXYGM_2006    0.78%    passed     99.54%
+  74  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3818_DELIM-CIGUALYCYLKVYUVIXYGM_2006    49.86%    passed     36.03%
+  75  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2092_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.55%    passed     99.59%
+  76  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2090_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.55%    passed     99.82%
+  77  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2081_DELIM-CIGUALYCYLKVYUVIXYGM_2003     0.55%    passed     99.29%
+  78  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2083_DELIM-CIGUALYCYLKVYUVIXYGM_2004     0.55%    passed     98.61%
+  79  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2082_DELIM-CIGUALYCYLKVYUVIXYGM_2003     0.55%    passed     99.90%
+  80  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2088_DELIM-CIGUALYCYLKVYUVIXYGM_2005     0.55%    passed     99.84%
+  81  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2085_DELIM-CIGUALYCYLKVYUVIXYGM_2005     0.45%    passed     99.94%
+  82  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2087_DELIM-CIGUALYCYLKVYUVIXYGM_2005     0.44%    passed     99.86%
+  83  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2089_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.55%    passed     99.84%
+  84  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3809_DELIM-CIGUALYCYLKVYUVIXYGM_2003    0.77%    passed     99.93%
+  85  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3831_DELIM-CIGUALYCYLKVYUVIXYGM_2007    0.77%    passed     99.87%
+  86  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3808_DELIM-CIGUALYCYLKVYUVIXYGM_2008    0.64%    passed     99.77%
+  87  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4282_DELIM-CIGUALYCYLKVYUVIXYGM_2007    0.45%    passed     99.49%
+  88  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3815_DELIM-CIGUALYCYLKVYUVIXYGM_2006    1.70%    passed     99.99%
+  89  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4284_DELIM-CIGUALYCYLKVYUVIXYGM_2007    0.44%    passed     99.92%
+  90  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4308_DELIM-CIGUALYCYLKVYUVIXYGM_2007    1.87%    passed     98.38%
+  91  DTID_ZJU04                                                                                                    5.00%    passed     89.55%
+  92  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2051_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.55%    passed     99.96%
+  93  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3832_DELIM-CIGUALYCYLKVYUVIXYGM_2007    0.85%    passed     99.97%
+  94  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3833_DELIM-CIGUALYCYLKVYUVIXYGM_2007    1.96%    passed     99.49%
+  95  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4291_DELIM-CIGUALYCYLKVYUVIXYGM_2007     9.33%    passed     99.01%
+  96  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4302_DELIM-CIGUALYCYLKVYUVIXYGM_2007    0.55%    passed     99.68%
+  97  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2070_DELIM-CIGUALYCYLKVYUVIXYGM_1999     0.41%    passed     99.88%
+  98  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4280_DELIM-CIGUALYCYLKVYUVIXYGM_2006    2.05%    passed     99.93%
+  99  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3807_DELIM-CIGUALYCYLKVYUVIXYGM_2005    0.64%    passed     98.71%
+ 100  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3830_DELIM-CIGUALYCYLKVYUVIXYGM_2007    1.72%    passed     99.94%
+ 101  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3804_DELIM-CIGUALYCYLKVYUVIXYGM_2008    1.85%    passed     99.97%
+ 102  D3_DELIM-CIGUALYCYLKVYUVIXYGM_Vietnam_DELIM-CIGUALYCYLKVYUVIXYGM_9809aTw                                      0.51%    passed     99.84%
+ 103  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4307_DELIM-CIGUALYCYLKVYUVIXYGM_2007     1.84%    passed     99.99%
+ 104  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2326_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.43%    passed     99.59%
+ 105  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2323_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.54%
+ 106  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2325_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.64%
+ 107  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2317_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.71%
+ 108  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2316_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.44%
+ 109  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2321_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.83%
+ 110  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2315_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.27%
+ 111  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2327_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.52%    passed     99.55%
+ 112  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2324_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.58%    passed     99.61%
+ 113  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2322_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.74%
+ 114  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2320_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.55%    passed     99.74%
+ 115  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2319_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.40%    passed     99.63%
+ 116  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2314_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.31%
+ 117  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2313_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.31%
+ 118  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2312_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.55%    passed     99.43%
+ 119  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2318_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.73%    passed     99.74%
+ 120  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2328_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.72%    passed     99.35%
+ 121  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2329_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.55%    passed     99.72%
+ 122  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2076_DELIM-CIGUALYCYLKVYUVIXYGM_2001     1.70%    passed     99.84%
+ 123  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2074_DELIM-CIGUALYCYLKVYUVIXYGM_2001     1.13%    passed     99.98%
+ 124  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2077_DELIM-CIGUALYCYLKVYUVIXYGM_2002     0.41%    passed     99.55%
+ 125  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2075_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.41%    passed     99.51%
+ 126  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2080_DELIM-CIGUALYCYLKVYUVIXYGM_2003     0.55%    passed     99.22%
+ 127  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2071_DELIM-CIGUALYCYLKVYUVIXYGM_2000     0.55%    passed     99.68%
+ 128  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2073_DELIM-CIGUALYCYLKVYUVIXYGM_2001     0.55%    passed     99.91%
+ 129  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2078_DELIM-CIGUALYCYLKVYUVIXYGM_2002     0.55%    passed     99.79%
+ 130  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2079_DELIM-CIGUALYCYLKVYUVIXYGM_2002     0.55%    passed     99.47%
+ 131  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2072_DELIM-CIGUALYCYLKVYUVIXYGM_2000     0.18%    passed     99.90%
+ 132  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4315_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.42%    passed     99.33%
+ 133  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_IPC_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V4314_DELIM-CIGUALYCYLKVYUVIXYGM_2008    0.71%    passed     99.93%
+ 134  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_KH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2050_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.60%    passed     99.08%
+ 135  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1891_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.64%    passed     99.90%
+ 136  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1831_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.64%    passed    100.00%
+ 137  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1882_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.64%    passed    100.00%
+ 138  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1877_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.64%    passed    100.00%
+ 139  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1810_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.64%    passed     99.88%
+ 140  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1903_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.65%    passed     99.97%
+ 141  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1936_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.64%    passed     99.99%
+ 142  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1015_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.50%    passed     99.98%
+ 143  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1327_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.50%    passed     99.97%
+ 144  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1897_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.64%    passed     99.99%
+ 145  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1824_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.64%    passed     99.91%
+ 146  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1946_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.78%    passed     99.89%
+ 147  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1821_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.66%    passed     99.97%
+ 148  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1017_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.54%    passed     99.98%
+ 149  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1911_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.65%    passed     99.95%
+ 150  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1786_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.64%    passed     99.95%
+ 151  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1014_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.50%    passed     99.87%
+ 152  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1011_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.50%    passed     99.68%
+ 153  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1953_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.64%    passed     99.69%
+ 154  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1957_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.59%    passed     99.97%
+ 155  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1933_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.63%    passed     99.91%
+ 156  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1874_DELIM-CIGUALYCYLKVYUVIXYGM_2008     0.64%    passed     99.97%
+ 157  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1009_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.50%    passed     99.99%
+ 158  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1018_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.50%    passed     99.95%
+ 159  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1330_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.50%    passed     99.99%
+ 160  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1016_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.66%    passed     99.99%
+ 161  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1326_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.41%    passed     99.12%
+ 162  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1817_DELIM-CIGUALYCYLKVYUVIXYGM_2007     0.55%    passed     99.87%
+ 163  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1331_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.41%    passed     98.60%
+ 164  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1329_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.41%    passed     99.92%
+ 165  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1008_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.41%    passed     99.96%
+ 166  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1012_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.55%    passed     99.68%
+ 167  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1013_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.41%    passed     99.93%
+ 168  98TW182                                                                                                       0.01%    passed     99.46%
+ 169  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_VN_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V1010_DELIM-CIGUALYCYLKVYUVIXYGM_2006     0.41%    passed    100.00%
+ 170  DENV3_3847                                                                                                    2.03%    passed     97.08%
+ 171  KDH0010A                                                                                                      0.00%    passed     97.90%
+ 172  KDH0014A                                                                                                      0.01%    passed     97.86%
+ 173  GZ_DELIM-CIGUALYCYLKVYUVIXYGM_10476_DELIM-CIGUALYCYLKVYUVIXYGM_2012                                           0.72%    passed     99.43%
+ 174  DENV3_1631                                                                                                    4.17%    passed     88.60%
+ 175  DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V3360_DELIM-CIGUALYCYLKVYUVIXYGM_1973     0.41%    passed     98.52%
+ 176  CH53489                                                                                                       0.00%    passed     98.05%
+****  TOTAL                                                                                                         0.89%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: 98TW349 is identical to 98TW360 but kept for subsequent analysis
+NOTE: DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2313_DELIM-CIGUALYCYLKVYUVIXYGM_2001 is identical to DENV_3_DELIM-CIGUALYCYLKVYUVIXYGM_TH_DELIM-CIGUALYCYLKVYUVIXYGM_BID_V2314_DELIM-CIGUALYCYLKVYUVIXYGM_2001 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00107121 secs using 89.99% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+
+NOTE: 11 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -160088.864
+2. Current log-likelihood: -143468.392
+3. Current log-likelihood: -138708.175
+4. Current log-likelihood: -138701.217
+Optimal log-likelihood: -138701.213
+Rate parameters:  A-C: 1.34640  A-G: 14.48543  A-T: 2.54371  C-G: 0.95287  C-T: 52.66948  G-T: 1.00000
+Base frequencies:  A: 0.322  C: 0.207  G: 0.259  T: 0.212
+Parameters optimization took 4 rounds (1.155 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.09166 secs using 99.33% CPU
+Computing ML distances took 0.092950 sec (of wall-clock time) 0.092135 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000550985 secs using 182.8% CPU
+Constructing RapidNJ tree: done in 0.00115395 secs using 189.4% CPU
+Computing RapidNJ tree took 0.001752 sec (of wall-clock time) 0.003263 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -43121.052
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.369489 secs using 122.6% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -42962.975
+Optimizing NNI: done in 4.59356 secs using 99.43% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -42962.975 / CPU time: 5.416
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -42962.975
+Optimal log-likelihood: -42962.973
+Rate parameters:  A-C: 1.24112  A-G: 8.34802  A-T: 1.72006  C-G: 0.78100  C-T: 27.75105  G-T: 1.00000
+Base frequencies:  A: 0.322  C: 0.207  G: 0.259  T: 0.212
+Parameters optimization took 1 rounds (0.106 sec)
+BEST SCORE FOUND : -42962.973
+Total tree length: 0.361
+
+Total number of iterations: 2
+CPU time used for tree search: 5.487 sec (0h:0m:5s)
+Wall-clock time used for tree search: 5.416 sec (0h:0m:5s)
+Total CPU time used: 7.053 sec (0h:0m:7s)
+Total wall-clock time used: 6.921 sec (0h:0m:6s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv3_II-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv3_II-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv3_II-delim.fasta.mldist
+  Screen log file:               results/aligned_denv3_II-delim.fasta.log
+
+Date and Time: Tue May 31 11:49:10 2022

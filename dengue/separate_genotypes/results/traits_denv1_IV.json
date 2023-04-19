@@ -1,0 +1,1857 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "14.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Brunei",
+        "Chile",
+        "China",
+        "France",
+        "French Polynesia",
+        "Indonesia",
+        "Japan",
+        "New Caledonia",
+        "Papua New Guinea",
+        "Philippines",
+        "Seychelles",
+        "Singapore",
+        "South Korea",
+        "Taiwan",
+        "Usa",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.06455829170317318,
+        0.06596528806727311,
+        0.07129353089832295,
+        0.06694835315739178,
+        0.06770795482629112,
+        0.062041826301349974,
+        0.06649876304603304,
+        0.07007935856260991,
+        0.06898415527264587,
+        0.0648478747533119,
+        0.06715917836450062,
+        0.06177704734556981,
+        0.06381559970309102,
+        0.06639155530140332,
+        0.07193122269703242
+      ],
+      "rate": 303.19075232808416,
+      "transition_matrix": [
+        [
+          0.0,
+          0.9421483434711756,
+          0.9964415365199107,
+          0.9435053019799265,
+          0.9439765229915932,
+          1.449945980828679,
+          0.945974339428387,
+          0.9397308413089025,
+          0.9463389730849953,
+          0.949815108630081,
+          0.9425803402691127,
+          0.9434353187858002,
+          0.9427355415719423,
+          0.9418292953347801,
+          0.9421128117614164
+        ],
+        [
+          0.9421483434711756,
+          0.0,
+          1.0782413043340755,
+          0.9661419575911037,
+          1.4762860530772572,
+          0.9660780608544969,
+          0.9517740613065019,
+          0.9427480898879061,
+          0.952629432982793,
+          0.948582678305068,
+          0.9589294366446499,
+          0.9464007535902534,
+          0.944397062007613,
+          0.9439213714492767,
+          0.9483747703333855
+        ],
+        [
+          0.9964415365199107,
+          1.0782413043340755,
+          0.0,
+          1.1834191112643113,
+          1.2431448058995913,
+          2.552948354063541,
+          1.1181165094513346,
+          0.9705705805400282,
+          1.1280568441986596,
+          1.5466395894107388,
+          1.1173218297435696,
+          2.1247909923966373,
+          1.4036547556390613,
+          1.5401240360813542,
+          1.0848320088433587
+        ],
+        [
+          0.9435053019799265,
+          0.9661419575911037,
+          1.1834191112643113,
+          0.0,
+          0.9980915963966861,
+          0.9760404365434387,
+          0.956419248596825,
+          0.9440617144201853,
+          0.9576999977816036,
+          0.9509614796035865,
+          1.519044442551027,
+          0.9496273526106564,
+          0.9462022832858734,
+          0.9457150784749414,
+          0.94681536982467
+        ],
+        [
+          0.9439765229915932,
+          1.4762860530772572,
+          1.2431448058995913,
+          0.9980915963966861,
+          0.0,
+          0.9827146370209029,
+          0.9593887063137059,
+          1.9136875767684112,
+          0.960941219632705,
+          0.9542625871142811,
+          0.9815117622652185,
+          0.9513387128191811,
+          0.9472651464338444,
+          0.9474405042952982,
+          1.9192006415780267
+        ],
+        [
+          1.449945980828679,
+          0.9660780608544969,
+          2.552948354063541,
+          0.9760404365434387,
+          0.9827146370209029,
+          0.0,
+          0.9982146510630993,
+          0.9541898253238607,
+          1.0017924672320588,
+          1.105771552298655,
+          0.9693672915299036,
+          2.069149276724216,
+          0.9951746088993171,
+          0.9764826526107603,
+          0.9800759511419641
+        ],
+        [
+          0.945974339428387,
+          0.9517740613065019,
+          1.1181165094513346,
+          0.956419248596825,
+          0.9593887063137059,
+          0.9982146510630993,
+          0.0,
+          0.9457013953428153,
+          1.5283255477211852,
+          0.9539099874627935,
+          0.9531616240975735,
+          0.9539597937239171,
+          0.9484356164363678,
+          0.9480734964639266,
+          0.9483387459190856
+        ],
+        [
+          0.9397308413089025,
+          0.9427480898879061,
+          0.9705705805400282,
+          0.9440617144201853,
+          1.9136875767684112,
+          0.9541898253238607,
+          0.9457013953428153,
+          0.0,
+          0.9460251337452636,
+          0.9452641017717801,
+          0.9428807647409956,
+          0.9416519509994842,
+          0.9414900216403217,
+          0.940949084671107,
+          0.9509488869001556
+        ],
+        [
+          0.9463389730849953,
+          0.952629432982793,
+          1.1280568441986596,
+          0.9576999977816036,
+          0.960941219632705,
+          1.0017924672320588,
+          1.5283255477211852,
+          0.9460251337452636,
+          0.0,
+          0.9547759352418286,
+          0.9541510039170067,
+          0.9548884930863644,
+          0.9489503664062638,
+          0.9485462180771399,
+          0.9488323919486864
+        ],
+        [
+          0.949815108630081,
+          0.948582678305068,
+          1.5466395894107388,
+          0.9509614796035865,
+          0.9542625871142811,
+          1.105771552298655,
+          0.9539099874627935,
+          0.9452641017717801,
+          0.9547759352418286,
+          0.0,
+          0.9494060898955627,
+          0.9596574201026176,
+          1.0885106967993023,
+          1.2912789518234005,
+          1.3559245167957916
+        ],
+        [
+          0.9425803402691127,
+          0.9589294366446499,
+          1.1173218297435696,
+          1.519044442551027,
+          0.9815117622652185,
+          0.9693672915299036,
+          0.9531616240975735,
+          0.9428807647409956,
+          0.9541510039170067,
+          0.9494060898955627,
+          0.0,
+          0.9474597136329495,
+          0.9450002993910978,
+          0.9445111454981853,
+          0.9453791877775509
+        ],
+        [
+          0.9434353187858002,
+          0.9464007535902534,
+          2.1247909923966373,
+          0.9496273526106564,
+          0.9513387128191811,
+          2.069149276724216,
+          0.9539597937239171,
+          0.9416519509994842,
+          0.9548884930863644,
+          0.9596574201026176,
+          0.9474597136329495,
+          0.0,
+          0.9517201788616572,
+          0.9561329111494129,
+          0.945796276647801
+        ],
+        [
+          0.9427355415719423,
+          0.944397062007613,
+          1.4036547556390613,
+          0.9462022832858734,
+          0.9472651464338444,
+          0.9951746088993171,
+          0.9484356164363678,
+          0.9414900216403217,
+          0.9489503664062638,
+          1.0885106967993023,
+          0.9450002993910978,
+          0.9517201788616572,
+          0.0,
+          0.9577927440860429,
+          0.9580045978751389
+        ],
+        [
+          0.9418292953347801,
+          0.9439213714492767,
+          1.5401240360813542,
+          0.9457150784749414,
+          0.9474405042952982,
+          0.9764826526107603,
+          0.9480734964639266,
+          0.940949084671107,
+          0.9485462180771399,
+          1.2912789518234005,
+          0.9445111454981853,
+          0.9561329111494129,
+          0.9577927440860429,
+          0.0,
+          1.2085142735719925
+        ],
+        [
+          0.9421128117614164,
+          0.9483747703333855,
+          1.0848320088433587,
+          0.94681536982467,
+          1.9192006415780267,
+          0.9800759511419641,
+          0.9483387459190856,
+          0.9509488869001556,
+          0.9488323919486864,
+          1.3559245167957916,
+          0.9453791877775509,
+          0.945796276647801,
+          0.9580045978751389,
+          1.2085142735719925,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "Africa",
+        "China",
+        "Europe",
+        "Japan Korea",
+        "North America",
+        "Oceania",
+        "South America",
+        "Southeast Asia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.1271474956094061,
+        0.10545072121997608,
+        0.12643773176901293,
+        0.1226482544238129,
+        0.13321309104347387,
+        0.14234334982477112,
+        0.12218189145650668,
+        0.12057746465304031
+      ],
+      "rate": 159.7193617615666,
+      "transition_matrix": [
+        [
+          0.0,
+          0.9919005748602693,
+          1.3467693886012329,
+          0.8708634620005336,
+          0.8637723421024733,
+          0.914159437340945,
+          0.873850835087574,
+          0.8848806077831202
+        ],
+        [
+          0.9919005748602693,
+          0.0,
+          1.0478679823822057,
+          1.3745339714812697,
+          1.184109549896503,
+          1.3164687829707487,
+          0.953849389190936,
+          4.449679057759874
+        ],
+        [
+          1.3467693886012329,
+          1.0478679823822057,
+          0.0,
+          0.8733701882160952,
+          0.8647369049052137,
+          0.9337478909049337,
+          0.8784194559126438,
+          0.8940669158997732
+        ],
+        [
+          0.8708634620005336,
+          1.3745339714812697,
+          0.8733701882160952,
+          0.0,
+          0.8696204725311317,
+          1.3829254440376604,
+          0.8702634605841995,
+          1.0562202660672968
+        ],
+        [
+          0.8637723421024733,
+          1.184109549896503,
+          0.8647369049052137,
+          0.8696204725311317,
+          0.0,
+          1.7494646949876156,
+          0.8634430101984042,
+          1.0347838216127314
+        ],
+        [
+          0.914159437340945,
+          1.3164687829707487,
+          0.9337478909049337,
+          1.3829254440376604,
+          1.7494646949876156,
+          0.0,
+          1.3337255013640785,
+          0.9907346063950858
+        ],
+        [
+          0.873850835087574,
+          0.953849389190936,
+          0.8784194559126438,
+          0.8702634605841995,
+          0.8634430101984042,
+          1.3337255013640785,
+          0.0,
+          0.8801592395425113
+        ],
+        [
+          0.8848806077831202,
+          4.449679057759874,
+          0.8940669158997732,
+          1.0562202660672968,
+          1.0347838216127314,
+          0.9907346063950858,
+          0.8801592395425113,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "98901530_DF_DV_1": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "CHI3336_02": {
+      "country": "Chile",
+      "country_confidence": {
+        "Chile": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/Hu/Philippines/NIID13/2016": {
+      "country": "Philippines",
+      "country_confidence": {
+        "Philippines": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/Philippines/1610cTw": {
+      "country": "Taiwan",
+      "country_confidence": {
+        "Taiwan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/SG/CT3/2012": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/Taiwan/114TP1611a": {
+      "country": "Taiwan",
+      "country_confidence": {
+        "Taiwan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/Taiwan/900PT0407a": {
+      "country": "Taiwan",
+      "country_confidence": {
+        "Taiwan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D1/hu/Yap/NIID27/2004": {
+      "country": "Japan",
+      "country_confidence": {
+        "Japan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_1/PF/BID_V2939/2001": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_1/PH/BID_V2940/2004": {
+      "country": "Philippines",
+      "country_confidence": {
+        "Philippines": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DS212_110306": {
+      "country": "Brunei",
+      "country_confidence": {
+        "Brunei": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DenKor_07": {
+      "country": "South Korea",
+      "country_confidence": {
+        "South Korea": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GD03/91": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GD54/03": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GD66/03": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GD95/95": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ/12375/D1/2010": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ/215/D1/2002": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ/5700/D1/2007": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ01/95": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ2002": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HawM2516": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HawM2540": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HawM3430": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HawO3663": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "HawO3758": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_0390": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_0486": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC02/030602_585": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC04/030704_1994": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NC09/300509_13639": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NC10/080810_1138": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000000": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.12588165181163793,
+        "Indonesia": 0.0755815566988085,
+        "Singapore": 0.06747440424959127,
+        "Usa": 0.06733332509785248
+      },
+      "country_entropy": 2.6821232967276694,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.38401249047661407,
+        "Japan Korea": 0.05641252032549463,
+        "Oceania": 0.053752971238565324,
+        "Southeast Asia": 0.3517987310440033
+      },
+      "region_entropy": 1.5534460236809133
+    },
+    "NODE_0000001": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.09442563527828304,
+        "Indonesia": 0.08102369738859681,
+        "Philippines": 0.07353811760388583,
+        "Usa": 0.07499822425129501
+      },
+      "country_entropy": 2.6961624136373956,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.3323986609466956,
+        "Japan Korea": 0.05093687999521862,
+        "North America": 0.043885381157906925,
+        "Southeast Asia": 0.45410495604997064
+      },
+      "region_entropy": 1.4274867079861213
+    },
+    "NODE_0000002": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Brunei": 0.1502511135338322,
+        "China": 0.07474698973142091,
+        "Indonesia": 0.2514493551172419,
+        "Singapore": 0.06267360247874323
+      },
+      "country_entropy": 2.4612506978951156,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.1276720749091674,
+        "Japan Korea": 0.013077280106114982,
+        "Oceania": 0.012835002645364206,
+        "Southeast Asia": 0.8090497913765194
+      },
+      "region_entropy": 0.7207842388612913
+    },
+    "NODE_0000003": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Brunei": 0.18917479517287916,
+        "China": 0.06792967699356735,
+        "Indonesia": 0.30625913323686826,
+        "Singapore": 0.05702528436087698
+      },
+      "country_entropy": 2.3011522118994336,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.09027870436242212,
+        "Japan Korea": 0.006680077468304539,
+        "Oceania": 0.006541662743549507,
+        "Southeast Asia": 0.8777257656344922
+      },
+      "region_entropy": 0.49821041877946715
+    },
+    "NODE_0000004": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Brunei": 0.026246873696023538,
+        "China": 0.031026117118490036,
+        "Indonesia": 0.8166811122937866,
+        "Singapore": 0.03441663659190709
+      },
+      "country_entropy": 0.9232418411606315,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.027980929286552235,
+        "Japan Korea": 0.0010665378612412396,
+        "Oceania": 0.0010514373811543935,
+        "Southeast Asia": 0.9668936647789022
+      },
+      "region_entropy": 0.16869056762692158
+    },
+    "NODE_0000005": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Brunei": 0.012135656885746476,
+        "China": 0.02037917128692923,
+        "Indonesia": 0.8878498399054792,
+        "Singapore": 0.032106973625374895
+      },
+      "country_entropy": 0.6075860832390725,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.01522690403022678,
+        "Southeast Asia": 0.9831212997530798
+      },
+      "region_entropy": 0.09394174160621618
+    },
+    "NODE_0000006": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Brunei": 0.011170492902768865,
+        "China": 0.031111558520612675,
+        "Indonesia": 0.7883019518502694,
+        "Singapore": 0.09941763563982693
+      },
+      "country_entropy": 0.9290963082287914,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.01907701459306824,
+        "Southeast Asia": 0.9771507800132045
+      },
+      "region_entropy": 0.12583710971533896
+    },
+    "NODE_0000007": {
+      "country": "Usa",
+      "country_confidence": {
+        "Philippines": 0.12221460737882746,
+        "South Korea": 0.10054624768645318,
+        "Taiwan": 0.09325149690456885,
+        "Usa": 0.12401490786601124
+      },
+      "country_entropy": 2.6238366153036496,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.3761768353903097,
+        "Japan Korea": 0.06980928553625194,
+        "North America": 0.05174657532897474,
+        "Southeast Asia": 0.43068038847383994
+      },
+      "region_entropy": 1.3523934289485875
+    },
+    "NODE_0000008": {
+      "country": "Usa",
+      "country_confidence": {
+        "Philippines": 0.14760342995619388,
+        "South Korea": 0.07942090556898124,
+        "Taiwan": 0.10558837767123166,
+        "Usa": 0.15250400229683356
+      },
+      "country_entropy": 2.5754534884349307,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.3659022468874863,
+        "Japan Korea": 0.05200416319916381,
+        "North America": 0.062327890897225215,
+        "Southeast Asia": 0.4537764989644385
+      },
+      "region_entropy": 1.3189394263236383
+    },
+    "NODE_0000009": {
+      "country": "Usa",
+      "country_confidence": {
+        "China": 0.046942155120264145,
+        "Philippines": 0.22002889617948154,
+        "Taiwan": 0.1555859265046556,
+        "Usa": 0.2740566163099233
+      },
+      "country_entropy": 2.206400429793119,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.3704307055903176,
+        "Japan Korea": 0.019032103142531835,
+        "North America": 0.10508579416416787,
+        "Southeast Asia": 0.4673573515063117
+      },
+      "region_entropy": 1.2079324497068242
+    },
+    "NODE_0000010": {
+      "country": "Usa",
+      "country_confidence": {
+        "China": 0.03728192057666943,
+        "Philippines": 0.1342338626520379,
+        "Taiwan": 0.20611018838422593,
+        "Usa": 0.3857069640217764
+      },
+      "country_entropy": 1.9900528201169794,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.4308610610428604,
+        "North America": 0.18197692123860798,
+        "Oceania": 0.020189144517350533,
+        "Southeast Asia": 0.33170894905856896
+      },
+      "region_entropy": 1.2815972777562634
+    },
+    "NODE_0000011": {
+      "country": "South Korea",
+      "country_confidence": {
+        "China": 0.13151920013229176,
+        "Philippines": 0.06939840725095059,
+        "South Korea": 0.21841229880747112,
+        "Usa": 0.06507227117528214
+      },
+      "country_entropy": 2.5312434415803833,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.40869440030924753,
+        "Japan Korea": 0.19300082593035883,
+        "Oceania": 0.0383916213139821,
+        "Southeast Asia": 0.27169657879477344
+      },
+      "region_entropy": 1.4942229733287724
+    },
+    "NODE_0000012": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.6630943656780766,
+        "Indonesia": 0.03330487222467493,
+        "Singapore": 0.11664242352823234,
+        "Taiwan": 0.04454685066136998
+      },
+      "country_entropy": 1.3890497118649776,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.8742248868271607,
+        "Japan Korea": 0.006527196791724949,
+        "Oceania": 0.003162535712502973,
+        "Southeast Asia": 0.10925428738142846
+      },
+      "region_entropy": 0.4537724007373039
+    },
+    "NODE_0000013": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.6592557150310122,
+        "Indonesia": 0.026574904858462783,
+        "Singapore": 0.16090604324478877,
+        "Taiwan": 0.05454042980021268
+      },
+      "country_entropy": 1.2863939522171828,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.8783815766902991,
+        "Japan Korea": 0.001833169860133783,
+        "Oceania": 0.0010745358599938276,
+        "Southeast Asia": 0.1164468665191288
+      },
+      "region_entropy": 0.40004352270742055
+    },
+    "NODE_0000014": {
+      "country": "Taiwan",
+      "country_confidence": {
+        "China": 0.0026604758437814573,
+        "Taiwan": 0.9903620923530075
+      },
+      "country_entropy": 0.07768909287216023,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9947948344456214,
+        "Southeast Asia": 0.004445065305311699
+      },
+      "region_entropy": 0.03603928673481352
+    },
+    "NODE_0000015": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.70443106562849,
+        "Indonesia": 0.014623230706771287,
+        "Singapore": 0.23378005169479274,
+        "Taiwan": 0.013996446489795299
+      },
+      "country_entropy": 0.8997849672832723,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.8398412483055784,
+        "Southeast Asia": 0.15870704169778233
+      },
+      "region_entropy": 0.45066506338665213
+    },
+    "NODE_0000016": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.0936208871311687,
+        "Indonesia": 0.007238093017880834,
+        "Singapore": 0.8835020645610097,
+        "Taiwan": 0.002395698164365811
+      },
+      "country_entropy": 0.4702210662052299,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.18621671065693315,
+        "Southeast Asia": 0.8113924010430806
+      },
+      "region_entropy": 0.5012029608682903
+    },
+    "NODE_0000017": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.07276637126018212,
+        "New Caledonia": 0.06926988581429246,
+        "Papua New Guinea": 0.06844319620615345,
+        "Usa": 0.07159420448328113
+      },
+      "country_entropy": 2.707201017172512,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.17178248963912385,
+        "Japan Korea": 0.11081758140701979,
+        "Oceania": 0.12083383494383683,
+        "Southeast Asia": 0.21100348769827793
+      },
+      "region_entropy": 2.0307767729059774
+    },
+    "NODE_0000018": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "China": 0.09620788360019876,
+        "Indonesia": 0.11117957625115504,
+        "Singapore": 0.07733878756775696,
+        "Usa": 0.06286576297865279
+      },
+      "country_entropy": 2.6842572072262776,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.2304607770568668,
+        "North America": 0.06605454246869084,
+        "Oceania": 0.07108425215205535,
+        "Southeast Asia": 0.4094846050306276
+      },
+      "region_entropy": 1.7137385165682804
+    },
+    "NODE_0000019": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "China": 0.21733947466312498,
+        "Indonesia": 0.3158190946147982,
+        "Philippines": 0.034813293898585694,
+        "Singapore": 0.10061218483449087
+      },
+      "country_entropy": 2.2037973210009048,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.2967096320527074,
+        "Japan Korea": 0.010165114714859957,
+        "Oceania": 0.010438691635967104,
+        "Southeast Asia": 0.6539806297111294
+      },
+      "region_entropy": 0.873733962815051
+    },
+    "NODE_0000020": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Brunei": 0.030737711338061996,
+        "China": 0.1576430906740221,
+        "Indonesia": 0.42022492492135255,
+        "Singapore": 0.09849167563850397
+      },
+      "country_entropy": 2.052335160561706,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.20391865733660813,
+        "Japan Korea": 0.0075903208249663255,
+        "Oceania": 0.007745928860680589,
+        "Southeast Asia": 0.7593049567301698
+      },
+      "region_entropy": 0.7197315446683015
+    },
+    "NODE_0000021": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.07227049118634675,
+        "New Caledonia": 0.06951397390401108,
+        "Papua New Guinea": 0.06865074794793889,
+        "Usa": 0.07168091504690821
+      },
+      "country_entropy": 2.70716978963348,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.15784393498073662,
+        "Japan Korea": 0.11631527231325632,
+        "Oceania": 0.1276169535946125,
+        "Southeast Asia": 0.1900781816207113
+      },
+      "region_entropy": 2.0505177789245685
+    },
+    "NODE_0000022": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.5367195656226056,
+        "Indonesia": 0.12083090073977137,
+        "Philippines": 0.025333087400502143,
+        "Singapore": 0.09760314793974262
+      },
+      "country_entropy": 1.7677263478770626,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.6164227841696966,
+        "Japan Korea": 0.0054025671589484564,
+        "Oceania": 0.0054959563594036715,
+        "Southeast Asia": 0.3586792282642983
+      },
+      "region_entropy": 0.8016667849948091
+    },
+    "NODE_0000023": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.7564258035002245,
+        "Indonesia": 0.062181175885524596,
+        "Philippines": 0.014597427998263825,
+        "Singapore": 0.04899261792352851
+      },
+      "country_entropy": 1.1266640433297852,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.8222449932416358,
+        "Japan Korea": 0.002468765191968257,
+        "Oceania": 0.0024830474559214633,
+        "Southeast Asia": 0.16692365410083165
+      },
+      "region_entropy": 0.5276623788823969
+    },
+    "NODE_0000024": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9885349074549932,
+        "Indonesia": 0.00352250140297721,
+        "Singapore": 0.0024100948695999934
+      },
+      "country_entropy": 0.08808688979900214,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9890904446094468,
+        "Southeast Asia": 0.010414763876251837
+      },
+      "region_entropy": 0.0630052429225243
+    },
+    "NODE_0000025": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9982579970787253
+      },
+      "country_entropy": 0.016660792434666734,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9982048584870788,
+        "Southeast Asia": 0.0016589762971779452
+      },
+      "region_entropy": 0.01385895952455381
+    },
+    "NODE_0000026": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9980040341599117
+      },
+      "country_entropy": 0.01883321043702072,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9979824974074983,
+        "Southeast Asia": 0.001861557933228864
+      },
+      "region_entropy": 0.015352175763895545
+    },
+    "NODE_0000027": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.07413842755512125,
+        "New Caledonia": 0.06902902488034535,
+        "Papua New Guinea": 0.06853529618401305,
+        "Usa": 0.07125784275930527
+      },
+      "country_entropy": 2.707011890208908,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.15158158025239443,
+        "Japan Korea": 0.1254435116563794,
+        "Oceania": 0.1382937061508748,
+        "Southeast Asia": 0.16487705167135855
+      },
+      "region_entropy": 2.0629068153974446
+    },
+    "NODE_0000028": {
+      "country": "Japan",
+      "country_confidence": {
+        "China": 0.04195963780775159,
+        "Japan": 0.3719099161405971,
+        "Papua New Guinea": 0.17210378251228012,
+        "Usa": 0.03724961359396549
+      },
+      "country_entropy": 2.197387348889902,
+      "region": "Japan Korea",
+      "region_confidence": {
+        "China": 0.04376611907313061,
+        "Japan Korea": 0.49280915498692196,
+        "North America": 0.05151283891808534,
+        "Oceania": 0.27701551320819134
+      },
+      "region_entropy": 1.4503489664908678
+    },
+    "NODE_0000029": {
+      "country": "Papua New Guinea",
+      "country_confidence": {
+        "China": 0.04154297328155555,
+        "Japan": 0.1708305466346651,
+        "Papua New Guinea": 0.3762697627239829,
+        "Usa": 0.03698793674507505
+      },
+      "country_entropy": 2.189118145245121,
+      "region": "Oceania",
+      "region_confidence": {
+        "China": 0.03741316207777602,
+        "Japan Korea": 0.22529251771936745,
+        "North America": 0.05400532703851168,
+        "Oceania": 0.5653957146052828
+      },
+      "region_entropy": 1.3527588438779308
+    },
+    "NODE_0000030": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.13243224808993367,
+        "France": 0.06539240642208244,
+        "French Polynesia": 0.0697937100984405,
+        "Indonesia": 0.06845289804106723
+      },
+      "country_entropy": 2.678351630562016,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.2707283455948447,
+        "Europe": 0.09879636734434874,
+        "Oceania": 0.13513766607274136,
+        "Southeast Asia": 0.16087217506197524
+      },
+      "region_entropy": 1.9766240898444511
+    },
+    "NODE_0000031": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.6918385162300364,
+        "Indonesia": 0.04184218471140274,
+        "Singapore": 0.03435608923980734,
+        "Taiwan": 0.02478255032710165
+      },
+      "country_entropy": 1.4164628607929588,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.8521267443369505,
+        "Japan Korea": 0.013366393580560614,
+        "Oceania": 0.01655125206538558,
+        "Southeast Asia": 0.07709770731947185
+      },
+      "region_entropy": 0.6465076203773106
+    },
+    "NODE_0000032": {
+      "country": "China",
+      "country_confidence": {
+        "Chile": 0.06716378994060544,
+        "China": 0.11069297692882936,
+        "France": 0.06938722998395647,
+        "French Polynesia": 0.07548916154245737
+      },
+      "country_entropy": 2.691839277975445,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.2251311362465029,
+        "Europe": 0.11175660319681345,
+        "Oceania": 0.15231466347879535,
+        "Southeast Asia": 0.15025442121986246
+      },
+      "region_entropy": 2.018648191852301
+    },
+    "NODE_0000033": {
+      "country": "France",
+      "country_confidence": {
+        "China": 0.011816765297569004,
+        "France": 0.5207833975365603,
+        "French Polynesia": 0.008800432555998732,
+        "Seychelles": 0.3701084545605035
+      },
+      "country_entropy": 1.2284332014610349,
+      "region": "Europe",
+      "region_confidence": {
+        "Africa": 0.39610220006772756,
+        "China": 0.009335939124752142,
+        "Europe": 0.553678527064861,
+        "Oceania": 0.00980754694479438
+      },
+      "region_entropy": 0.9340429128657524
+    },
+    "NODE_0000034": {
+      "country": "France",
+      "country_confidence": {
+        "France": 0.9830656772685198,
+        "Seychelles": 0.012133482492465143
+      },
+      "country_entropy": 0.1081970780101846,
+      "region": "Europe",
+      "region_confidence": {
+        "Africa": 0.01092827456524331,
+        "Europe": 0.9873731593499118
+      },
+      "region_entropy": 0.07576308108739319
+    },
+    "NODE_0000035": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "Chile": 0.22850318900735012,
+        "French Polynesia": 0.5734396887529918,
+        "New Caledonia": 0.023228946255183108,
+        "Usa": 0.0484358321480676
+      },
+      "country_entropy": 1.4537808546791764,
+      "region": "Oceania",
+      "region_confidence": {
+        "China": 0.015058399613253611,
+        "North America": 0.022950910747496903,
+        "Oceania": 0.6575868176727068,
+        "South America": 0.25619527403449166
+      },
+      "region_entropy": 0.9869773387868765
+    },
+    "NODE_0000036": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "Chile": 0.0014520299958408539,
+        "French Polynesia": 0.9456742874961234,
+        "New Caledonia": 0.004572956187226105,
+        "Usa": 0.04738036074501444
+      },
+      "country_entropy": 0.24004634254168997,
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.006522710330838949,
+        "Oceania": 0.9929938967087168
+      },
+      "region_entropy": 0.04393081511230201
+    },
+    "NODE_0000037": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.05144337706265994,
+        "New Caledonia": 0.9399507956776078,
+        "Usa": 0.002909702061953593
+      },
+      "country_entropy": 0.2713790731017297,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9993398615315393
+      },
+      "region_entropy": 0.006296731479993871
+    },
+    "NODE_0000038": {
+      "country": "Usa",
+      "country_confidence": {
+        "French Polynesia": 0.0355241827573676,
+        "New Caledonia": 0.0010215889183533792,
+        "Usa": 0.9594670639868795
+      },
+      "country_entropy": 0.19711578077465594,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9640062416389475,
+        "Oceania": 0.034352475420331256
+      },
+      "region_entropy": 0.16455720582951633
+    },
+    "NODE_0000039": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "Chile": 0.0016603235292441518,
+        "French Polynesia": 0.8469615284964602,
+        "New Caledonia": 0.08302626298628087,
+        "Usa": 0.05967431781138341
+      },
+      "country_entropy": 0.5880178056464028,
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.005346760859639986,
+        "Oceania": 0.9943110951971506
+      },
+      "region_entropy": 0.036953448099830234
+    },
+    "NODE_0000040": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "Chile": 0.0013441018890153924,
+        "French Polynesia": 0.8528446198485968,
+        "New Caledonia": 0.022367521680633513,
+        "Usa": 0.11484084162878799
+      },
+      "country_entropy": 0.5395646388173458,
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.044182806054504684,
+        "Oceania": 0.9535442955392999
+      },
+      "region_entropy": 0.20098018501840476
+    },
+    "NODE_0000043": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9917279937619625,
+        "New Caledonia": 0.004244833721634102,
+        "Usa": 0.0022431265535533982
+      },
+      "country_entropy": 0.060709461747273555,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9993238858371922
+      },
+      "region_entropy": 0.006669459837596771
+    },
+    "NODE_0000044": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.967749074323318,
+        "New Caledonia": 0.02500651213853164,
+        "Usa": 0.0019734048727985164
+      },
+      "country_entropy": 0.17678181890964695,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9994994136579627
+      },
+      "region_entropy": 0.005164751901429605
+    },
+    "NODE_0000045": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9976036507914777,
+        "New Caledonia": 0.001513115200909742
+      },
+      "country_entropy": 0.02046476642571101,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999732099065792
+      },
+      "region_entropy": 0.0029350634469261037
+    },
+    "NODE_0000046": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.01690128510759439,
+        "New Caledonia": 0.9788155644689167
+      },
+      "country_entropy": 0.12416213497494735,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9995764028736843
+      },
+      "region_entropy": 0.004453101961114186
+    },
+    "NODE_0000047": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9985963242813914
+      },
+      "country_entropy": 0.013448228962893083,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9996080084822475
+      },
+      "region_entropy": 0.004138178194713604
+    },
+    "NODE_0000048": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9993016950918755
+      },
+      "country_entropy": 0.007380106193673722,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9996673059157406
+      },
+      "region_entropy": 0.003576290299055459
+    },
+    "NODE_0000049": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9994938814380191
+      },
+      "country_entropy": 0.005483443818680168,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999763677667862
+      },
+      "region_entropy": 0.002617233519246419
+    },
+    "NODE_0000050": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9992399841665565
+      },
+      "country_entropy": 0.007970483009058863,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9996341366916519
+      },
+      "region_entropy": 0.003896590575868201
+    },
+    "NODE_0000051": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9996055174891612
+      },
+      "country_entropy": 0.004388157069764036,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9997996663157639
+      },
+      "region_entropy": 0.0022531479038203693
+    },
+    "PF07/051107_164": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF07/230407_201": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF08/070308_138": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "PF08/080108_88": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF08/180908_01": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "PF08_080108_88": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF09/060209_120": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PF09/090609_76": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PNG_2015c": {
+      "country": "Papua New Guinea",
+      "country_confidence": {
+        "Papua New Guinea": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PNG_2016": {
+      "country": "Papua New Guinea",
+      "country_confidence": {
+        "Papua New Guinea": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Reunion_185/04": {
+      "country": "France",
+      "country_confidence": {
+        "France": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Reunion_257/04": {
+      "country": "France",
+      "country_confidence": {
+        "France": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D1/01053Y13": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D1/14158Y11": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D1/60330Y11": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SUB_026A": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SUB_032A": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SUB_049A": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Seychelles_1480_04": {
+      "country": "Seychelles",
+      "country_confidence": {
+        "Seychelles": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Su1": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V9076": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    }
+  }
+}

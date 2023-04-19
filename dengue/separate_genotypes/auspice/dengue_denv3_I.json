@@ -1,0 +1,4065 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Real-time tracking of DENV3 dengue virus evolution",
+    "updated": "2022-05-31",
+    "build_url": "https://github.com/nextstrain/dengue",
+    "maintainers": [
+      {
+        "name": "Trevor Bedford",
+        "url": "http://bedford.io/team/trevor-bedford/"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true,
+      "color_by": "clade_membership"
+    },
+    "genome_annotations": {
+      "2K": {
+        "end": 6820,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 6752,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "C": {
+        "end": 436,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 95,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "E": {
+        "end": 2413,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 935,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 934,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 437,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS1": {
+        "end": 3469,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 2414,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS2A": {
+        "end": 4123,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 3470,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS2B": {
+        "end": 4513,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 4124,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS3": {
+        "end": 6370,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 4514,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS4A": {
+        "end": 6751,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 6371,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS4B": {
+        "end": 7564,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 6821,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS5": {
+        "end": 10264,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 7565,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 10707,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      },
+      "pr": {
+        "end": 709,
+        "seqid": "config/reference_dengue_denv3.gb",
+        "start": 437,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "region",
+        "title": "Region",
+        "type": "categorical",
+        "scale": [
+          [
+            "Southeast Asia",
+            "#4274CE"
+          ],
+          [
+            "Oceania",
+            "#88BB6C"
+          ]
+        ]
+      }
+    ],
+    "filters": [
+      "country",
+      "region",
+      "author"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "Cook Islands": {
+            "latitude": -21.24842,
+            "longitude": -159.78516
+          },
+          "Philippines": {
+            "latitude": 12.8797,
+            "longitude": 121.774
+          },
+          "French Polynesia": {
+            "latitude": -17.6797,
+            "longitude": -149.4068
+          },
+          "Wallis And Futuna": {
+            "latitude": -13.28163,
+            "longitude": -176.17453
+          },
+          "Indonesia": {
+            "latitude": -5.0,
+            "longitude": 120.0
+          },
+          "New Caledonia": {
+            "latitude": -20.9043,
+            "longitude": 165.618
+          }
+        }
+      },
+      {
+        "key": "region",
+        "demes": {
+          "Southeast Asia": {
+            "latitude": 3.020567,
+            "longitude": 112.390683
+          },
+          "Oceania": {
+            "latitude": -25.0562891,
+            "longitude": 152.008576
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000011",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1953.8147288256728,
+        "confidence": [
+          1946.373168607497,
+          1957.8604281218336
+        ]
+      },
+      "region": {
+        "value": "Southeast Asia",
+        "confidence": {
+          "Oceania": 0.10063498242950093,
+          "Southeast Asia": 0.899365017570499
+        },
+        "entropy": 0.32647593657571855
+      },
+      "country": {
+        "value": "Indonesia",
+        "confidence": {
+          "French Polynesia": 0.14375685043957187,
+          "Indonesia": 0.2410516566138233,
+          "New Caledonia": 0.16410282305257762,
+          "Wallis And Futuna": 0.17513550991125007
+        },
+        "entropy": 1.7700063946240083
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000005",
+        "node_attrs": {
+          "div": 0.01860886891387917,
+          "num_date": {
+            "value": 1982.883464727958,
+            "confidence": [
+              1982.5034272756948,
+              1982.991432298922
+            ]
+          },
+          "region": {
+            "value": "Southeast Asia",
+            "confidence": {
+              "Oceania": 0.0032512966556617665,
+              "Southeast Asia": 0.9967487033443382
+            },
+            "entropy": 0.02187171312576372
+          },
+          "country": {
+            "value": "Indonesia",
+            "confidence": {
+              "French Polynesia": 0.04477467908393401,
+              "Indonesia": 0.7738389150248198,
+              "Philippines": 0.07515343659651358,
+              "Wallis And Futuna": 0.03901781512003561
+            },
+            "entropy": 0.886387068511605
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A62G",
+              "G352A",
+              "C401T",
+              "A427C",
+              "G481A",
+              "A496G",
+              "T604C",
+              "C694T",
+              "C796T",
+              "C817T",
+              "C901T",
+              "T1183A",
+              "G1285T",
+              "T1297C",
+              "C1507T",
+              "T1600A",
+              "T1624C",
+              "G1771A",
+              "G1841A",
+              "C1927T",
+              "T2074C",
+              "A2203G",
+              "T2314C",
+              "T2350C",
+              "A2398G",
+              "C2400T",
+              "G2407A",
+              "C2443A",
+              "T2470C",
+              "T2479C",
+              "C2557T",
+              "C2608T",
+              "C2611A",
+              "T2689C",
+              "G2776A",
+              "C2851T",
+              "T2908C",
+              "G2975A",
+              "T2977C",
+              "C3163T",
+              "T3179C",
+              "A3281G",
+              "T3283C",
+              "T3286C",
+              "T3361C",
+              "C3374T",
+              "A3391G",
+              "A3425G",
+              "T3487C",
+              "G3559A",
+              "C3625T",
+              "G3631A",
+              "C3661T",
+              "C3685T",
+              "T3688C",
+              "A3706G",
+              "C3755T",
+              "T3854C",
+              "C3976T",
+              "A3992G",
+              "C4079T",
+              "T4100C",
+              "G4111A",
+              "G4154A",
+              "C4249T",
+              "G4300A",
+              "C4339T",
+              "G4441A",
+              "T4450C",
+              "A4456G",
+              "T4478C",
+              "A4552T",
+              "A4558G",
+              "G4609A",
+              "G4631A",
+              "C4669T",
+              "T4723C",
+              "T4738C",
+              "A4786G",
+              "C4861T",
+              "G4879A",
+              "T4915C",
+              "C4927T",
+              "A5011G",
+              "C5095T",
+              "C5101T",
+              "G5119A",
+              "T5134C",
+              "C5171T",
+              "A5224G",
+              "G5275A",
+              "A5278G",
+              "T5320C",
+              "G5326A",
+              "C5353T",
+              "A5407G",
+              "T5473C",
+              "C5580T",
+              "C5581T",
+              "T5650C",
+              "A5695G",
+              "T5707C",
+              "A5713G",
+              "T5728C",
+              "T5746C",
+              "C5824T",
+              "A5827G",
+              "T5899C",
+              "A5920G",
+              "C6028T",
+              "A6154G",
+              "G6155T",
+              "T6205C",
+              "C6223T",
+              "A6235G",
+              "G6334A",
+              "T6336C",
+              "C6352T",
+              "G6358A",
+              "T6364C",
+              "C6379T",
+              "A6397G",
+              "C6452T",
+              "T6461C",
+              "C6493T",
+              "T6536C",
+              "C6542T",
+              "T6584C",
+              "A6634T",
+              "G6635A",
+              "C6639T",
+              "C6646T",
+              "T6649C",
+              "T6712C",
+              "T6727C",
+              "C6763T",
+              "T6766C",
+              "A6808G",
+              "G6835A",
+              "T6889C",
+              "C6890T",
+              "C6898T",
+              "T6914C",
+              "T7085C",
+              "T7100C",
+              "C7106T",
+              "T7111C",
+              "C7149T",
+              "A7150G",
+              "C7165T",
+              "T7177C",
+              "T7237A",
+              "T7264C",
+              "T7345C",
+              "T7364C",
+              "T7387C",
+              "T7390G",
+              "A7570G",
+              "A7594G",
+              "G7615A",
+              "A7660G",
+              "T7855C",
+              "C7882T",
+              "T7969C",
+              "T8086C",
+              "T8108C",
+              "G8131A",
+              "T8227C",
+              "C8233T",
+              "T8302C",
+              "G8341A",
+              "G8344A",
+              "C8347T",
+              "G8406A",
+              "A8418G",
+              "T8429A",
+              "C8430A",
+              "T8461C",
+              "T8494C",
+              "G8548A",
+              "A8554G",
+              "G8593A",
+              "C8602T",
+              "C8608T",
+              "C8611G",
+              "G8620A",
+              "T8626C",
+              "A8656G",
+              "A8668G",
+              "A8698G",
+              "C8734T",
+              "T8738C",
+              "A8740G",
+              "G8746A",
+              "A8749G",
+              "G8752A",
+              "G8755A",
+              "C8758T",
+              "A8782G",
+              "C8791A",
+              "T8797C",
+              "C8821T",
+              "T8827G",
+              "T8845C",
+              "A8848G",
+              "C8863T",
+              "T8914C",
+              "C8929T",
+              "C8959T",
+              "A8977G",
+              "C8980T",
+              "C9034T",
+              "T9049C",
+              "C9104T",
+              "T9148C",
+              "C9205T",
+              "G9325A",
+              "C9337T",
+              "A9394T",
+              "C9412T",
+              "C9421T",
+              "A9427G",
+              "T9493C",
+              "T9760C",
+              "T9764C",
+              "G9772A",
+              "A9781G",
+              "T9808C",
+              "C9823T",
+              "C9841T",
+              "G9851A",
+              "C9852G",
+              "A9901T",
+              "T9904C",
+              "T9918C",
+              "G9946A",
+              "T9958C",
+              "T9979C",
+              "T9997C",
+              "T10000C",
+              "T10078C",
+              "C10096T",
+              "T10117C",
+              "T10156C",
+              "G10159A",
+              "T10183C",
+              "C10269A",
+              "A10291G",
+              "G10415T",
+              "G10472A",
+              "G10614C"
+            ],
+            "C": [
+              "L103F"
+            ],
+            "E": [
+              "A303T",
+              "A489V"
+            ],
+            "NS1": [
+              "V188I",
+              "Y256H",
+              "N290D",
+              "I338V"
+            ],
+            "NS2A": [
+              "I175V"
+            ],
+            "NS2B": [
+              "V11I"
+            ],
+            "NS3": [
+              "V40I",
+              "A356V",
+              "A548S",
+              "L608P"
+            ],
+            "NS4A": [
+              "V89I",
+              "A90V"
+            ],
+            "NS4B": [
+              "P24S",
+              "A110V",
+              "F190L"
+            ],
+            "NS5": [
+              "R281K",
+              "E285G",
+              "S289K",
+              "A763S",
+              "V785A"
+            ]
+          },
+          "labels": {
+            "aa": "C: L103F; E: A303T, A489V; NS1: V188I, Y256H, N290D, I338V; NS2A: I175V; NS2B: V11I; NS3: V40I, A356V, A548S, L608P; NS4A: V89I, A90V; NS4B: P24S, A110V, F190L; NS5: R281K, E285G, S289K, A763S, V785A"
+          }
+        },
+        "children": [
+          {
+            "name": "mutant_InJ_I6_82",
+            "node_attrs": {
+              "div": 0.018608868913879178,
+              "num_date": {
+                "value": 1982.9986301369863,
+                "confidence": [
+                  1982.1010669497557,
+                  1982.9986301369863
+                ]
+              },
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/DQ401694",
+              "accession": "DQ401694",
+              "author": {
+                "author": "Islam et al",
+                "title": "Complete nucleotide sequence of dengue virus type 3 isolates of Indonesia adapted in Vero cells",
+                "journal": "Unpublished",
+                "value": "Islam et al A"
+              },
+              "region": {
+                "value": "Southeast Asia",
+                "confidence": {
+                  "Southeast Asia": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              },
+              "country": {
+                "value": "Indonesia",
+                "confidence": {
+                  "Indonesia": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          },
+          {
+            "name": "mutant_PhMH_J1_97",
+            "node_attrs": {
+              "div": 0.018608868913879178,
+              "num_date": {
+                "value": 1997.0013698630137,
+                "confidence": [
+                  1997.0013698630137,
+                  1997.898904109589
+                ]
+              },
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/DQ401695",
+              "accession": "DQ401695",
+              "author": {
+                "author": "Islam et al",
+                "title": "Complete nucleotide sequence of dengue virus type 3 isolates of Philippines adapted in Vero cells",
+                "journal": "Unpublished",
+                "value": "Islam et al B"
+              },
+              "region": {
+                "value": "Southeast Asia",
+                "confidence": {
+                  "Southeast Asia": 0.9999999999999999
+                },
+                "entropy": -9.99866855976916e-13
+              },
+              "country": {
+                "value": "Philippines",
+                "confidence": {
+                  "Philippines": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            }
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000004",
+        "node_attrs": {
+          "div": 0.005561222019183765,
+          "num_date": {
+            "value": 1965.5091735855224,
+            "confidence": [
+              1960.8381387781017,
+              1969.185461618233
+            ]
+          },
+          "region": {
+            "value": "Southeast Asia",
+            "confidence": {
+              "Oceania": 0.0670272243413258,
+              "Southeast Asia": 0.9329727756586741
+            },
+            "entropy": 0.2458805162531127
+          },
+          "country": {
+            "value": "Indonesia",
+            "confidence": {
+              "French Polynesia": 0.14000970552265304,
+              "Indonesia": 0.301870895120796,
+              "New Caledonia": 0.14749653989429384,
+              "Wallis And Futuna": 0.15748760936893255
+            },
+            "entropy": 1.7334068912926162
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 0.013097531690440192,
+              "num_date": {
+                "value": 1978.2148236325552,
+                "confidence": [
+                  1973.999175579755,
+                  1981.1767836091992
+                ]
+              },
+              "region": {
+                "value": "Southeast Asia",
+                "confidence": {
+                  "Oceania": 0.035356971273985495,
+                  "Southeast Asia": 0.9646430287260144
+                },
+                "entropy": 0.15289659394948407
+              },
+              "country": {
+                "value": "Indonesia",
+                "confidence": {
+                  "French Polynesia": 0.1412219035289172,
+                  "Indonesia": 0.2677731799057071,
+                  "New Caledonia": 0.15577897040365082,
+                  "Wallis And Futuna": 0.16631529487447624
+                },
+                "entropy": 1.7567953751645022
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A283G",
+                  "G287A",
+                  "T310C",
+                  "T646C",
+                  "A655G",
+                  "T679C",
+                  "T1129C",
+                  "G1189A",
+                  "T1441C",
+                  "A1501G",
+                  "A1597G",
+                  "G1669A",
+                  "T1783C",
+                  "G1837A",
+                  "G1873A",
+                  "A2227G",
+                  "A2263G",
+                  "T2383C",
+                  "T2560C",
+                  "T2809C",
+                  "C2911T",
+                  "G2989A",
+                  "T3106C",
+                  "T3221C",
+                  "T3550C",
+                  "G3586A",
+                  "A3633G",
+                  "T3791C",
+                  "T3871C",
+                  "G4052A",
+                  "T4093C",
+                  "T4177A",
+                  "G4201A",
+                  "A4612G",
+                  "T4766C",
+                  "G4792A",
+                  "A5011T",
+                  "T5125C",
+                  "G5277A",
+                  "C5299T",
+                  "G5338A",
+                  "C5350T",
+                  "A5476T",
+                  "G5812C",
+                  "T5971C",
+                  "G6094A",
+                  "G6100A",
+                  "G6178A",
+                  "T6193C",
+                  "A6292G",
+                  "A6373G",
+                  "C6442T",
+                  "C6481T",
+                  "C6512T",
+                  "A6571G",
+                  "T6722C",
+                  "C6833T",
+                  "C6913T",
+                  "T7174C",
+                  "T7387A",
+                  "C7783T",
+                  "A7804G",
+                  "T7940C",
+                  "T8273C",
+                  "T8571C",
+                  "A8605T",
+                  "T8797A",
+                  "G8842A",
+                  "T8891C",
+                  "A9022G",
+                  "A9088G",
+                  "A9118G",
+                  "C9268T",
+                  "A9655G",
+                  "T9742C",
+                  "A9940G",
+                  "T9952C",
+                  "G10159C",
+                  "G10174A"
+                ],
+                "C": [
+                  "V65I"
+                ],
+                "NS2A": [
+                  "H55R",
+                  "A195T"
+                ],
+                "NS3": [
+                  "R255K"
+                ],
+                "NS5": [
+                  "M336T"
+                ]
+              },
+              "labels": {
+                "aa": "C: V65I; NS2A: H55R, A195T; NS3: R255K; NS5: M336T"
+              }
+            },
+            "children": [
+              {
+                "name": "98902890_DF_DV_3",
+                "node_attrs": {
+                  "div": 0.023393922133820525,
+                  "num_date": {
+                    "value": 1998.0013698630137,
+                    "confidence": [
+                      1998.0013698630137,
+                      1998.8747981541917
+                    ]
+                  },
+                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/AB189128",
+                  "accession": "AB189128",
+                  "author": {
+                    "author": "Dewi et al",
+                    "title": "Genomic analysis and phylogeny of dengue 1, 2 and 3 viruses isolated from patients with different stage of severities in Indonesia",
+                    "journal": "Unpublished",
+                    "value": "Dewi et al"
+                  },
+                  "region": {
+                    "value": "Southeast Asia",
+                    "confidence": {
+                      "Southeast Asia": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13
+                  },
+                  "country": {
+                    "value": "Indonesia",
+                    "confidence": {
+                      "Indonesia": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T325C",
+                      "C364T",
+                      "G418A",
+                      "C634T",
+                      "C667T",
+                      "T784C",
+                      "C835T",
+                      "A839G",
+                      "A864T",
+                      "A955G",
+                      "C1009T",
+                      "G1012A",
+                      "C1015T",
+                      "G1027A",
+                      "T1060C",
+                      "G1081A",
+                      "T1117C",
+                      "G1168A",
+                      "C1366T",
+                      "C1834T",
+                      "T1924C",
+                      "T1990C",
+                      "C2104T",
+                      "G2128A",
+                      "T2418C",
+                      "C2428T",
+                      "A2446G",
+                      "G2485A",
+                      "C2557T",
+                      "C2596T",
+                      "T2689C",
+                      "T2739C",
+                      "C2806T",
+                      "T2884A",
+                      "T3115C",
+                      "G3121C",
+                      "A3145G",
+                      "T3406C",
+                      "C3409T",
+                      "G3553A",
+                      "G3574A",
+                      "A3622G",
+                      "C3634T",
+                      "T3733C",
+                      "C3862T",
+                      "G4102A",
+                      "G4147A",
+                      "T4156C",
+                      "G4295A",
+                      "T4450C",
+                      "C4522T",
+                      "A4534C",
+                      "A4573T",
+                      "T4744C",
+                      "A5026G",
+                      "C5032T",
+                      "T5048C",
+                      "A5248G",
+                      "C5386T",
+                      "C5711T",
+                      "C5830T",
+                      "C5875T",
+                      "T5956C",
+                      "A6064T",
+                      "C6103T",
+                      "T6148C",
+                      "A6169G",
+                      "T6244C",
+                      "C6418T",
+                      "T6478C",
+                      "G6559A",
+                      "A6634G",
+                      "T6886C",
+                      "C6894T",
+                      "C6943T",
+                      "A7018G",
+                      "G7102A",
+                      "T7111C",
+                      "T7171C",
+                      "G7343A",
+                      "C7346T",
+                      "T7363C",
+                      "A7562C",
+                      "A7693G",
+                      "A7768G",
+                      "T8108C",
+                      "T8326C",
+                      "C8356A",
+                      "A8434G",
+                      "C8518T",
+                      "T8596C",
+                      "C8725T",
+                      "C9073T",
+                      "C9112T",
+                      "C9178T",
+                      "A9358G",
+                      "T9391C",
+                      "T9472C",
+                      "A9509G",
+                      "A9512G",
+                      "A9793G",
+                      "A9886G",
+                      "C10024T",
+                      "T10072A",
+                      "T10117A",
+                      "T10122A",
+                      "C10231T",
+                      "C10454T",
+                      "T10596C"
+                    ],
+                    "C": [
+                      "M108I"
+                    ],
+                    "M": [
+                      "I135V",
+                      "Y143F"
+                    ],
+                    "NS1": [
+                      "M2T",
+                      "M109T",
+                      "D157E"
+                    ],
+                    "NS2B": [
+                      "D58N"
+                    ],
+                    "NS3": [
+                      "E20D"
+                    ],
+                    "NS4B": [
+                      "T25I",
+                      "V175I"
+                    ],
+                    "NS5": [
+                      "T649A",
+                      "K650E",
+                      "L853H"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "C: M108I; M: I135V, Y143F; NS1: M2T, M109T, D157E; NS2B: D58N; NS3: E20D; NS4B: T25I, V175I; NS5: T649A, K650E, L853H"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000002",
+                "node_attrs": {
+                  "div": 0.02625624431022454,
+                  "num_date": {
+                    "value": 1998.788763925693,
+                    "confidence": [
+                      1995.0672221461964,
+                      2000.4200852143224
+                    ]
+                  },
+                  "region": {
+                    "value": "Southeast Asia",
+                    "confidence": {
+                      "Oceania": 0.004503002818396221,
+                      "Southeast Asia": 0.9954969971816037
+                    },
+                    "entropy": 0.028822621960150317
+                  },
+                  "country": {
+                    "value": "Indonesia",
+                    "confidence": {
+                      "French Polynesia": 0.08372886252741865,
+                      "Indonesia": 0.6302045762591211,
+                      "Philippines": 0.08418540199899724,
+                      "Wallis And Futuna": 0.0743852278931953
+                    },
+                    "entropy": 1.2507235176374027
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T235C",
+                      "G241A",
+                      "A377G",
+                      "T406C",
+                      "A496G",
+                      "A505T",
+                      "T511C",
+                      "C529T",
+                      "C532T",
+                      "C601T",
+                      "T604C",
+                      "C694T",
+                      "A755G",
+                      "C796T",
+                      "C817T",
+                      "A910G",
+                      "T967C",
+                      "G1057A",
+                      "A1123G",
+                      "A1288G",
+                      "C1305T",
+                      "A1306T",
+                      "C1381T",
+                      "C1426T",
+                      "A1561G",
+                      "T1600C",
+                      "T1624C",
+                      "C1648T",
+                      "C1654T",
+                      "T1660C",
+                      "A1780G",
+                      "T2059C",
+                      "T2308C",
+                      "A2467G",
+                      "C2476T",
+                      "T2479C",
+                      "C2530T",
+                      "A2533G",
+                      "G2542A",
+                      "G2566A",
+                      "C2611T",
+                      "A2671G",
+                      "A2725G",
+                      "A2755G",
+                      "A2794G",
+                      "G3046A",
+                      "T3118C",
+                      "C3163T",
+                      "A3164G",
+                      "C3193T",
+                      "C3214T",
+                      "C3241T",
+                      "C3400T",
+                      "C3505T",
+                      "G3508A",
+                      "C3583T",
+                      "A3610G",
+                      "C3625T",
+                      "A4049G",
+                      "T4087G",
+                      "G4135A",
+                      "C4302T",
+                      "T4406C",
+                      "T4417A",
+                      "C4588T",
+                      "T4685C",
+                      "T4840C",
+                      "A4912G",
+                      "T5128C",
+                      "G5146A",
+                      "G5155A",
+                      "T5197C",
+                      "A5265C",
+                      "G5308A",
+                      "C5392T",
+                      "T5395C",
+                      "A5467G",
+                      "T5476C",
+                      "C5503T",
+                      "T5506C",
+                      "C5557T",
+                      "T5878C",
+                      "A5917G",
+                      "C6028T",
+                      "T6226C",
+                      "G6238A",
+                      "G6241A",
+                      "T6316C",
+                      "T6419C",
+                      "C6490T",
+                      "C6781T",
+                      "T6796C",
+                      "A6814G",
+                      "C6895T",
+                      "T6982C",
+                      "A7120G",
+                      "T7177C",
+                      "T7219C",
+                      "A7441G",
+                      "C7627T",
+                      "G7729A",
+                      "A7744G",
+                      "T8425C",
+                      "T8449A",
+                      "C8533T",
+                      "T8626C",
+                      "C8653T",
+                      "T8679C",
+                      "T8836C",
+                      "T8914C",
+                      "T8947C",
+                      "C9004T",
+                      "A9025G",
+                      "A9072T",
+                      "G9103A",
+                      "T9124C",
+                      "A9223G",
+                      "G9250A",
+                      "T9262C",
+                      "A9298G",
+                      "A9328G",
+                      "C9411T",
+                      "C9412T",
+                      "T9446C",
+                      "A9488G",
+                      "A9590G",
+                      "A9619G",
+                      "C9682T",
+                      "C9754T",
+                      "A9826G",
+                      "T9880C",
+                      "A9916T",
+                      "T9922C",
+                      "T9979C",
+                      "A9985G",
+                      "C10042T",
+                      "C10123T",
+                      "A10124G",
+                      "G10147A"
+                    ],
+                    "C": [
+                      "I95V"
+                    ],
+                    "E": [
+                      "S124F"
+                    ],
+                    "M": [
+                      "T107A"
+                    ],
+                    "NS1": [
+                      "I251V"
+                    ],
+                    "NS2A": [
+                      "M194V"
+                    ],
+                    "NS2B": [
+                      "T60I"
+                    ],
+                    "NS3": [
+                      "E251A"
+                    ],
+                    "NS5": [
+                      "D295E",
+                      "V372A",
+                      "Y503F",
+                      "A616V",
+                      "K642E",
+                      "N676D",
+                      "T854A"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "C: I95V; E: S124F; M: T107A; NS1: I251V; NS2A: M194V; NS2B: T60I; NS3: E251A; NS5: D295E, V372A, Y503F, A616V, K642E, N676D, T854A"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "MKS_2065",
+                    "node_attrs": {
+                      "div": 0.031707617018140746,
+                      "num_date": {
+                        "value": 2008.1243169398906,
+                        "confidence": [
+                          2008.1243169398906,
+                          2008.1243169398906
+                        ]
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/KC762689",
+                      "accession": "KC762689",
+                      "author": {
+                        "author": "Sasmono et al",
+                        "title": "Genomic analysis and growth characteristic of dengue viruses from Makassar, Indonesia",
+                        "journal": "Infect. Genet. Evol. 32, 165-177 (2015)",
+                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/25784569",
+                        "value": "Sasmono et al"
+                      },
+                      "region": {
+                        "value": "Southeast Asia",
+                        "confidence": {
+                          "Southeast Asia": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13
+                      },
+                      "country": {
+                        "value": "Indonesia",
+                        "confidence": {
+                          "Indonesia": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T419A",
+                          "C634T",
+                          "C676T",
+                          "T898C",
+                          "A949G",
+                          "G1300A",
+                          "C1438T",
+                          "A1480G",
+                          "A1486C",
+                          "T1579C",
+                          "G1813A",
+                          "T2315C",
+                          "T2648C",
+                          "C2665T",
+                          "G2674A",
+                          "C2960T",
+                          "C3079A",
+                          "T3166C",
+                          "A3282G",
+                          "A3292G",
+                          "T3487C",
+                          "A3883G",
+                          "T3943C",
+                          "T4001C",
+                          "T4387C",
+                          "G4414A",
+                          "A4633G",
+                          "C4693T",
+                          "A4702G",
+                          "A4732G",
+                          "A4735G",
+                          "A4805G",
+                          "G4834A",
+                          "A4873G",
+                          "G5047C",
+                          "C5265T",
+                          "G5401A",
+                          "A5620G",
+                          "T5764C",
+                          "T5974C",
+                          "C6425T",
+                          "G6454A",
+                          "T6481C",
+                          "T6560C",
+                          "G6610A",
+                          "G7069T",
+                          "A7079G",
+                          "C7174T",
+                          "A7369G",
+                          "T7713C",
+                          "A7972G",
+                          "C7991T",
+                          "T9148C",
+                          "T9640A",
+                          "G9658A",
+                          "C10231T",
+                          "C10305T",
+                          "T10307C",
+                          "C10379T"
+                        ],
+                        "C": [
+                          "L109I"
+                        ],
+                        "NS1": [
+                          "N290S"
+                        ],
+                        "NS3": [
+                          "I98V",
+                          "E178D",
+                          "A251V"
+                        ],
+                        "NS4A": [
+                          "H19Y"
+                        ],
+                        "NS4B": [
+                          "M87V"
+                        ],
+                        "NS5": [
+                          "I50T"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "C: L109I; NS1: N290S; NS3: I98V, E178D, A251V; NS4A: H19Y; NS4B: M87V; NS5: I50T"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000001",
+                    "node_attrs": {
+                      "div": 0.029631751388118636,
+                      "num_date": {
+                        "value": 2004.218456962626,
+                        "confidence": [
+                          2003.0939799707198,
+                          2005.0180270773858
+                        ]
+                      },
+                      "region": {
+                        "value": "Southeast Asia",
+                        "confidence": {
+                          "Southeast Asia": 0.9995328322511231
+                        },
+                        "entropy": 0.004049684991812872
+                      },
+                      "country": {
+                        "value": "Indonesia",
+                        "confidence": {
+                          "French Polynesia": 0.02503804902978533,
+                          "Indonesia": 0.9029925557999504,
+                          "Philippines": 0.025350241906158442,
+                          "Wallis And Futuna": 0.017273699264964793
+                        },
+                        "entropy": 0.4714895267417786
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G208A",
+                          "T508C",
+                          "A622G",
+                          "C1114T",
+                          "A1240G",
+                          "A1666G",
+                          "T1729C",
+                          "C1774T",
+                          "A1957G",
+                          "G1960A",
+                          "T2464C",
+                          "A3124G",
+                          "G3358A",
+                          "G3553A",
+                          "C3898T",
+                          "C3919T",
+                          "G4051T",
+                          "T4063C",
+                          "C4252T",
+                          "A4471T",
+                          "T4696C",
+                          "G4876A",
+                          "C4903T",
+                          "A5068G",
+                          "G5323A",
+                          "C5380T",
+                          "T6205C",
+                          "C6379T",
+                          "A7381C",
+                          "G7636A",
+                          "C9205T",
+                          "T9208C",
+                          "T9364C",
+                          "C9784T",
+                          "G10510A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "MKS_2006",
+                        "node_attrs": {
+                          "div": 0.032161109433468095,
+                          "num_date": {
+                            "value": 2008.3292349726776,
+                            "confidence": [
+                              2008.3292349726776,
+                              2008.3292349726776
+                            ]
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/KC762688",
+                          "accession": "KC762688",
+                          "author": {
+                            "author": "Sasmono et al",
+                            "title": "Genomic analysis and growth characteristic of dengue viruses from Makassar, Indonesia",
+                            "journal": "Infect. Genet. Evol. 32, 165-177 (2015)",
+                            "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/25784569",
+                            "value": "Sasmono et al"
+                          },
+                          "region": {
+                            "value": "Southeast Asia",
+                            "confidence": {
+                              "Southeast Asia": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          },
+                          "country": {
+                            "value": "Indonesia",
+                            "confidence": {
+                              "Indonesia": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C47T",
+                              "C206T",
+                              "A274G",
+                              "T448C",
+                              "G1948A",
+                              "C1993T",
+                              "C2428T",
+                              "T2689C",
+                              "A3259G",
+                              "G3532A",
+                              "A3586T",
+                              "A3754G",
+                              "A3941C",
+                              "T4418C",
+                              "T5707C",
+                              "T6028C",
+                              "A6514T",
+                              "G6601A",
+                              "A6958G",
+                              "T7021C",
+                              "T7111C",
+                              "G7261A",
+                              "A7570G",
+                              "G7704A",
+                              "C8794A",
+                              "G9058A",
+                              "G10036A"
+                            ],
+                            "NS2A": [
+                              "I158L"
+                            ],
+                            "NS4A": [
+                              "L48F"
+                            ],
+                            "NS5": [
+                              "R47K",
+                              "M824I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NS2A: I158L; NS4A: L48F; NS5: R47K, M824I"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000000",
+                        "node_attrs": {
+                          "div": 0.0318798123924857,
+                          "num_date": {
+                            "value": 2007.970798508307,
+                            "confidence": [
+                              2007.58167777442,
+                              2008.1073912949046
+                            ]
+                          },
+                          "region": {
+                            "value": "Southeast Asia",
+                            "confidence": {
+                              "Southeast Asia": 0.999954129499963
+                            },
+                            "entropy": 0.0005041014457170364
+                          },
+                          "country": {
+                            "value": "Indonesia",
+                            "confidence": {
+                              "French Polynesia": 0.0027363309374924144,
+                              "Indonesia": 0.9906768223656095,
+                              "Philippines": 0.002750329338629795,
+                              "Wallis And Futuna": 0.0014288003934771509
+                            },
+                            "entropy": 0.06717605641391114
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C289T",
+                              "T443C",
+                              "T532C",
+                              "C1087T",
+                              "T1570C",
+                              "C2086T",
+                              "C2284T",
+                              "A2377G",
+                              "A2746G",
+                              "C2926T",
+                              "A3262G",
+                              "T3512C",
+                              "A4324G",
+                              "A4534T",
+                              "A5074G",
+                              "A5224G",
+                              "A6502C",
+                              "A6634G",
+                              "C8644T",
+                              "C9139A",
+                              "C9235G",
+                              "C9397T",
+                              "T10078C",
+                              "C10351T"
+                            ],
+                            "NS5": [
+                              "D557E"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NS5: D557E"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "MKS_3000",
+                            "node_attrs": {
+                              "div": 0.032160160035435564,
+                              "num_date": {
+                                "value": 2008.6516393442623,
+                                "confidence": [
+                                  2008.6516393442623,
+                                  2008.6516393442623
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KC762690",
+                              "accession": "KC762690",
+                              "author": {
+                                "author": "Sasmono et al",
+                                "title": "Genomic analysis and growth characteristic of dengue viruses from Makassar, Indonesia",
+                                "journal": "Infect. Genet. Evol. 32, 165-177 (2015)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/25784569",
+                                "value": "Sasmono et al"
+                              },
+                              "region": {
+                                "value": "Southeast Asia",
+                                "confidence": {
+                                  "Southeast Asia": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              },
+                              "country": {
+                                "value": "Indonesia",
+                                "confidence": {
+                                  "Indonesia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C2723T",
+                                  "C3826T",
+                                  "C6079T"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "MKS_0388",
+                            "node_attrs": {
+                              "div": 0.03206669539847129,
+                              "num_date": {
+                                "value": 2008.1243169398906,
+                                "confidence": [
+                                  2008.1243169398906,
+                                  2008.1243169398906
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KC762685",
+                              "accession": "KC762685",
+                              "author": {
+                                "author": "Sasmono et al",
+                                "title": "Genomic analysis and growth characteristic of dengue viruses from Makassar, Indonesia",
+                                "journal": "Infect. Genet. Evol. 32, 165-177 (2015)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/25784569",
+                                "value": "Sasmono et al"
+                              },
+                              "region": {
+                                "value": "Southeast Asia",
+                                "confidence": {
+                                  "Southeast Asia": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              },
+                              "country": {
+                                "value": "Indonesia",
+                                "confidence": {
+                                  "Indonesia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G1283A",
+                                  "C5311T"
+                                ],
+                                "E": [
+                                  "A117T"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "E: A117T"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "NODE_0000006",
+            "node_attrs": {
+              "div": 0.008938085828189097,
+              "num_date": {
+                "value": 1972.131852403998,
+                "confidence": [
+                  1969.3614911346424,
+                  1974.6402082115296
+                ]
+              },
+              "region": {
+                "value": "Southeast Asia",
+                "confidence": {
+                  "Oceania": 0.09198196063713848,
+                  "Southeast Asia": 0.9080180393628615
+                },
+                "entropy": 0.3070995318498023
+              },
+              "country": {
+                "value": "Indonesia",
+                "confidence": {
+                  "French Polynesia": 0.12661588446473615,
+                  "Indonesia": 0.45969330702891736,
+                  "New Caledonia": 0.10920776656034324,
+                  "Wallis And Futuna": 0.11665521113961072
+                },
+                "entropy": 1.555320770787162
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A793G",
+                  "C895T",
+                  "C1114T",
+                  "T1271C",
+                  "C1375T",
+                  "C1580T",
+                  "G2743A",
+                  "A2779G",
+                  "G3073A",
+                  "G3856A",
+                  "G3877A",
+                  "C3937T",
+                  "G3997T",
+                  "C4153T",
+                  "T4363C",
+                  "A4534T",
+                  "G4764A",
+                  "C5020T",
+                  "G5194A",
+                  "A6199G",
+                  "C6376T",
+                  "C6424T",
+                  "C7114T",
+                  "A7567G",
+                  "A7579G",
+                  "C7987T",
+                  "C8242T",
+                  "C8248T",
+                  "C8743T",
+                  "C8800T",
+                  "A9491G",
+                  "T9511A",
+                  "A9769C",
+                  "A9810G",
+                  "T9862C",
+                  "T10060C",
+                  "A10414G"
+                ],
+                "NS3": [
+                  "R84K"
+                ],
+                "NS5": [
+                  "I643V",
+                  "K749R"
+                ]
+              },
+              "labels": {
+                "aa": "NS3: R84K; NS5: I643V, K749R"
+              }
+            },
+            "children": [
+              {
+                "name": "Sleman/78",
+                "node_attrs": {
+                  "div": 0.01240914945848959,
+                  "num_date": {
+                    "value": 1978.4802625220593,
+                    "confidence": [
+                      1978.0013698630137,
+                      1978.9986301369863
+                    ]
+                  },
+                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY648961",
+                  "accession": "AY648961",
+                  "author": {
+                    "author": "Blaney et al",
+                    "title": "Genetically modified, live attenuated dengue virus type 3 vaccine candidates",
+                    "journal": "Am. J. Trop. Med. Hyg. 71 (6), 811-821 (2004)",
+                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/15642976",
+                    "value": "Blaney et al"
+                  },
+                  "region": {
+                    "value": "Southeast Asia",
+                    "confidence": {
+                      "Southeast Asia": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "country": {
+                    "value": "Indonesia",
+                    "confidence": {
+                      "Indonesia": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T203C",
+                      "T586C",
+                      "T703C",
+                      "G706A",
+                      "T943C",
+                      "T1202C",
+                      "T1210C",
+                      "T1894C",
+                      "T2056C",
+                      "G3310A",
+                      "C3523T",
+                      "G3592A",
+                      "C4168T",
+                      "C4519T",
+                      "C4579T",
+                      "G4952C",
+                      "C4958T",
+                      "C5940T",
+                      "T6636C",
+                      "G6691T",
+                      "T6796C",
+                      "T6800C",
+                      "A7093G",
+                      "A7153T",
+                      "T7625C",
+                      "G8281T",
+                      "C8659T",
+                      "T9100C",
+                      "T9124C",
+                      "C9574T",
+                      "C9754T",
+                      "G9851A",
+                      "C10024T",
+                      "C10056A",
+                      "C10271T",
+                      "C10454T",
+                      "A10537T"
+                    ],
+                    "E": [
+                      "Y90H"
+                    ],
+                    "NS3": [
+                      "V147L",
+                      "T476M"
+                    ],
+                    "NS4A": [
+                      "V89A"
+                    ],
+                    "NS5": [
+                      "S21P",
+                      "A763T",
+                      "T831K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "E: Y90H; NS3: V147L, T476M; NS4A: V89A; NS5: S21P, A763T, T831K"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "div": 0.01780218341648966,
+                  "num_date": {
+                    "value": 1987.9232409189337,
+                    "confidence": [
+                      1987.233601295403,
+                      1988.7257303426097
+                    ]
+                  },
+                  "region": {
+                    "value": "Oceania",
+                    "confidence": {
+                      "Oceania": 0.9961321211913519,
+                      "Southeast Asia": 0.003867878808648138
+                    },
+                    "entropy": 0.02534664533881861
+                  },
+                  "country": {
+                    "value": "French Polynesia",
+                    "confidence": {
+                      "French Polynesia": 0.8404415346956341,
+                      "Indonesia": 0.024959157376460036,
+                      "New Caledonia": 0.05665283985651467,
+                      "Wallis And Futuna": 0.05794631849963027
+                    },
+                    "entropy": 0.6572859910865068
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T235C",
+                      "T325C",
+                      "C442T",
+                      "A454G",
+                      "T511C",
+                      "G745A",
+                      "C1033T",
+                      "C1055T",
+                      "A1453G",
+                      "C1483T",
+                      "T1499C",
+                      "A1576G",
+                      "T1846C",
+                      "C1867T",
+                      "A1885G",
+                      "G1997A",
+                      "G1999A",
+                      "T2026C",
+                      "T2029C",
+                      "A2521G",
+                      "C2527T",
+                      "T2612C",
+                      "C2629T",
+                      "A2690G",
+                      "A2710G",
+                      "T2821C",
+                      "C2899T",
+                      "A3364G",
+                      "T3483C",
+                      "T3576C",
+                      "T3763C",
+                      "T3779C",
+                      "G3990T",
+                      "G4052A",
+                      "T4090C",
+                      "G4102A",
+                      "C4184T",
+                      "T4396C",
+                      "C4483T",
+                      "A4513G",
+                      "A4573G",
+                      "C4615T",
+                      "C4651T",
+                      "G4725A",
+                      "G4795A",
+                      "C4810T",
+                      "A4957G",
+                      "C5161T",
+                      "A5360G",
+                      "C5446A",
+                      "C5488T",
+                      "G5644A",
+                      "A5713G",
+                      "G5881A",
+                      "A5920G",
+                      "C5953T",
+                      "T6187C",
+                      "C6223T",
+                      "A6277G",
+                      "C6328A",
+                      "A6367G",
+                      "T6536C",
+                      "A6592G",
+                      "T6712C",
+                      "A6799G",
+                      "A6937G",
+                      "T6974C",
+                      "G7015A",
+                      "G7069A",
+                      "T7180C",
+                      "T7186C",
+                      "G7258A",
+                      "T7288C",
+                      "G7318A",
+                      "C7492A",
+                      "A7510G",
+                      "T7525C",
+                      "G7954A",
+                      "T8014C",
+                      "A8125G",
+                      "A8254T",
+                      "C8760T",
+                      "C8887T",
+                      "G9103A",
+                      "T9391C",
+                      "T9475C",
+                      "G9658A",
+                      "T9808C",
+                      "C9931T",
+                      "C9988T",
+                      "A10039G",
+                      "G10219A",
+                      "C10487T",
+                      "T10558C"
+                    ],
+                    "E": [
+                      "V355I"
+                    ],
+                    "NS1": [
+                      "I93V"
+                    ],
+                    "NS2A": [
+                      "V5A",
+                      "V36A",
+                      "G174V",
+                      "A195T"
+                    ],
+                    "NS2B": [
+                      "L21F"
+                    ],
+                    "NS3": [
+                      "S71N",
+                      "I283V"
+                    ],
+                    "NS5": [
+                      "T399I"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "E: V355I; NS1: I93V; NS2A: V5A, V36A, G174V, A195T; NS2B: L21F; NS3: S71N, I283V; NS5: T399I"
+                  }
+                },
+                "children": [
+                  {
+                    "name": "PF90/3050",
+                    "node_attrs": {
+                      "div": 0.019393708000445608,
+                      "num_date": {
+                        "value": 1990.656363286017,
+                        "confidence": [
+                          1990.0013698630137,
+                          1990.9986301369863
+                        ]
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744679",
+                      "accession": "AY744679",
+                      "author": {
+                        "author": "Roche et al",
+                        "title": "Dengue-3 virus genomic differences that correlate with in vitro phenotype on a human cell line but not with disease severity",
+                        "journal": "Microbes Infect. 9 (1), 63-69 (2007)",
+                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/17196421",
+                        "value": "Roche et al"
+                      },
+                      "region": {
+                        "value": "Oceania",
+                        "confidence": {
+                          "Oceania": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      },
+                      "country": {
+                        "value": "French Polynesia",
+                        "confidence": {
+                          "French Polynesia": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A1108G",
+                          "T1936C",
+                          "A2377G",
+                          "A2444C",
+                          "T2977C",
+                          "G3559A",
+                          "T3712C",
+                          "A3916G",
+                          "C4078T",
+                          "C7405T",
+                          "G8387A",
+                          "A8740G",
+                          "A8761G",
+                          "G8767A",
+                          "C8989T",
+                          "G9454A",
+                          "A10055T"
+                        ],
+                        "NS1": [
+                          "K11Q"
+                        ],
+                        "NS5": [
+                          "V275I",
+                          "I399M",
+                          "T831S"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "NS1: K11Q; NS5: V275I, I399M, T831S"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000008",
+                    "node_attrs": {
+                      "div": 0.018082686294561844,
+                      "num_date": {
+                        "value": 1988.5463389871616,
+                        "confidence": [
+                          1988.0306581329878,
+                          1989.085605645689
+                        ]
+                      },
+                      "region": {
+                        "value": "Oceania",
+                        "confidence": {
+                          "Oceania": 0.9998953112448893
+                        },
+                        "entropy": 0.0010641053423221507
+                      },
+                      "country": {
+                        "value": "French Polynesia",
+                        "confidence": {
+                          "French Polynesia": 0.8229577765593147,
+                          "Indonesia": 0.01224230312305679,
+                          "New Caledonia": 0.07739263963666458,
+                          "Wallis And Futuna": 0.0779204011422175
+                        },
+                        "entropy": 0.6614754867484713
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1320C",
+                          "T3773C",
+                          "G9778T"
+                        ],
+                        "E": [
+                          "V129A"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "E: V129A"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000009",
+                        "node_attrs": {
+                          "div": 0.018176158283658567,
+                          "num_date": {
+                            "value": 1989.0893867008856,
+                            "confidence": [
+                              1988.691884892708,
+                              1989.1
+                            ]
+                          },
+                          "region": {
+                            "value": "Oceania",
+                            "confidence": {
+                              "Oceania": 0.9999823674629328
+                            },
+                            "entropy": 0.0002106339808099234
+                          },
+                          "country": {
+                            "value": "Wallis And Futuna",
+                            "confidence": {
+                              "French Polynesia": 0.25465692993692296,
+                              "Indonesia": 0.01445639834702265,
+                              "New Caledonia": 0.3591796326240004,
+                              "Wallis And Futuna": 0.3591833424299525
+                            },
+                            "entropy": 1.2084011791621507
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C9235T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "WF89/140889_4838",
+                            "node_attrs": {
+                              "div": 0.018643680642069314,
+                              "num_date": {
+                                "value": 1989.6178082191782,
+                                "confidence": [
+                                  1989.6178082191782,
+                                  1989.6178082191782
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920487",
+                              "accession": "JQ920487",
+                              "author": {
+                                "author": "Aubry et al",
+                                "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                "journal": "Unpublished",
+                                "value": "Aubry et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "Wallis And Futuna",
+                                "confidence": {
+                                  "Wallis And Futuna": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T3361C",
+                                  "C4433T",
+                                  "C5413T",
+                                  "A7624G",
+                                  "T9071C"
+                                ],
+                                "NS5": [
+                                  "Y503H"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NS5: Y503H"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NC89/060289_283",
+                            "node_attrs": {
+                              "div": 0.018176158283658574,
+                              "num_date": {
+                                "value": 1989.1,
+                                "confidence": [
+                                  1989.1,
+                                  1989.1
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920481",
+                              "accession": "JQ920481",
+                              "author": {
+                                "author": "Aubry et al",
+                                "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                "journal": "Unpublished",
+                                "value": "Aubry et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "New Caledonia",
+                                "confidence": {
+                                  "New Caledonia": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000010",
+                        "node_attrs": {
+                          "div": 0.018363153030456013,
+                          "num_date": {
+                            "value": 1988.916600361179,
+                            "confidence": [
+                              1988.3722836734948,
+                              1989.667462777573
+                            ]
+                          },
+                          "region": {
+                            "value": "Oceania",
+                            "confidence": {
+                              "Oceania": 0.9999999896340342
+                            },
+                            "entropy": 2.0093952966845152e-07
+                          },
+                          "country": {
+                            "value": "French Polynesia",
+                            "confidence": {
+                              "French Polynesia": 0.9998308863889229
+                            },
+                            "entropy": 0.0018410974298888163
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G2675A",
+                              "T4108C",
+                              "C5999T"
+                            ],
+                            "NS1": [
+                              "V88I"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NS1: V88I"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "PF90/3056",
+                            "node_attrs": {
+                              "div": 0.0189242314448404,
+                              "num_date": {
+                                "value": 1990.0013698630137,
+                                "confidence": [
+                                  1990.0013698630137,
+                                  1990.8005655686866
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744680",
+                              "accession": "AY744680",
+                              "author": {
+                                "author": "Roche et al",
+                                "title": "Dengue-3 virus genomic differences that correlate with in vitro phenotype on a human cell line but not with disease severity",
+                                "journal": "Microbes Infect. 9 (1), 63-69 (2007)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/17196421",
+                                "value": "Roche et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "French Polynesia",
+                                "confidence": {
+                                  "French Polynesia": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C1100T",
+                                  "C1738T",
+                                  "C2191T",
+                                  "T6946C",
+                                  "C9769T",
+                                  "A10291G"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "PF90/6056",
+                            "node_attrs": {
+                              "div": 0.019485908717165594,
+                              "num_date": {
+                                "value": 1990.923597833519,
+                                "confidence": [
+                                  1990.0013698630137,
+                                  1990.9986301369863
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744681",
+                              "accession": "AY744681",
+                              "author": {
+                                "author": "Roche et al",
+                                "title": "Dengue-3 virus genomic differences that correlate with in vitro phenotype on a human cell line but not with disease severity",
+                                "journal": "Microbes Infect. 9 (1), 63-69 (2007)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/17196421",
+                                "value": "Roche et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "French Polynesia",
+                                "confidence": {
+                                  "French Polynesia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T604C",
+                                  "A1125G",
+                                  "A1392G",
+                                  "T1555C",
+                                  "C2473T",
+                                  "C2998T",
+                                  "A4426G",
+                                  "G5323A",
+                                  "C5611T",
+                                  "G8722A",
+                                  "T8800C",
+                                  "A9249G"
+                                ],
+                                "E": [
+                                  "K64R",
+                                  "N153S"
+                                ],
+                                "NS5": [
+                                  "Q562R"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "E: K64R, N153S; NS5: Q562R"
+                              }
+                            }
+                          },
+                          {
+                            "name": "PF89/27643",
+                            "node_attrs": {
+                              "div": 0.018737143738797018,
+                              "num_date": {
+                                "value": 1989.7398662972253,
+                                "confidence": [
+                                  1989.0013698630137,
+                                  1989.9986301369863
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744677",
+                              "accession": "AY744677",
+                              "author": {
+                                "author": "Roche et al",
+                                "title": "Dengue-3 virus genomic differences that correlate with in vitro phenotype on a human cell line but not with disease severity",
+                                "journal": "Microbes Infect. 9 (1), 63-69 (2007)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/17196421",
+                                "value": "Roche et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "French Polynesia",
+                                "confidence": {
+                                  "French Polynesia": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C4523T",
+                                  "A5749T",
+                                  "C6112T",
+                                  "A7611G"
+                                ],
+                                "NS5": [
+                                  "K16R"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NS5: K16R"
+                              }
+                            }
+                          },
+                          {
+                            "name": "NODE_0000013",
+                            "node_attrs": {
+                              "div": 0.01864362009386271,
+                              "num_date": {
+                                "value": 1989.4059598945032,
+                                "confidence": [
+                                  1988.9991100077975,
+                                  1989.7747593051206
+                                ]
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 0.9999996399780993
+                                },
+                                "entropy": 5.701701129911035e-06
+                              },
+                              "country": {
+                                "value": "French Polynesia",
+                                "confidence": {
+                                  "Cook Islands": 0.005783082950135462,
+                                  "French Polynesia": 0.9924822499018634
+                                },
+                                "entropy": 0.05046612114519842
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C1135T",
+                                  "T9124C",
+                                  "C9841T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "DENV_3/CK/BID_V2972/1991",
+                                "node_attrs": {
+                                  "div": 0.019673054796135018,
+                                  "num_date": {
+                                    "value": 1991.1041844908948,
+                                    "confidence": [
+                                      1991.0013698630137,
+                                      1991.9986301369863
+                                    ]
+                                  },
+                                  "accession": "FJ898455",
+                                  "author": {
+                                    "author": "?",
+                                    "value": "?"
+                                  },
+                                  "region": {
+                                    "value": "Oceania",
+                                    "confidence": {
+                                      "Oceania": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "country": {
+                                    "value": "Cook Islands",
+                                    "confidence": {
+                                      "Cook Islands": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A25T",
+                                      "T1441A",
+                                      "C2659T",
+                                      "T4171C",
+                                      "G4321A",
+                                      "A4636C",
+                                      "T5077C",
+                                      "A6279G",
+                                      "C6943T",
+                                      "T7582G",
+                                      "G8320A"
+                                    ],
+                                    "NS3": [
+                                      "Q41H",
+                                      "K589R"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NS3: Q41H, K589R"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000015",
+                                "node_attrs": {
+                                  "div": 0.018737092741051117,
+                                  "num_date": {
+                                    "value": 1989.6075981848335,
+                                    "confidence": [
+                                      1989.314151349803,
+                                      1989.8602493520086
+                                    ]
+                                  },
+                                  "region": {
+                                    "value": "Oceania",
+                                    "confidence": {
+                                      "Oceania": 0.9999991155572387
+                                    },
+                                    "entropy": 1.3212076018547238e-05
+                                  },
+                                  "country": {
+                                    "value": "French Polynesia",
+                                    "confidence": {
+                                      "French Polynesia": 0.9993483509879234
+                                    },
+                                    "entropy": 0.0063911701591714415
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G1411A"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "PF89/320219",
+                                    "node_attrs": {
+                                      "div": 0.01920462768638467,
+                                      "num_date": {
+                                        "value": 1989.9986301369863,
+                                        "confidence": [
+                                          1989.768978330023,
+                                          1989.9986301369863
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744678",
+                                      "accession": "AY744678",
+                                      "author": {
+                                        "author": "Roche et al",
+                                        "title": "Dengue-3 virus genomic differences that correlate with in vitro phenotype on a human cell line but not with disease severity",
+                                        "journal": "Microbes Infect. 9 (1), 63-69 (2007)",
+                                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/17196421",
+                                        "value": "Roche et al"
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "French Polynesia",
+                                        "confidence": {
+                                          "French Polynesia": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A1411T",
+                                          "T2347C",
+                                          "T4343C",
+                                          "T4804C",
+                                          "A9591G"
+                                        ],
+                                        "NS5": [
+                                          "N676S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NS5: N676S"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "PF92/4190",
+                                    "node_attrs": {
+                                      "div": 0.020234787072212688,
+                                      "num_date": {
+                                        "value": 1992.1685367112175,
+                                        "confidence": [
+                                          1992.0013661202186,
+                                          1992.9986338797814
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744684",
+                                      "accession": "AY744684",
+                                      "author": {
+                                        "author": "Roche et al",
+                                        "title": "Dengue-3 virus genomic differences that correlate with in vitro phenotype on a human cell line but not with disease severity",
+                                        "journal": "Microbes Infect. 9 (1), 63-69 (2007)",
+                                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/17196421",
+                                        "value": "Roche et al"
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "French Polynesia",
+                                        "confidence": {
+                                          "French Polynesia": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C2134T",
+                                          "C2140T",
+                                          "C2365T",
+                                          "G2542A",
+                                          "C2557T",
+                                          "T3945C",
+                                          "G4906A",
+                                          "T6226C",
+                                          "T6664A",
+                                          "G6703A",
+                                          "C7186T",
+                                          "T8839C",
+                                          "G9484A",
+                                          "G9583A",
+                                          "G10252A",
+                                          "C10592T"
+                                        ],
+                                        "NS2A": [
+                                          "F159S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NS2A: F159S"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "PF92/2956",
+                                    "node_attrs": {
+                                      "div": 0.020610143144636148,
+                                      "num_date": {
+                                        "value": 1992.7907312478467,
+                                        "confidence": [
+                                          1992.0013661202186,
+                                          1992.9986338797814
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744682",
+                                      "accession": "AY744682",
+                                      "author": {
+                                        "author": "Roche et al",
+                                        "title": "Dengue-3 virus genomic differences that correlate with in vitro phenotype on a human cell line but not with disease severity",
+                                        "journal": "Microbes Infect. 9 (1), 63-69 (2007)",
+                                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/17196421",
+                                        "value": "Roche et al"
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "French Polynesia",
+                                        "confidence": {
+                                          "French Polynesia": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T967C",
+                                          "T1353C",
+                                          "C1450T",
+                                          "C2080T",
+                                          "A2338G",
+                                          "A2933G",
+                                          "T3487C",
+                                          "G3569T",
+                                          "T4217C",
+                                          "G4684A",
+                                          "T5251A",
+                                          "A5869C",
+                                          "G6130A",
+                                          "T7234C",
+                                          "T8425C",
+                                          "T8845C",
+                                          "C9473T",
+                                          "T9556C",
+                                          "C9586T",
+                                          "C10105T"
+                                        ],
+                                        "E": [
+                                          "I140T"
+                                        ],
+                                        "NS1": [
+                                          "M174V"
+                                        ],
+                                        "NS2A": [
+                                          "A34S"
+                                        ],
+                                        "NS5": [
+                                          "H637Y"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "E: I140T; NS1: M174V; NS2A: A34S; NS5: H637Y"
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              {
+                                "name": "NODE_0000017",
+                                "node_attrs": {
+                                  "div": 0.019766388922105266,
+                                  "num_date": {
+                                    "value": 1990.1796583981586,
+                                    "confidence": [
+                                      1989.8546633929652,
+                                      1990.850019040491
+                                    ]
+                                  },
+                                  "region": {
+                                    "value": "Oceania",
+                                    "confidence": {
+                                      "Oceania": 0.9999818947566361
+                                    },
+                                    "entropy": 0.00021580182378516297
+                                  },
+                                  "country": {
+                                    "value": "French Polynesia",
+                                    "confidence": {
+                                      "Cook Islands": 0.0010052435555559496,
+                                      "French Polynesia": 0.9950660555092594,
+                                      "New Caledonia": 0.0016180549295384333,
+                                      "Wallis And Futuna": 0.001174918160015591
+                                    },
+                                    "entropy": 0.038383045538706556
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T878C",
+                                      "A952G",
+                                      "C1156T",
+                                      "G3559A",
+                                      "T3937C",
+                                      "T5815C",
+                                      "C6670T",
+                                      "T7351C",
+                                      "C8653T",
+                                      "T9071C",
+                                      "C9244T",
+                                      "A9457T"
+                                    ],
+                                    "NS5": [
+                                      "Y503H"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NS5: Y503H"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "PF91/090891_22130",
+                                    "node_attrs": {
+                                      "div": 0.020608174559258813,
+                                      "num_date": {
+                                        "value": 1991.6041095890412,
+                                        "confidence": [
+                                          1991.6041095890412,
+                                          1991.6041095890412
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920476",
+                                      "accession": "JQ920476",
+                                      "author": {
+                                        "author": "Aubry et al",
+                                        "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                        "journal": "Unpublished",
+                                        "value": "Aubry et al"
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13
+                                      },
+                                      "country": {
+                                        "value": "French Polynesia",
+                                        "confidence": {
+                                          "French Polynesia": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T1483C",
+                                          "C1684T",
+                                          "G1837A",
+                                          "G2847A",
+                                          "T3931C",
+                                          "C6646T",
+                                          "C6875T",
+                                          "C7432T",
+                                          "T8428C"
+                                        ],
+                                        "NS1": [
+                                          "S145N"
+                                        ],
+                                        "NS4B": [
+                                          "P19S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NS1: S145N; NS4B: P19S"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "NODE_0000018",
+                                    "node_attrs": {
+                                      "div": 0.02182711835566237,
+                                      "num_date": {
+                                        "value": 1992.2677436572576,
+                                        "confidence": [
+                                          1991.8016380651327,
+                                          1992.7206821884672
+                                        ]
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 0.9999814762853371
+                                        },
+                                        "entropy": 0.00022036643424729857
+                                      },
+                                      "country": {
+                                        "value": "French Polynesia",
+                                        "confidence": {
+                                          "French Polynesia": 0.9840620139909759,
+                                          "Indonesia": 0.0018009206355137977,
+                                          "New Caledonia": 0.010039258240939562,
+                                          "Wallis And Futuna": 0.00273321828375172
+                                        },
+                                        "entropy": 0.09932161747291338
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "T271C",
+                                          "T1030C",
+                                          "T2059C",
+                                          "C2389A",
+                                          "C2401T",
+                                          "C2853T",
+                                          "T2934A",
+                                          "T3253C",
+                                          "G3482A",
+                                          "G4624A",
+                                          "C4861T",
+                                          "A5245G",
+                                          "C5530T",
+                                          "C5909T",
+                                          "T6727A",
+                                          "C7129T",
+                                          "T7474C",
+                                          "C7921T",
+                                          "C8209T",
+                                          "T9035C",
+                                          "C9095T",
+                                          "C9235T",
+                                          "T9979C"
+                                        ],
+                                        "NS1": [
+                                          "S147L",
+                                          "M174K"
+                                        ],
+                                        "NS2A": [
+                                          "A5T"
+                                        ],
+                                        "NS3": [
+                                          "P466S"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NS1: S147L, M174K; NS2A: A5T; NS3: P466S"
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "name": "PF93/200493_110185",
+                                        "node_attrs": {
+                                          "div": 0.02276278258217471,
+                                          "num_date": {
+                                            "value": 1993.3,
+                                            "confidence": [
+                                              1993.3,
+                                              1993.3
+                                            ]
+                                          },
+                                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920477",
+                                          "accession": "JQ920477",
+                                          "author": {
+                                            "author": "Aubry et al",
+                                            "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                            "journal": "Unpublished",
+                                            "value": "Aubry et al"
+                                          },
+                                          "region": {
+                                            "value": "Oceania",
+                                            "confidence": {
+                                              "Oceania": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          },
+                                          "country": {
+                                            "value": "French Polynesia",
+                                            "confidence": {
+                                              "French Polynesia": 1.0
+                                            },
+                                            "entropy": -1.000088900581841e-12
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "A340G",
+                                              "G1285T",
+                                              "A4639G",
+                                              "T5454C",
+                                              "G6544A",
+                                              "G6688A",
+                                              "G6949A",
+                                              "A7294G",
+                                              "A9529G"
+                                            ],
+                                            "NS3": [
+                                              "F314S"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "NS3: F314S"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "name": "NODE_0000019",
+                                        "node_attrs": {
+                                          "div": 0.022669092493252333,
+                                          "num_date": {
+                                            "value": 1993.2810046884495,
+                                            "confidence": [
+                                              1992.753654152977,
+                                              1993.8376595587993
+                                            ]
+                                          },
+                                          "region": {
+                                            "value": "Oceania",
+                                            "confidence": {
+                                              "Oceania": 0.999983567987821
+                                            },
+                                            "entropy": 0.00019745150855630443
+                                          },
+                                          "country": {
+                                            "value": "French Polynesia",
+                                            "confidence": {
+                                              "French Polynesia": 0.8886045624483176,
+                                              "Indonesia": 0.005543465771899265,
+                                              "New Caledonia": 0.09145792435123487,
+                                              "Wallis And Futuna": 0.010129890050721969
+                                            },
+                                            "entropy": 0.42496751163282753
+                                          }
+                                        },
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "T1972C",
+                                              "C3291T",
+                                              "G3736A",
+                                              "G3917A",
+                                              "G4135A",
+                                              "T4177C",
+                                              "C5785T",
+                                              "C8141T",
+                                              "T8596C"
+                                            ],
+                                            "NS1": [
+                                              "T293I"
+                                            ],
+                                            "NS2A": [
+                                              "V150I"
+                                            ]
+                                          },
+                                          "labels": {
+                                            "aa": "NS1: T293I; NS2A: V150I"
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "name": "NODE_0000020",
+                                            "node_attrs": {
+                                              "div": 0.022856084652482213,
+                                              "num_date": {
+                                                "value": 1993.7875256638413,
+                                                "confidence": [
+                                                  1993.140891905722,
+                                                  1994.2396954399835
+                                                ]
+                                              },
+                                              "region": {
+                                                "value": "Oceania",
+                                                "confidence": {
+                                                  "Oceania": 0.999983986181454
+                                                },
+                                                "entropy": 0.00019283921030677914
+                                              },
+                                              "country": {
+                                                "value": "French Polynesia",
+                                                "confidence": {
+                                                  "French Polynesia": 0.9821568011411602,
+                                                  "Indonesia": 0.001766889967954316,
+                                                  "New Caledonia": 0.01051806586907815,
+                                                  "Wallis And Futuna": 0.004280057681988296
+                                                },
+                                                "entropy": 0.10941602064801867
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T604C",
+                                                  "T5899C",
+                                                  "C9035T"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "PF94/136116",
+                                                "node_attrs": {
+                                                  "div": 0.023043076735792367,
+                                                  "num_date": {
+                                                    "value": 1994.10991196683,
+                                                    "confidence": [
+                                                      1994.0013698630137,
+                                                      1994.9986301369863
+                                                    ]
+                                                  },
+                                                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744685",
+                                                  "accession": "AY744685",
+                                                  "author": {
+                                                    "author": "Roche et al",
+                                                    "title": "Dengue-3 virus genomic differences that correlate with in vitro phenotype on a human cell line but not with disease severity",
+                                                    "journal": "Microbes Infect. 9 (1), 63-69 (2007)",
+                                                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/17196421",
+                                                    "value": "Roche et al"
+                                                  },
+                                                  "region": {
+                                                    "value": "Oceania",
+                                                    "confidence": {
+                                                      "Oceania": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "French Polynesia",
+                                                    "confidence": {
+                                                      "French Polynesia": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C1398T",
+                                                      "A2345G"
+                                                    ],
+                                                    "E": [
+                                                      "T155M",
+                                                      "T471A"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "E: T155M, T471A"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000021",
+                                                "node_attrs": {
+                                                  "div": 0.022949572685936347,
+                                                  "num_date": {
+                                                    "value": 1994.0815442890917,
+                                                    "confidence": [
+                                                      1993.2589076896097,
+                                                      1994.36456346188
+                                                    ]
+                                                  },
+                                                  "region": {
+                                                    "value": "Oceania",
+                                                    "confidence": {
+                                                      "Oceania": 0.9999839960066941
+                                                    },
+                                                    "entropy": 0.0001927307165749653
+                                                  },
+                                                  "country": {
+                                                    "value": "French Polynesia",
+                                                    "confidence": {
+                                                      "French Polynesia": 0.9817378135345189,
+                                                      "Indonesia": 0.0017850393899290005,
+                                                      "New Caledonia": 0.004081337951190381,
+                                                      "Wallis And Futuna": 0.011105351937658674
+                                                    },
+                                                    "entropy": 0.11118383798778317
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "C6010T"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "PF95/190795_20064",
+                                                    "node_attrs": {
+                                                      "div": 0.024072671607543977,
+                                                      "num_date": {
+                                                        "value": 1995.5465753424658,
+                                                        "confidence": [
+                                                          1995.5465753424658,
+                                                          1995.5465753424658
+                                                        ]
+                                                      },
+                                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920478",
+                                                      "accession": "JQ920478",
+                                                      "author": {
+                                                        "author": "Aubry et al",
+                                                        "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                        "journal": "Unpublished",
+                                                        "value": "Aubry et al"
+                                                      },
+                                                      "region": {
+                                                        "value": "Oceania",
+                                                        "confidence": {
+                                                          "Oceania": 1.0
+                                                        },
+                                                        "entropy": -1.000088900581841e-12
+                                                      },
+                                                      "country": {
+                                                        "value": "French Polynesia",
+                                                        "confidence": {
+                                                          "French Polynesia": 1.0
+                                                        },
+                                                        "entropy": -1.000088900581841e-12
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "G339A",
+                                                          "G1748A",
+                                                          "C2491T",
+                                                          "T3291C",
+                                                          "T5125C",
+                                                          "A6421G",
+                                                          "A7735G",
+                                                          "G8561C",
+                                                          "T8914C",
+                                                          "T8947C",
+                                                          "C9613T",
+                                                          "T10069C"
+                                                        ],
+                                                        "C": [
+                                                          "R82K"
+                                                        ],
+                                                        "E": [
+                                                          "G272R"
+                                                        ],
+                                                        "NS1": [
+                                                          "I293T"
+                                                        ],
+                                                        "NS5": [
+                                                          "V333L"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "C: R82K; E: G272R; NS1: I293T; NS5: V333L"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000022",
+                                                    "node_attrs": {
+                                                      "div": 0.023230085208291056,
+                                                      "num_date": {
+                                                        "value": 1994.50844901188,
+                                                        "confidence": [
+                                                          1993.7418404647751,
+                                                          1994.7744504685431
+                                                        ]
+                                                      },
+                                                      "region": {
+                                                        "value": "Oceania",
+                                                        "confidence": {
+                                                          "Oceania": 0.9999840045267537
+                                                        },
+                                                        "entropy": 0.0001926366302159033
+                                                      },
+                                                      "country": {
+                                                        "value": "French Polynesia",
+                                                        "confidence": {
+                                                          "French Polynesia": 0.8838169242131859,
+                                                          "Indonesia": 0.005517596335884711,
+                                                          "New Caledonia": 0.009307442439095884,
+                                                          "Wallis And Futuna": 0.09713035929876866
+                                                        },
+                                                        "entropy": 0.4336226695173762
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C2488T",
+                                                          "G3036A",
+                                                          "A4747G"
+                                                        ],
+                                                        "NS1": [
+                                                          "G208E"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "NS1: G208E"
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "WF95/050495_1650",
+                                                        "node_attrs": {
+                                                          "div": 0.023697685832418203,
+                                                          "num_date": {
+                                                            "value": 1995.2589041095891,
+                                                            "confidence": [
+                                                              1995.2589041095891,
+                                                              1995.2589041095891
+                                                            ]
+                                                          },
+                                                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920488",
+                                                          "accession": "JQ920488",
+                                                          "author": {
+                                                            "author": "Aubry et al",
+                                                            "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                            "journal": "Unpublished",
+                                                            "value": "Aubry et al"
+                                                          },
+                                                          "region": {
+                                                            "value": "Oceania",
+                                                            "confidence": {
+                                                              "Oceania": 1.0
+                                                            },
+                                                            "entropy": -1.000088900581841e-12
+                                                          },
+                                                          "country": {
+                                                            "value": "Wallis And Futuna",
+                                                            "confidence": {
+                                                              "Wallis And Futuna": 1.0
+                                                            },
+                                                            "entropy": -1.000088900581841e-12
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A1663G",
+                                                              "T2315C",
+                                                              "A4769G",
+                                                              "T5242C",
+                                                              "C5500T"
+                                                            ],
+                                                            "NS3": [
+                                                              "S86G"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "NS3: S86G"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000023",
+                                                        "node_attrs": {
+                                                          "div": 0.024446703048655306,
+                                                          "num_date": {
+                                                            "value": 1995.7784171597586,
+                                                            "confidence": [
+                                                              1995.4583019646848,
+                                                              1996.1243169398906
+                                                            ]
+                                                          },
+                                                          "region": {
+                                                            "value": "Oceania",
+                                                            "confidence": {
+                                                              "Oceania": 0.9999843647307624
+                                                            },
+                                                            "entropy": 0.00018865474274471552
+                                                          },
+                                                          "country": {
+                                                            "value": "French Polynesia",
+                                                            "confidence": {
+                                                              "French Polynesia": 0.9870900326600189,
+                                                              "Indonesia": 0.0014328632920013484,
+                                                              "New Caledonia": 0.0020513981287685816,
+                                                              "Wallis And Futuna": 0.008389049014466937
+                                                            },
+                                                            "entropy": 0.0827577479588261
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A145G",
+                                                              "G445A",
+                                                              "T1114C",
+                                                              "G1120A",
+                                                              "T1568C",
+                                                              "C3193T",
+                                                              "C3585T",
+                                                              "C3630T",
+                                                              "C3988T",
+                                                              "C4927T",
+                                                              "T6424C",
+                                                              "C7207T",
+                                                              "C8980T"
+                                                            ],
+                                                            "E": [
+                                                              "F212L"
+                                                            ],
+                                                            "NS2A": [
+                                                              "T39M",
+                                                              "A54V"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "E: F212L; NS2A: T39M, A54V"
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "PF96/150296_46183",
+                                                            "node_attrs": {
+                                                              "div": 0.02463370928111728,
+                                                              "num_date": {
+                                                                "value": 1996.1243169398906,
+                                                                "confidence": [
+                                                                  1996.1243169398906,
+                                                                  1996.1243169398906
+                                                                ]
+                                                              },
+                                                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920479",
+                                                              "accession": "JQ920479",
+                                                              "author": {
+                                                                "author": "Aubry et al",
+                                                                "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                                "journal": "Unpublished",
+                                                                "value": "Aubry et al"
+                                                              },
+                                                              "region": {
+                                                                "value": "Oceania",
+                                                                "confidence": {
+                                                                  "Oceania": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12
+                                                              },
+                                                              "country": {
+                                                                "value": "French Polynesia",
+                                                                "confidence": {
+                                                                  "French Polynesia": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T7834C",
+                                                                  "T7835A"
+                                                                ],
+                                                                "NS5": [
+                                                                  "C91S"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "NS5: C91S"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "PF96/040996_24881",
+                                                            "node_attrs": {
+                                                              "div": 0.02510152352783669,
+                                                              "num_date": {
+                                                                "value": 1996.6762295081967,
+                                                                "confidence": [
+                                                                  1996.6762295081967,
+                                                                  1996.6762295081967
+                                                                ]
+                                                              },
+                                                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920480",
+                                                              "accession": "JQ920480",
+                                                              "author": {
+                                                                "author": "Aubry et al",
+                                                                "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                                "journal": "Unpublished",
+                                                                "value": "Aubry et al"
+                                                              },
+                                                              "region": {
+                                                                "value": "Oceania",
+                                                                "confidence": {
+                                                                  "Oceania": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12
+                                                              },
+                                                              "country": {
+                                                                "value": "French Polynesia",
+                                                                "confidence": {
+                                                                  "French Polynesia": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "A1459T",
+                                                                  "C2473T",
+                                                                  "T3291C",
+                                                                  "T5707C",
+                                                                  "G5872A",
+                                                                  "T7237A",
+                                                                  "G7468A"
+                                                                ],
+                                                                "E": [
+                                                                  "E175D"
+                                                                ],
+                                                                "NS1": [
+                                                                  "I293T"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "E: E175D; NS1: I293T"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "name": "NODE_0000024",
+                                            "node_attrs": {
+                                              "div": 0.023323853476355814,
+                                              "num_date": {
+                                                "value": 1994.051341801808,
+                                                "confidence": [
+                                                  1993.6778645704865,
+                                                  1994.7102889355042
+                                                ]
+                                              },
+                                              "region": {
+                                                "value": "Oceania",
+                                                "confidence": {
+                                                  "Oceania": 0.999984346308287
+                                                },
+                                                "entropy": 0.00018885859437770238
+                                              },
+                                              "country": {
+                                                "value": "New Caledonia",
+                                                "confidence": {
+                                                  "French Polynesia": 0.06898680012074113,
+                                                  "Indonesia": 0.0033400844117359627,
+                                                  "New Caledonia": 0.9165383304774019,
+                                                  "Wallis And Futuna": 0.008214301713149278
+                                                },
+                                                "entropy": 0.3418311237183256
+                                              }
+                                            },
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A1870G",
+                                                  "C2665T",
+                                                  "T2853C",
+                                                  "G4477A",
+                                                  "C5836T",
+                                                  "G9970A"
+                                                ],
+                                                "NS1": [
+                                                  "L147S"
+                                                ]
+                                              },
+                                              "labels": {
+                                                "aa": "NS1: L147S"
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "name": "NC95/170895_3750",
+                                                "node_attrs": {
+                                                  "div": 0.024259471412095626,
+                                                  "num_date": {
+                                                    "value": 1995.6260273972603,
+                                                    "confidence": [
+                                                      1995.6260273972603,
+                                                      1995.6260273972603
+                                                    ]
+                                                  },
+                                                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920483",
+                                                  "accession": "JQ920483",
+                                                  "author": {
+                                                    "author": "Aubry et al",
+                                                    "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                    "journal": "Unpublished",
+                                                    "value": "Aubry et al"
+                                                  },
+                                                  "region": {
+                                                    "value": "Oceania",
+                                                    "confidence": {
+                                                      "Oceania": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12
+                                                  },
+                                                  "country": {
+                                                    "value": "New Caledonia",
+                                                    "confidence": {
+                                                      "New Caledonia": 1.0
+                                                    },
+                                                    "entropy": -1.000088900581841e-12
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "G1193A",
+                                                      "T1951C",
+                                                      "T3698C",
+                                                      "C4462T",
+                                                      "C4828T",
+                                                      "T6233C",
+                                                      "C6535T",
+                                                      "C8812T",
+                                                      "A9486G",
+                                                      "A9568G"
+                                                    ],
+                                                    "E": [
+                                                      "D87N"
+                                                    ],
+                                                    "NS5": [
+                                                      "K641R"
+                                                    ]
+                                                  },
+                                                  "labels": {
+                                                    "aa": "E: D87N; NS5: K641R"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "name": "NODE_0000025",
+                                                "node_attrs": {
+                                                  "div": 0.02341734127141814,
+                                                  "num_date": {
+                                                    "value": 1994.1702333265016,
+                                                    "confidence": [
+                                                      1993.9493116763847,
+                                                      1994.8060559449693
+                                                    ]
+                                                  },
+                                                  "region": {
+                                                    "value": "Oceania",
+                                                    "confidence": {
+                                                      "Oceania": 0.9999996270686557
+                                                    },
+                                                    "entropy": 5.893011111106566e-06
+                                                  },
+                                                  "country": {
+                                                    "value": "New Caledonia",
+                                                    "confidence": {
+                                                      "New Caledonia": 0.9986225743803044
+                                                    },
+                                                    "entropy": 0.011732990351296916
+                                                  }
+                                                },
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A3715G"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "name": "NC95/240295_418",
+                                                    "node_attrs": {
+                                                      "div": 0.024259515590228813,
+                                                      "num_date": {
+                                                        "value": 1995.1493150684933,
+                                                        "confidence": [
+                                                          1995.1493150684933,
+                                                          1995.1493150684933
+                                                        ]
+                                                      },
+                                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920482",
+                                                      "accession": "JQ920482",
+                                                      "author": {
+                                                        "author": "Aubry et al",
+                                                        "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                        "journal": "Unpublished",
+                                                        "value": "Aubry et al"
+                                                      },
+                                                      "region": {
+                                                        "value": "Oceania",
+                                                        "confidence": {
+                                                          "Oceania": 1.0
+                                                        },
+                                                        "entropy": -1.000088900581841e-12
+                                                      },
+                                                      "country": {
+                                                        "value": "New Caledonia",
+                                                        "confidence": {
+                                                          "New Caledonia": 1.0
+                                                        },
+                                                        "entropy": -1.000088900581841e-12
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1600A",
+                                                          "T3733G",
+                                                          "A3856G",
+                                                          "G6241A",
+                                                          "T6424C",
+                                                          "C6535T",
+                                                          "T7921C",
+                                                          "T8141C",
+                                                          "T8209C"
+                                                        ]
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NC95/271295_4197",
+                                                    "node_attrs": {
+                                                      "div": 0.024165701837283837,
+                                                      "num_date": {
+                                                        "value": 1995.9876712328767,
+                                                        "confidence": [
+                                                          1995.9876712328767,
+                                                          1995.9876712328767
+                                                        ]
+                                                      },
+                                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920484",
+                                                      "accession": "JQ920484",
+                                                      "author": {
+                                                        "author": "Aubry et al",
+                                                        "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                        "journal": "Unpublished",
+                                                        "value": "Aubry et al"
+                                                      },
+                                                      "region": {
+                                                        "value": "Oceania",
+                                                        "confidence": {
+                                                          "Oceania": 1.0
+                                                        },
+                                                        "entropy": -1.000088900581841e-12
+                                                      },
+                                                      "country": {
+                                                        "value": "New Caledonia",
+                                                        "confidence": {
+                                                          "New Caledonia": 1.0
+                                                        },
+                                                        "entropy": -1.000088900581841e-12
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1783C",
+                                                          "C2005T",
+                                                          "T2275C",
+                                                          "C2473T",
+                                                          "T2691C",
+                                                          "A3073G",
+                                                          "C4691T",
+                                                          "T6295C"
+                                                        ],
+                                                        "NS1": [
+                                                          "V93A"
+                                                        ],
+                                                        "NS3": [
+                                                          "H60Y"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "NS1: V93A; NS3: H60Y"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "NODE_0000027",
+                                                    "node_attrs": {
+                                                      "div": 0.023604332731256266,
+                                                      "num_date": {
+                                                        "value": 1994.5536951213353,
+                                                        "confidence": [
+                                                          1994.185600914425,
+                                                          1994.9156556304029
+                                                        ]
+                                                      },
+                                                      "region": {
+                                                        "value": "Oceania",
+                                                        "confidence": {
+                                                          "Oceania": 0.9999797445316989
+                                                        },
+                                                        "entropy": 0.00023915784422347047
+                                                      },
+                                                      "country": {
+                                                        "value": "New Caledonia",
+                                                        "confidence": {
+                                                          "French Polynesia": 0.0023932035652304193,
+                                                          "New Caledonia": 0.9844573402591098,
+                                                          "Wallis And Futuna": 0.011501185573008778
+                                                        },
+                                                        "entropy": 0.0934984935264484
+                                                      }
+                                                    },
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T6796C",
+                                                          "C7680T"
+                                                        ],
+                                                        "NS5": [
+                                                          "T39I"
+                                                        ]
+                                                      },
+                                                      "labels": {
+                                                        "aa": "NS5: T39I"
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "name": "NC96/181196_4690",
+                                                        "node_attrs": {
+                                                          "div": 0.025008473595844415,
+                                                          "num_date": {
+                                                            "value": 1996.8811475409836,
+                                                            "confidence": [
+                                                              1996.8811475409836,
+                                                              1996.8811475409836
+                                                            ]
+                                                          },
+                                                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920486",
+                                                          "accession": "JQ920486",
+                                                          "author": {
+                                                            "author": "Aubry et al",
+                                                            "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                            "journal": "Unpublished",
+                                                            "value": "Aubry et al"
+                                                          },
+                                                          "region": {
+                                                            "value": "Oceania",
+                                                            "confidence": {
+                                                              "Oceania": 1.0
+                                                            },
+                                                            "entropy": -1.000088900581841e-12
+                                                          },
+                                                          "country": {
+                                                            "value": "New Caledonia",
+                                                            "confidence": {
+                                                              "New Caledonia": 1.0
+                                                            },
+                                                            "entropy": -1.000088900581841e-12
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "C859T",
+                                                              "G991T",
+                                                              "T1298C",
+                                                              "G1642A",
+                                                              "A2656G",
+                                                              "T2691C",
+                                                              "C3000T",
+                                                              "T5251C",
+                                                              "A6859G",
+                                                              "C7738T",
+                                                              "A8278G",
+                                                              "T8626C",
+                                                              "T8653C",
+                                                              "T8738C",
+                                                              "G10084A"
+                                                            ],
+                                                            "NS1": [
+                                                              "V93A",
+                                                              "A196V"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "NS1: V93A, A196V"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "name": "NODE_0000028",
+                                                        "node_attrs": {
+                                                          "div": 0.02388484727262313,
+                                                          "num_date": {
+                                                            "value": 1994.9496939566425,
+                                                            "confidence": [
+                                                              1994.5438531707925,
+                                                              1995.1425144645593
+                                                            ]
+                                                          },
+                                                          "region": {
+                                                            "value": "Oceania",
+                                                            "confidence": {
+                                                              "Oceania": 0.9999837804598465
+                                                            },
+                                                            "entropy": 0.00019510948124858027
+                                                          },
+                                                          "country": {
+                                                            "value": "New Caledonia",
+                                                            "confidence": {
+                                                              "French Polynesia": 0.0070838106403194575,
+                                                              "Indonesia": 0.0026344717405772495,
+                                                              "New Caledonia": 0.8918230856663666,
+                                                              "Wallis And Futuna": 0.09578061445476065
+                                                            },
+                                                            "entropy": 0.39520000277597134
+                                                          }
+                                                        },
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G1136A",
+                                                              "G7864A",
+                                                              "G8384A"
+                                                            ],
+                                                            "E": [
+                                                              "V68I"
+                                                            ],
+                                                            "NS5": [
+                                                              "D274N"
+                                                            ]
+                                                          },
+                                                          "labels": {
+                                                            "aa": "E: V68I; NS5: D274N"
+                                                          }
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "name": "WF95/090595_2448",
+                                                            "node_attrs": {
+                                                              "div": 0.02425890226094249,
+                                                              "num_date": {
+                                                                "value": 1995.3520547945207,
+                                                                "confidence": [
+                                                                  1995.3520547945207,
+                                                                  1995.3520547945207
+                                                                ]
+                                                              },
+                                                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920489",
+                                                              "accession": "JQ920489",
+                                                              "author": {
+                                                                "author": "Aubry et al",
+                                                                "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                                "journal": "Unpublished",
+                                                                "value": "Aubry et al"
+                                                              },
+                                                              "region": {
+                                                                "value": "Oceania",
+                                                                "confidence": {
+                                                                  "Oceania": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12
+                                                              },
+                                                              "country": {
+                                                                "value": "Wallis And Futuna",
+                                                                "confidence": {
+                                                                  "Wallis And Futuna": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T2056C",
+                                                                  "A6267G",
+                                                                  "C6452T",
+                                                                  "T9787C"
+                                                                ],
+                                                                "NS3": [
+                                                                  "K585R"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "NS3: K585R"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "name": "NC96/211096_4631",
+                                                            "node_attrs": {
+                                                              "div": 0.02547663751067779,
+                                                              "num_date": {
+                                                                "value": 1996.8046448087432,
+                                                                "confidence": [
+                                                                  1996.8046448087432,
+                                                                  1996.8046448087432
+                                                                ]
+                                                              },
+                                                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ920485",
+                                                              "accession": "JQ920485",
+                                                              "author": {
+                                                                "author": "Aubry et al",
+                                                                "title": "Epidemiology and genetic evolution of Dengue viruses in the South Pacific island countries",
+                                                                "journal": "Unpublished",
+                                                                "value": "Aubry et al"
+                                                              },
+                                                              "region": {
+                                                                "value": "Oceania",
+                                                                "confidence": {
+                                                                  "Oceania": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12
+                                                              },
+                                                              "country": {
+                                                                "value": "New Caledonia",
+                                                                "confidence": {
+                                                                  "New Caledonia": 1.0
+                                                                },
+                                                                "entropy": -1.000088900581841e-12
+                                                              }
+                                                            },
+                                                            "branch_attrs": {
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T1135C",
+                                                                  "C1822T",
+                                                                  "C2530T",
+                                                                  "T2936C",
+                                                                  "G4030A",
+                                                                  "G4243T",
+                                                                  "G4321A",
+                                                                  "C5040T",
+                                                                  "A5200G",
+                                                                  "T5671C",
+                                                                  "C6790T",
+                                                                  "T6946A",
+                                                                  "A6958G",
+                                                                  "A8872G",
+                                                                  "A9424G",
+                                                                  "T10247C",
+                                                                  "C10379T"
+                                                                ],
+                                                                "NS1": [
+                                                                  "Y175H"
+                                                                ],
+                                                                "NS3": [
+                                                                  "T176I"
+                                                                ],
+                                                                "NS5": [
+                                                                  "S895P"
+                                                                ]
+                                                              },
+                                                              "labels": {
+                                                                "aa": "NS1: Y175H; NS3: T176I; NS5: S895P"
+                                                              }
+                                                            }
+                                                          }
+                                                        ]
+                                                      }
+                                                    ]
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

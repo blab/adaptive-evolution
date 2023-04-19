@@ -1,0 +1,475 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv2_C-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    882583 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:27:01 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv2_C-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0732138 secs using 91.54% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0376921 secs using 80.35% CPU
+Alignment has 373 sequences with 10723 columns, 4324 distinct patterns
+3067 parsimony-informative, 1327 singleton sites, 6329 constant sites
+                                                                                                                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00388503 secs using 90.73% CPU
+   1  DC357Y11                                                                                                                                               0.00%    passed     99.97%
+   2  DC378Y11                                                                                                                                               0.00%    passed     99.99%
+   3  DC389Y11                                                                                                                                               0.00%    passed     99.97%
+   4  DC331Y11                                                                                                                                               0.00%    passed     99.92%
+   5  DC635Y12                                                                                                                                               0.00%    passed     99.94%
+   6  DC652Y12                                                                                                                                               0.00%    passed     99.94%
+   7  DC629Y12                                                                                                                                               0.00%    passed     99.94%
+   8  DC643Y12                                                                                                                                               0.00%    passed     99.94%
+   9  DC677Y12                                                                                                                                               0.00%    passed     99.94%
+  10  DC657Y12                                                                                                                                               0.00%    passed     99.94%
+  11  DC597Y12                                                                                                                                               0.00%    passed     99.94%
+  12  DC618Y12                                                                                                                                               0.00%    passed     99.91%
+  13  DC704Y12                                                                                                                                               0.00%    passed     99.92%
+  14  DC619Y12                                                                                                                                               0.00%    passed     99.94%
+  15  DC661Y12                                                                                                                                               0.00%    passed     99.94%
+  16  DC645Y12                                                                                                                                               0.00%    passed     99.95%
+  17  DC654Y12                                                                                                                                               0.00%    passed     99.94%
+  18  DC641Y12                                                                                                                                               0.00%    passed     99.94%
+  19  DC636Y12                                                                                                                                               0.00%    passed     99.95%
+  20  DC669Y12                                                                                                                                               0.00%    passed     99.93%
+  21  DC666Y12                                                                                                                                               0.45%    passed     99.90%
+  22  DC610Y12                                                                                                                                               0.26%    passed     99.98%
+  23  DC735Y12                                                                                                                                               0.00%    passed     99.91%
+  24  DC730Y12                                                                                                                                               0.00%    passed     99.91%
+  25  DC763Y12                                                                                                                                               0.00%    passed     99.86%
+  26  DC621Y12                                                                                                                                               0.00%    passed     99.91%
+  27  DC391Y11                                                                                                                                               0.00%    passed     99.77%
+  28  DC395Y11                                                                                                                                               0.00%    passed     99.79%
+  29  DC380Y11                                                                                                                                               0.00%    passed     99.93%
+  30  DC430Y11                                                                                                                                               0.00%    passed     99.89%
+  31  DC429Y11                                                                                                                                               0.00%    passed     99.91%
+  32  DC403Y11                                                                                                                                               0.00%    passed     99.91%
+  33  DC427Y11                                                                                                                                               0.00%    passed     99.91%
+  34  DC348Y11                                                                                                                                               0.49%    passed     99.90%
+  35  DC408Y11                                                                                                                                               0.26%    passed     99.59%
+  36  DC415Y11                                                                                                                                               0.00%    passed     99.82%
+  37  DC316Y11                                                                                                                                               0.41%    passed     99.73%
+  38  DC311Y11                                                                                                                                               0.56%    passed     99.90%
+  39  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT42_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.00%    passed     99.94%
+  40  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT13_DELIM-REHMAVSMMUTQASNFRLZJ_2012                                                       0.00%    passed     99.86%
+  41  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT39_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.05%    passed     99.89%
+  42  DC505Y11                                                                                                                                               0.35%    passed     99.81%
+  43  DC367Y11                                                                                                                                               0.00%    passed     99.80%
+  44  DC412Y11                                                                                                                                               4.20%    passed     98.50%
+  45  SG_EHI_D284666Y10                                                                                                                                      5.10%    passed     99.88%
+  46  SG_EHI_D2847Y09                                                                                                                                        5.10%    passed     99.25%
+  47  DC814Y12                                                                                                                                               0.01%    passed     99.72%
+  48  DC792Y12                                                                                                                                               0.00%    passed     99.30%
+  49  DC759Y12                                                                                                                                               0.00%    passed     99.39%
+  50  DC793Y12                                                                                                                                               0.00%    passed     99.41%
+  51  DC795Y12                                                                                                                                               0.00%    passed     99.89%
+  52  DC648Y12                                                                                                                                               0.00%    passed     99.85%
+  53  E1379Y12                                                                                                                                               0.00%    passed     99.81%
+  54  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT30_DELIM-REHMAVSMMUTQASNFRLZJ_2012                                                       0.00%    passed     99.88%
+  55  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT32_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.03%    passed     99.85%
+  56  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT50_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.03%    passed     99.84%
+  57  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT31_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.01%    passed     99.78%
+  58  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT26_DELIM-REHMAVSMMUTQASNFRLZJ_2012                                                       0.01%    passed     99.86%
+  59  E1519Y13                                                                                                                                               3.74%    passed     99.18%
+  60  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT34_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.02%    passed     99.86%
+  61  SG_EHI_D2_DELIM-REHMAVSMMUTQASNFRLZJ_03157Y13                                                                                                          0.00%    passed     99.15%
+  62  DC410Y11                                                                                                                                               0.83%    passed     99.98%
+  63  DC353Y11                                                                                                                                               0.00%    passed     99.95%
+  64  SGEHI_D2_0194Y08                                                                                                                                       5.10%    passed     99.29%
+  65  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_07K3608DK1_DELIM-REHMAVSMMUTQASNFRLZJ_2008                                             0.01%    passed     99.85%
+  66  SGEHI_D2_0431Y07                                                                                                                                       5.11%    passed     98.50%
+  67  SGEHI_D2_0522Y07                                                                                                                                       5.10%    passed     98.95%
+  68  SG_EHI_D2_DELIM-REHMAVSMMUTQASNFRLZJ_0466Y07                                                                                                           0.00%    passed     99.58%
+  69  SG_EHI_D20304Y07                                                                                                                                       5.10%    passed     98.36%
+  70  SGEHI_D2_0615Y08                                                                                                                                       5.10%    passed     98.96%
+  71  SG_EHI_D291527Y10                                                                                                                                      5.10%    passed     98.52%
+  72  SG_EHI_D286998Y10                                                                                                                                      5.10%    passed     98.52%
+  73  SG_EHI_D2276Y09                                                                                                                                        5.10%    passed     99.41%
+  74  SG_EHI_D219211Y10                                                                                                                                      5.10%    passed     99.07%
+  75  DENV2_1365                                                                                                                                             4.30%    passed     99.17%
+  76  SG_EHI_D21158Y08                                                                                                                                       5.10%    passed     97.04%
+  77  SGEHI_D2_1158Y08                                                                                                                                       1.83%    passed     99.86%
+  78  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT27_DELIM-REHMAVSMMUTQASNFRLZJ_2012                                                       0.02%    passed    100.00%
+  79  MKS_0068                                                                                                                                               0.00%    passed     98.14%
+  80  MKS_2204                                                                                                                                               0.00%    passed     98.12%
+  81  MKS_0297                                                                                                                                               0.00%    passed     98.18%
+  82  MKS_2145                                                                                                                                               0.00%    passed     97.73%
+  83  MKS_2024                                                                                                                                               0.00%    passed     98.75%
+  84  MKS_WS73                                                                                                                                               0.00%    passed     94.82%
+  85  MKS_2210                                                                                                                                               0.00%    passed     98.46%
+  86  MKS_2234                                                                                                                                               0.00%    passed     97.96%
+  87  MKS_0502                                                                                                                                               0.00%    passed     99.58%
+  88  SI_2016                                                                                                                                                0.00%    passed     97.09%
+  89  PG_CN10_13                                                                                                                                             0.00%    passed     97.02%
+  90  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDzs_DELIM-REHMAVSMMUTQASNFRLZJ_GD16161_DELIM-REHMAVSMMUTQASNFRLZJ_2016_New_Guinea_     0.01%    passed     98.22%
+  91  V100511                                                                                                                                                0.62%    passed     99.35%
+  92  GD01_DELIM-REHMAVSMMUTQASNFRLZJ_03                                                                                                                     0.00%    passed     99.67%
+  93  SGEHI_D2_0685Y04                                                                                                                                       5.10%    passed     97.07%
+  94  SGEHI_D2_0377Y04                                                                                                                                       5.10%    passed     96.57%
+  95  SGEHI_D2_0578Y05                                                                                                                                       5.10%    passed     99.32%
+  96  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_GU_DELIM-REHMAVSMMUTQASNFRLZJ_BID_V2950_DELIM-REHMAVSMMUTQASNFRLZJ_2001                                              0.21%    passed     99.74%
+  97  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_D2Y98P_PP1_DELIM-REHMAVSMMUTQASNFRLZJ_2009                                             0.00%    passed     98.98%
+  98  MKS_0071                                                                                                                                               0.00%    passed     99.85%
+  99  DS31_291005                                                                                                                                            0.13%    passed     99.46%
+ 100  DS04_221205                                                                                                                                            0.13%    passed     97.74%
+ 101  GD09_DELIM-REHMAVSMMUTQASNFRLZJ_93                                                                                                                     0.00%    passed     95.90%
+ 102  GD06_DELIM-REHMAVSMMUTQASNFRLZJ_93                                                                                                                     0.00%    passed     95.90%
+ 103  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDyf_DELIM-REHMAVSMMUTQASNFRLZJ_D14070_DELIM-REHMAVSMMUTQASNFRLZJ_2014                  0.01%    passed     99.81%
+ 104  TM198                                                                                                                                                  6.05%    passed     99.95%
+ 105  ZH413_2                                                                                                                                                0.47%    passed     99.82%
+ 106  GZ17XN21707                                                                                                                                            1.54%    passed     96.44%
+ 107  JMB_010                                                                                                                                                0.00%    passed     94.40%
+ 108  ID_DELIM-REHMAVSMMUTQASNFRLZJ_JMB_001M_DELIM-REHMAVSMMUTQASNFRLZJ_2016                                                                                 0.25%    passed     92.66%
+ 109  ID_DELIM-REHMAVSMMUTQASNFRLZJ_JMB_001B_DELIM-REHMAVSMMUTQASNFRLZJ_2016                                                                                 0.44%    passed     92.28%
+ 110  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT41_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.01%    passed     99.84%
+ 111  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT38_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.03%    passed     99.83%
+ 112  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT10_DELIM-REHMAVSMMUTQASNFRLZJ_2012                                                       0.01%    passed     99.91%
+ 113  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT51_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.09%    passed     99.47%
+ 114  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT44_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.25%    passed     99.80%
+ 115  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT40_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.02%    passed     99.85%
+ 116  SG_EHI_D2_DELIM-REHMAVSMMUTQASNFRLZJ_09423Y14                                                                                                          0.00%    passed     99.39%
+ 117  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT46_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.04%    passed     99.95%
+ 118  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_ID_DELIM-REHMAVSMMUTQASNFRLZJ_1046DN_DELIM-REHMAVSMMUTQASNFRLZJ_1976                                                 0.02%    passed     99.32%
+ 119  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_ID_DELIM-REHMAVSMMUTQASNFRLZJ_1023DN_DELIM-REHMAVSMMUTQASNFRLZJ_1975                                                 0.01%    passed     99.81%
+ 120  SGEHI_D2_0345Y05                                                                                                                                       5.10%    passed     99.66%
+ 121  SGEHI_D2_0462Y05                                                                                                                                       5.10%    passed     99.51%
+ 122  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_05K4137DK1_DELIM-REHMAVSMMUTQASNFRLZJ_2005                                                 0.00%    passed     99.74%
+ 123  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_05K3330DK1_DELIM-REHMAVSMMUTQASNFRLZJ_2005                                                 0.00%    passed     99.86%
+ 124  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_05K3295DK1_DELIM-REHMAVSMMUTQASNFRLZJ_2005                                                 0.00%    passed     99.91%
+ 125  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_05K4155DK1_DELIM-REHMAVSMMUTQASNFRLZJ_2005                                                 0.00%    passed     99.85%
+ 126  Toulon_CNR_25679_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                                                                       2.45%    passed     95.00%
+ 127  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Taiwan_DELIM-REHMAVSMMUTQASNFRLZJ_704TN1506b                                                                             0.79%    passed     98.59%
+ 128  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Taiwan_DELIM-REHMAVSMMUTQASNFRLZJ_700TN1509a                                                                             0.79%    passed     98.72%
+ 129  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Taiwan_DELIM-REHMAVSMMUTQASNFRLZJ_704TN1505a                                                                             0.79%    passed     98.83%
+ 130  GZ16XN11140                                                                                                                                            1.54%    passed     97.89%
+ 131  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDsz_DELIM-REHMAVSMMUTQASNFRLZJ_D15328_DELIM-REHMAVSMMUTQASNFRLZJ_2015_Taiwan_          0.02%    passed     99.71%
+ 132  MKS_IF011                                                                                                                                              0.00%    passed     92.38%
+ 133  MKS_0099                                                                                                                                               0.00%    passed     92.63%
+ 134  MKS_2167                                                                                                                                               0.00%    passed     91.52%
+ 135  MKS_2032                                                                                                                                               0.00%    passed     92.61%
+ 136  MKS_2018                                                                                                                                               0.00%    passed     90.25%
+ 137  SGEHI_D2_0270Y05                                                                                                                                       5.10%    passed     92.06%
+ 138  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_VN_DELIM-REHMAVSMMUTQASNFRLZJ_BID_V735_DELIM-REHMAVSMMUTQASNFRLZJ_2006                                               0.42%    passed     99.75%
+ 139  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZ32_DELIM-REHMAVSMMUTQASNFRLZJ_2010                                                    0.00%    passed    100.00%
+ 140  GZ40                                                                                                                                                   0.00%    passed    100.00%
+ 141  DV01091                                                                                                                                                0.00%    passed     99.98%
+ 142  MKS_2198                                                                                                                                               0.00%    passed     99.92%
+ 143  MKS_2108                                                                                                                                               0.00%    passed     99.98%
+ 144  MKS_WS80                                                                                                                                               0.00%    passed     99.94%
+ 145  MKS_WS79a                                                                                                                                              0.00%    passed     99.96%
+ 146  GZ18XN20984                                                                                                                                            1.54%    passed     93.78%
+ 147  GZ18XN20677                                                                                                                                            1.54%    passed     94.76%
+ 148  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZDF615_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                 0.00%    passed     99.87%
+ 149  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZ1118_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                  0.00%    passed     99.95%
+ 150  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZDF595_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                 0.00%    passed     99.98%
+ 151  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZDF574_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                 0.00%    passed     99.88%
+ 152  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZDF31241_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                               0.00%    passed     99.84%
+ 153  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZDF571_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                 0.00%    passed     99.76%
+ 154  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZ05_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                    0.00%    passed     99.71%
+ 155  GZ8_15_DELIM-REHMAVSMMUTQASNFRLZJ_S_DELIM-REHMAVSMMUTQASNFRLZJ_GZ_DELIM-REHMAVSMMUTQASNFRLZJ_2014_DELIM-REHMAVSMMUTQASNFRLZJ_DEV2                      1.10%    passed     99.99%
+ 156  GZ8_12_DELIM-REHMAVSMMUTQASNFRLZJ_S_DELIM-REHMAVSMMUTQASNFRLZJ_Panyu_DELIM-REHMAVSMMUTQASNFRLZJ_2014_DELIM-REHMAVSMMUTQASNFRLZJ_DEV2                   4.08%    passed     99.88%
+ 157  GZ8_13_DELIM-REHMAVSMMUTQASNFRLZJ_S_DELIM-REHMAVSMMUTQASNFRLZJ_Yuexiu_DELIM-REHMAVSMMUTQASNFRLZJ_2014_DELIM-REHMAVSMMUTQASNFRLZJ_DEV2                  0.54%    passed     99.99%
+ 158  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_GZ25_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                    1.31%    passed     99.84%
+ 159  D2_K2_RIJ_059_DELIM-REHMAVSMMUTQASNFRLZJ_Dar_es_Salaam_2014                                                                                            0.54%    passed     99.88%
+ 160  GZ8_70_DELIM-REHMAVSMMUTQASNFRLZJ_M_DELIM-REHMAVSMMUTQASNFRLZJ_Baiyun_DELIM-REHMAVSMMUTQASNFRLZJ_2013_DELIM-REHMAVSMMUTQASNFRLZJ_DEV2                  0.54%    passed     99.65%
+ 161  GZ16XN11607                                                                                                                                            1.54%    passed     99.74%
+ 162  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT2_DELIM-REHMAVSMMUTQASNFRLZJ_2012                                                        0.01%    passed     96.77%
+ 163  SGEHI_D2_0204Y06                                                                                                                                       5.10%    passed     99.99%
+ 164  DENV2_671                                                                                                                                              1.87%    passed     95.98%
+ 165  TM61                                                                                                                                                   1.20%    passed     99.36%
+ 166  TM203                                                                                                                                                  4.08%    passed     99.22%
+ 167  TM103                                                                                                                                                  1.44%    passed     99.63%
+ 168  TM220                                                                                                                                                  1.73%    passed     99.76%
+ 169  TM113                                                                                                                                                  1.37%    passed     99.75%
+ 170  TM213                                                                                                                                                  6.11%    passed     99.75%
+ 171  TM74                                                                                                                                                   1.45%    passed     99.70%
+ 172  TM151                                                                                                                                                  1.59%    passed     99.76%
+ 173  TM26                                                                                                                                                   5.49%    passed     99.30%
+ 174  TM209                                                                                                                                                  1.50%    passed     99.75%
+ 175  TM280                                                                                                                                                  1.59%    passed     99.56%
+ 176  TM296                                                                                                                                                  8.26%    passed     99.71%
+ 177  TM135                                                                                                                                                  0.72%    passed     99.71%
+ 178  TM243                                                                                                                                                  1.42%    passed     99.14%
+ 179  TM101                                                                                                                                                  2.22%    passed     98.19%
+ 180  TM289                                                                                                                                                  1.63%    passed     97.51%
+ 181  TM120                                                                                                                                                  0.47%    passed     99.87%
+ 182  TM210                                                                                                                                                  2.18%    passed     97.90%
+ 183  TM39                                                                                                                                                   0.08%    passed     99.86%
+ 184  TM35                                                                                                                                                   1.45%    passed     99.86%
+ 185  TM38                                                                                                                                                   0.08%    passed     99.88%
+ 186  TM136                                                                                                                                                  0.08%    passed     99.85%
+ 187  TM266                                                                                                                                                  2.19%    passed     99.05%
+ 188  TM132                                                                                                                                                  0.08%    passed     99.53%
+ 189  TM121                                                                                                                                                  1.14%    passed     99.67%
+ 190  TM109                                                                                                                                                  0.12%    passed     99.33%
+ 191  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_17_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                      5.10%    passed     99.73%
+ 192  TM123                                                                                                                                                  1.13%    passed     99.35%
+ 193  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_316_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.11%    passed     99.95%
+ 194  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_67_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                      5.10%    passed     99.94%
+ 195  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_848_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.10%    passed     99.94%
+ 196  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_406_1_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                   5.10%    passed     99.89%
+ 197  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_406_2_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                   5.11%    passed     99.89%
+ 198  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_996_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.11%    passed     99.90%
+ 199  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_699_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.10%    passed     99.89%
+ 200  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_1312_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                    5.11%    passed     99.85%
+ 201  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_333_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.10%    passed     99.92%
+ 202  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_1536_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                    5.10%    passed     99.86%
+ 203  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Zhejiang_DELIM-REHMAVSMMUTQASNFRLZJ_HZ33_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                 0.34%    passed     99.66%
+ 204  GZ17XN21274                                                                                                                                            1.54%    passed     99.50%
+ 205  GZ18XN20669                                                                                                                                            1.54%    passed     97.92%
+ 206  HNQY20180008                                                                                                                                           0.08%    passed     99.68%
+ 207  HNQY2018004                                                                                                                                            0.10%    passed     99.81%
+ 208  HNQY2018005                                                                                                                                            0.15%    passed     99.55%
+ 209  HNQY20180084                                                                                                                                           0.11%    passed     99.54%
+ 210  HNQY20180091                                                                                                                                           0.09%    passed     99.31%
+ 211  GZ16XN18853                                                                                                                                            1.54%    passed     99.40%
+ 212  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_455_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.11%    passed     99.36%
+ 213  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_666_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.10%    passed     99.67%
+ 214  Th17_077DV2                                                                                                                                            0.48%    passed     99.74%
+ 215  Th16_026DV2                                                                                                                                            0.48%    passed     99.74%
+ 216  Th16_011DV2                                                                                                                                            0.48%    passed     99.81%
+ 217  GZ16XN18674                                                                                                                                            1.54%    passed     99.07%
+ 218  GZ18XN18818                                                                                                                                            1.54%    passed     97.46%
+ 219  2015_CZ_5                                                                                                                                              0.39%    passed     99.14%
+ 220  2015_CZ_23                                                                                                                                             0.39%    passed     99.35%
+ 221  2015_CZ_17                                                                                                                                             0.39%    passed     98.51%
+ 222  PH_CN77_15                                                                                                                                             0.00%    passed     99.99%
+ 223  QML16                                                                                                                                                  0.00%    passed    100.00%
+ 224  SG_EHI_D2_DELIM-REHMAVSMMUTQASNFRLZJ_02862Y15                                                                                                          0.00%    passed     99.68%
+ 225  SG_EHI_D2_DELIM-REHMAVSMMUTQASNFRLZJ_09087Y15                                                                                                          0.00%    passed     99.67%
+ 226  2016_Singapore_DENV_2_NPHL                                                                                                                             1.20%    passed     98.63%
+ 227  2016_Singapore_NUH_MDC_DENV_2_variant                                                                                                                  0.16%    passed     99.05%
+ 228  V43248                                                                                                                                                 1.90%    passed     99.77%
+ 229  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDgz_DELIM-REHMAVSMMUTQASNFRLZJ_GD17006_DELIM-REHMAVSMMUTQASNFRLZJ_2017_Maldives_       0.05%    passed     99.96%
+ 230  GZ17XN22953                                                                                                                                            1.54%    passed     99.79%
+ 231  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDcz_DELIM-REHMAVSMMUTQASNFRLZJ_D15030_DELIM-REHMAVSMMUTQASNFRLZJ_2015_Malaysia_        0.01%    passed     99.55%
+ 232  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDzh_DELIM-REHMAVSMMUTQASNFRLZJ_GD17038_DELIM-REHMAVSMMUTQASNFRLZJ_2017                 0.01%    passed     99.96%
+ 233  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDzh_DELIM-REHMAVSMMUTQASNFRLZJ_GD17040_DELIM-REHMAVSMMUTQASNFRLZJ_2017                 0.01%    passed     99.77%
+ 234  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT23_DELIM-REHMAVSMMUTQASNFRLZJ_2012                                                       0.00%    passed     99.99%
+ 235  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDqy_DELIM-REHMAVSMMUTQASNFRLZJ_GD16158_DELIM-REHMAVSMMUTQASNFRLZJ_2016                 0.01%    passed     99.47%
+ 236  CHRF_DenV002                                                                                                                                           0.22%    passed     99.80%
+ 237  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDcz_DELIM-REHMAVSMMUTQASNFRLZJ_D15044_DELIM-REHMAVSMMUTQASNFRLZJ_2015                  0.01%    passed     99.71%
+ 238  TM244                                                                                                                                                  1.45%    passed     99.64%
+ 239  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDmm_DELIM-REHMAVSMMUTQASNFRLZJ_D16005_DELIM-REHMAVSMMUTQASNFRLZJ_2016_Malaysia_        0.01%    passed     99.85%
+ 240  TM175                                                                                                                                                  2.05%    passed     97.19%
+ 241  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDsz_DELIM-REHMAVSMMUTQASNFRLZJ_GD17029_DELIM-REHMAVSMMUTQASNFRLZJ_2017                 0.01%    passed     99.68%
+ 242  GZ16XN10007                                                                                                                                            1.49%    passed     97.02%
+ 243  TM199                                                                                                                                                  4.49%    passed     94.36%
+ 244  1222_DF_06_DELIM-REHMAVSMMUTQASNFRLZJ_24_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                               0.48%    passed     99.42%
+ 245  1945_DHF_08_DELIM-REHMAVSMMUTQASNFRLZJ_18_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                              0.48%    passed     99.44%
+ 246  2559_DHF_10_DELIM-REHMAVSMMUTQASNFRLZJ_23_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                              0.48%    passed     99.18%
+ 247  2208_DHF_09_DELIM-REHMAVSMMUTQASNFRLZJ_13_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                              0.48%    passed     99.36%
+ 248  1421_DF_07_DELIM-REHMAVSMMUTQASNFRLZJ_16_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                               0.48%    passed     99.67%
+ 249  2191_DF_09_DELIM-REHMAVSMMUTQASNFRLZJ_12_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                               0.48%    passed     99.70%
+ 250  2784_DF_11_DELIM-REHMAVSMMUTQASNFRLZJ_18_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                               0.48%    passed     99.78%
+ 251  915_DF_11_DELIM-REHMAVSMMUTQASNFRLZJ_03_DELIM-REHMAVSMMUTQASNFRLZJ_2001                                                                                1.00%    passed     99.40%
+ 252  2659_DHF_11_DELIM-REHMAVSMMUTQASNFRLZJ_01_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                              1.00%    passed     99.36%
+ 253  1183_DF_06_DELIM-REHMAVSMMUTQASNFRLZJ_17_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                               1.00%    passed     99.25%
+ 254  2587_DF_10_DELIM-REHMAVSMMUTQASNFRLZJ_26_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                               1.00%    passed     99.56%
+ 255  950_DF_11_DELIM-REHMAVSMMUTQASNFRLZJ_12_DELIM-REHMAVSMMUTQASNFRLZJ_2001                                                                                1.00%    passed     98.71%
+ 256  1949_DF_08_DELIM-REHMAVSMMUTQASNFRLZJ_19_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                               0.48%    passed     99.53%
+ 257  904_DHF_10_DELIM-REHMAVSMMUTQASNFRLZJ_31_DELIM-REHMAVSMMUTQASNFRLZJ_2001                                                                               0.48%    passed     99.28%
+ 258  1018_DF_12_DELIM-REHMAVSMMUTQASNFRLZJ_03_DELIM-REHMAVSMMUTQASNFRLZJ_2001                                                                               0.48%    passed     99.21%
+ 259  1024_DHF_12_DELIM-REHMAVSMMUTQASNFRLZJ_07_DELIM-REHMAVSMMUTQASNFRLZJ_2001                                                                              0.48%    passed     99.05%
+ 260  1464_DHF_07_DELIM-REHMAVSMMUTQASNFRLZJ_20_DELIM-REHMAVSMMUTQASNFRLZJ_2002                                                                              0.87%    passed     99.75%
+ 261  05_Sa_018                                                                                                                                              5.17%    passed     98.83%
+ 262  01_St_206                                                                                                                                              5.14%    passed     97.85%
+ 263  GD01_DELIM-REHMAVSMMUTQASNFRLZJ_01                                                                                                                     0.00%    passed     92.29%
+ 264  GD19_DELIM-REHMAVSMMUTQASNFRLZJ_2001                                                                                                                   0.00%    passed     92.29%
+ 265  DENV2_973                                                                                                                                              1.57%    passed     97.77%
+ 266  DENV2_3849                                                                                                                                             2.53%    passed     99.22%
+ 267  DENV2_3519                                                                                                                                             1.71%    passed     99.61%
+ 268  SGEHI_D2_0762Y05                                                                                                                                       5.10%    passed     99.80%
+ 269  DENV2_3850                                                                                                                                             3.06%    passed     99.02%
+ 270  DENV2_14706                                                                                                                                            1.61%    passed     91.63%
+ 271  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDzs_DELIM-REHMAVSMMUTQASNFRLZJ_GD16168_DELIM-REHMAVSMMUTQASNFRLZJ_2016_Philippines_    0.01%    passed     97.58%
+ 272  Van_2017                                                                                                                                               0.01%    passed     88.62%
+ 273  D2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_GDst_DELIM-REHMAVSMMUTQASNFRLZJ_GD16047_DELIM-REHMAVSMMUTQASNFRLZJ_2016                 0.01%    passed     92.96%
+ 274  TM78                                                                                                                                                   9.35%    passed     99.53%
+ 275  TM324                                                                                                                                                  7.78%    passed     99.06%
+ 276  7754691_DELIM-REHMAVSMMUTQASNFRLZJ_BF_DELIM-REHMAVSMMUTQASNFRLZJ_2016                                                                                  0.45%    passed     99.29%
+ 277  7869191_DELIM-REHMAVSMMUTQASNFRLZJ_BF_DELIM-REHMAVSMMUTQASNFRLZJ_2016                                                                                  0.45%    passed     99.88%
+ 278  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_BF_DELIM-REHMAVSMMUTQASNFRLZJ_BID_V3502_DELIM-REHMAVSMMUTQASNFRLZJ_1986                                              0.62%    passed     99.86%
+ 279  V1349                                                                                                                                                  0.00%    passed     99.28%
+ 280  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_ID_DELIM-REHMAVSMMUTQASNFRLZJ_1172DN_DELIM-REHMAVSMMUTQASNFRLZJ_1976                                                 0.01%    passed     99.51%
+ 281  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_ID_DELIM-REHMAVSMMUTQASNFRLZJ_1070DN_DELIM-REHMAVSMMUTQASNFRLZJ_1976                                                 0.02%    passed     99.92%
+ 282  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_ID_DELIM-REHMAVSMMUTQASNFRLZJ_1127DN_DELIM-REHMAVSMMUTQASNFRLZJ_1976                                                 0.00%    passed     99.20%
+ 283  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_ID_DELIM-REHMAVSMMUTQASNFRLZJ_1017DN_DELIM-REHMAVSMMUTQASNFRLZJ_1976                                                 0.02%    passed     99.98%
+ 284  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_ID_DELIM-REHMAVSMMUTQASNFRLZJ_1016DN_DELIM-REHMAVSMMUTQASNFRLZJ_1975                                                 0.01%    passed     99.96%
+ 285  V43254                                                                                                                                                 1.71%    passed     99.06%
+ 286  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_YN_DELIM-REHMAVSMMUTQASNFRLZJ_JH1505_2015_                                          0.54%    passed     99.04%
+ 287  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_YN_DELIM-REHMAVSMMUTQASNFRLZJ_JH1502_2015_                                          0.54%    passed     99.26%
+ 288  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_YN_DELIM-REHMAVSMMUTQASNFRLZJ_JH1516_2015_                                          0.54%    passed     98.92%
+ 289  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_China_DELIM-REHMAVSMMUTQASNFRLZJ_YN_DELIM-REHMAVSMMUTQASNFRLZJ_JH1515_2015_                                          0.54%    passed     98.70%
+ 290  XSBN07                                                                                                                                                 5.10%    passed     99.55%
+ 291  XSBN09                                                                                                                                                 5.10%    passed     99.80%
+ 292  XSBN08                                                                                                                                                 5.10%    passed     99.58%
+ 293  XSBN04                                                                                                                                                 5.10%    passed     99.73%
+ 294  XSBN05                                                                                                                                                 5.10%    passed     99.75%
+ 295  XSBN16                                                                                                                                                 5.10%    passed     99.27%
+ 296  XSBN06                                                                                                                                                 5.10%    passed     99.00%
+ 297  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_439_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.11%    passed     99.92%
+ 298  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_510_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.11%    passed     99.88%
+ 299  D2_DELIM-REHMAVSMMUTQASNFRLZJ_CN_DELIM-REHMAVSMMUTQASNFRLZJ_HZ_594_DELIM-REHMAVSMMUTQASNFRLZJ_2017                                                     5.10%    passed     99.83%
+ 300  GZ16XN03534                                                                                                                                            5.10%    passed     99.97%
+ 301  XSBN13                                                                                                                                                 5.10%    passed     98.93%
+ 302  XSBN14                                                                                                                                                 5.10%    passed     99.76%
+ 303  XSBN10                                                                                                                                                 5.10%    passed     98.50%
+ 304  XSBN11                                                                                                                                                 5.10%    passed     99.75%
+ 305  XSBN03                                                                                                                                                 5.10%    passed     98.42%
+ 306  XSBN01                                                                                                                                                 5.10%    passed     99.17%
+ 307  R1_J36_DENV2                                                                                                                                           1.57%    passed     99.71%
+ 308  RUJul                                                                                                                                                  0.00%    passed     99.58%
+ 309  RU16417                                                                                                                                                0.00%    passed     99.46%
+ 310  R1_J22_DENV2                                                                                                                                           0.00%    passed     99.76%
+ 311  R1_J45_DENV2                                                                                                                                           0.00%    passed     99.53%
+ 312  R1_J46_DENV2                                                                                                                                           2.88%    passed     97.16%
+ 313  RGCB921_DELIM-REHMAVSMMUTQASNFRLZJ_2011                                                                                                                0.00%    passed     99.81%
+ 314  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT36_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.01%    passed     99.82%
+ 315  D2_DELIM-REHMAVSMMUTQASNFRLZJ_SG_DELIM-REHMAVSMMUTQASNFRLZJ_CT35_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                       0.00%    passed     99.74%
+ 316  QHD13CAIQ                                                                                                                                              0.01%    passed     99.49%
+ 317  XLLM10666                                                                                                                                              0.00%    passed     99.56%
+ 318  XZXM10610                                                                                                                                              0.01%    passed     99.72%
+ 319  DENV2_2627                                                                                                                                             1.65%    passed     98.63%
+ 320  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_IN_DELIM-REHMAVSMMUTQASNFRLZJ_BID_V2961_DELIM-REHMAVSMMUTQASNFRLZJ_2006                                              0.50%    passed     99.97%
+ 321  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_PK_DELIM-REHMAVSMMUTQASNFRLZJ_2011                                                                                   0.88%    passed     95.79%
+ 322  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pk_DELIM-REHMAVSMMUTQASNFRLZJ_A2_DELIM-REHMAVSMMUTQASNFRLZJ_2011                                                         0.62%    passed     94.10%
+ 323  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pk_DELIM-REHMAVSMMUTQASNFRLZJ_A1_DELIM-REHMAVSMMUTQASNFRLZJ_2011                                                         0.62%    passed     94.10%
+ 324  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pk_DELIM-REHMAVSMMUTQASNFRLZJ_Swat_01                                                                                    0.62%    passed     94.59%
+ 325  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_Pk_DELIM-REHMAVSMMUTQASNFRLZJ_Swat_02                                                                                0.62%    passed     94.59%
+ 326  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_LK_DELIM-REHMAVSMMUTQASNFRLZJ_BID_V2422_DELIM-REHMAVSMMUTQASNFRLZJ_2004                                              0.89%    passed     99.53%
+ 327  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_LK_DELIM-REHMAVSMMUTQASNFRLZJ_BID_V2421_DELIM-REHMAVSMMUTQASNFRLZJ_2003                                              0.88%    passed     99.24%
+ 328  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pakistan_DELIM-REHMAVSMMUTQASNFRLZJ_2011_3_DELIM-REHMAVSMMUTQASNFRLZJ_2011                                               0.00%    passed     98.88%
+ 329  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pakistan_DELIM-REHMAVSMMUTQASNFRLZJ_78_DELIM-REHMAVSMMUTQASNFRLZJ_2009                                                   0.00%    passed     96.39%
+ 330  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pakistan_DELIM-REHMAVSMMUTQASNFRLZJ_209_DELIM-REHMAVSMMUTQASNFRLZJ_2009                                                  0.00%    passed     98.47%
+ 331  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pakistan_DELIM-REHMAVSMMUTQASNFRLZJ_2011_4_DELIM-REHMAVSMMUTQASNFRLZJ_2011                                               0.00%    passed     96.50%
+ 332  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pakistan_DELIM-REHMAVSMMUTQASNFRLZJ_2011_23_DELIM-REHMAVSMMUTQASNFRLZJ_2011                                              0.00%    passed     96.73%
+ 333  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_PK_DELIM-REHMAVSMMUTQASNFRLZJ_2013                                                                                   0.88%    passed     97.96%
+ 334  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_PK                                                                                                                   0.88%    passed     81.54%
+ 335  Jeddah_2014                                                                                                                                            0.21%    passed     97.55%
+ 336  GWL18_INDI_01                                                                                                                                          0.49%    passed     99.35%
+ 337  Od2112                                                                                                                                                 0.49%    passed     98.31%
+ 338  RR44                                                                                                                                                   0.49%    passed     99.45%
+ 339  XLXY10594                                                                                                                                              0.06%    passed     98.88%
+ 340  XHZF10615                                                                                                                                              0.01%    passed    100.00%
+ 341  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_IND_DELIM-REHMAVSMMUTQASNFRLZJ_969201_DELIM-REHMAVSMMUTQASNFRLZJ_1996                                                0.70%    passed     96.22%
+ 342  V43253                                                                                                                                                 2.72%    passed     96.64%
+ 343  GZ18XN60367                                                                                                                                            1.54%    passed     99.33%
+ 344  AO_1                                                                                                                                                   9.29%    passed     94.55%
+ 345  GZ18XN20079                                                                                                                                            1.49%    passed     99.42%
+ 346  UoH_583351                                                                                                                                             0.49%    passed     99.41%
+ 347  V1392                                                                                                                                                  0.49%    passed     95.12%
+ 348  R1_J17_DENV2                                                                                                                                           0.20%    passed     95.13%
+ 349  R1_J15                                                                                                                                                 1.22%    passed     95.78%
+ 350  Mal_016                                                                                                                                                5.10%    passed     99.47%
+ 351  Mal_028                                                                                                                                                5.10%    passed     99.60%
+ 352  Mal_011                                                                                                                                                5.10%    passed     99.65%
+ 353  Mal_012                                                                                                                                                5.10%    passed     99.65%
+ 354  Mal_002                                                                                                                                                5.10%    passed     99.54%
+ 355  Mal_007                                                                                                                                                5.10%    passed     99.72%
+ 356  Mal_018                                                                                                                                                5.10%    passed     99.74%
+ 357  Mal_020                                                                                                                                                5.10%    passed     99.13%
+ 358  Mal_003                                                                                                                                                5.10%    passed     99.53%
+ 359  Mal_014                                                                                                                                                5.10%    passed     99.36%
+ 360  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_005_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                    5.13%    passed     99.15%
+ 361  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_006_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                   21.92%    passed     68.22%
+ 362  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_004_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                    5.13%    passed     99.47%
+ 363  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_001_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                    5.88%    passed     99.13%
+ 364  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_008_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                   26.71%    passed     96.29%
+ 365  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_003_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                    5.13%    passed     99.38%
+ 366  DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_002_DELIM-REHMAVSMMUTQASNFRLZJ_2014                                                    5.13%    passed     99.38%
+ 367  Cosmopolitan                                                                                                                                           0.04%    passed     96.78%
+ 368  RGCB880_DELIM-REHMAVSMMUTQASNFRLZJ_2010                                                                                                                0.00%    passed     99.72%
+ 369  UoH_58620                                                                                                                                              0.00%    passed     99.78%
+ 370  R1_J30_DENV2                                                                                                                                           0.00%    passed     99.13%
+ 371  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_LK_DELIM-REHMAVSMMUTQASNFRLZJ_BID_V2416_DELIM-REHMAVSMMUTQASNFRLZJ_1996                                              0.43%    passed     99.64%
+ 372  D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pakistan_DELIM-REHMAVSMMUTQASNFRLZJ_51_DELIM-REHMAVSMMUTQASNFRLZJ_2008                                                   0.02%    passed     94.57%
+ 373  DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_IND_DELIM-REHMAVSMMUTQASNFRLZJ_053598_DELIM-REHMAVSMMUTQASNFRLZJ_2005                                                0.78%    passed     99.45%
+****  TOTAL                                                                                                                                                  1.60%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: DC629Y12 is identical to DC652Y12 but kept for subsequent analysis
+NOTE: DC641Y12 is identical to DC654Y12 but kept for subsequent analysis
+NOTE: DC730Y12 is identical to DC735Y12 but kept for subsequent analysis
+NOTE: DC427Y11 is identical to DC403Y11 but kept for subsequent analysis
+NOTE: GD06_DELIM-REHMAVSMMUTQASNFRLZJ_93 is identical to GD09_DELIM-REHMAVSMMUTQASNFRLZJ_93 but kept for subsequent analysis
+NOTE: GD19_DELIM-REHMAVSMMUTQASNFRLZJ_2001 is identical to GD01_DELIM-REHMAVSMMUTQASNFRLZJ_01 but kept for subsequent analysis
+NOTE: D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pk_DELIM-REHMAVSMMUTQASNFRLZJ_A1_DELIM-REHMAVSMMUTQASNFRLZJ_2011 is identical to D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pk_DELIM-REHMAVSMMUTQASNFRLZJ_A2_DELIM-REHMAVSMMUTQASNFRLZJ_2011 but kept for subsequent analysis
+NOTE: DENV_2_DELIM-REHMAVSMMUTQASNFRLZJ_Pk_DELIM-REHMAVSMMUTQASNFRLZJ_Swat_02 is identical to D2_DELIM-REHMAVSMMUTQASNFRLZJ_Pk_DELIM-REHMAVSMMUTQASNFRLZJ_Swat_01 but kept for subsequent analysis
+NOTE: DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_002_DELIM-REHMAVSMMUTQASNFRLZJ_2014 is identical to DENV2_DELIM-REHMAVSMMUTQASNFRLZJ_KLF_DELIM-REHMAVSMMUTQASNFRLZJ_003_DELIM-REHMAVSMMUTQASNFRLZJ_2014 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00411201 secs using 95.53% CPU
+Identifying sites to remove: done in 0.030463 secs using 86.91% CPU
+NOTE: 4 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: DC643Y12 (identical to DC652Y12) is ignored but added at the end
+NOTE: DC677Y12 (identical to DC652Y12) is ignored but added at the end
+NOTE: DC657Y12 (identical to DC652Y12) is ignored but added at the end
+NOTE: DC597Y12 (identical to DC652Y12) is ignored but added at the end
+Alignment was printed to results/aligned_denv2_C-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_denv2_C-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+
+NOTE: 51 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -571994.988
+2. Current log-likelihood: -484267.520
+3. Current log-likelihood: -483290.932
+4. Current log-likelihood: -483274.560
+Optimal log-likelihood: -483274.536
+Rate parameters:  A-C: 1.32467  A-G: 13.07805  A-T: 1.69199  C-G: 0.84010  C-T: 40.32665  G-T: 1.00000
+Base frequencies:  A: 0.330  C: 0.205  G: 0.254  T: 0.211
+Parameters optimization took 4 rounds (6.937 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.83933 secs using 91.23% CPU
+Computing ML distances took 0.849928 sec (of wall-clock time) 0.774672 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00263691 secs using 182.5% CPU
+Constructing RapidNJ tree: done in 0.00478697 secs using 193.5% CPU
+Computing RapidNJ tree took 0.007497 sec (of wall-clock time) 0.014109 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -97663.724
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 2.26746 secs using 99.01% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -96761.703
+Optimizing NNI: done in 31.6327 secs using 98.51% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -96761.703 / CPU time: 35.835
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:45s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -96761.703
+Optimal log-likelihood: -96761.703
+Rate parameters:  A-C: 1.20279  A-G: 7.74421  A-T: 1.35878  C-G: 0.77650  C-T: 23.15029  G-T: 1.00000
+Base frequencies:  A: 0.330  C: 0.205  G: 0.254  T: 0.211
+Parameters optimization took 1 rounds (0.492 sec)
+BEST SCORE FOUND : -96761.703
+Total tree length: 1.130
+
+Total number of iterations: 2
+CPU time used for tree search: 35.331 sec (0h:0m:35s)
+Wall-clock time used for tree search: 35.836 sec (0h:0m:35s)
+Total CPU time used: 45.611 sec (0h:0m:45s)
+Total wall-clock time used: 46.115 sec (0h:0m:46s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv2_C-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv2_C-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv2_C-delim.fasta.mldist
+  Screen log file:               results/aligned_denv2_C-delim.fasta.log
+
+Date and Time: Tue May 31 11:27:48 2022

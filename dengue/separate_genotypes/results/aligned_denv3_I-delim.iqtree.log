@@ -1,0 +1,115 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv3_I-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    5337 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:59:06 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv3_I-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00604606 secs using 89.81% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00700498 secs using 77.23% CPU
+Alignment has 31 sequences with 10707 columns, 323 distinct patterns
+696 parsimony-informative, 331 singleton sites, 9680 constant sites
+                                                                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000175953 secs using 15.91% CPU
+   1  MKS_3000                                                                                                     0.00%    passed     93.69%
+   2  MKS_0388                                                                                                     0.00%    passed     93.51%
+   3  MKS_2006                                                                                                     0.00%    passed     93.11%
+   4  MKS_2065                                                                                                     0.00%    passed     86.70%
+   5  PF93_DELIM-BWJHIBHNWEHTKQBTJUHP_200493_110185                                                                0.34%    passed     99.95%
+   6  PF96_DELIM-BWJHIBHNWEHTKQBTJUHP_150296_46183                                                                 0.34%    passed     99.34%
+   7  PF96_DELIM-BWJHIBHNWEHTKQBTJUHP_040996_24881                                                                 0.34%    passed     99.11%
+   8  WF95_DELIM-BWJHIBHNWEHTKQBTJUHP_050495_1650                                                                  0.34%    passed     99.89%
+   9  PF95_DELIM-BWJHIBHNWEHTKQBTJUHP_190795_20064                                                                 0.34%    passed     99.89%
+  10  PF94_DELIM-BWJHIBHNWEHTKQBTJUHP_136116                                                                       0.00%    passed     99.69%
+  11  WF95_DELIM-BWJHIBHNWEHTKQBTJUHP_090595_2448                                                                  0.34%    passed     99.67%
+  12  NC95_DELIM-BWJHIBHNWEHTKQBTJUHP_271295_4197                                                                  0.34%    passed     99.86%
+  13  NC95_DELIM-BWJHIBHNWEHTKQBTJUHP_170895_3750                                                                  0.34%    passed     99.67%
+  14  NC95_DELIM-BWJHIBHNWEHTKQBTJUHP_240295_418                                                                   0.34%    passed     99.85%
+  15  NC96_DELIM-BWJHIBHNWEHTKQBTJUHP_181196_4690                                                                  0.34%    passed     99.90%
+  16  NC96_DELIM-BWJHIBHNWEHTKQBTJUHP_211096_4631                                                                  0.41%    passed     99.37%
+  17  PF89_DELIM-BWJHIBHNWEHTKQBTJUHP_320219                                                                       0.00%    passed     99.97%
+  18  PF89_DELIM-BWJHIBHNWEHTKQBTJUHP_27643                                                                        0.00%    passed     99.73%
+  19  PF90_DELIM-BWJHIBHNWEHTKQBTJUHP_3056                                                                         0.00%    passed     99.71%
+  20  PF90_DELIM-BWJHIBHNWEHTKQBTJUHP_6056                                                                         0.00%    passed     99.91%
+  21  WF89_DELIM-BWJHIBHNWEHTKQBTJUHP_140889_4838                                                                  0.34%    passed     99.99%
+  22  NC89_DELIM-BWJHIBHNWEHTKQBTJUHP_060289_283                                                                   0.34%    passed     99.99%
+  23  PF92_DELIM-BWJHIBHNWEHTKQBTJUHP_4190                                                                         0.00%    passed     99.40%
+  24  PF91_DELIM-BWJHIBHNWEHTKQBTJUHP_090891_22130                                                                 0.34%    passed     99.98%
+  25  PF92_DELIM-BWJHIBHNWEHTKQBTJUHP_2956                                                                         0.00%    passed     99.99%
+  26  PF90_DELIM-BWJHIBHNWEHTKQBTJUHP_3050                                                                         0.00%    passed     99.75%
+  27  DENV_3_DELIM-BWJHIBHNWEHTKQBTJUHP_CK_DELIM-BWJHIBHNWEHTKQBTJUHP_BID_V2972_DELIM-BWJHIBHNWEHTKQBTJUHP_1991    0.41%    passed     99.99%
+  28  Sleman_DELIM-BWJHIBHNWEHTKQBTJUHP_78                                                                         0.00%    passed     99.09%
+  29  98902890_DF_DV_3                                                                                             0.00%    passed     97.02%
+  30  mutant_InJ_I6_82                                                                                             0.00%    passed     98.36%
+  31  mutant_PhMH_J1_97                                                                                            0.00%    passed     98.36%
+****  TOTAL                                                                                                        0.17%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: mutant_PhMH_J1_97 is identical to mutant_InJ_I6_82 but kept for subsequent analysis
+Checking for duplicate sequences: done in 8.01086e-05 secs using 74.9% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -35023.041
+2. Current log-likelihood: -31773.794
+3. Current log-likelihood: -31773.040
+Optimal log-likelihood: -31773.039
+Rate parameters:  A-C: 1.18774  A-G: 16.29120  A-T: 2.20478  C-G: 0.44370  C-T: 50.30691  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.207  G: 0.260  T: 0.212
+Parameters optimization took 3 rounds (0.050 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00163603 secs using 85.15% CPU
+Computing ML distances took 0.001714 sec (of wall-clock time) 0.001451 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 3.91006e-05 secs using 161.1% CPU
+Constructing RapidNJ tree: done in 8.4877e-05 secs using 170.8% CPU
+Computing RapidNJ tree took 0.000161 sec (of wall-clock time) 0.000260 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -22385.296
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.0130479 secs using 195.4% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -22346.722
+Optimizing NNI: done in 0.059829 secs using 186.9% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -22346.722 / CPU time: 0.083
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -22346.722
+Optimal log-likelihood: -22346.721
+Rate parameters:  A-C: 1.23294  A-G: 15.61867  A-T: 2.52864  C-G: 0.57505  C-T: 50.46351  G-T: 1.00000
+Base frequencies:  A: 0.321  C: 0.207  G: 0.260  T: 0.212
+Parameters optimization took 1 rounds (0.003 sec)
+BEST SCORE FOUND : -22346.721
+Total tree length: 0.113
+
+Total number of iterations: 2
+CPU time used for tree search: 0.156 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.083 sec (0h:0m:0s)
+Total CPU time used: 0.224 sec (0h:0m:0s)
+Total wall-clock time used: 0.154 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv3_I-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv3_I-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv3_I-delim.fasta.mldist
+  Screen log file:               results/aligned_denv3_I-delim.fasta.log
+
+Date and Time: Tue May 31 11:59:06 2022

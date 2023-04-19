@@ -1,0 +1,4340 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "14.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Cambodia",
+        "China",
+        "Laos",
+        "Thailand",
+        "Vietnam",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.20765645693663165,
+        0.17640535834740648,
+        0.174788090107439,
+        0.2667830519812368,
+        0.1743670426272861
+      ],
+      "rate": 92.05610734541618,
+      "transition_matrix": [
+        [
+          0.0,
+          0.9016745097894594,
+          0.7600664145136953,
+          2.829195856859517,
+          0.95442061268551
+        ],
+        [
+          0.9016745097894594,
+          0.0,
+          0.8339236675296585,
+          1.2819485820953458,
+          0.6279608932144893
+        ],
+        [
+          0.7600664145136953,
+          0.8339236675296585,
+          0.0,
+          1.4366158022442097,
+          0.6274000895176426
+        ],
+        [
+          2.829195856859517,
+          1.2819485820953458,
+          1.4366158022442097,
+          0.0,
+          1.2171259400562342
+        ],
+        [
+          0.95442061268551,
+          0.6279608932144893,
+          0.6274000895176426,
+          1.2171259400562342,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "China",
+        "Southeast Asia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.1304651717979932,
+        0.8695348282020068
+      ],
+      "rate": 24.445342871305957,
+      "transition_matrix": [
+        [
+          0.0,
+          4.407460532409758
+        ],
+        [
+          4.407460532409758,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "Bangkok_1974": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "CNR_25326": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "CSF63": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/China/GDmm/D15341/2015_Myanmar_": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/China/GDzs/D14115/2014": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV2_3229": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/China/YN/15DGR29_2015_": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/China/YN/15DGR65_2015_": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/China/YN/15DGR8_2015_": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/China/YN/RL16_2013_": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/China/YN/RL18_2013_": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/China/YN/RL27_2013_": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/IPC/BID_V3791/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/IPC/BID_V3796/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/IPC/BID_V3797/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/IPC/BID_V3799/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/IPC/BID_V4265/2007": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/IPC/BID_V4266/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/IPC/BID_V4270/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/IPC/BID_V4271/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2027/2002": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/KH/BID_V2028/2003": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/KH/BID_V2034/2003": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2036/2003": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/KH/BID_V2037/2003": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2039/2003": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2040/2004": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2041/2004": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2042/2005": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/KH/BID_V2043/2005": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2044/2005": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/KH/BID_V2045/2005": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/KH/BID_V2047/2005": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2062/2007": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2068/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V2069/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V3802/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V3921/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V4267/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/KH/BID_V4274/2008": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/1974": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V1458/1994": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V1498/1994": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2155/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2278/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V2279/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V2280/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V2281/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2282/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2283/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2284/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V2285/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V2286/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2287/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2288/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V2289/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2290/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V2291/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2292/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2293/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2295/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2296/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2297/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2301/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2302/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2303/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2304/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2305/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2307/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2308/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2309/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2616/1996": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2617/1996": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V2957/2003": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V3357/1964": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V3498/1994": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V3499/1996": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V3500/1996": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/TH/BID_V3501/1995": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/TH/BID_V4325/2001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1002/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1003/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1006/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V1007/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V1515/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1517/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1519/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1520/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1679/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1682/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1690/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V1696/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1699/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1776/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1777/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1781/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1801/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1837/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V1844/2008": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1857/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1869/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1873/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V1895/2008": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V705/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V707/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V708/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V709/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V712/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V714/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V715/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V716/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V717/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V718/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V719/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V721/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V722/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V726/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V728/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V737/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V739/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V752/2004": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V753/2004": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V754/2005": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V755/2005": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V760/2003": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V764/2003": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V772/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V773/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V775/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V776/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V777/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V778/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V917/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V918/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V919/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V920/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V922/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V923/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V924/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V927/2004": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V930/2007": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VN/BID_V998/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/VN/BID_V999/2006": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DF380": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DF401": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "LNT1155": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "LNT1266": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "LNT555": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "LNT713": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "LNT866": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "LNT959": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MD1240": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MD1272": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MD1273": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MD1279": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MD1520": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MD1533": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MD1600": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MD1618": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MD1619": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.0033171101835135423,
+        "Thailand": 0.9952361443627795
+      },
+      "country_entropy": 0.03471987993740599,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999037421685915
+      },
+      "region_entropy": 0.007648082908742705
+    },
+    "NODE_0000001": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.06529365960835011,
+        "China": 0.010902105253222232,
+        "Laos": 0.013389214563056721,
+        "Thailand": 0.9006820742818297
+      },
+      "country_entropy": 0.42449280611877893,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.015116523020177946,
+        "Southeast Asia": 0.984883476979822
+      },
+      "region_entropy": 0.07836965232969986
+    },
+    "NODE_0000002": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.0022160613158011483,
+        "Thailand": 0.9970846083732907
+      },
+      "country_entropy": 0.022293375311096944,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9993386211939962
+      },
+      "region_entropy": 0.005503235846358337
+    },
+    "NODE_0000003": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999664413590574
+      },
+      "country_entropy": 0.00039452112776746425,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999852440502439
+      },
+      "region_entropy": 0.00017889901986772516
+    },
+    "NODE_0000004": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.14480442145608283,
+        "China": 0.04233332591451003,
+        "Laos": 0.04822561833941088,
+        "Thailand": 0.7254861009628483
+      },
+      "country_entropy": 0.9195743599586188,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.03770360518523408,
+        "Southeast Asia": 0.9622963948147658
+      },
+      "region_entropy": 0.1605761201883976
+    },
+    "NODE_0000005": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.028758836481881846,
+        "China": 0.002996381215912862,
+        "Laos": 0.003910355005941102,
+        "Thailand": 0.9617327900035666
+      },
+      "country_entropy": 0.19415862059596806,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.006843797392619059,
+        "Southeast Asia": 0.993156202607381
+      },
+      "region_entropy": 0.040932634457508305
+    },
+    "NODE_0000006": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.019398135797715068,
+        "China": 0.0016729470298628352,
+        "Laos": 0.0022423878902108865,
+        "Thailand": 0.9752518899446609
+      },
+      "country_entropy": 0.13468482202865342,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.004748890616650126,
+        "Southeast Asia": 0.9952511093833498
+      },
+      "region_entropy": 0.030143421865872766
+    },
+    "NODE_0000007": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.01676458270290088,
+        "China": 0.001938761533558086,
+        "Laos": 0.002493453788824964,
+        "Thailand": 0.9771062813618239
+      },
+      "country_entropy": 0.1290508761681452,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.004372706069369953,
+        "Southeast Asia": 0.9956272939306301
+      },
+      "region_entropy": 0.02811730318914881
+    },
+    "NODE_0000008": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.004752485754032542,
+        "Thailand": 0.9942407642513539
+      },
+      "country_entropy": 0.0391959878166403,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.001423523147451057,
+        "Southeast Asia": 0.9985764768525489
+      },
+      "region_entropy": 0.010753163303798196
+    },
+    "NODE_0000009": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.003192540983377636,
+        "Thailand": 0.9961959710178659
+      },
+      "country_entropy": 0.027327190945570987,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0010511398144220346,
+        "Southeast Asia": 0.9989488601855778
+      },
+      "region_entropy": 0.008259178056356627
+    },
+    "NODE_0000010": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.003689674877450645,
+        "Thailand": 0.9956547656072035
+      },
+      "country_entropy": 0.030516615744932005,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0011943956372167943,
+        "Southeast Asia": 0.9988056043627832
+      },
+      "region_entropy": 0.00923210201209437
+    },
+    "NODE_0000011": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.005987601876120195,
+        "Thailand": 0.9928046364169322
+      },
+      "country_entropy": 0.04722909894031477,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0018765584552635248,
+        "Southeast Asia": 0.9981234415447365
+      },
+      "region_entropy": 0.013656423193051034
+    },
+    "NODE_0000012": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.009994641789108943,
+        "Laos": 0.0012331224307458675,
+        "Thailand": 0.9870415952932415
+      },
+      "country_entropy": 0.07936670601786233,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0030062062225475576,
+        "Southeast Asia": 0.9969937937774525
+      },
+      "region_entropy": 0.02045895221530934
+    },
+    "NODE_0000013": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.009906140895480454,
+        "China": 0.001087923042925786,
+        "Laos": 0.001424495538182368,
+        "Thailand": 0.9866363109450804
+      },
+      "country_entropy": 0.08232841822083672,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.002962765282156792,
+        "Southeast Asia": 0.9970372347178432
+      },
+      "region_entropy": 0.020206501806118084
+    },
+    "NODE_0000014": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.012241523718143138,
+        "China": 0.0012532486723131914,
+        "Laos": 0.0016421740088647155,
+        "Thailand": 0.9837746943952106
+      },
+      "country_entropy": 0.09632080345229617,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.003548428924426265,
+        "Southeast Asia": 0.9964515710755737
+      },
+      "region_entropy": 0.0235597016294157
+    },
+    "NODE_0000015": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.003402425334044944,
+        "Thailand": 0.9955926297738982
+      },
+      "country_entropy": 0.03175799183841161,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0011341217405218284,
+        "Southeast Asia": 0.9988658782594781
+      },
+      "region_entropy": 0.008824974896406676
+    },
+    "NODE_0000016": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.999110064229109
+      },
+      "country_entropy": 0.007760461166886233,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997210483540467
+      },
+      "region_entropy": 0.002561984697759154
+    },
+    "NODE_0000017": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.008275729982935324,
+        "Laos": 0.0012618565592823852,
+        "Thailand": 0.988645392952781
+      },
+      "country_entropy": 0.07211199095795846,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0024444021932376703,
+        "Southeast Asia": 0.9975555978067623
+      },
+      "region_entropy": 0.017141936231589498
+    },
+    "NODE_0000018": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999256569128526
+      },
+      "country_entropy": 0.0008183369583694791,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999695465536997
+      },
+      "region_entropy": 0.0003471478516021881
+    },
+    "NODE_0000020": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9989440915398582
+      },
+      "country_entropy": 0.009039245154527838,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996837226855514
+      },
+      "region_entropy": 0.0028650717424465676
+    },
+    "NODE_0000021": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9995320267730314
+      },
+      "country_entropy": 0.004394158538308407,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998455867051156
+      },
+      "region_entropy": 0.0015095135798127574
+    },
+    "NODE_0000022": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9996286342155799
+      },
+      "country_entropy": 0.0035860209599656665,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998805224418006
+      },
+      "region_entropy": 0.0011986373647618106
+    },
+    "NODE_0000023": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9996004826305247
+      },
+      "country_entropy": 0.0038225364317315247,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998687633904721
+      },
+      "region_entropy": 0.0013042875695946066
+    },
+    "NODE_0000024": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999737766288505
+      },
+      "country_entropy": 0.00031520372567650083,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999877127462372
+      },
+      "region_entropy": 0.000151218517012556
+    },
+    "NODE_0000026": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.999978261818618
+      },
+      "country_entropy": 0.0002660608727427803,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999900585233807
+      },
+      "region_entropy": 0.00012445525632773615
+    },
+    "NODE_0000028": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.011048957291220837,
+        "Laos": 0.0011993548949997615,
+        "Thailand": 0.9860952105190288
+      },
+      "country_entropy": 0.08340450494409228,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0029862986816627753,
+        "Southeast Asia": 0.9970137013183371
+      },
+      "region_entropy": 0.020343341280964936
+    },
+    "NODE_0000029": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.01706511785542893,
+        "China": 0.0016895900415875456,
+        "Laos": 0.0022076767939188603,
+        "Thailand": 0.977569382015885
+      },
+      "country_entropy": 0.1255096022905298,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.004396459388498217,
+        "Southeast Asia": 0.9956035406115018
+      },
+      "region_entropy": 0.02824617130694032
+    },
+    "NODE_0000030": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.011202492941915521,
+        "Laos": 0.0010054562717575451,
+        "Thailand": 0.9863581258281665
+      },
+      "country_entropy": 0.0811844712544139,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.002264997091117183,
+        "Southeast Asia": 0.9977350029088828
+      },
+      "region_entropy": 0.016056674115523334
+    },
+    "NODE_0000031": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.01181663679912269,
+        "Thailand": 0.9878467230614351
+      },
+      "country_entropy": 0.06758248456687997,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996396669619184
+      },
+      "region_entropy": 0.0032171620601350944
+    },
+    "NODE_0000032": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.06655123971867376,
+        "Thailand": 0.9328686343235806
+      },
+      "country_entropy": 0.2501239093588115,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9995860616082094
+      },
+      "region_entropy": 0.003638347260874604
+    },
+    "NODE_0000033": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.22061722471632522,
+        "China": 0.0011218905455408624,
+        "Laos": 0.0011361463852860982,
+        "Thailand": 0.7760374524513026
+      },
+      "country_entropy": 0.5529359816754758,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0014095742873235777,
+        "Southeast Asia": 0.9985904257126765
+      },
+      "region_entropy": 0.010661685028461147
+    },
+    "NODE_0000034": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.286310067924469,
+        "China": 0.0010420521757936185,
+        "Laos": 0.0010509049312877202,
+        "Thailand": 0.7105924478963351
+      },
+      "country_entropy": 0.6221576016665542,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9990089749419818
+      },
+      "region_entropy": 0.007845226950673584
+    },
+    "NODE_0000035": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999377723386752
+      },
+      "country_entropy": 0.0006681807562702972,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999979525445245
+      },
+      "region_entropy": 2.8866892047099997e-05
+    },
+    "NODE_0000036": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9996485672060069
+      },
+      "country_entropy": 0.0034158414025011424,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998904232729726
+      },
+      "region_entropy": 0.0011087883540547377
+    },
+    "NODE_0000039": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.8976820080459832,
+        "Thailand": 0.10037417365176078
+      },
+      "country_entropy": 0.3419045674632556,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.001086383984963353,
+        "Southeast Asia": 0.9989136160150366
+      },
+      "region_entropy": 0.008500256302571138
+    },
+    "NODE_0000040": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9978531920705163,
+        "Thailand": 0.002005123848597951
+      },
+      "country_entropy": 0.01600921858766285,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9995202583034616
+      },
+      "region_entropy": 0.004145938688103142
+    },
+    "NODE_0000041": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9928642472833381,
+        "Thailand": 0.00702655706972041
+      },
+      "country_entropy": 0.043063123322264085,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997281454541295
+      },
+      "region_entropy": 0.002503809577037279
+    },
+    "NODE_0000042": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9994260683977273
+      },
+      "country_entropy": 0.004974715892069003,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998562613558858
+      },
+      "region_entropy": 0.001415457959951365
+    },
+    "NODE_0000043": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9989105564530016,
+        "Thailand": 0.0010525883192215812
+      },
+      "country_entropy": 0.008721742972648423,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997468530331454
+      },
+      "region_entropy": 0.002349561738724082
+    },
+    "NODE_0000044": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9992356955671026
+      },
+      "country_entropy": 0.006487015474972567,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996666486403383
+      },
+      "region_entropy": 0.0030022112777343267
+    },
+    "NODE_0000045": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.0657763890078437,
+        "Thailand": 0.9334674882997682
+      },
+      "country_entropy": 0.24952735017191327,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9995308745372169
+      },
+      "region_entropy": 0.004064693338607248
+    },
+    "NODE_0000046": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.17331761370878518,
+        "Thailand": 0.8252530876870467
+      },
+      "country_entropy": 0.4731959007207724,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997081680640908
+      },
+      "region_entropy": 0.0026671065024514357
+    },
+    "NODE_0000047": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9194685511499213,
+        "Thailand": 0.08001352826591424
+      },
+      "country_entropy": 0.2837615006248755,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997122548195245
+      },
+      "region_entropy": 0.002633815476100273
+    },
+    "NODE_0000048": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9956470372435985,
+        "Thailand": 0.004299003160515109
+      },
+      "country_entropy": 0.02835923517927546,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998685278982238
+      },
+      "region_entropy": 0.0013063922770091085
+    },
+    "NODE_0000049": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.95877043687824,
+        "Thailand": 0.040321180801792304
+      },
+      "country_entropy": 0.17718674928477698,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0015256931597532912,
+        "Southeast Asia": 0.9984743068402465
+      },
+      "region_entropy": 0.011419116371840263
+    },
+    "NODE_0000050": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9986184485590311,
+        "Thailand": 0.0013081592380052662
+      },
+      "country_entropy": 0.01084343042091398,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996587003967724
+      },
+      "region_entropy": 0.0030657507133385825
+    },
+    "NODE_0000051": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.04901017940569506,
+        "Thailand": 0.9490497113405842
+      },
+      "country_entropy": 0.2114563831538215,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9993896167476745
+      },
+      "region_entropy": 0.005127901885835137
+    },
+    "NODE_0000052": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.999989516375335
+      },
+      "country_entropy": 0.0001328117039773416,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999970390234376
+      },
+      "region_entropy": 4.065417642663428e-05
+    },
+    "NODE_0000055": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9996519935570803
+      },
+      "country_entropy": 0.0033876327458844217,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998903532623118
+      },
+      "region_entropy": 0.0011094267432234263
+    },
+    "NODE_0000056": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.07387984132268416,
+        "Laos": 0.006271004542455866,
+        "Thailand": 0.914381012981748,
+        "Vietnam": 0.0051962167711866345
+      },
+      "country_entropy": 0.3356937134687509,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997605297984045
+      },
+      "region_entropy": 0.0022359241281441427
+    },
+    "NODE_0000057": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.08185568240460159,
+        "Laos": 0.04334843151551603,
+        "Thailand": 0.8732760147433131,
+        "Vietnam": 0.001117363182293466
+      },
+      "country_entropy": 0.4699898435469181,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997546463464123
+      },
+      "region_entropy": 0.0022849018314946793
+    },
+    "NODE_0000058": {
+      "country": "Laos",
+      "country_confidence": {
+        "Cambodia": 0.005113685081830346,
+        "China": 0.001783344934137696,
+        "Laos": 0.9558111296848537,
+        "Thailand": 0.03622302001426094
+      },
+      "country_entropy": 0.20896623844321183,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0033105469212686514,
+        "Southeast Asia": 0.9966894530787314
+      },
+      "region_entropy": 0.022210408863629384
+    },
+    "NODE_0000059": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9995307237860123
+      },
+      "country_entropy": 0.004360836281791632,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.99962056478088
+      },
+      "region_entropy": 0.003368108678365171
+    },
+    "NODE_0000060": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9999645612251133
+      },
+      "country_entropy": 0.0004254099040076773,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998615009337743
+      },
+      "region_entropy": 0.001369004782487701
+    },
+    "NODE_0000062": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.99986263027438
+      },
+      "country_entropy": 0.0013637055315548516,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999755840299215
+      },
+      "region_entropy": 0.0002837199409331169
+    },
+    "NODE_0000063": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9889463964028891,
+        "China": 0.0013233124048673453,
+        "Thailand": 0.009401276320205341
+      },
+      "country_entropy": 0.06650336072999158,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.004838443055502329,
+        "Southeast Asia": 0.9951615569444976
+      },
+      "region_entropy": 0.030621244036799306
+    },
+    "NODE_0000064": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.7792339113311727,
+        "China": 0.059413915569330164,
+        "Laos": 0.006267522979161188,
+        "Thailand": 0.1494394571203152
+      },
+      "country_entropy": 0.707194371316655,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.054479031300432766,
+        "Southeast Asia": 0.9455209686995673
+      },
+      "region_entropy": 0.2114980208144543
+    },
+    "NODE_0000066": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9996444941215462
+      },
+      "country_entropy": 0.0032944748659167918,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998313349759185
+      },
+      "region_entropy": 0.0016339443717262158
+    },
+    "NODE_0000068": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.999541196238732
+      },
+      "country_entropy": 0.004138233875461836,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997863726167491
+      },
+      "region_entropy": 0.0020190288075536762
+    },
+    "NODE_0000069": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9999865916220972
+      },
+      "country_entropy": 0.0001656498274041466,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999880480767165
+      },
+      "region_entropy": 0.00014742233880624188
+    },
+    "NODE_0000071": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9994469492848119
+      },
+      "country_entropy": 0.004882363734058536,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997368179386966
+      },
+      "region_entropy": 0.0024324688620765613
+    },
+    "NODE_0000072": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9996432716292424
+      },
+      "country_entropy": 0.0033015736471100248,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998189209375182
+      },
+      "region_entropy": 0.0017413443157384644
+    },
+    "NODE_0000074": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.05048315577296247,
+        "Laos": 0.05025022699078499,
+        "Thailand": 0.8982516261334832
+      },
+      "country_entropy": 0.40512057803892887,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996468153536822
+      },
+      "region_entropy": 0.003160417336967062
+    },
+    "NODE_0000075": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.0963338746068552,
+        "China": 0.004475957183583162,
+        "Laos": 0.2566767227839703,
+        "Thailand": 0.6396245674672372
+      },
+      "country_entropy": 0.9014124966181355,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0023404568378994502,
+        "Southeast Asia": 0.9976595431621005
+      },
+      "region_entropy": 0.016514820466404886
+    },
+    "NODE_0000076": {
+      "country": "Laos",
+      "country_confidence": {
+        "Cambodia": 0.02158113597765662,
+        "China": 0.004284350228873513,
+        "Laos": 0.7840256561787112,
+        "Thailand": 0.18871060116635738
+      },
+      "country_entropy": 0.6207822291195902,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0054819975624190945,
+        "Southeast Asia": 0.9945180024375808
+      },
+      "region_entropy": 0.03400778953633921
+    },
+    "NODE_0000077": {
+      "country": "Laos",
+      "country_confidence": {
+        "Cambodia": 0.004555877872779658,
+        "China": 0.00624763062686946,
+        "Laos": 0.9141920087270857,
+        "Thailand": 0.07462234479706499
+      },
+      "country_entropy": 0.33496470808333095,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.014835340520183055,
+        "Southeast Asia": 0.9851646594798169
+      },
+      "region_entropy": 0.07719255591392533
+    },
+    "NODE_0000078": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9977238419183918,
+        "Thailand": 0.0018931821747983622
+      },
+      "country_entropy": 0.017526507229208215,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.002119855812450179,
+        "Southeast Asia": 0.9978801441875498
+      },
+      "region_entropy": 0.015168302925350027
+    },
+    "NODE_0000079": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9998281630531813
+      },
+      "country_entropy": 0.0017742825555054154,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9994206304084994
+      },
+      "region_entropy": 0.004897573503578617
+    },
+    "NODE_0000080": {
+      "country": "Laos",
+      "country_confidence": {
+        "Cambodia": 0.004519738212353509,
+        "China": 0.017222257186485103,
+        "Laos": 0.8985271148501404,
+        "Thailand": 0.07912128914719664
+      },
+      "country_entropy": 0.3957189607523086,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.04173030102144984,
+        "Southeast Asia": 0.9582696989785502
+      },
+      "region_entropy": 0.1734046812185377
+    },
+    "NODE_0000081": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9984153114671508,
+        "Thailand": 0.0012290888186503278
+      },
+      "country_entropy": 0.012969242388606946,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0025382004385230963,
+        "Southeast Asia": 0.9974617995614768
+      },
+      "region_entropy": 0.017704023599867134
+    },
+    "NODE_0000082": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9999986970623594
+      },
+      "country_entropy": 1.9608915263265317e-05,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999661805510838
+      },
+      "region_entropy": 0.00038197232981672694
+    },
+    "NODE_0000083": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9999744193138428
+      },
+      "country_entropy": 0.0003174161034568196,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998879883228765
+      },
+      "region_entropy": 0.0011309652596835824
+    },
+    "NODE_0000085": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9999738857510316
+      },
+      "country_entropy": 0.0003234147441104319,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998787092166206
+      },
+      "region_entropy": 0.0012150011990166392
+    },
+    "NODE_0000086": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9999739136518624
+      },
+      "country_entropy": 0.000323106202742179,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999881284672549
+      },
+      "region_entropy": 0.0011917502596660947
+    },
+    "NODE_0000087": {
+      "country": "China",
+      "country_confidence": {
+        "Cambodia": 0.020126420139639112,
+        "China": 0.3807233501002965,
+        "Laos": 0.23086084325634462,
+        "Thailand": 0.3646517062325998
+      },
+      "country_entropy": 1.1729901153391078,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.2708041346732282,
+        "Southeast Asia": 0.7291958653267717
+      },
+      "region_entropy": 0.5840570112836105
+    },
+    "NODE_0000088": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.0219542144991073,
+        "China": 0.07751283918105692,
+        "Laos": 0.052185764886110826,
+        "Thailand": 0.8452564718245986
+      },
+      "country_entropy": 0.5961276316828217,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.07942953842823237,
+        "Southeast Asia": 0.9205704615717677
+      },
+      "region_entropy": 0.27737389104555515
+    },
+    "NODE_0000089": {
+      "country": "China",
+      "country_confidence": {
+        "Cambodia": 0.007498749028443004,
+        "China": 0.8602169936644817,
+        "Laos": 0.04477820164722004,
+        "Thailand": 0.08604149407512227
+      },
+      "country_entropy": 0.5259089279908165,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.8427149187073929,
+        "Southeast Asia": 0.1572850812926071
+      },
+      "region_entropy": 0.4351403772251033
+    },
+    "NODE_0000090": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9981640003276341,
+        "Thailand": 0.0011970069062172486
+      },
+      "country_entropy": 0.015101937099559511,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9982168196500042,
+        "Southeast Asia": 0.0017831803499958065
+      },
+      "region_entropy": 0.013067974201862677
+    },
+    "NODE_0000091": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999408460538873
+      },
+      "country_entropy": 0.0006931961411247527,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999468013480981
+      },
+      "region_entropy": 0.0005767505706632479
+    },
+    "NODE_0000092": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999767342280357
+      },
+      "country_entropy": 0.00029512539477279034,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999783247754328
+      },
+      "region_entropy": 0.00025445260848618197
+    },
+    "NODE_0000093": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9998599275483294
+      },
+      "country_entropy": 0.0014783291343305467,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999136492978461
+      },
+      "region_entropy": 0.0008943385761974953
+    },
+    "NODE_0000094": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9997001960370657
+      },
+      "country_entropy": 0.003045349320638274,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9997044428295755
+      },
+      "region_entropy": 0.002697402654727007
+    },
+    "NODE_0000095": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9988623557157046,
+        "Thailand": 0.0010378797137185292
+      },
+      "country_entropy": 0.009275850720889075,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9993459519882177
+      },
+      "region_entropy": 0.005449529798992272
+    },
+    "NODE_0000096": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9734216699748908,
+        "Thailand": 0.02525484039392322
+      },
+      "country_entropy": 0.12905489429146644,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9807420681092038,
+        "Southeast Asia": 0.019257931890796123
+      },
+      "region_entropy": 0.09513689654641393
+    },
+    "NODE_0000097": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.003287084103319298,
+        "China": 0.03556897167562596,
+        "Thailand": 0.9600794908432905
+      },
+      "country_entropy": 0.18455576544116145,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0846320939580875,
+        "Southeast Asia": 0.9153679060419124
+      },
+      "region_entropy": 0.28993928601701735
+    },
+    "NODE_0000098": {
+      "country": "Thailand",
+      "country_confidence": {
+        "China": 0.0012543237831103473,
+        "Thailand": 0.9980053901038517
+      },
+      "country_entropy": 0.016132078518040868,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.007098427335980667,
+        "Southeast Asia": 0.9929015726640193
+      },
+      "region_entropy": 0.04219535467020328
+    },
+    "NODE_0000099": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.99956135807218
+      },
+      "country_entropy": 0.004218611122813331,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9993465691108726
+      },
+      "region_entropy": 0.005445004964498314
+    },
+    "NODE_0000100": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.11002126472926092,
+        "Laos": 0.0026307942599702147,
+        "Thailand": 0.8340625490275508,
+        "Vietnam": 0.05252036754800924
+      },
+      "country_entropy": 0.5700357342135453,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998265641239691
+      },
+      "region_entropy": 0.001675323942791664
+    },
+    "NODE_0000101": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.17377399373562785,
+        "Thailand": 0.8158970822359488,
+        "Vietnam": 0.009175701602277967
+      },
+      "country_entropy": 0.5217218569290881,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998569426017049
+      },
+      "region_entropy": 0.00140942910887706
+    },
+    "NODE_0000102": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9246788669677174,
+        "Thailand": 0.07440554565304072
+      },
+      "country_entropy": 0.2730303337090894,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997744237539212
+      },
+      "region_entropy": 0.0021196812286969086
+    },
+    "NODE_0000103": {
+      "country": "Cambodia",
+      "country_confidence": {
+        "Cambodia": 0.9918441614543467,
+        "Thailand": 0.008025955995937232
+      },
+      "country_entropy": 0.048149168711053576,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997459148106596
+      },
+      "region_entropy": 0.0023573296916175523
+    },
+    "NODE_0000104": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Cambodia": 0.0010741437904936842,
+        "Thailand": 0.9989057873195919
+      },
+      "country_entropy": 0.008671964074837822,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999861422683122
+      },
+      "region_entropy": 0.0001688794667132436
+    },
+    "NODE_0000105": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9995807740175472
+      },
+      "country_entropy": 0.00396754256159364,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998895181540274
+      },
+      "region_entropy": 0.0011170382025788455
+    },
+    "NODE_0000107": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9995807740175472
+      },
+      "country_entropy": 0.00396754256159364,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998895181540274
+      },
+      "region_entropy": 0.0011170382025788455
+    },
+    "NODE_0000108": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9995807740175472
+      },
+      "country_entropy": 0.00396754256159364,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998895181540274
+      },
+      "region_entropy": 0.0011170382025788455
+    },
+    "NODE_0000109": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9997311496052605
+      },
+      "country_entropy": 0.0024928563936706793,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999996143271078
+      },
+      "region_entropy": 6.08139463233003e-06
+    },
+    "NODE_0000110": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999993579786
+      },
+      "country_entropy": 1.4564093864241568e-08,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999995679044493
+      },
+      "region_entropy": 6.764289165851352e-06
+    },
+    "NODE_0000112": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999307448728446
+      },
+      "country_entropy": 0.0008023549933989052,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996324592482518
+      },
+      "region_entropy": 0.0032742340517156903
+    },
+    "NODE_0000115": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999804447147582
+      },
+      "country_entropy": 0.0002508824853689384,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998709789289971
+      },
+      "region_entropy": 0.001284465440060176
+    },
+    "NODE_0000116": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999556435079939
+      },
+      "country_entropy": 0.0005334062203665617,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997447332520676
+      },
+      "region_entropy": 0.0023671074017489508
+    },
+    "NODE_0000119": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999680940028383
+      },
+      "country_entropy": 0.00039402662757928087,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998138689889408
+      },
+      "region_entropy": 0.0017848040649570658
+    },
+    "NODE_0000120": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999654337279745
+      },
+      "country_entropy": 0.00042414498132498156,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997999386023041
+      },
+      "region_entropy": 0.001903941549281315
+    },
+    "NODE_0000123": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9998617647290288
+      },
+      "country_entropy": 0.0015020202087015517,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9993217353360323
+      },
+      "region_entropy": 0.005626635254378467
+    },
+    "NODE_0000124": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999403099499149
+      },
+      "country_entropy": 0.000699946044718961,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996330539322918
+      },
+      "region_entropy": 0.0032695306251808486
+    },
+    "NODE_0000126": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999677601166662
+      },
+      "country_entropy": 0.0003940227171176178,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998196619079416
+      },
+      "region_entropy": 0.0017349583029941352
+    },
+    "NODE_0000127": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999170925575986
+      },
+      "country_entropy": 0.0009456587458770658,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9995476119556161
+      },
+      "region_entropy": 0.003936112566736812
+    },
+    "NODE_0000128": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999796769569341
+      },
+      "country_entropy": 0.00025981724122587193,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998469095069786
+      },
+      "region_entropy": 0.0014978993534577097
+    },
+    "NODE_0000129": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999787527951417
+      },
+      "country_entropy": 0.0002708888068166265,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998664000004469
+      },
+      "region_entropy": 0.0013253912847961142
+    },
+    "NODE_0000130": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999687448329251
+      },
+      "country_entropy": 0.00038651751245990563,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997961550944445
+      },
+      "region_entropy": 0.0019361289382550495
+    },
+    "NODE_0000131": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999802991451406
+      },
+      "country_entropy": 0.0002525820214550181,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998632151279582
+      },
+      "region_entropy": 0.0013537643560055945
+    },
+    "NODE_0000132": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999793794151305
+      },
+      "country_entropy": 0.00026346964024392445,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998630360038533
+      },
+      "region_entropy": 0.0013553578995309206
+    },
+    "NODE_0000133": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999808642051425
+      },
+      "country_entropy": 0.0002459514232195252,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998800835048914
+      },
+      "region_entropy": 0.0012026011527589552
+    },
+    "NODE_0000134": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999698228403715
+      },
+      "country_entropy": 0.000370868178851163,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998418611287991
+      },
+      "region_entropy": 0.001542163613207439
+    },
+    "NODE_0000135": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999756188958737
+      },
+      "country_entropy": 0.0003073807791508695,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998276487119645
+      },
+      "region_entropy": 0.0016659285224757175
+    },
+    "NODE_0000136": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999513348894419
+      },
+      "country_entropy": 0.0005805628592654674,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996819914482159
+      },
+      "region_entropy": 0.002879018316957416
+    },
+    "NODE_0000137": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999587624440188
+      },
+      "country_entropy": 0.0004987212350807433,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997368385677889
+      },
+      "region_entropy": 0.002432298828009842
+    },
+    "NODE_0000138": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999995623481543
+      },
+      "country_entropy": 7.210880867229437e-06,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999851769565263
+      },
+      "region_entropy": 0.00017964520797344747
+    },
+    "NODE_0000140": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999795068844513
+      },
+      "country_entropy": 0.0002618075512236229,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998399452367881
+      },
+      "region_entropy": 0.001558919706930941
+    },
+    "NODE_0000141": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999564708162361
+      },
+      "country_entropy": 0.0005240372566532542,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997172178124192
+      },
+      "region_entropy": 0.0025933084020466953
+    },
+    "NODE_0000142": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999726455829524
+      },
+      "country_entropy": 0.00034193481493107093,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998321522374778
+      },
+      "region_entropy": 0.0016268424878481318
+    },
+    "NODE_0000143": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999697713677854
+      },
+      "country_entropy": 0.0003748334643681947,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998062490691969
+      },
+      "region_entropy": 0.0018500966755911447
+    },
+    "NODE_0000144": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999806941073366
+      },
+      "country_entropy": 0.00024795083166226616,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998757314533827
+      },
+      "region_entropy": 0.0012418160191287424
+    },
+    "NODE_0000145": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999797524668395
+      },
+      "country_entropy": 0.000258991004404448,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998464926787244
+      },
+      "region_entropy": 0.0015015603426335726
+    },
+    "NODE_0000146": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999388042015181
+      },
+      "country_entropy": 0.000716660742051602,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999645203515815
+      },
+      "region_entropy": 0.0031732248186964905
+    },
+    "NODE_0000147": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999982011566805
+      },
+      "country_entropy": 2.7106794259193518e-05,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999193946115043
+      },
+      "region_entropy": 0.0008403841009648072
+    },
+    "NODE_0000148": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9998198922649562
+      },
+      "country_entropy": 0.0019185558393617374,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9991399665780955
+      },
+      "region_entropy": 0.006930243198761932
+    },
+    "NODE_0000150": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999550536703683
+      },
+      "country_entropy": 0.0005400182996268642,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997552924171399
+      },
+      "region_entropy": 0.002279530475307867
+    },
+    "NODE_0000151": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999993988896725
+      },
+      "country_entropy": 9.718559777465177e-06,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999825206148738
+      },
+      "region_entropy": 0.00020895695133770544
+    },
+    "NODE_0000153": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999994643027375
+      },
+      "country_entropy": 8.717113333062454e-06,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999788829849733
+      },
+      "region_entropy": 0.0002484505676147599
+    },
+    "NODE_0000155": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999573436260034
+      },
+      "country_entropy": 0.0005144619092657393,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997269700993376
+      },
+      "region_entropy": 0.002513456668539754
+    },
+    "NODE_0000156": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.999950246151264
+      },
+      "country_entropy": 0.0005924841546237014,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996729896739087
+      },
+      "region_entropy": 0.0029513843732682826
+    },
+    "NODE_0000157": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999788732009399
+      },
+      "country_entropy": 0.0002692644737230855,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998222252337922
+      },
+      "region_entropy": 0.0017128428528596935
+    },
+    "NODE_0000158": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999807305195278
+      },
+      "country_entropy": 0.00024753454963769093,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998763470756883
+      },
+      "region_entropy": 0.0012362782362349309
+    },
+    "NODE_0000159": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999479618860818
+      },
+      "country_entropy": 0.0006173989767789704,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996791573995237
+      },
+      "region_entropy": 0.0029018286397947055
+    },
+    "NODE_0000160": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999695569040794
+      },
+      "country_entropy": 0.0003773210761005061,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999813943124636
+      },
+      "region_entropy": 0.0017841673080701867
+    },
+    "NODE_0000161": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999806678058415
+      },
+      "country_entropy": 0.00024826867069863904,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998741714688782
+      },
+      "region_entropy": 0.0012558351162962487
+    },
+    "NODE_0000162": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999688377562124
+      },
+      "country_entropy": 0.0003854781858052499,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999812094509801
+      },
+      "region_entropy": 0.001800036408718182
+    },
+    "NODE_0000163": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999749374887058
+      },
+      "country_entropy": 0.0003153829672815022,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998331865512944
+      },
+      "region_entropy": 0.0016178487431285017
+    },
+    "NODE_0000164": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.999971177144163
+      },
+      "country_entropy": 0.00035879033180997744,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998224693663278
+      },
+      "region_entropy": 0.0017107346457512663
+    },
+    "NODE_0000165": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.999719285724881
+      },
+      "country_entropy": 0.002808420685645709,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997409015552619
+      },
+      "region_entropy": 0.0023987782007597836
+    },
+    "NODE_0000166": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Cambodia": 0.005915473214150009,
+        "Thailand": 0.0016768206137921743,
+        "Vietnam": 0.9921823129983075
+      },
+      "country_entropy": 0.050899304802764,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996639362343822
+      },
+      "region_entropy": 0.003023915736803055
+    },
+    "NODE_0000167": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999999874793032
+      },
+      "country_entropy": 2.491019416789577e-07,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999975462179376
+      },
+      "region_entropy": 3.415143934092036e-05
+    },
+    "NODE_0000168": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999979718951952
+      },
+      "country_entropy": 3.0358926437630803e-05,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999442888832754
+      },
+      "region_entropy": 0.0006014183831055035
+    },
+    "NODE_0000170": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999750364739545
+      },
+      "country_entropy": 0.00031434376837429146,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998523040891715
+      },
+      "region_entropy": 0.0014504153748499612
+    },
+    "NODE_0000172": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999635940611619
+      },
+      "country_entropy": 0.00044492714571786694,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999798730521273
+      },
+      "region_entropy": 0.0019142267553489052
+    },
+    "NODE_0000174": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999984571742003
+      },
+      "country_entropy": 2.3503643840054413e-05,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999522232024676
+      },
+      "region_entropy": 0.0005231056007437017
+    },
+    "NODE_0000176": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999628579728392
+      },
+      "country_entropy": 0.000453148686007195,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997912554497683
+      },
+      "region_entropy": 0.0019777074301951616
+    },
+    "NODE_0000177": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.99995629578625
+      },
+      "country_entropy": 0.0005261422758173589,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997402423929924
+      },
+      "region_entropy": 0.002404220753369424
+    },
+    "NODE_0000178": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999804560681718
+      },
+      "country_entropy": 0.00025074840062107393,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998706728169815
+      },
+      "region_entropy": 0.0012872064344815084
+    },
+    "NODE_0000179": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999505240686977
+      },
+      "country_entropy": 0.0005896417670736685,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999707783590901
+      },
+      "region_entropy": 0.0026702354921322633
+    },
+    "NODE_0000180": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999514319220445
+      },
+      "country_entropy": 0.0005798194739153519,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997339222221067
+      },
+      "region_entropy": 0.0024563206438059097
+    },
+    "NODE_0000181": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999794992694269
+      },
+      "country_entropy": 0.00026195029157557835,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998416875003311
+      },
+      "region_entropy": 0.0015436830932243888
+    },
+    "NODE_0000182": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999544953746793
+      },
+      "country_entropy": 0.0005459566513715098,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.999730597891046
+      },
+      "region_entropy": 0.002483664041538376
+    },
+    "NODE_0000183": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999993947981436
+      },
+      "country_entropy": 9.775269537797296e-06,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999768435487131
+      },
+      "region_entropy": 0.0002703104771489478
+    },
+    "NODE_0000184": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.9999530953389161
+      },
+      "country_entropy": 0.0005614621178171699,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9997407014208831
+      },
+      "region_entropy": 0.0024004308418392804
+    },
+    "NODE_0000186": {
+      "country": "Vietnam",
+      "country_confidence": {
+        "Vietnam": 0.99998121934859
+      },
+      "country_entropy": 0.00024177518867629847,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9998888055163948
+      },
+      "region_entropy": 0.0011235284288621029
+    },
+    "S16803": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SV397": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "SV576": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Th16_005DV2": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Th16_035DV2": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Th16_056DV2": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Th17_061DV2": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Th17_074DV2": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD2_0017_98": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "ThD2_0026_88": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD2_0038_74": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD2_0055_99": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD2_0078_01": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD2_0168_79": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD2_0263_95": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD2_0433_85": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD2_0498_84": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "UI15033": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "UI15067": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "UI15560": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "UI16615": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "UI17564": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "UI17827": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "UI18384": {
+      "country": "Laos",
+      "country_confidence": {
+        "Laos": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V16681": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "YNPE2": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    }
+  }
+}

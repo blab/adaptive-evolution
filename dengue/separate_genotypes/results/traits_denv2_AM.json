@@ -1,0 +1,934 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "14.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "American Samoa",
+        "Colombia",
+        "Fiji",
+        "French Polynesia",
+        "Honduras",
+        "Mexico",
+        "New Caledonia",
+        "Puerto Rico",
+        "Tonga",
+        "Venezuela",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.10578408130574624,
+        0.09463395777407514,
+        0.09381309244638004,
+        0.09887887726384337,
+        0.09203335453907903,
+        0.11255818783929476,
+        0.102660930889014,
+        0.10337787888194805,
+        0.10492475299582238,
+        0.09133488606479705
+      ],
+      "rate": 475.6126180085193,
+      "transition_matrix": [
+        [
+          0.0,
+          0.9791271838795552,
+          1.3486699111370346,
+          1.4613966769645832,
+          0.9764932636884479,
+          0.9847337636398452,
+          1.0210840306925129,
+          0.9945969719338694,
+          1.3352167809976268,
+          0.973961651062849
+        ],
+        [
+          0.9791271838795552,
+          0.0,
+          0.9848569047941272,
+          0.9777433274163557,
+          1.010600806359396,
+          1.3375052830132372,
+          0.9837973368955915,
+          1.1654648639613525,
+          0.9786156855832201,
+          0.9799721742198767
+        ],
+        [
+          1.3486699111370346,
+          0.9848569047941272,
+          0.0,
+          1.4828874881065648,
+          0.9811917170344857,
+          0.9926427126657561,
+          1.5458021867475875,
+          1.2410394256247816,
+          1.31560325811989,
+          0.9785868620570817
+        ],
+        [
+          1.4613966769645832,
+          0.9777433274163557,
+          1.4828874881065648,
+          0.0,
+          0.9753111705187351,
+          0.9827838164274088,
+          1.468976859605728,
+          0.995000704890861,
+          0.9757132872390265,
+          0.972963516152236
+        ],
+        [
+          0.9764932636884479,
+          1.010600806359396,
+          0.9811917170344857,
+          0.9753111705187351,
+          0.0,
+          1.5058202084074885,
+          0.9799012543752372,
+          1.0502938558858916,
+          0.9760335822015929,
+          0.9773278533511897
+        ],
+        [
+          0.9847337636398452,
+          1.3375052830132372,
+          0.9926427126657561,
+          0.9827838164274088,
+          1.5058202084074885,
+          0.0,
+          0.9917808976826878,
+          1.3764628086287714,
+          0.9840499225883028,
+          1.479122076740403
+        ],
+        [
+          1.0210840306925129,
+          0.9837973368955915,
+          1.5458021867475875,
+          1.468976859605728,
+          0.9799012543752372,
+          0.9917808976826878,
+          0.0,
+          1.247609276279688,
+          0.9799577405444846,
+          0.9770716232084807
+        ],
+        [
+          0.9945969719338694,
+          1.1654648639613525,
+          1.2410394256247816,
+          0.995000704890861,
+          1.0502938558858916,
+          1.3764628086287714,
+          1.247609276279688,
+          0.0,
+          0.9936356915471323,
+          0.9933099001201057
+        ],
+        [
+          1.3352167809976268,
+          0.9786156855832201,
+          1.31560325811989,
+          0.9757132872390265,
+          0.9760335822015929,
+          0.9840499225883028,
+          0.9799577405444846,
+          0.9936356915471323,
+          0.0,
+          0.9735421911170449
+        ],
+        [
+          0.973961651062849,
+          0.9799721742198767,
+          0.9785868620570817,
+          0.972963516152236,
+          0.9773278533511897,
+          1.479122076740403,
+          0.9770716232084807,
+          0.9933099001201057,
+          0.9735421911170449,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "North America",
+        "Oceania",
+        "South America",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.39375794780693846,
+        0.2867788105204325,
+        0.31946324167262913
+      ],
+      "rate": 107.03193285538666,
+      "transition_matrix": [
+        [
+          0.0,
+          1.4606211610101698,
+          1.9546808729449432
+        ],
+        [
+          1.4606211610101698,
+          0.0,
+          0.9734502696321019
+        ],
+        [
+          1.9546808729449432,
+          0.9734502696321019,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "D2/AS/UH73/1972": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/AS/UH77/1972": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/AS/UH79/1972": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/AS/UH85/1972": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/FJ/UH21/1971": {
+      "country": "Fiji",
+      "country_confidence": {
+        "Fiji": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/FJ/UH22/1971": {
+      "country": "Fiji",
+      "country_confidence": {
+        "Fiji": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/FJ/UH40/1971": {
+      "country": "Fiji",
+      "country_confidence": {
+        "Fiji": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "D2/NC/UH37/1971": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/NC/UH97/1972": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/PF/UH00/1973": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/PF/UH50/1972": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "D2/PF/UH57/1971": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "D2/TO/UH04/1974": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "D2/TO/UH16/1974": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/TO/UH19/1974": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "D2/TO/UH20/1974": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/TO/UH39/1974": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/TO/UH44/1974": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D2/TO/UH94/1974": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV2_PR159": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Puerto Rico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV2_QR94": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Mexico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_2/CO/BID_V3358/1986": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/HN/BID_V2945/1984": {
+      "country": "Honduras",
+      "country_confidence": {
+        "Honduras": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/MX/BID_V3354/1983": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Mexico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/MX/BID_V3355/1983": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Mexico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/MX/BID_V3356/1992": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Mexico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/PR/BID_V3367/1969": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Puerto Rico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_2/VE/BID_V3366/1987": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "I348600": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "country": "Fiji",
+      "country_confidence": {
+        "American Samoa": 0.010267406375726509,
+        "Fiji": 0.9028397054903511,
+        "French Polynesia": 0.05490972635685873,
+        "New Caledonia": 0.0131323739827191
+      },
+      "country_entropy": 0.4632861114274482,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998291420204919
+      },
+      "region_entropy": 0.0017408174796226892
+    },
+    "NODE_0000001": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "American Samoa": 0.05562193235124632,
+        "Fiji": 0.18969596179792625,
+        "French Polynesia": 0.6493321065046596,
+        "New Caledonia": 0.062112351080394916
+      },
+      "country_entropy": 1.1413998905077312,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998216028107519
+      },
+      "region_entropy": 0.0018095504191682243
+    },
+    "NODE_0000002": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "American Samoa": 0.006174206097564567,
+        "Fiji": 0.014804221124860253,
+        "French Polynesia": 0.9637594805487975,
+        "New Caledonia": 0.00669412574918496
+      },
+      "country_entropy": 0.21891166119469535,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998291926128178
+      },
+      "region_entropy": 0.001740361051667124
+    },
+    "NODE_0000003": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "American Samoa": 0.14675561056661424,
+        "Fiji": 0.05944226460159583,
+        "French Polynesia": 0.6059133274831442,
+        "New Caledonia": 0.1565153944475084
+      },
+      "country_entropy": 1.2073340786945193,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999906883861952
+      },
+      "region_entropy": 0.00012122165217837933
+    },
+    "NODE_0000004": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Fiji": 0.09484156981987224,
+        "Mexico": 0.07891855671795074,
+        "New Caledonia": 0.1083774040985808,
+        "Puerto Rico": 0.3547684665321913
+      },
+      "country_entropy": 2.049605905967591,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.630411813698942,
+        "Oceania": 0.30412080158676236,
+        "South America": 0.06546738471429582
+      },
+      "region_entropy": 0.8313422575304362
+    },
+    "NODE_0000007": {
+      "country": "Fiji",
+      "country_confidence": {
+        "American Samoa": 0.3083391580200636,
+        "Fiji": 0.3141357786003315,
+        "French Polynesia": 0.024173969625234694,
+        "Tonga": 0.2691789575242501
+      },
+      "country_entropy": 1.526675952997329,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998118725840737
+      },
+      "region_entropy": 0.0018978699725825995
+    },
+    "NODE_0000008": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 0.9246258667956864,
+        "Fiji": 0.025981989669813726,
+        "French Polynesia": 0.006509414724078401,
+        "Tonga": 0.02434882535657005
+      },
+      "country_entropy": 0.3974047144130905,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998212695785307
+      },
+      "region_entropy": 0.0018125787252585323
+    },
+    "NODE_0000009": {
+      "country": "American Samoa",
+      "country_confidence": {
+        "American Samoa": 0.9899161832041052,
+        "Fiji": 0.0024684252223669185,
+        "French Polynesia": 0.0014362251365231638,
+        "Tonga": 0.0025233193075548813
+      },
+      "country_entropy": 0.07638378556419168,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999829178456977
+      },
+      "region_entropy": 0.0017404898878120045
+    },
+    "NODE_0000010": {
+      "country": "Tonga",
+      "country_confidence": {
+        "American Samoa": 0.05708353367808558,
+        "Fiji": 0.05420123427680588,
+        "French Polynesia": 0.009711942455209881,
+        "Tonga": 0.8358123621216739
+      },
+      "country_entropy": 0.7289829673392104,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999606367678809
+      },
+      "region_entropy": 0.0036844278742127596
+    },
+    "NODE_0000011": {
+      "country": "Tonga",
+      "country_confidence": {
+        "American Samoa": 0.006172136022596821,
+        "Fiji": 0.005500894802618215,
+        "French Polynesia": 0.0015362824302306293,
+        "Tonga": 0.9790809975532578
+      },
+      "country_entropy": 0.14194421280856384,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9997914465507238
+      },
+      "region_entropy": 0.002082187345596798
+    },
+    "NODE_0000012": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 0.9958373972706352
+      },
+      "country_entropy": 0.03567408106092776,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998244015528316
+      },
+      "region_entropy": 0.0017842863419990792
+    },
+    "NODE_0000013": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 0.9958067153433374
+      },
+      "country_entropy": 0.03591471866768954,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9998210920715961
+      },
+      "region_entropy": 0.0018146196499622693
+    },
+    "NODE_0000014": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 0.9999877801434766
+      },
+      "country_entropy": 0.00017518830274463774,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999996853962817
+      },
+      "region_entropy": 5.135769592065998e-06
+    },
+    "NODE_0000017": {
+      "country": "Fiji",
+      "country_confidence": {
+        "American Samoa": 0.004811640435798078,
+        "Fiji": 0.9784095474636986,
+        "French Polynesia": 0.004161353515921667,
+        "New Caledonia": 0.007483771447793762
+      },
+      "country_entropy": 0.14000709080170046,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999988790684359
+      },
+      "region_entropy": 1.6795633351911587e-05
+    },
+    "NODE_0000018": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "Fiji": 0.3927551942931134,
+        "French Polynesia": 0.03313424821655154,
+        "New Caledonia": 0.4220111632376063,
+        "Puerto Rico": 0.03492003307773302
+      },
+      "country_entropy": 1.420137540075853,
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.00708337552806701,
+        "Oceania": 0.9915905535668854,
+        "South America": 0.0013260709050474302
+      },
+      "region_entropy": 0.05222265884594229
+    },
+    "NODE_0000020": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Fiji": 0.02669812980543395,
+        "Mexico": 0.030686845739687038,
+        "New Caledonia": 0.030386493589343186,
+        "Puerto Rico": 0.7951029569047368
+      },
+      "country_entropy": 0.9528546755022533,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.960596597352962,
+        "Oceania": 0.026692661716623337,
+        "South America": 0.012710740930414724
+      },
+      "region_entropy": 0.19082028289353103
+    },
+    "NODE_0000021": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Fiji": 0.024483319571490383,
+        "Mexico": 0.03136107090692933,
+        "New Caledonia": 0.027636357606573417,
+        "Puerto Rico": 0.7993467292714534
+      },
+      "country_entropy": 0.9384811675910869,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9780890145584841,
+        "Oceania": 0.011130351752701594,
+        "South America": 0.01078063368881415
+      },
+      "region_entropy": 0.12057068727533214
+    },
+    "NODE_0000022": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Fiji": 0.018537020788091378,
+        "Mexico": 0.02549506253198172,
+        "New Caledonia": 0.020756958199000065,
+        "Puerto Rico": 0.8424170158351847
+      },
+      "country_entropy": 0.7789434577187757,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9864376942587053,
+        "Oceania": 0.004449223719949259,
+        "South America": 0.009113082021345411
+      },
+      "region_entropy": 0.08037624276034183
+    },
+    "NODE_0000023": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Colombia": 0.10662494122770977,
+        "Honduras": 0.09985978031260835,
+        "Mexico": 0.1318528944440367,
+        "Puerto Rico": 0.18757491822899355
+      },
+      "country_entropy": 2.2527570453047696,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.8616651332648805,
+        "Oceania": 0.018828373925601605,
+        "South America": 0.1195064928095179
+      },
+      "region_entropy": 0.45696348105126466
+    },
+    "NODE_0000025": {
+      "country": "Colombia",
+      "country_confidence": {
+        "American Samoa": 0.003219089745412474,
+        "Colombia": 0.9688340501958153,
+        "Mexico": 0.005629774333278863,
+        "Puerto Rico": 0.0042482474318388695
+      },
+      "country_entropy": 0.20638720061764443,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.009192937856261796,
+        "South America": 0.989868964599483
+      },
+      "region_entropy": 0.059728260946669685
+    },
+    "NODE_0000026": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Colombia": 0.0944408874673542,
+        "Honduras": 0.12882959202937874,
+        "Mexico": 0.16537009657199164,
+        "Puerto Rico": 0.13562553459862314
+      },
+      "country_entropy": 2.260944650805714,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9150491668837308,
+        "Oceania": 0.012951950023125148,
+        "South America": 0.0719988830931439
+      },
+      "region_entropy": 0.3269681239449795
+    },
+    "NODE_0000027": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Colombia": 0.09410285280913122,
+        "Honduras": 0.10430859871634562,
+        "Mexico": 0.15661179074470602,
+        "Puerto Rico": 0.11115620538682584
+      },
+      "country_entropy": 2.2839258909777045,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.8733424562801998,
+        "Oceania": 0.03449547642779547,
+        "South America": 0.09216206729200485
+      },
+      "region_entropy": 0.4541517747370802
+    },
+    "NODE_0000028": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Colombia": 0.08506137836210345,
+        "Honduras": 0.1592713483761433,
+        "Mexico": 0.19548123162819686,
+        "Puerto Rico": 0.11107400173076372
+      },
+      "country_entropy": 2.229129445227382,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9313942681116716,
+        "Oceania": 0.012240593014889457,
+        "South America": 0.05636513887343891
+      },
+      "region_entropy": 0.2821926675318984
+    },
+    "NODE_0000029": {
+      "country": "Mexico",
+      "country_confidence": {
+        "Honduras": 0.005765257850798171,
+        "Mexico": 0.9288015031517878,
+        "Puerto Rico": 0.005195170106929585,
+        "Venezuela": 0.04128370579937589
+      },
+      "country_entropy": 0.36606610634017434,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9778317854943319,
+        "South America": 0.02161062908377832
+      },
+      "region_entropy": 0.10896550482386551
+    },
+    "Tonga/74": {
+      "country": "Tonga",
+      "country_confidence": {
+        "Tonga": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V1328": {
+      "country": "Puerto Rico",
+      "country_confidence": {
+        "Puerto Rico": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    }
+  }
+}

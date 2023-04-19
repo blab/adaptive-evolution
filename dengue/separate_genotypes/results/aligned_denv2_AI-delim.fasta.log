@@ -1,0 +1,281 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv2_AI-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    678750 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:43:47 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv2_AI-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.041579 secs using 88.1% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.016387 secs using 83.44% CPU
+Alignment has 189 sequences with 10723 columns, 2530 distinct patterns
+1801 parsimony-informative, 1000 singleton sites, 7922 constant sites
+                                                                                                                                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00114298 secs using 76.12% CPU
+   1  V16681                                                                                                                                            0.00%    passed     96.10%
+   2  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3357_DELIM-XPNISPYUXHUNHEYPYVMP_1964                                         0.42%    passed     97.77%
+   3  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V712_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.83%
+   4  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V753_DELIM-XPNISPYUXHUNHEYPYVMP_2004                                          0.42%    passed     99.88%
+   5  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V760_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                          0.42%    passed     99.98%
+   6  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V927_DELIM-XPNISPYUXHUNHEYPYVMP_2004                                          0.42%    passed     99.96%
+   7  MD1272                                                                                                                                            0.35%    passed     99.83%
+   8  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V737_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.96%
+   9  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V917_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.95%
+  10  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2957_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                         0.42%    passed     99.99%
+  11  DF380                                                                                                                                             0.35%    passed     99.94%
+  12  MD1240                                                                                                                                            0.35%    passed     99.68%
+  13  MD1279                                                                                                                                            0.31%    passed     99.27%
+  14  MD1273                                                                                                                                            1.13%    passed     99.71%
+  15  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V752_DELIM-XPNISPYUXHUNHEYPYVMP_2004                                          0.42%    passed    100.00%
+  16  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V764_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                          0.42%    passed     99.86%
+  17  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V714_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.81%
+  18  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V754_DELIM-XPNISPYUXHUNHEYPYVMP_2005                                          0.42%    passed     99.92%
+  19  CSF63                                                                                                                                             0.35%    passed     99.48%
+  20  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2302_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.92%
+  21  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2282_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.93%
+  22  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2281_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.93%
+  23  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2301_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.91%
+  24  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2304_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed    100.00%
+  25  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2303_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.99%
+  26  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2042_DELIM-XPNISPYUXHUNHEYPYVMP_2005                                         0.43%    passed     99.74%
+  27  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2034_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                         0.42%    passed     99.38%
+  28  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2041_DELIM-XPNISPYUXHUNHEYPYVMP_2004                                         0.43%    passed     99.60%
+  29  ThD2_0078_01                                                                                                                                      0.00%    passed     99.85%
+  30  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1002_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                         0.42%    passed     98.37%
+  31  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1003_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                         0.42%    passed     97.48%
+  32  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V722_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.34%
+  33  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V721_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.75%
+  34  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V918_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.91%
+  35  DF401                                                                                                                                             0.35%    passed     99.76%
+  36  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V718_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.99%
+  37  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1844_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                         0.42%    passed     99.85%
+  38  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1007_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                         0.42%    passed     99.97%
+  39  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V923_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.97%
+  40  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1873_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.27%    passed     99.97%
+  41  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V924_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.51%    passed     99.41%
+  42  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V919_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.23%
+  43  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V709_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.59%    passed     99.14%
+  44  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1682_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.42%    passed     98.75%
+  45  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V930_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                          0.42%    passed     99.57%
+  46  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V777_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                          0.42%    passed     99.64%
+  47  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V920_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.39%
+  48  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1006_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                         0.42%    passed     99.78%
+  49  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1869_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.43%    passed     99.89%
+  50  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1837_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.55%    passed     99.37%
+  51  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V998_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.69%
+  52  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1690_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.42%    passed     99.64%
+  53  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V708_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.75%
+  54  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V707_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.82%
+  55  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1699_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.42%    passed     99.14%
+  56  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V778_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                          0.42%    passed     98.60%
+  57  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1776_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.42%    passed     99.87%
+  58  MD1600                                                                                                                                            0.30%    passed     99.31%
+  59  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V755_DELIM-XPNISPYUXHUNHEYPYVMP_2005                                          0.42%    passed     99.49%
+  60  MD1533                                                                                                                                            0.30%    passed     99.83%
+  61  MD1520                                                                                                                                            0.47%    passed     99.66%
+  62  MD1619                                                                                                                                            0.30%    passed     99.87%
+  63  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V717_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.87%
+  64  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1679_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.42%    passed     99.31%
+  65  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V715_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     97.92%
+  66  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V999_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.51%    passed     98.30%
+  67  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1857_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.51%    passed     93.04%
+  68  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1696_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.51%    passed     97.84%
+  69  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V705_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.89%
+  70  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1895_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                         0.56%    passed     99.64%
+  71  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1517_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.58%    passed     99.40%
+  72  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1519_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.42%    passed     99.68%
+  73  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1515_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.42%    passed     98.13%
+  74  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1520_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.58%    passed     97.13%
+  75  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1801_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.47%    passed     99.98%
+  76  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_IPC_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3796_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        0.72%    passed     99.54%
+  77  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V726_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.71%
+  78  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V739_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.85%
+  79  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V728_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.48%    passed     99.96%
+  80  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V716_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.55%
+  81  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V922_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.42%    passed     99.51%
+  82  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1777_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.56%    passed     99.21%
+  83  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V772_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                          0.42%    passed     98.59%
+  84  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V776_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                          0.42%    passed     98.64%
+  85  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V773_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                          0.42%    passed     99.70%
+  86  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V775_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                          0.42%    passed     99.29%
+  87  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V719_DELIM-XPNISPYUXHUNHEYPYVMP_2006                                          0.47%    passed     99.41%
+  88  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2283_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.43%    passed     99.90%
+  89  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2036_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                         0.48%    passed     99.77%
+  90  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2027_DELIM-XPNISPYUXHUNHEYPYVMP_2002                                         4.11%    passed     98.53%
+  91  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2293_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.66%
+  92  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2296_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.74%
+  93  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V4325_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.80%
+  94  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2297_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.33%
+  95  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2295_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.46%
+  96  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3501_DELIM-XPNISPYUXHUNHEYPYVMP_1995                                         0.42%    passed     99.81%
+  97  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2616_DELIM-XPNISPYUXHUNHEYPYVMP_1996                                         0.42%    passed     99.73%
+  98  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2045_DELIM-XPNISPYUXHUNHEYPYVMP_2005                                         0.53%    passed     98.51%
+  99  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2044_DELIM-XPNISPYUXHUNHEYPYVMP_2005                                         0.61%    passed     99.08%
+ 100  MD1618                                                                                                                                            1.02%    passed     99.72%
+ 101  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1781_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         3.87%    passed     92.97%
+ 102  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2039_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                         0.43%    passed     99.97%
+ 103  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2037_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                         0.42%    passed     99.95%
+ 104  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2040_DELIM-XPNISPYUXHUNHEYPYVMP_2004                                         0.44%    passed     98.63%
+ 105  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2043_DELIM-XPNISPYUXHUNHEYPYVMP_2005                                         0.39%    passed     99.79%
+ 106  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2047_DELIM-XPNISPYUXHUNHEYPYVMP_2005                                         0.44%    passed     99.99%
+ 107  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2287_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.56%
+ 108  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2286_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.42%
+ 109  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2288_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.40%
+ 110  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2285_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.26%
+ 111  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2284_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     99.44%
+ 112  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_IPC_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V4270_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        1.79%    passed     99.78%
+ 113  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V4274_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                         2.32%    passed     99.30%
+ 114  LNT555                                                                                                                                            0.45%    passed     99.78%
+ 115  LNT866                                                                                                                                            0.45%    passed     99.82%
+ 116  LNT959                                                                                                                                            0.45%    passed     99.81%
+ 117  UI15067                                                                                                                                           0.46%    passed     99.90%
+ 118  LNT713                                                                                                                                            0.45%    passed     99.97%
+ 119  SV576                                                                                                                                             0.45%    passed     99.92%
+ 120  UI17564                                                                                                                                           0.45%    passed     99.51%
+ 121  UI18384                                                                                                                                           0.50%    passed     99.14%
+ 122  UI16615                                                                                                                                           0.45%    passed     99.76%
+ 123  SV397                                                                                                                                             0.45%    passed     99.76%
+ 124  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_IPC_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V4265_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                        1.79%    passed     99.79%
+ 125  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2028_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                         0.56%    passed     99.60%
+ 126  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_China_DELIM-XPNISPYUXHUNHEYPYVMP_YN_DELIM-XPNISPYUXHUNHEYPYVMP_15DGR29_2015_                                    0.00%    passed     99.65%
+ 127  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_China_DELIM-XPNISPYUXHUNHEYPYVMP_YN_DELIM-XPNISPYUXHUNHEYPYVMP_15DGR8_2015_                                     0.00%    passed     99.30%
+ 128  Th17_074DV2                                                                                                                                       0.48%    passed     99.52%
+ 129  Th16_056DV2                                                                                                                                       0.48%    passed     99.52%
+ 130  Th17_061DV2                                                                                                                                       0.48%    passed     98.63%
+ 131  Th16_005DV2                                                                                                                                       0.48%    passed     99.01%
+ 132  YNPE2                                                                                                                                             0.00%    passed     99.77%
+ 133  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_China_DELIM-XPNISPYUXHUNHEYPYVMP_YN_DELIM-XPNISPYUXHUNHEYPYVMP_RL16_2013_                                       0.00%    passed     99.85%
+ 134  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_China_DELIM-XPNISPYUXHUNHEYPYVMP_YN_DELIM-XPNISPYUXHUNHEYPYVMP_RL27_2013_                                       0.01%    passed     98.99%
+ 135  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_China_DELIM-XPNISPYUXHUNHEYPYVMP_YN_DELIM-XPNISPYUXHUNHEYPYVMP_15DGR65_2015_                                    0.10%    passed     99.36%
+ 136  D2_DELIM-XPNISPYUXHUNHEYPYVMP_China_DELIM-XPNISPYUXHUNHEYPYVMP_GDmm_DELIM-XPNISPYUXHUNHEYPYVMP_D15341_DELIM-XPNISPYUXHUNHEYPYVMP_2015_Myanmar_    0.01%    passed     98.34%
+ 137  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_China_DELIM-XPNISPYUXHUNHEYPYVMP_YN_DELIM-XPNISPYUXHUNHEYPYVMP_RL18_2013_                                       0.00%    passed     99.97%
+ 138  DENV2_3229                                                                                                                                        1.68%    passed     99.51%
+ 139  CNR_25326                                                                                                                                         2.44%    passed     98.01%
+ 140  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2069_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                         0.45%    passed     99.44%
+ 141  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2068_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                         0.22%    passed     99.17%
+ 142  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_IPC_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V4271_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        1.79%    passed     97.57%
+ 143  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_IPC_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V4266_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        2.14%    passed     97.16%
+ 144  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_IPC_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3791_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        0.50%    passed     98.19%
+ 145  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2062_DELIM-XPNISPYUXHUNHEYPYVMP_2007                                         0.42%    passed     98.64%
+ 146  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_IPC_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3797_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        0.61%    passed     98.54%
+ 147  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V4267_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                         2.18%    passed     96.97%
+ 148  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_IPC_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3799_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        0.45%    passed     98.88%
+ 149  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3802_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        52.44%    passed     37.04%
+ 150  D2_DELIM-XPNISPYUXHUNHEYPYVMP_China_DELIM-XPNISPYUXHUNHEYPYVMP_GDzs_DELIM-XPNISPYUXHUNHEYPYVMP_D14115_DELIM-XPNISPYUXHUNHEYPYVMP_2014             0.01%    passed     95.92%
+ 151  Th16_035DV2                                                                                                                                       0.49%    passed     98.52%
+ 152  UI17827                                                                                                                                           0.45%    passed     99.88%
+ 153  UI15033                                                                                                                                           0.45%    passed     99.99%
+ 154  UI15560                                                                                                                                           0.45%    passed    100.00%
+ 155  LNT1155                                                                                                                                           0.45%    passed     99.95%
+ 156  LNT1266                                                                                                                                           0.45%    passed     99.93%
+ 157  DF907                                                                                                                                             0.30%    passed     97.90%
+ 158  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_VN_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V762_DELIM-XPNISPYUXHUNHEYPYVMP_2003                                          0.42%    passed     99.42%
+ 159  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3921_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        10.13%    passed     97.91%
+ 160  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_KH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3803_DELIM-XPNISPYUXHUNHEYPYVMP_2008                                        31.11%    passed     26.04%
+ 161  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3498_DELIM-XPNISPYUXHUNHEYPYVMP_1994                                         0.42%    passed     99.66%
+ 162  ThD2_0026_88                                                                                                                                      0.00%    passed     99.17%
+ 163  ThD2_0433_85                                                                                                                                      0.00%    passed     99.77%
+ 164  ThD2_0498_84                                                                                                                                      0.00%    passed     99.32%
+ 165  ThD2_0168_79                                                                                                                                      0.00%    passed     99.92%
+ 166  S16803                                                                                                                                            0.00%    passed     99.41%
+ 167  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_1974                                                                              0.02%    passed     99.66%
+ 168  ThD2_0038_74                                                                                                                                      0.00%    passed     99.82%
+ 169  Bangkok_1974                                                                                                                                      1.18%    passed     99.78%
+ 170  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2617_DELIM-XPNISPYUXHUNHEYPYVMP_1996                                         0.42%    passed     99.39%
+ 171  ThD2_0263_95                                                                                                                                      0.00%    passed     99.82%
+ 172  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3499_DELIM-XPNISPYUXHUNHEYPYVMP_1996                                         0.42%    passed     99.81%
+ 173  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1498_DELIM-XPNISPYUXHUNHEYPYVMP_1994                                         0.42%    passed     94.89%
+ 174  ThD2_0055_99                                                                                                                                      0.00%    passed     99.93%
+ 175  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V3500_DELIM-XPNISPYUXHUNHEYPYVMP_1996                                         0.42%    passed     95.50%
+ 176  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2291_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.21%    passed     98.55%
+ 177  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2308_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     96.58%
+ 178  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2155_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     96.58%
+ 179  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2307_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     96.12%
+ 180  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2292_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     96.88%
+ 181  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2290_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     97.37%
+ 182  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2309_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.49%    passed     94.61%
+ 183  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2305_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.22%    passed     97.50%
+ 184  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2280_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     97.17%
+ 185  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2279_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     97.17%
+ 186  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2278_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.42%    passed     97.17%
+ 187  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2289_DELIM-XPNISPYUXHUNHEYPYVMP_2001                                         0.59%    passed     97.85%
+ 188  ThD2_0017_98                                                                                                                                      0.00%    passed     99.76%
+ 189  DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V1458_DELIM-XPNISPYUXHUNHEYPYVMP_1994                                         0.42%    passed     98.77%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                             0.99%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2279_DELIM-XPNISPYUXHUNHEYPYVMP_2001 is identical to DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2280_DELIM-XPNISPYUXHUNHEYPYVMP_2001 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.001297 secs using 92.44% CPU
+Identifying sites to remove: done in 0.0157509 secs using 94.05% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2278_DELIM-XPNISPYUXHUNHEYPYVMP_2001 (identical to DENV_2_DELIM-XPNISPYUXHUNHEYPYVMP_TH_DELIM-XPNISPYUXHUNHEYPYVMP_BID_V2280_DELIM-XPNISPYUXHUNHEYPYVMP_2001) is ignored but added at the end
+Alignment was printed to results/aligned_denv2_AI-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_denv2_AI-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.004 seconds
+
+NOTE: 15 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -139322.799
+2. Current log-likelihood: -121521.915
+3. Current log-likelihood: -121460.223
+4. Current log-likelihood: -121458.435
+Optimal log-likelihood: -121458.352
+Rate parameters:  A-C: 2.32464  A-G: 19.71776  A-T: 2.34768  C-G: 0.70628  C-T: 62.16634  G-T: 1.00000
+Base frequencies:  A: 0.333  C: 0.206  G: 0.252  T: 0.209
+Parameters optimization took 4 rounds (2.297 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.139864 secs using 99.72% CPU
+Computing ML distances took 0.141295 sec (of wall-clock time) 0.140792 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000664949 secs using 182.1% CPU
+Constructing RapidNJ tree: done in 0.00134301 secs using 188.4% CPU
+Computing RapidNJ tree took 0.002047 sec (of wall-clock time) 0.003817 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -52744.526
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.368249 secs using 106.1% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -52671.378
+Optimizing NNI: done in 6.38969 secs using 99.96% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -52671.378 / CPU time: 7.341
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -52671.378
+Optimal log-likelihood: -52671.376
+Rate parameters:  A-C: 1.22699  A-G: 11.33317  A-T: 1.75105  C-G: 0.63714  C-T: 35.21251  G-T: 1.00000
+Base frequencies:  A: 0.333  C: 0.206  G: 0.252  T: 0.209
+Parameters optimization took 1 rounds (0.144 sec)
+BEST SCORE FOUND : -52671.376
+Total tree length: 0.496
+
+Total number of iterations: 2
+CPU time used for tree search: 7.381 sec (0h:0m:7s)
+Wall-clock time used for tree search: 7.342 sec (0h:0m:7s)
+Total CPU time used: 10.300 sec (0h:0m:10s)
+Total wall-clock time used: 10.125 sec (0h:0m:10s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv2_AI-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv2_AI-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv2_AI-delim.fasta.mldist
+  Screen log file:               results/aligned_denv2_AI-delim.fasta.log
+
+Date and Time: Tue May 31 11:43:57 2022

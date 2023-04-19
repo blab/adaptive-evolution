@@ -1,0 +1,119 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv2_AM-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    513472 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:27:33 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv2_AM-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00619507 secs using 94.09% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.018641 secs using 29.49% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 33 sequences with 10723 columns, 384 distinct patterns
+386 parsimony-informative, 567 singleton sites, 9770 constant sites
+                                                                                                           Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 2.59876e-05 secs using 84.66% CPU
+   1  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_FJ_DELIM-WRUIWQDOFJMYFIQJXIQO_UH40_DELIM-WRUIWQDOFJMYFIQJXIQO_1971             0.11%    passed     99.77%
+   2  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_PF_DELIM-WRUIWQDOFJMYFIQJXIQO_UH50_DELIM-WRUIWQDOFJMYFIQJXIQO_1972             0.11%    passed     99.86%
+   3  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_NC_DELIM-WRUIWQDOFJMYFIQJXIQO_UH97_DELIM-WRUIWQDOFJMYFIQJXIQO_1972             0.09%    passed     99.75%
+   4  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_NC_DELIM-WRUIWQDOFJMYFIQJXIQO_UH37_DELIM-WRUIWQDOFJMYFIQJXIQO_1971             0.10%    passed     99.93%
+   5  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_FJ_DELIM-WRUIWQDOFJMYFIQJXIQO_UH21_DELIM-WRUIWQDOFJMYFIQJXIQO_1971             0.10%    passed     99.67%
+   6  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_PF_DELIM-WRUIWQDOFJMYFIQJXIQO_UH00_DELIM-WRUIWQDOFJMYFIQJXIQO_1973             0.11%    passed     99.90%
+   7  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_AS_DELIM-WRUIWQDOFJMYFIQJXIQO_UH79_DELIM-WRUIWQDOFJMYFIQJXIQO_1972             0.12%    passed     99.43%
+   8  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_AS_DELIM-WRUIWQDOFJMYFIQJXIQO_UH77_DELIM-WRUIWQDOFJMYFIQJXIQO_1972             0.09%    passed     99.43%
+   9  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_AS_DELIM-WRUIWQDOFJMYFIQJXIQO_UH85_DELIM-WRUIWQDOFJMYFIQJXIQO_1972             0.12%    passed     99.40%
+  10  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_AS_DELIM-WRUIWQDOFJMYFIQJXIQO_UH73_DELIM-WRUIWQDOFJMYFIQJXIQO_1972             0.10%    passed     99.79%
+  11  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_FJ_DELIM-WRUIWQDOFJMYFIQJXIQO_UH22_DELIM-WRUIWQDOFJMYFIQJXIQO_1971             0.28%    passed     99.90%
+  12  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_TO_DELIM-WRUIWQDOFJMYFIQJXIQO_UH16_DELIM-WRUIWQDOFJMYFIQJXIQO_1974             0.09%    passed     99.69%
+  13  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_TO_DELIM-WRUIWQDOFJMYFIQJXIQO_UH20_DELIM-WRUIWQDOFJMYFIQJXIQO_1974             0.12%    passed     99.66%
+  14  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_TO_DELIM-WRUIWQDOFJMYFIQJXIQO_UH44_DELIM-WRUIWQDOFJMYFIQJXIQO_1974             0.11%    passed     99.82%
+  15  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_TO_DELIM-WRUIWQDOFJMYFIQJXIQO_UH39_DELIM-WRUIWQDOFJMYFIQJXIQO_1974             0.70%    passed     99.97%
+  16  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_TO_DELIM-WRUIWQDOFJMYFIQJXIQO_UH19_DELIM-WRUIWQDOFJMYFIQJXIQO_1974             0.15%    passed     99.90%
+  17  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_TO_DELIM-WRUIWQDOFJMYFIQJXIQO_UH94_DELIM-WRUIWQDOFJMYFIQJXIQO_1974             0.09%    passed    100.00%
+  18  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_TO_DELIM-WRUIWQDOFJMYFIQJXIQO_UH04_DELIM-WRUIWQDOFJMYFIQJXIQO_1974             0.11%    passed     99.97%
+  19  D2_DELIM-WRUIWQDOFJMYFIQJXIQO_PF_DELIM-WRUIWQDOFJMYFIQJXIQO_UH57_DELIM-WRUIWQDOFJMYFIQJXIQO_1971             0.51%    passed     99.99%
+  20  Tonga_DELIM-WRUIWQDOFJMYFIQJXIQO_74                                                                          0.09%    passed     99.62%
+  21  DENV2_PR159                                                                                                  0.10%    passed     99.76%
+  22  DENV_2_DELIM-WRUIWQDOFJMYFIQJXIQO_PR_DELIM-WRUIWQDOFJMYFIQJXIQO_BID_V3367_DELIM-WRUIWQDOFJMYFIQJXIQO_1969    0.81%    passed     99.75%
+  23  V1328                                                                                                        0.12%    passed    100.00%
+  24  DENV_2_DELIM-WRUIWQDOFJMYFIQJXIQO_MX_DELIM-WRUIWQDOFJMYFIQJXIQO_BID_V3356_DELIM-WRUIWQDOFJMYFIQJXIQO_1992    0.51%    passed     98.77%
+  25  DENV_2_DELIM-WRUIWQDOFJMYFIQJXIQO_MX_DELIM-WRUIWQDOFJMYFIQJXIQO_BID_V3355_DELIM-WRUIWQDOFJMYFIQJXIQO_1983    0.51%    passed     97.80%
+  26  DENV_2_DELIM-WRUIWQDOFJMYFIQJXIQO_VE_DELIM-WRUIWQDOFJMYFIQJXIQO_BID_V3366_DELIM-WRUIWQDOFJMYFIQJXIQO_1987    0.51%    passed     97.37%
+  27  DENV_2_DELIM-WRUIWQDOFJMYFIQJXIQO_MX_DELIM-WRUIWQDOFJMYFIQJXIQO_BID_V3354_DELIM-WRUIWQDOFJMYFIQJXIQO_1983    0.52%    passed     97.73%
+  28  DENV_2_DELIM-WRUIWQDOFJMYFIQJXIQO_HN_DELIM-WRUIWQDOFJMYFIQJXIQO_BID_V2945_DELIM-WRUIWQDOFJMYFIQJXIQO_1984    0.51%    passed     99.44%
+  29  DENV_2_DELIM-WRUIWQDOFJMYFIQJXIQO_CO_DELIM-WRUIWQDOFJMYFIQJXIQO_BID_V3358_DELIM-WRUIWQDOFJMYFIQJXIQO_1986    0.53%    passed     99.59%
+  30  I348600                                                                                                      0.46%    passed     99.76%
+  31  IQT_1950                                                                                                     0.10%    passed     99.53%
+  32  DENV2_QR94                                                                                                   0.09%    passed     99.41%
+  33  P23085_INDI_60                                                                                               0.01%    passed     98.85%
+****  TOTAL                                                                                                        0.25%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 9.5129e-05 secs using 68.33% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -30854.070
+2. Current log-likelihood: -28743.864
+3. Current log-likelihood: -28572.182
+Optimal log-likelihood: -28572.120
+Rate parameters:  A-C: 0.89065  A-G: 9.67863  A-T: 1.40631  C-G: 0.61238  C-T: 31.34335  G-T: 1.00000
+Base frequencies:  A: 0.329  C: 0.206  G: 0.255  T: 0.210
+Parameters optimization took 3 rounds (0.090 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00169706 secs using 98.58% CPU
+Computing ML distances took 0.001796 sec (of wall-clock time) 0.001745 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 5.60284e-05 secs using 78.53% CPU
+Constructing RapidNJ tree: done in 0.000213861 secs using 130.5% CPU
+Computing RapidNJ tree took 0.000341 sec (of wall-clock time) 0.000377 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -22160.356
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.00807691 secs using 173.9% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -22151.049
+Optimizing NNI: done in 0.0792139 secs using 137.2% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 2: -22148.386
+Finish initializing candidate tree set (4)
+Current best tree score: -22148.386 / CPU time: 0.111
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -22148.386
+Optimal log-likelihood: -22148.385
+Rate parameters:  A-C: 0.89971  A-G: 12.69005  A-T: 2.24617  C-G: 0.96425  C-T: 37.87111  G-T: 1.00000
+Base frequencies:  A: 0.329  C: 0.206  G: 0.255  T: 0.210
+Parameters optimization took 1 rounds (0.005 sec)
+BEST SCORE FOUND : -22148.385
+Total tree length: 0.106
+
+Total number of iterations: 2
+CPU time used for tree search: 0.165 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.111 sec (0h:0m:0s)
+Total CPU time used: 0.241 sec (0h:0m:0s)
+Total wall-clock time used: 0.236 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv2_AM-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv2_AM-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv2_AM-delim.fasta.mldist
+  Screen log file:               results/aligned_denv2_AM-delim.fasta.log
+
+Date and Time: Tue May 31 11:27:33 2022

@@ -1,0 +1,4656 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "14.1.0"
+  },
+  "models": {
+    "country": {
+      "alphabet": [
+        "Brazil",
+        "China",
+        "Colombia",
+        "Ecuador",
+        "French Polynesia",
+        "Haiti",
+        "Indonesia",
+        "Japan",
+        "Malaysia",
+        "New Caledonia",
+        "Papua New Guinea",
+        "Philippines",
+        "Singapore",
+        "Taiwan",
+        "Thailand",
+        "Usa",
+        "Venezuela",
+        "Wallis And Futuna",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.06056750005568639,
+        0.05661435350165079,
+        0.048973899076911236,
+        0.054021642632724534,
+        0.05954430019649441,
+        0.055865507823809134,
+        0.06122649880125813,
+        0.05546847961971542,
+        0.055199917824826604,
+        0.05533940238375834,
+        0.05400321918401763,
+        0.05640237685014929,
+        0.05500184393735619,
+        0.055201752860125616,
+        0.05545280221718741,
+        0.052516225818373743,
+        0.051926359390649955,
+        0.05667391782530525
+      ],
+      "rate": 171.0474766065447,
+      "transition_matrix": [
+        [
+          0.0,
+          0.9521994888863794,
+          1.7168851851740028,
+          0.9485516286634212,
+          0.9483010682615186,
+          1.4293021013630673,
+          0.9783041385028611,
+          0.9503819565160655,
+          0.9504358362447923,
+          0.9495496201383327,
+          0.9488782341494747,
+          0.9495194135159395,
+          0.9582414315685887,
+          0.949368518586275,
+          0.9493139184832349,
+          1.5131432109785878,
+          2.270748970845737,
+          0.9485008087929367
+        ],
+        [
+          0.9521994888863794,
+          0.0,
+          0.9660823819102761,
+          0.951866420682081,
+          0.9521423520105976,
+          0.9523482582100699,
+          1.5952041399472106,
+          0.9550057309164413,
+          0.9550871276782348,
+          0.9567787861923933,
+          0.9528099975969976,
+          1.4058094086397819,
+          1.3338691656499841,
+          0.9537425642564163,
+          0.9536155541691028,
+          0.9619045135031378,
+          0.9511534019317959,
+          0.9521359470792482
+        ],
+        [
+          1.7168851851740028,
+          0.9660823819102761,
+          0.0,
+          0.9561302310244723,
+          0.9564964478558263,
+          0.9898974250107754,
+          1.054087854930814,
+          0.9585217965620917,
+          0.9586197889742957,
+          0.9599432513086609,
+          0.9572564342879404,
+          0.9578818908158427,
+          0.984417145136422,
+          0.9576708448597896,
+          0.9575474173529919,
+          1.3867615389907895,
+          2.9273202162830727,
+          0.9562286774707748
+        ],
+        [
+          0.9485516286634212,
+          0.951866420682081,
+          0.9561302310244723,
+          0.0,
+          0.9498630617948106,
+          0.9499592374321676,
+          0.9616419162923138,
+          0.9514992171241491,
+          0.951523972863054,
+          0.9502909742658343,
+          0.9500555594883829,
+          0.9507111937958989,
+          0.954416515022673,
+          0.9505588345881272,
+          0.9505384290491702,
+          0.9533188750946264,
+          1.4220173737856063,
+          0.949985348881148
+        ],
+        [
+          0.9483010682615186,
+          0.9521423520105976,
+          0.9564964478558263,
+          0.9498630617948106,
+          0.0,
+          0.9499421042490607,
+          0.9650842433715563,
+          0.9516948878382515,
+          0.9517225249068475,
+          1.9118241045250945,
+          0.9500975338766607,
+          0.9508318685904366,
+          0.9554280676639045,
+          0.9506712650244887,
+          0.9506459181126617,
+          0.953608570170015,
+          0.9477932582636,
+          0.955415790429645
+        ],
+        [
+          1.4293021013630673,
+          0.9523482582100699,
+          0.9898974250107754,
+          0.9499592374321676,
+          0.9499421042490607,
+          0.0,
+          0.9657291097266723,
+          0.9516460833824345,
+          0.9516741999674081,
+          0.950496254835065,
+          0.9501638820620398,
+          0.950858430852815,
+          0.9556414034524178,
+          0.9506830469098582,
+          0.9506577147181313,
+          1.861395478703511,
+          0.9841018538323231,
+          0.9500628606170244
+        ],
+        [
+          0.9783041385028611,
+          1.5952041399472106,
+          1.054087854930814,
+          0.9616419162923138,
+          0.9650842433715563,
+          0.9657291097266723,
+          0.0,
+          1.2402173298176813,
+          1.2835138715644265,
+          1.7058880437648085,
+          1.4475553969211068,
+          0.9868942922975157,
+          2.719126679289479,
+          1.2763619383248204,
+          1.2346571458513902,
+          1.0352326371197116,
+          0.9734604221041355,
+          0.9656352586611469
+        ],
+        [
+          0.9503819565160655,
+          0.9550057309164413,
+          0.9585217965620917,
+          0.9514992171241491,
+          0.9516948878382515,
+          0.9516460833824345,
+          1.2402173298176813,
+          0.0,
+          1.2531062825972312,
+          0.9534586776237216,
+          0.952430549746909,
+          0.9526145708847076,
+          0.9682816712327038,
+          0.9529618223836415,
+          0.9528844682915901,
+          0.9557254234732621,
+          0.949598582411939,
+          0.9517291275624402
+        ],
+        [
+          0.9504358362447923,
+          0.9550871276782348,
+          0.9586197889742957,
+          0.951523972863054,
+          0.9517225249068475,
+          0.9516741999674081,
+          1.2835138715644265,
+          1.2531062825972312,
+          0.0,
+          0.9535591826364025,
+          0.952470233531504,
+          0.9526487131428585,
+          0.9698902734180402,
+          0.9530291493058749,
+          0.9529473665137387,
+          0.9558180943811728,
+          0.9496461212475665,
+          0.9517548612379811
+        ],
+        [
+          0.9495496201383327,
+          0.9567787861923933,
+          0.9599432513086609,
+          0.9502909742658343,
+          1.9118241045250945,
+          0.950496254835065,
+          1.7058880437648085,
+          0.9534586776237216,
+          0.9535591826364025,
+          0.0,
+          0.9509865900073002,
+          0.952052909143834,
+          1.30380586650007,
+          0.9535377831540791,
+          0.9531563426538456,
+          0.9566126968191407,
+          0.9488774994845148,
+          1.430819048456269
+        ],
+        [
+          0.9488782341494747,
+          0.9528099975969976,
+          0.9572564342879404,
+          0.9500555594883829,
+          0.9500975338766607,
+          0.9501638820620398,
+          1.4475553969211068,
+          0.952430549746909,
+          0.952470233531504,
+          0.9509865900073002,
+          0.0,
+          0.9510834227961061,
+          0.9699196255797548,
+          0.9510953902460213,
+          0.9510625471075995,
+          0.9544238316201981,
+          0.9483328221970445,
+          0.9502100322243945
+        ],
+        [
+          0.9495194135159395,
+          1.4058094086397819,
+          0.9578818908158427,
+          0.9507111937958989,
+          0.9508318685904366,
+          0.950858430852815,
+          0.9868942922975157,
+          0.9526145708847076,
+          0.9526487131428585,
+          0.952052909143834,
+          0.9510834227961061,
+          0.0,
+          1.031604730643548,
+          0.9516382547408253,
+          0.9516006365767746,
+          0.9550090997787911,
+          0.9488753475911341,
+          0.950905934290438
+        ],
+        [
+          0.9582414315685887,
+          1.3338691656499841,
+          0.984417145136422,
+          0.954416515022673,
+          0.9554280676639045,
+          0.9556414034524178,
+          2.719126679289479,
+          0.9682816712327038,
+          0.9698902734180402,
+          1.30380586650007,
+          0.9699196255797548,
+          1.031604730643548,
+          0.0,
+          0.964236242750411,
+          0.9630736545562572,
+          0.9773782111888245,
+          0.9563254921450383,
+          0.9551095582839989
+        ],
+        [
+          0.949368518586275,
+          0.9537425642564163,
+          0.9576708448597896,
+          0.9505588345881272,
+          0.9506712650244887,
+          0.9506830469098582,
+          1.2763619383248204,
+          0.9529618223836415,
+          0.9530291493058749,
+          0.9535377831540791,
+          0.9510953902460213,
+          0.9516382547408253,
+          0.964236242750411,
+          0.0,
+          1.3394987990577893,
+          0.954835790609153,
+          0.9487435278900547,
+          0.9507566224990254
+        ],
+        [
+          0.9493139184832349,
+          0.9536155541691028,
+          0.9575474173529919,
+          0.9505384290491702,
+          0.9506459181126617,
+          0.9506577147181313,
+          1.2346571458513902,
+          0.9528844682915901,
+          0.9529473665137387,
+          0.9531563426538456,
+          0.9510625471075995,
+          0.9516006365767746,
+          0.9630736545562572,
+          1.3394987990577893,
+          0.0,
+          0.9547239410670548,
+          0.948694964218408,
+          0.9507327992665374
+        ],
+        [
+          1.5131432109785878,
+          0.9619045135031378,
+          1.3867615389907895,
+          0.9533188750946264,
+          0.953608570170015,
+          1.861395478703511,
+          1.0352326371197116,
+          0.9557254234732621,
+          0.9558180943811728,
+          0.9566126968191407,
+          0.9544238316201981,
+          0.9550090997787911,
+          0.9773782111888245,
+          0.954835790609153,
+          0.9547239410670548,
+          0.0,
+          1.5159576316607741,
+          0.9534985931904799
+        ],
+        [
+          2.270748970845737,
+          0.9511534019317959,
+          2.9273202162830727,
+          1.4220173737856063,
+          0.9477932582636,
+          0.9841018538323231,
+          0.9734604221041355,
+          0.949598582411939,
+          0.9496461212475665,
+          0.9488774994845148,
+          0.9483328221970445,
+          0.9488753475911341,
+          0.9563254921450383,
+          0.9487435278900547,
+          0.948694964218408,
+          1.5159576316607741,
+          0.0,
+          0.9480012461668881
+        ],
+        [
+          0.9485008087929367,
+          0.9521359470792482,
+          0.9562286774707748,
+          0.949985348881148,
+          0.955415790429645,
+          0.9500628606170244,
+          0.9656352586611469,
+          0.9517291275624402,
+          0.9517548612379811,
+          1.430819048456269,
+          0.9502100322243945,
+          0.950905934290438,
+          0.9551095582839989,
+          0.9507566224990254,
+          0.9507327992665374,
+          0.9534985931904799,
+          0.9480012461668881,
+          0.0
+        ]
+      ]
+    },
+    "region": {
+      "alphabet": [
+        "China",
+        "Japan Korea",
+        "North America",
+        "Oceania",
+        "South America",
+        "Southeast Asia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.1668365337366324,
+        0.14534532799002395,
+        0.12158139927397772,
+        0.16857299251348354,
+        0.20948693613632108,
+        0.18817681034956135
+      ],
+      "rate": 60.877140459044625,
+      "transition_matrix": [
+        [
+          0.0,
+          0.8406400474035008,
+          0.8423829939057396,
+          0.8392285587473585,
+          0.8341938570159971,
+          2.274817138426198
+        ],
+        [
+          0.8406400474035008,
+          0.0,
+          0.8396344553559084,
+          0.840199476804339,
+          0.8311604148686412,
+          1.2688756278388242
+        ],
+        [
+          0.8423829939057396,
+          0.8396344553559084,
+          0.0,
+          0.8416197602724161,
+          2.582552901905318,
+          0.9684911935396384
+        ],
+        [
+          0.8392285587473585,
+          0.840199476804339,
+          0.8416197602724161,
+          0.0,
+          0.8328623604366585,
+          2.126148806648045
+        ],
+        [
+          0.8341938570159971,
+          0.8311604148686412,
+          2.582552901905318,
+          0.8328623604366585,
+          0.0,
+          1.0369669027732147
+        ],
+        [
+          2.274817138426198,
+          1.2688756278388242,
+          0.9684911935396384,
+          2.126148806648045,
+          1.0369669027732147,
+          0.0
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "00151_P": {
+      "country": "Ecuador",
+      "country_confidence": {
+        "Ecuador": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "2018XN20946a": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/500/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/505/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/506/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/514/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/556/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/580/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/610/2013": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/614/2013": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/733/2013": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR/SJRP/850/2013": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BR005AM_2011": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Br246RR/10": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "CNR_16861": {
+      "country": "Malaysia",
+      "country_confidence": {
+        "Malaysia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "D4/Hu/India/NIID48/2009": {
+      "country": "Japan",
+      "country_confidence": {
+        "Japan": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV4/CN/GZ29/2010": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV4_61120": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/CO/BID_V1600/1997": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/CO/BID_V3406/2001": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/CO/BID_V3407/2001": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/CO/BID_V3408/2001": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/CO/BID_V3409/2001": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/CO/BID_V3410/2004": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/CO/BID_V3411/2004": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/CO/BID_V3412/2005": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR12_TVP17898/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR20_TVP17906/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/MT/BR23_TVP17909/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR24_TVP17910/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR27_TVP17913/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR28_TVP17914/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/MT/BR2_TVP17888/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/MT/BR33_TVP17919/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR35_TVP17921/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR40_TVP17926/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/MT/BR44_TVP17930/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR47_TVP17933/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR48_TVP17934/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR50_TVP18148/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR52_TVP17938/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR53_TVP17939/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR55_TVP17941/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR60_TVP17946/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/MT/BR73_TVP17951/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR76_TVP17953/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/MT/BR84_TVP17961/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/MT/BR8_TVP17894/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR91_TVP17968/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR92_TVP17969/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/MT/BR94_TVP17971/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/MT/BR9_TVP17895/2012": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/SG/06K2270DK1/2005": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/US/BID_V1082/1998": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V1093/1998": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V1094/1998": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/US/BID_V2429/1994": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/US/BID_V2430/1994": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/US/BID_V2431/1995": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2432/1995": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/US/BID_V2433/1995": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2434/1995": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2435/1996": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2436/1996": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2437/1996": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2438/1996": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2439/1996": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2440/1996": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2441/1998": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2442/1998": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2443/1998": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2444/1998": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2445/1998": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2446/1999": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V2447/1999": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/US/BID_V2448/1999": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/US/BID_V860/1994": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V1153/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V1154/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/VE/BID_V1155/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/VE/BID_V1156/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V1157/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V1158/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V1159/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V1160/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V1161/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2163/1998": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2164/1998": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2165/1998": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2166/1998": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2167/1998": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2170/1999": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2172/1999": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2173/1999": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2176/2000": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2177/2000": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/VE/BID_V2194/2001": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2206/2001": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2489/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2490/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2491/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/VE/BID_V2492/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/VE/BID_V2493/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/VE/BID_V2494/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/VE/BID_V2495/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2496/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2497/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "DENV_4/VE/BID_V2498/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2499/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2500/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2501/2008": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2607/2006": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2610/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "DENV_4/VE/BID_V2612/2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "EHI310A129CY10": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "EHI310A129SY10": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ/9809/2012": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ18XN20946": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ1D4": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "GZ30": {
+      "country": "China",
+      "country_confidence": {
+        "China": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H402276": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H772846": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H772852": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H772854": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "H773583": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H774846": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H775222": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "H778504": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H778887": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H779228": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H779652": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H780090": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "H780120": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H780556": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H780563": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "H780571": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Haiti/0324/2014": {
+      "country": "Haiti",
+      "country_confidence": {
+        "Haiti": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Haiti73": {
+      "country": "Haiti",
+      "country_confidence": {
+        "Haiti": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Haiti_0075/2015": {
+      "country": "Haiti",
+      "country_confidence": {
+        "Haiti": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ID_CN27_15": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "INH6412": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "JMB_006": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "LRV13/422": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_0033": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "MKS_0070": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_0252": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_0706": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_2007": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MKS_2139": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MRS_6169642904/2014": {
+      "country": "Haiti",
+      "country_confidence": {
+        "Haiti": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC08/200208_409": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC09/020409_9266": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC09/050209_1413": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NC09/170309_6652": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NC09/230909_14518": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NODE_0000000": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Brazil": 0.365927900387254,
+        "Colombia": 0.5402188948176421,
+        "Usa": 0.03539194080142844,
+        "Venezuela": 0.039886644214436634
+      },
+      "country_entropy": 1.0680610474543595,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.002699709432535622,
+        "South America": 0.9972639335189213
+      },
+      "region_entropy": 0.019119284210313586
+    },
+    "NODE_0000001": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Brazil": 0.2757582952932225,
+        "Colombia": 0.47338742083926644,
+        "Usa": 0.11334828327512253,
+        "Venezuela": 0.08510143481899574
+      },
+      "country_entropy": 1.4507466592823297,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.07175451372408036,
+        "South America": 0.9270394673938244
+      },
+      "region_entropy": 0.26897351186331264
+    },
+    "NODE_0000002": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Brazil": 0.053677751063784765,
+        "Colombia": 0.4434610276594512,
+        "Usa": 0.02129107988852878,
+        "Venezuela": 0.40318493883706524
+      },
+      "country_entropy": 1.3716485988914902,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.007897649588868233,
+        "South America": 0.9908571322290342
+      },
+      "region_entropy": 0.05732724315844734
+    },
+    "NODE_0000003": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Brazil": 0.20147052168467533,
+        "Colombia": 0.33261195132504034,
+        "Usa": 0.26994224605722306,
+        "Venezuela": 0.09086947233338213
+      },
+      "country_entropy": 1.7537239355883372,
+      "region": "South America",
+      "region_confidence": {
+        "China": 0.001831233693213226,
+        "North America": 0.35089762289069665,
+        "South America": 0.6409922533839364,
+        "Southeast Asia": 0.0030739842769803224
+      },
+      "region_entropy": 0.7024791507393509
+    },
+    "NODE_0000004": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.0662612028959761,
+        "Colombia": 0.05722785741221437,
+        "Indonesia": 0.0609907292455377,
+        "Usa": 0.05939519567895182
+      },
+      "country_entropy": 2.888386759264577,
+      "region": "South America",
+      "region_confidence": {
+        "China": 0.12891449853853218,
+        "North America": 0.16385111457001275,
+        "South America": 0.2907123879258304,
+        "Southeast Asia": 0.21327543808730087
+      },
+      "region_entropy": 1.709289320862132
+    },
+    "NODE_0000005": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "China": 0.06408413109743805,
+        "Indonesia": 0.16282291798725762,
+        "New Caledonia": 0.06398931709126889,
+        "Singapore": 0.12153417890730994
+      },
+      "country_entropy": 2.759607763164901,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.09295453904454436,
+        "Oceania": 0.07125163608200674,
+        "South America": 0.028960232300769655,
+        "Southeast Asia": 0.7721577475402579
+      },
+      "region_entropy": 0.8516988935996498
+    },
+    "NODE_0000006": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.19730449547025825,
+        "Indonesia": 0.060749991759348594,
+        "Philippines": 0.052708593788266166,
+        "Singapore": 0.43201816698183343
+      },
+      "country_entropy": 2.035084842194048,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.15298783252895448,
+        "Oceania": 0.014602223379358419,
+        "South America": 0.0051533968815105245,
+        "Southeast Asia": 0.8198726410696414
+      },
+      "region_entropy": 0.5800352242633027
+    },
+    "NODE_0000007": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.7074796721380577,
+        "Indonesia": 0.019387535761355146,
+        "Philippines": 0.1347012700636687,
+        "Singapore": 0.047248466935756454
+      },
+      "country_entropy": 1.1943549967710956,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.4847417110467409,
+        "Oceania": 0.00488555454475049,
+        "South America": 0.001663937392004179,
+        "Southeast Asia": 0.506200585679974
+      },
+      "region_entropy": 0.74894574623416
+    },
+    "NODE_0000008": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.915056034199248,
+        "Indonesia": 0.006696856930654789,
+        "Philippines": 0.03680984339529827,
+        "Singapore": 0.013030464558245709
+      },
+      "country_entropy": 0.4689372174807591,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.8527498247205367,
+        "Oceania": 0.001435452912888166,
+        "Southeast Asia": 0.14424947861079604
+      },
+      "region_entropy": 0.4363104765772111
+    },
+    "NODE_0000009": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9966089100371909
+      },
+      "country_entropy": 0.03150170484722589,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9960620568349713,
+        "Southeast Asia": 0.0036222624259250507
+      },
+      "region_entropy": 0.02725742372688405
+    },
+    "NODE_0000010": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.23456204007533543,
+        "New Caledonia": 0.0709913054273951,
+        "Singapore": 0.11675251312515142,
+        "Taiwan": 0.06488062465534553
+      },
+      "country_entropy": 2.6404198645510406,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.06135243031641924,
+        "Oceania": 0.06186689449968486,
+        "South America": 0.015430743051732865,
+        "Southeast Asia": 0.8415872841436745
+      },
+      "region_entropy": 0.6438813837437549
+    },
+    "NODE_0000011": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.4269003911568001,
+        "New Caledonia": 0.08841974315841603,
+        "Singapore": 0.11856001372435307,
+        "Taiwan": 0.08123966329646672
+      },
+      "country_entropy": 2.100897508102756,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.018119951667305744,
+        "Oceania": 0.05045115577609123,
+        "South America": 0.002494412057203619,
+        "Southeast Asia": 0.9254679071715475
+      },
+      "region_entropy": 0.33193250993693035
+    },
+    "NODE_0000012": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.014649108584452309,
+        "Indonesia": 0.0020987920268512937,
+        "New Caledonia": 0.9501619830700865,
+        "Wallis And Futuna": 0.025580450806376238
+      },
+      "country_entropy": 0.2734715728342941,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9978899851180407,
+        "Southeast Asia": 0.001853195049902572
+      },
+      "region_entropy": 0.016228924728273243
+    },
+    "NODE_0000013": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.02155757378484826,
+        "Indonesia": 0.0011473732888264581,
+        "New Caledonia": 0.9139471550143279,
+        "Wallis And Futuna": 0.05858570953943076
+      },
+      "country_entropy": 0.37687800556834733,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999432785905322
+      },
+      "region_entropy": 0.0006374145817730373
+    },
+    "NODE_0000014": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.043021181075721206,
+        "New Caledonia": 0.93614431661516,
+        "Wallis And Futuna": 0.016437641599033482
+      },
+      "country_entropy": 0.3001248265242969,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.999972431204957
+      },
+      "region_entropy": 0.0003370098136498166
+    },
+    "NODE_0000015": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.008379552902165618,
+        "New Caledonia": 0.9902859749086849
+      },
+      "country_entropy": 0.06060635114374004,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999397226338983
+      },
+      "region_entropy": 0.0006725330663918711
+    },
+    "NODE_0000016": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "New Caledonia": 0.9997860378744104
+      },
+      "country_entropy": 0.0022627558270253622,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999840319797942
+      },
+      "region_entropy": 0.00020372983459487602
+    },
+    "NODE_0000017": {
+      "country": "New Caledonia",
+      "country_confidence": {
+        "French Polynesia": 0.027680375291975284,
+        "New Caledonia": 0.9709281218143001
+      },
+      "country_entropy": 0.14063571794337382,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999835949867776
+      },
+      "region_entropy": 0.00020875329165138205
+    },
+    "NODE_0000018": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9798835062136669,
+        "New Caledonia": 0.01918531845324349
+      },
+      "country_entropy": 0.10481999955071923,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999850641326585
+      },
+      "region_entropy": 0.00019182174856347253
+    },
+    "NODE_0000019": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9995746577230529
+      },
+      "country_entropy": 0.003999706586364123,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999853787707803
+      },
+      "region_entropy": 0.00018817513543704974
+    },
+    "NODE_0000020": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.5072537616294678,
+        "Singapore": 0.12301371944960397,
+        "Taiwan": 0.09038914323640977,
+        "Thailand": 0.07416063105087073
+      },
+      "country_entropy": 1.833816458447545,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.011809729742222776,
+        "Oceania": 0.010629641154056213,
+        "Southeast Asia": 0.9766894879034279
+      },
+      "region_entropy": 0.13081354185676183
+    },
+    "NODE_0000021": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.49423355089484117,
+        "Singapore": 0.08797634839145413,
+        "Taiwan": 0.13514637811935135,
+        "Thailand": 0.10977442486960588
+      },
+      "country_entropy": 1.8096869332604733,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.02027575424639619,
+        "Oceania": 0.004940484190718967,
+        "Southeast Asia": 0.9739990191768424
+      },
+      "region_entropy": 0.13737167777407291
+    },
+    "NODE_0000022": {
+      "country": "Taiwan",
+      "country_confidence": {
+        "Indonesia": 0.09847753363247434,
+        "Singapore": 0.020630174937832146,
+        "Taiwan": 0.439872034442297,
+        "Thailand": 0.35415766498844686
+      },
+      "country_entropy": 1.4760373932987012,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.10900887038520488,
+        "Oceania": 0.002108156228699039,
+        "Southeast Asia": 0.8876731781918458
+      },
+      "region_entropy": 0.3697635466310844
+    },
+    "NODE_0000023": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.9557985734802774,
+        "Singapore": 0.010006925617171963,
+        "Taiwan": 0.005096518440121841,
+        "Thailand": 0.0043209333418933425
+      },
+      "country_entropy": 0.2947469829730612,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.002482853902448075,
+        "Oceania": 0.0015472300687882506,
+        "Southeast Asia": 0.9952419288147476
+      },
+      "region_entropy": 0.035671873143703244
+    },
+    "NODE_0000024": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.6073423456730954,
+        "New Caledonia": 0.028208078208635114,
+        "Singapore": 0.2196277559659653,
+        "Taiwan": 0.024186047015638295
+      },
+      "country_entropy": 1.3831682416386801,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0025552037911441908,
+        "Oceania": 0.002336827340654222,
+        "Southeast Asia": 0.9943541586441621
+      },
+      "region_entropy": 0.04117011399049257
+    },
+    "NODE_0000025": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Indonesia": 0.0012131330710942578,
+        "Singapore": 0.9975278184987959
+      },
+      "country_entropy": 0.022461558848386614,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9995425195519161
+      },
+      "region_entropy": 0.004537809862125039
+    },
+    "NODE_0000026": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.6743434518319907,
+        "Malaysia": 0.018784969189765504,
+        "New Caledonia": 0.022334326325878884,
+        "Singapore": 0.2016122345419153
+      },
+      "country_entropy": 1.1592691364404593,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.0010307924932606639,
+        "Southeast Asia": 0.9973599367276141
+      },
+      "region_entropy": 0.021561488710345952
+    },
+    "NODE_0000027": {
+      "country": "Malaysia",
+      "country_confidence": {
+        "Indonesia": 0.17607627297394945,
+        "Japan": 0.20291355578340062,
+        "Malaysia": 0.2853447315083806,
+        "Singapore": 0.06942988248550112
+      },
+      "country_entropy": 2.22445478014397,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0145532586591593,
+        "Japan Korea": 0.0742362324667236,
+        "Oceania": 0.013136626024835835,
+        "Southeast Asia": 0.8909431082464012
+      },
+      "region_entropy": 0.45425289559627513
+    },
+    "NODE_0000028": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.7552390245479759,
+        "Malaysia": 0.005520387507379782,
+        "New Caledonia": 0.017665159998696882,
+        "Singapore": 0.19260404042832804
+      },
+      "country_entropy": 0.8039869976899484,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9988626938182509
+      },
+      "region_entropy": 0.009884719466045487
+    },
+    "NODE_0000029": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.7219678441049804,
+        "New Caledonia": 0.023628433562658126,
+        "Papua New Guinea": 0.003685257618065472,
+        "Singapore": 0.2277749556467401
+      },
+      "country_entropy": 0.8258000363372513,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.0032130641946684605,
+        "Southeast Asia": 0.9963712330436145
+      },
+      "region_entropy": 0.025649968229616092
+    },
+    "NODE_0000030": {
+      "country": "Singapore",
+      "country_confidence": {
+        "China": 0.00654229286577912,
+        "Indonesia": 0.21975434322472093,
+        "New Caledonia": 0.22199679738406486,
+        "Singapore": 0.4955901728827759
+      },
+      "country_entropy": 1.3564540680856372,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0022959292639771712,
+        "Oceania": 0.08510712737696333,
+        "Southeast Asia": 0.9109315364839645
+      },
+      "region_entropy": 0.3210383756482636
+    },
+    "NODE_0000031": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.7427066533531131,
+        "New Caledonia": 0.01519206470243532,
+        "Papua New Guinea": 0.007541543746029203,
+        "Singapore": 0.2072265172790826
+      },
+      "country_entropy": 0.8164149891381796,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Oceania": 0.0037125158771220907,
+        "Southeast Asia": 0.9951539736430175
+      },
+      "region_entropy": 0.03427594326488665
+    },
+    "NODE_0000032": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.6541032453567318,
+        "New Caledonia": 0.013773543840557451,
+        "Papua New Guinea": 0.02948220534194309,
+        "Singapore": 0.2419482686107592
+      },
+      "country_entropy": 1.112259474111568,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0026029187841949664,
+        "Oceania": 0.0148864217719893,
+        "Southeast Asia": 0.9812247605565452
+      },
+      "region_entropy": 0.10662840638161218
+    },
+    "NODE_0000033": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Indonesia": 0.0017602203746122944,
+        "Singapore": 0.9971577242009354
+      },
+      "country_entropy": 0.0243377458037834,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996215110529486
+      },
+      "region_entropy": 0.003810597531560515
+    },
+    "NODE_0000034": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.6922656712279216,
+        "New Caledonia": 0.011054236364824466,
+        "Papua New Guinea": 0.13774218467979082,
+        "Singapore": 0.08026152512528471
+      },
+      "country_entropy": 1.1858282599253678,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.004830988359810196,
+        "Japan Korea": 0.0013901800228146343,
+        "Oceania": 0.10091565607048977,
+        "Southeast Asia": 0.8907726358699524
+      },
+      "region_entropy": 0.38363072880571125
+    },
+    "NODE_0000035": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "China": 0.004592577069298698,
+        "Indonesia": 0.9800798517189495,
+        "New Caledonia": 0.0010356711596386447,
+        "Singapore": 0.01037942853976027
+      },
+      "country_entropy": 0.13080101524734794,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.0030509358009033734,
+        "Southeast Asia": 0.996464901721744
+      },
+      "region_entropy": 0.02535764952136252
+    },
+    "NODE_0000036": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "China": 0.009592755586105142,
+        "Indonesia": 0.9806785333981283,
+        "Singapore": 0.005542864546316608
+      },
+      "country_entropy": 0.12639165002069722,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "China": 0.010103956393606768,
+        "Southeast Asia": 0.9893017757144443
+      },
+      "region_entropy": 0.06213054818948658
+    },
+    "NODE_0000037": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.9994288169744735
+      },
+      "country_entropy": 0.0058183626958088356,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9996399996554286
+      },
+      "region_entropy": 0.0033822523190874
+    },
+    "NODE_0000038": {
+      "country": "Indonesia",
+      "country_confidence": {
+        "Indonesia": 0.9999135488885178
+      },
+      "country_entropy": 0.001086439118898574,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 0.9999490471696906
+      },
+      "region_entropy": 0.0006105280559175054
+    },
+    "NODE_0000039": {
+      "country": "China",
+      "country_confidence": {
+        "China": 0.9999332876995252
+      },
+      "country_entropy": 0.0007903682100267025,
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9998734875503117
+      },
+      "region_entropy": 0.0012731900719883927
+    },
+    "NODE_0000041": {
+      "country": "Usa",
+      "country_confidence": {
+        "Brazil": 0.10148800369672852,
+        "Colombia": 0.15808887356336118,
+        "Usa": 0.5420952562536138,
+        "Venezuela": 0.08977899339744239
+      },
+      "country_entropy": 1.5440319009212062,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.7790715999315223,
+        "South America": 0.21949128683902971
+      },
+      "region_entropy": 0.5386662640482328
+    },
+    "NODE_0000042": {
+      "country": "Usa",
+      "country_confidence": {
+        "Brazil": 0.007813988045066006,
+        "Colombia": 0.00921116474921423,
+        "Usa": 0.9550874660836199,
+        "Venezuela": 0.006958029330325445
+      },
+      "country_entropy": 0.291536645328394,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9833617773073403,
+        "South America": 0.016042748781812066
+      },
+      "region_entropy": 0.08802104139140339
+    },
+    "NODE_0000043": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9995415025830787
+      },
+      "country_entropy": 0.0051440061216683815,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9998045320047069
+      },
+      "region_entropy": 0.0019318871729561424
+    },
+    "NODE_0000044": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999406241066613
+      },
+      "country_entropy": 0.0007887532464655965,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999692638092976
+      },
+      "region_entropy": 0.0003646489655589124
+    },
+    "NODE_0000045": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999721754966887
+      },
+      "country_entropy": 0.0003911261017734948,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999849458902409
+      },
+      "region_entropy": 0.00019003551630638127
+    },
+    "NODE_0000046": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999730366741622
+      },
+      "country_entropy": 0.0003799990644795484,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999855025216164
+      },
+      "region_entropy": 0.00018368997410469828
+    },
+    "NODE_0000047": {
+      "country": "Usa",
+      "country_confidence": {
+        "Colombia": 0.09425957171801748,
+        "Haiti": 0.09910697810720799,
+        "Usa": 0.5297132617604434,
+        "Venezuela": 0.12966669142151105
+      },
+      "country_entropy": 1.6437638322120642,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.8397713007992536,
+        "South America": 0.1590974057915474
+      },
+      "region_entropy": 0.44829762009306884
+    },
+    "NODE_0000048": {
+      "country": "Usa",
+      "country_confidence": {
+        "Brazil": 0.012130765906485206,
+        "Colombia": 0.027272911101615786,
+        "Usa": 0.6264150151799694,
+        "Venezuela": 0.3052523248704629
+      },
+      "country_entropy": 0.9748664388784208,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.7864136414612981,
+        "South America": 0.21309240491492154
+      },
+      "region_entropy": 0.5228216908931095
+    },
+    "NODE_0000049": {
+      "country": "Usa",
+      "country_confidence": {
+        "Colombia": 0.004321188002453865,
+        "Haiti": 0.003625604366055416,
+        "Usa": 0.9444846427584294,
+        "Venezuela": 0.03950883955178121
+      },
+      "country_entropy": 0.28302196771199223,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9774907384846329,
+        "South America": 0.022381969576879452
+      },
+      "region_entropy": 0.10860631453667159
+    },
+    "NODE_0000050": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9996212760541622
+      },
+      "country_entropy": 0.0042464282601908186,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9998319091516608
+      },
+      "region_entropy": 0.0016827976753392502
+    },
+    "NODE_0000051": {
+      "country": "Usa",
+      "country_confidence": {
+        "Colombia": 0.0024499397721525124,
+        "Haiti": 0.003772490701315664,
+        "Usa": 0.9689987393273357,
+        "Venezuela": 0.01735330920358084
+      },
+      "country_entropy": 0.19122033758294876,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9939889258281772,
+        "South America": 0.005913145050092915
+      },
+      "region_entropy": 0.03736692856556349
+    },
+    "NODE_0000052": {
+      "country": "Haiti",
+      "country_confidence": {
+        "Haiti": 0.9963965113135576,
+        "Usa": 0.0010337097701829461
+      },
+      "country_entropy": 0.03304919991604581,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9995638070069102
+      },
+      "region_entropy": 0.004103814124430722
+    },
+    "NODE_0000053": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9994831506699361
+      },
+      "country_entropy": 0.00536734014671658,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9998655441270741
+      },
+      "region_entropy": 0.0013513727842899015
+    },
+    "NODE_0000054": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999633586818227
+      },
+      "country_entropy": 0.000501286304994715,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999820319058687
+      },
+      "region_entropy": 0.00022261948314078228
+    },
+    "NODE_0000055": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9998858325110301
+      },
+      "country_entropy": 0.0014467810424833387,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999445745668055
+      },
+      "region_entropy": 0.0006276447429845463
+    },
+    "NODE_0000056": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999252550981664
+      },
+      "country_entropy": 0.000959988988045886,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999301878299691
+      },
+      "region_entropy": 0.0007534168918489621
+    },
+    "NODE_0000057": {
+      "country": "Usa",
+      "country_confidence": {
+        "Brazil": 0.0012243366052478045,
+        "Usa": 0.9970019179130064
+      },
+      "country_entropy": 0.027056749140398396,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9972857152903102,
+        "South America": 0.002606433360668849
+      },
+      "region_entropy": 0.019348775474438647
+    },
+    "NODE_0000058": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9754712157816321,
+        "Colombia": 0.001801562671730056,
+        "Usa": 0.009489362263283736,
+        "Venezuela": 0.0031545936969037806
+      },
+      "country_entropy": 0.17033881663140807,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.02199772776571946,
+        "South America": 0.9768944827046365
+      },
+      "region_entropy": 0.11581763199171391
+    },
+    "NODE_0000060": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9995777154024901
+      },
+      "country_entropy": 0.004679211765027877,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9994608576360834
+      },
+      "region_entropy": 0.0047375693985096294
+    },
+    "NODE_0000061": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999645534575538
+      },
+      "country_entropy": 0.00048623817472475924,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999826606119484
+      },
+      "region_entropy": 0.00021557455112834352
+    },
+    "NODE_0000062": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999499591765364
+      },
+      "country_entropy": 0.0006745683211358709,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999741213367797
+      },
+      "region_entropy": 0.0003128871621059206
+    },
+    "NODE_0000063": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999516136136276
+      },
+      "country_entropy": 0.0006541676994323553,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999751260263633
+      },
+      "region_entropy": 0.00030196373488062677
+    },
+    "NODE_0000064": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999721738901143
+      },
+      "country_entropy": 0.0003911809901676541,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999849633237814
+      },
+      "region_entropy": 0.0001898638964815741
+    },
+    "NODE_0000065": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999721440579403
+      },
+      "country_entropy": 0.0003915505846414235,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999849348081381
+      },
+      "region_entropy": 0.00019017404677842457
+    },
+    "NODE_0000066": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999995669642872
+      },
+      "country_entropy": 7.7971280908216e-06,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999996800902443
+      },
+      "region_entropy": 5.1839314570731384e-06
+    },
+    "NODE_0000068": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999394159538606
+      },
+      "country_entropy": 0.000805470848372771,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999692340270374
+      },
+      "region_entropy": 0.0003667851357060159
+    },
+    "NODE_0000069": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999412747852636
+      },
+      "country_entropy": 0.0007828457837842161,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999704054734326
+      },
+      "region_entropy": 0.0003542360494972052
+    },
+    "NODE_0000070": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999684274965098
+      },
+      "country_entropy": 0.0004398481521167817,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999830193910408
+      },
+      "region_entropy": 0.00021229467996033193
+    },
+    "NODE_0000071": {
+      "country": "Usa",
+      "country_confidence": {
+        "Usa": 0.9999494421871817
+      },
+      "country_entropy": 0.0006812820361019849,
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999740414138882
+      },
+      "region_entropy": 0.00031397559282610095
+    },
+    "NODE_0000073": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Brazil": 0.0028616980430087044,
+        "Colombia": 0.03239531777332053,
+        "Usa": 0.042464136564232216,
+        "Venezuela": 0.9179698613625933
+      },
+      "country_entropy": 0.3750005915612292,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.04098660896455866,
+        "South America": 0.9588558041895313
+      },
+      "region_entropy": 0.17280594876670655
+    },
+    "NODE_0000074": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Brazil": 0.0037501584367444713,
+        "Colombia": 0.0647113155037872,
+        "Usa": 0.02352924165869614,
+        "Venezuela": 0.9007594327155853
+      },
+      "country_entropy": 0.4351232984681401,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.01331064577100076,
+        "South America": 0.9865126210316731
+      },
+      "region_entropy": 0.07264849830966975
+    },
+    "NODE_0000075": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Brazil": 0.002088501588247645,
+        "Colombia": 0.9469509840311298,
+        "Usa": 0.0014837093696761774,
+        "Venezuela": 0.04376581671884529
+      },
+      "country_entropy": 0.25565151946317083,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.001343160549773445,
+        "South America": 0.9984718347018584
+      },
+      "region_entropy": 0.012244270909786671
+    },
+    "NODE_0000076": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.9999864338621907
+      },
+      "country_entropy": 0.0001739244283190491,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999975981474193
+      },
+      "region_entropy": 3.4317238585561494e-05
+    },
+    "NODE_0000078": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Colombia": 0.004328325112313686,
+        "Usa": 0.003262130585522439,
+        "Venezuela": 0.9911893377885364
+      },
+      "country_entropy": 0.06184411606936968,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.0054989513152002125,
+        "South America": 0.9944435498494412
+      },
+      "region_entropy": 0.034790420393828174
+    },
+    "NODE_0000079": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.999711277685351
+      },
+      "country_entropy": 0.0032451321969701147,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9998507904405809
+      },
+      "region_entropy": 0.0015610476939705072
+    },
+    "NODE_0000080": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999999752471552
+      },
+      "country_entropy": 4.848762268896885e-07,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999710214008
+      },
+      "region_entropy": 5.367076392392033e-07
+    },
+    "NODE_0000083": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999262827191804
+      },
+      "country_entropy": 0.0009274365363391174,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999960918814676
+      },
+      "region_entropy": 0.0004659951197054702
+    },
+    "NODE_0000084": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9987896229827575
+      },
+      "country_entropy": 0.011083124157186219,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9991716553328106
+      },
+      "region_entropy": 0.006859711332586847
+    },
+    "NODE_0000085": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.998921913485353
+      },
+      "country_entropy": 0.010634669551925154,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9994661969109968
+      },
+      "region_entropy": 0.004865488479441437
+    },
+    "NODE_0000086": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9994369755092579
+      },
+      "country_entropy": 0.005999247505190046,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999754815768717
+      },
+      "region_entropy": 0.0024771862226375006
+    },
+    "NODE_0000087": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Colombia": 0.0013346301161361257,
+        "Venezuela": 0.9982931083990059
+      },
+      "country_entropy": 0.014333872534174563,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9998354429698231
+      },
+      "region_entropy": 0.001717596044846426
+    },
+    "NODE_0000088": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Colombia": 0.008632706163223154,
+        "Venezuela": 0.989931841248671
+      },
+      "country_entropy": 0.06387191385167362,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999863528045521
+      },
+      "region_entropy": 0.0014498621169539898
+    },
+    "NODE_0000089": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 0.993607274256668,
+        "Venezuela": 0.005477607362206141
+      },
+      "country_entropy": 0.04362725907433797,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999893881975365
+      },
+      "region_entropy": 0.0011622362084587404
+    },
+    "NODE_0000090": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Colombia": 0.0016208635871698502,
+        "Venezuela": 0.9978033216950063
+      },
+      "country_entropy": 0.018200280515918515,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9998881025173062
+      },
+      "region_entropy": 0.0012023699001079517
+    },
+    "NODE_0000091": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Brazil": 0.001223593432340274,
+        "Colombia": 0.002462568135124824,
+        "Ecuador": 0.0020359416378215728,
+        "Venezuela": 0.990771664174393
+      },
+      "country_entropy": 0.07376640824149987,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9993006346614796
+      },
+      "region_entropy": 0.006391053698437933
+    },
+    "NODE_0000092": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9997109256678186
+      },
+      "country_entropy": 0.003164979623937005,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999314750870228
+      },
+      "region_entropy": 0.0007762170222430494
+    },
+    "NODE_0000093": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999951739884216
+      },
+      "country_entropy": 7.11508443781587e-05,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999967182817998
+      },
+      "region_entropy": 4.5928232342275734e-05
+    },
+    "NODE_0000094": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9998294295153529
+      },
+      "country_entropy": 0.002007793475750735,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999143650678157
+      },
+      "region_entropy": 0.0009539598430884716
+    },
+    "NODE_0000095": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999101554564299
+      },
+      "country_entropy": 0.0011119673206771965,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999523944128754
+      },
+      "region_entropy": 0.0005575608159807765
+    },
+    "NODE_0000096": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999506906139985
+      },
+      "country_entropy": 0.000638596415085639,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999727535679505
+      },
+      "region_entropy": 0.00033414339908504216
+    },
+    "NODE_0000097": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9998811607183263
+      },
+      "country_entropy": 0.001439117228196564,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999382840207037
+      },
+      "region_entropy": 0.0007070819586035692
+    },
+    "NODE_0000098": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999490143670227
+      },
+      "country_entropy": 0.0006580304808907221,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999715684117197
+      },
+      "region_entropy": 0.0003471211247785708
+    },
+    "NODE_0000099": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999514957720894
+      },
+      "country_entropy": 0.0006292099889436508,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999732841391487
+      },
+      "region_entropy": 0.0003283072041493932
+    },
+    "NODE_0000101": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9998143061203505
+      },
+      "country_entropy": 0.00217708123312097,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999122565767297
+      },
+      "region_entropy": 0.0009772129023631264
+    },
+    "NODE_0000102": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9998426358405834
+      },
+      "country_entropy": 0.0018666186383649692,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999922515653749
+      },
+      "region_entropy": 0.0008712078823819285
+    },
+    "NODE_0000103": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999425436727253
+      },
+      "country_entropy": 0.0007325672465077075,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999675364270234
+      },
+      "region_entropy": 0.0003908785204117308
+    },
+    "NODE_0000104": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9997961061577019
+      },
+      "country_entropy": 0.0023653723979776596,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9998992158151687
+      },
+      "region_entropy": 0.001106442073660019
+    },
+    "NODE_0000105": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.999900651961307
+      },
+      "country_entropy": 0.0012211440994552632,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999483965367638
+      },
+      "region_entropy": 0.0006008051689604249
+    },
+    "NODE_0000106": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999093637517987
+      },
+      "country_entropy": 0.0011094777366262912,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999591990975241
+      },
+      "region_entropy": 0.00048366097652532974
+    },
+    "NODE_0000107": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9994376068658074
+      },
+      "country_entropy": 0.005361422674078743,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999513313424261
+      },
+      "region_entropy": 0.0005683945674000872
+    },
+    "NODE_0000108": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999349843257015
+      },
+      "country_entropy": 0.000819003799339638,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999969455202645
+      },
+      "region_entropy": 0.0003712307755654451
+    },
+    "NODE_0000109": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Brazil": 0.02447634064377143,
+        "Venezuela": 0.9734253992883537
+      },
+      "country_entropy": 0.13473543486174758,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999462278541277
+      },
+      "region_entropy": 0.0006231826855214752
+    },
+    "NODE_0000110": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9639900044624659,
+        "Venezuela": 0.03352097933424745
+      },
+      "country_entropy": 0.1702761369497546,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999347522294723
+      },
+      "region_entropy": 0.0007435884957249473
+    },
+    "NODE_0000111": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9986888239644547,
+        "Venezuela": 0.0011520662732167348
+      },
+      "country_entropy": 0.01088840594745729,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999600267165631
+      },
+      "region_entropy": 0.00047445779872753156
+    },
+    "NODE_0000112": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999040271068953
+      },
+      "country_entropy": 0.0011615872693573233,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999964262609073
+      },
+      "region_entropy": 0.00042846428474884346
+    },
+    "NODE_0000113": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999559694980331
+      },
+      "country_entropy": 0.000590357206328608,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999723092873011
+      },
+      "region_entropy": 0.0003390070422003664
+    },
+    "NODE_0000114": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999579645426357
+      },
+      "country_entropy": 0.0005667465932351428,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999733062286266
+      },
+      "region_entropy": 0.0003280671480019949
+    },
+    "NODE_0000115": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9990063479226093
+      },
+      "country_entropy": 0.008800478277460031,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999684656677834
+      },
+      "region_entropy": 0.00038075543273715956
+    },
+    "NODE_0000116": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Brazil": 0.005729997976791548,
+        "Colombia": 0.017160851057476598,
+        "Venezuela": 0.9761834493939664
+      },
+      "country_entropy": 0.13175308659169724,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999536764379223
+      },
+      "region_entropy": 0.0005430930566919629
+    },
+    "NODE_0000117": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9995211401322297
+      },
+      "country_entropy": 0.0046811883763697324,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999559489612404
+      },
+      "region_entropy": 0.0005194145385501109
+    },
+    "NODE_0000118": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999407436121157
+      },
+      "country_entropy": 0.0007472069130010244,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999728530511051
+      },
+      "region_entropy": 0.00033305219430417135
+    },
+    "NODE_0000119": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Brazil": 0.15069278944934875,
+        "Colombia": 0.3780269634203675,
+        "Usa": 0.002396055513057375,
+        "Venezuela": 0.45701418363974683
+      },
+      "country_entropy": 1.109063834901573,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999485640579071
+      },
+      "region_entropy": 0.0005982943190532647
+    },
+    "NODE_0000120": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9832109802860487,
+        "Colombia": 0.005878042242914684,
+        "Venezuela": 0.009335949256637123
+      },
+      "country_entropy": 0.10476062108065741,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999236413746009
+      },
+      "region_entropy": 0.000857692297933292
+    },
+    "NODE_0000121": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9991578699161724
+      },
+      "country_entropy": 0.008031242650903474,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999259474576064
+      },
+      "region_entropy": 0.0008351021531090938
+    },
+    "NODE_0000122": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.999431569493423
+      },
+      "country_entropy": 0.005630414513008653,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999491926659435
+      },
+      "region_entropy": 0.0005912321605821835
+    },
+    "NODE_0000123": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999301333279395
+      },
+      "country_entropy": 0.0008943986600201724,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999648982004834
+      },
+      "region_entropy": 0.00042166263333580443
+    },
+    "NODE_0000124": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9988824931535422
+      },
+      "country_entropy": 0.009969983513484661,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999271478313415
+      },
+      "region_entropy": 0.000820469777735771
+    },
+    "NODE_0000125": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9998644812172193
+      },
+      "country_entropy": 0.0016199188884933459,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999361221607032
+      },
+      "region_entropy": 0.0007300936572847409
+    },
+    "NODE_0000126": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999486514629364
+      },
+      "country_entropy": 0.0006622117799151637,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999715096299213
+      },
+      "region_entropy": 0.00034776966538337725
+    },
+    "NODE_0000127": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.999951487599332
+      },
+      "country_entropy": 0.0006293033757232099,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999732823990098
+      },
+      "region_entropy": 0.0003283261825827486
+    },
+    "NODE_0000128": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999999994779277
+      },
+      "country_entropy": 1.2094800754896064e-08,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999992028326
+      },
+      "region_entropy": 1.755590930762077e-08
+    },
+    "NODE_0000131": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9998023468852671
+      },
+      "country_entropy": 0.002263316434457024,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9995611089362603
+      },
+      "region_entropy": 0.003898488691629285
+    },
+    "NODE_0000132": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 0.9999525732981445
+      },
+      "country_entropy": 0.0006166890570147662,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999740797229727
+      },
+      "region_entropy": 0.00031955233361955025
+    },
+    "NODE_0000133": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Brazil": 0.01112504951253912,
+        "Venezuela": 0.9863303973061979
+      },
+      "country_entropy": 0.08462110723074052,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9998641113282037
+      },
+      "region_entropy": 0.0014513037155839468
+    },
+    "NODE_0000134": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.990052678604756,
+        "Venezuela": 0.00829479959716834
+      },
+      "country_entropy": 0.06439813412344206,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999042045849046
+      },
+      "region_entropy": 0.0010578330992371105
+    },
+    "NODE_0000135": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999836617897739
+      },
+      "country_entropy": 0.0002094239524575341,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999978859929552
+      },
+      "region_entropy": 3.054873753630127e-05
+    },
+    "NODE_0000137": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999112798805859
+      },
+      "country_entropy": 0.0011320188323415581,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999474045420534
+      },
+      "region_entropy": 0.0006117346135836468
+    },
+    "NODE_0000138": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999991850097456
+      },
+      "country_entropy": 1.3880668200867551e-05,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999986948137634
+      },
+      "region_entropy": 1.9340548268442993e-05
+    },
+    "NODE_0000140": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999399474653193
+      },
+      "country_entropy": 0.0007886211515463292,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999624507224846
+      },
+      "region_entropy": 0.00044857519494848226
+    },
+    "NODE_0000141": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999411522607452
+      },
+      "country_entropy": 0.0007742857161239316,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999636088071279
+      },
+      "region_entropy": 0.0004362270385884786
+    },
+    "NODE_0000142": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.999954623028677
+      },
+      "country_entropy": 0.0006081302446589135,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999709076592188
+      },
+      "region_entropy": 0.00035473589070706215
+    },
+    "NODE_0000143": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999579444711244
+      },
+      "country_entropy": 0.0005670106947665444,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999973267113131
+      },
+      "region_entropy": 0.0003284971689776846
+    },
+    "NODE_0000144": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999432241856897
+      },
+      "country_entropy": 0.0007484396415275494,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999550894816194
+      },
+      "region_entropy": 0.0005227906196981412
+    },
+    "NODE_0000145": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999560744854308
+      },
+      "country_entropy": 0.0005898505207425592,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999711523862871
+      },
+      "region_entropy": 0.00035156767436851394
+    },
+    "NODE_0000146": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999571701296841
+      },
+      "country_entropy": 0.0005764752247642675,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999725040866172
+      },
+      "region_entropy": 0.0003368668241743684
+    },
+    "NODE_0000147": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999579921196502
+      },
+      "country_entropy": 0.0005664276693181257,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999733120138498
+      },
+      "region_entropy": 0.00032800423175930306
+    },
+    "NODE_0000148": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999571535742345
+      },
+      "country_entropy": 0.0005766741017111125,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999724796757737
+      },
+      "region_entropy": 0.000337131091205964
+    },
+    "NODE_0000149": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999571757259633
+      },
+      "country_entropy": 0.0005764077925011388,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999725219237822
+      },
+      "region_entropy": 0.0003366746728143195
+    },
+    "NODE_0000150": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999571923968565
+      },
+      "country_entropy": 0.0005762075308685454,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999972546891995
+      },
+      "region_entropy": 0.0003364043678167596
+    },
+    "NODE_0000151": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999579925821086
+      },
+      "country_entropy": 0.0005664221687434713,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999733133404063
+      },
+      "region_entropy": 0.0003279899075518052
+    },
+    "NODE_0000153": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9936299085041178,
+        "Haiti": 0.004377198292582523
+      },
+      "country_entropy": 0.047617157820093126,
+      "region": "South America",
+      "region_confidence": {
+        "North America": 0.009954177523099095,
+        "South America": 0.9898790587162468
+      },
+      "region_entropy": 0.05762821502076076
+    },
+    "NODE_0000154": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999566227958492
+      },
+      "country_entropy": 0.0005831624022275332,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999719883653481
+      },
+      "region_entropy": 0.00034250612676215016
+    },
+    "NODE_0000155": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999297875222564
+      },
+      "country_entropy": 0.0009111254706661015,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999563402405889
+      },
+      "region_entropy": 0.0005148019773545432
+    },
+    "NODE_0000156": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999285867685246
+      },
+      "country_entropy": 0.0009253873514530635,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999554801785145
+      },
+      "region_entropy": 0.0005239307541123572
+    },
+    "NODE_0000157": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999363378993916
+      },
+      "country_entropy": 0.000831831706442766,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999597140249596
+      },
+      "region_entropy": 0.00047786805839045675
+    },
+    "NODE_0000158": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999067781312384
+      },
+      "country_entropy": 0.0011845279454210493,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999438575490254
+      },
+      "region_entropy": 0.0006486535727263382
+    },
+    "NODE_0000159": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999563314814813
+      },
+      "country_entropy": 0.0005867050051124099,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999716909839765
+      },
+      "region_entropy": 0.0003457614045848679
+    },
+    "NODE_0000160": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999861394753
+      },
+      "country_entropy": 2.871269305948365e-07,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999752356115
+      },
+      "region_entropy": 4.629144992403075e-07
+    },
+    "NODE_0000163": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999571587369581
+      },
+      "country_entropy": 0.00057661177303834,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999724967618423
+      },
+      "region_entropy": 0.000336947051202368
+    },
+    "NODE_0000164": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999571920349328
+      },
+      "country_entropy": 0.0005762118216219745,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999725460918932
+      },
+      "region_entropy": 0.00033641298829073366
+    },
+    "NODE_0000165": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999579929268536
+      },
+      "country_entropy": 0.0005664180712891188,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999733140929306
+      },
+      "region_entropy": 0.0003279817745985853
+    },
+    "NODE_0000166": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999579925742917
+      },
+      "country_entropy": 0.0005664222607457177,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.999973313315443
+      },
+      "region_entropy": 0.0003279901768086153
+    },
+    "NODE_0000168": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999579926222409
+      },
+      "country_entropy": 0.000566421660531075,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999733133016195
+      },
+      "region_entropy": 0.00032799031873305244
+    },
+    "NODE_0000169": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999571749527171
+      },
+      "country_entropy": 0.0005764169244526148,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999725204306978
+      },
+      "region_entropy": 0.0003366907608615494
+    },
+    "NODE_0000170": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999579922180465
+      },
+      "country_entropy": 0.0005664264930965886,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999733125238727
+      },
+      "region_entropy": 0.0003279987307790186
+    },
+    "NODE_0000171": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999999864444092
+      },
+      "country_entropy": 2.811925855616405e-07,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999999760285447
+      },
+      "region_entropy": 4.4894084773208475e-07
+    },
+    "NODE_0000172": {
+      "country": "Brazil",
+      "country_confidence": {
+        "Brazil": 0.9999572089534385
+      },
+      "country_entropy": 0.0005760086208563046,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 0.9999725713037091
+      },
+      "region_entropy": 0.00033614002114761536
+    },
+    "PF09/080409_93": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "PF09/230309_126": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "PF09/290109_69": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "PF10/150610_28": {
+      "country": "French Polynesia",
+      "country_confidence": {
+        "French Polynesia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PH_CN08_14": {
+      "country": "Philippines",
+      "country_confidence": {
+        "Philippines": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "PNG_2016a": {
+      "country": "Papua New Guinea",
+      "country_confidence": {
+        "Papua New Guinea": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D4/04645Y16": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D4/09291Y16": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SG_EHI_D4/2641Y08": {
+      "country": "Singapore",
+      "country_confidence": {
+        "Singapore": 0.9999999999999999
+      },
+      "country_entropy": -9.99866855976916e-13,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Taiwan_2K0713": {
+      "country": "Taiwan",
+      "country_confidence": {
+        "Taiwan": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "ThD4_0734_00": {
+      "country": "Thailand",
+      "country_confidence": {
+        "Thailand": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Southeast Asia",
+      "region_confidence": {
+        "Southeast Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "V341750": {
+      "country": "Colombia",
+      "country_confidence": {
+        "Colombia": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "VE_61013_2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "VE_61027_2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "VE_61054_2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "VE_61073_2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "VE_61110_2007": {
+      "country": "Venezuela",
+      "country_confidence": {
+        "Venezuela": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "South America",
+      "region_confidence": {
+        "South America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "WF09/010409_0001": {
+      "country": "Wallis And Futuna",
+      "country_confidence": {
+        "Wallis And Futuna": 1.0
+      },
+      "country_entropy": -1.000088900581841e-12,
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    }
+  }
+}

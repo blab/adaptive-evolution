@@ -1,0 +1,678 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv3_III-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    647594 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:49:11 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv3_III-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.109912 secs using 92.21% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0459001 secs using 81.1% CPU
+Alignment has 576 sequences with 10707 columns, 4137 distinct patterns
+2639 parsimony-informative, 1251 singleton sites, 6817 constant sites
+                                                                                                                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00535607 secs using 90.48% CPU
+   1  99TW628                                                                                                                                   0.00%    passed     94.83%
+   2  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3314DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.78%
+   3  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K852DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                     0.00%    passed     96.03%
+   4  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K2400DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.85%
+   5  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3900DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.26%
+   6  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3329DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.30%    passed     94.61%
+   7  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K2933DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     97.67%
+   8  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K868DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                     0.00%    passed     97.48%
+   9  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K4182DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.96%
+  10  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K4176DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     95.15%
+  11  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K4168DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     95.88%
+  12  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K843DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                     0.32%    passed     95.93%
+  13  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_SS710_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                         0.00%    passed     95.97%
+  14  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K2918DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     97.42%
+  15  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3897DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     92.31%
+  16  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3923DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.30%    passed     94.07%
+  17  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K4647DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.30%    passed     94.63%
+  18  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3312DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.16%
+  19  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K4648DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.49%
+  20  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K2418DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.81%
+  21  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K805DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                     0.00%    passed     96.69%
+  22  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K827DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                     0.11%    passed     96.78%
+  23  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K802DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                     0.32%    passed     95.33%
+  24  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3324DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.34%    passed     95.90%
+  25  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3928DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.06%
+  26  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K4454DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     96.69%
+  27  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3912DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.32%    passed     95.19%
+  28  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K4141DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     97.27%
+  29  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3325DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.34%    passed     94.56%
+  30  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K3913DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.00%    passed     95.24%
+  31  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K4157DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.30%    passed     96.49%
+  32  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_05K797DK1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                     0.02%    passed     97.14%
+  33  DENV3_3404                                                                                                                                3.47%    passed     99.82%
+  34  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2413_DELIM-HRBOAGGHWQPDCJRBXFOJ_1993                                 0.41%    passed     98.70%
+  35  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_MZ_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2418_DELIM-HRBOAGGHWQPDCJRBXFOJ_1985                                 0.41%    passed     99.94%
+  36  UNC3001                                                                                                                                   0.00%    passed     98.60%
+  37  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2404_DELIM-HRBOAGGHWQPDCJRBXFOJ_1989                                 0.41%    passed     97.98%
+  38  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2411_DELIM-HRBOAGGHWQPDCJRBXFOJ_1989                                 0.59%    passed     99.15%
+  39  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2409_DELIM-HRBOAGGHWQPDCJRBXFOJ_1997                                 0.23%    passed     99.24%
+  40  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2408_DELIM-HRBOAGGHWQPDCJRBXFOJ_1994                                40.70%    passed     44.17%
+  41  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2405_DELIM-HRBOAGGHWQPDCJRBXFOJ_1983                                 0.41%    passed     99.94%
+  42  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2407_DELIM-HRBOAGGHWQPDCJRBXFOJ_1983                                 0.41%    passed     99.88%
+  43  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2414_DELIM-HRBOAGGHWQPDCJRBXFOJ_1985                                 0.52%    passed     99.85%
+  44  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2412_DELIM-HRBOAGGHWQPDCJRBXFOJ_1989                                 0.41%    passed     99.99%
+  45  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LK_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2410_DELIM-HRBOAGGHWQPDCJRBXFOJ_1983                                 0.58%    passed     98.02%
+  46  V2424900                                                                                                                                  0.00%    passed     99.77%
+  47  V2353394                                                                                                                                  0.00%    passed     99.52%
+  48  R1_J18                                                                                                                                    0.82%    passed     99.37%
+  49  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V6156_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 4.67%    passed     98.81%
+  50  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V6158_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.13%    passed     99.82%
+  51  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V6170_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.14%    passed     99.78%
+  52  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V6167_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.14%    passed     99.72%
+  53  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V6168_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.14%    passed     99.68%
+  54  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7043_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.13%    passed     99.59%
+  55  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7042_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.13%    passed     99.59%
+  56  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V6159_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.13%    passed     99.76%
+  57  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7046_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.13%    passed     99.46%
+  58  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2981_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.41%    passed     99.83%
+  59  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7048_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.10%    passed     98.96%
+  60  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7041_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.14%    passed     99.76%
+  61  Cuba_492_2001                                                                                                                             0.41%    passed     99.97%
+  62  Cuba_463_2001                                                                                                                             0.41%    passed     99.98%
+  63  Cuba_580_2001                                                                                                                             0.41%    passed     99.99%
+  64  Cuba_15_2001                                                                                                                              0.41%    passed     99.98%
+  65  Cuba_504_2001                                                                                                                             0.41%    passed     99.99%
+  66  Cuba_26_2001                                                                                                                              0.41%    passed     99.94%
+  67  Cuba_73_2001                                                                                                                              0.41%    passed     99.99%
+  68  Cuba_546_2001                                                                                                                             0.41%    passed     99.99%
+  69  Cuba_568_2001                                                                                                                             0.41%    passed     99.99%
+  70  Cuba_21_2002                                                                                                                              0.41%    passed     99.99%
+  71  Cuba_547_2001                                                                                                                             0.41%    passed     99.93%
+  72  Cuba_557_2001                                                                                                                             0.41%    passed     99.95%
+  73  Cuba_558_2001                                                                                                                             0.41%    passed     99.99%
+  74  Cuba_553_2001                                                                                                                             0.41%    passed     99.99%
+  75  Cuba_11_2002                                                                                                                              0.41%    passed     99.99%
+  76  Cuba_17_2002                                                                                                                              0.41%    passed     99.94%
+  77  Cuba_20_2002                                                                                                                              0.41%    passed     99.84%
+  78  Cuba_513_2001                                                                                                                             0.41%    passed     99.94%
+  79  Cuba_523_2001                                                                                                                             0.41%    passed     99.98%
+  80  Cuba_16_2002                                                                                                                              0.41%    passed     99.98%
+  81  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_EC_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2975_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.41%    passed     99.99%
+  82  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7052_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.13%    passed     97.42%
+  83  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7050_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.13%    passed     97.89%
+  84  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7082_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.13%    passed     98.62%
+  85  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7088_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.14%    passed     99.28%
+  86  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7084_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.13%    passed     97.67%
+  87  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7068_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.13%    passed     98.62%
+  88  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7063_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.14%    passed     99.06%
+  89  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7069_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.14%    passed     99.37%
+  90  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7064_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.14%    passed     99.00%
+  91  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7090_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.14%    passed     99.96%
+  92  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7074_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.14%    passed     99.98%
+  93  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7086_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.14%    passed     99.83%
+  94  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7083_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.14%    passed     99.27%
+  95  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7085_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.10%    passed     99.78%
+  96  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V6263_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.21%    passed     99.70%
+  97  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7065_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.14%    passed     99.62%
+  98  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7070_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.13%    passed     98.08%
+  99  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7056_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.13%    passed     99.91%
+ 100  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7073_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.14%    passed     99.80%
+ 101  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7289_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.13%    passed     99.04%
+ 102  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7061_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.13%    passed     98.81%
+ 103  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7078_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.14%    passed     99.05%
+ 104  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7079_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.14%    passed     99.37%
+ 105  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7087_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.14%    passed     99.50%
+ 106  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7067_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.13%    passed     98.92%
+ 107  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7059_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.13%    passed     98.71%
+ 108  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7058_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.13%    passed     98.68%
+ 109  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7071_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.13%    passed     98.64%
+ 110  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1612_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.77%    passed     99.89%
+ 111  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1611_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.94%
+ 112  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1091_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.94%
+ 113  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1090_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.94%
+ 114  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1613_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.96%
+ 115  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2971_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.41%    passed     99.73%
+ 116  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2488_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                40.82%    passed     53.79%
+ 117  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1593_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.63%
+ 118  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7081_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.12%    passed     99.97%
+ 119  BR_DEN3_95_04                                                                                                                             0.00%    passed     99.74%
+ 120  BR_DEN3_98_04                                                                                                                             0.97%    passed     99.96%
+ 121  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_H_DELIM-HRBOAGGHWQPDCJRBXFOJ_IMTSSA_MART_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999_DELIM-HRBOAGGHWQPDCJRBXFOJ_1243    0.00%    passed     99.49%
+ 122  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2977_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.43%    passed     99.99%
+ 123  129_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_04                                                                        0.00%    passed     99.76%
+ 124  D3BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_CU6_DELIM-HRBOAGGHWQPDCJRBXFOJ_02                                                                         0.00%    passed     99.99%
+ 125  95016_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_02                                                                      0.00%    passed     99.71%
+ 126  101905_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_03                                                                     0.00%    passed     99.99%
+ 127  81257_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_02                                                                      0.00%    passed     99.91%
+ 128  85469_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_02                                                                      0.00%    passed     99.76%
+ 129  161_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_04                                                                        0.00%    passed     99.65%
+ 130  145_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_04                                                                        0.00%    passed     99.69%
+ 131  603_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_06                                                                        0.00%    passed     99.95%
+ 132  283_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_05                                                                        0.02%    passed     99.97%
+ 133  277_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_05                                                                        0.00%    passed     99.98%
+ 134  424_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_06                                                                        0.00%    passed     99.88%
+ 135  411_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_06                                                                        0.00%    passed     99.97%
+ 136  D3BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_RP1_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                                                       0.00%    passed     99.87%
+ 137  263_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_05                                                                        0.00%    passed     99.90%
+ 138  D3PY_DELIM-HRBOAGGHWQPDCJRBXFOJ_PJ4_DELIM-HRBOAGGHWQPDCJRBXFOJ_03                                                                         0.00%    passed     99.94%
+ 139  D3BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_PV1_DELIM-HRBOAGGHWQPDCJRBXFOJ_03                                                                         0.00%    passed     99.98%
+ 140  BR_DEN3_97_04                                                                                                                             0.00%    passed     99.94%
+ 141  BR74886_DELIM-HRBOAGGHWQPDCJRBXFOJ_02                                                                                                     0.04%    passed     99.66%
+ 142  420_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_06                                                                        0.00%    passed     99.95%
+ 143  339_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_05                                                                        0.00%    passed     99.89%
+ 144  206_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_05                                                                        0.00%    passed     99.35%
+ 145  314_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_06                                                                        0.00%    passed     99.53%
+ 146  255_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_05                                                                        0.00%    passed     99.79%
+ 147  423_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_06                                                                        0.00%    passed     99.89%
+ 148  D3PY_DELIM-HRBOAGGHWQPDCJRBXFOJ_AS12_DELIM-HRBOAGGHWQPDCJRBXFOJ_02                                                                        0.00%    passed     98.65%
+ 149  249_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_05                                                                        0.00%    passed     99.72%
+ 150  418_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_06                                                                        0.00%    passed     99.81%
+ 151  D3BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_SL3_DELIM-HRBOAGGHWQPDCJRBXFOJ_02                                                                         0.00%    passed     99.61%
+ 152  D3PY_DELIM-HRBOAGGHWQPDCJRBXFOJ_AS10_DELIM-HRBOAGGHWQPDCJRBXFOJ_03                                                                        0.00%    passed     99.68%
+ 153  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2119_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.54%    passed     99.94%
+ 154  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LC_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2979_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.44%    passed     98.92%
+ 155  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_LC_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3929_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.41%    passed     99.67%
+ 156  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_TT_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2982_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.41%    passed     99.87%
+ 157  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_TT_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3928_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.42%    passed     99.95%
+ 158  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_GY_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2980_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.41%    passed     99.02%
+ 159  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_AI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2976_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.41%    passed     99.86%
+ 160  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V911_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                  0.55%    passed     99.75%
+ 161  D3BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BV4_DELIM-HRBOAGGHWQPDCJRBXFOJ_02                                                                         0.00%    passed     99.01%
+ 162  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1618_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.93%
+ 163  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1609_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.74%
+ 164  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1616_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.86%
+ 165  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1610_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.86%
+ 166  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1623_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.86%
+ 167  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1043_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.55%    passed     99.79%
+ 168  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1044_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.55%    passed     99.83%
+ 169  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1078_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     99.93%
+ 170  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1076_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.52%    passed     99.76%
+ 171  D3PY_DELIM-HRBOAGGHWQPDCJRBXFOJ_SUS_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                                                       0.00%    passed     99.58%
+ 172  D3BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_MR9_DELIM-HRBOAGGHWQPDCJRBXFOJ_03                                                                         0.07%    passed     99.05%
+ 173  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3456_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.85%    passed     99.47%
+ 174  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3417_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.06%    passed     99.61%
+ 175  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3601_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 1.70%    passed     99.69%
+ 176  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3615_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.64%    passed     99.05%
+ 177  D3BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_AL95_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                                                      0.00%    passed     99.23%
+ 178  D3BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR8_DELIM-HRBOAGGHWQPDCJRBXFOJ_04                                                                         0.00%    passed     99.53%
+ 179  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2394_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.51%    passed     99.94%
+ 180  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2983_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.41%    passed     99.99%
+ 181  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2388_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.41%    passed     99.99%
+ 182  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2391_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.41%    passed     99.95%
+ 183  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2397_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.51%    passed     99.71%
+ 184  PAR_DENV3_5532_07                                                                                                                         0.00%    passed     99.75%
+ 185  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2403_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.42%    passed     99.91%
+ 186  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3588_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 1.70%    passed     97.83%
+ 187  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3460_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     98.84%
+ 188  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3594_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                32.41%    passed     91.56%
+ 189  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3441_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     99.63%
+ 190  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3424_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.85%    passed     99.90%
+ 191  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3457_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.85%    passed     99.84%
+ 192  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3451_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.85%    passed     99.80%
+ 193  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3429_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     99.23%
+ 194  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3464_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     99.36%
+ 195  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3427_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     99.36%
+ 196  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3442_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     99.55%
+ 197  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3463_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.41%    passed     99.90%
+ 198  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3431_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.41%    passed     99.89%
+ 199  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3435_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     99.65%
+ 200  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3446_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.77%    passed     99.73%
+ 201  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3465_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.77%    passed     99.62%
+ 202  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3444_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.49%    passed     99.98%
+ 203  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3610_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                32.48%    passed     95.31%
+ 204  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3608_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                32.48%    passed     94.26%
+ 205  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3616_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                32.48%    passed     95.98%
+ 206  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3596_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                32.48%    passed     96.50%
+ 207  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3430_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     98.70%
+ 208  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3605_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 1.70%    passed     99.85%
+ 209  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3621_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                32.41%    passed     94.09%
+ 210  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3591_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 1.70%    passed     96.95%
+ 211  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3603_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                32.48%    passed     90.83%
+ 212  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3617_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                32.41%    passed     96.86%
+ 213  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3584_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.93%    passed     99.44%
+ 214  BOL_4025                                                                                                                                  0.22%    passed     99.77%
+ 215  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3609_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.85%    passed     99.94%
+ 216  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1608_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.58%    passed     99.97%
+ 217  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1730_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.49%    passed     99.97%
+ 218  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3589_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 1.77%    passed     95.92%
+ 219  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5443_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 2.15%    passed     99.79%
+ 220  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5496_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.25%    passed     98.51%
+ 221  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5486_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     98.05%
+ 222  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4867_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.24%    passed     98.72%
+ 223  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4872_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.23%    passed     98.70%
+ 224  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5442_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.24%    passed     98.93%
+ 225  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4830_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.24%    passed     98.93%
+ 226  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4813_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.55%    passed     99.43%
+ 227  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3065_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 4.53%    passed     94.15%
+ 228  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2644_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     98.95%
+ 229  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3055_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     98.68%
+ 230  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2934_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.64%    passed     98.02%
+ 231  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3072_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     97.37%
+ 232  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4759_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.57%    passed     97.95%
+ 233  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4766_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.57%    passed     97.95%
+ 234  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5482_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     96.08%
+ 235  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5491_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     99.52%
+ 236  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4771_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 2.59%    passed     99.76%
+ 237  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4738_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.56%    passed     99.87%
+ 238  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4816_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.57%    passed     99.39%
+ 239  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5079_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                25.05%    passed     84.25%
+ 240  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5494_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     98.31%
+ 241  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5468_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     98.91%
+ 242  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5467_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     99.27%
+ 243  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4735_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 3.04%    passed     99.22%
+ 244  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4861_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.22%    passed     98.86%
+ 245  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4734_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.57%    passed     99.88%
+ 246  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4758_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                42.70%    passed     33.80%
+ 247  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5489_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.25%    passed     98.87%
+ 248  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5681_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.27%    passed     99.41%
+ 249  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5511_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.29%    passed     99.27%
+ 250  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4770_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 4.14%    passed     99.99%
+ 251  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5498_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.26%    passed     93.35%
+ 252  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4741_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 4.46%    passed     97.63%
+ 253  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5514_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.26%    passed     98.83%
+ 254  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5508_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     97.70%
+ 255  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5479_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 1.41%    passed     96.85%
+ 256  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5516_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.17%    passed     98.21%
+ 257  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7662_DELIM-HRBOAGGHWQPDCJRBXFOJ_2011                                 0.59%    passed     98.27%
+ 258  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7668_DELIM-HRBOAGGHWQPDCJRBXFOJ_2011                                 1.20%    passed     99.39%
+ 259  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7663_DELIM-HRBOAGGHWQPDCJRBXFOJ_2011                                 1.15%    passed     99.31%
+ 260  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7646_DELIM-HRBOAGGHWQPDCJRBXFOJ_2012                                 1.15%    passed     99.54%
+ 261  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7658_DELIM-HRBOAGGHWQPDCJRBXFOJ_2012                                 1.29%    passed     98.96%
+ 262  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7694_DELIM-HRBOAGGHWQPDCJRBXFOJ_2012                                 1.22%    passed     98.82%
+ 263  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7637_DELIM-HRBOAGGHWQPDCJRBXFOJ_2011                                 1.82%    passed     98.03%
+ 264  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5074_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                27.15%    passed     96.66%
+ 265  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5515_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                18.55%    passed     85.91%
+ 266  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5472_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 1.01%    passed     98.23%
+ 267  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5499_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     99.56%
+ 268  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5474_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     99.30%
+ 269  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5475_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                10.22%    passed     92.47%
+ 270  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7674_DELIM-HRBOAGGHWQPDCJRBXFOJ_2011                                 0.97%    passed     99.44%
+ 271  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2654_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     99.03%
+ 272  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3057_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     98.66%
+ 273  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3175_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.16%    passed     99.27%
+ 274  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3066_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     99.22%
+ 275  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3068_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     97.70%
+ 276  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2649_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.65%    passed     98.23%
+ 277  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3073_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.65%    passed     99.56%
+ 278  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3069_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.51%    passed     98.51%
+ 279  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2935_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     98.48%
+ 280  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2647_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.64%    passed     98.37%
+ 281  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3163_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.25%    passed     99.00%
+ 282  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2650_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                23.79%    passed     64.52%
+ 283  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3074_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                26.60%    passed     70.77%
+ 284  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2651_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                24.00%    passed     53.81%
+ 285  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5478_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.29%    passed     99.50%
+ 286  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5452_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.24%    passed     99.69%
+ 287  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5512_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.25%    passed     99.83%
+ 288  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4848_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.24%    passed     99.60%
+ 289  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5445_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.61%    passed     99.98%
+ 290  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4795_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.57%    passed     99.94%
+ 291  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4736_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                10.99%    passed     77.32%
+ 292  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5488_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.25%    passed     99.63%
+ 293  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5685_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 1.69%    passed     99.15%
+ 294  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5507_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.25%    passed     98.07%
+ 295  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5492_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.26%    passed     98.27%
+ 296  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2653_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     98.94%
+ 297  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3169_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.12%    passed     99.44%
+ 298  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3059_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.51%    passed     99.06%
+ 299  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4774_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.61%    passed     99.75%
+ 300  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4767_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.57%    passed     99.74%
+ 301  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4765_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.58%    passed     99.75%
+ 302  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4809_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.57%    passed     99.88%
+ 303  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5477_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     99.74%
+ 304  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5471_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.25%    passed     99.58%
+ 305  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4796_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.98%    passed     99.95%
+ 306  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4846_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                30.06%    passed     75.49%
+ 307  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4761_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 1.57%    passed     99.99%
+ 308  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5684_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 2.90%    passed     96.58%
+ 309  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4737_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                16.10%    passed     73.42%
+ 310  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5453_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                 0.28%    passed     98.51%
+ 311  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5517_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.24%    passed     97.69%
+ 312  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7634_DELIM-HRBOAGGHWQPDCJRBXFOJ_2011                                 0.10%    passed     99.53%
+ 313  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7699_DELIM-HRBOAGGHWQPDCJRBXFOJ_2011                                 1.29%    passed     99.99%
+ 314  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7665_DELIM-HRBOAGGHWQPDCJRBXFOJ_2011                                 1.85%    passed     99.71%
+ 315  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5480_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                10.73%    passed     91.54%
+ 316  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5100_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                21.52%    passed     76.02%
+ 317  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4844_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                29.29%    passed     78.80%
+ 318  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5483_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 1.24%    passed     98.34%
+ 319  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5680_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 0.60%    passed     98.59%
+ 320  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7657_DELIM-HRBOAGGHWQPDCJRBXFOJ_2012                                 1.29%    passed     99.82%
+ 321  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5682_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                 2.48%    passed     98.88%
+ 322  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V4791_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                25.67%    passed     67.60%
+ 323  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2420_DELIM-HRBOAGGHWQPDCJRBXFOJ_1994                                 0.41%    passed     99.99%
+ 324  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2419_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.57%    passed     99.88%
+ 325  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_MX_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2989_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.41%    passed     99.86%
+ 326  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_MX_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2987_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.41%    passed     99.97%
+ 327  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_MX_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2985_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.41%    passed     99.95%
+ 328  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2383_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 2.32%    passed     86.24%
+ 329  DENV3_254                                                                                                                                 4.08%    passed     78.58%
+ 330  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_GD_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3930_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.50%    passed     94.89%
+ 331  BR73354mosq_DELIM-HRBOAGGHWQPDCJRBXFOJ_01                                                                                                 0.51%    passed     95.90%
+ 332  449335_Boyaca_CO_2015                                                                                                                     0.00%    passed     98.68%
+ 333  476947_Risaralda_CO_2016                                                                                                                  0.01%    passed     99.80%
+ 334  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2970_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.41%    passed     99.96%
+ 335  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2209_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.55%    passed     99.99%
+ 336  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2208_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.73%    passed     99.92%
+ 337  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V913_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                  0.55%    passed     99.44%
+ 338  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2181_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     98.84%
+ 339  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2183_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     98.86%
+ 340  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2179_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.34%
+ 341  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2186_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.12%
+ 342  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2182_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.56%    passed     98.83%
+ 343  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2184_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.67%    passed     99.09%
+ 344  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2185_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.57%
+ 345  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V906_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                  0.55%    passed     99.44%
+ 346  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V907_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                  0.55%    passed     99.44%
+ 347  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1118_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.70%
+ 348  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2174_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.74%
+ 349  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2175_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.87%
+ 350  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2178_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.56%    passed     99.86%
+ 351  Cuba_118_2001                                                                                                                             0.41%    passed     99.79%
+ 352  Cuba_167_2001                                                                                                                             0.41%    passed     99.79%
+ 353  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2965_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.41%    passed     99.80%
+ 354  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2192_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.52%    passed     99.24%
+ 355  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2195_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.12%
+ 356  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2452_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.41%    passed     99.22%
+ 357  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2457_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                23.80%    passed     35.95%
+ 358  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2966_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.41%    passed     97.83%
+ 359  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2967_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.41%    passed     99.13%
+ 360  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2191_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     98.70%
+ 361  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2454_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.62%    passed     99.12%
+ 362  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2189_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     98.85%
+ 363  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V915_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                  0.55%    passed     97.78%
+ 364  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V905_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                  0.41%    passed     99.40%
+ 365  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2580_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.64%    passed     99.41%
+ 366  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2456_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.64%    passed     99.03%
+ 367  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2579_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 1.70%    passed     97.13%
+ 368  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2200_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.44%    passed     99.86%
+ 369  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3395_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.51%    passed     99.31%
+ 370  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3398_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.41%    passed     99.90%
+ 371  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3393_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.41%    passed     99.89%
+ 372  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2455_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.53%    passed     99.56%
+ 373  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2188_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.57%
+ 374  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2190_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.54%    passed     99.09%
+ 375  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2201_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.90%
+ 376  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1585_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.57%
+ 377  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2984_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.41%    passed     99.60%
+ 378  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3399_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.64%    passed     99.39%
+ 379  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1113_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.42%    passed     98.63%
+ 380  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V916_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                  0.52%    passed     99.89%
+ 381  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2213_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.54%    passed     99.76%
+ 382  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2215_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.50%    passed     97.55%
+ 383  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2217_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     99.35%
+ 384  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2240_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.14%
+ 385  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1448_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.63%
+ 386  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1050_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.68%
+ 387  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1049_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.68%
+ 388  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2099_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.71%
+ 389  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1447_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.30%
+ 390  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1088_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.67%
+ 391  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2098_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.55%    passed     99.72%
+ 392  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1450_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.13%
+ 393  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1452_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.55%    passed     99.37%
+ 394  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1736_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.35%    passed     99.56%
+ 395  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1451_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.55%    passed     99.21%
+ 396  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1449_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.77%
+ 397  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V859_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                  0.41%    passed     99.83%
+ 398  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1080_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.55%    passed     99.73%
+ 399  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1454_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.55%    passed     99.93%
+ 400  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1735_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.53%    passed     99.86%
+ 401  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2105_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.76%
+ 402  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1460_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.51%
+ 403  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2104_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.58%    passed     99.66%
+ 404  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1733_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.52%    passed     99.75%
+ 405  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1737_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.53%    passed     99.57%
+ 406  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2112_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.42%
+ 407  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1455_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.49%    passed     99.54%
+ 408  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2100_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.86%
+ 409  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1465_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.96%
+ 410  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2115_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.98%
+ 411  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2106_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.90%
+ 412  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2108_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     98.55%
+ 413  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2110_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     98.40%
+ 414  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1453_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.53%    passed     99.48%
+ 415  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2102_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 1.04%    passed     99.92%
+ 416  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2107_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.89%
+ 417  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2101_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.87%    passed     99.96%
+ 418  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2109_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 9.94%    passed     75.90%
+ 419  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2113_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.45%
+ 420  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2111_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.97%
+ 421  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1466_DELIM-HRBOAGGHWQPDCJRBXFOJ_1999                                 0.58%    passed     99.78%
+ 422  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1490_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     99.31%
+ 423  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2114_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.87%
+ 424  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2103_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.24%
+ 425  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2117_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.88%
+ 426  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1092_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.89%
+ 427  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1614_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.53%    passed     99.73%
+ 428  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1475_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.58%    passed     99.98%
+ 429  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1478_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.55%    passed     99.95%
+ 430  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V858_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                  0.41%    passed     99.48%
+ 431  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1089_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     99.94%
+ 432  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3400_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.41%    passed     99.96%
+ 433  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3396_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                35.24%    passed     59.66%
+ 434  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2204_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.56%    passed     99.97%
+ 435  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2387_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.41%    passed     98.38%
+ 436  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2257_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.55%    passed    100.00%
+ 437  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2232_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.51%    passed     99.59%
+ 438  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2238_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.64%    passed     99.47%
+ 439  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2234_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.92%
+ 440  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2244_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.87%
+ 441  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2220_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.98%
+ 442  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2214_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     99.90%
+ 443  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2218_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     99.96%
+ 444  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1591_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.89%
+ 445  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2228_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.56%    passed     99.85%
+ 446  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2968_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.41%    passed     99.64%
+ 447  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2256_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.25%
+ 448  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2226_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.43%
+ 449  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2210_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.64%    passed     99.96%
+ 450  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2224_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.56%    passed     99.89%
+ 451  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2233_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.49%
+ 452  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2236_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 1.70%    passed     96.56%
+ 453  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2239_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     98.92%
+ 454  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2222_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.90%
+ 455  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2242_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.77%    passed     99.97%
+ 456  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2969_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.41%    passed     99.69%
+ 457  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2223_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.50%    passed     99.98%
+ 458  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2211_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.55%    passed     99.37%
+ 459  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2219_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.50%    passed     99.01%
+ 460  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1590_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.50%    passed     99.60%
+ 461  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3397_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.59%    passed     99.81%
+ 462  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3401_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 1.11%    passed     99.94%
+ 463  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2231_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.96%
+ 464  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2225_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.66%    passed     99.47%
+ 465  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2212_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.69%    passed     98.92%
+ 466  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1473_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.53%    passed     99.82%
+ 467  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2118_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.55%    passed     99.97%
+ 468  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1731_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     99.26%
+ 469  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2123_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.55%    passed     98.65%
+ 470  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1624_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.72%
+ 471  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1491_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     98.32%
+ 472  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1481_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.30%    passed     99.54%
+ 473  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1081_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                33.34%    passed     89.45%
+ 474  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1626_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.98%
+ 475  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1605_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.92%
+ 476  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1079_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.55%    passed     99.97%
+ 477  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1604_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.97%
+ 478  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1625_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.51%    passed     99.83%
+ 479  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1620_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.84%
+ 480  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1622_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.84%
+ 481  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1619_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.89%
+ 482  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1075_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998                                 0.55%    passed     99.62%
+ 483  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1729_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.55%    passed     99.96%
+ 484  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1415_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.55%    passed     99.71%
+ 485  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1077_DELIM-HRBOAGGHWQPDCJRBXFOJ_2000                                 0.55%    passed     99.74%
+ 486  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1416_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.55%    passed     99.74%
+ 487  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1417_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.55%    passed     99.82%
+ 488  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1728_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.58%    passed     99.47%
+ 489  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1617_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     99.94%
+ 490  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1615_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.51%    passed     99.93%
+ 491  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1606_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.55%    passed     99.44%
+ 492  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1607_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004                                 0.53%    passed     99.91%
+ 493  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1621_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.53%    passed     99.90%
+ 494  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2122_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.55%    passed     99.79%
+ 495  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2121_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                31.12%    passed     97.14%
+ 496  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2120_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.56%    passed     99.68%
+ 497  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1732_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.55%    passed     99.60%
+ 498  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1727_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                31.20%    passed     99.44%
+ 499  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1476_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.50%    passed     99.80%
+ 500  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2266_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.55%    passed     99.85%
+ 501  VE_61051_2006                                                                                                                             0.00%    passed     99.81%
+ 502  VE_61035_2006                                                                                                                             0.00%    passed     99.81%
+ 503  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2479_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 4.53%    passed     82.01%
+ 504  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2481_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.41%    passed     99.88%
+ 505  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1480_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.46%    passed     99.46%
+ 506  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1477_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                 0.63%    passed     99.80%
+ 507  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2988_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.41%    passed     99.73%
+ 508  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3402_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.41%    passed     99.79%
+ 509  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2986_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.41%    passed     99.79%
+ 510  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2116_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001                                 0.65%    passed     99.95%
+ 511  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2124_DELIM-HRBOAGGHWQPDCJRBXFOJ_2002                                30.91%    passed     97.80%
+ 512  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3394_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003                                 0.64%    passed     99.29%
+ 513  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1149_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.40%    passed     99.13%
+ 514  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2484_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.41%    passed     98.11%
+ 515  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2480_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.58%    passed     97.81%
+ 516  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2126_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 0.55%    passed     98.13%
+ 517  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2482_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                 0.41%    passed     98.28%
+ 518  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2268_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.68%    passed     99.30%
+ 519  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2267_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                 0.50%    passed     98.94%
+ 520  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2247_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.55%    passed     98.97%
+ 521  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2486_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                41.03%    passed     37.64%
+ 522  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2485_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                40.74%    passed     43.82%
+ 523  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3403_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                 0.57%    passed     99.30%
+ 524  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3404_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                 1.70%    passed     97.95%
+ 525  449686_Antioquia_CO_2015                                                                                                                  0.01%    passed     99.81%
+ 526  449982_Meta_CO_2015                                                                                                                       0.00%    passed     98.43%
+ 527  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3642_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                32.41%    passed     94.36%
+ 528  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3062_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                41.49%    passed     33.49%
+ 529  13GDZDVS30B                                                                                                                               0.20%    passed     94.95%
+ 530  13GDZSDV30A                                                                                                                               0.20%    passed     94.71%
+ 531  13GDZDVS30C                                                                                                                               0.30%    passed     94.02%
+ 532  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_CT37_DELIM-HRBOAGGHWQPDCJRBXFOJ_2013                                          0.30%    passed     95.74%
+ 533  13GDZDVS30E                                                                                                                               0.28%    passed     94.24%
+ 534  13GDZDVS30D                                                                                                                               0.27%    passed     94.09%
+ 535  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_SG_DELIM-HRBOAGGHWQPDCJRBXFOJ_CT14_DELIM-HRBOAGGHWQPDCJRBXFOJ_2012                                          0.31%    passed     96.36%
+ 536  R1_J51                                                                                                                                    0.02%    passed     96.78%
+ 537  19XN16187                                                                                                                                 0.60%    passed     98.84%
+ 538  19XN17302                                                                                                                                 0.63%    passed     99.11%
+ 539  19XN50516                                                                                                                                 0.64%    passed     99.12%
+ 540  19XN16218                                                                                                                                 0.68%    passed     99.26%
+ 541  19XN11050                                                                                                                                 0.55%    passed     99.01%
+ 542  19XN50658                                                                                                                                 0.61%    passed     99.18%
+ 543  19XN16898                                                                                                                                 0.59%    passed     98.97%
+ 544  18XN26997                                                                                                                                 0.53%    passed     98.42%
+ 545  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_Pakistan_DELIM-HRBOAGGHWQPDCJRBXFOJ_56_DELIM-HRBOAGGHWQPDCJRBXFOJ_2008                                      0.30%    passed     98.46%
+ 546  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_Pakistan_DELIM-HRBOAGGHWQPDCJRBXFOJ_52440_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                   0.30%    passed     95.61%
+ 547  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_Pakistan_DELIM-HRBOAGGHWQPDCJRBXFOJ_45251_DELIM-HRBOAGGHWQPDCJRBXFOJ_2009                                   0.30%    passed     94.76%
+ 548  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_Pakistan_DELIM-HRBOAGGHWQPDCJRBXFOJ_43298_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                   0.30%    passed     94.63%
+ 549  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_Pakistan_DELIM-HRBOAGGHWQPDCJRBXFOJ_55505_DELIM-HRBOAGGHWQPDCJRBXFOJ_2007                                   0.30%    passed     97.74%
+ 550  D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_Pakistan_DELIM-HRBOAGGHWQPDCJRBXFOJ_55709_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006                                   0.30%    passed     94.15%
+ 551  DEL_72                                                                                                                                    0.25%    passed     93.35%
+ 552  ND143                                                                                                                                     0.00%    passed     95.21%
+ 553  DENV3_3140                                                                                                                                1.30%    passed     97.71%
+ 554  GZ1D3                                                                                                                                     0.00%    passed     92.78%
+ 555  GZ2D3                                                                                                                                     0.00%    passed     93.38%
+ 556  ZJYW2009                                                                                                                                  0.21%    passed     90.15%
+ 557  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_IND_DELIM-HRBOAGGHWQPDCJRBXFOJ_58760_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005                                    0.51%    passed     93.52%
+ 558  18XN10607                                                                                                                                 0.53%    passed     92.98%
+ 559  RajasthanIndia_DELIM-HRBOAGGHWQPDCJRBXFOJ_Balotra_87_s_DELIM-HRBOAGGHWQPDCJRBXFOJ_2013                                                    0.33%    passed     91.64%
+ 560  RajasthanIndia_DELIM-HRBOAGGHWQPDCJRBXFOJ_DMRC_DELIM-HRBOAGGHWQPDCJRBXFOJ_Balotra87_DELIM-HRBOAGGHWQPDCJRBXFOJ_2013                       0.35%    passed     91.32%
+ 561  YNPE3                                                                                                                                     0.76%    passed     99.29%
+ 562  18XN61927                                                                                                                                 0.61%    passed     96.36%
+ 563  SG_EHI_D3_DELIM-HRBOAGGHWQPDCJRBXFOJ_15095Y15                                                                                             0.37%    passed     97.95%
+ 564  TZK2016                                                                                                                                   0.30%    passed     98.43%
+ 565  LRI8_15                                                                                                                                   5.02%    passed     98.15%
+ 566  Th16_055DV3                                                                                                                               0.38%    passed     98.40%
+ 567  Th16_049DV3                                                                                                                               0.38%    passed     98.82%
+ 568  Th16_016DV3                                                                                                                               0.38%    passed     99.00%
+ 569  Th17_059DV3                                                                                                                               0.38%    passed     98.82%
+ 570  T38_S72                                                                                                                                   1.20%    passed     99.90%
+ 571  DENV3_2994                                                                                                                                4.18%    passed     98.92%
+ 572  R1_J29                                                                                                                                    3.95%    passed     95.98%
+ 573  I_DELIM-HRBOAGGHWQPDCJRBXFOJ_B_DELIM-HRBOAGGHWQPDCJRBXFOJ_DENV3_DELIM-HRBOAGGHWQPDCJRBXFOJ_2014                                           1.00%    passed     92.74%
+ 574  DENV3_9468                                                                                                                                2.00%    passed     98.31%
+ 575  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_IND_DELIM-HRBOAGGHWQPDCJRBXFOJ_664481_DELIM-HRBOAGGHWQPDCJRBXFOJ_1966                                   0.41%    passed     98.64%
+ 576  DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_NI_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V5484_DELIM-HRBOAGGHWQPDCJRBXFOJ_2010                                42.66%    passed     45.24%
+****  TOTAL                                                                                                                                     2.42%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7042_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004 is identical to DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_PE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V7043_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004 but kept for subsequent analysis
+NOTE: Cuba_553_2001 is identical to Cuba_558_2001 but kept for subsequent analysis
+NOTE: DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1091_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004 is identical to DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1611_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004 but kept for subsequent analysis
+NOTE: DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2388_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003 is identical to DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2983_DELIM-HRBOAGGHWQPDCJRBXFOJ_2003 but kept for subsequent analysis
+NOTE: DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3427_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006 is identical to DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_BR_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3464_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006 but kept for subsequent analysis
+NOTE: DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V907_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001 is identical to DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_VE_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V906_DELIM-HRBOAGGHWQPDCJRBXFOJ_2001 but kept for subsequent analysis
+NOTE: Cuba_167_2001 is identical to Cuba_118_2001 but kept for subsequent analysis
+NOTE: DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1604_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004 is identical to DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1079_DELIM-HRBOAGGHWQPDCJRBXFOJ_2006 but kept for subsequent analysis
+NOTE: VE_61035_2006 is identical to VE_61051_2006 but kept for subsequent analysis
+NOTE: DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V2986_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005 is identical to DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_CO_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V3402_DELIM-HRBOAGGHWQPDCJRBXFOJ_2005 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00643206 secs using 95.38% CPU
+Identifying sites to remove: done in 0.0398829 secs using 88.73% CPU
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1090_DELIM-HRBOAGGHWQPDCJRBXFOJ_1998 (identical to DENV_3_DELIM-HRBOAGGHWQPDCJRBXFOJ_US_DELIM-HRBOAGGHWQPDCJRBXFOJ_BID_V1611_DELIM-HRBOAGGHWQPDCJRBXFOJ_2004) is ignored but added at the end
+Alignment was printed to results/aligned_denv3_III-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_denv3_III-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.009 seconds
+
+NOTE: 77 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -436855.553
+2. Current log-likelihood: -376419.676
+3. Current log-likelihood: -376140.874
+4. Current log-likelihood: -376097.662
+5. Current log-likelihood: -376082.268
+6. Current log-likelihood: -376054.754
+Optimal log-likelihood: -376054.669
+Rate parameters:  A-C: 1.89154  A-G: 14.69926  A-T: 2.12128  C-G: 0.44487  C-T: 48.28649  G-T: 1.00000
+Base frequencies:  A: 0.322  C: 0.205  G: 0.260  T: 0.214
+Parameters optimization took 6 rounds (12.954 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.79356 secs using 99.57% CPU
+Computing ML distances took 1.802089 sec (of wall-clock time) 1.793014 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00617099 secs using 173.6% CPU
+Constructing RapidNJ tree: done in 0.011301 secs using 191.5% CPU
+Computing RapidNJ tree took 0.017803 sec (of wall-clock time) 0.032731 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -90142.937
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 3.47722 secs using 99.84% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -89423.825
+Optimizing NNI: done in 51.012 secs using 99.44% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -89423.825 / CPU time: 57.240
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:1m:13s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -89423.825
+Optimal log-likelihood: -89423.805
+Rate parameters:  A-C: 1.46265  A-G: 10.39790  A-T: 1.90587  C-G: 0.88659  C-T: 32.93924  G-T: 1.00000
+Base frequencies:  A: 0.322  C: 0.205  G: 0.260  T: 0.214
+Parameters optimization took 1 rounds (0.635 sec)
+BEST SCORE FOUND : -89423.805
+Total tree length: 0.943
+
+Total number of iterations: 2
+CPU time used for tree search: 56.940 sec (0h:0m:56s)
+Wall-clock time used for tree search: 57.242 sec (0h:0m:57s)
+Total CPU time used: 73.553 sec (0h:1m:13s)
+Total wall-clock time used: 73.797 sec (0h:1m:13s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_denv3_III-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_denv3_III-delim.fasta.treefile
+  Likelihood distances:          results/aligned_denv3_III-delim.fasta.mldist
+  Screen log file:               results/aligned_denv3_III-delim.fasta.log
+
+Date and Time: Tue May 31 11:50:25 2022

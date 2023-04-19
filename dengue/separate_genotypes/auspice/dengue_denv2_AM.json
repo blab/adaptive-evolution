@@ -1,0 +1,3581 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "Real-time tracking of DENV2 dengue virus evolution",
+    "updated": "2022-05-31",
+    "build_url": "https://github.com/nextstrain/dengue",
+    "maintainers": [
+      {
+        "name": "Trevor Bedford",
+        "url": "http://bedford.io/team/trevor-bedford/"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true,
+      "color_by": "clade_membership"
+    },
+    "genome_annotations": {
+      "2K": {
+        "end": 6825,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 6757,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "C": {
+        "end": 438,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 97,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "E": {
+        "end": 2421,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 937,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 936,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 439,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS1": {
+        "end": 3477,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 2422,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS2A": {
+        "end": 4131,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 3478,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS2B": {
+        "end": 4521,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 4132,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS3": {
+        "end": 6375,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 4522,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS4A": {
+        "end": 6756,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 6376,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS4B": {
+        "end": 7569,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 6826,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS5": {
+        "end": 10269,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 7570,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 10723,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      },
+      "pr": {
+        "end": 711,
+        "seqid": "config/reference_dengue_denv2.gb",
+        "start": 439,
+        "strand": "+",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "region",
+        "title": "Region",
+        "type": "categorical",
+        "scale": [
+          [
+            "Oceania",
+            "#88BB6C"
+          ],
+          [
+            "South America",
+            "#E56C2F"
+          ],
+          [
+            "North America",
+            "#DC2F24"
+          ]
+        ]
+      }
+    ],
+    "filters": [
+      "country",
+      "region",
+      "author"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "Puerto Rico": {
+            "latitude": 18.2459121,
+            "longitude": -66.4164147
+          },
+          "Colombia": {
+            "latitude": 2.893108,
+            "longitude": -73.7845142
+          },
+          "New Caledonia": {
+            "latitude": -20.9043,
+            "longitude": 165.618
+          },
+          "Tonga": {
+            "latitude": -19.9160818,
+            "longitude": -175.2026423
+          },
+          "American Samoa": {
+            "latitude": -14.27806,
+            "longitude": -170.7025
+          },
+          "French Polynesia": {
+            "latitude": -17.6797,
+            "longitude": -149.4068
+          },
+          "Mexico": {
+            "latitude": 19.4325301,
+            "longitude": -99.1332101
+          },
+          "Venezuela": {
+            "latitude": 8.0,
+            "longitude": -66.0
+          },
+          "Fiji": {
+            "latitude": -18.1239695,
+            "longitude": 179.0122737
+          },
+          "Honduras": {
+            "latitude": 15.0610686,
+            "longitude": -84.5978533
+          }
+        }
+      },
+      {
+        "key": "region",
+        "demes": {
+          "North America": {
+            "latitude": 28.2367447,
+            "longitude": -97.738017
+          },
+          "South America": {
+            "latitude": -13.083583,
+            "longitude": -58.470721
+          },
+          "Oceania": {
+            "latitude": -25.0562891,
+            "longitude": 152.008576
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000004",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1964.3053276838539,
+        "confidence": [
+          1963.0650074934426,
+          1965.5664902527196
+        ]
+      },
+      "region": {
+        "value": "North America",
+        "confidence": {
+          "North America": 0.630411813698942,
+          "Oceania": 0.30412080158676236,
+          "South America": 0.06546738471429582
+        },
+        "entropy": 0.8313422575304362
+      },
+      "country": {
+        "value": "Puerto Rico",
+        "confidence": {
+          "Fiji": 0.09484156981987224,
+          "Mexico": 0.07891855671795074,
+          "New Caledonia": 0.1083774040985808,
+          "Puerto Rico": 0.3547684665321913
+        },
+        "entropy": 2.049605905967591
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000020",
+        "node_attrs": {
+          "div": 0.0021661960006891245,
+          "num_date": {
+            "value": 1967.257416776689,
+            "confidence": [
+              1966.855661944566,
+              1967.980617998743
+            ]
+          },
+          "region": {
+            "value": "North America",
+            "confidence": {
+              "North America": 0.960596597352962,
+              "Oceania": 0.026692661716623337,
+              "South America": 0.012710740930414724
+            },
+            "entropy": 0.19082028289353103
+          },
+          "country": {
+            "value": "Puerto Rico",
+            "confidence": {
+              "Fiji": 0.02669812980543395,
+              "Mexico": 0.030686845739687038,
+              "New Caledonia": 0.030386493589343186,
+              "Puerto Rico": 0.7951029569047368
+            },
+            "entropy": 0.9528546755022533
+          }
+        },
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "name": "DENV_2/PR/BID_V3367/1969",
+            "node_attrs": {
+              "div": 0.003942082419344361,
+              "num_date": {
+                "value": 1969.9509943455464,
+                "confidence": [
+                  1969.0013698630137,
+                  1969.9986301369863
+                ]
+              },
+              "accession": "GQ868600",
+              "author": {
+                "author": "?",
+                "value": "?"
+              },
+              "region": {
+                "value": "North America",
+                "confidence": {
+                  "North America": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              },
+              "country": {
+                "value": "Puerto Rico",
+                "confidence": {
+                  "Puerto Rico": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T600C",
+                  "T1287C",
+                  "C1785T",
+                  "C1944T",
+                  "G2631A",
+                  "C2808T",
+                  "T2951C",
+                  "C4414T",
+                  "T5538C",
+                  "A6174T",
+                  "T6771C",
+                  "A7617G",
+                  "T7869C",
+                  "C8083T",
+                  "G9090A",
+                  "C9288T",
+                  "G9687A",
+                  "G10013A"
+                ],
+                "NS1": [
+                  "V177A"
+                ],
+                "NS5": [
+                  "R815K"
+                ]
+              },
+              "labels": {
+                "aa": "NS1: V177A; NS5: R815K"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000021",
+            "node_attrs": {
+              "div": 0.0021661960006891245,
+              "num_date": {
+                "value": 1967.6005291233184,
+                "confidence": [
+                  1966.9886100923425,
+                  1968.0510472379376
+                ]
+              },
+              "region": {
+                "value": "North America",
+                "confidence": {
+                  "North America": 0.9780890145584841,
+                  "Oceania": 0.011130351752701594,
+                  "South America": 0.01078063368881415
+                },
+                "entropy": 0.12057068727533214
+              },
+              "country": {
+                "value": "Puerto Rico",
+                "confidence": {
+                  "Fiji": 0.024483319571490383,
+                  "Mexico": 0.03136107090692933,
+                  "New Caledonia": 0.027636357606573417,
+                  "Puerto Rico": 0.7993467292714534
+                },
+                "entropy": 0.9384811675910869
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C3309T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "V1328",
+                "node_attrs": {
+                  "div": 0.008265895505566546,
+                  "num_date": {
+                    "value": 1977.3258247662043,
+                    "confidence": [
+                      1977.0013698630137,
+                      1977.9986301369863
+                    ]
+                  },
+                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/EU056812",
+                  "accession": "EU056812",
+                  "author": {
+                    "author": "Vasilakis et al",
+                    "title": "Genetic and phenotypic characterization of sylvatic dengue virus type 2 strains",
+                    "journal": "Virology 377 (2), 296-307 (2008)",
+                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/18570968",
+                    "value": "Vasilakis et al"
+                  },
+                  "region": {
+                    "value": "North America",
+                    "confidence": {
+                      "North America": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "country": {
+                    "value": "Puerto Rico",
+                    "confidence": {
+                      "Puerto Rico": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C477T",
+                      "A1011G",
+                      "A1242G",
+                      "A1377G",
+                      "C1765T",
+                      "C1806T",
+                      "C1899T",
+                      "A1995T",
+                      "A2151G",
+                      "G2367A",
+                      "T2377C",
+                      "T2427C",
+                      "A2460G",
+                      "T2499C",
+                      "C2700T",
+                      "T2778C",
+                      "G2784A",
+                      "A3062G",
+                      "T3159C",
+                      "C3477T",
+                      "A3507G",
+                      "T3626A",
+                      "T3934C",
+                      "C4194T",
+                      "A4197G",
+                      "G4239A",
+                      "T4242A",
+                      "A4518G",
+                      "C5199T",
+                      "T5226C",
+                      "T5304C",
+                      "T5451C",
+                      "T5505C",
+                      "G5541A",
+                      "G5685A",
+                      "T5730C",
+                      "C5829G",
+                      "T6183A",
+                      "A6450G",
+                      "A6495T",
+                      "G6612A",
+                      "C6621T",
+                      "T6696C",
+                      "C6732T",
+                      "A6960G",
+                      "G7314A",
+                      "G7380A",
+                      "G7794A",
+                      "C7962T",
+                      "C7992T",
+                      "C8088T",
+                      "A8541G",
+                      "C9006T",
+                      "C9079T",
+                      "T9261C",
+                      "T9276C",
+                      "G9282A",
+                      "C9711T",
+                      "A9813G",
+                      "G9984A",
+                      "G10017A",
+                      "T10032C",
+                      "T10155C",
+                      "A10290T",
+                      "T10569C"
+                    ],
+                    "NS1": [
+                      "K214R"
+                    ],
+                    "NS2A": [
+                      "F50Y"
+                    ],
+                    "NS3": [
+                      "D436E"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "NS1: K214R; NS2A: F50Y; NS3: D436E"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000022",
+                "node_attrs": {
+                  "div": 0.002352749059194951,
+                  "num_date": {
+                    "value": 1967.880926177666,
+                    "confidence": [
+                      1967.2762884965848,
+                      1968.3910939074085
+                    ]
+                  },
+                  "region": {
+                    "value": "North America",
+                    "confidence": {
+                      "North America": 0.9864376942587053,
+                      "Oceania": 0.004449223719949259,
+                      "South America": 0.009113082021345411
+                    },
+                    "entropy": 0.08037624276034183
+                  },
+                  "country": {
+                    "value": "Puerto Rico",
+                    "confidence": {
+                      "Fiji": 0.018537020788091378,
+                      "Mexico": 0.02549506253198172,
+                      "New Caledonia": 0.020756958199000065,
+                      "Puerto Rico": 0.8424170158351847
+                    },
+                    "entropy": 0.7789434577187757
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C7353T",
+                      "T9384C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "DENV2_PR159",
+                    "node_attrs": {
+                      "div": 0.003379676353874709,
+                      "num_date": {
+                        "value": 1969.639503073211,
+                        "confidence": [
+                          1969.0013698630137,
+                          1969.9986301369863
+                        ]
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/JX966380",
+                      "accession": "JX966380",
+                      "author": {
+                        "author": "Khoo et al",
+                        "title": "Isolation of midgut escape mutants of two American genotype dengue 2 viruses from Aedes aegypti",
+                        "journal": "Virol. J. 10 (1), 257 (2013)",
+                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/23937713",
+                        "value": "Khoo et al"
+                      },
+                      "region": {
+                        "value": "North America",
+                        "confidence": {
+                          "North America": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13
+                      },
+                      "country": {
+                        "value": "Puerto Rico",
+                        "confidence": {
+                          "Puerto Rico": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G1540A",
+                          "T2789C",
+                          "G3739A",
+                          "T4479C",
+                          "T5088C",
+                          "T7356C",
+                          "C7818T",
+                          "T7965C",
+                          "G9461A",
+                          "G10013A",
+                          "G10017A"
+                        ],
+                        "E": [
+                          "E202K"
+                        ],
+                        "NS1": [
+                          "M123T"
+                        ],
+                        "NS2A": [
+                          "A88T"
+                        ],
+                        "NS5": [
+                          "S631N",
+                          "R815K"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "E: E202K; NS1: M123T; NS2A: A88T; NS5: S631N, R815K"
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000023",
+                    "node_attrs": {
+                      "div": 0.006850277121524816,
+                      "num_date": {
+                        "value": 1974.3386324742169,
+                        "confidence": [
+                          1973.4614875893865,
+                          1974.9770357166153
+                        ]
+                      },
+                      "region": {
+                        "value": "North America",
+                        "confidence": {
+                          "North America": 0.8616651332648805,
+                          "Oceania": 0.018828373925601605,
+                          "South America": 0.1195064928095179
+                        },
+                        "entropy": 0.45696348105126466
+                      },
+                      "country": {
+                        "value": "Puerto Rico",
+                        "confidence": {
+                          "Colombia": 0.10662494122770977,
+                          "Honduras": 0.09985978031260835,
+                          "Mexico": 0.1318528944440367,
+                          "Puerto Rico": 0.18757491822899355
+                        },
+                        "entropy": 2.2527570453047696
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G339A",
+                          "C525T",
+                          "C543T",
+                          "T669C",
+                          "A1257G",
+                          "C1645T",
+                          "G1788A",
+                          "T2178C",
+                          "G2238A",
+                          "C2310T",
+                          "G2418A",
+                          "T2571C",
+                          "G2577A",
+                          "C2895T",
+                          "T3270C",
+                          "C3291A",
+                          "T3577C",
+                          "T3717C",
+                          "A3843G",
+                          "T3991C",
+                          "A4023G",
+                          "T4146C",
+                          "A4197G",
+                          "T4203C",
+                          "A4665C",
+                          "C4941T",
+                          "T5259C",
+                          "T5289C",
+                          "T5703C",
+                          "C5751T",
+                          "T5877C",
+                          "T5937C",
+                          "G5949A",
+                          "G6843A",
+                          "A6874C",
+                          "T7110C",
+                          "A7239G",
+                          "G7515T",
+                          "A7851G",
+                          "G8220A",
+                          "T8361C",
+                          "G8855A",
+                          "G8904A",
+                          "G9111A",
+                          "A9333G",
+                          "A10291G",
+                          "A10296G",
+                          "G10301A"
+                        ],
+                        "NS1": [
+                          "D290E"
+                        ],
+                        "NS4B": [
+                          "N17H"
+                        ],
+                        "NS5": [
+                          "S429N"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "NS1: D290E; NS4B: N17H; NS5: S429N"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000025",
+                        "node_attrs": {
+                          "div": 0.013704817227050406,
+                          "num_date": {
+                            "value": 1985.9673396585476,
+                            "confidence": [
+                              1985.6380706970176,
+                              1986.509020439252
+                            ]
+                          },
+                          "region": {
+                            "value": "South America",
+                            "confidence": {
+                              "North America": 0.009192937856261796,
+                              "South America": 0.989868964599483
+                            },
+                            "entropy": 0.059728260946669685
+                          },
+                          "country": {
+                            "value": "Colombia",
+                            "confidence": {
+                              "American Samoa": 0.003219089745412474,
+                              "Colombia": 0.9688340501958153,
+                              "Mexico": 0.005629774333278863,
+                              "Puerto Rico": 0.0042482474318388695
+                            },
+                            "entropy": 0.20638720061764443
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A270T",
+                              "A294G",
+                              "T312C",
+                              "A594G",
+                              "C1057T",
+                              "C1155T",
+                              "T1479A",
+                              "T1693C",
+                              "T1737C",
+                              "G1851A",
+                              "A1881G",
+                              "C1944T",
+                              "G2097A",
+                              "C2133T",
+                              "C2289T",
+                              "T2951C",
+                              "T2962C",
+                              "A3525G",
+                              "T3591C",
+                              "T3861C",
+                              "A4035G",
+                              "C4320T",
+                              "C4361T",
+                              "T4419C",
+                              "A4565G",
+                              "C4611T",
+                              "T4689A",
+                              "T4893C",
+                              "C4983T",
+                              "A4993G",
+                              "C5145T",
+                              "T5517C",
+                              "T5583C",
+                              "G5850A",
+                              "C6228T",
+                              "C6379T",
+                              "G6459A",
+                              "G6492A",
+                              "T6507C",
+                              "C6654A",
+                              "C6726A",
+                              "A6747G",
+                              "C6862T",
+                              "T6957A",
+                              "C7143T",
+                              "A7164G",
+                              "T7500C",
+                              "A7561G",
+                              "A7584G",
+                              "C7962T",
+                              "A8040G",
+                              "A8427G",
+                              "C8490T",
+                              "T8511A",
+                              "T8548C",
+                              "A8559G",
+                              "G8572A",
+                              "C8628T",
+                              "G8700A",
+                              "G8778A",
+                              "C8784T",
+                              "A8829G",
+                              "T8853C",
+                              "C9171T",
+                              "G9356A",
+                              "G9596A",
+                              "C9741T",
+                              "C9759T",
+                              "G9834A",
+                              "C9906T",
+                              "C9957T",
+                              "C10236T",
+                              "G10682A"
+                            ],
+                            "NS1": [
+                              "V177A",
+                              "S181P"
+                            ],
+                            "NS2B": [
+                              "T77I"
+                            ],
+                            "NS3": [
+                              "K15R",
+                              "S158G"
+                            ],
+                            "NS4B": [
+                              "L13F",
+                              "T246A"
+                            ],
+                            "NS5": [
+                              "I5M",
+                              "V335I",
+                              "R596K",
+                              "R676K"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NS1: V177A, S181P; NS2B: T77I; NS3: K15R, S158G; NS4B: L13F, T246A; NS5: I5M, V335I, R596K, R676K"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "DENV_2/CO/BID_V3358/1986",
+                            "node_attrs": {
+                              "div": 0.013891459388639883,
+                              "num_date": {
+                                "value": 1986.331003399342,
+                                "confidence": [
+                                  1986.0013698630137,
+                                  1986.9986301369863
+                                ]
+                              },
+                              "accession": "GQ868592",
+                              "author": {
+                                "author": "?",
+                                "value": "?"
+                              },
+                              "region": {
+                                "value": "South America",
+                                "confidence": {
+                                  "South America": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "Colombia",
+                                "confidence": {
+                                  "Colombia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G10071A",
+                                  "C10686T"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "I348600",
+                            "node_attrs": {
+                              "div": 0.013798123737333735,
+                              "num_date": {
+                                "value": 1986.1145645532465,
+                                "confidence": [
+                                  1986.0013698630137,
+                                  1986.9986301369863
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY702040",
+                              "accession": "AY702040",
+                              "author": {
+                                "author": "Rodriguez-Roche et al",
+                                "title": "Virus evolution during a severe dengue epidemic in Cuba, 1997",
+                                "journal": "Virology 334 (2), 154-159 (2005)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/15780865",
+                                "value": "Rodriguez-Roche et al"
+                              },
+                              "region": {
+                                "value": "South America",
+                                "confidence": {
+                                  "South America": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "Colombia",
+                                "confidence": {
+                                  "Colombia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A10029G"
+                                ]
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000026",
+                        "node_attrs": {
+                          "div": 0.008438137852138292,
+                          "num_date": {
+                            "value": 1976.6168128603747,
+                            "confidence": [
+                              1975.780486479478,
+                              1977.2691778336105
+                            ]
+                          },
+                          "region": {
+                            "value": "North America",
+                            "confidence": {
+                              "North America": 0.9150491668837308,
+                              "Oceania": 0.012951950023125148,
+                              "South America": 0.0719988830931439
+                            },
+                            "entropy": 0.3269681239449795
+                          },
+                          "country": {
+                            "value": "Mexico",
+                            "confidence": {
+                              "Colombia": 0.0944408874673542,
+                              "Honduras": 0.12882959202937874,
+                              "Mexico": 0.16537009657199164,
+                              "Puerto Rico": 0.13562553459862314
+                            },
+                            "entropy": 2.260944650805714
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "G1707A",
+                              "T3495C",
+                              "C3513T",
+                              "C3813T",
+                              "C3939T",
+                              "C4119T",
+                              "C4261T",
+                              "A4386G",
+                              "T4614A",
+                              "A4722G",
+                              "T4902C",
+                              "T4965C",
+                              "G5126A",
+                              "G6175T",
+                              "C7557T",
+                              "A8437G",
+                              "A10116G"
+                            ],
+                            "NS3": [
+                              "R202K",
+                              "A552S"
+                            ],
+                            "NS5": [
+                              "T290A"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NS3: R202K, A552S; NS5: T290A"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000027",
+                            "node_attrs": {
+                              "div": 0.010774606827269422,
+                              "num_date": {
+                                "value": 1980.7033682846088,
+                                "confidence": [
+                                  1979.5548985185687,
+                                  1981.919675364096
+                                ]
+                              },
+                              "region": {
+                                "value": "North America",
+                                "confidence": {
+                                  "North America": 0.8733424562801998,
+                                  "Oceania": 0.03449547642779547,
+                                  "South America": 0.09216206729200485
+                                },
+                                "entropy": 0.4541517747370802
+                              },
+                              "country": {
+                                "value": "Mexico",
+                                "confidence": {
+                                  "Colombia": 0.09410285280913122,
+                                  "Honduras": 0.10430859871634562,
+                                  "Mexico": 0.15661179074470602,
+                                  "Puerto Rico": 0.11115620538682584
+                                },
+                                "entropy": 2.2839258909777045
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G672A",
+                                  "T1719C",
+                                  "C2458T",
+                                  "C2523T",
+                                  "T2638C",
+                                  "C3666T",
+                                  "G3693A",
+                                  "T3719A",
+                                  "C3748T",
+                                  "A4518G",
+                                  "A4650G",
+                                  "G4905A",
+                                  "G5271A",
+                                  "C5523T",
+                                  "T5847C",
+                                  "C6033T",
+                                  "T6444C",
+                                  "C6633T",
+                                  "A6825T",
+                                  "A8251G",
+                                  "C8634T",
+                                  "G9333A",
+                                  "T9900C",
+                                  "C10083T",
+                                  "A10523T"
+                                ],
+                                "NS1": [
+                                  "S73P"
+                                ],
+                                "NS2A": [
+                                  "F81Y"
+                                ],
+                                "NS5": [
+                                  "I228V"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NS1: S73P; NS2A: F81Y; NS5: I228V"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "DENV_2/MX/BID_V3356/1992",
+                                "node_attrs": {
+                                  "div": 0.017063772645965054,
+                                  "num_date": {
+                                    "value": 1992.0013661202186,
+                                    "confidence": [
+                                      1992.0013661202186,
+                                      1992.8605991115357
+                                    ]
+                                  },
+                                  "accession": "GQ868590",
+                                  "author": {
+                                    "author": "?",
+                                    "value": "?"
+                                  },
+                                  "region": {
+                                    "value": "North America",
+                                    "confidence": {
+                                      "North America": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "country": {
+                                    "value": "Mexico",
+                                    "confidence": {
+                                      "Mexico": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G165A",
+                                      "T375C",
+                                      "G750A",
+                                      "C1221T",
+                                      "A1317G",
+                                      "T1737C",
+                                      "G1749A",
+                                      "A1917G",
+                                      "G2103A",
+                                      "G2218A",
+                                      "T2298A",
+                                      "T2319A",
+                                      "C2322T",
+                                      "T2499C",
+                                      "T2699C",
+                                      "G2757A",
+                                      "T2794C",
+                                      "C2808T",
+                                      "C2835T",
+                                      "T2919C",
+                                      "C2991T",
+                                      "T3160C",
+                                      "G3253A",
+                                      "G3750A",
+                                      "A4260G",
+                                      "A4263G",
+                                      "G4295A",
+                                      "C4812T",
+                                      "T4986C",
+                                      "A5184T",
+                                      "A5211G",
+                                      "C5259T",
+                                      "A5673G",
+                                      "A6050G",
+                                      "C6126A",
+                                      "T6307C",
+                                      "C6378T",
+                                      "G6534A",
+                                      "T6556C",
+                                      "C7002T",
+                                      "C7017T",
+                                      "C7110T",
+                                      "C7131T",
+                                      "A7221G",
+                                      "A7413G",
+                                      "C7419T",
+                                      "G7482C",
+                                      "G7548A",
+                                      "C7743A",
+                                      "T7767C",
+                                      "T7812C",
+                                      "G7972A",
+                                      "T7996C",
+                                      "A8058G",
+                                      "A8078G",
+                                      "G8256A",
+                                      "A8769G",
+                                      "G8835A",
+                                      "G8841A",
+                                      "G9102A",
+                                      "C9252T",
+                                      "G9326T",
+                                      "C9330T",
+                                      "A9375G",
+                                      "T9429C",
+                                      "C9870T",
+                                      "A10550T"
+                                    ],
+                                    "E": [
+                                      "V428M"
+                                    ],
+                                    "NS1": [
+                                      "I93T",
+                                      "S125P",
+                                      "F247L",
+                                      "D278N"
+                                    ],
+                                    "NS2B": [
+                                      "R55K"
+                                    ],
+                                    "NS3": [
+                                      "E510G",
+                                      "D535E"
+                                    ],
+                                    "NS5": [
+                                      "V135I",
+                                      "N170S",
+                                      "R586I"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "E: V428M; NS1: I93T, S125P, F247L, D278N; NS2B: R55K; NS3: E510G, D535E; NS5: V135I, N170S, R586I"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "DENV2_QR94",
+                                "node_attrs": {
+                                  "div": 0.020188083969968754,
+                                  "num_date": {
+                                    "value": 1994.9986301369863,
+                                    "confidence": [
+                                      1994.148038814058,
+                                      1994.9986301369863
+                                    ]
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/JX966379",
+                                  "accession": "JX966379",
+                                  "author": {
+                                    "author": "Khoo et al",
+                                    "title": "Isolation of midgut escape mutants of two American genotype dengue 2 viruses from Aedes aegypti",
+                                    "journal": "Virol. J. 10 (1), 257 (2013)",
+                                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/23937713",
+                                    "value": "Khoo et al"
+                                  },
+                                  "region": {
+                                    "value": "North America",
+                                    "confidence": {
+                                      "North America": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  },
+                                  "country": {
+                                    "value": "Mexico",
+                                    "confidence": {
+                                      "Mexico": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G77A",
+                                      "A174G",
+                                      "G183A",
+                                      "T312C",
+                                      "G365A",
+                                      "A704G",
+                                      "T837C",
+                                      "C840T",
+                                      "C885T",
+                                      "A1099T",
+                                      "C1713T",
+                                      "G1740A",
+                                      "C1806T",
+                                      "A1932T",
+                                      "C2055T",
+                                      "C2130T",
+                                      "T2199C",
+                                      "T2298C",
+                                      "C2325T",
+                                      "C2421T",
+                                      "T2550C",
+                                      "C2709T",
+                                      "A2844G",
+                                      "A2997G",
+                                      "C3000T",
+                                      "T3159C",
+                                      "T3161A",
+                                      "C3551G",
+                                      "T3754C",
+                                      "T3778C",
+                                      "T3989C",
+                                      "C4047T",
+                                      "T4281C",
+                                      "A4356G",
+                                      "T4472C",
+                                      "A4485G",
+                                      "C4542T",
+                                      "T4569C",
+                                      "C4596T",
+                                      "T4683C",
+                                      "G4704A",
+                                      "G4710A",
+                                      "G4824A",
+                                      "G4830A",
+                                      "T4878C",
+                                      "A5126G",
+                                      "C5379T",
+                                      "G5412A",
+                                      "A5620G",
+                                      "G5638A",
+                                      "T5739C",
+                                      "G5979A",
+                                      "T6157C",
+                                      "C6222T",
+                                      "G6492A",
+                                      "G6558A",
+                                      "G6711A",
+                                      "C6732T",
+                                      "T6768C",
+                                      "G6810T",
+                                      "C6813G",
+                                      "G6870A",
+                                      "T6927A",
+                                      "T6979C",
+                                      "G7083A",
+                                      "T7098C",
+                                      "T7356C",
+                                      "C7411T",
+                                      "C7425T",
+                                      "C7497T",
+                                      "A7554G",
+                                      "G7593A",
+                                      "G7632A",
+                                      "C7806T",
+                                      "T7842C",
+                                      "T7849C",
+                                      "A7863G",
+                                      "C7899T",
+                                      "A8022G",
+                                      "C8031T",
+                                      "A8089G",
+                                      "C8164A",
+                                      "A8406G",
+                                      "C8535T",
+                                      "A8733G",
+                                      "T8742C",
+                                      "G8775A",
+                                      "A8975G",
+                                      "T9057C",
+                                      "G9383T",
+                                      "A9435G",
+                                      "T9512C",
+                                      "G9534A",
+                                      "T9564C",
+                                      "A9612G",
+                                      "G9636A",
+                                      "T10122C",
+                                      "T10155C",
+                                      "T10412A",
+                                      "A10609G"
+                                    ],
+                                    "C": [
+                                      "R90K"
+                                    ],
+                                    "E": [
+                                      "T55S"
+                                    ],
+                                    "M": [
+                                      "E89G"
+                                    ],
+                                    "NS1": [
+                                      "F247Y"
+                                    ],
+                                    "NS2A": [
+                                      "T25S",
+                                      "I171T"
+                                    ],
+                                    "NS2B": [
+                                      "I114T"
+                                    ],
+                                    "NS3": [
+                                      "K202R",
+                                      "T367A",
+                                      "A373T"
+                                    ],
+                                    "NS5": [
+                                      "N174D",
+                                      "K469R",
+                                      "G605V",
+                                      "V648A"
+                                    ],
+                                    "pr": [
+                                      "E89G"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "C: R90K; E: T55S; M: E89G; NS1: F247Y; NS2A: T25S, I171T; NS2B: I114T; NS3: K202R, T367A, A373T; NS5: N174D, K469R, G605V, V648A; pr: E89G"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000028",
+                            "node_attrs": {
+                              "div": 0.008531400299017283,
+                              "num_date": {
+                                "value": 1976.8658571468343,
+                                "confidence": [
+                                  1976.0090864385074,
+                                  1977.5078763038787
+                                ]
+                              },
+                              "region": {
+                                "value": "North America",
+                                "confidence": {
+                                  "North America": 0.9313942681116716,
+                                  "Oceania": 0.012240593014889457,
+                                  "South America": 0.05636513887343891
+                                },
+                                "entropy": 0.2821926675318984
+                              },
+                              "country": {
+                                "value": "Mexico",
+                                "confidence": {
+                                  "Colombia": 0.08506137836210345,
+                                  "Honduras": 0.1592713483761433,
+                                  "Mexico": 0.19548123162819686,
+                                  "Puerto Rico": 0.11107400173076372
+                                },
+                                "entropy": 2.229129445227382
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T10315C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "DENV_2/HN/BID_V2945/1984",
+                                "node_attrs": {
+                                  "div": 0.013874346202771762,
+                                  "num_date": {
+                                    "value": 1984.9986338797814,
+                                    "confidence": [
+                                      1984.1468323902438,
+                                      1984.9986338797814
+                                    ]
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/FJ898449",
+                                  "accession": "FJ898449",
+                                  "author": {
+                                    "author": "Henn et al",
+                                    "title": "Direct Submission",
+                                    "journal": "Submitted (06-APR-2009) Broad Institute of MIT and Harvard, 320 Charles Street, Cambridge, MA 02141, USA",
+                                    "value": "Henn et al A"
+                                  },
+                                  "region": {
+                                    "value": "North America",
+                                    "confidence": {
+                                      "North America": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  },
+                                  "country": {
+                                    "value": "Honduras",
+                                    "confidence": {
+                                      "Honduras": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A363C",
+                                      "A486G",
+                                      "C684T",
+                                      "G990A",
+                                      "C1209T",
+                                      "C1506T",
+                                      "A1800G",
+                                      "C1986T",
+                                      "T2256C",
+                                      "C2583T",
+                                      "G2610A",
+                                      "C2709T",
+                                      "A2718G",
+                                      "T2730C",
+                                      "T2778C",
+                                      "C2970T",
+                                      "A3132G",
+                                      "G3145A",
+                                      "T3183C",
+                                      "C3684T",
+                                      "A3714G",
+                                      "T3934C",
+                                      "T4083C",
+                                      "G4773A",
+                                      "G5286A",
+                                      "C5373T",
+                                      "G5823A",
+                                      "C5982T",
+                                      "C6237T",
+                                      "C6801T",
+                                      "T6885C",
+                                      "T6918C",
+                                      "G7014A",
+                                      "A7605G",
+                                      "T7809C",
+                                      "A7985G",
+                                      "G8034A",
+                                      "C8055T",
+                                      "T8064C",
+                                      "G8112A",
+                                      "T8241C",
+                                      "G8403A",
+                                      "T8649C",
+                                      "A8731G",
+                                      "C8766T",
+                                      "C9034T",
+                                      "T9124C",
+                                      "C9601T",
+                                      "A9744G",
+                                      "C9858T",
+                                      "T10053C",
+                                      "T10122C",
+                                      "A10260G",
+                                      "G10413A",
+                                      "C10537T",
+                                      "A10555G",
+                                      "A10607G"
+                                    ],
+                                    "NS1": [
+                                      "V242I"
+                                    ],
+                                    "NS5": [
+                                      "K139R",
+                                      "K388E"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NS1: V242I; NS5: K139R, K388E"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000029",
+                                "node_attrs": {
+                                  "div": 0.01406143881762974,
+                                  "num_date": {
+                                    "value": 1983.8473237929422,
+                                    "confidence": [
+                                      1983.5068279939214,
+                                      1983.9919793086767
+                                    ]
+                                  },
+                                  "region": {
+                                    "value": "North America",
+                                    "confidence": {
+                                      "North America": 0.9778317854943319,
+                                      "South America": 0.02161062908377832
+                                    },
+                                    "entropy": 0.10896550482386551
+                                  },
+                                  "country": {
+                                    "value": "Mexico",
+                                    "confidence": {
+                                      "Honduras": 0.005765257850798171,
+                                      "Mexico": 0.9288015031517878,
+                                      "Puerto Rico": 0.005195170106929585,
+                                      "Venezuela": 0.04128370579937589
+                                    },
+                                    "entropy": 0.36606610634017434
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G111A",
+                                      "T171C",
+                                      "G438A",
+                                      "C534T",
+                                      "A553T",
+                                      "T924C",
+                                      "A934G",
+                                      "A1014G",
+                                      "A1659G",
+                                      "C1785T",
+                                      "A2010G",
+                                      "A2114G",
+                                      "T2349C",
+                                      "G2415T",
+                                      "A2526G",
+                                      "C2817T",
+                                      "A2844G",
+                                      "C2916T",
+                                      "T2932C",
+                                      "T3021C",
+                                      "T3360C",
+                                      "T3492C",
+                                      "T3514C",
+                                      "T4008C",
+                                      "A4290G",
+                                      "G4540A",
+                                      "A4614G",
+                                      "T4716C",
+                                      "T4917C",
+                                      "G5052A",
+                                      "G5343A",
+                                      "C5766T",
+                                      "C6264T",
+                                      "A6669G",
+                                      "T6771C",
+                                      "C6912T",
+                                      "T7098C",
+                                      "A7188T",
+                                      "T7224C",
+                                      "G7239A",
+                                      "C7431T",
+                                      "T7704C",
+                                      "C8097T",
+                                      "T8613C",
+                                      "T8742C",
+                                      "A8829G",
+                                      "G8920A",
+                                      "C8988T",
+                                      "C9006T",
+                                      "C9066T",
+                                      "G9714A",
+                                      "T9720C",
+                                      "C9737T",
+                                      "T9747C",
+                                      "A9939T",
+                                      "C10011T",
+                                      "G10071A",
+                                      "A10609G",
+                                      "T10648C"
+                                    ],
+                                    "E": [
+                                      "K393R"
+                                    ],
+                                    "M": [
+                                      "M39L",
+                                      "T166A"
+                                    ],
+                                    "NS3": [
+                                      "V7I"
+                                    ],
+                                    "NS5": [
+                                      "V451I",
+                                      "T723I"
+                                    ],
+                                    "pr": [
+                                      "M39L"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "E: K393R; M: M39L, T166A; NS3: V7I; NS5: V451I, T723I; pr: M39L"
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "DENV_2/VE/BID_V3366/1987",
+                                    "node_attrs": {
+                                      "div": 0.014341252155263554,
+                                      "num_date": {
+                                        "value": 1987.0013698630137,
+                                        "confidence": [
+                                          1987.0013698630137,
+                                          1987.3969804959972
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/GQ868599",
+                                      "accession": "GQ868599",
+                                      "author": {
+                                        "author": "Henn et al",
+                                        "title": "Direct Submission",
+                                        "journal": "Submitted (03-SEP-2009) Broad Institute of MIT and Harvard, 320 Charles Street, Cambridge, MA 02141, USA",
+                                        "value": "Henn et al B"
+                                      },
+                                      "region": {
+                                        "value": "South America",
+                                        "confidence": {
+                                          "South America": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "Venezuela",
+                                        "confidence": {
+                                          "Venezuela": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C226T",
+                                          "T8853C",
+                                          "T10427C"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "DENV_2/MX/BID_V3355/1983",
+                                    "node_attrs": {
+                                      "div": 0.01406143881762974,
+                                      "num_date": {
+                                        "value": 1983.9576218547572,
+                                        "confidence": [
+                                          1983.0013698630137,
+                                          1983.9986301369863
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/GQ868589",
+                                      "accession": "GQ868589",
+                                      "author": {
+                                        "author": "Henn et al",
+                                        "title": "Direct Submission",
+                                        "journal": "Submitted (03-SEP-2009) Broad Institute of MIT and Harvard, 320 Charles Street, Cambridge, MA 02141, USA",
+                                        "value": "Henn et al B"
+                                      },
+                                      "region": {
+                                        "value": "North America",
+                                        "confidence": {
+                                          "North America": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "Mexico",
+                                        "confidence": {
+                                          "Mexico": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "DENV_2/MX/BID_V3354/1983",
+                                    "node_attrs": {
+                                      "div": 0.01406143881762974,
+                                      "num_date": {
+                                        "value": 1983.9576218547572,
+                                        "confidence": [
+                                          1983.0013698630137,
+                                          1983.9986301369863
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/GQ868588",
+                                      "accession": "GQ868588",
+                                      "author": {
+                                        "author": "Henn et al",
+                                        "title": "Direct Submission",
+                                        "journal": "Submitted (03-SEP-2009) Broad Institute of MIT and Harvard, 320 Charles Street, Cambridge, MA 02141, USA",
+                                        "value": "Henn et al B"
+                                      },
+                                      "region": {
+                                        "value": "North America",
+                                        "confidence": {
+                                          "North America": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "Mexico",
+                                        "confidence": {
+                                          "Mexico": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000018",
+        "node_attrs": {
+          "div": 0.004195898803269701,
+          "num_date": {
+            "value": 1970.9882403922932,
+            "confidence": [
+              1970.1371396281413,
+              1971.1149231754282
+            ]
+          },
+          "region": {
+            "value": "Oceania",
+            "confidence": {
+              "North America": 0.00708337552806701,
+              "Oceania": 0.9915905535668854,
+              "South America": 0.0013260709050474302
+            },
+            "entropy": 0.05222265884594229
+          },
+          "country": {
+            "value": "New Caledonia",
+            "confidence": {
+              "Fiji": 0.3927551942931134,
+              "French Polynesia": 0.03313424821655154,
+              "New Caledonia": 0.4220111632376063,
+              "Puerto Rico": 0.03492003307773302
+            },
+            "entropy": 1.420137540075853
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "C477T",
+              "T513C",
+              "C525T",
+              "A873G",
+              "T1047C",
+              "A1257G",
+              "C1389G",
+              "G1641A",
+              "C2184T",
+              "T2550C",
+              "T2568G",
+              "A2880G",
+              "T3111C",
+              "A3147T",
+              "C3202T",
+              "C3408T",
+              "C3471T",
+              "T3495C",
+              "A3600G",
+              "T3604C",
+              "T3702C",
+              "C3720T",
+              "A3722G",
+              "C3789T",
+              "T3862C",
+              "T3921C",
+              "C4077T",
+              "C4080T",
+              "T4242C",
+              "A4260G",
+              "C4288T",
+              "T4531C",
+              "G4566A",
+              "T4827A",
+              "A4857G",
+              "G5292A",
+              "T5442G",
+              "C5484T",
+              "T5505C",
+              "C5559T",
+              "T5763C",
+              "C5821T",
+              "C5955A",
+              "A6043T",
+              "A6348G",
+              "C6360T",
+              "C6517T",
+              "T6582C",
+              "T6696C",
+              "G7062A",
+              "C7215T",
+              "C7581T",
+              "C7594T",
+              "A7773G",
+              "C7815T",
+              "C7962T",
+              "T8064C",
+              "T8289C",
+              "C8301T",
+              "C8616T",
+              "C8751T",
+              "T8808C",
+              "G8841A",
+              "T8844C",
+              "A8886G",
+              "A8937G",
+              "G9931A",
+              "A10116G"
+            ],
+            "NS1": [
+              "H261Y"
+            ],
+            "NS2A": [
+              "K82R"
+            ],
+            "NS3": [
+              "M508L"
+            ],
+            "NS5": [
+              "V788I"
+            ]
+          },
+          "labels": {
+            "aa": "NS1: H261Y; NS2A: K82R; NS3: M508L; NS5: V788I"
+          }
+        },
+        "children": [
+          {
+            "name": "D2/NC/UH97/1972",
+            "node_attrs": {
+              "div": 0.00466246435150415,
+              "num_date": {
+                "value": 1972.0013661202186,
+                "confidence": [
+                  1972.0013661202186,
+                  1972.5569417259771
+                ]
+              },
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582103",
+              "accession": "HM582103",
+              "author": {
+                "author": "Steel et al",
+                "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                "journal": "Virology 405 (2), 505-512 (2010)",
+                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                "value": "Steel et al"
+              },
+              "region": {
+                "value": "Oceania",
+                "confidence": {
+                  "Oceania": 1.0
+                },
+                "entropy": -1.000088900581841e-12
+              },
+              "country": {
+                "value": "New Caledonia",
+                "confidence": {
+                  "New Caledonia": 0.9999999999999999
+                },
+                "entropy": -9.99866855976916e-13
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G2145A",
+                  "T2184C",
+                  "G3549A",
+                  "A5298G",
+                  "C6529T",
+                  "C8634T"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000017",
+            "node_attrs": {
+              "div": 0.00428917422908759,
+              "num_date": {
+                "value": 1970.9842928328253,
+                "confidence": [
+                  1970.3501417564062,
+                  1971.245490767474
+                ]
+              },
+              "region": {
+                "value": "Oceania",
+                "confidence": {
+                  "Oceania": 0.9999988790684359
+                },
+                "entropy": 1.6795633351911587e-05
+              },
+              "country": {
+                "value": "Fiji",
+                "confidence": {
+                  "American Samoa": 0.004811640435798078,
+                  "Fiji": 0.9784095474636986,
+                  "French Polynesia": 0.004161353515921667,
+                  "New Caledonia": 0.007483771447793762
+                },
+                "entropy": 0.14000709080170046
+              }
+            },
+            "branch_attrs": {
+              "mutations": {}
+            },
+            "children": [
+              {
+                "name": "D2/FJ/UH21/1971",
+                "node_attrs": {
+                  "div": 0.0050359099174542635,
+                  "num_date": {
+                    "value": 1971.9986301369863,
+                    "confidence": [
+                      1971.4258912897799,
+                      1971.9986301369863
+                    ]
+                  },
+                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582099",
+                  "accession": "HM582099",
+                  "author": {
+                    "author": "Steel et al",
+                    "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                    "journal": "Virology 405 (2), 505-512 (2010)",
+                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                    "value": "Steel et al"
+                  },
+                  "region": {
+                    "value": "Oceania",
+                    "confidence": {
+                      "Oceania": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "country": {
+                    "value": "Fiji",
+                    "confidence": {
+                      "Fiji": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G432A",
+                      "T3577C",
+                      "T6084C",
+                      "C7411T",
+                      "A7434G",
+                      "C7513T",
+                      "A8578G",
+                      "A10298G"
+                    ],
+                    "NS5": [
+                      "M337V"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "NS5: M337V"
+                  }
+                }
+              },
+              {
+                "name": "D2/FJ/UH22/1971",
+                "node_attrs": {
+                  "div": 0.005222870367128369,
+                  "num_date": {
+                    "value": 1971.9986301369863,
+                    "confidence": [
+                      1971.535463465404,
+                      1971.9986301369863
+                    ]
+                  },
+                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582101",
+                  "accession": "HM582101",
+                  "author": {
+                    "author": "Steel et al",
+                    "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                    "journal": "Virology 405 (2), 505-512 (2010)",
+                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                    "value": "Steel et al"
+                  },
+                  "region": {
+                    "value": "Oceania",
+                    "confidence": {
+                      "Oceania": 1.0
+                    },
+                    "entropy": -1.000088900581841e-12
+                  },
+                  "country": {
+                    "value": "Fiji",
+                    "confidence": {
+                      "Fiji": 0.9999999999999999
+                    },
+                    "entropy": -9.99866855976916e-13
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A1092G",
+                      "G1312A",
+                      "C1398T",
+                      "T2499C",
+                      "C2535T",
+                      "T4305C",
+                      "T5679C",
+                      "C7089T",
+                      "T9402C",
+                      "A10089G"
+                    ],
+                    "E": [
+                      "E126K"
+                    ]
+                  },
+                  "labels": {
+                    "aa": "E: E126K"
+                  }
+                }
+              },
+              {
+                "name": "NODE_0000000",
+                "node_attrs": {
+                  "div": 0.004569047694866374,
+                  "num_date": {
+                    "value": 1971.1793286297739,
+                    "confidence": [
+                      1970.8016713452407,
+                      1971.435188109287
+                    ]
+                  },
+                  "region": {
+                    "value": "Oceania",
+                    "confidence": {
+                      "Oceania": 0.9998291420204919
+                    },
+                    "entropy": 0.0017408174796226892
+                  },
+                  "country": {
+                    "value": "Fiji",
+                    "confidence": {
+                      "American Samoa": 0.010267406375726509,
+                      "Fiji": 0.9028397054903511,
+                      "French Polynesia": 0.05490972635685873,
+                      "New Caledonia": 0.0131323739827191
+                    },
+                    "entropy": 0.4632861114274482
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T336C",
+                      "C921T",
+                      "T6231C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "D2/FJ/UH40/1971",
+                    "node_attrs": {
+                      "div": 0.0050357460346249945,
+                      "num_date": {
+                        "value": 1971.8846050537015,
+                        "confidence": [
+                          1971.0013698630137,
+                          1971.9986301369863
+                        ]
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582100",
+                      "accession": "HM582100",
+                      "author": {
+                        "author": "Steel et al",
+                        "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                        "journal": "Virology 405 (2), 505-512 (2010)",
+                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                        "value": "Steel et al"
+                      },
+                      "region": {
+                        "value": "Oceania",
+                        "confidence": {
+                          "Oceania": 0.9999999999999999
+                        },
+                        "entropy": -9.99866855976916e-13
+                      },
+                      "country": {
+                        "value": "Fiji",
+                        "confidence": {
+                          "Fiji": 1.0
+                        },
+                        "entropy": -1.000088900581841e-12
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C2458T",
+                          "C5643T",
+                          "A8016G",
+                          "G10200A",
+                          "T10553G"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000001",
+                    "node_attrs": {
+                      "div": 0.00475561653161759,
+                      "num_date": {
+                        "value": 1971.3545616126642,
+                        "confidence": [
+                          1971.0695061344513,
+                          1971.492364771911
+                        ]
+                      },
+                      "region": {
+                        "value": "Oceania",
+                        "confidence": {
+                          "Oceania": 0.9998216028107519
+                        },
+                        "entropy": 0.0018095504191682243
+                      },
+                      "country": {
+                        "value": "French Polynesia",
+                        "confidence": {
+                          "American Samoa": 0.05562193235124632,
+                          "Fiji": 0.18969596179792625,
+                          "French Polynesia": 0.6493321065046596,
+                          "New Caledonia": 0.062112351080394916
+                        },
+                        "entropy": 1.1413998905077312
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G7371A",
+                          "T8238C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000002",
+                        "node_attrs": {
+                          "div": 0.005035496312803448,
+                          "num_date": {
+                            "value": 1971.5466333041581,
+                            "confidence": [
+                              1971.3525248378412,
+                              1971.7424880572455
+                            ]
+                          },
+                          "region": {
+                            "value": "Oceania",
+                            "confidence": {
+                              "Oceania": 0.9998291926128178
+                            },
+                            "entropy": 0.001740361051667124
+                          },
+                          "country": {
+                            "value": "French Polynesia",
+                            "confidence": {
+                              "American Samoa": 0.006174206097564567,
+                              "Fiji": 0.014804221124860253,
+                              "French Polynesia": 0.9637594805487975,
+                              "New Caledonia": 0.00669412574918496
+                            },
+                            "entropy": 0.21891166119469535
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A853G",
+                              "T3514C",
+                              "G9534A"
+                            ],
+                            "M": [
+                              "I139V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "M: I139V"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "D2/PF/UH50/1972",
+                            "node_attrs": {
+                              "div": 0.005408871762133098,
+                              "num_date": {
+                                "value": 1972.1259863359783,
+                                "confidence": [
+                                  1972.0013661202186,
+                                  1972.9986338797814
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582108",
+                              "accession": "HM582108",
+                              "author": {
+                                "author": "Steel et al",
+                                "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                "journal": "Virology 405 (2), 505-512 (2010)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                "value": "Steel et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              },
+                              "country": {
+                                "value": "French Polynesia",
+                                "confidence": {
+                                  "French Polynesia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C5329T",
+                                  "T5481C",
+                                  "C5874T",
+                                  "T10553G"
+                                ]
+                              }
+                            }
+                          },
+                          {
+                            "name": "D2/PF/UH57/1971",
+                            "node_attrs": {
+                              "div": 0.0055962565939274575,
+                              "num_date": {
+                                "value": 1971.9986301369863,
+                                "confidence": [
+                                  1971.810823132285,
+                                  1971.9986301369863
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582109",
+                              "accession": "HM582109",
+                              "author": {
+                                "author": "Steel et al",
+                                "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                "journal": "Virology 405 (2), 505-512 (2010)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                "value": "Steel et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              },
+                              "country": {
+                                "value": "French Polynesia",
+                                "confidence": {
+                                  "French Polynesia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G2716A",
+                                  "G3997T",
+                                  "G4704A",
+                                  "C4721A",
+                                  "G8583A",
+                                  "G10682A"
+                                ],
+                                "NS1": [
+                                  "V99I"
+                                ],
+                                "NS2A": [
+                                  "V174L"
+                                ],
+                                "NS3": [
+                                  "P67Q"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NS1: V99I; NS2A: V174L; NS3: P67Q"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000003",
+                        "node_attrs": {
+                          "div": 0.0048488934055269245,
+                          "num_date": {
+                            "value": 1971.4134800407114,
+                            "confidence": [
+                              1971.212661182004,
+                              1971.6168497044803
+                            ]
+                          },
+                          "region": {
+                            "value": "Oceania",
+                            "confidence": {
+                              "Oceania": 0.9999906883861952
+                            },
+                            "entropy": 0.00012122165217837933
+                          },
+                          "country": {
+                            "value": "French Polynesia",
+                            "confidence": {
+                              "American Samoa": 0.14675561056661424,
+                              "Fiji": 0.05944226460159583,
+                              "French Polynesia": 0.6059133274831442,
+                              "New Caledonia": 0.1565153944475084
+                            },
+                            "entropy": 1.2073340786945193
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A4565G"
+                            ],
+                            "NS3": [
+                              "K15R"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NS3: K15R"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "D2/NC/UH37/1971",
+                            "node_attrs": {
+                              "div": 0.005502252798089966,
+                              "num_date": {
+                                "value": 1971.9986301369863,
+                                "confidence": [
+                                  1971.775871363143,
+                                  1971.9986301369863
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582102",
+                              "accession": "HM582102",
+                              "author": {
+                                "author": "Steel et al",
+                                "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                "journal": "Virology 405 (2), 505-512 (2010)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                "value": "Steel et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "New Caledonia",
+                                "confidence": {
+                                  "New Caledonia": 0.9999999999999999
+                                },
+                                "entropy": -9.99866855976916e-13
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G1996A",
+                                  "T6120C",
+                                  "T8853C",
+                                  "C8892T",
+                                  "T9491C",
+                                  "A9513T",
+                                  "C9867T"
+                                ],
+                                "E": [
+                                  "V354I"
+                                ],
+                                "NS5": [
+                                  "I641T"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "E: V354I; NS5: I641T"
+                              }
+                            }
+                          },
+                          {
+                            "name": "D2/PF/UH00/1973",
+                            "node_attrs": {
+                              "div": 0.006156541883158321,
+                              "num_date": {
+                                "value": 1973.5318609237738,
+                                "confidence": [
+                                  1973.0013698630137,
+                                  1973.9986301369863
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582110",
+                              "accession": "HM582110",
+                              "author": {
+                                "author": "Steel et al",
+                                "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                "journal": "Virology 405 (2), 505-512 (2010)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                "value": "Steel et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "French Polynesia",
+                                "confidence": {
+                                  "French Polynesia": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C786T",
+                                  "T1065C",
+                                  "G1970A",
+                                  "T2111A",
+                                  "T2318C",
+                                  "T3147C",
+                                  "C3879T",
+                                  "A4785G",
+                                  "A4998G",
+                                  "C5418T",
+                                  "T6090C",
+                                  "G8043A",
+                                  "C8067T",
+                                  "G9072A"
+                                ],
+                                "E": [
+                                  "R345K",
+                                  "F392Y",
+                                  "V461A"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "E: R345K, F392Y, V461A"
+                              }
+                            }
+                          },
+                          {
+                            "name": "D2/AS/UH73/1972",
+                            "node_attrs": {
+                              "div": 0.006343508415832414,
+                              "num_date": {
+                                "value": 1972.9986338797814,
+                                "confidence": [
+                                  1972.614534050895,
+                                  1972.9986338797814
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582107",
+                              "accession": "HM582107",
+                              "author": {
+                                "author": "Steel et al",
+                                "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                "journal": "Virology 405 (2), 505-512 (2010)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                "value": "Steel et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "American Samoa",
+                                "confidence": {
+                                  "American Samoa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C337T",
+                                  "G555A",
+                                  "G1452A",
+                                  "C1746T",
+                                  "C3130T",
+                                  "G3548A",
+                                  "C4155T",
+                                  "A4653G",
+                                  "A4935G",
+                                  "T5088A",
+                                  "G5652A",
+                                  "T5937C",
+                                  "C7497T",
+                                  "G8583A",
+                                  "C9610T",
+                                  "T9922C"
+                                ],
+                                "M": [
+                                  "M39I"
+                                ],
+                                "NS2A": [
+                                  "R24K"
+                                ],
+                                "NS5": [
+                                  "S785P"
+                                ],
+                                "pr": [
+                                  "M39I"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "M: M39I; NS2A: R24K; NS5: S785P; pr: M39I"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000007",
+                "node_attrs": {
+                  "div": 0.004382450142924258,
+                  "num_date": {
+                    "value": 1971.166241882497,
+                    "confidence": [
+                      1970.590420606938,
+                      1971.4461305431785
+                    ]
+                  },
+                  "region": {
+                    "value": "Oceania",
+                    "confidence": {
+                      "Oceania": 0.9998118725840737
+                    },
+                    "entropy": 0.0018978699725825995
+                  },
+                  "country": {
+                    "value": "Fiji",
+                    "confidence": {
+                      "American Samoa": 0.3083391580200636,
+                      "Fiji": 0.3141357786003315,
+                      "French Polynesia": 0.024173969625234694,
+                      "Tonga": 0.2691789575242501
+                    },
+                    "entropy": 1.526675952997329
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "G3564A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000008",
+                    "node_attrs": {
+                      "div": 0.004848982524953329,
+                      "num_date": {
+                        "value": 1971.564870128797,
+                        "confidence": [
+                          1971.2175741413903,
+                          1971.9894768212112
+                        ]
+                      },
+                      "region": {
+                        "value": "Oceania",
+                        "confidence": {
+                          "Oceania": 0.9998212695785307
+                        },
+                        "entropy": 0.0018125787252585323
+                      },
+                      "country": {
+                        "value": "American Samoa",
+                        "confidence": {
+                          "American Samoa": 0.9246258667956864,
+                          "Fiji": 0.025981989669813726,
+                          "French Polynesia": 0.006509414724078401,
+                          "Tonga": 0.02434882535657005
+                        },
+                        "entropy": 0.3974047144130905
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "A711G",
+                          "C2685T",
+                          "C3039T",
+                          "T3570C",
+                          "A5991G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "D2/AS/UH85/1972",
+                        "node_attrs": {
+                          "div": 0.005782752817831449,
+                          "num_date": {
+                            "value": 1972.9986338797814,
+                            "confidence": [
+                              1972.4024615696771,
+                              1972.9986338797814
+                            ]
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582106",
+                          "accession": "HM582106",
+                          "author": {
+                            "author": "Steel et al",
+                            "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                            "journal": "Virology 405 (2), 505-512 (2010)",
+                            "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                            "value": "Steel et al"
+                          },
+                          "region": {
+                            "value": "Oceania",
+                            "confidence": {
+                              "Oceania": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          },
+                          "country": {
+                            "value": "American Samoa",
+                            "confidence": {
+                              "American Samoa": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T1023C",
+                              "C2729T",
+                              "G2757A",
+                              "C3706T",
+                              "C3748T",
+                              "G3865A",
+                              "C4194T",
+                              "T5739C",
+                              "G8256A",
+                              "C10023T"
+                            ],
+                            "NS1": [
+                              "S103F"
+                            ],
+                            "NS2A": [
+                              "G130S"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "NS1: S103F; NS2A: G130S"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000009",
+                        "node_attrs": {
+                          "div": 0.005595831806499051,
+                          "num_date": {
+                            "value": 1972.443042956121,
+                            "confidence": [
+                              1971.9739129832797,
+                              1972.83500638306
+                            ]
+                          },
+                          "region": {
+                            "value": "Oceania",
+                            "confidence": {
+                              "Oceania": 0.999829178456977
+                            },
+                            "entropy": 0.0017404898878120045
+                          },
+                          "country": {
+                            "value": "American Samoa",
+                            "confidence": {
+                              "American Samoa": 0.9899161832041052,
+                              "Fiji": 0.0024684252223669185,
+                              "French Polynesia": 0.0014362251365231638,
+                              "Tonga": 0.0025233193075548813
+                            },
+                            "entropy": 0.07638378556419168
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A535G",
+                              "C4737T",
+                              "C5718G",
+                              "G8583A",
+                              "G8775A",
+                              "A10065C",
+                              "G10161A",
+                              "C10452T"
+                            ],
+                            "M": [
+                              "M33V"
+                            ],
+                            "pr": [
+                              "M33V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "M: M33V; pr: M33V"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "D2/AS/UH79/1972",
+                            "node_attrs": {
+                              "div": 0.005595831806499051,
+                              "num_date": {
+                                "value": 1972.58246069725,
+                                "confidence": [
+                                  1972.0013661202186,
+                                  1972.9986338797814
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582105",
+                              "accession": "HM582105",
+                              "author": {
+                                "author": "Steel et al",
+                                "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                "journal": "Virology 405 (2), 505-512 (2010)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                "value": "Steel et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "American Samoa",
+                                "confidence": {
+                                  "American Samoa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "D2/AS/UH77/1972",
+                            "node_attrs": {
+                              "div": 0.005875741818708676,
+                              "num_date": {
+                                "value": 1972.9986338797814,
+                                "confidence": [
+                                  1972.5004843449738,
+                                  1972.9986338797814
+                                ]
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582104",
+                              "accession": "HM582104",
+                              "author": {
+                                "author": "Steel et al",
+                                "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                "journal": "Virology 405 (2), 505-512 (2010)",
+                                "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                "value": "Steel et al"
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              },
+                              "country": {
+                                "value": "American Samoa",
+                                "confidence": {
+                                  "American Samoa": 1.0
+                                },
+                                "entropy": -1.000088900581841e-12
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G3997T",
+                                  "A7569G",
+                                  "G8043A"
+                                ],
+                                "NS2A": [
+                                  "V174L"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NS2A: V174L"
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000010",
+                    "node_attrs": {
+                      "div": 0.004662326041838229,
+                      "num_date": {
+                        "value": 1971.4303251281494,
+                        "confidence": [
+                          1971.0984492301868,
+                          1971.839410060546
+                        ]
+                      },
+                      "region": {
+                        "value": "Oceania",
+                        "confidence": {
+                          "Oceania": 0.999606367678809
+                        },
+                        "entropy": 0.0036844278742127596
+                      },
+                      "country": {
+                        "value": "Tonga",
+                        "confidence": {
+                          "American Samoa": 0.05708353367808558,
+                          "Fiji": 0.05420123427680588,
+                          "French Polynesia": 0.009711942455209881,
+                          "Tonga": 0.8358123621216739
+                        },
+                        "entropy": 0.7289829673392104
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T3147C",
+                          "T5787C",
+                          "A6609G"
+                        ],
+                        "NS4A": [
+                          "I78M"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "NS4A: I78M"
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "Tonga/74",
+                        "node_attrs": {
+                          "div": 0.007844834909428477,
+                          "num_date": {
+                            "value": 1974.9986301369863,
+                            "confidence": [
+                              1974.4785034575507,
+                              1974.9986301369863
+                            ]
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/AY744148",
+                          "accession": "AY744148",
+                          "author": {
+                            "author": "Blaney et al",
+                            "title": "Vaccine candidates derived from a novel infectious cDNA clone of an American genotype dengue virus type 2",
+                            "journal": "BMC Infect. Dis. 4, 39 (2004)",
+                            "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/15461822",
+                            "value": "Blaney et al"
+                          },
+                          "region": {
+                            "value": "Oceania",
+                            "confidence": {
+                              "Oceania": 1.0
+                            },
+                            "entropy": -1.000088900581841e-12
+                          },
+                          "country": {
+                            "value": "Tonga",
+                            "confidence": {
+                              "Tonga": 0.9999999999999999
+                            },
+                            "entropy": -9.99866855976916e-13
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C401T",
+                              "T422C",
+                              "C1095T",
+                              "T1125C",
+                              "T1551C",
+                              "A2355T",
+                              "T2356A",
+                              "C2357G",
+                              "A2358T",
+                              "T2362A",
+                              "C2363G",
+                              "T2364C",
+                              "A2376G",
+                              "G2397T",
+                              "C2731T",
+                              "G3289A",
+                              "A3582C",
+                              "T3852C",
+                              "G4121A",
+                              "T4350C",
+                              "C4497T",
+                              "T4878C",
+                              "C6012T",
+                              "C6396T",
+                              "A6678G",
+                              "C6762T",
+                              "T7356C",
+                              "C7419T",
+                              "C8454T",
+                              "A9210G",
+                              "T9384C",
+                              "A9681G",
+                              "G9921A",
+                              "C10386T"
+                            ],
+                            "C": [
+                              "A102V",
+                              "I109T"
+                            ],
+                            "NS1": [
+                              "D290N"
+                            ],
+                            "NS2A": [
+                              "S215N"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "C: A102V, I109T; NS1: D290N; NS2A: S215N"
+                          }
+                        }
+                      },
+                      {
+                        "name": "NODE_0000011",
+                        "node_attrs": {
+                          "div": 0.005035525013712509,
+                          "num_date": {
+                            "value": 1971.9364812953297,
+                            "confidence": [
+                              1971.6412950319573,
+                              1972.5188082136367
+                            ]
+                          },
+                          "region": {
+                            "value": "Oceania",
+                            "confidence": {
+                              "Oceania": 0.9997914465507238
+                            },
+                            "entropy": 0.002082187345596798
+                          },
+                          "country": {
+                            "value": "Tonga",
+                            "confidence": {
+                              "American Samoa": 0.006172136022596821,
+                              "Fiji": 0.005500894802618215,
+                              "French Polynesia": 0.0015362824302306293,
+                              "Tonga": 0.9790809975532578
+                            },
+                            "entropy": 0.14194421280856384
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A695G",
+                              "G3846A",
+                              "T4195C",
+                              "C4686T"
+                            ],
+                            "M": [
+                              "H86R"
+                            ],
+                            "pr": [
+                              "H86R"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "M: H86R; pr: H86R"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "NODE_0000012",
+                            "node_attrs": {
+                              "div": 0.005782184047511853,
+                              "num_date": {
+                                "value": 1973.6358339424908,
+                                "confidence": [
+                                  1972.91694850505,
+                                  1974.0343835710369
+                                ]
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 0.9998244015528316
+                                },
+                                "entropy": 0.0017842863419990792
+                              },
+                              "country": {
+                                "value": "Tonga",
+                                "confidence": {
+                                  "Tonga": 0.9958373972706352
+                                },
+                                "entropy": 0.03567408106092776
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "G3276A",
+                                  "C4557T",
+                                  "G6045A",
+                                  "T7119C",
+                                  "G7737A",
+                                  "A8664G",
+                                  "C9462T",
+                                  "T9585C"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "D2/TO/UH94/1974",
+                                "node_attrs": {
+                                  "div": 0.006528914593097615,
+                                  "num_date": {
+                                    "value": 1974.971431629592,
+                                    "confidence": [
+                                      1974.0013698630137,
+                                      1974.9986301369863
+                                    ]
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582116",
+                                  "accession": "HM582116",
+                                  "author": {
+                                    "author": "Steel et al",
+                                    "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                    "journal": "Virology 405 (2), 505-512 (2010)",
+                                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                    "value": "Steel et al"
+                                  },
+                                  "region": {
+                                    "value": "Oceania",
+                                    "confidence": {
+                                      "Oceania": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  },
+                                  "country": {
+                                    "value": "Tonga",
+                                    "confidence": {
+                                      "Tonga": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A486G",
+                                      "T2466C",
+                                      "C4925T",
+                                      "G7602A",
+                                      "G8583A",
+                                      "G8704A",
+                                      "G8851A",
+                                      "T9057C"
+                                    ],
+                                    "NS3": [
+                                      "S135L"
+                                    ],
+                                    "NS5": [
+                                      "E379K",
+                                      "D428N"
+                                    ]
+                                  },
+                                  "labels": {
+                                    "aa": "NS3: S135L; NS5: E379K, D428N"
+                                  }
+                                }
+                              },
+                              {
+                                "name": "D2/TO/UH04/1974",
+                                "node_attrs": {
+                                  "div": 0.006062123847801078,
+                                  "num_date": {
+                                    "value": 1974.0013698630137,
+                                    "confidence": [
+                                      1974.0013698630137,
+                                      1974.6665904476326
+                                    ]
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582117",
+                                  "accession": "HM582117",
+                                  "author": {
+                                    "author": "Steel et al",
+                                    "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                    "journal": "Virology 405 (2), 505-512 (2010)",
+                                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                    "value": "Steel et al"
+                                  },
+                                  "region": {
+                                    "value": "Oceania",
+                                    "confidence": {
+                                      "Oceania": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  },
+                                  "country": {
+                                    "value": "Tonga",
+                                    "confidence": {
+                                      "Tonga": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "C126T",
+                                      "T10155C",
+                                      "G10289A"
+                                    ]
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "name": "NODE_0000013",
+                            "node_attrs": {
+                              "div": 0.0061563500208266205,
+                              "num_date": {
+                                "value": 1973.6702857449686,
+                                "confidence": [
+                                  1973.261391656486,
+                                  1974.0209567587617
+                                ]
+                              },
+                              "region": {
+                                "value": "Oceania",
+                                "confidence": {
+                                  "Oceania": 0.9998210920715961
+                                },
+                                "entropy": 0.0018146196499622693
+                              },
+                              "country": {
+                                "value": "Tonga",
+                                "confidence": {
+                                  "Tonga": 0.9958067153433374
+                                },
+                                "entropy": 0.03591471866768954
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "T1008C",
+                                  "A1377G",
+                                  "T2730C",
+                                  "A3820G",
+                                  "C3939T",
+                                  "G4731C",
+                                  "C5166T",
+                                  "T5931C",
+                                  "C6221G",
+                                  "A6309G",
+                                  "C6466T",
+                                  "C10386A"
+                                ],
+                                "NS2A": [
+                                  "S115G"
+                                ],
+                                "NS3": [
+                                  "T567S"
+                                ]
+                              },
+                              "labels": {
+                                "aa": "NS2A: S115G; NS3: T567S"
+                              }
+                            },
+                            "children": [
+                              {
+                                "name": "D2/TO/UH19/1974",
+                                "node_attrs": {
+                                  "div": 0.006436424636142378,
+                                  "num_date": {
+                                    "value": 1974.065041995526,
+                                    "confidence": [
+                                      1974.0013698630137,
+                                      1974.9986301369863
+                                    ]
+                                  },
+                                  "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582112",
+                                  "accession": "HM582112",
+                                  "author": {
+                                    "author": "Steel et al",
+                                    "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                    "journal": "Virology 405 (2), 505-512 (2010)",
+                                    "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                    "value": "Steel et al"
+                                  },
+                                  "region": {
+                                    "value": "Oceania",
+                                    "confidence": {
+                                      "Oceania": 0.9999999999999999
+                                    },
+                                    "entropy": -9.99866855976916e-13
+                                  },
+                                  "country": {
+                                    "value": "Tonga",
+                                    "confidence": {
+                                      "Tonga": 1.0
+                                    },
+                                    "entropy": -1.000088900581841e-12
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T4569C",
+                                      "G7371A",
+                                      "T8238C"
+                                    ]
+                                  }
+                                }
+                              },
+                              {
+                                "name": "NODE_0000014",
+                                "node_attrs": {
+                                  "div": 0.006622901770006073,
+                                  "num_date": {
+                                    "value": 1974.3332369700497,
+                                    "confidence": [
+                                      1973.8810551880365,
+                                      1974.486738344223
+                                    ]
+                                  },
+                                  "region": {
+                                    "value": "Oceania",
+                                    "confidence": {
+                                      "Oceania": 0.9999996853962817
+                                    },
+                                    "entropy": 5.135769592065998e-06
+                                  },
+                                  "country": {
+                                    "value": "Tonga",
+                                    "confidence": {
+                                      "Tonga": 0.9999877801434766
+                                    },
+                                    "entropy": 0.00017518830274463774
+                                  }
+                                },
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T7119C",
+                                      "G8112A",
+                                      "C9393T",
+                                      "C9462T",
+                                      "C9471T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "name": "D2/TO/UH16/1974",
+                                    "node_attrs": {
+                                      "div": 0.0067161871813533015,
+                                      "num_date": {
+                                        "value": 1974.5437988744618,
+                                        "confidence": [
+                                          1974.0013698630137,
+                                          1974.9986301369863
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582111",
+                                      "accession": "HM582111",
+                                      "author": {
+                                        "author": "Steel et al",
+                                        "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                        "journal": "Virology 405 (2), 505-512 (2010)",
+                                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                        "value": "Steel et al"
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "Tonga",
+                                        "confidence": {
+                                          "Tonga": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "G2448A"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "D2/TO/UH20/1974",
+                                    "node_attrs": {
+                                      "div": 0.006622901770006073,
+                                      "num_date": {
+                                        "value": 1974.4382440363095,
+                                        "confidence": [
+                                          1974.0013698630137,
+                                          1974.9986301369863
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582113",
+                                      "accession": "HM582113",
+                                      "author": {
+                                        "author": "Steel et al",
+                                        "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                        "journal": "Virology 405 (2), 505-512 (2010)",
+                                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                        "value": "Steel et al"
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "Tonga",
+                                        "confidence": {
+                                          "Tonga": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    }
+                                  },
+                                  {
+                                    "name": "D2/TO/UH44/1974",
+                                    "node_attrs": {
+                                      "div": 0.007089584264323541,
+                                      "num_date": {
+                                        "value": 1974.9986301369863,
+                                        "confidence": [
+                                          1974.561449795979,
+                                          1974.9986301369863
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582115",
+                                      "accession": "HM582115",
+                                      "author": {
+                                        "author": "Steel et al",
+                                        "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                        "journal": "Virology 405 (2), 505-512 (2010)",
+                                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                        "value": "Steel et al"
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "Tonga",
+                                        "confidence": {
+                                          "Tonga": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C2034T",
+                                          "T3552C",
+                                          "T5937C",
+                                          "G8758A",
+                                          "G8761A"
+                                        ],
+                                        "NS5": [
+                                          "E397K",
+                                          "E398K"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NS5: E397K, E398K"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "name": "D2/TO/UH39/1974",
+                                    "node_attrs": {
+                                      "div": 0.0069962895589305175,
+                                      "num_date": {
+                                        "value": 1974.9674091329716,
+                                        "confidence": [
+                                          1974.0013698630137,
+                                          1974.9986301369863
+                                        ]
+                                      },
+                                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/HM582114",
+                                      "accession": "HM582114",
+                                      "author": {
+                                        "author": "Steel et al",
+                                        "title": "Natural attenuation of dengue virus type-2 after a series of island outbreaks: a retrospective phylogenetic study of events in the South Pacific three decades ago",
+                                        "journal": "Virology 405 (2), 505-512 (2010)",
+                                        "paper_url": "https://www.ncbi.nlm.nih.gov/pubmed/20663532",
+                                        "value": "Steel et al"
+                                      },
+                                      "region": {
+                                        "value": "Oceania",
+                                        "confidence": {
+                                          "Oceania": 1.0
+                                        },
+                                        "entropy": -1.000088900581841e-12
+                                      },
+                                      "country": {
+                                        "value": "Tonga",
+                                        "confidence": {
+                                          "Tonga": 0.9999999999999999
+                                        },
+                                        "entropy": -9.99866855976916e-13
+                                      }
+                                    },
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C36T",
+                                          "T6629C",
+                                          "G8043A",
+                                          "G10682A"
+                                        ],
+                                        "NS4A": [
+                                          "M85T"
+                                        ]
+                                      },
+                                      "labels": {
+                                        "aa": "NS4A: M85T"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

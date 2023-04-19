@@ -1,0 +1,85 @@
+inputfile = orig
+104 x 10736 - 10134 d
+nthread = 1
+nadd = 0
+inputfile = infile
+thresholdtorev = 0.000000
+reflim = 5000
+mode = a
+generating a scoring matrix for nucleotide (dist=200) ... done
+
+Step 1/2
+1   101   
+
+Step 2/2
+ 1 / 104 (1 threads)    101 / 104 (1 threads)   
+makedirectionlist (nuc) Version 7.490
+alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
+1 thread(s)
+
+directionfile = _direction
+inputfile = infile
+subalignment = 0
+subalignmentoffset = 0
+104 x 10736 - 10134 d
+directionfile = _direction
+inputfile = orig
+subalignment = 0
+subalignmentoffset = 0
+104 x 10736 - 10134 d
+nthread = 1
+nthreadpair = 1
+nthreadtb = 1
+ppenalty_ex = 0
+stacksize: 8176 kb
+generating a scoring matrix for nucleotide (dist=200) ... done
+Gap Penalty = -1.53, +0.00, +0.00
+
+
+
+Making a distance matrix ..
+
+There are 29 ambiguous characters.
+    1 / 104 (thread    0)  101 / 104 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=0) ... 
+    0 / 104   10 / 104   20 / 104   30 / 104   40 / 104   50 / 104   60 / 104   70 / 104   80 / 104   90 / 104  100 / 104
+done.
+
+Progressive alignment 1/2... 
+STEP     1 / 103 (thread    0) fSTEP     2 / 103 (thread    0) fSTEP     3 / 103 (thread    0) fSTEP     4 / 103 (thread    0) fSTEP     5 / 103 (thread    0) fSTEP     6 / 103 (thread    0) fSTEP     7 / 103 (thread    0) fSTEP     8 / 103 (thread    0) fSTEP     9 / 103 (thread    0) fSTEP    10 / 103 (thread    0) fSTEP    11 / 103 (thread    0) fSTEP    12 / 103 (thread    0) fSTEP    13 / 103 (thread    0) fSTEP    14 / 103 (thread    0) fSTEP    15 / 103 (thread    0) fSTEP    16 / 103 (thread    0) fSTEP    17 / 103 (thread    0) fSTEP    18 / 103 (thread    0) fSTEP    19 / 103 (thread    0) fSTEP    20 / 103 (thread    0) fSTEP    21 / 103 (thread    0) fSTEP    22 / 103 (thread    0) fSTEP    23 / 103 (thread    0) fSTEP    24 / 103 (thread    0) fSTEP    25 / 103 (thread    0) fSTEP    26 / 103 (thread    0) fSTEP    27 / 103 (thread    0) fSTEP    28 / 103 (thread    0) fSTEP    29 / 103 (thread    0) fSTEP    30 / 103 (thread    0) fSTEP    31 / 103 (thread    0) fSTEP    32 / 103 (thread    0) fSTEP    33 / 103 (thread    0) fSTEP    34 / 103 (thread    0) fSTEP    35 / 103 (thread    0) fSTEP    36 / 103 (thread    0) fSTEP    37 / 103 (thread    0) fSTEP    38 / 103 (thread    0) fSTEP    39 / 103 (thread    0) fSTEP    40 / 103 (thread    0) fSTEP    41 / 103 (thread    0) fSTEP    42 / 103 (thread    0) fSTEP    43 / 103 (thread    0) fSTEP    44 / 103 (thread    0) fSTEP    45 / 103 (thread    0) fSTEP    46 / 103 (thread    0) fSTEP    47 / 103 (thread    0) fSTEP    48 / 103 (thread    0) fSTEP    49 / 103 (thread    0) fSTEP    50 / 103 (thread    0) fSTEP    51 / 103 (thread    0) fSTEP    52 / 103 (thread    0) fSTEP    53 / 103 (thread    0) fSTEP    54 / 103 (thread    0) fSTEP    55 / 103 (thread    0) fSTEP    56 / 103 (thread    0) fSTEP    57 / 103 (thread    0) fSTEP    58 / 103 (thread    0) fSTEP    59 / 103 (thread    0) fSTEP    60 / 103 (thread    0) fSTEP    61 / 103 (thread    0) fSTEP    62 / 103 (thread    0) fSTEP    63 / 103 (thread    0) fSTEP    64 / 103 (thread    0) fSTEP    65 / 103 (thread    0) fSTEP    66 / 103 (thread    0) fSTEP    67 / 103 (thread    0) fSTEP    68 / 103 (thread    0) fSTEP    69 / 103 (thread    0) fSTEP    70 / 103 (thread    0) fSTEP    71 / 103 (thread    0) fSTEP    72 / 103 (thread    0) fSTEP    73 / 103 (thread    0) fSTEP    74 / 103 (thread    0) fSTEP    75 / 103 (thread    0) f
+Reallocating..done. *alloclen = 22536
+STEP    76 / 103 (thread    0) fSTEP    77 / 103 (thread    0) fSTEP    78 / 103 (thread    0) fSTEP    79 / 103 (thread    0) fSTEP    80 / 103 (thread    0) fSTEP    81 / 103 (thread    0) fSTEP    82 / 103 (thread    0) fSTEP    83 / 103 (thread    0) fSTEP    84 / 103 (thread    0) fSTEP    85 / 103 (thread    0) fSTEP    86 / 103 (thread    0) fSTEP    87 / 103 (thread    0) fSTEP    88 / 103 (thread    0) fSTEP    89 / 103 (thread    0) fSTEP    90 / 103 (thread    0) fSTEP    91 / 103 (thread    0) fSTEP    92 / 103 (thread    0) fSTEP    93 / 103 (thread    0) fSTEP    94 / 103 (thread    0) fSTEP    95 / 103 (thread    0) fSTEP    96 / 103 (thread    0) fSTEP    97 / 103 (thread    0) fSTEP    98 / 103 (thread    0) fSTEP    99 / 103 (thread    0) fSTEP   100 / 103 (thread    0) fSTEP   101 / 103 (thread    0) fSTEP   102 / 103 (thread    0) fSTEP   103 / 103 (thread    0) f
+done.
+
+Making a distance matrix from msa.. 
+    0 / 104 (thread    0)  100 / 104 (thread    0)
+done.
+
+Constructing a UPGMA tree (efffree=1) ... 
+    0 / 104   10 / 104   20 / 104   30 / 104   40 / 104   50 / 104   60 / 104   70 / 104   80 / 104   90 / 104  100 / 104
+done.
+
+Progressive alignment 2/2... 
+STEP     1 / 103 (thread    0) fSTEP     2 / 103 (thread    0) fSTEP     3 / 103 (thread    0) fSTEP     4 / 103 (thread    0) fSTEP     5 / 103 (thread    0) fSTEP     6 / 103 (thread    0) fSTEP     7 / 103 (thread    0) fSTEP     8 / 103 (thread    0) fSTEP     9 / 103 (thread    0) fSTEP    10 / 103 (thread    0) fSTEP    11 / 103 (thread    0) fSTEP    12 / 103 (thread    0) fSTEP    13 / 103 (thread    0) fSTEP    14 / 103 (thread    0) fSTEP    15 / 103 (thread    0) fSTEP    16 / 103 (thread    0) fSTEP    17 / 103 (thread    0) fSTEP    18 / 103 (thread    0) fSTEP    19 / 103 (thread    0) fSTEP    20 / 103 (thread    0) fSTEP    21 / 103 (thread    0) fSTEP    22 / 103 (thread    0) fSTEP    23 / 103 (thread    0) fSTEP    24 / 103 (thread    0) fSTEP    25 / 103 (thread    0) fSTEP    26 / 103 (thread    0) fSTEP    27 / 103 (thread    0) fSTEP    28 / 103 (thread    0) fSTEP    29 / 103 (thread    0) fSTEP    30 / 103 (thread    0) fSTEP    31 / 103 (thread    0) fSTEP    32 / 103 (thread    0) fSTEP    33 / 103 (thread    0) fSTEP    34 / 103 (thread    0) fSTEP    35 / 103 (thread    0) fSTEP    36 / 103 (thread    0) fSTEP    37 / 103 (thread    0) fSTEP    38 / 103 (thread    0) fSTEP    39 / 103 (thread    0) fSTEP    40 / 103 (thread    0) fSTEP    41 / 103 (thread    0) fSTEP    42 / 103 (thread    0) fSTEP    43 / 103 (thread    0) fSTEP    44 / 103 (thread    0) fSTEP    45 / 103 (thread    0) fSTEP    46 / 103 (thread    0) fSTEP    47 / 103 (thread    0) fSTEP    48 / 103 (thread    0) fSTEP    49 / 103 (thread    0) fSTEP    50 / 103 (thread    0) fSTEP    51 / 103 (thread    0) fSTEP    52 / 103 (thread    0) fSTEP    53 / 103 (thread    0) fSTEP    54 / 103 (thread    0) fSTEP    55 / 103 (thread    0) fSTEP    56 / 103 (thread    0) fSTEP    57 / 103 (thread    0) fSTEP    58 / 103 (thread    0) fSTEP    59 / 103 (thread    0) fSTEP    60 / 103 (thread    0) fSTEP    61 / 103 (thread    0) fSTEP    62 / 103 (thread    0) fSTEP    63 / 103 (thread    0) fSTEP    64 / 103 (thread    0) fSTEP    65 / 103 (thread    0) fSTEP    66 / 103 (thread    0) fSTEP    67 / 103 (thread    0) fSTEP    68 / 103 (thread    0) fSTEP    69 / 103 (thread    0) fSTEP    70 / 103 (thread    0) fSTEP    71 / 103 (thread    0) fSTEP    72 / 103 (thread    0) fSTEP    73 / 103 (thread    0) fSTEP    74 / 103 (thread    0) fSTEP    75 / 103 (thread    0) fSTEP    76 / 103 (thread    0) fSTEP    77 / 103 (thread    0) fSTEP    78 / 103 (thread    0) fSTEP    79 / 103 (thread    0) fSTEP    80 / 103 (thread    0) fSTEP    81 / 103 (thread    0) fSTEP    82 / 103 (thread    0) fSTEP    83 / 103 (thread    0) fSTEP    84 / 103 (thread    0) fSTEP    85 / 103 (thread    0) fSTEP    86 / 103 (thread    0) fSTEP    87 / 103 (thread    0) fSTEP    88 / 103 (thread    0) fSTEP    89 / 103 (thread    0) fSTEP    90 / 103 (thread    0) fSTEP    91 / 103 (thread    0) fSTEP    92 / 103 (thread    0) fSTEP    93 / 103 (thread    0) f
+Reallocating..done. *alloclen = 22473
+STEP    94 / 103 (thread    0) fSTEP    95 / 103 (thread    0) fSTEP    96 / 103 (thread    0) fSTEP    97 / 103 (thread    0) fSTEP    98 / 103 (thread    0) fSTEP    99 / 103 (thread    0) fSTEP   100 / 103 (thread    0) fSTEP   101 / 103 (thread    0) fSTEP   102 / 103 (thread    0) fSTEP   103 / 103 (thread    0) f
+done.
+
+disttbfast (nuc) Version 7.490
+alg=A, model=DNA200 (2), 1.53 (4.59), -0.00 (-0.00), noshift, amax=0.0
+1 thread(s)
+
+
+Strategy:
+ FFT-NS-2 (Fast but rough)
+ Progressive method (guide trees were built 2 times.)
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

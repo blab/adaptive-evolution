@@ -1,0 +1,19 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_denv1_II-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    119188 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue May 31 11:27:51 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_denv1_II-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.000211 secs using 92.42% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00518394 secs using 70.51% CPU
+WARNING: 340 sites contain only gaps or ambiguous characters.
+ERROR: Alignment must have at least 3 sequences
