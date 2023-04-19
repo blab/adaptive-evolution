@@ -1,0 +1,376 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    macbook-pro-2.fhcrc.org (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    225319 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jun 15 11:30:19 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0710499 secs using 89.03% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.032577 secs using 80.98% CPU
+Alignment has 264 sequences with 15894 columns, 5088 distinct patterns
+3293 parsimony-informative, 2227 singleton sites, 10374 constant sites
+WARNING: Some sequence names are changed as follows:
+Dadra&NagarHaveli.IND_DELIM-DVBOQPOUIOQPHLVKISBC_18.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8 -> Dadra_NagarHaveli.IND_DELIM-DVBOQPOUIOQPHLVKISBC_18.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8
+
+                                                                                                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00263309 secs using 90.69% CPU
+   1  California.USA_DELIM-DVBOQPOUIOQPHLVKISBC_8.04                                                                                              0.00%    passed     99.23%
+   2  Arizona.USA_DELIM-DVBOQPOUIOQPHLVKISBC_11.08_DELIM-DVBOQPOUIOQPHLVKISBC_2                                                                   0.00%    passed     99.44%
+   3  Gyeongnam.KOR_DELIM-DVBOQPOUIOQPHLVKISBC_27.11_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D9                                   0.09%    passed     93.45%
+   4  California.USA_DELIM-DVBOQPOUIOQPHLVKISBC_19.10_DELIM-DVBOQPOUIOQPHLVKISBC_D9                                                               0.09%    passed     96.39%
+   5  MeV_DELIM-DVBOQPOUIOQPHLVKISBC_08_DELIM-DVBOQPOUIOQPHLVKISBC_ZJ_DELIM-DVBOQPOUIOQPHLVKISBC_CHN_DELIM-DVBOQPOUIOQPHLVKISBC_2017              0.00%    passed     98.52%
+   6  unnamed                                                                                                                                     0.00%    passed     99.92%
+   7  California.USA_DELIM-DVBOQPOUIOQPHLVKISBC_16.12_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                                               1.20%    passed     98.58%
+   8  Brighton.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_12.12_DELIM-DVBOQPOUIOQPHLVKISBC_7_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                    1.37%    passed     98.70%
+   9  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_20.12_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                                                   1.37%    passed     98.92%
+  10  Brighton.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_49.11_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                                                 1.37%    passed     98.92%
+  11  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_20.11_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                      1.37%    passed     98.87%
+  12  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_19.11_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                      1.37%    passed     98.31%
+  13  Treviso.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_03.10_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                     0.01%    passed    100.00%
+  14  New_York.USA_DELIM-DVBOQPOUIOQPHLVKISBC_26.09_DELIM-DVBOQPOUIOQPHLVKISBC_3                                                                  0.01%    passed     99.90%
+  15  Florida.USA_DELIM-DVBOQPOUIOQPHLVKISBC_19.09                                                                                                0.01%    passed     99.83%
+  16  Paris.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_18.11_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                                                    0.01%    passed     99.97%
+  17  California.USA_DELIM-DVBOQPOUIOQPHLVKISBC_47.13_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                                               0.08%    passed    100.00%
+  18  Ontario.CAN_DELIM-DVBOQPOUIOQPHLVKISBC_4.15_DELIM-DVBOQPOUIOQPHLVKISBC_12_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                    58.20%    failed      0.00%
+  19  Perambalur.Ind_DELIM-DVBOQPOUIOQPHLVKISBC_17.07_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                                               0.00%    passed     99.94%
+  20  Jamnagar.IND_DELIM-DVBOQPOUIOQPHLVKISBC_4.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                     0.01%    passed     99.99%
+  21  Pune.IND_DELIM-DVBOQPOUIOQPHLVKISBC_16.14_DELIM-DVBOQPOUIOQPHLVKISBC_D4                                                                     0.01%    passed     99.55%
+  22  California.USA_DELIM-DVBOQPOUIOQPHLVKISBC_16.03                                                                                             0.00%    passed     96.21%
+  23  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_23.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.06%    passed     94.86%
+  24  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_23.19_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.06%    passed     94.86%
+  25  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_20.19_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.46%    passed     98.81%
+  26  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.19_DELIM-DVBOQPOUIOQPHLVKISBC_19_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                  2.01%    passed     98.64%
+  27  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_23.19_DELIM-DVBOQPOUIOQPHLVKISBC_7_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.67%    passed     98.57%
+  28  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_16.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.49%    passed     98.49%
+  29  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_15.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.52%    passed     98.09%
+  30  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_17.19_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.57%    passed     97.21%
+  31  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.19_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.42%    passed     97.53%
+  32  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.19_DELIM-DVBOQPOUIOQPHLVKISBC_9_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.71%    passed     97.03%
+  33  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_17.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.01%    passed     99.29%
+  34  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_30.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.43%    passed     97.25%
+  35  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_19.19_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.97%    passed     99.06%
+  36  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_14.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.50%    passed     99.64%
+  37  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_19.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                   3.29%    passed     98.24%
+  38  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_26.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   5.54%    passed     34.13%
+  39  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.19_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.72%    passed     99.46%
+  40  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_28.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.80%    passed     97.69%
+  41  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_39.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   4.28%    passed     48.19%
+  42  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.19_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.33%    passed     99.76%
+  43  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_22.19_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.98%    passed     98.70%
+  44  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_41.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.37%    passed     99.26%
+  45  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.19_DELIM-DVBOQPOUIOQPHLVKISBC_15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                  2.11%    passed     99.52%
+  46  Jiangxi.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_13.19_DELIM-DVBOQPOUIOQPHLVKISBC_1                                                                   0.00%    passed     99.83%
+  47  Zhoushan.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_09.19_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.72%    passed     98.97%
+  48  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.19_DELIM-DVBOQPOUIOQPHLVKISBC_18_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                  3.94%    passed     63.57%
+  49  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_39.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.82%    passed     97.85%
+  50  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.66%    passed     98.79%
+  51  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.66%    passed     98.79%
+  52  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.97%    passed     99.05%
+  53  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.19_DELIM-DVBOQPOUIOQPHLVKISBC_11_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                  2.25%    passed     99.57%
+  54  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_22.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.55%    passed     96.79%
+  55  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_28.19_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.09%    passed     99.93%
+  56  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_23.19_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.88%    passed     96.74%
+  57  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_20.19_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   5.47%    passed     31.42%
+  58  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_20.19_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.98%    passed     99.41%
+  59  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.19_DELIM-DVBOQPOUIOQPHLVKISBC_20_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                  7.19%    passed     10.76%
+  60  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_28.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.74%    passed     99.07%
+  61  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_19.19_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   6.93%    passed     18.07%
+  62  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_19.19_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   6.93%    passed     18.07%
+  63  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_20.19_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.35%    passed     98.79%
+  64  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_13.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   4.17%    passed     89.54%
+  65  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_37.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.16%    passed    100.00%
+  66  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_33.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.93%    passed     99.27%
+  67  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_26.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.69%    passed     98.94%
+  68  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_17.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.38%    passed     98.86%
+  69  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_31.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.37%    passed     99.20%
+  70  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.19_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.42%    passed     98.18%
+  71  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_30.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.46%    passed     97.83%
+  72  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.19_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.36%    passed     98.05%
+  73  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_31.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.58%    passed     97.32%
+  74  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.52%    passed     98.95%
+  75  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.19_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.44%    passed     98.77%
+  76  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_23.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.48%    passed     99.29%
+  77  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_11.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.51%    passed     99.95%
+  78  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.50%    passed     96.67%
+  79  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.18_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.43%    passed     98.87%
+  80  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_13.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.43%    passed     99.77%
+  81  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.18_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.50%    passed     98.93%
+  82  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_28.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.59%    passed     98.65%
+  83  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_12.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.91%    passed     99.78%
+  84  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.79%    passed     97.95%
+  85  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_30.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.48%    passed     99.58%
+  86  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.80%    passed     99.15%
+  87  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_12.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.50%    passed     99.82%
+  88  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.51%    passed     98.56%
+  89  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.66%    passed     63.77%
+  90  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.22%    passed     85.37%
+  91  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_17.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.54%    passed     98.60%
+  92  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_31.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.86%    passed     98.70%
+  93  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_23.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.39%    passed     99.45%
+  94  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_20.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   6.68%    passed     33.65%
+  95  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_25.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.17%    passed     96.06%
+  96  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_35.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.29%    passed     99.91%
+  97  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_36.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.66%    passed     55.04%
+  98  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_37.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.38%    passed     97.30%
+  99  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_38.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.82%    passed     95.31%
+ 100  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_37.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.77%    passed     99.99%
+ 101  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_34.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.99%    passed     99.91%
+ 102  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_37.18_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   4.05%    passed     60.27%
+ 103  Seoul.KOR_DELIM-DVBOQPOUIOQPHLVKISBC_37.16_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                    0.00%    passed     99.83%
+ 104  Palmerston_North.NZL_DELIM-DVBOQPOUIOQPHLVKISBC_5.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                             0.00%    passed     99.01%
+ 105  Geoje.KOR_DELIM-DVBOQPOUIOQPHLVKISBC_41.16_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                    0.00%    passed     99.71%
+ 106  Queenstown.NZL_DELIM-DVBOQPOUIOQPHLVKISBC_41.16_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                               0.00%    passed     99.26%
+ 107  Ancona.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_45.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      0.14%    passed     99.26%
+ 108  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_13.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      0.14%    passed     99.15%
+ 109  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      0.14%    passed     99.18%
+ 110  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      0.14%    passed     99.17%
+ 111  Venezia.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_22.17_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     0.14%    passed     99.41%
+ 112  Verona.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      0.14%    passed     99.41%
+ 113  Roraima.BRA_DELIM-DVBOQPOUIOQPHLVKISBC_31.18_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                  0.00%    passed     99.68%
+ 114  Changwon.KOR_DELIM-DVBOQPOUIOQPHLVKISBC_39.16_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                    0.00%    passed     99.92%
+ 115  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_29.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.23%    passed     98.84%
+ 116  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_25.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.20%    passed     99.91%
+ 117  Pune.IND_DELIM-DVBOQPOUIOQPHLVKISBC_10.13_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                        0.00%    passed     99.86%
+ 118  Daman.IND_DELIM-DVBOQPOUIOQPHLVKISBC_7.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                     0.00%    passed     99.91%
+ 119  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_22.12_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      1.36%    passed     98.84%
+ 120  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_40.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.29%    passed     98.80%
+ 121  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_33.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.33%    passed     99.57%
+ 122  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.61%    passed     99.55%
+ 123  California.USA_DELIM-DVBOQPOUIOQPHLVKISBC_49.10_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                               0.13%    passed     99.62%
+ 124  Virginia.USA_DELIM-DVBOQPOUIOQPHLVKISBC_15.09                                                                                               0.00%    passed     99.46%
+ 125  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.18_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.46%    passed     85.81%
+ 126  Kanpur.IND_DELIM-DVBOQPOUIOQPHLVKISBC_16.14_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                   0.00%    passed     98.97%
+ 127  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.19_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.54%    passed     73.27%
+ 128  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_31.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.18%    passed     99.48%
+ 129  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_31.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   2.54%    passed     99.87%
+ 130  Gr.Mumbai.IND_DELIM-DVBOQPOUIOQPHLVKISBC_01.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                0.00%    passed     98.96%
+ 131  Faridabad.IND_DELIM-DVBOQPOUIOQPHLVKISBC_22.14_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                0.00%    passed     98.97%
+ 132  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_20.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   3.30%    passed     99.08%
+ 133  Panna.IND_DELIM-DVBOQPOUIOQPHLVKISBC_28.15                                                                                                  0.00%    passed     99.96%
+ 134  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_13.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   4.78%    passed     94.44%
+ 135  DongThap.VNM_DELIM-DVBOQPOUIOQPHLVKISBC_05.14_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.14%    passed     99.09%
+ 136  DongThap.VNM_DELIM-DVBOQPOUIOQPHLVKISBC_07.14_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.14%    passed     99.31%
+ 137  DongThap.VNM_DELIM-DVBOQPOUIOQPHLVKISBC_06.14_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                    0.14%    passed     99.81%
+ 138  DongThap.VNM_DELIM-DVBOQPOUIOQPHLVKISBC_06.14_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.19%    passed     99.88%
+ 139  Muenchen.DEU_DELIM-DVBOQPOUIOQPHLVKISBC_19.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.00%    passed     99.58%
+ 140  DongThap.VNM_DELIM-DVBOQPOUIOQPHLVKISBC_08.14_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.06%    passed     99.46%
+ 141  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_28.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                   1.37%    passed     99.92%
+ 142  Anand.IND_DELIM-DVBOQPOUIOQPHLVKISBC_33.15_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                       0.00%    passed     99.86%
+ 143  Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_10.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                  1.36%    passed     99.92%
+ 144  Crewe.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_46.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                    1.36%    passed     99.92%
+ 145  Coventry.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_42.12_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                    1.36%    passed     99.92%
+ 146  Coventry.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_40.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 1.36%    passed     99.92%
+ 147  Exeter.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_52.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                   1.36%    passed     99.92%
+ 148  Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_14.13_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     1.36%    passed     99.87%
+ 149  Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_17.13_DELIM-DVBOQPOUIOQPHLVKISBC_9_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     1.36%    passed     99.87%
+ 150  Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_15.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                  1.36%    passed     99.87%
+ 151  Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_16.13_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     1.37%    passed     99.85%
+ 152  Taunton.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_15.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                  1.37%    passed     99.85%
+ 153  Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_9.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                   1.36%    passed     99.85%
+ 154  Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_13.13_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     1.36%    passed     99.85%
+ 155  Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_16.13_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     1.36%    passed     99.92%
+ 156  Teeside.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_18.13_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     1.36%    passed     99.89%
+ 157  Teeside.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_9.13_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      1.36%    passed     99.93%
+ 158  Teeside.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_16.13_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     1.36%    passed     99.93%
+ 159  Teeside.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_9.13_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      1.36%    passed     99.93%
+ 160  NewcastleuponTyne.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_16.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                        1.36%    passed     99.96%
+ 161  Lincoln.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_15.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                  1.36%    passed     99.93%
+ 162  Hull.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_47.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                     1.36%    passed     99.97%
+ 163  Sheffield.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_32.12_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   1.36%    passed     99.92%
+ 164  Sheffield.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_32.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                1.36%    passed     99.95%
+ 165  Gloucester.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_46.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                               1.36%    passed     99.97%
+ 166  Gloucester.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_46.12_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                  1.36%    passed     99.97%
+ 167  Teeside.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_9.13_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      1.36%    passed     99.93%
+ 168  Derby.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_47.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                    1.36%    passed     99.89%
+ 169  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_21.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                   1.36%    passed     99.96%
+ 170  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_20.13_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                      1.36%    passed     99.94%
+ 171  Manchester.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_30.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                               1.36%    passed     99.82%
+ 172  Villupuram.Ind_DELIM-DVBOQPOUIOQPHLVKISBC_03.07_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                               0.00%    passed     99.83%
+ 173  BritishColumbia.CAN_DELIM-DVBOQPOUIOQPHLVKISBC_13.10_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                             0.31%    passed     96.42%
+ 174  Llandudno.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_7.12_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                    1.36%    passed     99.65%
+ 175  Anand.IND_DELIM-DVBOQPOUIOQPHLVKISBC_50.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                    0.00%    passed     98.23%
+ 176  Sundargarh.IND_DELIM-DVBOQPOUIOQPHLVKISBC_10.14_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                               0.00%    passed     99.44%
+ 177  Bijapur.IND_DELIM-DVBOQPOUIOQPHLVKISBC_50.15_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     0.00%    passed     96.83%
+ 178  Kutch.IND_DELIM-DVBOQPOUIOQPHLVKISBC_06.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                    0.00%    passed     99.66%
+ 179  Haridwar.IND_DELIM-DVBOQPOUIOQPHLVKISBC_06.14_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                    0.00%    passed     99.18%
+ 180  Villupuram.Ind_DELIM-DVBOQPOUIOQPHLVKISBC_13.06_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                               0.00%    passed    100.00%
+ 181  Haridwar.IND_DELIM-DVBOQPOUIOQPHLVKISBC_06.14_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                    0.00%    passed     97.79%
+ 182  Haridwar.IND_DELIM-DVBOQPOUIOQPHLVKISBC_06.14_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                    0.00%    passed     99.21%
+ 183  Dadra_NagarHaveli.IND_DELIM-DVBOQPOUIOQPHLVKISBC_18.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                        0.00%    passed     99.10%
+ 184  Jamnagar.IND_DELIM-DVBOQPOUIOQPHLVKISBC_23.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.00%    passed     99.75%
+ 185  Jamnagar.IND_DELIM-DVBOQPOUIOQPHLVKISBC_18.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.00%    passed     99.86%
+ 186  Jamnagar.IND_DELIM-DVBOQPOUIOQPHLVKISBC_18.15_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                    0.00%    passed     98.77%
+ 187  Bhavnagar.IND_DELIM-DVBOQPOUIOQPHLVKISBC_03.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                0.00%    passed     98.58%
+ 188  Udupi.IND_DELIM-DVBOQPOUIOQPHLVKISBC_7.15_DELIM-DVBOQPOUIOQPHLVKISBC_7                                                                      0.00%    passed     96.23%
+ 189  Gr.Mumbai.IND_DELIM-DVBOQPOUIOQPHLVKISBC_10.15_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                0.00%    passed     98.68%
+ 190  Krishnagiri.Ind_DELIM-DVBOQPOUIOQPHLVKISBC_12.06_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                              0.00%    passed     99.99%
+ 191  NewDelhi.IND_DELIM-DVBOQPOUIOQPHLVKISBC_26.14_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                                                 0.00%    passed     99.40%
+ 192  Vicenza.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_12.10_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                     1.26%    passed     99.78%
+ 193  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_15.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   6.25%    passed     90.78%
+ 194  Menglian.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_47.09_D11_                                                                                          1.36%    passed     94.67%
+ 195  Galole.KEN_DELIM-DVBOQPOUIOQPHLVKISBC_06.20_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                                  37.40%    passed      6.28%
+ 196  Bura.KEN_DELIM-DVBOQPOUIOQPHLVKISBC_07.20_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                                    34.06%    passed      6.97%
+ 197  Wajir_South.KEN_DELIM-DVBOQPOUIOQPHLVKISBC_07.20_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                19.47%    failed      1.81%
+ 198  Dartford.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_2.14_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                                  1.36%    passed     91.52%
+ 199  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_41.13_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                                   1.36%    passed     93.63%
+ 200  NewcastleuponTyne.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_35.13_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                        1.36%    passed     93.03%
+ 201  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_4.14_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                       1.36%    passed     93.01%
+ 202  Luton.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_4.14_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                                     1.36%    passed     91.28%
+ 203  California.USA_DELIM-DVBOQPOUIOQPHLVKISBC_05.14_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                               0.11%    passed     97.78%
+ 204  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_3.14_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                       1.36%    passed     87.01%
+ 205  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_3.14_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                                    1.36%    passed     87.83%
+ 206  NewcastleuponTyne.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_9.14_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                         1.36%    passed     85.06%
+ 207  Alabama.USA_DELIM-DVBOQPOUIOQPHLVKISBC_13.14_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                                  1.23%    passed     90.68%
+ 208  London.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_3.14_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                       1.36%    passed     89.56%
+ 209  California.USA_DELIM-DVBOQPOUIOQPHLVKISBC_08.14_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                  0.74%    passed     90.76%
+ 210  Mvs_DELIM-DVBOQPOUIOQPHLVKISBC_Gyeongnam.KOR_DELIM-DVBOQPOUIOQPHLVKISBC_29.13_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3    1.22%    passed     91.46%
+ 211  Manchester.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_31.13_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                               1.36%    passed     93.97%
+ 212  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_12.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.13%
+ 213  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.13%
+ 214  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.04%
+ 215  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.28%
+ 216  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_13.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.35%
+ 217  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_7_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.41%
+ 218  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_17.17_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.35%
+ 219  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.93%
+ 220  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 221  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 222  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_13.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 223  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_16.17_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 224  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_11.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 225  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_16.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 226  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_24.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     96.78%
+ 227  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_16.17_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 228  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 229  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_21.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 230  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_21.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.90%
+ 231  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_16.17_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.60%
+ 232  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_16.17_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.78%
+ 233  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_20.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     95.70%
+ 234  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_15.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     94.83%
+ 235  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_15.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     94.76%
+ 236  Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_16.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                      1.36%    passed     94.70%
+ 237  Tours.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_49.18_B3___MIBE_                                                                                       0.01%    passed     95.09%
+ 238  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.19_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                   3.05%    passed     93.42%
+ 239  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_19.19_DELIM-DVBOQPOUIOQPHLVKISBC_19_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                  3.05%    passed     99.84%
+ 240  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_21.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                   6.51%    passed     62.10%
+ 241  Wajir_South.KEN_DELIM-DVBOQPOUIOQPHLVKISBC_07.20_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                38.60%    passed      6.74%
+ 242  Bura.KEN_DELIM-DVBOQPOUIOQPHLVKISBC_06.20_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                       38.30%    passed     15.83%
+ 243  Calais.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_01.16_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                                                   0.00%    passed     96.98%
+ 244  Bura.KEN_DELIM-DVBOQPOUIOQPHLVKISBC_06.20_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                       32.91%    passed     17.51%
+ 245  New_Jersey.USA_DELIM-DVBOQPOUIOQPHLVKISBC_45.05                                                                                             0.00%    passed     98.27%
+ 246  Manchester.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_7.12_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3                                   1.35%    passed     93.54%
+ 247  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_19.19_DELIM-DVBOQPOUIOQPHLVKISBC_5_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                   8.07%    passed     72.08%
+ 248  Alberta.CAN_DELIM-DVBOQPOUIOQPHLVKISBC_22.14_D6__SSPE_                                                                                      0.98%    failed      0.01%
+ 249  Venice.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_06.11_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_G3                                      0.00%    passed     99.81%
+ 250  Zhejiang.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_12.06_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                    0.00%    passed     93.97%
+ 251  Zhejiang.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_14.07_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                    0.00%    passed     95.21%
+ 252  Zhuhai.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_10.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                      0.00%    passed     86.17%
+ 253  Zhejiang.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_10.11_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                    0.00%    passed     94.54%
+ 254  Zhejiang.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_16.10_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                    0.00%    passed     92.44%
+ 255  BritishColumbia.CAN_DELIM-DVBOQPOUIOQPHLVKISBC_12.10_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_H1                             0.03%    passed     90.79%
+ 256  Zhejiang.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_12.08_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                    0.00%    passed     92.48%
+ 257  Pennsylvania.USA_DELIM-DVBOQPOUIOQPHLVKISBC_20.09                                                                                           0.00%    passed     92.28%
+ 258  Incheon.KOR_DELIM-DVBOQPOUIOQPHLVKISBC_25.10_DELIM-DVBOQPOUIOQPHLVKISBC_8_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                     0.31%    passed     95.58%
+ 259  Zhejiang.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_10.05_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                    0.00%    passed     91.95%
+ 260  Zhejiang.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_12.09_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                    0.00%    passed     98.43%
+ 261  Daegu.KOR_DELIM-DVBOQPOUIOQPHLVKISBC_20.27_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                       0.31%    passed     88.74%
+ 262  Guizhou.CHN_DELIM-DVBOQPOUIOQPHLVKISBC_29.13_DELIM-DVBOQPOUIOQPHLVKISBC_H1                                                                  0.58%    passed     93.43%
+ 263  IMB-1                                                                                                                                       0.00%    passed     99.08%
+ 264  Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_26.18_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8                                  11.88%    failed      0.60%
+WARNING: 1 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                                                       2.41%  4 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_23.19_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_D8 is identical to Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_23.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8 but kept for subsequent analysis
+NOTE: Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.19_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_D8 is identical to Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_27.19_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8 but kept for subsequent analysis
+NOTE: Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_19.19_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_D8 is identical to Marseille.FRA_DELIM-DVBOQPOUIOQPHLVKISBC_19.19_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8 but kept for subsequent analysis
+NOTE: Coventry.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_42.12_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8 is identical to Crewe.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_46.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8 but kept for subsequent analysis
+NOTE: Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_17.13_DELIM-DVBOQPOUIOQPHLVKISBC_9_DELIM-DVBOQPOUIOQPHLVKISBC_D8 is identical to Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_14.13_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8 but kept for subsequent analysis
+NOTE: Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_13.13_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8 is identical to Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_9.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8 but kept for subsequent analysis
+NOTE: Teeside.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_16.13_DELIM-DVBOQPOUIOQPHLVKISBC_6_DELIM-DVBOQPOUIOQPHLVKISBC_D8 is identical to Teeside.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_9.13_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_D8 but kept for subsequent analysis
+NOTE: Gloucester.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_46.12_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_D8 is identical to Gloucester.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_46.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8 but kept for subsequent analysis
+NOTE: Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3 is identical to Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_12.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3 but kept for subsequent analysis
+NOTE: Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_14.17_DELIM-DVBOQPOUIOQPHLVKISBC_3_DELIM-DVBOQPOUIOQPHLVKISBC_B3 is identical to Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3 but kept for subsequent analysis
+NOTE: Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_21.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3 is identical to Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00314307 secs using 94.84% CPU
+Identifying sites to remove: done in 0.0262802 secs using 92.65% CPU
+NOTE: 8 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Coventry.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_40.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8 (identical to Crewe.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_46.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8) is ignored but added at the end
+NOTE: Exeter.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_52.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8 (identical to Crewe.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_46.12_DELIM-DVBOQPOUIOQPHLVKISBC_D8) is ignored but added at the end
+NOTE: Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_15.13_DELIM-DVBOQPOUIOQPHLVKISBC_D8 (identical to Swansea.GBR_DELIM-DVBOQPOUIOQPHLVKISBC_14.13_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_D8) is ignored but added at the end
+NOTE: Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_13.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3 (identical to Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3) is ignored but added at the end
+NOTE: Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_16.17_DELIM-DVBOQPOUIOQPHLVKISBC_4_DELIM-DVBOQPOUIOQPHLVKISBC_B3 (identical to Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3) is ignored but added at the end
+NOTE: Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_11.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3 (identical to Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3) is ignored but added at the end
+NOTE: Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_16.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3 (identical to Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_1_DELIM-DVBOQPOUIOQPHLVKISBC_B3) is ignored but added at the end
+NOTE: Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_21.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3 (identical to Padova.ITA_DELIM-DVBOQPOUIOQPHLVKISBC_19.17_DELIM-DVBOQPOUIOQPHLVKISBC_2_DELIM-DVBOQPOUIOQPHLVKISBC_B3) is ignored but added at the end
+Alignment was printed to results/aligned-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.006 seconds
+
+NOTE: 42 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -470310.439
+2. Current log-likelihood: -415561.809
+3. Current log-likelihood: -414923.421
+4. Current log-likelihood: -414922.221
+Optimal log-likelihood: -414921.486
+Rate parameters:  A-C: 1.28451  A-G: 8.92263  A-T: 0.56162  C-G: 0.45121  C-T: 12.35692  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.239  G: 0.235  T: 0.234
+Parameters optimization took 4 rounds (4.889 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.392252 secs using 99.73% CPU
+Computing ML distances took 0.396777 sec (of wall-clock time) 0.395143 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00112295 secs using 185.5% CPU
+Constructing RapidNJ tree: done in 0.00213504 secs using 190.5% CPU
+Computing RapidNJ tree took 0.003300 sec (of wall-clock time) 0.006239 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -87911.296
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 2.00575 secs using 97.54% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -87278.209
+Optimizing NNI: done in 20.1169 secs using 99.78% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -87278.209 / CPU time: 23.644
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:29s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -87278.209
+Optimal log-likelihood: -87278.207
+Rate parameters:  A-C: 1.32747  A-G: 5.97631  A-T: 0.66611  C-G: 0.58656  C-T: 8.86020  G-T: 1.00000
+Base frequencies:  A: 0.292  C: 0.239  G: 0.235  T: 0.234
+Parameters optimization took 1 rounds (0.384 sec)
+BEST SCORE FOUND : -87278.207
+Total tree length: 0.626
+
+Total number of iterations: 2
+CPU time used for tree search: 23.546 sec (0h:0m:23s)
+Wall-clock time used for tree search: 23.645 sec (0h:0m:23s)
+Total CPU time used: 30.008 sec (0h:0m:30s)
+Total wall-clock time used: 29.946 sec (0h:0m:29s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned-delim.fasta.treefile
+  Likelihood distances:          results/aligned-delim.fasta.mldist
+  Screen log file:               results/aligned-delim.fasta.log
+
+Date and Time: Wed Jun 15 11:30:49 2022
