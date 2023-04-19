@@ -1,0 +1,4484 @@
+{
+  "generated_by": {
+    "program": "augur",
+    "version": "6.1.1"
+  },
+  "models": {
+    "region": {
+      "alphabet": [
+        "Africa",
+        "China",
+        "Europe",
+        "Japan Korea",
+        "North America",
+        "Oceania",
+        "South Asia",
+        "West Asia",
+        "?"
+      ],
+      "equilibrium_probabilities": [
+        0.12245008248852766,
+        0.10745370832036989,
+        0.10181889895315864,
+        0.09650002195117803,
+        0.25175196079986595,
+        0.11014311960712311,
+        0.09890950198443814,
+        0.11097270589533861
+      ],
+      "rate": 18.49132284164224,
+      "transition_matrix": [
+        [
+          -5.52713463598926,
+          0.6858252963809017,
+          0.6866851846134002,
+          0.6847986482091585,
+          0.9819482339709983,
+          0.6879764660084298,
+          0.6859600379720956,
+          0.6873020973572169
+        ],
+        [
+          0.6858252963809017,
+          -7.0916099944089295,
+          0.6864202650487267,
+          0.755856780134443,
+          1.2546776504752573,
+          0.6860787383507858,
+          0.6845223341950388,
+          0.6854793821776027
+        ],
+        [
+          0.6866851846134002,
+          0.6864202650487267,
+          -10.867194530491407,
+          0.6876082565848506,
+          2.6295651401116036,
+          0.6868480377049254,
+          0.6877346514166655,
+          0.6903972591706338
+        ],
+        [
+          0.6847986482091585,
+          0.755856780134443,
+          0.6876082565848506,
+          -11.482771238481249,
+          2.5810083103858408,
+          0.6851551623643318,
+          0.7256790736223381,
+          0.6847387352388858
+        ],
+        [
+          0.9819482339709983,
+          1.2546776504752573,
+          2.6295651401116036,
+          2.5810083103858408,
+          -5.2753353724164285,
+          1.6451515089902116,
+          1.9516043908753011,
+          1.639822064139264
+        ],
+        [
+          0.6879764660084298,
+          0.6860787383507858,
+          0.6868480377049254,
+          0.6851551623643318,
+          1.6451515089902116,
+          -7.7385857547227355,
+          0.686309181900678,
+          0.6874057847182545
+        ],
+        [
+          0.6859600379720956,
+          0.6845223341950388,
+          0.6877346514166655,
+          0.7256790736223381,
+          1.9516043908753011,
+          0.686309181900678,
+          -9.509929259037966,
+          0.685818570453603
+        ],
+        [
+          0.6873020973572169,
+          0.6854793821776027,
+          0.6903972591706338,
+          0.6847387352388858,
+          1.639822064139264,
+          0.6874057847182545,
+          0.685818570453603,
+          -7.664638758026742
+        ]
+      ]
+    }
+  },
+  "nodes": {
+    "31170132": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "31170170": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "31170186": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "31170187": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "31170197": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "31170254": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "31170263": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Akita.JPN/42.93/I": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Alabama.USA/11.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Alabama.USA/15.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Alabama.USA/19.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Alabama.USA/50.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Alabama.USA/7.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/12.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/13.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/38.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Arkansas.USA/40.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/41.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Arkansas.USA/43.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/44.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/45.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Arkansas.USA/46.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Arkansas.USA/47.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/48.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/49.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Arkansas.USA/5.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/50.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Arkansas.USA/51.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Arkansas.USA/52.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Bedford.GBR/0.89/H": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/11.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/13.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/14.11/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/16.16/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/17.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/18.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/18.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/19.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/20.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/21.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/21.16/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/23.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/24.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/24.16/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/24.16/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/25.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/27.16/_/_": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.004853319974532834,
+        "Japan Korea": 0.0045154550171712885,
+        "North America": 0.9758512131354078,
+        "South Asia": 0.003508582512936639
+      },
+      "region_entropy": 0.15993708360898215
+    },
+    "BritishColumbia.CAN/28.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/28.16/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/29.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/29.16/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/29.16/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/31.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/31.16/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/33.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/33.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/34.16/2/F": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/34.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/36.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/42.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/8.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "BritishColumbia.CAN/8.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/8.17/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "BritishColumbia.CAN/8.17/8/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "California.USA/40.11/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "California.USA/50.07/1": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Chennai.IND/35.12/C": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Dadra_NagarHaveli.IND/42.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.005567590400642768,
+        "North America": 0.955204379890897,
+        "Oceania": 0.006371050588867586,
+        "South Asia": 0.019931465887749907
+      },
+      "region_entropy": 0.25648047077032415
+    },
+    "Davangere.IND/01.14/C": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Dg1062/Korea/98": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Dunedin.NZL/32.17/G": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Fukuoka.JPN/41.00/L": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Gabon/13/2/G": {
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Gabon/9.13/2/G": {
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ge9.DEU/0.77/D": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Georgia.USA/13.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Georgia.USA/2.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Glouc1/UK96": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Hikaru.JPN/22.97-B": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Illinois.USA/11.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Illinois.USA/14.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Illinois.USA/26.15/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Indiana.USA/1.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Indiana.USA/48.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Indiana.USA/49.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Indiana.USA/5.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Iowa.USA/06/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "KM597072.1": {
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9871309471096593,
+        "North America": 0.0049363232833316666,
+        "Oceania": 0.0013980130972031275,
+        "West Asia": 0.0014071509974733748
+      },
+      "region_entropy": 0.09157432791724021
+    },
+    "Kansas.USA/10.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Kansas.USA/13.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Kansas.USA/15.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Kansas.USA/8.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Kansas.USA/8.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Kansas.USA/9.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Kushinagar.IND/36.13/C": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Leeds.GBR/9.04/J": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Leningrad-3": {
+      "region": "West Asia",
+      "region_confidence": {
+        "West Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "London.GBR/27.14/A": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "London.GBR/3.02-Uncl": {
+      "region": "Europe",
+      "region_confidence": {
+        "Europe": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Louisiana.USA/29.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Manitoba.CAN/43.16/11/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Manitoba.CAN/43.16/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Manitoba.CAN/44.16/15/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Manitoba.CAN/47.16/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Mass.USA/4.10": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/10.16/12/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/10.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/10.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/10.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/11.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/11.16/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/12.16/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/12.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/13.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/13.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/14.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/14.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/14.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/16.16/13/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/16.16/7/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/17.16/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/17.16/8/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/17.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/19.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/19.16/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/19.16/7/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/19.16/9/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/19.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/19.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/19.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/21.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/22.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/22.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/22.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/22.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/22.17/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/23.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/23.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/24.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/24.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/24.17/5/K": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/25.17/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/26.15/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/27.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/27.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/30.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/33.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/37.15/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/37.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/39.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/42.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/43.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/43.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/44.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/45.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/45.16/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/46.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/46.16/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/46.16/7/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/5.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/50.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/52.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/7.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/7.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/8.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/8.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/8.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/8.16/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/8.16/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Massachusetts.USA/8.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Massachusetts.USA/9.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Michigan.USA/12.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Michigan.USA/4.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Missouri.USA/11.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/15.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/15.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/15.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Missouri.USA/19.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/2.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Missouri.USA/24.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/28.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Missouri.USA/29.15/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/32.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/33.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/41.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Missouri.USA/46.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/46.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/50.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Missouri.USA/7.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Montana.USA/11.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MountIsa.AUS/10.17/G": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "MuVi-MNG09-024": {
+      "region": "West Asia",
+      "region_confidence": {
+        "West Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NODE_0000000": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997708532037
+      },
+      "region_entropy": 3.5788621908842116e-05
+    },
+    "NODE_0000001": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999968666
+      },
+      "region_entropy": 8.635025314144361e-11
+    },
+    "NODE_0000002": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.07988072463212803,
+        "Japan Korea": 0.03437637952038677,
+        "North America": 0.8531159814054702,
+        "South Asia": 0.00886764619209996
+      },
+      "region_entropy": 0.6160652869802685
+    },
+    "NODE_0000007": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082552222
+      },
+      "region_entropy": 3.579260118648223e-05
+    },
+    "NODE_0000009": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082488253
+      },
+      "region_entropy": 3.579269269366045e-05
+    },
+    "NODE_0000010": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082520426
+      },
+      "region_entropy": 3.5792646668374555e-05
+    },
+    "NODE_0000013": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977330609323
+      },
+      "region_entropy": 3.543339220802649e-05
+    },
+    "NODE_0000014": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082489001
+      },
+      "region_entropy": 3.579269162535317e-05
+    },
+    "NODE_0000018": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082488626
+      },
+      "region_entropy": 3.579269216257729e-05
+    },
+    "NODE_0000020": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999997316199
+      },
+      "region_entropy": 6.52629901780136e-09
+    },
+    "NODE_0000029": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837199069
+      },
+      "region_entropy": 3.614764559695226e-05
+    },
+    "NODE_0000030": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997708528858
+      },
+      "region_entropy": 3.5788667384549903e-05
+    },
+    "NODE_0000034": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085288589
+      },
+      "region_entropy": 3.578866737440166e-05
+    },
+    "NODE_0000039": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082520436
+      },
+      "region_entropy": 3.579264665531375e-05
+    },
+    "NODE_0000040": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999754613534
+      },
+      "region_entropy": 4.903721961203841e-07
+    },
+    "NODE_0000044": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327868849
+      },
+      "region_entropy": 3.543733417872715e-05
+    },
+    "NODE_0000045": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999999999725409
+      },
+      "region_entropy": 6.670474557691684e-09
+    },
+    "NODE_0000046": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9999833112793662
+      },
+      "region_entropy": 0.00020069059229027252
+    },
+    "NODE_0000049": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999818540895826
+      },
+      "region_entropy": 0.0002246700844394017
+    },
+    "NODE_0000050": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999975186095397
+      },
+      "region_entropy": 3.846259022020194e-05
+    },
+    "NODE_0000051": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999975186095397
+      },
+      "region_entropy": 3.846259022020194e-05
+    },
+    "NODE_0000053": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327868472
+      },
+      "region_entropy": 3.543733471795167e-05
+    },
+    "NODE_0000054": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999754580928
+      },
+      "region_entropy": 4.904333391166025e-07
+    },
+    "NODE_0000059": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327930673
+      },
+      "region_entropy": 3.543724570127906e-05
+    },
+    "NODE_0000062": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999644
+      },
+      "region_entropy": 1.9167789546572712e-14
+    },
+    "NODE_0000071": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999757246513
+      },
+      "region_entropy": 4.854073121433181e-07
+    },
+    "NODE_0000072": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085351791
+      },
+      "region_entropy": 3.57885769584437e-05
+    },
+    "NODE_0000074": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082484768
+      },
+      "region_entropy": 3.5792696821666746e-05
+    },
+    "NODE_0000075": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999999974906763
+      },
+      "region_entropy": 5.008182964523683e-07
+    },
+    "NODE_0000076": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976839974579
+      },
+      "region_entropy": 3.614365890066315e-05
+    },
+    "NODE_0000077": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085252639
+      },
+      "region_entropy": 3.5788717946610044e-05
+    },
+    "NODE_0000078": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320089
+      },
+      "region_entropy": 3.578862230839407e-05
+    },
+    "NODE_0000080": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997732783705
+      },
+      "region_entropy": 3.543737970583633e-05
+    },
+    "NODE_0000081": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837258182
+      },
+      "region_entropy": 3.614756021380452e-05
+    },
+    "NODE_0000083": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999754518195
+      },
+      "region_entropy": 4.905509763380144e-07
+    },
+    "NODE_0000088": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999754612711
+      },
+      "region_entropy": 4.90373726926077e-07
+    },
+    "NODE_0000091": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327900078
+      },
+      "region_entropy": 3.543728948410852e-05
+    },
+    "NODE_0000093": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999962684892
+      },
+      "region_entropy": 7.675813585216163e-08
+    },
+    "NODE_0000094": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837263729
+      },
+      "region_entropy": 3.6147553139996336e-05
+    },
+    "NODE_0000095": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999757320721
+      },
+      "region_entropy": 4.852680625804011e-07
+    },
+    "NODE_0000096": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837295154
+      },
+      "region_entropy": 3.614750822018851e-05
+    },
+    "NODE_0000097": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.99999768400315
+      },
+      "region_entropy": 3.614357756290489e-05
+    },
+    "NODE_0000098": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320749
+      },
+      "region_entropy": 3.5788621367693014e-05
+    },
+    "NODE_0000099": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837231472
+      },
+      "region_entropy": 3.6147599236201944e-05
+    },
+    "NODE_0000100": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837262989
+      },
+      "region_entropy": 3.614755419073421e-05
+    },
+    "NODE_0000101": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327868189
+      },
+      "region_entropy": 3.5437335129122254e-05
+    },
+    "NODE_0000103": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085018342
+      },
+      "region_entropy": 3.578908436363651e-05
+    },
+    "NODE_0000104": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977088023575
+      },
+      "region_entropy": 3.5784735734503365e-05
+    },
+    "NODE_0000105": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999754613524
+      },
+      "region_entropy": 4.903722188044852e-07
+    },
+    "NODE_0000106": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327930492
+      },
+      "region_entropy": 3.543724593761792e-05
+    },
+    "NODE_0000108": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999665236575
+      },
+      "region_entropy": 6.586532418672417e-07
+    },
+    "NODE_0000109": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327900083
+      },
+      "region_entropy": 3.5437289477760284e-05
+    },
+    "NODE_0000110": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976778060152
+      },
+      "region_entropy": 3.623610501016641e-05
+    },
+    "NODE_0000111": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999972238687969
+      },
+      "region_entropy": 4.2915103098444175e-05
+    },
+    "NODE_0000112": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976548453706
+      },
+      "region_entropy": 3.6568072171292766e-05
+    },
+    "NODE_0000113": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082205501
+      },
+      "region_entropy": 3.579312514969493e-05
+    },
+    "NODE_0000114": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976588885225
+      },
+      "region_entropy": 3.650669548411341e-05
+    },
+    "NODE_0000116": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082549854
+      },
+      "region_entropy": 3.579260479316763e-05
+    },
+    "NODE_0000117": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999435008934944
+      },
+      "region_entropy": 0.000627798864299882
+    },
+    "NODE_0000118": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9932035178417954,
+        "Oceania": 0.006710744540853496
+      },
+      "region_entropy": 0.04129618711317496
+    },
+    "NODE_0000119": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999979
+      },
+      "region_entropy": -9.380151180491388e-13
+    },
+    "NODE_0000120": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082549854
+      },
+      "region_entropy": 3.579260479316763e-05
+    },
+    "NODE_0000127": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997708802587
+      },
+      "region_entropy": 3.5784732203308606e-05
+    },
+    "NODE_0000128": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977088056735
+      },
+      "region_entropy": 3.578468805969192e-05
+    },
+    "NODE_0000129": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082583787
+      },
+      "region_entropy": 3.579255607591149e-05
+    },
+    "NODE_0000130": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082584393
+      },
+      "region_entropy": 3.579255516713187e-05
+    },
+    "NODE_0000131": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976592005894
+      },
+      "region_entropy": 3.6502190475795723e-05
+    },
+    "NODE_0000132": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977330609405
+      },
+      "region_entropy": 3.543339209063323e-05
+    },
+    "NODE_0000133": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976834527375
+      },
+      "region_entropy": 3.615148376651002e-05
+    },
+    "NODE_0000134": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837231949
+      },
+      "region_entropy": 3.6147598565601284e-05
+    },
+    "NODE_0000135": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837263365
+      },
+      "region_entropy": 3.614755365802807e-05
+    },
+    "NODE_0000136": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999997285335
+      },
+      "region_entropy": 6.59796564538398e-09
+    },
+    "NODE_0000137": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837295149
+      },
+      "region_entropy": 3.6147508226337775e-05
+    },
+    "NODE_0000138": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977330579136
+      },
+      "region_entropy": 3.543343537531163e-05
+    },
+    "NODE_0000139": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976840031499
+      },
+      "region_entropy": 3.614357756308419e-05
+    },
+    "NODE_0000140": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320749
+      },
+      "region_entropy": 3.578862136769383e-05
+    },
+    "NODE_0000142": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999972245116958
+      },
+      "region_entropy": 4.290591523333403e-05
+    },
+    "NODE_0000143": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977047972459
+      },
+      "region_entropy": 3.5845610112172744e-05
+    },
+    "NODE_0000144": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976796857858
+      },
+      "region_entropy": 3.620892713660954e-05
+    },
+    "NODE_0000145": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999754546626
+      },
+      "region_entropy": 4.904979526231933e-07
+    },
+    "NODE_0000147": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327899318
+      },
+      "region_entropy": 3.5437290568444725e-05
+    },
+    "NODE_0000148": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999754549704
+      },
+      "region_entropy": 4.904918888188639e-07
+    },
+    "NODE_0000149": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327899346
+      },
+      "region_entropy": 3.5437290526137835e-05
+    },
+    "NODE_0000150": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976836879159
+      },
+      "region_entropy": 3.6148130022740086e-05
+    },
+    "NODE_0000151": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837289981
+      },
+      "region_entropy": 3.614751476309709e-05
+    },
+    "NODE_0000152": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085289605
+      },
+      "region_entropy": 3.578866591745296e-05
+    },
+    "NODE_0000153": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976839999819
+      },
+      "region_entropy": 3.614362282648259e-05
+    },
+    "NODE_0000154": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320382
+      },
+      "region_entropy": 3.5788621891524344e-05
+    },
+    "NODE_0000155": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999997284964
+      },
+      "region_entropy": 6.5988229379584165e-09
+    },
+    "NODE_0000158": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977330579133
+      },
+      "region_entropy": 3.543343538141107e-05
+    },
+    "NODE_0000159": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085283769
+      },
+      "region_entropy": 3.578867341776653e-05
+    },
+    "NODE_0000160": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085285799
+      },
+      "region_entropy": 3.578867156741449e-05
+    },
+    "NODE_0000161": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999751776427
+      },
+      "region_entropy": 4.957170742781273e-07
+    },
+    "NODE_0000162": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977088025584
+      },
+      "region_entropy": 3.5784732618888184e-05
+    },
+    "NODE_0000165": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977079810871
+      },
+      "region_entropy": 3.57965412271711e-05
+    },
+    "NODE_0000166": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976594772831
+      },
+      "region_entropy": 3.649821921049602e-05
+    },
+    "NODE_0000167": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082615803
+      },
+      "region_entropy": 3.579251023082745e-05
+    },
+    "NODE_0000168": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082615803
+      },
+      "region_entropy": 3.579251023082745e-05
+    },
+    "NODE_0000169": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999997284593
+      },
+      "region_entropy": 6.599680511024938e-09
+    },
+    "NODE_0000171": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976842767669
+      },
+      "region_entropy": 3.613964710596741e-05
+    },
+    "NODE_0000172": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085351802
+      },
+      "region_entropy": 3.578857693931074e-05
+    },
+    "NODE_0000173": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085351802
+      },
+      "region_entropy": 3.578857693931074e-05
+    },
+    "NODE_0000175": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999637
+      },
+      "region_entropy": 4.352084998297715e-14
+    },
+    "NODE_0000176": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976840031262
+      },
+      "region_entropy": 3.6143577948968e-05
+    },
+    "NODE_0000177": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320748
+      },
+      "region_entropy": 3.578862136992412e-05
+    },
+    "NODE_0000178": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997683732694
+      },
+      "region_entropy": 3.614746278455764e-05
+    },
+    "NODE_0000179": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976840031871
+      },
+      "region_entropy": 3.614357703256918e-05
+    },
+    "NODE_0000180": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320755
+      },
+      "region_entropy": 3.57886213613572e-05
+    },
+    "NODE_0000181": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997708532015
+      },
+      "region_entropy": 3.578862227014262e-05
+    },
+    "NODE_0000182": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977330609405
+      },
+      "region_entropy": 3.543339209063323e-05
+    },
+    "NODE_0000183": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976840031868
+      },
+      "region_entropy": 3.614357704071868e-05
+    },
+    "NODE_0000184": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837326945
+      },
+      "region_entropy": 3.614746277621779e-05
+    },
+    "NODE_0000185": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976840031873
+      },
+      "region_entropy": 3.614357703226769e-05
+    },
+    "NODE_0000186": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320754
+      },
+      "region_entropy": 3.578862136146738e-05
+    },
+    "NODE_0000187": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085316036
+      },
+      "region_entropy": 3.578862727010855e-05
+    },
+    "NODE_0000188": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977088025956
+      },
+      "region_entropy": 3.578473208597239e-05
+    },
+    "NODE_0000191": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999996
+      },
+      "region_entropy": -9.877449209471062e-13
+    },
+    "NODE_0000192": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976842767153
+      },
+      "region_entropy": 3.6139647896775246e-05
+    },
+    "NODE_0000193": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977330609405
+      },
+      "region_entropy": 3.543339209063323e-05
+    },
+    "NODE_0000194": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085351799
+      },
+      "region_entropy": 3.5788576945775094e-05
+    },
+    "NODE_0000197": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977330609405
+      },
+      "region_entropy": 3.543339209063323e-05
+    },
+    "NODE_0000198": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082610743
+      },
+      "region_entropy": 3.57925166293916e-05
+    },
+    "NODE_0000199": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999754582042
+      },
+      "region_entropy": 4.904312601195776e-07
+    },
+    "NODE_0000200": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976842767445
+      },
+      "region_entropy": 3.613964747919103e-05
+    },
+    "NODE_0000201": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085351802
+      },
+      "region_entropy": 3.5788576940933196e-05
+    },
+    "NODE_0000202": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082642256
+      },
+      "region_entropy": 3.5792471556656874e-05
+    },
+    "NODE_0000203": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082611186
+      },
+      "region_entropy": 3.579251600826475e-05
+    },
+    "NODE_0000206": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999969412
+      },
+      "region_entropy": 8.431545282709728e-11
+    },
+    "NODE_0000210": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977330609332
+      },
+      "region_entropy": 3.543339219648584e-05
+    },
+    "NODE_0000211": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999969404
+      },
+      "region_entropy": 8.433856859548049e-11
+    },
+    "NODE_0000212": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327900087
+      },
+      "region_entropy": 3.5437289470273814e-05
+    },
+    "NODE_0000214": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997684003215
+      },
+      "region_entropy": 3.614357662976463e-05
+    },
+    "NODE_0000215": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976840062924
+      },
+      "region_entropy": 3.6143532644292465e-05
+    },
+    "NODE_0000216": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085321112
+      },
+      "region_entropy": 3.578862084906044e-05
+    },
+    "NODE_0000217": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837257661
+      },
+      "region_entropy": 3.614756095764758e-05
+    },
+    "NODE_0000218": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999757323107
+      },
+      "region_entropy": 4.852632565702402e-07
+    },
+    "NODE_0000220": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999975184140831
+      },
+      "region_entropy": 3.8556505961811674e-05
+    },
+    "NODE_0000221": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999999974883263
+      },
+      "region_entropy": 5.012603076661985e-07
+    },
+    "NODE_0000222": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997732783705
+      },
+      "region_entropy": 3.543737970583633e-05
+    },
+    "NODE_0000223": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327834371
+      },
+      "region_entropy": 3.5437383539093964e-05
+    },
+    "NODE_0000224": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327834371
+      },
+      "region_entropy": 3.5437383539093964e-05
+    },
+    "NODE_0000225": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082445086
+      },
+      "region_entropy": 3.579275273266808e-05
+    },
+    "NODE_0000226": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977087993316
+      },
+      "region_entropy": 3.578477877352948e-05
+    },
+    "NODE_0000227": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999749067243
+      },
+      "region_entropy": 5.00819014114033e-07
+    },
+    "NODE_0000228": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327837045
+      },
+      "region_entropy": 3.54373797122623e-05
+    },
+    "NODE_0000229": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977088025223
+      },
+      "region_entropy": 3.5784733133168385e-05
+    },
+    "NODE_0000230": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327837045
+      },
+      "region_entropy": 3.54373797122623e-05
+    },
+    "NODE_0000231": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082515541
+      },
+      "region_entropy": 3.5792652804552316e-05
+    },
+    "NODE_0000232": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976839966999
+      },
+      "region_entropy": 3.61436697434492e-05
+    },
+    "NODE_0000233": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976834489573
+      },
+      "region_entropy": 3.615153693415378e-05
+    },
+    "NODE_0000234": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837263178
+      },
+      "region_entropy": 3.6147553911631214e-05
+    },
+    "NODE_0000235": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085258103
+      },
+      "region_entropy": 3.578871097561504e-05
+    },
+    "NODE_0000236": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085289237
+      },
+      "region_entropy": 3.57886664424458e-05
+    },
+    "NODE_0000238": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082609999
+      },
+      "region_entropy": 3.579251768872919e-05
+    },
+    "NODE_0000239": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976842767755
+      },
+      "region_entropy": 3.6139646992910535e-05
+    },
+    "NODE_0000240": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999751807883
+      },
+      "region_entropy": 4.956581080851317e-07
+    },
+    "NODE_0000241": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327868189
+      },
+      "region_entropy": 3.5437335129122254e-05
+    },
+    "NODE_0000242": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085351806
+      },
+      "region_entropy": 3.578857693734753e-05
+    },
+    "NODE_0000243": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976831785871
+      },
+      "region_entropy": 3.6155420870438566e-05
+    },
+    "NODE_0000244": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999757290691
+      },
+      "region_entropy": 4.853240626251079e-07
+    },
+    "NODE_0000245": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327900078
+      },
+      "region_entropy": 3.543728948410852e-05
+    },
+    "NODE_0000246": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976839968211
+      },
+      "region_entropy": 3.614366802226051e-05
+    },
+    "NODE_0000247": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999999975461309
+      },
+      "region_entropy": 4.90373017837661e-07
+    },
+    "NODE_0000248": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082615576
+      },
+      "region_entropy": 3.579251060060542e-05
+    },
+    "NODE_0000249": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997659480545
+      },
+      "region_entropy": 3.649817263251002e-05
+    },
+    "NODE_0000250": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977327900083
+      },
+      "region_entropy": 3.5437289477760284e-05
+    },
+    "NODE_0000251": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999974004973322
+      },
+      "region_entropy": 4.0252015748402094e-05
+    },
+    "NODE_0000252": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.99999763949409
+      },
+      "region_entropy": 3.678652219102203e-05
+    },
+    "NODE_0000253": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976832347067
+      },
+      "region_entropy": 3.615461249031097e-05
+    },
+    "NODE_0000254": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082616182
+      },
+      "region_entropy": 3.5792509691826545e-05
+    },
+    "NODE_0000255": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082616182
+      },
+      "region_entropy": 3.5792509691826545e-05
+    },
+    "NODE_0000256": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999962121582635
+      },
+      "region_entropy": 5.722451457800657e-05
+    },
+    "NODE_0000257": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999851352621508
+      },
+      "region_entropy": 0.00020442511952560433
+    },
+    "NODE_0000258": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999993284321
+      },
+      "region_entropy": 1.572703685814179e-08
+    },
+    "NODE_0000259": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837295512
+      },
+      "region_entropy": 3.614750770572255e-05
+    },
+    "NODE_0000260": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976592038057
+      },
+      "region_entropy": 3.650214454209655e-05
+    },
+    "NODE_0000261": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999897027407596
+      },
+      "region_entropy": 0.0001454017066073394
+    },
+    "NODE_0000262": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999745059923
+      },
+      "region_entropy": 5.083713970708409e-07
+    },
+    "NODE_0000263": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082584764
+      },
+      "region_entropy": 3.5792554636157184e-05
+    },
+    "NODE_0000264": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997708250158
+      },
+      "region_entropy": 3.5792672852054386e-05
+    },
+    "NODE_0000265": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976842766488
+      },
+      "region_entropy": 3.6139648799445843e-05
+    },
+    "NODE_0000266": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082584764
+      },
+      "region_entropy": 3.5792554636157184e-05
+    },
+    "NODE_0000267": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9998497870627527
+      },
+      "region_entropy": 0.00162205386875975
+    },
+    "NODE_0000268": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999771115166332
+      },
+      "region_entropy": 0.00029798748297635156
+    },
+    "NODE_0000269": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9990656197850182
+      },
+      "region_entropy": 0.007826280276846774
+    },
+    "NODE_0000270": {
+      "region": "North America",
+      "region_confidence": {
+        "Japan Korea": 0.04906054120635421,
+        "North America": 0.9506743740994694
+      },
+      "region_entropy": 0.19861116586545002
+    },
+    "NODE_0000271": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9997039193873707
+      },
+      "region_entropy": 0.003047044498916527
+    },
+    "NODE_0000272": {
+      "region": "North America",
+      "region_confidence": {
+        "Africa": 0.007084181768978408,
+        "North America": 0.9917605628336659
+      },
+      "region_entropy": 0.05302949486367089
+    },
+    "NODE_0000273": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999781216939203
+      },
+      "region_entropy": 0.00029426404687357314
+    },
+    "NODE_0000274": {
+      "region": "Africa",
+      "region_confidence": {
+        "Africa": 0.9995501380875743
+      },
+      "region_entropy": 0.004052804852179743
+    },
+    "NODE_0000275": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085316406
+      },
+      "region_entropy": 3.578862674361343e-05
+    },
+    "NODE_0000276": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9967671196052738,
+        "South Asia": 0.0023049337395989566
+      },
+      "region_entropy": 0.024337922372792562
+    },
+    "NODE_0000277": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9786485872567159,
+        "Oceania": 0.003167071573344089,
+        "South Asia": 0.01678104259142713
+      },
+      "region_entropy": 0.11880995620960481
+    },
+    "NODE_0000278": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977088025962
+      },
+      "region_entropy": 3.5784732079681606e-05
+    },
+    "NODE_0000279": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9275848055433726,
+        "Oceania": 0.07104947345525157
+      },
+      "region_entropy": 0.2684953364708861
+    },
+    "NODE_0000280": {
+      "region": "Oceania",
+      "region_confidence": {
+        "North America": 0.0030711351832338574,
+        "Oceania": 0.9969151810187143
+      },
+      "region_entropy": 0.021025790163293485
+    },
+    "NODE_0000281": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9994290786577914
+      },
+      "region_entropy": 0.004957176802749792
+    },
+    "NODE_0000282": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999400787274
+      },
+      "region_entropy": 1.1305540659337856e-06
+    },
+    "NODE_0000283": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085258831
+      },
+      "region_entropy": 3.5788709936809756e-05
+    },
+    "NODE_0000284": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999757299438
+      },
+      "region_entropy": 4.85310714397099e-07
+    },
+    "NODE_0000285": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837295521
+      },
+      "region_entropy": 3.614750769338493e-05
+    },
+    "NODE_0000286": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976592038056
+      },
+      "region_entropy": 3.650214454206893e-05
+    },
+    "NODE_0000287": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.020505660770199125,
+        "Japan Korea": 0.002414846559770475,
+        "North America": 0.9741479611563594,
+        "South Asia": 0.0028626717776342805
+      },
+      "region_entropy": 0.13728460658756345
+    },
+    "NODE_0000288": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.03909350216978292,
+        "Japan Korea": 0.010651280167742121,
+        "North America": 0.9485232049993831,
+        "South Asia": 0.0015033394531425754
+      },
+      "region_entropy": 0.2372366012108148
+    },
+    "NODE_0000289": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.004679976074984669,
+        "Japan Korea": 0.10850762585632127,
+        "North America": 0.8863142682834286
+      },
+      "region_entropy": 0.3775211221855515
+    },
+    "NODE_0000290": {
+      "region": "North America",
+      "region_confidence": {
+        "Japan Korea": 0.09519341288749616,
+        "North America": 0.9042069912767172
+      },
+      "region_entropy": 0.3197626933106264
+    },
+    "NODE_0000291": {
+      "region": "North America",
+      "region_confidence": {
+        "Japan Korea": 0.1332895429829622,
+        "North America": 0.8664898001901292
+      },
+      "region_entropy": 0.39497585690265136
+    },
+    "NODE_0000292": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9964076959573176,
+        "North America": 0.003585894144518385
+      },
+      "region_entropy": 0.023865016174952985
+    },
+    "NODE_0000293": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082584763
+      },
+      "region_entropy": 3.5792554636266546e-05
+    },
+    "NODE_0000294": {
+      "region": "North America",
+      "region_confidence": {
+        "Japan Korea": 0.0012781033605021607,
+        "North America": 0.9987119341688535
+      },
+      "region_entropy": 0.009932778883605236
+    },
+    "NODE_0000295": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999822759055915
+      },
+      "region_entropy": 0.0002198929164297058
+    },
+    "NODE_0000296": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082584763
+      },
+      "region_entropy": 3.5792554636266546e-05
+    },
+    "NODE_0000297": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320017
+      },
+      "region_entropy": 3.578862241270546e-05
+    },
+    "NODE_0000298": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976591974029
+      },
+      "region_entropy": 3.6502235976733295e-05
+    },
+    "NODE_0000299": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.02879981412287472,
+        "Japan Korea": 0.002911179175367645,
+        "North America": 0.9105208077984737,
+        "South Asia": 0.05615228945189177
+      },
+      "region_entropy": 0.37868706344487957
+    },
+    "NODE_0000300": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.07695070041250258,
+        "Japan Korea": 0.005736031724551518,
+        "North America": 0.9037755710665821,
+        "South Asia": 0.010648684276387781
+      },
+      "region_entropy": 0.38661829977090245
+    },
+    "NODE_0000301": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.045491278632899805,
+        "Japan Korea": 0.010395572961123055,
+        "North America": 0.9383269839124238,
+        "West Asia": 0.0035356683452583454
+      },
+      "region_entropy": 0.2828772887786786
+    },
+    "NODE_0000302": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.04135085647456685,
+        "Japan Korea": 0.012482669284382674,
+        "North America": 0.9450096834634418
+      },
+      "region_entropy": 0.24884530887201026
+    },
+    "NODE_0000303": {
+      "region": "North America",
+      "region_confidence": {
+        "China": 0.0018809427859105977,
+        "Europe": 0.04505866836978552,
+        "Japan Korea": 0.03381510141339699,
+        "North America": 0.9182360801557714
+      },
+      "region_entropy": 0.3523679138214096
+    },
+    "NODE_0000304": {
+      "region": "North America",
+      "region_confidence": {
+        "China": 0.0019335946340630667,
+        "Europe": 0.07392576256466306,
+        "Japan Korea": 0.030968982139190457,
+        "North America": 0.890337500632812
+      },
+      "region_entropy": 0.4359363298271064
+    },
+    "NODE_0000305": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.061203776417739574,
+        "Japan Korea": 0.0070997992388025285,
+        "North America": 0.9230302537815761,
+        "South Asia": 0.0027248998511018364
+      },
+      "region_entropy": 0.33434195773951014
+    },
+    "NODE_0000306": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.1132223477642826,
+        "North America": 0.885919290544688
+      },
+      "region_entropy": 0.3614119594139791
+    },
+    "NODE_0000307": {
+      "region": "North America",
+      "region_confidence": {
+        "China": 0.01854481062573685,
+        "Europe": 0.0348344288186465,
+        "Japan Korea": 0.13967560027795026,
+        "North America": 0.8042786419525549
+      },
+      "region_entropy": 0.6603687960023489
+    },
+    "NODE_0000308": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Europe": 0.0014388013351158432,
+        "Japan Korea": 0.900356686000887,
+        "North America": 0.09691311146559244
+      },
+      "region_entropy": 0.3403653905945042
+    },
+    "NODE_0000309": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.998563913208699,
+        "North America": 0.0013904446150890346
+      },
+      "region_entropy": 0.011116707370054237
+    },
+    "NODE_0000310": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.959832791616625,
+        "North America": 0.040013186063427776
+      },
+      "region_entropy": 0.1697264000906909
+    },
+    "NODE_0000311": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9999832559034503
+      },
+      "region_entropy": 0.00020426933881099047
+    },
+    "NODE_0000312": {
+      "region": "Japan Korea",
+      "region_confidence": {
+        "Japan Korea": 0.9558487524630699,
+        "North America": 0.043978572440509595
+      },
+      "region_entropy": 0.18233462032560965
+    },
+    "NODE_0000313": {
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9988181300567385
+      },
+      "region_entropy": 0.01009018929711241
+    },
+    "NODE_0000314": {
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999644611982617
+      },
+      "region_entropy": 0.00041626873428633813
+    },
+    "NODE_0000315": {
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999765665530225
+      },
+      "region_entropy": 0.00027757800258335866
+    },
+    "NODE_0000316": {
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9983023135440856,
+        "North America": 0.0015863198855503398
+      },
+      "region_entropy": 0.013131369850538071
+    },
+    "NODE_0000317": {
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999989380271799
+      },
+      "region_entropy": 1.682463261390468e-05
+    },
+    "NODE_0000318": {
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999995661312049
+      },
+      "region_entropy": 7.3036491905006115e-06
+    },
+    "NODE_0000319": {
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999997573662318
+      },
+      "region_entropy": 4.224474053309518e-06
+    },
+    "NODE_0000320": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.037255611057096606,
+        "Japan Korea": 0.011140231741467022,
+        "North America": 0.9503309799826791
+      },
+      "region_entropy": 0.2305632793814269
+    },
+    "NODE_0000321": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.054749677549258954,
+        "Japan Korea": 0.0021678579947980755,
+        "North America": 0.9422148406961818
+      },
+      "region_entropy": 0.23581272570473638
+    },
+    "NODE_0000322": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.00806790643562389,
+        "North America": 0.9912993947273806
+      },
+      "region_entropy": 0.05292590410968939
+    },
+    "NODE_0000323": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.0046951942930079735,
+        "North America": 0.9947733201599971
+      },
+      "region_entropy": 0.03506340950562517
+    },
+    "NODE_0000324": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999533081386328
+      },
+      "region_entropy": 0.0005879166494362604
+    },
+    "NODE_0000325": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.033056751978312454,
+        "Japan Korea": 0.015134203401654108,
+        "North America": 0.9449621148379767,
+        "South Asia": 0.004899302165551502
+      },
+      "region_entropy": 0.26879458694659214
+    },
+    "NODE_0000326": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.04081180873048101,
+        "North America": 0.8757859642972974,
+        "West Asia": 0.08231130284093131
+      },
+      "region_entropy": 0.4609612792331972
+    },
+    "NODE_0000327": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.01209488287325343,
+        "North America": 0.8667250214011863,
+        "West Asia": 0.11882199317528659
+      },
+      "region_entropy": 0.44816867172654534
+    },
+    "NODE_0000328": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9995958647354866
+      },
+      "region_entropy": 0.003893316288823584
+    },
+    "NODE_0000329": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.05401496550103734,
+        "North America": 0.8610737804462254,
+        "West Asia": 0.08394166583872366
+      },
+      "region_entropy": 0.5023774405709792
+    },
+    "NODE_0000330": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.03218464434856543,
+        "North America": 0.8555914969266909,
+        "West Asia": 0.11004600059038695
+      },
+      "region_entropy": 0.5033894696433457
+    },
+    "NODE_0000331": {
+      "region": "North America",
+      "region_confidence": {
+        "Europe": 0.02878140060460621,
+        "Japan Korea": 0.041028049215887034,
+        "North America": 0.8909096123459851,
+        "South Asia": 0.03534694099528526
+      },
+      "region_entropy": 0.4806568793805439
+    },
+    "NODE_0000332": {
+      "region": "South Asia",
+      "region_confidence": {
+        "North America": 0.005936533163526342,
+        "South Asia": 0.993547299409335
+      },
+      "region_entropy": 0.041610087712275604
+    },
+    "NODE_0000333": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9999644544481283
+      },
+      "region_entropy": 0.0004093161032656711
+    },
+    "NODE_0000334": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9999977136181042
+      },
+      "region_entropy": 3.249003068480955e-05
+    },
+    "NODE_0000335": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9999994063085881
+      },
+      "region_entropy": 9.433467615294083e-06
+    },
+    "NODE_0000336": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.999962851961121
+      },
+      "region_entropy": 0.00041874988818319827
+    },
+    "NODE_0000337": {
+      "region": "South Asia",
+      "region_confidence": {
+        "North America": 0.0030837412428329552,
+        "South Asia": 0.9968732757930603
+      },
+      "region_entropy": 0.021457987917029783
+    },
+    "NODE_0000338": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976583669676
+      },
+      "region_entropy": 3.6514154577770475e-05
+    },
+    "NODE_0000339": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837199768
+      },
+      "region_entropy": 3.6147644559944994e-05
+    },
+    "NODE_0000340": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082584022
+      },
+      "region_entropy": 3.579255569360536e-05
+    },
+    "NODE_0000341": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976586374241
+      },
+      "region_entropy": 3.651027251442853e-05
+    },
+    "NODE_0000342": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082584022
+      },
+      "region_entropy": 3.579255569360536e-05
+    },
+    "NODE_0000343": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976834463045
+      },
+      "region_entropy": 3.615157571578463e-05
+    },
+    "NODE_0000344": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976837262978
+      },
+      "region_entropy": 3.614755420784447e-05
+    },
+    "NODE_0000345": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976840031123
+      },
+      "region_entropy": 3.6143578099974476e-05
+    },
+    "NODE_0000346": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977085320746
+      },
+      "region_entropy": 3.578862137387854e-05
+    },
+    "NODE_0000347": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976834494447
+      },
+      "region_entropy": 3.615153082598355e-05
+    },
+    "NODE_0000348": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976586373466
+      },
+      "region_entropy": 3.6510273619682346e-05
+    },
+    "NODE_0000350": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976583572767
+      },
+      "region_entropy": 3.651429297146815e-05
+    },
+    "NODE_0000352": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976583540224
+      },
+      "region_entropy": 3.651433944464539e-05
+    },
+    "NODE_0000353": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082488247
+      },
+      "region_entropy": 3.579269270013561e-05
+    },
+    "NODE_0000354": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976583540606
+      },
+      "region_entropy": 3.651433890189105e-05
+    },
+    "NODE_0000356": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.999997658360531
+      },
+      "region_entropy": 3.651424649831901e-05
+    },
+    "NODE_0000358": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976589173404
+      },
+      "region_entropy": 3.650625530938719e-05
+    },
+    "NODE_0000360": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999977082552222
+      },
+      "region_entropy": 3.579260118648223e-05
+    },
+    "NODE_0000366": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999976839998632
+      },
+      "region_entropy": 3.614362458190392e-05
+    },
+    "NewHampshire.USA/40.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewHampshire.USA/8.16/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NewJersey.USA/16.14/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewJersey.USA/49.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewPlymouth.NZL/30.17/G": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewYork.USA.USA/51.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewYork.USA/10.14/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewYork.USA/10.14/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewYork.USA/51.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewYork.USA/8.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NewYork/10.14/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "New_York.USA/01.10": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "New_York.USA/40.09/1": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "New_York.USA/40.09/4": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "New_York.USA/53.09/3": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "No_designation_vaccine_related/A": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "NorthCarolina.USA/11.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NorthDakota.USA/14.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NorthDakota.USA/15.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "NorthDakota.USA/9.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Novosibirsk.RUS/10.03-H": {
+      "region": "West Asia",
+      "region_confidence": {
+        "West Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ohio.USA/11.14/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ohio.USA/11.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ohio.USA/12.14/9/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ohio.USA/13.14/10/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ohio.USA/13.14/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ohio.USA/13.14/7/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ohio.USA/16.14/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ohio.USA/16.14/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ohio.USA/19.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ohio.USA/2.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ohio.USA/2.18/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ohio.USA/46.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ohio.USA/7.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ontario.CAN/04.10/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/04.17/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/06.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/08.17/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ontario.CAN/08.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/09.17/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/09.17/10/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/09.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/09.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ontario.CAN/09.17/5/C": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ontario.CAN/12.17/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/12.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/12.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/12.17/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ontario.CAN/13.10/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/37.09/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/38.09/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ontario.CAN/40.09/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Ontario.CAN/50.09/1/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Ontario.CAN/50.09/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Osmanabad.IND/10.12/17/C": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Osmanabad.IND/10.12/18/C": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Pennsylvania.USA/19.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Pennsylvania.USA/51.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Pune.IND/00.86/G": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Pune.IND/07.12/G": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Pune.Ind/50.08/C": {
+      "region": "South Asia",
+      "region_confidence": {
+        "South Asia": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "RW154.USA/0.70s/K": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Rockhampton.AUS/41.16/G": {
+      "region": "Oceania",
+      "region_confidence": {
+        "Oceania": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SP": {
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "SP-A": {
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Shandong.CHN/4.05/F": {
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Springdale_730/2016/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Springdale_745/2016/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Springdale_754/2016/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Texas.USA/15.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Texas.USA/18.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Texas.USA/27.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Urabe": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Virginia.USA/10.12/H": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Virginia.USA/51.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017013/48.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017023/50.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017025/50.16/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017030/50.16/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017069/1.17/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017073/1.17/7/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017118/3.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017151/5.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017153/5.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017193/6.17/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017217/9.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017228/8.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017231/9.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017232/8.17/5/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017277/12.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017304/15.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017315/16.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017319/17.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017325/17.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017331/19.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017336/20.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017341/20.17/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017347/22.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017358/29.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017359/30.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017362/9.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017368/12.17/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017373/49.16/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017376/5.17/8/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017379/5.17/11/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017380/6.17/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017383/8.17/6/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017384/9.17/5/K": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017386/11.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017389/12.17/8/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017391/14.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017392/14.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Washington.USA/2017396/19.17/4/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017398/23.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017399/23.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Washington.USA/2017401/28.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/11.07/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/11.07/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Wisconsin.USA/15.06/3/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/15.06/4/A": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/15.06/H": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/15.17/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Wisconsin.USA/15.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Wisconsin.USA/16.14/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/16.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/19.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/19.17/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/2.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/20.14/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/20.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Wisconsin.USA/24.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/24.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/28.06/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/29.14/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/37.06/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/41.06/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/41.06/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/42.15/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/42.15/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/46.15/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/50.16/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Wisconsin.USA/51.15/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/7.07/2/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Wisconsin.USA/7.07/G": {
+      "region": "North America",
+      "region_confidence": {
+        "North America": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Zhejiang.CHN/11.06/1": {
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Zhejiang.CHN/16.08/2": {
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    },
+    "Zhejiang.CHN/19.10": {
+      "region": "China",
+      "region_confidence": {
+        "China": 0.9999999999999999
+      },
+      "region_entropy": -9.99866855976916e-13
+    },
+    "Zhejiang.CHN/26.05": {
+      "region": "China",
+      "region_confidence": {
+        "China": 1.0
+      },
+      "region_entropy": -1.000088900581841e-12
+    }
+  }
+}

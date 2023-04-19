@@ -1,0 +1,45 @@
+{
+  "title": "Real-time tracking of mumps virus evolution",
+  "maintainers": [
+    {"name": "Louise Moncla", "url": "http://bedford.io/team/louise-moncla/"}
+  ],
+  "build_url": "https://github.com/nextstrain/mumps",
+  "colorings": [
+    {
+      "key": "gt",
+      "title": "Genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Date",
+      "type": "continuous"
+    },
+    {
+      "key": "author",
+      "title": "Author",
+      "type": "categorical"
+    },
+    {
+      "key": "MuV_genotype",
+      "title": "MuV genotype",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Division",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "division"
+  ],
+  "display_defaults": {
+    "map_triplicate": true,
+    "color_by": "division"
+  },
+  "filters": [
+    "division",
+    "author"
+  ]
+}

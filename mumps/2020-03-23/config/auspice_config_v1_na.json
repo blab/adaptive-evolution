@@ -1,0 +1,50 @@
+{
+  "title": "Real-time tracking of mumps virus evolution",
+  "color_options": {
+    "gt": {
+      "menuItem": "genotype",
+      "legendTitle": "Genotype",
+      "type": "discrete",
+      "key": "genotype"
+    },
+    "num_date": {
+      "menuItem": "date",
+      "legendTitle": "Sampling date",
+      "type": "continuous",
+      "key": "num_date"
+    },
+    "authors": {
+      "key":"authors",
+      "legendTitle":"Authors",
+      "menuItem":"authors",
+      "type":"discrete"
+    },
+    "MuV_genotype": {
+      "key":"MuV_genotype",
+      "legendTitle":"MuV genotype",
+      "menuItem":"MuV genotype",
+      "type":"discrete"
+    },
+    "country": {
+    },
+    "division": {
+    }
+  },
+  "geo": [
+    "division"
+  ],
+  "defaults": {
+    "mapTriplicate": true,
+    "colorBy": "division"
+  },
+  "maintainer": [
+    "Louise Moncla",
+    "http://bedford.io/team/louise-moncla/"
+  ],
+  "filters": [
+    "division",
+    "region",
+    "authors",
+    "MuV_genotype"
+  ]
+}
