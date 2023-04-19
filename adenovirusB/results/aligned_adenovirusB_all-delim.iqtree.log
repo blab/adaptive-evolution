@@ -1,0 +1,792 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_adenovirusB_all-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    99290 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Nov  3 14:18:45 2022
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_adenovirusB_all-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.317156 secs using 96.16% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.181705 secs using 92.76% CPU
+Alignment has 538 sequences with 34794 columns, 6100 distinct patterns
+8734 parsimony-informative, 1297 singleton sites, 24763 constant sites
+             Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0130081 secs using 93.78% CPU
+   1  AY271307.1     0.00%    failed      0.00%
+   2  KF268124.1     0.04%    failed      0.00%
+   3  AY128640.2     0.01%    failed      0.00%
+   4  MW054858.1     0.13%    failed      0.00%
+   5  MT505438.1     0.15%    failed      0.00%
+   6  MT505439.1     0.15%    failed      0.00%
+   7  KF268121.1     0.12%    failed      0.00%
+   8  NC_011202.1    0.10%    failed      0.00%
+   9  AY163756.1     0.10%    failed      0.00%
+  10  AY598970.1     0.10%    failed      0.00%
+  11  AF532578.1     0.10%    failed      0.00%
+  12  EF011630.1     7.21%    failed      0.01%
+  13  KT970440.1     0.11%    failed      0.00%
+  14  KT970441.1     0.09%    failed      0.00%
+  15  KT970442.1     0.10%    failed      0.00%
+  16  KF268328.1     0.51%    failed      0.00%
+  17  LC177352.1     0.13%    failed      0.00%
+  18  KF906413.1     0.13%    failed      0.00%
+  19  KF268196.1     0.16%    failed      0.00%
+  20  AY737797.1     0.13%    failed      0.00%
+  21  OP375144.1     0.24%    failed      0.00%
+  22  MW053454.1     0.20%    failed      0.00%
+  23  KY471318.1     0.20%    failed      0.00%
+  24  KX494979.1     0.20%    failed      0.00%
+  25  KY471322.1     0.20%    failed      0.00%
+  26  MN654375.1     0.22%    failed      0.00%
+  27  MN654376.1     0.22%    failed      0.00%
+  28  MN654377.1     0.22%    failed      0.00%
+  29  MN654378.1     0.22%    failed      0.00%
+  30  MN654379.1     0.22%    failed      0.00%
+  31  MK886831.1     0.21%    failed      0.00%
+  32  KY471319.1     0.22%    failed      0.00%
+  33  KY471320.1     0.22%    failed      0.00%
+  34  KY471321.1     0.22%    failed      0.00%
+  35  KY471323.1     0.22%    failed      0.00%
+  36  JX491639.1     0.22%    failed      0.00%
+  37  MN654380.1     0.22%    failed      0.00%
+  38  MN654381.1     0.22%    failed      0.00%
+  39  MN654382.1     0.22%    failed      0.00%
+  40  MN654383.1     0.22%    failed      0.00%
+  41  JX423385.1     0.22%    failed      0.00%
+  42  MN654384.1     0.22%    failed      0.00%
+  43  MN654385.1     0.22%    failed      0.00%
+  44  MN654390.1     0.22%    failed      0.00%
+  45  MN654391.1     0.22%    failed      0.00%
+  46  MN654386.1     0.22%    failed      0.00%
+  47  MN654387.1     0.22%    failed      0.00%
+  48  MN654388.1     0.22%    failed      0.00%
+  49  MN654389.1     0.22%    failed      0.00%
+  50  FJ597732.1     0.22%    failed      0.00%
+  51  MN654392.1     0.24%    failed      0.00%
+  52  MN654393.1     0.21%    failed      0.00%
+  53  MT513753.1     0.21%    failed      0.00%
+  54  JX423384.1     0.25%    failed      0.00%
+  55  MT806170.1     0.58%    failed      0.00%
+  56  MT806172.1     0.58%    failed      0.00%
+  57  MT806173.1     0.58%    failed      0.00%
+  58  MT806171.1     0.64%    failed      0.00%
+  59  MT806174.1     0.58%    failed      0.00%
+  60  MT806175.1     0.58%    failed      0.00%
+  61  MH256653.1     1.27%    failed      0.00%
+  62  MH256657.1     1.28%    failed      0.00%
+  63  MH256655.1     1.27%    failed      0.00%
+  64  MH256656.1     1.29%    failed      0.00%
+  65  MH256654.1     1.29%    failed      0.00%
+  66  MK123978.1     0.51%    failed      0.00%
+  67  MK123979.1     0.26%    failed      0.00%
+  68  MK123980.1     0.51%    failed      0.00%
+  69  MK123981.1     0.51%    failed      0.00%
+  70  KX289874.1     0.25%    failed      0.00%
+  71  FJ643676.1     0.25%    failed      0.00%
+  72  KJ883522.1     0.25%    failed      0.00%
+  73  JX123029.1     0.26%    failed      0.00%
+  74  KP896478.1     0.25%    failed      0.00%
+  75  KY780931.1     1.62%    failed      0.00%
+  76  KY780932.1     1.62%    failed      0.00%
+  77  KY780933.1     1.62%    failed      0.00%
+  78  KY070248.1     0.25%    failed      0.00%
+  79  KC857701.1     0.28%    failed      0.00%
+  80  KP279748.1     0.25%    failed      0.00%
+  81  JX123028.1     0.25%    failed      0.00%
+  82  KP896483.1     0.26%    failed      0.00%
+  83  KJ883520.1     0.26%    failed      0.00%
+  84  KF908851.1     1.74%    failed      0.00%
+  85  JX123027.1     0.25%    failed      0.00%
+  86  MN052861.1     0.37%    failed      0.00%
+  87  KJ883521.1     0.27%    failed      0.00%
+  88  MG905110.1     0.20%    failed      0.00%
+  89  MN654395.1     0.20%    failed      0.00%
+  90  MN654394.1     0.24%    failed      0.00%
+  91  KP896484.1     0.32%    failed      0.00%
+  92  MG905099.1     0.26%    failed      0.00%
+  93  MG905102.1     0.26%    failed      0.00%
+  94  MG905108.1     0.26%    failed      0.00%
+  95  MG905100.1     0.25%    failed      0.00%
+  96  MG905109.1     0.25%    failed      0.00%
+  97  MG905103.1     0.25%    failed      0.00%
+  98  MG905105.1     0.25%    failed      0.00%
+  99  MG905104.1     0.26%    failed      0.00%
+ 100  MG905107.1     0.26%    failed      0.00%
+ 101  MG905101.1     0.26%    failed      0.00%
+ 102  FJ822614.1     0.26%    failed      0.00%
+ 103  KY021429.1     0.26%    failed      0.00%
+ 104  MH669071.1     0.29%    failed      0.00%
+ 105  MH669073.1     0.29%    failed      0.00%
+ 106  MH669072.1     0.29%    failed      0.00%
+ 107  KY021426.1     0.38%    failed      0.00%
+ 108  KY021427.1     0.37%    failed      0.00%
+ 109  KY021428.1     0.32%    failed      0.00%
+ 110  KY021430.1     0.28%    failed      0.00%
+ 111  KY021431.1     0.28%    failed      0.00%
+ 112  KY021432.1     0.29%    failed      0.00%
+ 113  MG642742.1     0.27%    failed      0.00%
+ 114  MG642743.1     0.26%    failed      0.00%
+ 115  MG642745.1     0.27%    failed      0.00%
+ 116  MG642750.1     0.27%    failed      0.00%
+ 117  MG642747.1     0.27%    failed      0.00%
+ 118  MG642751.1     0.26%    failed      0.00%
+ 119  MG642744.1     0.31%    failed      0.00%
+ 120  MG642752.1     0.31%    failed      0.00%
+ 121  MG642748.1     0.30%    failed      0.00%
+ 122  MG642756.1     0.27%    failed      0.00%
+ 123  MG642754.1     0.28%    failed      0.00%
+ 124  MG642746.1     0.27%    failed      0.00%
+ 125  MG642755.1     0.29%    failed      0.00%
+ 126  MG642753.1     0.27%    failed      0.00%
+ 127  MG905106.1     0.25%    failed      0.00%
+ 128  JN032132.1     0.25%    failed      0.00%
+ 129  MH669070.1     0.27%    failed      0.00%
+ 130  MF062484.1     0.25%    failed      0.00%
+ 131  JQ824845.1     0.25%    failed      0.00%
+ 132  JX892927.2     0.26%    failed      0.00%
+ 133  MG642749.1     0.33%    failed      0.00%
+ 134  MG905111.1     0.26%    failed      0.00%
+ 135  MG905112.1     0.26%    failed      0.00%
+ 136  AY803294.1     0.26%    failed      0.00%
+ 137  KP896482.1     0.33%    failed      0.00%
+ 138  MZ540961.1     1.16%    passed     37.95%
+ 139  MW748642.1     1.01%    passed     48.04%
+ 140  MW748645.1     1.01%    passed     48.36%
+ 141  MW748657.1     1.01%    passed     46.76%
+ 142  MW748670.1     1.01%    passed     49.33%
+ 143  KF268123.1     1.01%    passed     46.74%
+ 144  MW748651.1     1.01%    passed     46.06%
+ 145  MW748659.1     0.97%    passed     46.72%
+ 146  MW748662.1     1.00%    passed     46.66%
+ 147  MW748647.1     1.00%    passed     48.61%
+ 148  MW748648.1     1.01%    passed     45.80%
+ 149  MW748656.1     1.00%    passed     48.14%
+ 150  MW748658.1     1.00%    passed     48.14%
+ 151  MW748664.1     1.00%    passed     48.63%
+ 152  MW748672.1     1.00%    passed     47.65%
+ 153  MW748646.1     1.00%    passed     49.51%
+ 154  MW748663.1     1.00%    passed     48.30%
+ 155  MW748650.1     1.00%    passed     49.98%
+ 156  MW748654.1     1.00%    passed     50.09%
+ 157  MW748661.1     1.01%    passed     48.86%
+ 158  MW748660.1     1.00%    passed     49.34%
+ 159  MW748643.1     1.01%    passed     48.47%
+ 160  MW748649.1     1.60%    passed     41.28%
+ 161  MW748652.1     1.60%    passed     40.21%
+ 162  MW748655.1     1.60%    passed     42.01%
+ 163  MW748653.1     0.96%    passed     49.90%
+ 164  MW748666.1     1.03%    passed     50.05%
+ 165  MW748667.1     1.03%    passed     50.05%
+ 166  KF268120.1     1.00%    passed     44.03%
+ 167  JX423382.1     1.01%    passed     45.70%
+ 168  JX423380.1     0.99%    passed     46.39%
+ 169  MW686788.1     1.38%    passed     46.49%
+ 170  MH828478.1     0.97%    passed     48.20%
+ 171  MW748668.1     0.97%    passed     46.27%
+ 172  MW748671.1     0.97%    passed     48.19%
+ 173  KF268311.1     0.97%    passed     46.27%
+ 174  MW748644.1     1.06%    passed     49.42%
+ 175  MW748669.1     1.01%    passed     45.17%
+ 176  KX384958.1     1.02%    passed     46.52%
+ 177  KF268133.1     0.99%    passed     47.31%
+ 178  JX423381.1     0.98%    passed     48.68%
+ 179  MW748641.1     1.03%    passed     48.81%
+ 180  MW748665.1     1.03%    passed     48.81%
+ 181  MW686786.1     1.01%    passed     50.34%
+ 182  MW686787.1     1.00%    passed     50.78%
+ 183  DQ105654.4     0.97%    passed     42.53%
+ 184  KF268195.1    17.54%    failed      1.34%
+ 185  DQ099432.4     0.96%    passed     31.71%
+ 186  KY320276.1     0.96%    passed     50.44%
+ 187  MW686785.1     1.01%    passed     61.38%
+ 188  KF268128.1     0.99%    passed     57.77%
+ 189  KF268132.1     0.99%    passed     54.53%
+ 190  KF268202.1     0.99%    passed     54.39%
+ 191  KF268131.1     0.99%    passed     61.05%
+ 192  AY599836.1     0.99%    passed     58.45%
+ 193  KF429752.1    12.63%    passed     29.29%
+ 194  KF268210.1     0.97%    passed     34.67%
+ 195  KF268212.1     1.05%    passed     27.26%
+ 196  JN860679.1     0.95%    passed     30.45%
+ 197  MH910665.1     0.93%    passed     14.40%
+ 198  KF268126.1     0.94%    passed     15.03%
+ 199  JX423386.1     0.95%    passed     14.83%
+ 200  JN860676.1     1.34%    passed     12.57%
+ 201  NC_011203.1    0.91%    passed     15.09%
+ 202  DQ086466.1     0.91%    passed     15.09%
+ 203  AY599834.1     0.91%    passed     15.20%
+ 204  OK323264.1     0.88%    passed     14.04%
+ 205  MW815973.1     0.89%    passed     13.83%
+ 206  MW815976.1     0.89%    passed     13.83%
+ 207  MW815979.1     0.89%    passed     13.83%
+ 208  MW815980.1     0.89%    passed     13.83%
+ 209  MW815985.1     0.89%    passed     13.83%
+ 210  MW815989.1     0.89%    passed     13.83%
+ 211  MW815991.1     0.89%    passed     13.83%
+ 212  MW815992.1     0.89%    passed     13.83%
+ 213  MW815995.1     0.89%    passed     13.83%
+ 214  MW816004.1     0.89%    passed     13.83%
+ 215  MW816011.1     0.89%    passed     13.83%
+ 216  MW816012.1     0.89%    passed     13.83%
+ 217  MW816013.1     0.89%    passed     13.83%
+ 218  MW816014.1     0.89%    passed     13.83%
+ 219  MW816019.1     0.89%    passed     13.83%
+ 220  MW816026.1     0.89%    passed     13.83%
+ 221  MW816028.1     0.89%    passed     13.83%
+ 222  MW816029.1     0.89%    passed     13.83%
+ 223  MW816030.1     0.89%    passed     13.83%
+ 224  MW816037.1     0.89%    passed     13.83%
+ 225  MW816040.1     0.89%    passed     13.83%
+ 226  MW816041.1     0.89%    passed     13.83%
+ 227  MW816043.1     0.89%    passed     13.83%
+ 228  MW816044.1     0.89%    passed     13.83%
+ 229  MW816047.1     0.89%    passed     13.83%
+ 230  MW816052.1     0.89%    passed     13.83%
+ 231  MW816060.1     0.89%    passed     13.83%
+ 232  MW816061.1     0.89%    passed     13.83%
+ 233  MW816074.1     0.89%    passed     13.83%
+ 234  MW816079.1     0.89%    passed     13.83%
+ 235  MW816081.1     0.89%    passed     13.83%
+ 236  MW816082.1     0.89%    passed     13.83%
+ 237  MW816083.1     0.89%    passed     13.83%
+ 238  MW816084.1     0.89%    passed     13.83%
+ 239  MW816089.1     0.89%    passed     13.83%
+ 240  MW816091.1     0.89%    passed     13.83%
+ 241  MW816092.1     0.89%    passed     13.83%
+ 242  MW816094.1     0.89%    passed     13.83%
+ 243  MW816098.1     0.89%    passed     13.83%
+ 244  MW816100.1     0.89%    passed     13.83%
+ 245  MW816038.1     0.89%    passed     14.02%
+ 246  MW816042.1     0.89%    passed     14.22%
+ 247  MW816049.1     0.89%    passed     14.22%
+ 248  MW816078.1     0.89%    passed     14.02%
+ 249  MW816086.1     0.89%    passed     13.83%
+ 250  MN307150.1     0.89%    passed     14.02%
+ 251  MN307151.1     0.89%    passed     14.02%
+ 252  MN307152.1     0.89%    passed     14.02%
+ 253  MW815997.1     0.89%    passed     13.53%
+ 254  MW816046.1     0.89%    passed     13.91%
+ 255  MW815986.1     0.89%    passed     14.10%
+ 256  MW816020.1     0.89%    passed     13.91%
+ 257  MW816036.1     0.89%    passed     13.91%
+ 258  MW816048.1     0.89%    passed     13.91%
+ 259  MW815974.1     0.89%    passed     13.23%
+ 260  MW815994.1     0.89%    passed     12.75%
+ 261  MW816009.1     0.89%    passed     13.72%
+ 262  MW816070.1     0.89%    passed     14.77%
+ 263  MW816057.1     0.89%    passed     13.30%
+ 264  MW816005.1     0.89%    passed     13.91%
+ 265  MW816008.1     0.89%    passed     13.91%
+ 266  MW816033.1     0.89%    passed     13.91%
+ 267  MW816034.1     0.89%    passed     13.91%
+ 268  MW816064.1     0.89%    passed     13.91%
+ 269  MW816015.1     0.89%    passed     13.83%
+ 270  MW816073.1     0.89%    passed     13.83%
+ 271  MW816072.1     0.89%    passed     13.83%
+ 272  MW816018.1     0.89%    passed     14.22%
+ 273  MW816085.1     0.90%    passed     13.34%
+ 274  OK323265.1     0.89%    passed     13.43%
+ 275  MT941568.1     1.17%    passed      8.29%
+ 276  OK323266.1     0.89%    passed     13.39%
+ 277  MN422295.1     0.89%    passed     14.30%
+ 278  OK323267.1     0.93%    passed     12.58%
+ 279  MT950360.1     1.21%    passed      7.49%
+ 280  MT950361.1     1.21%    passed      7.26%
+ 281  MW815975.1     0.89%    passed     14.10%
+ 282  MW815996.1     0.89%    passed     14.10%
+ 283  MW815999.1     0.89%    passed     14.10%
+ 284  MW816062.1     0.89%    passed     14.10%
+ 285  MW815982.1     0.89%    passed     14.30%
+ 286  MW816058.1     0.89%    passed     14.30%
+ 287  MW815983.1     0.89%    passed     13.72%
+ 288  MW815988.1     0.89%    passed     13.72%
+ 289  MW816003.1     0.89%    passed     14.30%
+ 290  MW815984.1     0.89%    passed     14.53%
+ 291  MW816075.1     0.89%    passed     14.10%
+ 292  MN307146.1     0.89%    passed     14.10%
+ 293  MN307147.1     0.89%    passed     14.10%
+ 294  MN307148.1     0.89%    passed     14.10%
+ 295  MN307149.1     0.89%    passed     14.10%
+ 296  MW816077.1     0.89%    passed     14.85%
+ 297  MW816000.1     0.89%    passed     14.30%
+ 298  MW815977.1     0.89%    passed     14.10%
+ 299  MW815990.1     0.89%    passed     14.10%
+ 300  MW816022.1     0.89%    passed     14.10%
+ 301  MW816023.1     0.89%    passed     14.10%
+ 302  MW816024.1     0.89%    passed     14.10%
+ 303  MW816025.1     0.89%    passed     14.10%
+ 304  MW816027.1     0.89%    passed     14.10%
+ 305  MW816032.1     0.89%    passed     14.10%
+ 306  MW816039.1     0.89%    passed     14.10%
+ 307  MW816045.1     0.89%    passed     14.10%
+ 308  MW816050.1     0.89%    passed     14.10%
+ 309  MW816051.1     0.89%    passed     14.10%
+ 310  MW816054.1     0.89%    passed     14.10%
+ 311  MW816017.1     0.89%    passed     14.30%
+ 312  MW816067.1     0.89%    passed     14.30%
+ 313  MW816068.1     0.89%    passed     14.30%
+ 314  MW816031.1     0.89%    passed     13.79%
+ 315  MW816099.1     0.89%    passed     13.49%
+ 316  MW816059.1     0.89%    passed     13.23%
+ 317  MW816053.1     0.89%    passed     13.68%
+ 318  MW816007.1     0.90%    passed     14.57%
+ 319  MW815978.1     0.89%    passed     14.29%
+ 320  MW815987.1     0.89%    passed     13.90%
+ 321  MW816021.1     0.89%    passed     13.90%
+ 322  MW816093.1     0.89%    passed     13.90%
+ 323  MW816095.1     0.89%    passed     13.90%
+ 324  MW816097.1     0.89%    passed     13.90%
+ 325  MW815981.1     0.89%    passed     13.52%
+ 326  MW816087.1     0.89%    passed     14.09%
+ 327  MW816069.1     0.89%    passed     14.68%
+ 328  MW816010.1     0.89%    passed     13.82%
+ 329  MW816055.1     0.89%    passed     14.09%
+ 330  MW816016.1     0.89%    passed     14.09%
+ 331  MW816065.1     0.89%    passed     13.90%
+ 332  MW816076.1     0.89%    passed     13.90%
+ 333  MW816088.1     0.89%    passed     13.90%
+ 334  MW816096.1     0.89%    passed     13.90%
+ 335  MW816090.1     0.89%    passed     14.09%
+ 336  MW815993.1     0.89%    passed     14.08%
+ 337  MW816066.1     0.89%    passed     14.49%
+ 338  MW816101.1     0.89%    passed     13.73%
+ 339  MW815998.1     0.89%    passed     13.66%
+ 340  MW816001.1     0.89%    passed     14.01%
+ 341  MW816056.1     0.89%    passed     14.17%
+ 342  MW816071.1     0.89%    passed     14.17%
+ 343  MW816035.1     0.89%    passed     14.30%
+ 344  MN422292.1     0.89%    passed     15.44%
+ 345  MN422293.1     0.89%    passed     15.44%
+ 346  MN422294.1     0.90%    passed     15.13%
+ 347  MH262318.1     0.89%    passed     15.23%
+ 348  MH262319.1     0.89%    passed     15.23%
+ 349  MH262320.1     0.89%    passed     15.23%
+ 350  MH262321.1     0.89%    passed     15.23%
+ 351  MH262322.1     0.89%    passed     15.23%
+ 352  MH262324.1     0.89%    passed     15.23%
+ 353  MH262325.1     0.89%    passed     15.23%
+ 354  MH262326.1     0.89%    passed     15.23%
+ 355  MH262323.1     0.92%    passed     14.42%
+ 356  MN638755.1     0.85%    passed     16.54%
+ 357  MN638756.1     0.85%    passed     16.54%
+ 358  MN307156.1     0.89%    passed     16.17%
+ 359  MN307157.1     0.89%    passed     15.96%
+ 360  MN307158.1     0.89%    passed     15.96%
+ 361  MN307159.1     0.89%    passed     15.96%
+ 362  MN307160.1     0.89%    passed     15.96%
+ 363  MN307153.1     0.89%    passed     16.37%
+ 364  MN307154.1     0.89%    passed     16.37%
+ 365  MN307155.1     0.89%    passed     16.37%
+ 366  MN307161.1     0.89%    passed     16.17%
+ 367  MN307162.1     0.89%    passed     16.17%
+ 368  MN307163.1     0.89%    passed     16.17%
+ 369  KT963081.1     0.89%    passed     14.93%
+ 370  MN638757.1     0.85%    passed     14.85%
+ 371  MK492255.1     0.85%    passed     13.90%
+ 372  MK492256.1     0.85%    passed     13.90%
+ 373  MK492257.1     0.85%    passed     13.90%
+ 374  KP670855.2     0.85%    passed     14.17%
+ 375  KP670856.2     0.85%    passed     13.86%
+ 376  KP670859.1     0.85%    passed     13.48%
+ 377  KP670861.1     0.85%    passed     13.48%
+ 378  JF800905.1     0.85%    passed     13.48%
+ 379  KP670857.1     0.85%    passed     13.48%
+ 380  KP670860.1     0.85%    passed     13.48%
+ 381  KC857700.1     0.85%    passed     15.88%
+ 382  KC440171.1     0.85%    passed     13.32%
+ 383  KP670858.1     0.85%    passed     14.22%
+ 384  KJ019884.1     1.14%    passed      8.93%
+ 385  JX625134.1     0.87%    passed     13.96%
+ 386  MW816002.1     0.89%    passed     14.22%
+ 387  MW816063.1     0.89%    passed     14.73%
+ 388  MH697600.1     0.89%    passed     14.18%
+ 389  MH697601.1     0.89%    passed     13.72%
+ 390  MH697603.1     0.89%    passed     13.72%
+ 391  MH697604.1     0.89%    passed     13.72%
+ 392  MH697605.1     0.89%    passed     13.72%
+ 393  MH697607.1     0.89%    passed     13.72%
+ 394  MH697602.1     0.89%    passed     13.72%
+ 395  MH697606.1     0.89%    passed     13.72%
+ 396  MT350345.1     0.85%    passed     15.14%
+ 397  MT350346.1     0.85%    passed     14.74%
+ 398  MT367406.1     0.85%    passed     14.74%
+ 399  MT367400.1     0.88%    passed     15.38%
+ 400  MW816006.1     0.89%    passed     13.51%
+ 401  MT367407.1     0.85%    passed     14.84%
+ 402  LC530212.1     0.85%    passed     14.75%
+ 403  MG923582.1     1.53%    passed     11.70%
+ 404  MT350344.1     0.93%    passed     17.22%
+ 405  MT367401.1     0.85%    passed     14.74%
+ 406  MT367402.1     0.88%    passed     16.31%
+ 407  MT367403.1     0.97%    passed     17.40%
+ 408  MT367404.1     0.92%    passed     17.01%
+ 409  MT367405.1     0.85%    passed     14.26%
+ 410  MT993342.1     0.92%    passed     16.89%
+ 411  KU361344.1     0.92%    passed     15.91%
+ 412  MT325873.1     0.87%    passed     13.10%
+ 413  MG696129.1     0.87%    passed     13.10%
+ 414  MG696144.1     0.87%    passed     13.47%
+ 415  MG696128.1     0.87%    passed     13.10%
+ 416  MG696130.1     0.87%    passed     13.10%
+ 417  MG696131.1     0.87%    passed     13.10%
+ 418  MG696132.1     0.87%    passed     13.10%
+ 419  MG696135.1     0.87%    passed     13.10%
+ 420  MG696137.1     0.87%    passed     13.10%
+ 421  MG696138.1     0.87%    passed     13.10%
+ 422  MG696140.1     0.87%    passed     13.10%
+ 423  MG696141.1     0.87%    passed     13.10%
+ 424  MG696143.1     0.87%    passed     13.10%
+ 425  MG696145.1     0.87%    passed     13.10%
+ 426  MG696146.1     0.87%    passed     13.10%
+ 427  MG696149.1     0.87%    passed     13.10%
+ 428  MG696147.1     0.87%    passed     12.64%
+ 429  MG696134.1     0.87%    passed     13.38%
+ 430  MG736303.1     0.87%    passed     13.38%
+ 431  MG696136.1     0.87%    passed     13.10%
+ 432  MG736304.1     0.87%    passed     13.10%
+ 433  MG696133.1     0.87%    passed     13.10%
+ 434  MG696142.1     0.87%    passed     12.82%
+ 435  MG696139.1     0.87%    passed     13.17%
+ 436  MG696148.1     0.87%    passed     12.89%
+ 437  MT941567.1     1.03%    passed     10.01%
+ 438  KX897164.1     1.99%    passed      6.89%
+ 439  MT367394.1     0.88%    passed     15.39%
+ 440  MT367396.1     0.85%    passed     14.49%
+ 441  OK323268.1     0.90%    passed     13.92%
+ 442  MT367397.1     0.85%    passed     15.92%
+ 443  MT367398.1     0.86%    passed     16.98%
+ 444  MN164629.1     1.02%    passed     12.02%
+ 445  MN135993.1     1.01%    passed     12.08%
+ 446  MT367395.1     0.86%    passed     16.43%
+ 447  MG923581.1     2.89%    failed      4.03%
+ 448  MT920215.1     1.03%    passed      9.37%
+ 449  KJ019879.1     1.03%    passed      9.79%
+ 450  KJ019888.1     1.07%    passed     10.45%
+ 451  KJ019885.1     0.85%    passed     13.32%
+ 452  KJ019886.1     0.85%    passed     13.13%
+ 453  KJ019880.1     0.89%    passed     12.37%
+ 454  KJ019882.1     0.85%    passed     13.06%
+ 455  KJ019887.1     0.94%    passed     10.34%
+ 456  KJ019883.1     1.27%    passed      7.42%
+ 457  KJ019881.1     0.85%    passed     12.96%
+ 458  MH910663.1     0.85%    passed     13.67%
+ 459  MH910664.1     0.85%    passed     13.67%
+ 460  JX423387.1     0.90%    passed     15.07%
+ 461  JX423383.1     0.85%    passed     12.78%
+ 462  KF268117.1     0.90%    passed     12.25%
+ 463  KF268135.1     0.97%    passed     11.27%
+ 464  KF268314.1     0.90%    passed     14.81%
+ 465  KF268316.1     1.01%    passed     12.71%
+ 466  MH910666.1     0.85%    passed     11.58%
+ 467  KF268125.1     0.90%    passed      9.24%
+ 468  MH910667.1     0.90%    passed     12.81%
+ 469  MH910668.1     0.90%    passed     14.60%
+ 470  JX423388.1     0.90%    passed     13.17%
+ 471  AY601634.1     0.90%    passed     13.17%
+ 472  JN860677.1     0.85%    passed     12.45%
+ 473  MH355567.1     0.92%    passed     15.27%
+ 474  MT367399.1     0.86%    passed     14.41%
+ 475  MH828479.1     0.92%    passed     13.98%
+ 476  KP896480.1     0.92%    passed     14.33%
+ 477  MN936178.1     0.85%    passed      5.95%
+ 478  MH910669.1     0.85%    passed      5.95%
+ 479  AC_000018.1    0.85%    passed      6.38%
+ 480  AY495969.1     0.85%    passed      6.38%
+ 481  AY594256.1     0.85%    passed      6.51%
+ 482  MH910662.1     0.92%    passed      9.14%
+ 483  KF268134.1     0.88%    passed      8.33%
+ 484  KF429748.1     2.65%    failed      4.44%
+ 485  KP896481.1     0.92%    passed     17.13%
+ 486  KP896479.1     0.91%    passed     12.91%
+ 487  MN531562.1     0.84%    passed     15.37%
+ 488  HQ659699.1     8.31%    failed      0.00%
+ 489  GQ478341.1     0.86%    passed     17.51%
+ 490  AY594255.1     0.86%    passed     17.35%
+ 491  KF268315.1     1.06%    failed      0.74%
+ 492  JN860678.1     0.80%    failed      1.49%
+ 493  JN860680.1     1.26%    failed      0.75%
+ 494  AY601636.1     0.88%    failed      0.88%
+ 495  EF564600.1     0.83%    passed     17.44%
+ 496  EF564601.1     0.79%    passed     67.15%
+ 497  MW091531.1     0.79%    failed      3.22%
+ 498  MW151243.1     0.78%    failed      3.25%
+ 499  MN686206.1     0.79%    failed      3.03%
+ 500  KY307857.1     0.76%    failed      3.34%
+ 501  KF802425.1     0.76%    failed      3.38%
+ 502  KF577597.1     0.75%    failed      3.53%
+ 503  KF577598.1     0.76%    failed      3.32%
+ 504  KF577593.1     0.76%    failed      3.31%
+ 505  KF938575.1     0.76%    failed      3.58%
+ 506  KF938576.1     0.76%    failed      3.58%
+ 507  KF802426.1     0.90%    failed      2.28%
+ 508  KY307859.1     0.76%    failed      3.89%
+ 509  KJ364575.1     0.73%    failed      3.75%
+ 510  KJ364591.1     0.72%    failed      3.52%
+ 511  KJ364592.1     0.77%    failed      2.81%
+ 512  KY307860.1     0.75%    failed      3.67%
+ 513  KJ364574.1     0.74%    failed      3.52%
+ 514  KJ364583.1     0.73%    failed      3.62%
+ 515  KJ364585.1     0.73%    failed      3.52%
+ 516  KJ364580.1     0.73%    failed      3.45%
+ 517  KJ364578.1     0.73%    failed      3.43%
+ 518  KJ364586.1     0.73%    failed      3.63%
+ 519  KJ364588.1     0.74%    failed      3.12%
+ 520  MF502426.1     0.87%    failed      2.30%
+ 521  KY307858.1     0.78%    failed      3.01%
+ 522  KF577595.1     0.78%    failed      2.89%
+ 523  KF577599.1     0.78%    failed      2.89%
+ 524  KJ364573.1     0.76%    failed      2.74%
+ 525  KJ364576.1     0.76%    failed      2.84%
+ 526  KJ364582.1     0.75%    failed      2.93%
+ 527  KJ364587.1     0.75%    failed      2.93%
+ 528  KJ364584.1     0.75%    failed      2.88%
+ 529  KJ364581.1     0.76%    failed      2.84%
+ 530  KJ364590.1     0.76%    failed      2.75%
+ 531  KJ364577.1     0.72%    failed      3.52%
+ 532  KJ364579.1     0.73%    failed      3.20%
+ 533  KJ364589.1     0.72%    failed      3.21%
+ 534  KF528688.1     0.63%    failed      3.38%
+ 535  AY601633.1     0.71%    failed      2.67%
+ 536  AY737798.1     0.69%    failed      2.90%
+ 537  KF633445.1     0.82%    failed      3.10%
+ 538  AC_000010.1    0.82%    failed      2.00%
+****  TOTAL          0.85%  187 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: AY163756.1 is identical to NC_011202.1 but kept for subsequent analysis
+NOTE: MN654376.1 is identical to MN654375.1 but kept for subsequent analysis
+NOTE: KY471323.1 is identical to KY471321.1 but kept for subsequent analysis
+NOTE: MN654381.1 is identical to MN654380.1 but kept for subsequent analysis
+NOTE: JX423385.1 is identical to MN654383.1 but kept for subsequent analysis
+NOTE: MN654387.1 is identical to MN654386.1 but kept for subsequent analysis
+NOTE: MN654389.1 is identical to MN654388.1 but kept for subsequent analysis
+NOTE: MT806172.1 is identical to MT806170.1 but kept for subsequent analysis
+NOTE: KY780933.1 is identical to KY780932.1 but kept for subsequent analysis
+NOTE: MG905102.1 is identical to MG905099.1 but kept for subsequent analysis
+NOTE: MG905109.1 is identical to MG905100.1 but kept for subsequent analysis
+NOTE: MH669073.1 is identical to MH669071.1 but kept for subsequent analysis
+NOTE: KY021431.1 is identical to KY021430.1 but kept for subsequent analysis
+NOTE: MG642750.1 is identical to MG642745.1 but kept for subsequent analysis
+NOTE: MG642752.1 is identical to MG642744.1 but kept for subsequent analysis
+NOTE: JQ824845.1 is identical to MF062484.1 but kept for subsequent analysis
+NOTE: MW748658.1 is identical to MW748656.1 but kept for subsequent analysis
+NOTE: MW748667.1 is identical to MW748666.1 but kept for subsequent analysis
+NOTE: MW748665.1 is identical to MW748641.1 but kept for subsequent analysis
+NOTE: DQ086466.1 is identical to NC_011203.1 but kept for subsequent analysis
+NOTE: MW815976.1 is identical to MW815973.1 but kept for subsequent analysis
+NOTE: MN307151.1 is identical to MN307150.1 but kept for subsequent analysis
+NOTE: MW816036.1 is identical to MW816020.1 but kept for subsequent analysis
+NOTE: MW815996.1 is identical to MW815975.1 but kept for subsequent analysis
+NOTE: MW816058.1 is identical to MW815982.1 but kept for subsequent analysis
+NOTE: MW815988.1 is identical to MW815983.1 but kept for subsequent analysis
+NOTE: MW816021.1 is identical to MW815987.1 but kept for subsequent analysis
+NOTE: MN422293.1 is identical to MN422292.1 but kept for subsequent analysis
+NOTE: MH262319.1 is identical to MH262318.1 but kept for subsequent analysis
+NOTE: MN638756.1 is identical to MN638755.1 but kept for subsequent analysis
+NOTE: MN307158.1 is identical to MN307157.1 but kept for subsequent analysis
+NOTE: MN307154.1 is identical to MN307153.1 but kept for subsequent analysis
+NOTE: MN307162.1 is identical to MN307161.1 but kept for subsequent analysis
+NOTE: MK492256.1 is identical to MK492255.1 but kept for subsequent analysis
+NOTE: KP670861.1 is identical to KP670859.1 but kept for subsequent analysis
+NOTE: MH697603.1 is identical to MH697601.1 but kept for subsequent analysis
+NOTE: MT367406.1 is identical to MT350346.1 but kept for subsequent analysis
+NOTE: MG696129.1 is identical to MT325873.1 but kept for subsequent analysis
+NOTE: MG736303.1 is identical to MG696134.1 but kept for subsequent analysis
+NOTE: MG736304.1 is identical to MG696136.1 but kept for subsequent analysis
+NOTE: MH910664.1 is identical to MH910663.1 but kept for subsequent analysis
+NOTE: AY601634.1 is identical to JX423388.1 but kept for subsequent analysis
+NOTE: MH910669.1 is identical to MN936178.1 but kept for subsequent analysis
+NOTE: AY495969.1 is identical to AC_000018.1 but kept for subsequent analysis
+NOTE: KF938576.1 is identical to KF938575.1 but kept for subsequent analysis
+NOTE: KF577599.1 is identical to KF577595.1 but kept for subsequent analysis
+NOTE: KJ364587.1 is identical to KJ364582.1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0156779 secs using 97.07% CPU
+Identifying sites to remove: done in 0.0824201 secs using 92.44% CPU
+NOTE: 117 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: MN654377.1 (identical to MN654375.1) is ignored but added at the end
+NOTE: MN654378.1 (identical to MN654375.1) is ignored but added at the end
+NOTE: MN654379.1 (identical to MN654375.1) is ignored but added at the end
+NOTE: MT806173.1 (identical to MT806170.1) is ignored but added at the end
+NOTE: MG905108.1 (identical to MG905099.1) is ignored but added at the end
+NOTE: MG905104.1 (identical to MG905099.1) is ignored but added at the end
+NOTE: MG905107.1 (identical to MG905099.1) is ignored but added at the end
+NOTE: MW815979.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW815980.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW815985.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW815989.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW815991.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW815992.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW815995.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816004.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816011.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816012.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816013.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816014.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816019.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816026.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816028.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816029.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816030.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816037.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816040.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816041.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816043.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816044.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816047.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816052.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816060.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816061.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816074.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816079.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816081.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816082.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816083.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816084.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816089.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816091.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816092.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816094.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816098.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816100.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816086.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816015.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816073.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MW816072.1 (identical to MW815973.1) is ignored but added at the end
+NOTE: MN307152.1 (identical to MN307150.1) is ignored but added at the end
+NOTE: MW816048.1 (identical to MW816020.1) is ignored but added at the end
+NOTE: MW816005.1 (identical to MW816020.1) is ignored but added at the end
+NOTE: MW816008.1 (identical to MW816020.1) is ignored but added at the end
+NOTE: MW816033.1 (identical to MW816020.1) is ignored but added at the end
+NOTE: MW816034.1 (identical to MW816020.1) is ignored but added at the end
+NOTE: MW816064.1 (identical to MW816020.1) is ignored but added at the end
+NOTE: MW815999.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816062.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816075.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MN307146.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MN307147.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MN307148.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MN307149.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW815977.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW815990.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816022.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816023.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816024.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816025.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816027.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816032.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816039.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816045.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816050.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816051.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816054.1 (identical to MW815975.1) is ignored but added at the end
+NOTE: MW816068.1 (identical to MW815982.1) is ignored but added at the end
+NOTE: MW816093.1 (identical to MW815987.1) is ignored but added at the end
+NOTE: MW816095.1 (identical to MW815987.1) is ignored but added at the end
+NOTE: MW816097.1 (identical to MW815987.1) is ignored but added at the end
+NOTE: MW816065.1 (identical to MW815987.1) is ignored but added at the end
+NOTE: MW816076.1 (identical to MW815987.1) is ignored but added at the end
+NOTE: MW816088.1 (identical to MW815987.1) is ignored but added at the end
+NOTE: MW816096.1 (identical to MW815987.1) is ignored but added at the end
+NOTE: MH262320.1 (identical to MH262318.1) is ignored but added at the end
+NOTE: MH262321.1 (identical to MH262318.1) is ignored but added at the end
+NOTE: MH262322.1 (identical to MH262318.1) is ignored but added at the end
+NOTE: MH262324.1 (identical to MH262318.1) is ignored but added at the end
+NOTE: MH262325.1 (identical to MH262318.1) is ignored but added at the end
+NOTE: MH262326.1 (identical to MH262318.1) is ignored but added at the end
+NOTE: MN307159.1 (identical to MN307157.1) is ignored but added at the end
+NOTE: MN307160.1 (identical to MN307157.1) is ignored but added at the end
+NOTE: MN307155.1 (identical to MN307153.1) is ignored but added at the end
+NOTE: MN307163.1 (identical to MN307161.1) is ignored but added at the end
+NOTE: MK492257.1 (identical to MK492255.1) is ignored but added at the end
+NOTE: JF800905.1 (identical to KP670859.1) is ignored but added at the end
+NOTE: KP670857.1 (identical to KP670859.1) is ignored but added at the end
+NOTE: KP670860.1 (identical to KP670859.1) is ignored but added at the end
+NOTE: MH697604.1 (identical to MH697601.1) is ignored but added at the end
+NOTE: MH697605.1 (identical to MH697601.1) is ignored but added at the end
+NOTE: MH697607.1 (identical to MH697601.1) is ignored but added at the end
+NOTE: MH697602.1 (identical to MH697601.1) is ignored but added at the end
+NOTE: MH697606.1 (identical to MH697601.1) is ignored but added at the end
+NOTE: MG696128.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696130.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696131.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696132.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696135.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696137.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696138.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696140.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696141.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696143.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696145.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696146.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696149.1 (identical to MT325873.1) is ignored but added at the end
+NOTE: MG696133.1 (identical to MT325873.1) is ignored but added at the end
+Alignment was printed to results/aligned_adenovirusB_all-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_adenovirusB_all-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+
+NOTE: 83 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -3119614.473
+2. Current log-likelihood: -2942747.202
+3. Current log-likelihood: -2930482.018
+4. Current log-likelihood: -2930382.702
+5. Current log-likelihood: -2930370.887
+Optimal log-likelihood: -2930370.855
+Rate parameters:  A-C: 1.15605  A-G: 3.61540  A-T: 1.08067  C-G: 0.82147  C-T: 4.31790  G-T: 1.00000
+Base frequencies:  A: 0.255  C: 0.253  G: 0.251  T: 0.240
+Parameters optimization took 5 rounds (7.138 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 1.29692 secs using 99.85% CPU
+Computing ML distances took 1.311835 sec (of wall-clock time) 1.309299 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00273108 secs using 190.6% CPU
+Constructing RapidNJ tree: done in 0.00520706 secs using 193.1% CPU
+Computing RapidNJ tree took 0.008004 sec (of wall-clock time) 0.015284 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -181905.070
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 4.31706 secs using 99.66% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -176778.813
+Optimizing NNI: done in 35.874 secs using 99.55% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -176778.813 / CPU time: 42.672
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:52s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -176778.813
+Optimal log-likelihood: -176778.813
+Rate parameters:  A-C: 1.22612  A-G: 3.53040  A-T: 1.11444  C-G: 0.86489  C-T: 4.00492  G-T: 1.00000
+Base frequencies:  A: 0.255  C: 0.253  G: 0.251  T: 0.240
+Parameters optimization took 1 rounds (0.644 sec)
+BEST SCORE FOUND : -176778.813
+Total tree length: 0.615
+
+Total number of iterations: 2
+CPU time used for tree search: 42.461 sec (0h:0m:42s)
+Wall-clock time used for tree search: 42.673 sec (0h:0m:42s)
+Total CPU time used: 53.137 sec (0h:0m:53s)
+Total wall-clock time used: 53.233 sec (0h:0m:53s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_adenovirusB_all-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_adenovirusB_all-delim.fasta.treefile
+  Likelihood distances:          results/aligned_adenovirusB_all-delim.fasta.mldist
+  Screen log file:               results/aligned_adenovirusB_all-delim.fasta.log
+
+Date and Time: Thu Nov  3 14:19:39 2022
