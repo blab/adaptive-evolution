@@ -2,52 +2,17 @@
 
 Adaptive evolution is evolution in response to a selective pressure that increases fitness. In the context of viruses, the rate at which a protein evolves adaptively speaks to its evolutionary potential to undergo antigenic drift (evade antibody recognition), cross-species barriers, or escape drugs. In particular, a high rate of adaptation in a virus that has been endemic in humans for decades indicates that this virus is undergoing continuous adaptation, likely stemming from a changing selective landscape caused by an evolutionary arms race between the virus and its host. Because viral surface proteins are the primary targets of neutralizing antibodies, high rates of adaptation in viral surface protein typically indicates antigenic drift.
 
-This project seeks to compare adaptive evolution across a panel of human pathogenic RNA viruses. Each of these viruses contains a polymerase, which we expect to be relatively conserved, as well as surface proteins (or protein subunits) that bind host cells and fuse host and viral membranes. Using standardized methods, evolution in these proteins can be compared between viruses, with a high rate of adaptive evolution in surface proteins serving as a computational predication of antigenic evolution. 
+This project seeks to compare adaptive evolution across a panel of human pathogenic RNA viruses. All of these viruses contain a surface proteins (or protein subunit) that binds host cells, and thus is a prime target for the adaptive immune system to block infection. Using standardized methods, evolution in these proteins can be compared between viruses, with a high rate of adaptive evolution in receptor-binding protein serving as a computational predication of antigenic evolution. 
 
-This project is meant to assess adaptive evolution of a virus using sequence data, and has been built to work in coordination with a Nextstrain pathogen build. This project runs the following analyses on the output of a Nextstrain build  
-1. Topology of phylogeny (uses tree)
-> Ladder-like trees are indicative of ongoing adaptive evolution, while bushier trees signal a lack of continuous adaptative evolution
-2. dN/dS over time (uses tree)
-> An excess of nonsynonymous change relative to the expectation indicates selection for functional change. Divergence is calculated as the number of observed mutations (nonsynonymous or synonymous) divided by the number of possible sites (nonsynonymous or synonymous) for every internal branch within a 10-year time window. 
-3. Rate of adaptation (uses alignment)
-> The rate of adaptation (given in adaptive substitutions per codon per year) can be calculated and used to compare viruses. This is calculated directly from the alignment in a sitewise fashion. It defines a neutral class of synonymous and mid-frequency nonsynonymous mutations, and detects adaptive substitutions as an excess of high-frequency or fixed nonsynonymous mutations relative to this neutral class.
-4. Estimation of antigenically-varying epitopes (uses alignment)
-> Antigenic evolution occurs at viral residues contacted by antibodies (epitopes). Therefore, we expect to see high rates of adaptation within the epitopes of an antigenically-evolving virus. We expect these epitopes to be clusters of surface-accessible residues that have fixed nonsynonymous mutations. Using this expectation, we try to identify epitopes where antigenic drift has occurred during the natural history of a virus.  
+This project is meant to assess adaptive evolution of a virus using sequence data, and has been built to work in coordination with a Nextstrain pathogen build. The analysis code here has been written to consider the evolution of a single lineage of virus that has been sequenced over time, and calculates a rate of adaptation for a given viral protein using a McDonald-Kreitman-based method. This analysis can be done either from a constant outgroup (determined from the consensus sequence at the first timepoint), or from an updated outgroup (which starts from the same consensus sequence and then considers subsequent fixations within the viral population). 
 
+The steps for estimating the rate of adaptation within the genome of a virus are:
+1. Setup and run a Nextstrain
+2. Compile a configuration file in `config/` that supplies the necessary locations of input data as well as additional biological metadata about the virus (such as it's cellular receptor or mode of transmission)
+3. Run the [`rate_of_adaptation.ipynb`](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/rate_of_adaptation.ipynb) to compute the rate with an updating outgroup, or [`rate_of_adaptation_bhatt.ipynb`](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/rate_of_adaptation_bhatt.ipynb) to compute the rate with a constant outgroup.
 
-To run these analyses on a virus:
-1. Run Nextstrain build
-2. Set up the Config file
-3. Run analyses of adaptive evolution
-
-
-## Run Nextstrain build
-
-**See [Nextstrain documentation](https://docs.nextstrain.org/) for instructions.
-
-## Set up the Config file
-
-The config file for each virus should be named `adaptive_evo_config_VIRUS.json`, and should be located within the `config/` directory.
-
-The configuration input is written in json format. The following keys are required: 
-
-	"virus": name of virus
-	"virus_family": name of virus family
-	"subtype": "True" or "False". Whether virus has subtypes. If "True", "subtypes" input must also be specified
-	"color": hexcode for color to plot results
-	"alignment_file": path to the FASTA alignment file, relative to `bhatt_nextstrain.ipynb`
-	"meta_file": path to the TSV metadata file, relative to `bhatt_nextstrain.ipynb`
-	"metafile_sep": separator of the metadata file (such as "\t", or ",")
-	"reference_file": path to the Genbank reference genome file, relative to `bhatt_nextstrain.ipynb`
-	"ha_protein": dictionary input with the required entry "virus_gene": name of the viral gene equivalent to HA (surface protein with receptor-binding functionality), as specified in the reference Genbank file
-	"receptor_binding": dictionary input with the required entry "virus_gene": name of the receptor-binding gene or domain, as specified in the reference Genbank file. If the receptor-binding domain is not listed in the Genbank file, the location of this domain must be specified with "receptor_binding_location" input
-	"membrane_fusion": dictionary input with the required entry "virus_gene": name of the membrane-fusion gene or domain, as specified in the reference Genbank file. If the membrane-fusion domain is not listed in the Genbank file, the location of this domain must be specified with "membrane_fusion_location" input
-	"polymerase": dictionary input with the required entry "virus_gene": name of the viral polymerase, as specified in the reference Genbank file
-	"nonantigenic_gene": name of the gene to be used for calculating the m-ratio
-
-The following inputs are optional or conditionally required:
-
-	"subtypes": list of all subtypes. Only required if "subtype": "True"
-	"specify_location": use this if one of the required domains (such as "receptor_binding") is a sub-domain of another gene that does not have a separate "alignment_file" or is not listed as a gene in the Genbank "reference_file". an optional key entry in the "ha_protein", "receptor_binding", "membrane_fusion" and "polymerase" dictionaries. The value of "specify_location" is a dictionary with 2 required keys: "parent_gene" and "location". If "subtypes" are specified, then "location_{subtype}" must be supplied for each subtype instead of "location". The "parent_gene" is the gene that contains this domain. The "location" is the the domain's position within the parent gene or the whole genome (whichever format the reference file is in). The format for location entries is "[[start_position, end_position]]" or "[[start_position1, end_position1], [start_position2, end_position2]]" if the domain is non-contiguous.
-
-## Run analyses of adaptive evolution
+Figures in the manuscripts can be generated using the following notebooks:
+1. [Figure 1](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/Figure1.ipynb)
+2. [Figure 2](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/Figure2.ipynb)
+3. [Figure 3](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/Figure3.ipynb)
+4. [Figure 4](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/Figure4.ipynb)
