@@ -16,3 +16,4 @@ Figures in the manuscripts can be generated using the following notebooks:
 2. [Figure 2](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/Figure2.ipynb)
 3. [Figure 3](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/Figure3.ipynb)
 4. [Figure 4](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/Figure4.ipynb)
+5. [Figure 5](https://github.com/blab/adaptive-evolution/blob/master/adaptive-evolution-analysis/Figure5.ipynb)
