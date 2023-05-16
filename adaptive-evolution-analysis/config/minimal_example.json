@@ -1,0 +1,17 @@
+{
+  "virus": "virus_name",
+  "subtype": "True/False",
+  "legible_name": "legible_virus_name",
+  "color": "hexcode_color",
+  "alignment_file": "path/to/fasta/alignment",
+  "meta_file": "path/to/meta_file",
+  "metafile_sep": "(\t or ,)",
+  "reference_file": "path/to/reference/file",
+  "genes": ["list", "of", "genes"],
+  "ha_protein": {"virus_gene": "receptor_binding_gene_name"},
+  "receptor_binding": {"virus_gene": "receptor_binding_subunit_name"},
+  "membrane_fusion": {"virus_gene": "membrane_fusion_subunit_name"},
+  "polymerase": {"virus_gene": "polymerase_name"},
+  "nonantigenic_gene": "nonantigenic_gene_name"
+
+}
