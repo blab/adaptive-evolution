@@ -1,0 +1,342 @@
+IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar  3 2022 built Mar  3 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    MacBook-Pro-5.local (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_hepatitisB_D3-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    169003 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 18 10:46:13 2023
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file results/aligned_hepatitisB_D3-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.0131152 secs using 94.15% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.00612998 secs using 83.72% CPU
+Alignment has 241 sequences with 3182 columns, 1417 distinct patterns
+861 parsimony-informative, 511 singleton sites, 1810 constant sites
+          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000617981 secs using 97.09% CPU
+   1  AB188243    0.00%    passed     99.09%
+   2  MF488702    0.00%    passed     96.13%
+   3  JN664943    0.09%    passed     99.74%
+   4  ON585703    0.60%    passed     98.07%
+   5  JN688679    0.00%    passed     99.78%
+   6  KM386676    0.09%    passed     97.67%
+   7  JN688685    0.16%    passed     96.99%
+   8  KJ647349    0.16%    passed     99.74%
+   9  KX827302    0.00%    passed     99.91%
+  10  OK143479    0.00%    passed     99.11%
+  11  EU594382    0.00%    passed     99.91%
+  12  EU594436    0.00%    passed     99.69%
+  13  EU594435    0.00%    passed     99.83%
+  14  AJ627217    0.06%    passed     98.63%
+  15  OK143491    0.00%    passed     98.32%
+  16  LC519787    2.11%    passed     99.56%
+  17  KM577663    0.00%    passed     99.94%
+  18  KM577664    0.00%    passed     99.95%
+  19  AB583679    0.00%    passed     99.83%
+  20  KM577665    0.00%    passed     97.99%
+  21  KT366504    0.00%    passed     99.83%
+  22  MK507912    0.00%    passed     99.78%
+  23  KT366497    0.00%    passed     99.71%
+  24  KT366507    0.00%    passed     99.71%
+  25  KF679992    0.00%    passed     99.71%
+  26  KF679993    0.00%    passed     99.71%
+  27  KM524359    0.00%    passed     99.40%
+  28  GQ183478    0.00%    passed     99.85%
+  29  KF679989    0.00%    passed     99.95%
+  30  AY373430    0.00%    passed     97.63%
+  31  KT366492    0.00%    passed     99.73%
+  32  DQ315777    2.73%    passed     97.85%
+  33  GQ183485    0.00%    passed     99.88%
+  34  HM750151    0.00%    passed     99.40%
+  35  FJ562338    0.03%    passed     98.56%
+  36  KM577667    0.00%    passed     99.72%
+  37  GQ183486    0.00%    passed     99.92%
+  38  KU736926    0.28%    passed     97.76%
+  39  KU736927    0.03%    passed     95.31%
+  40  EU939680    0.00%    passed     99.86%
+  41  AB188245    0.00%    passed     98.18%
+  42  KF679988    1.38%    passed     99.04%
+  43  MW675898    0.00%    passed     99.95%
+  44  MT210033    0.00%    passed     99.84%
+  45  KM519455    0.00%    passed     99.87%
+  46  AY233291    0.00%    passed     99.41%
+  47  AY233295    0.00%    passed     99.71%
+  48  KT347090    0.00%    passed     99.97%
+  49  MN310708    0.13%    passed     99.92%
+  50  MN310713    0.00%    passed     99.99%
+  51  KP322602    0.00%    passed     99.93%
+  52  KC875317    0.00%    passed     99.98%
+  53  KC875337    0.00%    passed     99.78%
+  54  KP090181    0.00%    passed     99.55%
+  55  KC875334    0.00%    passed     99.90%
+  56  FJ349209    0.00%    passed     99.56%
+  57  MW082640    1.48%    passed     97.78%
+  58  MW082641    0.16%    passed     99.22%
+  59  MH724218    0.00%    passed    100.00%
+  60  MH724219    0.00%    passed     99.98%
+  61  KP090177    0.00%    passed     99.98%
+  62  KP090178    0.00%    passed     99.87%
+  63  MF618339    0.00%    passed     99.52%
+  64  KU668446    0.00%    passed     99.52%
+  65  JN664911    0.00%    passed     99.52%
+  66  MF618341    0.00%    passed     99.70%
+  67  DQ315776    0.00%    passed     99.52%
+  68  KU668438    0.00%    passed     99.26%
+  69  KM524350    0.00%    passed     99.26%
+  70  JN664938    0.00%    passed     99.19%
+  71  KU668437    0.00%    passed     99.25%
+  72  JN664937    0.00%    passed     99.68%
+  73  JN664917    0.00%    passed     99.60%
+  74  AM422939    0.00%    passed     99.55%
+  75  MF618340    0.00%    passed     99.71%
+  76  KU668436    0.00%    passed     97.51%
+  77  JN664914    0.00%    passed     99.25%
+  78  JN257181    0.00%    passed     99.52%
+  79  KC875335    0.00%    passed     99.66%
+  80  KC875326    0.00%    passed     99.93%
+  81  KC875318    0.00%    passed     99.72%
+  82  KC875323    0.00%    passed     99.93%
+  83  KC875324    0.00%    passed     99.78%
+  84  KC875330    0.00%    passed     99.87%
+  85  KC875329    0.00%    passed     99.96%
+  86  KC875331    0.00%    passed     99.99%
+  87  KC875315    0.00%    passed     99.90%
+  88  MH724214    0.00%    passed     99.63%
+  89  MH724221    0.00%    passed     99.63%
+  90  FJ692506    0.00%    passed     99.99%
+  91  FJ692507    0.00%    passed     99.99%
+  92  MH724215    0.00%    passed     99.43%
+  93  MH724220    0.00%    passed     99.66%
+  94  FJ349232    0.00%    passed     99.60%
+  95  KP090180    0.00%    passed     98.74%
+  96  MH724224    0.00%    passed     99.96%
+  97  MH724225    0.03%    passed     99.79%
+  98  MH724227    0.00%    passed     99.55%
+  99  MH724228    0.00%    passed     99.38%
+ 100  MH724229    0.13%    passed     99.81%
+ 101  MH724230    0.00%    passed     99.63%
+ 102  MH724248    0.09%    passed     98.51%
+ 103  MH724232    0.00%    passed     99.71%
+ 104  GU563560    0.00%    passed     99.99%
+ 105  AY233292    0.00%    passed     99.88%
+ 106  AY233294    0.00%    passed     99.15%
+ 107  AY233293    0.00%    passed     99.75%
+ 108  MH724242    0.00%    passed     99.03%
+ 109  KU668434    0.00%    passed     99.76%
+ 110  MF488704    0.00%    passed     99.61%
+ 111  JN664936    0.00%    passed     99.56%
+ 112  JN664916    0.22%    passed     99.80%
+ 113  MG877709    0.13%    passed     99.07%
+ 114  MG877711    0.41%    passed     98.45%
+ 115  KX827292    0.00%    passed     99.85%
+ 116  JX898686    0.00%    passed     99.82%
+ 117  JX898689    0.00%    passed     99.94%
+ 118  JX898690    0.00%    passed     99.37%
+ 119  JX898691    0.00%    passed     99.82%
+ 120  JX898692    0.00%    passed     99.82%
+ 121  JX898687    0.00%    passed     99.91%
+ 122  JX898688    0.00%    passed     99.90%
+ 123  JX898697    0.03%    passed     99.90%
+ 124  JX898698    0.19%    passed     99.89%
+ 125  JX898699    0.00%    passed     99.94%
+ 126  HE815465    0.00%    passed     99.82%
+ 127  JX898693    0.00%    passed     99.91%
+ 128  JX898694    0.00%    passed     99.89%
+ 129  JX898695    0.00%    passed     99.23%
+ 130  JX898696    0.16%    passed     99.50%
+ 131  KJ843187    0.00%    passed     99.23%
+ 132  KC012652    0.03%    passed     99.72%
+ 133  JX470760    0.03%    passed     99.53%
+ 134  AB210819    0.00%    passed     99.45%
+ 135  HQ236014    0.00%    passed    100.00%
+ 136  HQ236015    0.00%    passed     99.79%
+ 137  HQ236016    0.00%    passed     99.85%
+ 138  KU668444    0.00%    passed     99.90%
+ 139  KU668442    0.00%    passed     99.46%
+ 140  KU668443    0.03%    passed     98.95%
+ 141  KU668445    0.00%    passed     99.20%
+ 142  MH724233    0.09%    passed     99.19%
+ 143  MN310709    0.13%    passed     97.02%
+ 144  MH724222    0.00%    passed     99.66%
+ 145  KP090179    0.00%    passed     99.71%
+ 146  MN310711    0.16%    passed     93.43%
+ 147  MN310712    0.13%    passed     99.88%
+ 148  MN310710    0.22%    passed     98.21%
+ 149  MH724226    0.03%    passed     99.96%
+ 150  MH724249    0.03%    passed     99.44%
+ 151  MH724250    0.00%    passed     99.47%
+ 152  GQ922001    0.00%    passed     99.84%
+ 153  GQ922002    0.03%    passed     99.98%
+ 154  AY233296    0.00%    passed     98.61%
+ 155  AB554016    0.09%    passed     99.87%
+ 156  AB554023    0.09%    passed     99.99%
+ 157  AB554024    0.09%    passed     99.81%
+ 158  EU921419    0.09%    passed     97.51%
+ 159  EU921418    0.09%    passed     98.67%
+ 160  MH724235    0.00%    passed     99.85%
+ 161  JN688678    0.13%    passed     99.86%
+ 162  JN688722    2.70%    passed     99.15%
+ 163  MH724240    0.03%    passed     97.41%
+ 164  MH724237    0.03%    passed     99.78%
+ 165  JN688708    0.44%    passed     99.88%
+ 166  MN310714    0.09%    passed     98.47%
+ 167  MN310715    0.16%    passed     98.99%
+ 168  MH724234    0.03%    passed     96.47%
+ 169  FJ349211    2.48%    passed     99.88%
+ 170  JN664909    0.00%    passed     98.05%
+ 171  JN664910    0.00%    passed     93.30%
+ 172  KU668433    0.00%    passed     99.47%
+ 173  KU668435    0.00%    passed     99.83%
+ 174  FJ349214    0.00%    passed     98.60%
+ 175  KJ647353    0.47%    passed     98.85%
+ 176  FJ349212    0.00%    passed     99.42%
+ 177  AJ627221    0.16%    passed     99.66%
+ 178  AY902768    0.03%    passed     99.64%
+ 179  AY902776    0.03%    passed     99.64%
+ 180  AY902769    0.03%    passed     99.85%
+ 181  AY902774    0.03%    passed     99.85%
+ 182  AY902772    0.03%    passed     99.89%
+ 183  AY902777    0.03%    passed     99.87%
+ 184  AY902773    0.03%    passed     99.90%
+ 185  AY902770    0.03%    passed     99.79%
+ 186  MG877718    0.72%    passed     99.85%
+ 187  MG877719    1.70%    passed     99.24%
+ 188  MG877720    0.85%    passed     99.63%
+ 189  MH724245    0.00%    passed     98.89%
+ 190  KJ647355    0.16%    passed     98.70%
+ 191  OK143497    0.97%    passed     98.31%
+ 192  FJ349213    0.00%    passed     99.70%
+ 193  AB270537    2.26%    passed     98.38%
+ 194  JN688683    0.69%    passed     99.65%
+ 195  JN688710    0.09%    passed     92.62%
+ 196  MH724243    0.00%    passed     98.64%
+ 197  MH724239    0.00%    passed     98.06%
+ 198  ON585704    1.79%    passed     98.59%
+ 199  JN688711    0.19%    passed     99.26%
+ 200  MK541688    0.00%    passed     99.92%
+ 201  KF679990    0.00%    passed     97.41%
+ 202  KF679991    0.47%    passed     98.89%
+ 203  EU594434    0.00%    passed     99.50%
+ 204  MG877726    1.63%    passed     95.62%
+ 205  MG877727    1.63%    passed     95.62%
+ 206  MG877728    1.73%    passed     94.27%
+ 207  KM359442    0.03%    passed     93.47%
+ 208  OK143467    0.00%    passed     97.62%
+ 209  OK143473    0.00%    passed     97.10%
+ 210  OK143468    0.00%    passed     98.25%
+ 211  OK143480    0.00%    passed     98.02%
+ 212  OK143488    0.00%    passed     98.61%
+ 213  OK143471    1.01%    passed     96.90%
+ 214  OK143486    0.00%    passed     99.91%
+ 215  OK143469    0.06%    passed     99.33%
+ 216  OK143476    0.00%    passed     99.12%
+ 217  OK143485    0.00%    passed     98.24%
+ 218  OK143494    0.00%    passed     98.70%
+ 219  JN688689    0.82%    passed     99.25%
+ 220  JN688715    0.82%    passed     99.81%
+ 221  JN688713    0.19%    passed     99.93%
+ 222  LC519824    1.98%    passed     93.95%
+ 223  JN688712    0.16%    passed     99.21%
+ 224  KM577666    0.00%    passed     92.65%
+ 225  GQ922000    0.03%    passed     97.19%
+ 226  JF754625    0.47%    passed     99.09%
+ 227  KT749845    1.04%    passed     99.61%
+ 228  FJ349221    0.00%    passed     81.81%
+ 229  KJ647351    0.09%    passed     99.62%
+ 230  JN688716    0.13%    passed     96.04%
+ 231  JN664919    0.00%    passed     99.59%
+ 232  JN664942    0.03%    passed     95.14%
+ 233  JN664948    0.75%    passed     99.07%
+ 234  JN664921    0.00%    passed     98.27%
+ 235  JN664935    0.09%    passed     99.27%
+ 236  JN664920    0.00%    passed     99.26%
+ 237  JN664922    0.00%    passed     94.05%
+ 238  JQ023666    0.06%    passed     99.79%
+ 239  MF488699    0.00%    passed     98.29%
+ 240  KC774456    0.00%    passed     79.70%
+ 241  FJ562263    0.03%    passed     87.02%
+****  TOTAL       0.17%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KT366507 is identical to KT366497 but kept for subsequent analysis
+NOTE: KP090177 is identical to MH724219 but kept for subsequent analysis
+NOTE: KU668446 is identical to MF618339 but kept for subsequent analysis
+NOTE: MH724221 is identical to MH724214 but kept for subsequent analysis
+NOTE: FJ692507 is identical to FJ692506 but kept for subsequent analysis
+NOTE: JX898692 is identical to JX898691 but kept for subsequent analysis
+NOTE: AY902776 is identical to AY902768 but kept for subsequent analysis
+NOTE: AY902774 is identical to AY902769 but kept for subsequent analysis
+NOTE: MG877727 is identical to MG877726 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00103998 secs using 88.08% CPU
+Identifying sites to remove: done in 0.00546193 secs using 91.08% CPU
+NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KF679992 (identical to KT366497) is ignored but added at the end
+NOTE: KF679993 (identical to KT366497) is ignored but added at the end
+NOTE: JN664911 (identical to MF618339) is ignored but added at the end
+Alignment was printed to results/aligned_hepatitisB_D3-delim.fasta.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to results/aligned_hepatitisB_D3-delim.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+
+NOTE: 10 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.500)
+1. Initial log-likelihood: -73043.831
+2. Current log-likelihood: -70354.573
+3. Current log-likelihood: -70324.917
+4. Current log-likelihood: -70323.729
+Optimal log-likelihood: -70323.727
+Rate parameters:  A-C: 1.92136  A-G: 3.42708  A-T: 1.20725  C-G: 0.48145  C-T: 2.67949  G-T: 1.00000
+Base frequencies:  A: 0.229  C: 0.270  G: 0.217  T: 0.284
+Parameters optimization took 4 rounds (1.059 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.123709 secs using 99.66% CPU
+Computing ML distances took 0.125118 sec (of wall-clock time) 0.124267 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00104213 secs using 168.7% CPU
+Constructing RapidNJ tree: done in 0.0035069 secs using 192.5% CPU
+Computing RapidNJ tree took 0.004598 sec (of wall-clock time) 0.008536 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -43011.013
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+
+Do NNI search on 2 best initial trees
+Optimizing NNI: done in 0.615428 secs using 105.3% CPU
+Estimate model parameters (epsilon = 0.500)
+BETTER TREE FOUND at iteration 1: -42659.974
+Optimizing NNI: done in 4.19958 secs using 99.91% CPU
+Finish initializing candidate tree set (4)
+Current best tree score: -42659.974 / CPU time: 5.123
+Number of iterations: 2
+TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.050)
+1. Initial log-likelihood: -42659.974
+Optimal log-likelihood: -42659.973
+Rate parameters:  A-C: 1.90418  A-G: 3.49528  A-T: 1.22881  C-G: 0.60111  C-T: 2.60917  G-T: 1.00000
+Base frequencies:  A: 0.229  C: 0.270  G: 0.217  T: 0.284
+Parameters optimization took 1 rounds (0.084 sec)
+BEST SCORE FOUND : -42659.973
+Total tree length: 1.793
+
+Total number of iterations: 2
+CPU time used for tree search: 5.164 sec (0h:0m:5s)
+Wall-clock time used for tree search: 5.123 sec (0h:0m:5s)
+Total CPU time used: 6.755 sec (0h:0m:6s)
+Total wall-clock time used: 6.594 sec (0h:0m:6s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/aligned_hepatitisB_D3-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_hepatitisB_D3-delim.fasta.treefile
+  Likelihood distances:          results/aligned_hepatitisB_D3-delim.fasta.mldist
+  Screen log file:               results/aligned_hepatitisB_D3-delim.fasta.log
+
+Date and Time: Thu May 18 10:46:19 2023
