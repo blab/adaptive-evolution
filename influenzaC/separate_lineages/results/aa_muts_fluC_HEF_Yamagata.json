@@ -2,14 +2,14 @@
   "annotations": {
     "FLUCVs4gp1": {
       "end": 1989,
-      "seqid": "config/reference_fluC_HE.gb",
+      "seqid": "config/reference_fluC_HEF.gb",
       "start": 22,
       "strand": "+",
       "type": "CDS"
     },
     "nuc": {
       "end": 2073,
-      "seqid": "config/reference_fluC_HE.gb",
+      "seqid": "config/reference_fluC_HEF.gb",
       "start": 1,
       "strand": "+",
       "type": "source"
@@ -383,29 +383,12 @@
     "M11642.1": {
       "aa_muts": {
         "FLUCVs4gp1": [
+          "G67C",
           "S281T",
-          "S517T"
-        ]
-      }
-    },
-    "M11643.1": {
-      "aa_muts": {
-        "FLUCVs4gp1": [
-          "G34V",
-          "L458F"
-        ]
-      }
-    },
-    "M11644.1": {
-      "aa_muts": {
-        "FLUCVs4gp1": []
-      }
-    },
-    "M11645.1": {
-      "aa_muts": {
-        "FLUCVs4gp1": [
-          "E207D",
-          "L458F"
+          "P324L",
+          "S517T",
+          "A637T",
+          "A638P"
         ]
       }
     },
@@ -422,7 +405,7 @@
         "FLUCVs4gp1": "MFFSLLLMLGLTEAEKIKICLQKQVNSSFSLHNGFGGNLYATEEKRMFELVKPKAGASVLNQSTWIGFGDSRTDKSNSAFPRSADVSAKTADKFRSLSGGSLMLSMFGPPGKVDYLYQGCGKHKVFYEGVNWSPHAAIDCYRKNWTDIKLNFQKNIYELASQSHCMSLVNALDKTIPLQVTAGVAKNCNNSFLKNPALYTQEVNPSKQICGEENLAFFTLPTQFGTYECKLHLVASCYFIYDSKEVYNKRGCDNYFQVIYDSSGKVVGGLDNRVSPYTGNSGDTPTMQCDMLQLKPGRYSVRSSPRFLLMPERSYCFDMKEKGPVTAVQSVWGKGRKSDYAVDQACLSTPGCMLIQKQKPYIGEADDHHGDQEMRELLSGLDYEARCISQSGWVNETSPFTEEYLLPPKFGRCPLAAKEESIPKIPDGLLIPTSGTDTTVTKPKSRIFGIDDLIIGLFFVAIVETGIGGYLLGSRKESGGGVTKESAEKGFEKIGNDIQILRSSTNIAIEKLNDRISHDEQAIRDLTLEIENARSEALLGELGIIRALLVGNISIGLQESLWELASEITNRAGDLAVEVSPGCWIIDNNICDQSCQNFIFKFNETAPVPTIPPLDTKIDLQSDPFYWGSSLGLAITAAISLAALAISGIAICRTK*"
       }
     },
-    "NODE_0000003": {
+    "NODE_0000002": {
       "aa_muts": {
         "FLUCVs4gp1": []
       }
@@ -449,9 +432,16 @@
         "FLUCVs4gp1": []
       }
     },
-    "NODE_0000011": {
+    "NODE_0000010": {
       "aa_muts": {
         "FLUCVs4gp1": []
+      }
+    },
+    "NODE_0000011": {
+      "aa_muts": {
+        "FLUCVs4gp1": [
+          "K75Q"
+        ]
       }
     },
     "NODE_0000012": {
@@ -461,9 +451,7 @@
     },
     "NODE_0000013": {
       "aa_muts": {
-        "FLUCVs4gp1": [
-          "K75Q"
-        ]
+        "FLUCVs4gp1": []
       }
     },
     "NODE_0000014": {
@@ -523,33 +511,12 @@
         "FLUCVs4gp1": []
       }
     },
+    "NODE_0000022": {
+      "aa_muts": {
+        "FLUCVs4gp1": []
+      }
+    },
     "NODE_0000023": {
-      "aa_muts": {
-        "FLUCVs4gp1": [
-          "G67C",
-          "P324L",
-          "A637T",
-          "A638P"
-        ]
-      }
-    },
-    "NODE_0000024": {
-      "aa_muts": {
-        "FLUCVs4gp1": [
-          "D92E",
-          "V180A",
-          "D588N"
-        ]
-      }
-    },
-    "NODE_0000025": {
-      "aa_muts": {
-        "FLUCVs4gp1": [
-          "A136T"
-        ]
-      }
-    },
-    "NODE_0000026": {
       "aa_muts": {
         "FLUCVs4gp1": [
           "H135Q",
@@ -557,7 +524,12 @@
         ]
       }
     },
-    "NODE_0000027": {
+    "NODE_0000024": {
+      "aa_muts": {
+        "FLUCVs4gp1": []
+      }
+    },
+    "NODE_0000025": {
       "aa_muts": {
         "FLUCVs4gp1": []
       }
@@ -568,6 +540,11 @@
       }
     },
     "NODE_0000029": {
+      "aa_muts": {
+        "FLUCVs4gp1": []
+      }
+    },
+    "NODE_0000030": {
       "aa_muts": {
         "FLUCVs4gp1": []
       }
@@ -584,12 +561,16 @@
     },
     "NODE_0000033": {
       "aa_muts": {
-        "FLUCVs4gp1": []
+        "FLUCVs4gp1": [
+          "S594N"
+        ]
       }
     },
     "NODE_0000034": {
       "aa_muts": {
-        "FLUCVs4gp1": []
+        "FLUCVs4gp1": [
+          "A185S"
+        ]
       }
     },
     "NODE_0000035": {
@@ -599,16 +580,12 @@
     },
     "NODE_0000036": {
       "aa_muts": {
-        "FLUCVs4gp1": [
-          "S594N"
-        ]
+        "FLUCVs4gp1": []
       }
     },
     "NODE_0000037": {
       "aa_muts": {
-        "FLUCVs4gp1": [
-          "A185S"
-        ]
+        "FLUCVs4gp1": []
       }
     },
     "NODE_0000038": {
@@ -621,16 +598,14 @@
         "FLUCVs4gp1": []
       }
     },
-    "NODE_0000040": {
+    "NODE_0000041": {
       "aa_muts": {
         "FLUCVs4gp1": []
       }
     },
-    "NODE_0000041": {
+    "NODE_0000042": {
       "aa_muts": {
-        "FLUCVs4gp1": [
-          "V274A"
-        ]
+        "FLUCVs4gp1": []
       }
     },
     "NODE_0000043": {
@@ -640,10 +615,22 @@
     },
     "NODE_0000044": {
       "aa_muts": {
-        "FLUCVs4gp1": []
+        "FLUCVs4gp1": [
+          "V274A"
+        ]
       }
     },
     "NODE_0000045": {
+      "aa_muts": {
+        "FLUCVs4gp1": []
+      }
+    },
+    "NODE_0000046": {
+      "aa_muts": {
+        "FLUCVs4gp1": []
+      }
+    },
+    "NODE_0000047": {
       "aa_muts": {
         "FLUCVs4gp1": []
       }
@@ -653,22 +640,17 @@
         "FLUCVs4gp1": []
       }
     },
-    "NODE_0000050": {
+    "NODE_0000054": {
       "aa_muts": {
         "FLUCVs4gp1": []
       }
     },
-    "NODE_0000057": {
+    "NODE_0000055": {
       "aa_muts": {
         "FLUCVs4gp1": []
       }
     },
-    "NODE_0000058": {
-      "aa_muts": {
-        "FLUCVs4gp1": []
-      }
-    },
-    "NODE_0000059": {
+    "NODE_0000056": {
       "aa_muts": {
         "FLUCVs4gp1": []
       }

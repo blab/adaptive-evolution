@@ -2,23 +2,23 @@ IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
 Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
 
-Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
-Command: iqtree2 -nt 1 -s results/aligned_fluC_HE_SaoPaolo-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
-Seed:    808353 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Oct 24 17:40:00 2022
+Host:    macbook-pro-5.fhcrc.org (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_fluC_HEF_SaoPaolo-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    132188 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 18 10:14:00 2023
 Kernel:  SSE2 - 1 threads (8 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
 HINT: -nt AUTO will automatically determine the best number of threads to use.
 
-Reading alignment file results/aligned_fluC_HE_SaoPaolo-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.00578094 secs using 95.56% CPU
+Reading alignment file results/aligned_fluC_HEF_SaoPaolo-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00897288 secs using 63.08% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.00265217 secs using 84.23% CPU
+Constructing alignment: done in 0.0025959 secs using 83.21% CPU
 Alignment has 153 sequences with 2073 columns, 423 distinct patterns
 172 parsimony-informative, 116 singleton sites, 1785 constant sites
             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 8.10623e-05 secs using 97.46% CPU
+Analyzing sequences: done in 0.000112057 secs using 77.64% CPU
    1  LC720285.1    0.48%    passed     97.35%
    2  LC512500.1    4.20%    passed     99.93%
    3  LC512501.1    4.20%    passed     99.93%
@@ -193,8 +193,8 @@ NOTE: LC512495.1 is identical to LC512493.1 but kept for subsequent analysis
 NOTE: LC512506.1 is identical to LC512504.1 but kept for subsequent analysis
 NOTE: LC512498.1 is identical to LC512497.1 but kept for subsequent analysis
 NOTE: JX129184.1 is identical to JX129183.1 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.00048995 secs using 79.19% CPU
-Identifying sites to remove: done in 0.00262094 secs using 96.72% CPU
+Checking for duplicate sequences: done in 0.00049901 secs using 78.76% CPU
+Identifying sites to remove: done in 0.00265384 secs using 96.69% CPU
 NOTE: 15 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: LC512505.1 (identical to LC512500.1) is ignored but added at the end
 NOTE: LC512513.1 (identical to LC512500.1) is ignored but added at the end
@@ -211,44 +211,44 @@ NOTE: LC512496.1 (identical to LC512493.1) is ignored but added at the end
 NOTE: LC512511.1 (identical to LC512493.1) is ignored but added at the end
 NOTE: LC385864.1 (identical to LC512493.1) is ignored but added at the end
 NOTE: LC512508.1 (identical to LC512497.1) is ignored but added at the end
-Alignment was printed to results/aligned_fluC_HE_SaoPaolo-delim.fasta.uniqueseq.phy
+Alignment was printed to results/aligned_fluC_HEF_SaoPaolo-delim.fasta.uniqueseq.phy
 
-For your convenience alignment with unique sequences printed to results/aligned_fluC_HE_SaoPaolo-delim.fasta.uniqueseq.phy
+For your convenience alignment with unique sequences printed to results/aligned_fluC_HEF_SaoPaolo-delim.fasta.uniqueseq.phy
 
 Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
 
 NOTE: 1 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -15088.180
-2. Current log-likelihood: -14073.186
-3. Current log-likelihood: -13787.014
-4. Current log-likelihood: -13752.956
-Optimal log-likelihood: -13752.928
-Rate parameters:  A-C: 19.77973  A-G: 73.89117  A-T: 4.95232  C-G: 2.97246  C-T: 100.00000  G-T: 1.00000
+1. Initial log-likelihood: -15225.785
+2. Current log-likelihood: -14153.999
+3. Current log-likelihood: -13867.144
+4. Current log-likelihood: -13865.306
+Optimal log-likelihood: -13865.305
+Rate parameters:  A-C: 19.85530  A-G: 73.75487  A-T: 4.99771  C-G: 2.95094  C-T: 99.99020  G-T: 1.00000
 Base frequencies:  A: 0.325  C: 0.182  G: 0.222  T: 0.272
-Parameters optimization took 4 rounds (0.219 sec)
+Parameters optimization took 4 rounds (0.227 sec)
 
 WARNING: Estimated model parameters are at boundary that can cause numerical instability!
 
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.0314341 secs using 99.06% CPU
-Computing ML distances took 0.031730 sec (of wall-clock time) 0.031341 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.000504971 secs using 165.8% CPU
-Constructing RapidNJ tree: done in 0.000808001 secs using 187.1% CPU
-Computing RapidNJ tree took 0.001374 sec (of wall-clock time) 0.002456 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -5748.486
+Calculating distance matrix: done in 0.03091 secs using 99.75% CPU
+Computing ML distances took 0.031154 sec (of wall-clock time) 0.031026 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000578165 secs using 152.9% CPU
+Constructing RapidNJ tree: done in 0.000793934 secs using 188.1% CPU
+Computing RapidNJ tree took 0.001431 sec (of wall-clock time) 0.002450 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5748.485
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.125244 secs using 184.8% CPU
+Optimizing NNI: done in 0.120364 secs using 175.6% CPU
 Estimate model parameters (epsilon = 0.500)
-BETTER TREE FOUND at iteration 1: -5705.774
-Optimizing NNI: done in 0.667198 secs using 99.9% CPU
+BETTER TREE FOUND at iteration 1: -5705.773
+Optimizing NNI: done in 0.759069 secs using 99.84% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -5705.774 / CPU time: 0.943
+Current best tree score: -5705.773 / CPU time: 1.027
 Number of iterations: 2
 TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
 
@@ -257,24 +257,24 @@ TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:1s
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -5705.774
-Optimal log-likelihood: -5705.774
-Rate parameters:  A-C: 3.21526  A-G: 16.70271  A-T: 1.73656  C-G: 1.32719  C-T: 24.42651  G-T: 1.00000
+1. Initial log-likelihood: -5705.773
+Optimal log-likelihood: -5705.773
+Rate parameters:  A-C: 3.18720  A-G: 16.53156  A-T: 1.71738  C-G: 1.31539  C-T: 24.19765  G-T: 1.00000
 Base frequencies:  A: 0.325  C: 0.182  G: 0.222  T: 0.272
 Parameters optimization took 1 rounds (0.015 sec)
-BEST SCORE FOUND : -5705.774
+BEST SCORE FOUND : -5705.773
 Total tree length: 0.198
 
 Total number of iterations: 2
-CPU time used for tree search: 1.086 sec (0h:0m:1s)
-Wall-clock time used for tree search: 0.943 sec (0h:0m:0s)
-Total CPU time used: 1.425 sec (0h:0m:1s)
-Total wall-clock time used: 1.261 sec (0h:0m:1s)
+CPU time used for tree search: 1.159 sec (0h:0m:1s)
+Wall-clock time used for tree search: 1.028 sec (0h:0m:1s)
+Total CPU time used: 1.496 sec (0h:0m:1s)
+Total wall-clock time used: 1.356 sec (0h:0m:1s)
 
 Analysis results written to: 
-  IQ-TREE report:                results/aligned_fluC_HE_SaoPaolo-delim.fasta.iqtree
-  Maximum-likelihood tree:       results/aligned_fluC_HE_SaoPaolo-delim.fasta.treefile
-  Likelihood distances:          results/aligned_fluC_HE_SaoPaolo-delim.fasta.mldist
-  Screen log file:               results/aligned_fluC_HE_SaoPaolo-delim.fasta.log
+  IQ-TREE report:                results/aligned_fluC_HEF_SaoPaolo-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_fluC_HEF_SaoPaolo-delim.fasta.treefile
+  Likelihood distances:          results/aligned_fluC_HEF_SaoPaolo-delim.fasta.mldist
+  Screen log file:               results/aligned_fluC_HEF_SaoPaolo-delim.fasta.log
 
-Date and Time: Mon Oct 24 17:40:02 2022
+Date and Time: Fri Aug 18 10:14:01 2023

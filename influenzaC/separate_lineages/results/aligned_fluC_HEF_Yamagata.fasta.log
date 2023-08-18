@@ -1,5 +1,5 @@
 inputfile = orig
-63 x 2073 - 1729 d
+60 x 2073 - 1729 d
 nthread = 1
 nadd = 0
 inputfile = infile
@@ -12,7 +12,7 @@ Step 1/2
 1   
 
 Step 2/2
- 1 / 63 (1 threads)   
+ 1 / 60 (1 threads)   
 makedirectionlist (nuc) Version 7.490
 alg=m, model=DNA200 (2), 1.53 (4.59), 0.37 (1.11), noshift, amax=0.0
 1 thread(s)
@@ -21,12 +21,12 @@ directionfile = _direction
 inputfile = infile
 subalignment = 0
 subalignmentoffset = 0
-63 x 2073 - 1729 d
+60 x 2073 - 1729 d
 directionfile = _direction
 inputfile = orig
 subalignment = 0
 subalignmentoffset = 0
-63 x 2073 - 1729 d
+60 x 2073 - 1729 d
 nthread = 1
 nthreadpair = 1
 nthreadtb = 1
@@ -38,31 +38,31 @@ Gap Penalty = -1.53, +0.00, +0.00
 
 
 Making a distance matrix ..
-    1 / 63 (thread    0)
+    1 / 60 (thread    0)
 done.
 
 Constructing a UPGMA tree (efffree=0) ... 
-    0 / 63   10 / 63   20 / 63   30 / 63   40 / 63   50 / 63   60 / 63
+    0 / 60   10 / 60   20 / 60   30 / 60   40 / 60   50 / 60
 done.
 
 Progressive alignment 1/2... 
-STEP     1 / 62 (thread    0) fSTEP     2 / 62 (thread    0) fSTEP     3 / 62 (thread    0) fSTEP     4 / 62 (thread    0) fSTEP     5 / 62 (thread    0) fSTEP     6 / 62 (thread    0) fSTEP     7 / 62 (thread    0) fSTEP     8 / 62 (thread    0) fSTEP     9 / 62 (thread    0) fSTEP    10 / 62 (thread    0) fSTEP    11 / 62 (thread    0) fSTEP    12 / 62 (thread    0) fSTEP    13 / 62 (thread    0) fSTEP    14 / 62 (thread    0) fSTEP    15 / 62 (thread    0) fSTEP    16 / 62 (thread    0) fSTEP    17 / 62 (thread    0) fSTEP    18 / 62 (thread    0) fSTEP    19 / 62 (thread    0) fSTEP    20 / 62 (thread    0) fSTEP    21 / 62 (thread    0) fSTEP    22 / 62 (thread    0) fSTEP    23 / 62 (thread    0) fSTEP    24 / 62 (thread    0) fSTEP    25 / 62 (thread    0) fSTEP    26 / 62 (thread    0) fSTEP    27 / 62 (thread    0) fSTEP    28 / 62 (thread    0) fSTEP    29 / 62 (thread    0) fSTEP    30 / 62 (thread    0) fSTEP    31 / 62 (thread    0) fSTEP    32 / 62 (thread    0) fSTEP    33 / 62 (thread    0) fSTEP    34 / 62 (thread    0) fSTEP    35 / 62 (thread    0) fSTEP    36 / 62 (thread    0) fSTEP    37 / 62 (thread    0) fSTEP    38 / 62 (thread    0) fSTEP    39 / 62 (thread    0) fSTEP    40 / 62 (thread    0) fSTEP    41 / 62 (thread    0) fSTEP    42 / 62 (thread    0) fSTEP    43 / 62 (thread    0) fSTEP    44 / 62 (thread    0) fSTEP    45 / 62 (thread    0) fSTEP    46 / 62 (thread    0) fSTEP    47 / 62 (thread    0) fSTEP    48 / 62 (thread    0) fSTEP    49 / 62 (thread    0) fSTEP    50 / 62 (thread    0) fSTEP    51 / 62 (thread    0) fSTEP    52 / 62 (thread    0) fSTEP    53 / 62 (thread    0) fSTEP    54 / 62 (thread    0) fSTEP    55 / 62 (thread    0) fSTEP    56 / 62 (thread    0) fSTEP    57 / 62 (thread    0) fSTEP    58 / 62 (thread    0) fSTEP    59 / 62 (thread    0) fSTEP    60 / 62 (thread    0) fSTEP    61 / 62 (thread    0) f
+STEP     1 / 59 (thread    0) fSTEP     2 / 59 (thread    0) fSTEP     3 / 59 (thread    0) fSTEP     4 / 59 (thread    0) fSTEP     5 / 59 (thread    0) fSTEP     6 / 59 (thread    0) fSTEP     7 / 59 (thread    0) fSTEP     8 / 59 (thread    0) fSTEP     9 / 59 (thread    0) fSTEP    10 / 59 (thread    0) fSTEP    11 / 59 (thread    0) fSTEP    12 / 59 (thread    0) fSTEP    13 / 59 (thread    0) fSTEP    14 / 59 (thread    0) fSTEP    15 / 59 (thread    0) fSTEP    16 / 59 (thread    0) fSTEP    17 / 59 (thread    0) fSTEP    18 / 59 (thread    0) fSTEP    19 / 59 (thread    0) fSTEP    20 / 59 (thread    0) fSTEP    21 / 59 (thread    0) fSTEP    22 / 59 (thread    0) fSTEP    23 / 59 (thread    0) fSTEP    24 / 59 (thread    0) fSTEP    25 / 59 (thread    0) fSTEP    26 / 59 (thread    0) fSTEP    27 / 59 (thread    0) fSTEP    28 / 59 (thread    0) fSTEP    29 / 59 (thread    0) fSTEP    30 / 59 (thread    0) fSTEP    31 / 59 (thread    0) fSTEP    32 / 59 (thread    0) fSTEP    33 / 59 (thread    0) fSTEP    34 / 59 (thread    0) fSTEP    35 / 59 (thread    0) fSTEP    36 / 59 (thread    0) fSTEP    37 / 59 (thread    0) fSTEP    38 / 59 (thread    0) fSTEP    39 / 59 (thread    0) fSTEP    40 / 59 (thread    0) fSTEP    41 / 59 (thread    0) fSTEP    42 / 59 (thread    0) fSTEP    43 / 59 (thread    0) fSTEP    44 / 59 (thread    0) fSTEP    45 / 59 (thread    0) fSTEP    46 / 59 (thread    0) fSTEP    47 / 59 (thread    0) fSTEP    48 / 59 (thread    0) fSTEP    49 / 59 (thread    0) fSTEP    50 / 59 (thread    0) fSTEP    51 / 59 (thread    0) fSTEP    52 / 59 (thread    0) fSTEP    53 / 59 (thread    0) fSTEP    54 / 59 (thread    0) fSTEP    55 / 59 (thread    0) fSTEP    56 / 59 (thread    0) fSTEP    57 / 59 (thread    0) fSTEP    58 / 59 (thread    0) f
 Reallocating..done. *alloclen = 5147
-STEP    62 / 62 (thread    0) f
+STEP    59 / 59 (thread    0) f
 done.
 
 Making a distance matrix from msa.. 
-    0 / 63 (thread    0)
+    0 / 60 (thread    0)
 done.
 
 Constructing a UPGMA tree (efffree=1) ... 
-    0 / 63   10 / 63   20 / 63   30 / 63   40 / 63   50 / 63   60 / 63
+    0 / 60   10 / 60   20 / 60   30 / 60   40 / 60   50 / 60
 done.
 
 Progressive alignment 2/2... 
-STEP     1 / 62 (thread    0) fSTEP     2 / 62 (thread    0) fSTEP     3 / 62 (thread    0) fSTEP     4 / 62 (thread    0) fSTEP     5 / 62 (thread    0) fSTEP     6 / 62 (thread    0) fSTEP     7 / 62 (thread    0) fSTEP     8 / 62 (thread    0) fSTEP     9 / 62 (thread    0) fSTEP    10 / 62 (thread    0) fSTEP    11 / 62 (thread    0) fSTEP    12 / 62 (thread    0) fSTEP    13 / 62 (thread    0) fSTEP    14 / 62 (thread    0) fSTEP    15 / 62 (thread    0) fSTEP    16 / 62 (thread    0) fSTEP    17 / 62 (thread    0) fSTEP    18 / 62 (thread    0) fSTEP    19 / 62 (thread    0) fSTEP    20 / 62 (thread    0) fSTEP    21 / 62 (thread    0) fSTEP    22 / 62 (thread    0) fSTEP    23 / 62 (thread    0) fSTEP    24 / 62 (thread    0) fSTEP    25 / 62 (thread    0) fSTEP    26 / 62 (thread    0) fSTEP    27 / 62 (thread    0) fSTEP    28 / 62 (thread    0) fSTEP    29 / 62 (thread    0) fSTEP    30 / 62 (thread    0) fSTEP    31 / 62 (thread    0) fSTEP    32 / 62 (thread    0) fSTEP    33 / 62 (thread    0) fSTEP    34 / 62 (thread    0) fSTEP    35 / 62 (thread    0) fSTEP    36 / 62 (thread    0) fSTEP    37 / 62 (thread    0) fSTEP    38 / 62 (thread    0) fSTEP    39 / 62 (thread    0) fSTEP    40 / 62 (thread    0) fSTEP    41 / 62 (thread    0) fSTEP    42 / 62 (thread    0) fSTEP    43 / 62 (thread    0) fSTEP    44 / 62 (thread    0) fSTEP    45 / 62 (thread    0) fSTEP    46 / 62 (thread    0) fSTEP    47 / 62 (thread    0) fSTEP    48 / 62 (thread    0) fSTEP    49 / 62 (thread    0) fSTEP    50 / 62 (thread    0) fSTEP    51 / 62 (thread    0) fSTEP    52 / 62 (thread    0) fSTEP    53 / 62 (thread    0) fSTEP    54 / 62 (thread    0) fSTEP    55 / 62 (thread    0) fSTEP    56 / 62 (thread    0) fSTEP    57 / 62 (thread    0) fSTEP    58 / 62 (thread    0) fSTEP    59 / 62 (thread    0) fSTEP    60 / 62 (thread    0) fSTEP    61 / 62 (thread    0) f
+STEP     1 / 59 (thread    0) fSTEP     2 / 59 (thread    0) fSTEP     3 / 59 (thread    0) fSTEP     4 / 59 (thread    0) fSTEP     5 / 59 (thread    0) fSTEP     6 / 59 (thread    0) fSTEP     7 / 59 (thread    0) fSTEP     8 / 59 (thread    0) fSTEP     9 / 59 (thread    0) fSTEP    10 / 59 (thread    0) fSTEP    11 / 59 (thread    0) fSTEP    12 / 59 (thread    0) fSTEP    13 / 59 (thread    0) fSTEP    14 / 59 (thread    0) fSTEP    15 / 59 (thread    0) fSTEP    16 / 59 (thread    0) fSTEP    17 / 59 (thread    0) fSTEP    18 / 59 (thread    0) fSTEP    19 / 59 (thread    0) fSTEP    20 / 59 (thread    0) fSTEP    21 / 59 (thread    0) fSTEP    22 / 59 (thread    0) fSTEP    23 / 59 (thread    0) fSTEP    24 / 59 (thread    0) fSTEP    25 / 59 (thread    0) fSTEP    26 / 59 (thread    0) fSTEP    27 / 59 (thread    0) fSTEP    28 / 59 (thread    0) fSTEP    29 / 59 (thread    0) fSTEP    30 / 59 (thread    0) fSTEP    31 / 59 (thread    0) fSTEP    32 / 59 (thread    0) fSTEP    33 / 59 (thread    0) fSTEP    34 / 59 (thread    0) fSTEP    35 / 59 (thread    0) fSTEP    36 / 59 (thread    0) fSTEP    37 / 59 (thread    0) fSTEP    38 / 59 (thread    0) fSTEP    39 / 59 (thread    0) fSTEP    40 / 59 (thread    0) fSTEP    41 / 59 (thread    0) fSTEP    42 / 59 (thread    0) fSTEP    43 / 59 (thread    0) fSTEP    44 / 59 (thread    0) fSTEP    45 / 59 (thread    0) fSTEP    46 / 59 (thread    0) fSTEP    47 / 59 (thread    0) fSTEP    48 / 59 (thread    0) fSTEP    49 / 59 (thread    0) fSTEP    50 / 59 (thread    0) fSTEP    51 / 59 (thread    0) fSTEP    52 / 59 (thread    0) fSTEP    53 / 59 (thread    0) fSTEP    54 / 59 (thread    0) fSTEP    55 / 59 (thread    0) fSTEP    56 / 59 (thread    0) fSTEP    57 / 59 (thread    0) fSTEP    58 / 59 (thread    0) f
 Reallocating..done. *alloclen = 5147
-STEP    62 / 62 (thread    0) f
+STEP    59 / 59 (thread    0) f
 done.
 
 disttbfast (nuc) Version 7.490

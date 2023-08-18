@@ -2,86 +2,83 @@ IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
 Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
 
-Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
-Command: iqtree2 -nt 1 -s results/aligned_fluC_HE_Yamagata-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
-Seed:    955299 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Oct 24 17:39:55 2022
+Host:    macbook-pro-5.fhcrc.org (SSE4.2, 8 GB RAM)
+Command: iqtree2 -nt 1 -s results/aligned_fluC_HEF_Yamagata-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
+Seed:    156562 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 18 10:13:55 2023
 Kernel:  SSE2 - 1 threads (8 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
 HINT: -nt AUTO will automatically determine the best number of threads to use.
 
-Reading alignment file results/aligned_fluC_HE_Yamagata-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.0053339 secs using 69.71% CPU
+Reading alignment file results/aligned_fluC_HEF_Yamagata-delim.fasta ... Fasta format detected
+Reading fasta file: done in 0.00225401 secs using 95.43% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.00184107 secs using 78.7% CPU
-Alignment has 62 sequences with 2073 columns, 209 distinct patterns
-116 parsimony-informative, 66 singleton sites, 1891 constant sites
+Constructing alignment: done in 0.00180221 secs using 79.01% CPU
+Alignment has 59 sequences with 2073 columns, 202 distinct patterns
+113 parsimony-informative, 66 singleton sites, 1893 constant sites
             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 2.19345e-05 secs using 91.18% CPU
-   1  LC603641.1    4.20%    passed     99.44%
-   2  D28968.1      2.94%    passed     99.54%
-   3  AB086656.1    7.09%    passed     99.93%
-   4  D63473.1      7.09%    passed     99.14%
-   5  D63503.1      4.68%    passed     99.03%
-   6  D28967.1      3.57%    passed     99.51%
-   7  AB899775.1    4.20%    passed     98.91%
-   8  AB899776.1    4.20%    passed     98.91%
-   9  D28971.1      2.60%    passed     96.99%
-  10  D30697.1      4.15%    passed     99.22%
-  11  LC122634.1    4.20%    passed     98.55%
-  12  LC122637.1    4.20%    passed     98.62%
-  13  AB219076.1    7.09%    passed     99.93%
-  14  D87392.1      4.15%    passed     97.98%
-  15  D87393.1      4.15%    passed     98.57%
-  16  D87394.1      2.07%    passed     96.67%
+Analyzing sequences: done in 2.00272e-05 secs using 94.87% CPU
+   1  LC603641.1    4.20%    passed     99.56%
+   2  D28968.1      2.94%    passed     99.55%
+   3  AB086656.1    7.09%    passed     99.95%
+   4  D63473.1      7.09%    passed     99.30%
+   5  D63503.1      4.68%    passed     99.25%
+   6  D28967.1      3.57%    passed     99.55%
+   7  AB899775.1    4.20%    passed     98.92%
+   8  AB899776.1    4.20%    passed     98.92%
+   9  D28971.1      2.60%    passed     96.61%
+  10  D30697.1      4.15%    passed     99.33%
+  11  LC122634.1    4.20%    passed     98.40%
+  12  LC122637.1    4.20%    passed     98.71%
+  13  AB219076.1    7.09%    passed     99.89%
+  14  D87392.1      4.15%    passed     97.66%
+  15  D87393.1      4.15%    passed     98.42%
+  16  D87394.1      2.07%    passed     96.17%
   17  D49361.1      4.34%    passed     98.76%
-  18  D63472.1      2.22%    passed     94.06%
-  19  LC385859.1    4.20%    passed     99.83%
-  20  LC122641.1    7.09%    passed     99.87%
-  21  AB252154.1    7.09%    passed     99.92%
-  22  AB099410.1    7.09%    passed     99.50%
-  23  AB099412.1    7.09%    passed     99.50%
-  24  AB099415.1    7.09%    passed     99.50%
-  25  AB099423.1    7.09%    passed     99.50%
-  26  AB099411.1    7.09%    passed     99.80%
-  27  AB099414.1    7.09%    passed     99.80%
-  28  AB099417.1    7.09%    passed     99.94%
-  29  AB099428.1    7.09%    passed     99.66%
-  30  AB099420.1    7.09%    passed     99.92%
-  31  AB219077.1    7.09%    passed     99.92%
-  32  AB219078.1    7.09%    passed     99.92%
-  33  AB086666.1    7.09%    passed     99.94%
-  34  AB086662.1    7.09%    passed     99.76%
-  35  AB064398.1    7.09%    passed     99.66%
-  36  AB086663.1    7.09%    passed     99.33%
-  37  AB064399.1    7.09%    passed     99.33%
-  38  AB064397.1    7.09%    passed     99.84%
-  39  AB064400.1    7.09%    passed     99.80%
-  40  AB086667.1    7.09%    passed     98.74%
-  41  AB064401.1    7.09%    passed     98.74%
-  42  AB064402.1    7.09%    passed     98.74%
-  43  AB064403.1    7.09%    passed     99.94%
-  44  AB252164.1    7.09%    passed     99.99%
-  45  AB086665.1    7.09%    passed     99.46%
-  46  AB099418.1    7.09%    passed     99.86%
+  18  D63472.1      2.22%    passed     93.57%
+  19  LC385859.1    4.20%    passed     99.89%
+  20  LC122641.1    7.09%    passed     99.89%
+  21  AB252154.1    7.09%    passed     99.95%
+  22  AB099410.1    7.09%    passed     99.55%
+  23  AB099412.1    7.09%    passed     99.55%
+  24  AB099415.1    7.09%    passed     99.55%
+  25  AB099423.1    7.09%    passed     99.55%
+  26  AB099411.1    7.09%    passed     99.82%
+  27  AB099414.1    7.09%    passed     99.82%
+  28  AB099417.1    7.09%    passed     99.95%
+  29  AB099428.1    7.09%    passed     99.69%
+  30  AB099420.1    7.09%    passed     99.95%
+  31  AB219077.1    7.09%    passed     99.95%
+  32  AB219078.1    7.09%    passed     99.95%
+  33  AB086666.1    7.09%    passed     99.95%
+  34  AB086662.1    7.09%    passed     99.81%
+  35  AB064398.1    7.09%    passed     99.74%
+  36  AB086663.1    7.09%    passed     99.45%
+  37  AB064399.1    7.09%    passed     99.45%
+  38  AB064397.1    7.09%    passed     99.90%
+  39  AB064400.1    7.09%    passed     99.86%
+  40  AB086667.1    7.09%    passed     98.96%
+  41  AB064401.1    7.09%    passed     98.96%
+  42  AB064402.1    7.09%    passed     98.96%
+  43  AB064403.1    7.09%    passed     99.95%
+  44  AB252164.1    7.09%    passed    100.00%
+  45  AB086665.1    7.09%    passed     99.54%
+  46  AB099418.1    7.09%    passed     99.88%
   47  AB086668.1    7.09%    passed     99.85%
   48  AB086669.1    7.09%    passed     99.85%
-  49  AB099424.1    7.09%    passed     99.95%
-  50  AB099425.1    7.09%    passed     99.95%
-  51  AB099427.1    7.09%    passed     99.93%
-  52  EU086908.1   16.59%    passed     84.80%
-  53  EU086909.1   16.59%    passed     84.80%
-  54  D63468.1      3.76%    passed     98.14%
-  55  AB035362.1    5.35%    passed     99.76%
-  56  LC122633.1    4.20%    passed     99.18%
-  57  M11642.1      2.80%    passed     96.57%
-  58  M11643.1      2.80%    passed     95.92%
-  59  M11644.1      2.80%    passed     96.49%
-  60  M11645.1      2.80%    passed     93.97%
-  61  K01689.1      0.14%    passed     97.59%
-  62  M11639.1      2.85%    passed     88.99%
-****  TOTAL         5.95%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+  49  AB099424.1    7.09%    passed     99.97%
+  50  AB099425.1    7.09%    passed     99.97%
+  51  AB099427.1    7.09%    passed     99.96%
+  52  EU086908.1   16.59%    passed     85.27%
+  53  EU086909.1   16.59%    passed     85.27%
+  54  D63468.1      3.76%    passed     97.83%
+  55  AB035362.1    5.35%    passed     99.75%
+  56  LC122633.1    4.20%    passed     99.06%
+  57  K01689.1      0.14%    passed     96.69%
+  58  M11642.1      2.80%    passed     96.01%
+  59  M11639.1      2.85%    passed     87.96%
+****  TOTAL         6.11%  0 sequences failed composition chi2 test (p-value<5%; df=3)
 NOTE: AB899776.1 is identical to AB899775.1 but kept for subsequent analysis
 NOTE: AB099412.1 is identical to AB099410.1 but kept for subsequent analysis
 NOTE: AB099414.1 is identical to AB099411.1 but kept for subsequent analysis
@@ -91,44 +88,45 @@ NOTE: AB064401.1 is identical to AB086667.1 but kept for subsequent analysis
 NOTE: AB086669.1 is identical to AB086668.1 but kept for subsequent analysis
 NOTE: AB099425.1 is identical to AB099424.1 but kept for subsequent analysis
 NOTE: EU086909.1 is identical to EU086908.1 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.000181913 secs using 75.86% CPU
-Identifying sites to remove: done in 0.00137281 secs using 98.48% CPU
+Checking for duplicate sequences: done in 0.000178814 secs using 73.82% CPU
+Identifying sites to remove: done in 0.00140786 secs using 98.09% CPU
 NOTE: 3 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: AB099415.1 (identical to AB099410.1) is ignored but added at the end
 NOTE: AB099423.1 (identical to AB099410.1) is ignored but added at the end
 NOTE: AB064402.1 (identical to AB086667.1) is ignored but added at the end
-Alignment was printed to results/aligned_fluC_HE_Yamagata-delim.fasta.uniqueseq.phy
+Alignment was printed to results/aligned_fluC_HEF_Yamagata-delim.fasta.uniqueseq.phy
 
-For your convenience alignment with unique sequences printed to results/aligned_fluC_HE_Yamagata-delim.fasta.uniqueseq.phy
+For your convenience alignment with unique sequences printed to results/aligned_fluC_HEF_Yamagata-delim.fasta.uniqueseq.phy
 
 Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
 
 NOTE: 0 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -8248.187
-2. Current log-likelihood: -7636.311
-Optimal log-likelihood: -7636.303
-Rate parameters:  A-C: 1.71317  A-G: 5.92999  A-T: 0.36659  C-G: 0.24478  C-T: 10.78059  G-T: 1.00000
-Base frequencies:  A: 0.333  C: 0.184  G: 0.216  T: 0.266
-Parameters optimization took 2 rounds (0.078 sec)
+1. Initial log-likelihood: -7845.494
+2. Current log-likelihood: -7253.505
+3. Current log-likelihood: -7229.511
+Optimal log-likelihood: -7229.511
+Rate parameters:  A-C: 2.26348  A-G: 7.73530  A-T: 0.48014  C-G: 0.13660  C-T: 13.08390  G-T: 1.00000
+Base frequencies:  A: 0.333  C: 0.184  G: 0.217  T: 0.266
+Parameters optimization took 3 rounds (0.050 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.00434208 secs using 99.56% CPU
-Computing ML distances took 0.004453 sec (of wall-clock time) 0.004397 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.000159025 secs using 168.5% CPU
-Constructing RapidNJ tree: done in 0.000469923 secs using 170.5% CPU
-Computing RapidNJ tree took 0.000770 sec (of wall-clock time) 0.001256 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -4512.229
+Calculating distance matrix: done in 0.00399303 secs using 99.47% CPU
+Computing ML distances took 0.004076 sec (of wall-clock time) 0.004034 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000176907 secs using 160.5% CPU
+Constructing RapidNJ tree: done in 0.000451088 secs using 162.3% CPU
+Computing RapidNJ tree took 0.000749 sec (of wall-clock time) 0.001154 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4439.247
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.0114541 secs using 186% CPU
-BETTER TREE FOUND at iteration 1: -4512.221
-Optimizing NNI: done in 0.20835 secs using 164.6% CPU
+Optimizing NNI: done in 0.00851989 secs using 176.2% CPU
+BETTER TREE FOUND at iteration 1: -4439.241
+Optimizing NNI: done in 0.140014 secs using 175.7% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -4512.221 / CPU time: 0.223
+Current best tree score: -4439.241 / CPU time: 0.151
 Number of iterations: 2
 TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
 
@@ -137,25 +135,25 @@ TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -4512.221
-2. Current log-likelihood: -4505.608
-Optimal log-likelihood: -4505.607
-Rate parameters:  A-C: 1.47173  A-G: 7.36623  A-T: 1.01406  C-G: 0.60408  C-T: 11.40895  G-T: 1.00000
-Base frequencies:  A: 0.333  C: 0.184  G: 0.216  T: 0.266
-Parameters optimization took 2 rounds (0.013 sec)
-BEST SCORE FOUND : -4505.607
-Total tree length: 0.113
+1. Initial log-likelihood: -4439.241
+2. Current log-likelihood: -4432.974
+Optimal log-likelihood: -4432.972
+Rate parameters:  A-C: 2.49495  A-G: 8.88783  A-T: 1.27965  C-G: 0.57184  C-T: 13.51180  G-T: 1.00000
+Base frequencies:  A: 0.333  C: 0.184  G: 0.217  T: 0.266
+Parameters optimization took 2 rounds (0.011 sec)
+BEST SCORE FOUND : -4432.972
+Total tree length: 0.109
 
 Total number of iterations: 2
-CPU time used for tree search: 0.369 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.223 sec (0h:0m:0s)
-Total CPU time used: 0.477 sec (0h:0m:0s)
-Total wall-clock time used: 0.333 sec (0h:0m:0s)
+CPU time used for tree search: 0.266 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.151 sec (0h:0m:0s)
+Total CPU time used: 0.357 sec (0h:0m:0s)
+Total wall-clock time used: 0.236 sec (0h:0m:0s)
 
 Analysis results written to: 
-  IQ-TREE report:                results/aligned_fluC_HE_Yamagata-delim.fasta.iqtree
-  Maximum-likelihood tree:       results/aligned_fluC_HE_Yamagata-delim.fasta.treefile
-  Likelihood distances:          results/aligned_fluC_HE_Yamagata-delim.fasta.mldist
-  Screen log file:               results/aligned_fluC_HE_Yamagata-delim.fasta.log
+  IQ-TREE report:                results/aligned_fluC_HEF_Yamagata-delim.fasta.iqtree
+  Maximum-likelihood tree:       results/aligned_fluC_HEF_Yamagata-delim.fasta.treefile
+  Likelihood distances:          results/aligned_fluC_HEF_Yamagata-delim.fasta.mldist
+  Screen log file:               results/aligned_fluC_HEF_Yamagata-delim.fasta.log
 
-Date and Time: Mon Oct 24 17:39:56 2022
+Date and Time: Fri Aug 18 10:13:55 2023

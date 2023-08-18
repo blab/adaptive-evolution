@@ -2,23 +2,23 @@ IQ-TREE multicore version 2.2.0-beta COVID-edition for Mac OS X 64-bit built Mar
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
 Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
 
-Host:    MacBook-Pro-2.local (SSE4.2, 8 GB RAM)
+Host:    macbook-pro-5.fhcrc.org (SSE4.2, 8 GB RAM)
 Command: iqtree2 -nt 1 -s results/aligned_fluC_PB2_Mississippi-delim.fasta -m GTR -ninit 2 -n 2 -me 0.05
-Seed:    519026 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Mon Oct 24 17:43:25 2022
+Seed:    457415 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Aug 18 10:18:03 2023
 Kernel:  SSE2 - 1 threads (8 CPU cores detected)
 
 HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
 HINT: -nt AUTO will automatically determine the best number of threads to use.
 
 Reading alignment file results/aligned_fluC_PB2_Mississippi-delim.fasta ... Fasta format detected
-Reading fasta file: done in 0.00221705 secs using 89.49% CPU
+Reading fasta file: done in 0.00300598 secs using 74.72% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.00186515 secs using 77.96% CPU
+Constructing alignment: done in 0.00181603 secs using 79.13% CPU
 Alignment has 42 sequences with 2365 columns, 200 distinct patterns
 149 parsimony-informative, 85 singleton sites, 2131 constant sites
             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 2.00272e-05 secs using 74.9% CPU
+Analyzing sequences: done in 1.69277e-05 secs using 88.61% CPU
    1  AB126191.2    0.00%    passed     98.24%
    2  FR671420.1    0.00%    passed     95.86%
    3  M28061.1      0.00%    passed     95.44%
@@ -64,46 +64,45 @@ Analyzing sequences: done in 2.00272e-05 secs using 74.9% CPU
 ****  TOTAL         1.82%  0 sequences failed composition chi2 test (p-value<5%; df=3)
 NOTE: LC123359.1 is identical to LC123356.1 but kept for subsequent analysis
 NOTE: LC123353.1 is identical to LC123352.1 but kept for subsequent analysis
-Checking for duplicate sequences: done in 9.799e-05 secs using 71.44% CPU
-Identifying sites to remove: done in 0.001472 secs using 98.51% CPU
+Checking for duplicate sequences: done in 8.60691e-05 secs using 76.68% CPU
+Identifying sites to remove: done in 0.00336289 secs using 67.26% CPU
 NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
 NOTE: LC123355.1 (identical to LC123352.1) is ignored but added at the end
 Alignment was printed to results/aligned_fluC_PB2_Mississippi-delim.fasta.uniqueseq.phy
 
 For your convenience alignment with unique sequences printed to results/aligned_fluC_PB2_Mississippi-delim.fasta.uniqueseq.phy
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.001 seconds
 
 NOTE: 0 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.500)
-1. Initial log-likelihood: -9743.959
-2. Current log-likelihood: -9031.586
-3. Current log-likelihood: -9029.063
-4. Current log-likelihood: -9022.477
-5. Current log-likelihood: -9013.804
-6. Current log-likelihood: -9012.557
-Optimal log-likelihood: -9012.336
-Rate parameters:  A-C: 2.92050  A-G: 24.34277  A-T: 2.27659  C-G: 0.00010  C-T: 32.24212  G-T: 1.00000
+1. Initial log-likelihood: -9207.038
+2. Current log-likelihood: -8612.568
+3. Current log-likelihood: -8565.469
+4. Current log-likelihood: -8560.770
+5. Current log-likelihood: -8558.934
+Optimal log-likelihood: -8558.548
+Rate parameters:  A-C: 6.08665  A-G: 46.39846  A-T: 4.22143  C-G: 0.00010  C-T: 61.67582  G-T: 1.00000
 Base frequencies:  A: 0.376  C: 0.150  G: 0.214  T: 0.260
-Parameters optimization took 6 rounds (0.111 sec)
+Parameters optimization took 5 rounds (0.066 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.00208187 secs using 99.19% CPU
-Computing ML distances took 0.002165 sec (of wall-clock time) 0.002124 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.000118971 secs using 161.4% CPU
-Constructing RapidNJ tree: done in 0.000264883 secs using 164.2% CPU
-Computing RapidNJ tree took 0.000553 sec (of wall-clock time) 0.000748 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -5262.784
+Calculating distance matrix: done in 0.00208211 secs using 99.08% CPU
+Computing ML distances took 0.002156 sec (of wall-clock time) 0.002119 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00012207 secs using 156.5% CPU
+Constructing RapidNJ tree: done in 0.000263929 secs using 139.4% CPU
+Computing RapidNJ tree took 0.000502 sec (of wall-clock time) 0.000670 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -5269.050
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
 
 Do NNI search on 2 best initial trees
-Optimizing NNI: done in 0.0035789 secs using 99.7% CPU
-BETTER TREE FOUND at iteration 1: -5262.784
-Optimizing NNI: done in 0.0891018 secs using 65.71% CPU
+Optimizing NNI: done in 0.00357819 secs using 99.63% CPU
+BETTER TREE FOUND at iteration 1: -5269.050
+Optimizing NNI: done in 0.089705 secs using 97.02% CPU
 Finish initializing candidate tree set (4)
-Current best tree score: -5262.784 / CPU time: 0.095
+Current best tree score: -5269.050 / CPU time: 0.097
 Number of iterations: 2
 TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
 
@@ -112,30 +111,30 @@ TREE SEARCH COMPLETED AFTER 2 ITERATIONS / Time: 0h:0m:0s
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.050)
-1. Initial log-likelihood: -5262.784
-2. Current log-likelihood: -5260.775
-3. Current log-likelihood: -5260.082
-4. Current log-likelihood: -5259.537
-5. Current log-likelihood: -5258.864
-6. Current log-likelihood: -5258.379
-7. Current log-likelihood: -5258.148
-8. Current log-likelihood: -5258.010
-9. Current log-likelihood: -5257.747
-10. Current log-likelihood: -5257.326
-11. Current log-likelihood: -5257.266
-12. Current log-likelihood: -5257.212
-Optimal log-likelihood: -5257.192
-Rate parameters:  A-C: 1.73217  A-G: 13.44156  A-T: 0.78971  C-G: 0.00010  C-T: 19.38230  G-T: 1.00000
+1. Initial log-likelihood: -5269.050
+2. Current log-likelihood: -5262.180
+3. Current log-likelihood: -5257.890
+4. Current log-likelihood: -5257.521
+5. Current log-likelihood: -5257.200
+6. Current log-likelihood: -5257.113
+7. Current log-likelihood: -5257.049
+8. Current log-likelihood: -5256.936
+9. Current log-likelihood: -5256.832
+10. Current log-likelihood: -5256.742
+11. Current log-likelihood: -5256.685
+12. Current log-likelihood: -5256.510
+Optimal log-likelihood: -5256.469
+Rate parameters:  A-C: 1.51055  A-G: 11.74075  A-T: 0.68403  C-G: 0.00010  C-T: 16.86014  G-T: 1.00000
 Base frequencies:  A: 0.376  C: 0.150  G: 0.214  T: 0.260
-Parameters optimization took 12 rounds (0.152 sec)
-BEST SCORE FOUND : -5257.192
+Parameters optimization took 12 rounds (0.125 sec)
+BEST SCORE FOUND : -5256.469
 Total tree length: 0.127
 
 Total number of iterations: 2
-CPU time used for tree search: 0.064 sec (0h:0m:0s)
-Wall-clock time used for tree search: 0.095 sec (0h:0m:0s)
-Total CPU time used: 0.257 sec (0h:0m:0s)
-Total wall-clock time used: 0.385 sec (0h:0m:0s)
+CPU time used for tree search: 0.094 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.097 sec (0h:0m:0s)
+Total CPU time used: 0.304 sec (0h:0m:0s)
+Total wall-clock time used: 0.318 sec (0h:0m:0s)
 
 Analysis results written to: 
   IQ-TREE report:                results/aligned_fluC_PB2_Mississippi-delim.fasta.iqtree
@@ -143,4 +142,4 @@ Analysis results written to:
   Likelihood distances:          results/aligned_fluC_PB2_Mississippi-delim.fasta.mldist
   Screen log file:               results/aligned_fluC_PB2_Mississippi-delim.fasta.log
 
-Date and Time: Mon Oct 24 17:43:25 2022
+Date and Time: Fri Aug 18 10:18:03 2023
