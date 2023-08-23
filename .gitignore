@@ -4,6 +4,10 @@ wip/*
 # Sensitive environment variables
 environment*
 
+# other sensitive data
+sars2/results/*
+sars2_21L/results/*
+
 # Snakemake state dir
 .snakemake
 snakemake_log
