@@ -10,6 +10,10 @@ sars2/results/*
 sars2_21L/results/
 sars2_21L/results/*
 
+# files that are too big
+adaptive-evolution-analysis/review_analyses/pairwise_distances_Fst/
+adaptive-evolution-analysis/review_analyses/pairwise_distances_Fst/*
+
 # Snakemake state dir
 .snakemake
 snakemake_log
